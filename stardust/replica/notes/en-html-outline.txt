@@ -1,0 +1,2406 @@
+===== #header
+header#header
+  div.container-fluid.amag-header.fixed-top.p-0.d-flex
+    div.amag-header__beforeWrapper.d-none.d-lg-block.flex-grow-1.flex-shrink-1 [hidden]
+      div.amag-header__beforeDivViolet
+      div.amag-header__beforeDivWhite.amag-header__beforeDivWhite--transparent
+    div.amag-pop-up__wrapper-before.amag-pop-up__unseen {style=background-color: #E8EAF3; color: #000000}
+    div.m-0
+      div.amag-pop-up.amag-pop-up__wrapper--mobile.d-none {style=background-color: #E8EAF3; color: #000000} [hidden]
+        div.amag-pop-up__content-box
+          div
+            span.amag-pop-up__notification "🥳 AMAG Emotion Days 🥳"
+            span.amag-pop-up__message "September 18 & 19: New models, special offers & prize draw"
+          a.amag-pop-up__linkLabel {href=/de/events/emotiondays.html} "Discover more"
+        div.amag-pop-up__icon
+          svg.amag-pop-up__icon-svg.size-m {svg:0 0 24 24 972ch}
+            path
+      a.amag-header__logoWrapper.d-flex.align-items-center.justify-content-center {href=/en.html}
+        svg.amag-header__logoImage {svg:0 0 67 24 10061ch}
+          path
+          path
+          path
+          path
+      div.h-100.col.p-0
+        div.amag-header__benefitWrapper.d-none.align-items-center.justify-content-center [hidden]
+          div.amag-benefitWrapper.d-inline-flex
+            a.amag-benefitWrapper__link.text-decoration-none.d-inline-flex.h-100.align-items-center.justify-content-center {href=/en/find-vehicle/cars-amag/e-mobility.html} "Electromobility switch now"
+              img {src=same-dateien/icons/weiss/shopping-cart-empty-1.svg | alt=Electromobility | srcset=0}
+              p.p-0.m-0.d-inline-block.amag-benefitWrapper__description "Electromobility switch now"
+                span.text-uppercase.amag-benefitWrapper__headline "Electromobility"
+          div.amag-benefitWrapper.d-inline-flex
+            a.amag-benefitWrapper__link.text-decoration-none.d-inline-flex.h-100.align-items-center.justify-content-center {href=https://www.amag-group.ch/de/energy-und-mobility/loesungen.h} "AMAG Group Mobility, Sustainability & Future"
+              img {src=ch/gemeinsame-dateien/icons/weiss/check-circle.svg | alt=AMAG Group | srcset=0}
+              p.p-0.m-0.d-inline-block.amag-benefitWrapper__description "AMAG Group Mobility, Sustainability & Future"
+                span.text-uppercase.amag-benefitWrapper__headline "AMAG Group"
+          div.amag-benefitWrapper.d-inline-flex
+            a.amag-benefitWrapper__link.text-decoration-none.d-inline-flex.h-100.align-items-center.justify-content-center {href=/en/komponenten/car-dealers.html} "No. 1 Car Dealer in Switzerland with 90 locations"
+              img {src=/amag-ch/gemeinsame-dateien/icons/weiss/shop-1.svg | alt=SITES throughout Switzerland | srcset=0}
+              p.p-0.m-0.d-inline-block.amag-benefitWrapper__description "No. 1 Car Dealer in Switzerland with 90 locations"
+                span.text-uppercase.amag-benefitWrapper__headline "No. 1 Car Dealer in Switzerland"
+        nav.navbar.amag-header__navbar.p-0.amag-header__navbar--transparent
+          ul.navbar-nav.mr-auto.d-sm-none.d-lg-flex.flex-row.amag-header__list
+            li.nav-item.amag-header__listItem "Find a vehicle"
+              a.nav-link.nav-link--hasOverlay {href=/en/find-vehicle.html} "Find a vehicle"
+            li.nav-item.amag-header__listItem "Services"
+              a.nav-link.nav-link--hasOverlay {href=/en/services.html} "Services"
+            li.nav-item.amag-header__listItem "Find garage"
+              a.nav-link.nav-link--directLink {href=/en/komponenten/car-dealers.html} "Find garage"
+            li.nav-item.amag-header__listItem "Jobs"
+              a.nav-link.nav-link--directLink {href=/en/jobs-amag.html} "Jobs"
+          div.amag-header__navbarRight.d-flex.h-100.justify-content-center.align-items-center
+            a.text-decoration-none.d-inline-block {href=/en/search.html}
+              svg {svg:0 0 24 24 605ch}
+                path
+            div.amag-header__loginFlyout.js-amag-header__loginFlyout.d-lg-flex.align-items-center
+              a.amag-header__login.btn.d-lg-inline-block.text-decoration-none {href=/en/user/login.html}
+                svg.loginIcon__loggedOut {svg:0 0 24 24 1089ch}
+                  path
+                  path
+                svg.loginIcon__loggedin--transparent {svg:0 0 32 31 1898ch}
+                  path
+                  path
+                  path.limeCircle
+                  path
+                svg.loginIcon__loggedin {svg:0 0 32 31 1901ch}
+                  path
+                  path
+                  path.limeCircle
+                  path#whiteCheckMark
+              div.cdc-notification-flyout.js-cdc-notification-container-flyout {style=display: none;}
+              div.dropdown-menu.dropdown-menu-right.dropdown-success.border-0.rounded-0
+                svg {svg:0 0 24 24 754ch}
+                  path
+                p "-- was saved as your garage."
+                  span.amag-header__garageName "--"
+            a.text-decoration-none.d-inline-block {href=https://auto.amag.ch/de/watchlist}
+              svg {svg:0 0 32 32 1272ch}
+                path
+            a.amag-header__hamburger.d-lg-none.text-decoration-none.d-inline-block
+              svg {svg:0 0 36 36 762ch}
+                path
+                path
+                path
+            div.amag-header__garageFlyout.noFavorite.dropdown.d-sm-none.d-lg-flex.align-items-center
+              a.amag-header__garage.btn.d-none.d-lg-inline-block.text-decoration-none "My garage --" [hidden]
+                svg.amag-header__garageIcon {svg:0 0 24 24 1649ch}
+                  path
+                  path
+                p.amag-header__default.p-0.m-0.d-inline-block "My garage"
+                p.amag-header__garageName.p-0.m-0.d-none "--" [hidden]
+              div.dropdown-menu.dropdown-menu-right.dropdown-noFav.border-0.rounded-0
+                p "Select your garage and we will save it as your first point of contact."
+                a.amag-ctaWrapper__button.d-flex.justify-content-center.align-items-center.text-decoration-none.amag-ctaWrapper__button--bgColor-amagViolet {href=/en/komponenten/car-dealers.html} "Find my garage"
+                  svg {svg:0 0 30 32 2029ch}
+                    path
+                    path
+              div.dropdown-menu.dropdown-menu-right.dropdown-success.border-0.rounded-0
+                svg {svg:0 0 24 24 754ch}
+                  path
+                p "-- was saved as your garage."
+                  span.amag-header__garageName "--"
+                div.amag-cdc
+            div.amag-languageWrapper__language.dropdown.d-sm-none.d-lg-inline-block
+              a.selected.btn.text-uppercase "en"
+                svg {svg:0 0 16 16 656ch}
+                  path
+              div.dropdown-menu.amag-languageWrapper__menu
+                a.amag-language.amag-cookie.dropdown-item.item.text-uppercase {href=/de.html} "de"
+                a.amag-language.amag-cookie.dropdown-item.item.text-uppercase {href=/fr.html} "fr"
+                a.amag-language.amag-cookie.dropdown-item.item.text-uppercase {href=/it.html} "it"
+    div.navbar-overlay
+      div.amagNavigation-wrapper.amagNavigation-wrapper--mobile
+        div.amagNavigation
+          ul.fist-lvl.list-unstyled.m-0.amagNavigation__list
+            li.amagMenuNavigation "Choose menu"
+              label.amagMenuNavigation__text "Choose menu"
+            li.amagNavigation__list__item.amagNavigationItem "Find a vehicle Back Find a vehicle Car online marketplace Cars at AMAG"
+              input#id-auto-finden.amagNavigationItem__submenuToggle {type=checkbox | ph=}
+              label.amagNavigationItem__label.navigation-item.d-lg-none "Find a vehicle"
+                div.navigation-item__img
+                  svg {svg:0 0 32 32 1815ch}
+                    path
+                    path
+                div.navigation-item__txt
+                  svg.navigation-item__arrow {svg:0 0 14 24 748ch}
+                    path
+              ul.amagNavigationItem__subMenu.second-level.list-unstyled.m-0
+                li.amagNavigation__list__item.amagMenuNavigation "Back"
+                  label.amagNavigationItem__label.amagMenuNavigation__back "Back"
+                    svg.navigation-item__arrow {svg:0 0 24 24 703ch}
+                      path
+                li.amagNavigation__list__item "Find a vehicle"
+                  a.navigation-item {href=/en/find-vehicle.html} "Find a vehicle"
+                    div.navigation-item__img
+                      svg {svg:0 0 32 32 1809ch}
+                        path
+                        path
+                    div.navigation-item__txt
+                      strong "Find a vehicle"
+                li.amagNavigation__list__item "Car online marketplace"
+                  a.navigation-item {href=/en/find-vehicle.html} "Car online marketplace"
+                    div.navigation-item__img
+                    div.navigation-item__txt "Car online marketplace"
+                li.amagNavigation__list__item "Cars at AMAG dealerships Back Cars at AMAG dealerships Cars at AMAG de"
+                  input#id-autos-bei-amag-haendler.amagNavigationItem__submenuToggle {type=checkbox | ph=}
+                  label.amagNavigationItem__label.navigation-item.d-lg-none "Cars at AMAG dealerships"
+                    div.navigation-item__img
+                    div.navigation-item__txt
+                      svg.navigation-item__arrow {svg:0 0 24 24 760ch}
+                        path
+                  ul.amagNavigationItem__subMenu
+                    li.amagNavigation__list__item.amagMenuNavigation "Back"
+                      label.amagNavigationItem__label.amagMenuNavigation__back "Back"
+                        svg.navigation-item__arrow {svg:0 0 24 24 679ch}
+                          path
+                    li.amagNavigation__list__item "Cars at AMAG dealerships"
+                      a.navigation-item {href=/en/find-vehicle/cars-amag.html} "Cars at AMAG dealerships"
+                        div.navigation-item__img
+                          svg {svg:0 0 32 32 1773ch}
+                            path
+                            path
+                        div.navigation-item__txt
+                          strong "Cars at AMAG dealerships"
+                    li.amagNavigation__list__item "Cars at AMAG dealerships"
+                      a.navigation-item {href=/en/find-vehicle/cars-amag.html} "Cars at AMAG dealerships"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Cars at AMAG dealerships"
+                    li.amagNavigation__list__item "Our vehicle ranges"
+                      a.navigation-item {href=/en/find-vehicle/cars-amag/vehicle-range.html} "Our vehicle ranges"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Our vehicle ranges"
+                    li.amagNavigation__list__item "Warehouse vehicles"
+                      a.navigation-item {href=/en/find-vehicle/cars-amag/warehouse-vehicles.html} "Warehouse vehicles"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Warehouse vehicles"
+                    li.amagNavigation__list__item "Demonstration vehicles"
+                      a.navigation-item {href=/en/find-vehicle/cars-amag/demonstration-vehicles.html} "Demonstration vehicles"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Demonstration vehicles"
+                    li.amagNavigation__list__item "Used vehicles Used vehicles Available immediately with a wide choice o"
+                      input#id-occasionen.amagNavigationItem__submenuToggle {type=checkbox | ph=}
+                      label.amagNavigationItem__label.navigation-item.d-lg-none "Used vehicles"
+                        div.navigation-item__img
+                        div.navigation-item__txt
+                          svg.navigation-item__arrow {svg:0 0 24 24 744ch}
+                            path
+                      ul.amagNavigationItem__subMenu
+                        li.amagNavigation__list__item.amagMenuNavigation
+                          label.amagNavigationItem__label.amagMenuNavigation__back
+                            svg.navigation-item__arrow {svg:0 0 24 24 679ch}
+                              path
+                        li.amagNavigation__list__item "Used vehicles"
+                          a.navigation-item {href=/en/find-vehicle/cars-amag/used-vehicles.html} "Used vehicles"
+                            div.navigation-item__img
+                            div.navigation-item__txt
+                              strong "Used vehicles"
+                        li.amagNavigation__list__item "Available immediately with a wide choice of brands and models. Buy you"
+                          a.navigation-item {href=/en/find-vehicle/cars-amag/used-vehicles.html} "Available immediately with a wide choice of brands and models. Buy you"
+                            div.navigation-item__img
+                            div.navigation-item__txt "Available immediately with a wide choice of brands and models. Buy you"
+                        li.amagNavigation__list__item "Leasing PLUS | AMAG Occasionen"
+                          a.navigation-item {href=/en/find-vehicle/cars-amag/used-vehicles/occasionen-leasing.} "Leasing PLUS | AMAG Occasionen"
+                            div.navigation-item__img
+                            div.navigation-item__txt "Leasing PLUS | AMAG Occasionen"
+                        li.amagNavigation__list__item "Electric – Used cars"
+                          a.navigation-item {href=/en/find-vehicle/cars-amag/used-vehicles/elektro-occasionen.} "Electric – Used cars"
+                            div.navigation-item__img
+                            div.navigation-item__txt "Electric – Used cars"
+                    li.amagNavigation__list__item "E-mobility E-mobility E-mobility is the mobility of the future with en"
+                      input#id-e-mobilitaet.amagNavigationItem__submenuToggle {type=checkbox | ph=}
+                      label.amagNavigationItem__label.navigation-item.d-lg-none "E-mobility"
+                        div.navigation-item__img
+                        div.navigation-item__txt
+                          svg.navigation-item__arrow {svg:0 0 24 24 744ch}
+                            path
+                      ul.amagNavigationItem__subMenu
+                        li.amagNavigation__list__item.amagMenuNavigation
+                          label.amagNavigationItem__label.amagMenuNavigation__back
+                            svg.navigation-item__arrow {svg:0 0 24 24 679ch}
+                              path
+                        li.amagNavigation__list__item "E-mobility"
+                          a.navigation-item {href=/en/find-vehicle/cars-amag/e-mobility.html} "E-mobility"
+                            div.navigation-item__img
+                            div.navigation-item__txt
+                              strong "E-mobility"
+                        li.amagNavigation__list__item "E-mobility is the mobility of the future with environmentally friendly"
+                          a.navigation-item {href=/en/find-vehicle/cars-amag/e-mobility.html} "E-mobility is the mobility of the future with environmentally friendly"
+                            div.navigation-item__img
+                            div.navigation-item__txt "E-mobility is the mobility of the future with environmentally friendly"
+                        li.amagNavigation__list__item "ID.Buzz: The “Bulli” now has an electric motor"
+                          a.navigation-item {href=/en/find-vehicle/cars-amag/e-mobility/id-buzz.html} "ID.Buzz: The “Bulli” now has an electric motor"
+                            div.navigation-item__img
+                            div.navigation-item__txt "ID.Buzz: The “Bulli” now has an electric motor"
+                        li.amagNavigation__list__item "What to bear in mind when buying a used electric car"
+                          a.navigation-item {href=/en/find-vehicle/cars-amag/e-mobility/used-electric-cars.htm} "What to bear in mind when buying a used electric car"
+                            div.navigation-item__img
+                            div.navigation-item__txt "What to bear in mind when buying a used electric car"
+                        li.amagNavigation__list__item "AMAG's fast-charging network is growing: high-performance charging sta"
+                          a.navigation-item {href=/en/find-vehicle/cars-amag/e-mobility/fast-charging-network.} "AMAG's fast-charging network is growing: high-performance charging sta"
+                            div.navigation-item__img
+                            div.navigation-item__txt "AMAG's fast-charging network is growing: high-performance charging sta"
+                    li.amagNavigation__list__item "Car subscription Car subscription Discover the car subscription servic"
+                      input#id-abo.amagNavigationItem__submenuToggle {type=checkbox | ph=}
+                      label.amagNavigationItem__label.navigation-item.d-lg-none "Car subscription"
+                        div.navigation-item__img
+                        div.navigation-item__txt
+                          svg.navigation-item__arrow {svg:0 0 24 24 744ch}
+                            path
+                      ul.amagNavigationItem__subMenu
+                        li.amagNavigation__list__item.amagMenuNavigation
+                          label.amagNavigationItem__label.amagMenuNavigation__back
+                            svg.navigation-item__arrow {svg:0 0 24 24 679ch}
+                              path
+                        li.amagNavigation__list__item "Car subscription"
+                          a.navigation-item {href=/en/find-vehicle/cars-amag/abo.html} "Car subscription"
+                            div.navigation-item__img
+                            div.navigation-item__txt
+                              strong "Car subscription"
+                        li.amagNavigation__list__item "Discover the car subscription service offered by AMAG. Enjoy the flexi"
+                          a.navigation-item {href=/en/find-vehicle/cars-amag/abo.html} "Discover the car subscription service offered by AMAG. Enjoy the flexi"
+                            div.navigation-item__img
+                            div.navigation-item__txt "Discover the car subscription service offered by AMAG. Enjoy the flexi"
+                        li.amagNavigation__list__item "Questions and answers about AMAG Auto-Abo"
+                          a.navigation-item {href=/en/find-vehicle/cars-amag/abo/faq.html} "Questions and answers about AMAG Auto-Abo"
+                            div.navigation-item__img
+                            div.navigation-item__txt "Questions and answers about AMAG Auto-Abo"
+                    li.amagNavigation__list__item "AMAG Leasing"
+                      a.navigation-item {href=/en/find-vehicle/cars-amag/amag-leasing.html} "AMAG Leasing"
+                        div.navigation-item__img
+                        div.navigation-item__txt "AMAG Leasing"
+                    li.amagNavigation__list__item "Configure new vehicles"
+                      a.navigation-item {href=/en/find-vehicle/cars-amag/configure-vehicles.html} "Configure new vehicles"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Configure new vehicles"
+                    li.amagNavigation__list__item "Fleet"
+                      a.navigation-item {href=/en/find-vehicle/cars-amag/fleet.html} "Fleet"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Fleet"
+                    li.amagNavigation__list__item "Financing solutions"
+                      a.navigation-item {href=/en/find-vehicle/cars-amag/financing.html} "Financing solutions"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Financing solutions"
+                    li.amagNavigation__list__item "AMAG buys your car"
+                      a.navigation-item {href=/en/find-vehicle/cars-amag/buy-your-car.html} "AMAG buys your car"
+                        div.navigation-item__img
+                        div.navigation-item__txt "AMAG buys your car"
+                li.amagNavigation__list__item "Body type Back Body type Body type SUV Estate Limousine Convertible Co"
+                  input#id-karosserieart.amagNavigationItem__submenuToggle {type=checkbox | ph=}
+                  label.amagNavigationItem__label.navigation-item.d-lg-none "Body type"
+                    div.navigation-item__img
+                    div.navigation-item__txt
+                      svg.navigation-item__arrow {svg:0 0 24 24 760ch}
+                        path
+                  ul.amagNavigationItem__subMenu
+                    li.amagNavigation__list__item.amagMenuNavigation "Back"
+                      label.amagNavigationItem__label.amagMenuNavigation__back "Back"
+                        svg.navigation-item__arrow {svg:0 0 24 24 679ch}
+                          path
+                    li.amagNavigation__list__item "Body type"
+                      a.navigation-item {href=/en/find-vehicle/body-type.html} "Body type"
+                        div.navigation-item__img
+                          svg {svg:0 0 32 32 1773ch}
+                            path
+                            path
+                        div.navigation-item__txt
+                          strong "Body type"
+                    li.amagNavigation__list__item "Body type"
+                      a.navigation-item {href=/en/find-vehicle/body-type.html} "Body type"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Body type"
+                    li.amagNavigation__list__item "SUV"
+                      a.navigation-item {href=/en/find-vehicle/body-type/suv.html} "SUV"
+                        div.navigation-item__img
+                        div.navigation-item__txt "SUV"
+                    li.amagNavigation__list__item "Estate"
+                      a.navigation-item {href=/en/find-vehicle/body-type/estate.html} "Estate"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Estate"
+                    li.amagNavigation__list__item "Limousine"
+                      a.navigation-item {href=/en/find-vehicle/body-type/limousine.html} "Limousine"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Limousine"
+                    li.amagNavigation__list__item "Convertible"
+                      a.navigation-item {href=/en/find-vehicle/body-type/convertible.html} "Convertible"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Convertible"
+                    li.amagNavigation__list__item "Coupé"
+                      a.navigation-item {href=/en/find-vehicle/body-type/coupe.html} "Coupé"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Coupé"
+                    li.amagNavigation__list__item "MPV"
+                      a.navigation-item {href=/en/find-vehicle/body-type/mpv.html} "MPV"
+                        div.navigation-item__img
+                        div.navigation-item__txt "MPV"
+                    li.amagNavigation__list__item "Camper"
+                      a.navigation-item {href=/en/find-vehicle/body-type/camper-van.html} "Camper"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Camper"
+                    li.amagNavigation__list__item "Bus"
+                      a.navigation-item {href=/en/find-vehicle/body-type/bus.html} "Bus"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Bus"
+                    li.amagNavigation__list__item "Pickup"
+                      a.navigation-item {href=/en/find-vehicle/body-type/pickup.html} "Pickup"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Pickup"
+                    li.amagNavigation__list__item "Business"
+                      a.navigation-item {href=/en/find-vehicle/body-type/business.html} "Business"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Business"
+                li.amagNavigation__list__item "Mobility partner Back Mobility partner Helion Clyde Ducati Microlino A"
+                  input#id-partner.amagNavigationItem__submenuToggle {type=checkbox | ph=}
+                  label.amagNavigationItem__label.navigation-item.d-lg-none "Mobility partner"
+                    div.navigation-item__img
+                    div.navigation-item__txt
+                      svg.navigation-item__arrow {svg:0 0 24 24 760ch}
+                        path
+                  ul.amagNavigationItem__subMenu
+                    li.amagNavigation__list__item.amagMenuNavigation "Back"
+                      label.amagNavigationItem__label.amagMenuNavigation__back "Back"
+                        svg.navigation-item__arrow {svg:0 0 24 24 679ch}
+                          path
+                    li.amagNavigation__list__item "Mobility partner"
+                      a.navigation-item {href=/en/find-vehicle/partner.html} "Mobility partner"
+                        div.navigation-item__img
+                          svg {svg:0 0 32 32 1773ch}
+                            path
+                            path
+                        div.navigation-item__txt
+                          strong "Mobility partner"
+                    li.amagNavigation__list__item
+                      a.navigation-item {href=/en/find-vehicle/partner.html}
+                        div.navigation-item__img
+                        div.navigation-item__txt
+                    li.amagNavigation__list__item "Helion"
+                      a.navigation-item {href=/en/find-vehicle/partner/helion.html} "Helion"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Helion"
+                    li.amagNavigation__list__item "Clyde"
+                      a.navigation-item {href=/en/find-vehicle/partner/clyde.html} "Clyde"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Clyde"
+                    li.amagNavigation__list__item "Ducati"
+                      a.navigation-item {href=/en/find-vehicle/partner/ducati.html} "Ducati"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Ducati"
+                    li.amagNavigation__list__item "Microlino"
+                      a.navigation-item {href=/en/find-vehicle/partner/microlino.html} "Microlino"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Microlino"
+                    li.amagNavigation__list__item "Allride"
+                      a.navigation-item {href=/en/find-vehicle/partner/allride.html} "Allride"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Allride"
+                li.amagNavigation__list__item "By Brand Back VW Audi SEAT Skoda CUPRA VW Commercial Vehicles Bentley "
+                  input#id-1.amagNavigationItem__submenuToggle {type=checkbox | ph=}
+                  label.amagNavigationItem__label.navigation-item.d-lg-none "By Brand"
+                    div.navigation-item__img
+                    div.navigation-item__txt
+                      svg.navigation-item__arrow {svg:0 0 24 24 768ch}
+                        path
+                  ul.amagNavigationItem__subMenu
+                    li.amagNavigation__list__item.amagMenuNavigation "Back"
+                      label.amagNavigationItem__label.amagMenuNavigation__back "Back"
+                        svg.navigation-item__arrow {svg:0 0 24 24 743ch}
+                          path
+                    li.amagNavigation__list__item "VW Audi SEAT Skoda CUPRA VW Commercial Vehicles Bentley Microlino"
+                      div.navigation-item
+                        div.navigation-item__img
+                        div.navigation-item__txt.navigation-item__txt--markenlogo
+                          div.navigationSections--markenlogo
+                            div.navigationSections__items.navigationSections__items--promotion.navigationSections__items--markenlogo
+                              div.amag-markenLogo.rounded
+                                a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/find-vehicle/brands/vw/vw-models.html}
+                                  img.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=Volkswagen | srcset=0}
+                              span "VW"
+                            div.navigationSections__items.navigationSections__items--promotion.navigationSections__items--markenlogo
+                              div.amag-markenLogo.rounded
+                                a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/find-vehicle/brands/audi/audi-models.}
+                                  img.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=Audi | srcset=0}
+                              span "Audi"
+                            div.navigationSections__items.navigationSections__items--promotion.navigationSections__items--markenlogo
+                              div.amag-markenLogo.rounded
+                                a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/find-vehicle/brands/seat/seat-models.}
+                                  img.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=SEAT | srcset=0}
+                              span "SEAT"
+                            div.navigationSections__items.navigationSections__items--promotion.navigationSections__items--markenlogo
+                              div.amag-markenLogo.rounded
+                                a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/find-vehicle/brands/skoda/skoda-model}
+                                  img.optanon-category-C0004.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=Škoda | srcset=0}
+                              span "Skoda"
+                            div.navigationSections__items.navigationSections__items--promotion.navigationSections__items--markenlogo
+                              div.amag-markenLogo.rounded
+                                a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/find-vehicle/brands/cupra/cupra-model}
+                                  img.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=CUPRA | srcset=0}
+                              span "CUPRA"
+                            div.navigationSections__items.navigationSections__items--promotion.navigationSections__items--markenlogo
+                              div.amag-markenLogo.rounded
+                                a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/find-vehicle/brands/commercial-vehicl}
+                                  img.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=VW Nutzfahrzeuge | srcset=0}
+                              span "VW Commercial Vehicles"
+                            div.navigationSections__items.navigationSections__items--promotion.navigationSections__items--markenlogo
+                              div.amag-markenLogo.rounded
+                                a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/find-vehicle/brands/bentley/bentley-m}
+                                  img.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=Bentley | srcset=0}
+                              span "Bentley"
+                            div.navigationSections__items.navigationSections__items--promotion.navigationSections__items--markenlogo
+                              div.amag-markenLogo.rounded
+                                a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/find-vehicle/cars-amag/microlino.html}
+                                  img.optanon-category-C0004.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=Microlino | srcset=0}
+                              span "Microlino"
+            li.amagNavigation__list__item.amagNavigationItem "Services Back Services Services Tyre service Back Tyre service Overvie"
+              input#id-service.amagNavigationItem__submenuToggle {type=checkbox | ph=}
+              label.amagNavigationItem__label.navigation-item.d-lg-none "Services"
+                div.navigation-item__img
+                  svg {svg:0 0 32 32 7227ch}
+                    path
+                    path
+                    path
+                div.navigation-item__txt
+                  svg.navigation-item__arrow {svg:0 0 14 24 748ch}
+                    path
+              ul.amagNavigationItem__subMenu.second-level.list-unstyled.m-0
+                li.amagNavigation__list__item.amagMenuNavigation "Back"
+                  label.amagNavigationItem__label.amagMenuNavigation__back "Back"
+                    svg.navigation-item__arrow {svg:0 0 24 24 703ch}
+                      path
+                li.amagNavigation__list__item "Services"
+                  a.navigation-item {href=/en/services.html} "Services"
+                    div.navigation-item__img
+                      svg {svg:0 0 32 32 7214ch}
+                        path
+                        path
+                        path
+                    div.navigation-item__txt
+                      strong "Services"
+                li.amagNavigation__list__item "Services"
+                  a.navigation-item {href=/en/services.html} "Services"
+                    div.navigation-item__img
+                    div.navigation-item__txt "Services"
+                li.amagNavigation__list__item "Tyre service Back Tyre service Overview Tyre service Winter tyres Summ"
+                  input#id-reifen-und-raeder.amagNavigationItem__submenuToggle {type=checkbox | ph=}
+                  label.amagNavigationItem__label.navigation-item.d-lg-none "Tyre service"
+                    div.navigation-item__img
+                    div.navigation-item__txt
+                      svg.navigation-item__arrow {svg:0 0 24 24 760ch}
+                        path
+                  ul.amagNavigationItem__subMenu
+                    li.amagNavigation__list__item.amagMenuNavigation "Back"
+                      label.amagNavigationItem__label.amagMenuNavigation__back "Back"
+                        svg.navigation-item__arrow {svg:0 0 24 24 679ch}
+                          path
+                    li.amagNavigation__list__item "Tyre service"
+                      a.navigation-item {href=/en/services/tyre-service.html} "Tyre service"
+                        div.navigation-item__img
+                          svg {svg:0 0 32 32 7166ch}
+                            path
+                            path
+                            path
+                        div.navigation-item__txt
+                          strong "Tyre service"
+                    li.amagNavigation__list__item "Overview Tyre service"
+                      a.navigation-item {href=/en/services/tyre-service.html} "Overview Tyre service"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Overview Tyre service"
+                    li.amagNavigation__list__item "Winter tyres"
+                      a.navigation-item {href=/en/services/tyre-service/winter-tyres.html} "Winter tyres"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Winter tyres"
+                    li.amagNavigation__list__item "Summer tyres"
+                      a.navigation-item {href=/en/services/tyre-service/summer-tyres.html} "Summer tyres"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Summer tyres"
+                    li.amagNavigation__list__item "Complete wheels"
+                      a.navigation-item {href=/en/services/tyre-service/complete-wheels.html} "Complete wheels"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Complete wheels"
+                    li.amagNavigation__list__item "Tyre warranty"
+                      a.navigation-item {href=/en/services/tyre-service/tyre-warranty.html} "Tyre warranty"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Tyre warranty"
+                    li.amagNavigation__list__item "Wheel hotel"
+                      a.navigation-item {href=/en/services/tyre-service/wheel-hotel.html} "Wheel hotel"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Wheel hotel"
+                    li.amagNavigation__list__item "Rim repair"
+                      a.navigation-item {href=/en/services/tyre-service/rim-repair.html} "Rim repair"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Rim repair"
+                li.amagNavigation__list__item "Overview Top Services Back Overview Top Services Overview Top Services"
+                  input#id-top-services.amagNavigationItem__submenuToggle {type=checkbox | ph=}
+                  label.amagNavigationItem__label.navigation-item.d-lg-none "Overview Top Services"
+                    div.navigation-item__img
+                    div.navigation-item__txt
+                      svg.navigation-item__arrow {svg:0 0 24 24 760ch}
+                        path
+                  ul.amagNavigationItem__subMenu
+                    li.amagNavigation__list__item.amagMenuNavigation "Back"
+                      label.amagNavigationItem__label.amagMenuNavigation__back "Back"
+                        svg.navigation-item__arrow {svg:0 0 24 24 679ch}
+                          path
+                    li.amagNavigation__list__item "Overview Top Services"
+                      a.navigation-item {href=/en/services/top-services.html} "Overview Top Services"
+                        div.navigation-item__img
+                          svg {svg:0 0 32 32 7166ch}
+                            path
+                            path
+                            path
+                        div.navigation-item__txt
+                          strong "Overview Top Services"
+                    li.amagNavigation__list__item "Overview Top Services"
+                      a.navigation-item {href=/en/services/top-services.html} "Overview Top Services"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Overview Top Services"
+                    li.amagNavigation__list__item "Winter check PLUS Winter check PLUS The Winter Check PLUS is important"
+                      input#id-saison-check.amagNavigationItem__submenuToggle {type=checkbox | ph=}
+                      label.amagNavigationItem__label.navigation-item.d-lg-none "Winter check PLUS"
+                        div.navigation-item__img
+                        div.navigation-item__txt
+                          svg.navigation-item__arrow {svg:0 0 24 24 744ch}
+                            path
+                      ul.amagNavigationItem__subMenu
+                        li.amagNavigation__list__item.amagMenuNavigation
+                          label.amagNavigationItem__label.amagMenuNavigation__back
+                            svg.navigation-item__arrow {svg:0 0 24 24 679ch}
+                              path
+                        li.amagNavigation__list__item "Winter check PLUS"
+                          a.navigation-item {href=/en/services/top-services/saison-check.html} "Winter check PLUS"
+                            div.navigation-item__img
+                            div.navigation-item__txt
+                              strong "Winter check PLUS"
+                        li.amagNavigation__list__item "The Winter Check PLUS is important to get your car ready for the cold "
+                          a.navigation-item {href=/en/services/top-services/saison-check.html} "The Winter Check PLUS is important to get your car ready for the cold "
+                            div.navigation-item__img
+                            div.navigation-item__txt "The Winter Check PLUS is important to get your car ready for the cold "
+                        li.amagNavigation__list__item "Is your car ready for holiday driving?"
+                          a.navigation-item {href=/en/services/top-services/saison-check/feriencheck.html} "Is your car ready for holiday driving?"
+                            div.navigation-item__img
+                            div.navigation-item__txt "Is your car ready for holiday driving?"
+                        li.amagNavigation__list__item "Winter check PLUS"
+                          a.navigation-item {href=/en/services/top-services/saison-check/saison-check2.html} "Winter check PLUS"
+                            div.navigation-item__img
+                            div.navigation-item__txt "Winter check PLUS"
+                    li.amagNavigation__list__item "Car service"
+                      a.navigation-item {href=/en/services/top-services/car-service.html} "Car service"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Car service"
+                    li.amagNavigation__list__item "AMAG App"
+                      a.navigation-item {href=/en/services/top-services/app.html} "AMAG App"
+                        div.navigation-item__img
+                        div.navigation-item__txt "AMAG App"
+                    li.amagNavigation__list__item "Charging at AMAG"
+                      a.navigation-item {href=/en/services/top-services/kreditkarte.html} "Charging at AMAG"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Charging at AMAG"
+                    li.amagNavigation__list__item "Battery"
+                      a.navigation-item {href=/en/services/top-services/battery.html} "Battery"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Battery"
+                    li.amagNavigation__list__item "Brakes"
+                      a.navigation-item {href=/en/services/top-services/brakes.html} "Brakes"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Brakes"
+                    li.amagNavigation__list__item "Electric charging station"
+                      a.navigation-item {href=/en/services/top-services/electric-charging-stations.html} "Electric charging station"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Electric charging station"
+                    li.amagNavigation__list__item "Accessories"
+                      a.navigation-item {href=/en/services/top-services/accessories.html} "Accessories"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Accessories"
+                    li.amagNavigation__list__item "High-performance tuning ABT Sportsline | AMAG"
+                      a.navigation-item {href=/en/services/top-services/abt-sportsline.html} "High-performance tuning ABT Sportsline | AMAG"
+                        div.navigation-item__img
+                        div.navigation-item__txt "High-performance tuning ABT Sportsline | AMAG"
+                    li.amagNavigation__list__item "Brand insurance Brand insurance With our insurance offer, your car get"
+                      input#id-markenversicherung.amagNavigationItem__submenuToggle {type=checkbox | ph=}
+                      label.amagNavigationItem__label.navigation-item.d-lg-none "Brand insurance"
+                        div.navigation-item__img
+                        div.navigation-item__txt
+                          svg.navigation-item__arrow {svg:0 0 24 24 744ch}
+                            path
+                      ul.amagNavigationItem__subMenu
+                        li.amagNavigation__list__item.amagMenuNavigation
+                          label.amagNavigationItem__label.amagMenuNavigation__back
+                            svg.navigation-item__arrow {svg:0 0 24 24 679ch}
+                              path
+                        li.amagNavigation__list__item "Brand insurance"
+                          a.navigation-item {href=/en/services/top-services/brand-insurance.html} "Brand insurance"
+                            div.navigation-item__img
+                            div.navigation-item__txt
+                              strong "Brand insurance"
+                        li.amagNavigation__list__item "With our insurance offer, your car gets the protection it deserves. Le"
+                          a.navigation-item {href=/en/services/top-services/brand-insurance.html} "With our insurance offer, your car gets the protection it deserves. Le"
+                            div.navigation-item__img
+                            div.navigation-item__txt "With our insurance offer, your car gets the protection it deserves. Le"
+                        li.amagNavigation__list__item "Audi car insurance"
+                          a.navigation-item {href=/en/services/top-services/brand-insurance/audi-car-insurance} "Audi car insurance"
+                            div.navigation-item__img
+                            div.navigation-item__txt "Audi car insurance"
+                        li.amagNavigation__list__item "VW car insurance"
+                          a.navigation-item {href=/en/services/top-services/brand-insurance/vw-car-insurance.h} "VW car insurance"
+                            div.navigation-item__img
+                            div.navigation-item__txt "VW car insurance"
+                        li.amagNavigation__list__item "SEAT car insurance"
+                          a.navigation-item {href=/en/services/top-services/brand-insurance/seat-car-insurance} "SEAT car insurance"
+                            div.navigation-item__img
+                            div.navigation-item__txt "SEAT car insurance"
+                        li.amagNavigation__list__item "Skoda car insurance"
+                          a.navigation-item {href=/en/services/top-services/brand-insurance/skoda-car-insuranc} "Skoda car insurance"
+                            div.navigation-item__img
+                            div.navigation-item__txt "Skoda car insurance"
+                        li.amagNavigation__list__item "VW Commercial Vehicles car insurance"
+                          a.navigation-item {href=/en/services/top-services/brand-insurance/vw-commercial-vehi} "VW Commercial Vehicles car insurance"
+                            div.navigation-item__img
+                            div.navigation-item__txt "VW Commercial Vehicles car insurance"
+                        li.amagNavigation__list__item "Audi used car insurance"
+                          a.navigation-item {href=/en/services/top-services/brand-insurance/audi-used-car-insu} "Audi used car insurance"
+                            div.navigation-item__img
+                            div.navigation-item__txt "Audi used car insurance"
+                        li.amagNavigation__list__item "VW used car insurance"
+                          a.navigation-item {href=/en/services/top-services/brand-insurance/vw-used-car-insura} "VW used car insurance"
+                            div.navigation-item__img
+                            div.navigation-item__txt "VW used car insurance"
+                        li.amagNavigation__list__item "SEAT/CUPRA used car insurance"
+                          a.navigation-item {href=/en/services/top-services/brand-insurance/seat-used-car-insu} "SEAT/CUPRA used car insurance"
+                            div.navigation-item__img
+                            div.navigation-item__txt "SEAT/CUPRA used car insurance"
+                        li.amagNavigation__list__item "Skoda used car insurance"
+                          a.navigation-item {href=/en/services/top-services/brand-insurance/skoda-used-car-ins} "Skoda used car insurance"
+                            div.navigation-item__img
+                            div.navigation-item__txt "Skoda used car insurance"
+                        li.amagNavigation__list__item "VW Commercial Vehicles used car insurance"
+                          a.navigation-item {href=/en/services/top-services/brand-insurance/vw-commercial-vehi} "VW Commercial Vehicles used car insurance"
+                            div.navigation-item__img
+                            div.navigation-item__txt "VW Commercial Vehicles used car insurance"
+                    li.amagNavigation__list__item "AMAG Carwash"
+                      a.navigation-item {href=/en/services/top-services/carwash.html} "AMAG Carwash"
+                        div.navigation-item__img
+                        div.navigation-item__txt "AMAG Carwash"
+                li.amagNavigation__list__item "Help in case of damage Back Help in case of damage Help in case of dam"
+                  input#id-hilfe-im-schadensfall.amagNavigationItem__submenuToggle {type=checkbox | ph=}
+                  label.amagNavigationItem__label.navigation-item.d-lg-none "Help in case of damage"
+                    div.navigation-item__img
+                    div.navigation-item__txt
+                      svg.navigation-item__arrow {svg:0 0 24 24 760ch}
+                        path
+                  ul.amagNavigationItem__subMenu
+                    li.amagNavigation__list__item.amagMenuNavigation "Back"
+                      label.amagNavigationItem__label.amagMenuNavigation__back "Back"
+                        svg.navigation-item__arrow {svg:0 0 24 24 679ch}
+                          path
+                    li.amagNavigation__list__item "Help in case of damage"
+                      a.navigation-item {href=/en/services/help-in-case-of-damage.html} "Help in case of damage"
+                        div.navigation-item__img
+                          svg {svg:0 0 32 32 7166ch}
+                            path
+                            path
+                            path
+                        div.navigation-item__txt
+                          strong "Help in case of damage"
+                    li.amagNavigation__list__item "Help in case of damage"
+                      a.navigation-item {href=/en/services/help-in-case-of-damage.html} "Help in case of damage"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Help in case of damage"
+                    li.amagNavigation__list__item "Report a damage Report a damage AMAG makes reporting damage quick and "
+                      input#id-schadenmeldung.amagNavigationItem__submenuToggle {type=checkbox | ph=}
+                      label.amagNavigationItem__label.navigation-item.d-lg-none "Report a damage"
+                        div.navigation-item__img
+                        div.navigation-item__txt
+                          svg.navigation-item__arrow {svg:0 0 24 24 744ch}
+                            path
+                      ul.amagNavigationItem__subMenu
+                        li.amagNavigation__list__item.amagMenuNavigation
+                          label.amagNavigationItem__label.amagMenuNavigation__back
+                            svg.navigation-item__arrow {svg:0 0 24 24 679ch}
+                              path
+                        li.amagNavigation__list__item "Report a damage"
+                          a.navigation-item {href=/en/services/help-in-case-of-damage/reporting-damage.html} "Report a damage"
+                            div.navigation-item__img
+                            div.navigation-item__txt
+                              strong "Report a damage"
+                        li.amagNavigation__list__item "AMAG makes reporting damage quick and easy: report hail damage, parkin"
+                          a.navigation-item {href=/en/services/help-in-case-of-damage/reporting-damage.html} "AMAG makes reporting damage quick and easy: report hail damage, parkin"
+                            div.navigation-item__img
+                            div.navigation-item__txt "AMAG makes reporting damage quick and easy: report hail damage, parkin"
+                        li.amagNavigation__list__item "What to do in the event of damage to your car – Here’s why accidents a"
+                          a.navigation-item {href=/en/services/help-in-case-of-damage/reporting-damage/guide.h} "What to do in the event of damage to your car – Here’s why accidents a"
+                            div.navigation-item__img
+                            div.navigation-item__txt "What to do in the event of damage to your car – Here’s why accidents a"
+                    li.amagNavigation__list__item "Car paint and body service"
+                      a.navigation-item {href=/en/services/help-in-case-of-damage/car-paint-and-body-servi} "Car paint and body service"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Car paint and body service"
+                    li.amagNavigation__list__item "Tesla service"
+                      a.navigation-item {href=/en/services/help-in-case-of-damage/tesla-service.html} "Tesla service"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Tesla service"
+                    li.amagNavigation__list__item "Hail damage"
+                      a.navigation-item {href=/en/services/help-in-case-of-damage/hail-damage.html} "Hail damage"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Hail damage"
+                    li.amagNavigation__list__item "Car glass repair"
+                      a.navigation-item {href=/en/services/help-in-case-of-damage/car-glass-repair.html} "Car glass repair"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Car glass repair"
+                    li.amagNavigation__list__item "Totalmobil"
+                      a.navigation-item {href=/en/services/help-in-case-of-damage/totalmobil.html} "Totalmobil"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Totalmobil"
+                    li.amagNavigation__list__item "Recalls by car manufacturers"
+                      a.navigation-item {href=/en/services/help-in-case-of-damage/recalls-by-manufacturers} "Recalls by car manufacturers"
+                        div.navigation-item__img
+                        div.navigation-item__txt "Recalls by car manufacturers"
+                li.amagNavigation__list__item "Current offer for you"
+                  a.navigation-item {href=/en/cards/charging-card.html} "Current offer for you"
+                    div.navigation-item__img
+                    div.navigation-item__txt "Current offer for you"
+            li.amagNavigation__list__item.amagNavigationItem "Find garage"
+              a.navigation-item {href=/en/komponenten/car-dealers.html} "Find garage"
+                div.navigation-item__img
+                  svg {svg:0 0 32 32 2002ch}
+                    path
+                    path
+                div.navigation-item__txt "Find garage"
+            li.amagNavigation__list__item.amagNavigationItem "Jobs"
+              a.navigation-item {href=/en/jobs-amag.html} "Jobs"
+                div.navigation-item__img
+                  svg {svg: 2508ch}
+                    g
+                      path
+                      path
+                    defs
+                      clippath#a
+                        path
+                div.navigation-item__txt "Jobs"
+            div.amagMyGarage
+              div.amagMyGarage--noFavorite.d-sm-block.d-lg-none
+                h6 "Please choose your garage"
+                div.amagMyGarage__services
+                  a.amag-ctaWrapper__button.d-flex.w-100.justify-content-center.align-items-center.text-decoration-none {href=/en/komponenten/car-dealers.html} "Find my garage"
+                    svg {svg:0 0 30 32 2017ch}
+                      path
+                      path
+              div.amagMyGarage--Favorite.d-sm-none.d-lg-none
+                div.d-flex.flex-wrap
+                  h6.amagMyGarage__headline.pr-2 "My garage"
+                  h6.amagMyGarage__garageName "--"
+                div.amagMyGarage__services
+                  a.amagMyGarage__services-item.amagMyGarage__services-item--call.text-decoration-none {href=#} "Call"
+                    div.amagMyGarage__services-item__img
+                      svg {svg:0 0 32 32 2269ch}
+                        path
+                        path
+                    div.amagMyGarage__services-item__txt "Call"
+                  a.amagMyGarage__services-item.amagMyGarage__services-item--mail.text-decoration-none {href=#} "email"
+                    div.amagMyGarage__services-item__img
+                      svg {svg:0 0 32 32 1191ch}
+                        path
+                    div.amagMyGarage__services-item__txt "email"
+                  a.amagMyGarage__services-item.amagMyGarage__services-item--toGarage.text-decoration-none {href=#} "To Garage"
+                    div.amagMyGarage__services-item__img
+                      svg {svg:0 0 32 32 2009ch}
+                        path
+                        path
+                    div.amagMyGarage__services-item__txt "To Garage"
+            div.amagLanguage.d-flex.justify-content-center.align-items-center.w-100
+              a.amagLanguage__item.text-uppercase.active "en"
+              a.amag-language.amagLanguage__item.amag-cookie.text-uppercase {href=/de.html} "de"
+              a.amag-language.amagLanguage__item.amag-cookie.text-uppercase {href=/fr.html} "fr"
+              a.amag-language.amagLanguage__item.amag-cookie.text-uppercase {href=/it.html} "it"
+        div.amagNavigation-ctaContainer.d-flex
+          div.amag-ctaWrapper.d-inline-block.col-6.p-0
+            a.amag-ctaWrapper__button.d-flex.justify-content-center.align-items-center.text-decoration-none.amag-ctaWrapper__button--bgColor-amagBlack {href=tel:+41%20848%20024%20365} "Emergency"
+              img {src=ic/resources/img/iconsMobileNavigation/w_phone.svg | alt=icon | srcset=0}
+          div.amag-ctaWrapper.d-inline-block.col-6.p-0
+            a.amag-ctaWrapper__button.d-flex.justify-content-center.align-items-center.text-decoration-none.amag-ctaWrapper__button--bgColor-amagDark-blue {href=https://www.amag.ch/en/services/otv.html} "Appointment"
+              img {src=ces/img/iconsMobileNavigation/w_calendar-add-1.svg | alt=icon | srcset=0}
+      div.amagNavigation-wrapper.amagNavigation-wrapper--desktop
+        div
+          div.amagNavigation-desktop
+            div.overlayNavigationDesktop__before
+            div.overlayNavigationDesktop__container.w-100
+              div.overlayNavigationDesktop__padding--grey
+              div.overlayNavigationDesktop__navigationSections.navigationSections.w-100
+                div.col-12.navigationSections__overviewLink
+                  div
+                    div.col-9
+                      a {href=/en/find-vehicle.html} "Car online marketplace"
+                    div.col-3
+                div.col-9.navigationSections__sites
+                  div
+                    div.col-4.navigationSections__section
+                      a.navigationSections__title {href=/en/find-vehicle/cars-amag.html} "Cars at AMAG dealerships"
+                      a.navigationSections__items {href=/en/find-vehicle/cars-amag/vehicle-range.html} "Our vehicle ranges"
+                      a.navigationSections__items {href=/en/find-vehicle/cars-amag/warehouse-vehicles.html} "Warehouse vehicles"
+                      a.navigationSections__items {href=/en/find-vehicle/cars-amag/demonstration-vehicles.html} "Demonstration vehicles"
+                      a.navigationSections__items {href=/en/find-vehicle/cars-amag/used-vehicles.html} "Used vehicles"
+                      a.navigationSections__items {href=/en/find-vehicle/cars-amag/e-mobility.html} "E-mobility"
+                      a.navigationSections__items {href=/en/find-vehicle/cars-amag/abo.html} "Car subscription"
+                      a.navigationSections__items {href=/en/find-vehicle/cars-amag/amag-leasing.html} "AMAG Leasing"
+                      a.navigationSections__items {href=/en/find-vehicle/cars-amag/configure-vehicles.html} "Configure new vehicles"
+                      a.navigationSections__items {href=/en/find-vehicle/cars-amag/fleet.html} "Fleet"
+                      a.navigationSections__items {href=/en/find-vehicle/cars-amag/financing.html} "Financing solutions"
+                      a.navigationSections__items {href=/en/find-vehicle/cars-amag/buy-your-car.html} "AMAG buys your car"
+                    div.col-4.navigationSections__section
+                      a.navigationSections__title {href=/en/find-vehicle/body-type.html} "Body type"
+                      a.navigationSections__items {href=/en/find-vehicle/body-type/suv.html} "SUV"
+                      a.navigationSections__items {href=/en/find-vehicle/body-type/estate.html} "Estate"
+                      a.navigationSections__items {href=/en/find-vehicle/body-type/limousine.html} "Limousine"
+                      a.navigationSections__items {href=/en/find-vehicle/body-type/convertible.html} "Convertible"
+                      a.navigationSections__items {href=/en/find-vehicle/body-type/coupe.html} "Coupé"
+                      a.navigationSections__items {href=/en/find-vehicle/body-type/mpv.html} "MPV"
+                      a.navigationSections__items {href=/en/find-vehicle/body-type/camper-van.html} "Camper"
+                      a.navigationSections__items {href=/en/find-vehicle/body-type/bus.html} "Bus"
+                      a.navigationSections__items {href=/en/find-vehicle/body-type/pickup.html} "Pickup"
+                      a.navigationSections__items {href=/en/find-vehicle/body-type/business.html} "Business"
+                    div.col-4.navigationSections__section
+                      a.navigationSections__title {href=/en/find-vehicle/partner.html} "Mobility partner"
+                      a.navigationSections__items {href=/en/find-vehicle/partner/helion.html} "Helion"
+                      a.navigationSections__items {href=/en/find-vehicle/partner/clyde.html} "Clyde"
+                      a.navigationSections__items {href=/en/find-vehicle/partner/ducati.html} "Ducati"
+                      a.navigationSections__items {href=/en/find-vehicle/partner/microlino.html} "Microlino"
+                      a.navigationSections__items {href=/en/find-vehicle/partner/allride.html} "Allride"
+                  div
+                div.col-3.navigationSections__prominent
+                  div
+                    div.col-12.navigationSections__section
+                      a.w-100.navigationSections__title {href=/en/find-vehicle/brands.html} "By Brand"
+                      div.navigationSections--markenlogo
+                        div.navigationSections__items.navigationSections__items--promotion.navigationSections__items--markenlogo
+                          div.amag-markenLogo.rounded
+                            a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/find-vehicle/brands/vw/vw-models.html}
+                              img.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=Volkswagen | srcset=0}
+                          span "VW"
+                        div.navigationSections__items.navigationSections__items--promotion.navigationSections__items--markenlogo
+                          div.amag-markenLogo.rounded
+                            a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/find-vehicle/brands/audi/audi-models.}
+                              img.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=Audi | srcset=0}
+                          span "Audi"
+                        div.navigationSections__items.navigationSections__items--promotion.navigationSections__items--markenlogo
+                          div.amag-markenLogo.rounded
+                            a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/find-vehicle/brands/seat/seat-models.}
+                              img.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=SEAT | srcset=0}
+                          span "SEAT"
+                        div.navigationSections__items.navigationSections__items--promotion.navigationSections__items--markenlogo
+                          div.amag-markenLogo.rounded
+                            a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/find-vehicle/brands/skoda/skoda-model}
+                              img.optanon-category-C0004.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=Škoda | srcset=0}
+                          span "Skoda"
+                        div.navigationSections__items.navigationSections__items--promotion.navigationSections__items--markenlogo
+                          div.amag-markenLogo.rounded
+                            a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/find-vehicle/brands/cupra/cupra-model}
+                              img.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=CUPRA | srcset=0}
+                          span "CUPRA"
+                        div.navigationSections__items.navigationSections__items--promotion.navigationSections__items--markenlogo
+                          div.amag-markenLogo.rounded
+                            a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/find-vehicle/brands/commercial-vehicl}
+                              img.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=VW Nutzfahrzeuge | srcset=0}
+                          span "VW Commercial Vehicles"
+                        div.navigationSections__items.navigationSections__items--promotion.navigationSections__items--markenlogo
+                          div.amag-markenLogo.rounded
+                            a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/find-vehicle/brands/bentley/bentley-m}
+                              img.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=Bentley | srcset=0}
+                          span "Bentley"
+                        div.navigationSections__items.navigationSections__items--promotion.navigationSections__items--markenlogo
+                          div.amag-markenLogo.rounded
+                            a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/find-vehicle/cars-amag/microlino.html}
+                              img.optanon-category-C0004.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=Microlino | srcset=0}
+                          span "Microlino"
+              div.overlayNavigationDesktop__padding--white
+            div.overlayNavigationDesktop__after
+          div.amagNavigation-desktop
+            div.overlayNavigationDesktop__before
+            div.overlayNavigationDesktop__container.w-100
+              div.overlayNavigationDesktop__padding--grey
+              div.overlayNavigationDesktop__navigationSections.navigationSections.w-100
+                div.col-12.navigationSections__overviewLink
+                  div
+                    div.col-9
+                      a {href=/en/services.html} "Services"
+                    div.col-3
+                div.col-9.navigationSections__sites
+                  div
+                    div.col-4.navigationSections__section
+                      a.navigationSections__title {href=/en/services/tyre-service.html} "Tyre service"
+                      a.navigationSections__items {href=/en/services/tyre-service/winter-tyres.html} "Winter tyres"
+                      a.navigationSections__items {href=/en/services/tyre-service/summer-tyres.html} "Summer tyres"
+                      a.navigationSections__items {href=/en/services/tyre-service/complete-wheels.html} "Complete wheels"
+                      a.navigationSections__items {href=/en/services/tyre-service/tyre-warranty.html} "Tyre warranty"
+                      a.navigationSections__items {href=/en/services/tyre-service/wheel-hotel.html} "Wheel hotel"
+                      a.navigationSections__items {href=/en/services/tyre-service/rim-repair.html} "Rim repair"
+                    div.col-4.navigationSections__section
+                      a.navigationSections__title {href=/en/services/top-services.html} "Overview Top Services"
+                      a.navigationSections__items {href=/en/services/top-services/saison-check.html} "Winter check PLUS"
+                      a.navigationSections__items {href=/en/services/top-services/car-service.html} "Car service"
+                      a.navigationSections__items {href=/en/services/top-services/app.html} "AMAG App"
+                      a.navigationSections__items {href=/en/services/top-services/kreditkarte.html} "Charging at AMAG"
+                      a.navigationSections__items {href=/en/services/top-services/battery.html} "Battery"
+                      a.navigationSections__items {href=/en/services/top-services/brakes.html} "Brakes"
+                      a.navigationSections__items {href=/en/services/top-services/electric-charging-stations.html} "Electric charging station"
+                      a.navigationSections__items {href=/en/services/top-services/accessories.html} "Accessories"
+                      a.navigationSections__items {href=/en/services/top-services/abt-sportsline.html} "High-performance tuning ABT Sportsline | AMAG"
+                      a.navigationSections__items {href=/en/services/top-services/brand-insurance.html} "Brand insurance"
+                      a.navigationSections__items {href=/en/services/top-services/carwash.html} "AMAG Carwash"
+                    div.col-4.navigationSections__section
+                      a.navigationSections__title {href=/en/services/help-in-case-of-damage.html} "Help in case of damage"
+                      a.navigationSections__items {href=/en/services/help-in-case-of-damage/reporting-damage.html} "Report a damage"
+                      a.navigationSections__items {href=/en/services/help-in-case-of-damage/car-paint-and-body-servi} "Car paint and body service"
+                      a.navigationSections__items {href=/en/services/help-in-case-of-damage/tesla-service.html} "Tesla service"
+                      a.navigationSections__items {href=/en/services/help-in-case-of-damage/hail-damage.html} "Hail damage"
+                      a.navigationSections__items {href=/en/services/help-in-case-of-damage/car-glass-repair.html} "Car glass repair"
+                      a.navigationSections__items {href=/en/services/help-in-case-of-damage/totalmobil.html} "Totalmobil"
+                      a.navigationSections__items {href=/en/services/help-in-case-of-damage/recalls-by-manufacturers} "Recalls by car manufacturers"
+                  div
+                    div.col-12.navigationSections__footer
+                      div.amag-cta.amag-ctaWrapper.d-inline-block
+                        a.amag-ctaWrapper__button.d-flex.justify-content-center.align-items-center.text-decoration-none.amag-ctaWrapper__button--bgColor-amagDark-blue {href=https://www.amag.ch/en/services/otv.html | style=background-color: rgb(23, 41, 131); color: rgb(255, 255, 255);} "Arrange an appointment"
+                          img {src=emeinsame-dateien/icons/weiss/w_calendar-add-1.svg | alt= | srcset=0}
+                      div.amag-cta.amag-ctaWrapper.d-inline-block
+                        a.amag-ctaWrapper__button.d-flex.justify-content-center.align-items-center.text-decoration-none.amag-ctaWrapper__button--bgColor-amagGrey-6F6D6A {href=https://www.amag.ch/en/services/help-in-case-of-damage/repor | style=background-color: rgb(111, 109, 106); color: rgb(255, 255, 255);} "Report a damage"
+                          img {src=h/gemeinsame-dateien/icons/weiss/w_Glasschaden.svg | alt= | srcset=0}
+                div.col-3.navigationSections__prominent
+                  div
+                    div.col-12.navigationSections__section
+                      a.w-100.navigationSections__title {href=/en/services/aktuelles-angebot-fuer-sie.html} "Current offer for you"
+                      div.navigationSections--teaser
+                        div.navigationSections__items.navigationSections__items--promotion.navigationSections__items--teaser
+                          div.amag-cta.amag-ctaWrapper.d-inline-block
+                            a.amag-ctaWrapper__button.d-flex.justify-content-center.align-items-center.text-decoration-none.amag-ctaWrapper__button--bgColor-amagLight-green {href=https://www.amag.ch/en/cards/charging-card.html | style=background-color: rgb(57, 181, 74); color: rgb(255, 255, 255);} "Charging at a special price 0.28 CHF per kWh"
+                              img {src=/amag-ch/gemeinsame-dateien/icons/weiss/e-auto.svg | alt= | srcset=0}
+              div.overlayNavigationDesktop__padding--white
+            div.overlayNavigationDesktop__after
+          div.amagNavigation-desktop
+            div.overlayNavigationDesktop__before
+            div.overlayNavigationDesktop__container.w-100
+              div.overlayNavigationDesktop__padding--grey
+              div.overlayNavigationDesktop__navigationSections.navigationSections.w-100
+                div.col-12.navigationSections__overviewLink
+                  div
+                    div.col-9
+                      a {href=/en/komponenten/car-dealers.html} "Find AMAG car dealers near you using our store locator. Discover a wid"
+                    div.col-3
+                div.col-9.navigationSections__sites
+                  div
+                  div
+                div.col-3.navigationSections__prominent
+                  div
+                    div.col-12.navigationSections__section
+              div.overlayNavigationDesktop__padding--white
+            div.overlayNavigationDesktop__after
+          div.amagNavigation-desktop
+            div.overlayNavigationDesktop__before
+            div.overlayNavigationDesktop__container.w-100
+              div.overlayNavigationDesktop__padding--grey
+              div.overlayNavigationDesktop__navigationSections.navigationSections.w-100
+                div.col-9.navigationSections__sites
+                  div
+                  div
+                div.col-3.navigationSections__prominent
+                  div
+                    div.col-12.navigationSections__section
+              div.overlayNavigationDesktop__padding--white
+            div.overlayNavigationDesktop__after
+    div.amag-header__after.d-none.d-lg-block.flex-grow-1.flex-shrink-1 [hidden]
+      div.amag-header__afterDivViolet
+      div.amag-header__afterDivWhite.amag-header__afterDivWhite--transparent
+    div.amag-pop-up.amag-pop-up__wrapper--desktop.amag-pop-up__unseen {style=background-color: rgb(232, 234, 243); color: rgb(0, 0, 0); width: calc(100% - 12}
+      div.amag-pop-up__content-box
+        div
+          span.amag-pop-up__notification "🥳 AMAG Emotion Days 🥳"
+          span.amag-pop-up__message "September 18 & 19: New models, special offers & prize draw"
+        a.amag-pop-up__linkLabel {href=/de/events/emotiondays.html} "Discover more"
+      div.amag-pop-up__icon
+        svg.amag-pop-up__icon-svg.size-m {svg:0 0 24 24 972ch}
+          path
+  div.amag-header__mobileSuccess.slider.closed.d-lg-none
+    div.amag-header__mobileSuccess--closeWrapper
+      svg.amag-header__mobileSuccess--closeIcon {svg:0 0 24 24 1037ch}
+        path
+    div.amag-header__mobileSuccess--contentWrapper
+      div.amag-header__mobileSuccess--icon
+        svg {svg:0 0 24 24 722ch}
+          path
+      div.amag-header__mobileSuccess--text
+        p "-- was saved as your garage."
+          span.amag-header__garageName "--"
+===== div.amag-content
+div.amag-content
+  div.amagCh-stageCarousel
+    div#stageCarousel-00161c1fb8.cmp-carousel
+      div.cmp-carousel__content
+        div.cmp-carousel__item.cmp-carousel__item--active
+          div.amag-stageTeaserImage.amag-ch
+            a.text-decoration-none {href=/en/find-vehicle/brands/vw/id-polo.html} "The new VW ID. Polo Book your test drive now"
+              div
+                picture
+                  source {media=(min-width: 1200px) | srcset=270&hei=152&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 270w}
+                  source {media=(min-width: 768px) | srcset=270&hei=152&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 270w}
+                  source {media=(min-width: 360px) | srcset=360&hei=480&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 360w}
+                  img.template-dynamic-image {src=i=1080&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 | alt= | srcset=0}
+                div.amag-stageTeaserImage__imageBackdrop
+              div.amag-stageTeaserImage__overlay.amagCh-section__container.amagCh-section
+                div
+                  div
+                    div.col-12.col-md-6.amag-stageTeaserImage__text-container
+                      div.amag-stageTeaserImage__headline-container
+                        h1.amag-stageTeaserImage__headline "The new VW ID. Polo"
+                      span.amag-stageTeaserImage__linktext "Book your test drive now"
+        div.cmp-carousel__item
+          div.amag-stageTeaserImage.amag-ch
+            a.text-decoration-none {href=/en/find-vehicle/brands/cupra/raval.html} "The new CUPRA Raval Discover now"
+              div
+                picture
+                  source {media=(min-width: 1200px) | srcset=270&hei=152&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 270w}
+                  source {media=(min-width: 768px) | srcset=270&hei=152&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 270w}
+                  source {media=(min-width: 360px) | srcset=360&hei=480&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 360w}
+                  img.template-dynamic-image {src=i=1080&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 | alt= | srcset=0}
+                div.amag-stageTeaserImage__imageBackdrop
+              div.amag-stageTeaserImage__overlay.amagCh-section__container.amagCh-section
+                div
+                  div
+                    div.col-12.col-md-6.amag-stageTeaserImage__text-container
+                      div.amag-stageTeaserImage__headline-container
+                        h1.amag-stageTeaserImage__headline "The new CUPRA Raval"
+                      span.amag-stageTeaserImage__linktext "Discover now"
+        div.cmp-carousel__item
+          div.amag-stageTeaserImage.amag-ch
+            a.text-decoration-none {href=/en/find-vehicle/brands/skoda/epiq.html} "New Škoda Epiq Discover now"
+              div
+                picture
+                  source {media=(min-width: 1200px) | srcset=270&hei=152&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 270w}
+                  source {media=(min-width: 768px) | srcset=270&hei=152&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 270w}
+                  source {media=(min-width: 360px) | srcset=360&hei=480&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 360w}
+                  img.template-dynamic-image {src=i=1080&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 | alt= | srcset=0}
+                div.amag-stageTeaserImage__imageBackdrop
+              div.amag-stageTeaserImage__overlay.amagCh-section__container.amagCh-section
+                div
+                  div
+                    div.col-12.col-md-6.amag-stageTeaserImage__text-container
+                      div.amag-stageTeaserImage__headline-container
+                        h1.amag-stageTeaserImage__headline "New Škoda Epiq"
+                      span.amag-stageTeaserImage__linktext "Discover now"
+        div.cmp-carousel__item
+          div.amag-stageTeaserVideo.amag-ch
+            a.text-decoration-none {href=/en/services/help-in-case-of-damage/reporting-damage.html} "Fast help in the event of damage Report a damage online now"
+              div
+                div.col-12.amag-stageTeaserVideo__playerContainer
+                  div#1567177670.amag-stageTeaserVideo__player
+                div.amag-stageTeaserVideo__progressbar
+                  div.progress
+                div.amag-stageTeaserVideo__videoBackdrop
+              div.amag-stageTeaserVideo__overlay.amagCh-section__container.amagCh-section
+                div
+                  div
+                    div.col-12.col-md-6.amag-stageTeaserVideo__text-container
+                      div.amag-stageTeaserVideo__headline-container
+                        h2.amag-stageTeaserVideo__headline "Fast help in the event of damage"
+                      span.amag-stageTeaserVideo__linktext "Report a damage online now"
+        div.cmp-carousel__item
+          div.amag-stageTeaserVideo.amag-ch
+            a.text-decoration-none {href=/en/find-vehicle/cars-amag/used-vehicles/elektro-occasionen.} "Discover our used electric cars 12 month warranty, battery certificate"
+              div
+                div.col-12.amag-stageTeaserVideo__playerContainer
+                  div#1720121141.amag-stageTeaserVideo__player
+                div.amag-stageTeaserVideo__progressbar
+                  div.progress
+                div.amag-stageTeaserVideo__videoBackdrop
+              div.amag-stageTeaserVideo__overlay.amagCh-section__container.amagCh-section
+                div
+                  div
+                    div.col-12.col-md-6.amag-stageTeaserVideo__text-container
+                      div.amag-stageTeaserVideo__headline-container
+                        h1.amag-stageTeaserVideo__headline "Discover our used electric cars"
+                      span.amag-stageTeaserVideo__linktext "12 month warranty, battery certificate and other benefits"
+        div.cmp-carousel__item
+          div.amag-stageTeaserImage.amag-ch
+            a.text-decoration-none {href=https://www.amag.ch/en/find-vehicle/cars-amag/e-mobility/360} "Everything electric. From solar power to electric driving. Discover ou"
+              div
+                picture
+                  source {media=(min-width: 1200px) | srcset=270&hei=152&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 270w}
+                  source {media=(min-width: 768px) | srcset=270&hei=152&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 270w}
+                  source {media=(min-width: 360px) | srcset=360&hei=480&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 360w}
+                  img.template-dynamic-image {src=i=1080&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 | alt= | srcset=0}
+                div.amag-stageTeaserImage__imageBackdrop
+              div.amag-stageTeaserImage__overlay.amagCh-section__container.amagCh-section
+                div
+                  div
+                    div.col-12.col-md-6.amag-stageTeaserImage__text-container
+                      div.amag-stageTeaserImage__headline-container
+                        h2.amag-stageTeaserImage__headline "Everything electric. From solar power to electric driving."
+                      span.amag-stageTeaserImage__linktext "Discover our products"
+        div.cmp-carousel__actions
+          button.cmp-carousel__action.cmp-carousel__action--previous
+            svg {svg:0 0 32 32 1000ch}
+              path
+          button.cmp-carousel__action.cmp-carousel__action--next
+            svg {svg:0 0 32 32 971ch}
+              path
+          button.cmp-carousel__action.cmp-carousel__action--pause "Pause"
+            span.cmp-carousel__action-icon
+            span.cmp-carousel__action-text "Pause"
+          button.cmp-carousel__action.cmp-carousel__action--play.cmp-carousel__action--disabled "Play"
+            span.cmp-carousel__action-icon
+            span.cmp-carousel__action-text "Play"
+        div.cmp-carousel__indicator-container
+          ol.cmp-carousel__indicators
+            li.cmp-carousel__indicator.cmp-carousel__indicator--active "ID. Polo"
+            li.cmp-carousel__indicator "Raval"
+            li.cmp-carousel__indicator "Epiq"
+            li.cmp-carousel__indicator "Schadenmeldung Video"
+            li.cmp-carousel__indicator "E-Occasionen"
+            li.cmp-carousel__indicator "360 Grad Lösungen"
+    div.amagCh-section__container.amagCh-section.amagCh-stageCarousel__buttons--noPadding
+      div
+        div
+          div.amag-stageCarousel__buttons.d-flex.col
+            a.amag-stageCarousel__button.text-decoration-none.align-top.text-center.d-sm-inline.d-md-flex {href=/en/find-vehicle.html} "Find a vehicle"
+              div.amag-stageCarousel__button_icon.pr-md-2
+                svg {svg:0 0 32 32 1770ch}
+                  path
+                  path
+              span.amag-stageCarousel__buttonText "Find a vehicle"
+            a.amag-stageCarousel__button.text-decoration-none.align-top.text-center.d-sm-inline.d-md-flex {href=/en/services.html} "Services"
+              div.amag-stageCarousel__button_icon.pr-md-2
+                svg {svg:0 0 32 32 7179ch}
+                  path
+                  path
+                  path
+              span.amag-stageCarousel__buttonText "Services"
+            a.amag-stageCarousel__button.text-decoration-none.align-top.text-center.d-sm-inline.d-md-flex {href=/en/komponenten/car-dealers.html} "Find garage"
+              div.amag-stageCarousel__button_icon.pr-md-2
+                svg {svg:0 0 32 32 1989ch}
+                  path
+                  path
+              span.amag-stageCarousel__buttonText "Find garage"
+  section.section
+    div.amagCh-section.#FFFFFF.amagCh-section--white
+      div.amagCh-section__stepswrapper-before
+        div.stepscontainer
+          div.left
+          div.right
+      div.amagCh-section__container
+        div.m-auto
+          div.amag-dspSearch.col-12.d-flex.flex-wrap
+            div.amag-dspSearch__icon.col-sm-12.col-md-1.offset-md-2.col-lg-1.offset-lg-0
+              img {src=same-dateien/icons/sonstige/car-actions-search.svg | alt=Our vehicles | srcset=0}
+            div.amag-dspSearch__headline.col-sm-12.col-md-7.col-lg-11
+              h2 "Our vehicles"
+            div.amag-dspSearch__introText.col-sm-12.offset-md-2.col-md-8.col-lg-12.offset-lg-0
+              p "Find and buy your car now directly online."
+            div.amag-dspSearch__filter.d-flex.col-sm-12.offset-md-2.col-md-8.col-lg-9
+              div.col-sm-12.col-lg-3
+                div.select2-wrapper.visible-label.select2-wrapper--no-styles
+                  select#dspSearchBrand.js-select2.select2-hidden-accessible {type=select | ph=}
+                    option "All brands"
+                    option "VW"
+                    option "Audi"
+                    option "SEAT"
+                    option "CUPRA"
+                    option "Škoda"
+                    option "VW Commercial Vehicles"
+                  span.select2.select2-container.select2-container--default "All brands"
+                    span.selection "All brands"
+                      span.select2-selection.select2-selection--single "All brands"
+                        span#select2-dspSearchBrand-container.select2-selection__rendered "All brands"
+                        span.select2-selection__arrow
+                          b
+                    span.dropdown-wrapper
+                    svg.icon-arrowDown.size-xs {svg:0 0 12 8 220ch}
+                      path
+                  label "Brand"
+              div.col-sm-12.col-lg-3
+                div.select2-wrapper.visible-label.ddl-state--disabled.select2-wrapper--no-styles
+                  select#dspSearchModel.js-select2.select2-hidden-accessible {type=select | ph=}
+                    option "All models"
+                  span.select2.select2-container.select2-container--default "All models"
+                    span.selection "All models"
+                      span.select2-selection.select2-selection--single "All models"
+                        span#select2-dspSearchModel-container.select2-selection__rendered "All models"
+                        span.select2-selection__arrow
+                          b
+                    span.dropdown-wrapper
+                    svg.icon-arrowDown.size-xs {svg:0 0 12 8 220ch}
+                      path
+                  label "Model"
+              div.col-12.col-lg-3
+                div.select2-wrapper.visible-label.select2-wrapper--no-styles
+                  select#dspSearchBodyType.js-select2.select2-hidden-accessible {type=select | ph=}
+                    option "All"
+                    option "Station wagon"
+                    option "SUV"
+                    option "VAN"
+                    option "Sedan"
+                    option "Coupé"
+                    option "Sports Car"
+                    option "Convertible"
+                    option "Bus"
+                    option "Camper"
+                    option "Pickup"
+                    option "Chassis Cabin"
+                    option "Tipper"
+                    option "Other"
+                  span.select2.select2-container.select2-container--default "All"
+                    span.selection "All"
+                      span.select2-selection.select2-selection--single "All"
+                        span#select2-dspSearchBodyType-container.select2-selection__rendered "All"
+                        span.select2-selection__arrow
+                          b
+                    span.dropdown-wrapper
+                    svg.icon-arrowDown.size-xs {svg:0 0 12 8 220ch}
+                      path
+                  label "Construction type"
+              div.col-12.col-lg-3
+                div.select2-wrapper.visible-label.select2-wrapper--no-styles
+                  select#dspSearchPrice.js-select2.select2-hidden-accessible {type=select | ph=}
+                    option "All prices"
+                    option "Until CHF 1'000"
+                    option "Until CHF 2'000"
+                    option "Until CHF 3'000"
+                    option "Until CHF 4'000"
+                    option "Until CHF 5'000"
+                    option "Until CHF 7'500"
+                    option "Until CHF 10'000"
+                    option "Until CHF 12'500"
+                    option "Until CHF 15'000"
+                    option "Until CHF 17'500"
+                    option "Until CHF 20'000"
+                    option "Until CHF 22'500"
+                    option "Until CHF 25'000"
+                    option "Until CHF 30'000"
+                    option "Until CHF 35'000"
+                    option "Until CHF 40'000"
+                    option "Until CHF 45'000"
+                    option "Until CHF 50'000"
+                    option "Until CHF 60'000"
+                    option "Until CHF 70'000"
+                    option "Until CHF 80'000"
+                    option "Until CHF 90'000"
+                    option "Until CHF 100'000"
+                    option "Until CHF 150'000"
+                    option "Until CHF 200'000"
+                    option "Until CHF 300'000"
+                  span.select2.select2-container.select2-container--default "All prices"
+                    span.selection "All prices"
+                      span.select2-selection.select2-selection--single "All prices"
+                        span#select2-dspSearchPrice-container.select2-selection__rendered "All prices"
+                        span.select2-selection__arrow
+                          b
+                    span.dropdown-wrapper
+                    svg.icon-arrowDown.size-xs {svg:0 0 12 8 220ch}
+                      path
+                  label "Price until"
+            div.amag-dspSearch__searchButton.offset-md-2.col-md-8.col-lg-3.offset-lg-0
+              a.amag-ctaWrapper__button.amag-ctaWrapper__button--bgColor-amagViolet.d-flex.justify-content-center.align-items-center.text-decoration-none {href=https://auto.amag.ch/de} "Find vehicles"
+                svg {svg:0 0 32 32 1695ch}
+                  path
+                  path
+            div.amag-dspSearch__filter.d-flex.col-sm-12.offset-md-2.col-md-8.col-lg-9 {style=display:none !important;}
+              div.amag-dspSearch__filterDropdown.col-lg-3
+                div#brand.amag-dspSearch__dropdown.d-flex
+                  div.amag-dspSearch__dropdown_text "All brands"
+                  svg.ml-auto {svg:0 0 24 24 661ch}
+                    path
+                div#brandList.amag-dspSearch__filter_list.hide
+                  ul
+                    li.listEntry "All brands"
+                      a.text-decoration-none {href=javascript:void(0)} "All brands"
+                    li.listEntry "VW"
+                      a.text-decoration-none {href=javascript:void(0)} "VW"
+                    li.listEntry "Audi"
+                      a.text-decoration-none {href=javascript:void(0)} "Audi"
+                    li.listEntry "SEAT"
+                      a.text-decoration-none {href=javascript:void(0)} "SEAT"
+                    li.listEntry "CUPRA"
+                      a.text-decoration-none {href=javascript:void(0)} "CUPRA"
+                    li.listEntry "SKODA"
+                      a.text-decoration-none {href=javascript:void(0)} "SKODA"
+                    li.listEntry "apps.amag-ch.dspSearch.vwnf"
+                      a.text-decoration-none {href=javascript:void(0)} "apps.amag-ch.dspSearch.vwnf"
+              div.amag-dspSearch__filterDropdown.col-lg-3
+                div#model.amag-dspSearch__dropdown.d-flex.disabled
+                  div.amag-dspSearch__dropdown_text "All models"
+                  svg.ml-auto {svg:0 0 24 24 661ch}
+                    path
+                div#modelList.amag-dspSearch__filter_list.hide
+                  ul
+                    li.listEntry.d-none "All models" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "All models"
+                    li.listEntry.d-none "Arteon" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Arteon"
+                    li.listEntry.d-none "e-Golf" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "e-Golf"
+                    li.listEntry.d-none "e-up!" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "e-up!"
+                    li.listEntry.d-none "Golf" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Golf"
+                    li.listEntry.d-none "ID.3" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "ID.3"
+                    li.listEntry.d-none "ID.4" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "ID.4"
+                    li.listEntry.d-none "ID.5" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "ID.5"
+                    li.listEntry.d-none "ID.7" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "ID.7"
+                    li.listEntry.d-none "Passat" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Passat"
+                    li.listEntry.d-none "Polo" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Polo"
+                    li.listEntry.d-none "Tiguan" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Tiguan"
+                    li.listEntry.d-none "Touareg" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Touareg"
+                    li.listEntry.d-none "Touran" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Touran"
+                    li.listEntry.d-none "T-Cross" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "T-Cross"
+                    li.listEntry.d-none "T-Roc" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "T-Roc"
+                    li.listEntry.d-none "Taigo" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Taigo"
+                    li.listEntry.d-none "Tayron" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Tayron"
+                    li.listEntry.d-none "Arteon" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Arteon"
+                    li.listEntry.d-none "ID. Cross" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "ID. Cross"
+                    li.listEntry.d-none "ID. Polo" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "ID. Polo"
+                    li.listEntry.d-none "Sharan" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Sharan"
+                    li.listEntry.d-none "A1" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "A1"
+                    li.listEntry.d-none "A2" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "A2"
+                    li.listEntry.d-none "A3" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "A3"
+                    li.listEntry.d-none "A4" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "A4"
+                    li.listEntry.d-none "A5" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "A5"
+                    li.listEntry.d-none "A6" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "A6"
+                    li.listEntry.d-none "A7" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "A7"
+                    li.listEntry.d-none "A8" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "A8"
+                    li.listEntry.d-none "e-tron" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "e-tron"
+                    li.listEntry.d-none "e-tron GT" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "e-tron GT"
+                    li.listEntry.d-none "RS e-tron GT" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "RS e-tron GT"
+                    li.listEntry.d-none "Q2" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Q2"
+                    li.listEntry.d-none "Q3" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Q3"
+                    li.listEntry.d-none "Q4" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Q4"
+                    li.listEntry.d-none "Q5" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Q5"
+                    li.listEntry.d-none "Q6" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Q6"
+                    li.listEntry.d-none "Q7" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Q7"
+                    li.listEntry.d-none "Q8" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Q8"
+                    li.listEntry.d-none "R8" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "R8"
+                    li.listEntry.d-none "RS 3" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "RS 3"
+                    li.listEntry.d-none "RS 4" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "RS 4"
+                    li.listEntry.d-none "RS 5" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "RS 5"
+                    li.listEntry.d-none "RS 6" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "RS 6"
+                    li.listEntry.d-none "RS 7" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "RS 7"
+                    li.listEntry.d-none "RS Q3" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "RS Q3"
+                    li.listEntry.d-none "RS Q8" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "RS Q8"
+                    li.listEntry.d-none "S1" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "S1"
+                    li.listEntry.d-none "S3" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "S3"
+                    li.listEntry.d-none "S4" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "S4"
+                    li.listEntry.d-none "S5" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "S5"
+                    li.listEntry.d-none "S6" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "S6"
+                    li.listEntry.d-none "S7" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "S7"
+                    li.listEntry.d-none "S8" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "S8"
+                    li.listEntry.d-none "SQ2" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "SQ2"
+                    li.listEntry.d-none "SQ5" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "SQ5"
+                    li.listEntry.d-none "SQ6" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "SQ6"
+                    li.listEntry.d-none "SQ7" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "SQ7"
+                    li.listEntry.d-none "SQ8" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "SQ8"
+                    li.listEntry.d-none "TT" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "TT"
+                    li.listEntry.d-none "Alhambra" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Alhambra"
+                    li.listEntry.d-none "Arona" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Arona"
+                    li.listEntry.d-none "Ateca" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Ateca"
+                    li.listEntry.d-none "Ibiza" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Ibiza"
+                    li.listEntry.d-none "Leon" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Leon"
+                    li.listEntry.d-none "Mii electric" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Mii electric"
+                    li.listEntry.d-none "Tarraco" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Tarraco"
+                    li.listEntry.d-none "Altea" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Altea"
+                    li.listEntry.d-none "Born" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Born"
+                    li.listEntry.d-none "Formentor" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Formentor"
+                    li.listEntry.d-none "Ateca" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Ateca"
+                    li.listEntry.d-none "Born" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Born"
+                    li.listEntry.d-none "Formentor" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Formentor"
+                    li.listEntry.d-none "Leon" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Leon"
+                    li.listEntry.d-none "Tavascan" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Tavascan"
+                    li.listEntry.d-none "Terramar" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Terramar"
+                    li.listEntry.d-none "Raval" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Raval"
+                    li.listEntry.d-none "Enyaq" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Enyaq"
+                    li.listEntry.d-none "Elroq" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Elroq"
+                    li.listEntry.d-none "Fabia" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Fabia"
+                    li.listEntry.d-none "Kamiq" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Kamiq"
+                    li.listEntry.d-none "Karoq" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Karoq"
+                    li.listEntry.d-none "Kodiaq" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Kodiaq"
+                    li.listEntry.d-none "Octavia" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Octavia"
+                    li.listEntry.d-none "Scala" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Scala"
+                    li.listEntry.d-none "Superb" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Superb"
+                    li.listEntry.d-none "Epiq" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Epiq"
+                    li.listEntry.d-none "Peaq" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Peaq"
+                    li.listEntry.d-none "Amarok" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Amarok"
+                    li.listEntry.d-none "Caddy Life" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Caddy Life"
+                    li.listEntry.d-none "Caddy Cargo" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Caddy Cargo"
+                    li.listEntry.d-none "California Beach" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "California Beach"
+                    li.listEntry.d-none "Grand California" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Grand California"
+                    li.listEntry.d-none "Crafter" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Crafter"
+                    li.listEntry.d-none "ID. Buzz" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "ID. Buzz"
+                    li.listEntry.d-none "ID. Buzz Cargo" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "ID. Buzz Cargo"
+                    li.listEntry.d-none "Multivan" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Multivan"
+                    li.listEntry.d-none "Transporter" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Transporter"
+                    li.listEntry.d-none "Caddy" [hidden]
+                      a.text-decoration-none {href=javascript:void(0)} "Caddy"
+              div.amag-dspSearch__filterDropdown.col-lg-3
+                div#bodyType.amag-dspSearch__dropdown.d-flex
+                  div.amag-dspSearch__dropdown_text "All"
+                  svg.ml-auto {svg:0 0 24 24 661ch}
+                    path
+                div#bodyTypeList.amag-dspSearch__filter_list.hide
+                  ul
+                    li.listEntry "All"
+                      a.text-decoration-none {href=javascript:void(0)} "All"
+                    li.listEntry "Station wagon"
+                      a.text-decoration-none {href=javascript:void(0)} "Station wagon"
+                    li.listEntry "SUV"
+                      a.text-decoration-none {href=javascript:void(0)} "SUV"
+                    li.listEntry "VAN"
+                      a.text-decoration-none {href=javascript:void(0)} "VAN"
+                    li.listEntry "Sedan"
+                      a.text-decoration-none {href=javascript:void(0)} "Sedan"
+                    li.listEntry "Coupé"
+                      a.text-decoration-none {href=javascript:void(0)} "Coupé"
+                    li.listEntry "Sports Car"
+                      a.text-decoration-none {href=javascript:void(0)} "Sports Car"
+                    li.listEntry "Convertible"
+                      a.text-decoration-none {href=javascript:void(0)} "Convertible"
+                    li.listEntry "Bus"
+                      a.text-decoration-none {href=javascript:void(0)} "Bus"
+                    li.listEntry "Camper"
+                      a.text-decoration-none {href=javascript:void(0)} "Camper"
+                    li.listEntry "Pickup"
+                      a.text-decoration-none {href=javascript:void(0)} "Pickup"
+                    li.listEntry "Chassis Cabin"
+                      a.text-decoration-none {href=javascript:void(0)} "Chassis Cabin"
+                    li.listEntry "Tipper"
+                      a.text-decoration-none {href=javascript:void(0)} "Tipper"
+                    li.listEntry "Other"
+                      a.text-decoration-none {href=javascript:void(0)} "Other"
+              div.amag-dspSearch__filterDropdown.col-lg-3
+                div#price.amag-dspSearch__dropdown.d-flex
+                  div.amag-dspSearch__dropdown_text "All prices"
+                  svg.ml-auto {svg:0 0 24 24 661ch}
+                    path
+                div#priceList.amag-dspSearch__filter_list.hide
+                  ul
+                    li.listEntry "All prices"
+                      a.text-decoration-none {href=javascript:void(0)} "All prices"
+                    li.listEntry "Until CHF 1'000"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 1'000"
+                    li.listEntry "Until CHF 2'000"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 2'000"
+                    li.listEntry "Until CHF 3'000"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 3'000"
+                    li.listEntry "Until CHF 4'000"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 4'000"
+                    li.listEntry "Until CHF 5'000"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 5'000"
+                    li.listEntry "Until CHF 7'500"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 7'500"
+                    li.listEntry "Until CHF 10'000"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 10'000"
+                    li.listEntry "Until CHF 12'500"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 12'500"
+                    li.listEntry "Until CHF 15'000"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 15'000"
+                    li.listEntry "Until CHF 17'500"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 17'500"
+                    li.listEntry "Until CHF 20'000"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 20'000"
+                    li.listEntry "Until CHF 22'500"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 22'500"
+                    li.listEntry "Until CHF 25'000"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 25'000"
+                    li.listEntry "Until CHF 30'000"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 30'000"
+                    li.listEntry "Until CHF 35'000"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 35'000"
+                    li.listEntry "Until CHF 40'000"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 40'000"
+                    li.listEntry "Until CHF 45'000"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 45'000"
+                    li.listEntry "Until CHF 50'000"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 50'000"
+                    li.listEntry "Until CHF 60'000"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 60'000"
+                    li.listEntry "Until CHF 70'000"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 70'000"
+                    li.listEntry "Until CHF 80'000"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 80'000"
+                    li.listEntry "Until CHF 90'000"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 90'000"
+                    li.listEntry "Until CHF 100'000"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 100'000"
+                    li.listEntry "Until CHF 150'000"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 150'000"
+                    li.listEntry "Until CHF 200'000"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 200'000"
+                    li.listEntry "Until CHF 300'000"
+                      a.text-decoration-none {href=javascript:void(0)} "Until CHF 300'000"
+            div.amag-dspSearch__searchButton.offset-md-2.col-md-8.col-lg-3.offset-lg-0 {style=display:none !important;}
+              a.amag-ctaWrapper__button.amag-ctaWrapper__button--bgColor-amagViolet.d-flex.justify-content-center.align-items-center.text-decoration-none {href=https://auto.amag.ch/de} "Find vehicles"
+                svg {svg:0 0 32 32 1695ch}
+                  path
+                  path
+  section.section
+    div#promo.amagCh-section.amagCh-section--colored.amagCh-section--white
+      div.amagCh-section__stepswrapper-before.background-color-white
+        div.stepscontainer
+          div.left
+          div.right
+      div.amagCh-section__container
+        div.m-auto
+          div.promotionTeaserBox
+            div.amag-promotionTeaserBox.amag-marginBottom
+              div.amag-promotionTeaserBox__introWrapper.mx-0
+                div.col-lg-2.col-md-3.col-sm-12.px-0
+                  p.amag-promotionTeaserBox__topline.text-uppercase "AMAG"
+                div.col-lg-8.col-md-7.col-sm-12.offset-lg-1.offset-md-1.px-0
+                  h2.amag-promotionTeaserBox__headline "AMAG NEWS"
+              div.amag-promotionTeaserBox__content
+                div.amag-promotionTeaser.col-lg-6.col-md-6.col-sm-12
+                  div.amag-promotionTeaser__wrapper {style=background-color: #006431;}
+                    a.text-decoration-none {href=https://www.amag.ch/en/promotion/skoda/epiq.html?filters=C} "Škoda Promotion The new Škoda Epiq from CHF 209.–/month Compact design"
+                      div.col-sm-12
+                        div.amag-promotionTeaser__imageWrapper
+                          picture
+                            source {media=(min-width: 1200px) | srcset=330&hei=165&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 330w}
+                            source {media=(min-width: 768px) | srcset=330&hei=165&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 330w}
+                            source {media=(min-width: 360px) | srcset=330&hei=165&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 330w}
+                            img.template-dynamic-image.amag-promotionTeaser__image {src=ei=315&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 | alt= | srcset=0}
+                      div.col-sm-12
+                        div.amag-promotionTeaser__textWrapper
+                          div.amag-promotionTeaser__toplineTextWrapper
+                            p.amag-promotionTeaser__topline.text-uppercase "Škoda Promotion"
+                            h3.amag-promotionTeaser__text "The new Škoda Epiq from CHF 209.–/month"
+                            p.amag-promotionTeaser__copytext "Compact design. Made big."
+                          div.amag-promotionTeaser__buttonWrapper
+                            div.amag-promotionTeaser__button "Benefit now"
+                          div.amag-promotionTeaser__hoverWrapper {style=background-color: #006431;}
+                div.amag-promotionTeaser.col-lg-6.col-md-6.col-sm-12
+                  div.amag-promotionTeaser__wrapper {style=background-color: #222222;}
+                    a.text-decoration-none {href=https://www.amag.ch/en/promotion/audi/a3.html?filters=A} "Audi Promotion The new Audi A3 Ambition now from 253.-/ month Sporty d"
+                      div.col-sm-12
+                        div.amag-promotionTeaser__imageWrapper
+                          picture
+                            source {media=(min-width: 1200px) | srcset=330&hei=165&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 330w}
+                            source {media=(min-width: 768px) | srcset=330&hei=165&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 330w}
+                            source {media=(min-width: 360px) | srcset=330&hei=165&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 330w}
+                            img.template-dynamic-image.amag-promotionTeaser__image {src=ei=315&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 | alt= | srcset=0}
+                      div.col-sm-12
+                        div.amag-promotionTeaser__textWrapper
+                          div.amag-promotionTeaser__toplineTextWrapper
+                            p.amag-promotionTeaser__topline.text-uppercase "Audi Promotion"
+                            h3.amag-promotionTeaser__text "The new Audi A3 Ambition now from 253.-/ month"
+                            p.amag-promotionTeaser__copytext "Sporty design, modern technology and premium comfort"
+                          div.amag-promotionTeaser__buttonWrapper
+                            div.amag-promotionTeaser__button "Benefit now"
+                          div.amag-promotionTeaser__hoverWrapper {style=background-color: #222222;}
+                div.amag-promotionTeaser.col-lg-6.col-md-6.col-sm-12
+                  div.amag-promotionTeaser__wrapper {style=background-color: #801977;}
+                    a.text-decoration-none {href=https://www.amag.ch/en/newsletter/subscribe.html} "AMAG Newsletter News and promotions directly in your email inbox Exclu"
+                      div.col-sm-12
+                        div.amag-promotionTeaser__imageWrapper
+                          picture
+                            source {media=(min-width: 1200px) | srcset=330&hei=165&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 330w}
+                            source {media=(min-width: 768px) | srcset=330&hei=165&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 330w}
+                            source {media=(min-width: 360px) | srcset=330&hei=165&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 330w}
+                            img.template-dynamic-image.amag-promotionTeaser__image {src=ei=315&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 | alt= | srcset=0}
+                      div.col-sm-12
+                        div.amag-promotionTeaser__textWrapper
+                          div.amag-promotionTeaser__toplineTextWrapper
+                            p.amag-promotionTeaser__topline.text-uppercase "AMAG Newsletter"
+                            h3.amag-promotionTeaser__text "News and promotions directly in your email inbox"
+                            p.amag-promotionTeaser__copytext "Exclusive offers and attractive discounts"
+                          div.amag-promotionTeaser__buttonWrapper
+                            div.amag-promotionTeaser__button "Subscribe to the newsletter now"
+                          div.amag-promotionTeaser__hoverWrapper {style=background-color: #801977;}
+                  div.amag-promotionTeaser__amagLogoWrapper
+                    img.amag-promotionTeaser__amagLogoImage {src=sources/img/promotions/promotionTeaserLogoAmag.png | alt=icon | srcset=0}
+                div.amag-promotionTeaser.col-lg-6.col-md-6.col-sm-12
+                  div.amag-promotionTeaser__wrapper {style=background-color: #009ee0;}
+                    a.text-decoration-none {href=https://www.amag.ch/en/promotion/vw/id-polo.html?filters=V} "VW Promotion The new ID. Polo from CHF 199.–/ month Reimagined small c"
+                      div.col-sm-12
+                        div.amag-promotionTeaser__imageWrapper
+                          picture
+                            source {media=(min-width: 1200px) | srcset=330&hei=165&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 330w}
+                            source {media=(min-width: 768px) | srcset=330&hei=165&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 330w}
+                            source {media=(min-width: 360px) | srcset=330&hei=165&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 330w}
+                            img.template-dynamic-image.amag-promotionTeaser__image {src=ei=315&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 | alt= | srcset=0}
+                      div.col-sm-12
+                        div.amag-promotionTeaser__textWrapper
+                          div.amag-promotionTeaser__toplineTextWrapper
+                            p.amag-promotionTeaser__topline.text-uppercase "VW Promotion"
+                            h3.amag-promotionTeaser__text "The new ID. Polo from CHF 199.–/ month"
+                            p.amag-promotionTeaser__copytext "Reimagined small car."
+                          div.amag-promotionTeaser__buttonWrapper
+                            div.amag-promotionTeaser__button "Benefit now"
+                          div.amag-promotionTeaser__hoverWrapper {style=background-color: #009ee0;}
+                div.amag-promotionTeaser.col-lg-6.col-md-6.col-sm-12 {style=display: none;}
+                  div.amag-promotionTeaser__wrapper {style=background-color: #172983;}
+                    a.text-decoration-none {href=https://www.amag.ch/en/service/reifen-und-raeder/winterreife} "Wheel change CHF 15.- Early booking discount on your tyre or wheel cha"
+                      div.col-sm-12
+                        div.amag-promotionTeaser__imageWrapper
+                          picture
+                            source {media=(min-width: 1200px) | srcset=330&hei=165&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 330w}
+                            source {media=(min-width: 768px) | srcset=330&hei=165&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 330w}
+                            source {media=(min-width: 360px) | srcset=330&hei=165&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 330w}
+                            img.template-dynamic-image.amag-promotionTeaser__image {src=ei=315&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 | alt= | srcset=0}
+                      div.col-sm-12
+                        div.amag-promotionTeaser__textWrapper
+                          div.amag-promotionTeaser__toplineTextWrapper
+                            p.amag-promotionTeaser__topline.text-uppercase "Wheel change"
+                            h3.amag-promotionTeaser__text "CHF 15.- Early booking discount on your tyre or wheel change"
+                            p.amag-promotionTeaser__copytext "Only for appointments until 10 october!"
+                          div.amag-promotionTeaser__buttonWrapper
+                            div.amag-promotionTeaser__button "Book an appointment"
+                          div.amag-promotionTeaser__hoverWrapper {style=background-color: #172983;}
+                  div.amag-promotionTeaser__amagLogoWrapper
+                    img.amag-promotionTeaser__amagLogoImage {src=sources/img/promotions/promotionTeaserLogoAmag.png | alt=icon | srcset=0}
+                div.amag-promotionTeaser.col-lg-6.col-md-6.col-sm-12 {style=display: none;}
+                  div.amag-promotionTeaser__wrapper {style=background-color: #222222;}
+                    a.text-decoration-none {href=https://www.amag.ch/en/promotions/as/after-sales-kontaktform} "Safe on the road Offer for new winter tyres We will gladly prepare an "
+                      div.col-sm-12
+                        div.amag-promotionTeaser__imageWrapper
+                          picture
+                            source {media=(min-width: 1200px) | srcset=330&hei=165&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 330w}
+                            source {media=(min-width: 768px) | srcset=330&hei=165&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 330w}
+                            source {media=(min-width: 360px) | srcset=330&hei=165&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 330w}
+                            img.template-dynamic-image.amag-promotionTeaser__image {src=ei=315&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 | alt= | srcset=0}
+                      div.col-sm-12
+                        div.amag-promotionTeaser__textWrapper
+                          div.amag-promotionTeaser__toplineTextWrapper
+                            p.amag-promotionTeaser__topline.text-uppercase "Safe on the road"
+                            h3.amag-promotionTeaser__text "Offer for new winter tyres"
+                            p.amag-promotionTeaser__copytext "We will gladly prepare an offer for new winter tyres for you"
+                          div.amag-promotionTeaser__buttonWrapper
+                            div.amag-promotionTeaser__button "Request a quote"
+                          div.amag-promotionTeaser__hoverWrapper {style=background-color: #222222;}
+                div.amag-promotionTeaser.col-lg-6.col-md-6.col-sm-12 {style=display: none;}
+                  div.amag-promotionTeaser__wrapper {style=background-color: #801977;}
+                    a.text-decoration-none {href=https://www.amag.ch/en/cards/charging-card.html} "Your EV advantage Cheaper charging at AMAG: only 28 rappen per kWh Sim"
+                      div.col-sm-12
+                        div.amag-promotionTeaser__imageWrapper
+                          picture
+                            source {media=(min-width: 1200px) | srcset=ons/original.transform/w630_h315-promotionTeaserAmag/img.jpg}
+                            source {media=(min-width: 768px) | srcset=ons/original.transform/w660_h330-promotionTeaserAmag/img.jpg}
+                            source {media=(min-width: 360px) | srcset=ons/original.transform/w660_h330-promotionTeaserAmag/img.jpg}
+                            img.template-image.amag-promotionTeaser__image.dam-image {src=al.transform/w630_h315-promotionTeaserAmag/img.jpg | alt=amag-ladeaktion-0.28-kwh-de.png | srcset=0}
+                      div.col-sm-12
+                        div.amag-promotionTeaser__textWrapper
+                          div.amag-promotionTeaser__toplineTextWrapper
+                            p.amag-promotionTeaser__topline.text-uppercase "Your EV advantage"
+                            h3.amag-promotionTeaser__text "Cheaper charging at AMAG: only 28 rappen per kWh"
+                            p.amag-promotionTeaser__copytext "Simple charging at a special rate."
+                          div.amag-promotionTeaser__buttonWrapper
+                            div.amag-promotionTeaser__button "Find out more"
+                          div.amag-promotionTeaser__hoverWrapper {style=background-color: #801977;}
+                  div.amag-promotionTeaser__amagLogoWrapper
+                    img.amag-promotionTeaser__amagLogoImage {src=sources/img/promotions/promotionTeaserLogoAmag.png | alt=icon | srcset=0}
+                div.amag-promotionTeaser.col-lg-6.col-md-6.col-sm-12 {style=display: none;}
+                  div.amag-promotionTeaser__wrapper {style=background-color: #172983;}
+                    a.text-decoration-none {href=https://www.amag.ch/en/service/top-services/markenversicheru} "3 months for free! Take out Zürich brand insurance and benefit 12 mont"
+                      div.col-sm-12
+                        div.amag-promotionTeaser__imageWrapper
+                          picture
+                            source {media=(min-width: 1200px) | srcset=330&hei=165&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 330w}
+                            source {media=(min-width: 768px) | srcset=330&hei=165&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 330w}
+                            source {media=(min-width: 360px) | srcset=330&hei=165&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 330w}
+                            img.template-dynamic-image.amag-promotionTeaser__image {src=ei=315&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0 | alt= | srcset=0}
+                      div.col-sm-12
+                        div.amag-promotionTeaser__textWrapper
+                          div.amag-promotionTeaser__toplineTextWrapper
+                            p.amag-promotionTeaser__topline.text-uppercase "3 months for free!"
+                            h3.amag-promotionTeaser__text "Take out Zürich brand insurance and benefit"
+                            p.amag-promotionTeaser__copytext "12 months insured, but only pay for 9 months"
+                          div.amag-promotionTeaser__buttonWrapper
+                            div.amag-promotionTeaser__button "More information"
+                          div.amag-promotionTeaser__hoverWrapper {style=background-color: #172983;}
+                  div.amag-promotionTeaser__amagLogoWrapper
+                    img.amag-promotionTeaser__amagLogoImage {src=sources/img/promotions/promotionTeaserLogoAmag.png | alt=icon | srcset=0}
+                div.amag-promotionTeaser.col-lg-6.col-md-6.col-sm-12 {style=display: none;}
+                  div.amag-promotionTeaser__wrapper {style=background-color: #801977;}
+                    a.text-decoration-none {href=https://www.amag.ch/en/find-vehicle/cars-amag/e-mobility.htm} "Info, tips, vehicles It’s so easy to switch to an electric car! Your o"
+                      div.col-sm-12
+                        div.amag-promotionTeaser__imageWrapper
+                          picture
+                            source {media=(min-width: 1200px) | srcset=ons/original.transform/w630_h315-promotionTeaserAmag/img.png}
+                            source {media=(min-width: 768px) | srcset=ons/original.transform/w660_h330-promotionTeaserAmag/img.png}
+                            source {media=(min-width: 360px) | srcset=ons/original.transform/w660_h330-promotionTeaserAmag/img.png}
+                            img.template-image.amag-promotionTeaser__image.dam-image {src=al.transform/w630_h315-promotionTeaserAmag/img.png | alt=70 Jahre SEAT | srcset=0}
+                      div.col-sm-12
+                        div.amag-promotionTeaser__textWrapper
+                          div.amag-promotionTeaser__toplineTextWrapper
+                            p.amag-promotionTeaser__topline.text-uppercase "Info, tips, vehicles"
+                            h3.amag-promotionTeaser__text "It’s so easy to switch to an electric car!"
+                            p.amag-promotionTeaser__copytext "Your one-stop shop for e-mobility!"
+                          div.amag-promotionTeaser__buttonWrapper
+                            div.amag-promotionTeaser__button "Find out more"
+                          div.amag-promotionTeaser__hoverWrapper {style=background-color: #801977;}
+                  div.amag-promotionTeaser__amagLogoWrapper
+                    img.amag-promotionTeaser__amagLogoImage {src=sources/img/promotions/promotionTeaserLogoAmag.png | alt=icon | srcset=0}
+              button.amag-promotionTeaserBox__showMoreBtn "Show more"
+                svg {svg:0 0 32 32 540ch}
+                  path
+  section.section
+    div.amagCh-section.#FFFFFF.amagCh-section--white
+      div.amagCh-section__stepswrapper-before.background-color-colored.d-none [hidden]
+        div.stepscontainer
+          div.left
+          div.right
+      div.amagCh-section__container
+        div.m-auto
+          div.amagCh-section-description.offset-lg-1.col-12.col-lg-11
+            div
+              div.wrapper.justify-content-center.align-items-center.col-12.p-0
+                p.amagCh-section-description__theme.amag-topline.col-sm-12.col-md-3.p-0 "WELCOME TO AMAG"
+                h2.amagCh-section-description__headline.col-sm-12.col-md-9.p-0 "From purchase via service to sale of your car – at AMAG you will find "
+          div.amagCh-carousel.d-block
+            div#carousel-5e68914c03.cmp-carousel.col-12.amag-marginBottom
+              div.cmp-carousel__content
+                div.amagCh-carousel-head.col-12.amagCh-carousel-head--noTextNoLink
+                  div
+                    div.wrapper.justify-content-center.align-items-center.col-12.p-0
+                      div.m-0.w-100
+                        h4.amagCh-carousel-description__headline.col-sm-12.col-md-9.p-0 "Your dream car from AMAG"
+                div.cmp-carousel__actions
+                  button.cmp-carousel__action.d-none.d-lg-block.cmp-carousel__action--previous [hidden]
+                    span.cmp-carousel__action-icon
+                      svg.icon-left {svg:0 0 40 40 1044ch}
+                        path
+                  button.cmp-carousel__action.d-none.d-lg-block.cmp-carousel__action--next [hidden]
+                    span.cmp-carousel__action-icon
+                      svg.icon-right {svg:0 0 40 40 932ch}
+                        path
+                  div.cmp-carousel__indicatorsNumber
+                    span.cmp-carousel__activeItemIndex "1"
+                    span.cmp-carousel__slash "/"
+                    span.cmp-carousel__itemsLength "4"
+                div.cmp-carousel__items.col-sm-10.col-lg-12
+                  div#carousel-5e68914c03-item-1578143afc-tabpanel.threeCol.cmp-carousel__item.cmp-carousel__item--active
+                    div.amag-contentTeaserS
+                      div.amag-contentTeaserS__content
+                        div.amag-contentTeaserS__textWrapper
+                          h3.amag-contentTeaserS__headline.hyphens "Buy or lease a car"
+                          p.amag-contentTeaserS__text "Find what you’re looking for here. Discover all the offers from your A"
+                          div.amag-contentTeaserS__link
+                            a.amag-linkWrapper__link {href=/en/find-vehicle.html} "Find out more"
+                  div#carousel-5e68914c03-item-86b6b787ce-tabpanel.threeCol.cmp-carousel__item
+                    div.amag-contentTeaserS
+                      div.amag-contentTeaserS__content
+                        div.amag-contentTeaserS__textWrapper
+                          h3.amag-contentTeaserS__headline.hyphens "AMAG car subscription"
+                          p.amag-contentTeaserS__text "Get your dream car for a flat price per month - everything except fuel"
+                          div.amag-contentTeaserS__link
+                            a.amag-linkWrapper__link {href=/en/find-vehicle/cars-amag/abo.html} "Find out more"
+                  div#carousel-5e68914c03-item-92c32e8705-tabpanel.threeCol.cmp-carousel__item
+                    div.amag-contentTeaserS
+                      div.amag-contentTeaserS__content
+                        div.amag-contentTeaserS__textWrapper
+                          h3.amag-contentTeaserS__headline.hyphens "Test drive now"
+                          p.amag-contentTeaserS__text "Experience your dream car live during a test drive."
+                          div.amag-contentTeaserS__link
+                            a.amag-linkWrapper__link {href=/en/testdrive.html} "Book a test drive"
+                  div#carousel-5e68914c03-item-9a705df475-tabpanel.threeCol.cmp-carousel__item
+                    div.amag-contentTeaserS
+                      div.amag-contentTeaserS__content
+                        div.amag-contentTeaserS__textWrapper
+                          h3.amag-contentTeaserS__headline.hyphens "Mobility partners"
+                          p.amag-contentTeaserS__text "We offer a comprehensive energy and mobility solution – from charging "
+                          div.amag-contentTeaserS__link
+                            a.amag-linkWrapper__link {href=/en/find-vehicle/partner.html} "Find out more"
+                div.cmp-carousel__captionitems.col-sm-10.col-lg-12.p-0 {style=display: none;}
+                  div#carousel-5e68914c03-item-1578143afc-tab.threeCol.cmp-carousel__captionitem.cmp-carousel__indicator.cmp-carousel__indicator--active
+                    div.cmp-carousel__indicatortext
+                  div#carousel-5e68914c03-item-86b6b787ce-tab.threeCol.cmp-carousel__captionitem.cmp-carousel__indicator
+                    div.cmp-carousel__indicatortext
+                  div#carousel-5e68914c03-item-92c32e8705-tab.threeCol.cmp-carousel__captionitem.cmp-carousel__indicator
+                    div.cmp-carousel__indicatortext
+                  div#carousel-5e68914c03-item-9a705df475-tab.threeCol.cmp-carousel__captionitem.cmp-carousel__indicator
+                    div.cmp-carousel__indicatortext
+                ol.cmp-carousel__indicators.d-none [hidden]
+                  li.cmp-carousel__indicator.cmp-carousel__indicator--active
+                  li.cmp-carousel__indicator
+                  li.cmp-carousel__indicator
+                  li.cmp-carousel__indicator
+          div.amagCh-carousel.d-block
+            div#carousel-0ac27a0f9b.cmp-carousel.col-12.amag-marginBottom
+              div.cmp-carousel__content
+                div.amagCh-carousel-head.col-12.amagCh-carousel-head--noTextNoLink
+                  div
+                    div.wrapper.justify-content-center.align-items-center.col-12.p-0
+                      div.m-0.w-100
+                        h4.amagCh-carousel-description__headline.col-sm-12.col-md-9.p-0 "Our services for you"
+                div.cmp-carousel__actions
+                  button.cmp-carousel__action.d-none.d-lg-block.cmp-carousel__action--previous [hidden]
+                    span.cmp-carousel__action-icon
+                      svg.icon-left {svg:0 0 40 40 1044ch}
+                        path
+                  button.cmp-carousel__action.d-none.d-lg-block.cmp-carousel__action--next [hidden]
+                    span.cmp-carousel__action-icon
+                      svg.icon-right {svg:0 0 40 40 932ch}
+                        path
+                  div.cmp-carousel__indicatorsNumber
+                    span.cmp-carousel__activeItemIndex "1"
+                    span.cmp-carousel__slash "/"
+                    span.cmp-carousel__itemsLength "4"
+                div.cmp-carousel__items.col-sm-10.col-lg-12
+                  div#carousel-0ac27a0f9b-item-e9c047b6e6-tabpanel.threeCol.cmp-carousel__item.cmp-carousel__item--active
+                    div.amag-contentTeaserS
+                      div.amag-contentTeaserS__content
+                        div.amag-contentTeaserS__textWrapper
+                          h3.amag-contentTeaserS__headline.hyphens "Your online appointment"
+                          p.amag-contentTeaserS__text "Without detours directly online on the desired date at an AMAG garage "
+                          div.amag-contentTeaserS__link
+                            a.amag-linkWrapper__link {href=/en/services/otv.html} "Arrange an appointment"
+                  div#carousel-0ac27a0f9b-item-9244f638f9-tabpanel.threeCol.cmp-carousel__item
+                    div.amag-contentTeaserS
+                      div.amag-contentTeaserS__content
+                        div.amag-contentTeaserS__textWrapper
+                          h3.amag-contentTeaserS__headline.hyphens "Top garage services"
+                          p.amag-contentTeaserS__text "Quality and speed: our service and workshop staff are here for you."
+                          div.amag-contentTeaserS__link
+                            a.amag-linkWrapper__link {href=/en/services/top-services.html} "Find out more"
+                  div#carousel-0ac27a0f9b-item-f8ff6e2995-tabpanel.threeCol.cmp-carousel__item
+                    div.amag-contentTeaserS
+                      div.amag-contentTeaserS__content
+                        div.amag-contentTeaserS__textWrapper
+                          h3.amag-contentTeaserS__headline.hyphens "Help in case of damage"
+                          p.amag-contentTeaserS__text "Whether breakdown or hail damage. We are here for you 24/7."
+                          div.amag-contentTeaserS__link
+                            a.amag-linkWrapper__link {href=/en/services/help-in-case-of-damage.html} "Find out more"
+                  div#carousel-0ac27a0f9b-item-cda94f864a-tabpanel.threeCol.cmp-carousel__item
+                    div.amag-contentTeaserS
+                      div.amag-contentTeaserS__content
+                        div.amag-contentTeaserS__textWrapper
+                          h3.amag-contentTeaserS__headline.hyphens "AMAG App"
+                          p.amag-contentTeaserS__text "Your garage in an app: Get a direct line to all AMAG services on your "
+                          div.amag-contentTeaserS__link
+                            a.amag-linkWrapper__link {href=/en/services/top-services/app.html} "Find out more"
+                div.cmp-carousel__captionitems.col-sm-10.col-lg-12.p-0 {style=display: none;}
+                  div#carousel-0ac27a0f9b-item-e9c047b6e6-tab.threeCol.cmp-carousel__captionitem.cmp-carousel__indicator.cmp-carousel__indicator--active
+                    div.cmp-carousel__indicatortext
+                  div#carousel-0ac27a0f9b-item-9244f638f9-tab.threeCol.cmp-carousel__captionitem.cmp-carousel__indicator
+                    div.cmp-carousel__indicatortext
+                  div#carousel-0ac27a0f9b-item-f8ff6e2995-tab.threeCol.cmp-carousel__captionitem.cmp-carousel__indicator
+                    div.cmp-carousel__indicatortext
+                  div#carousel-0ac27a0f9b-item-cda94f864a-tab.threeCol.cmp-carousel__captionitem.cmp-carousel__indicator
+                    div.cmp-carousel__indicatortext
+                ol.cmp-carousel__indicators.d-none [hidden]
+                  li.cmp-carousel__indicator.cmp-carousel__indicator--active
+                  li.cmp-carousel__indicator
+                  li.cmp-carousel__indicator
+                  li.cmp-carousel__indicator
+  section.section
+    div.amagCh-section.#FFFFFF.amagCh-section--white
+      div.amagCh-section__stepswrapper-before.background-color-white
+        div.stepscontainer
+          div.left
+          div.right
+      div.amagCh-section__container
+        div.m-auto
+          div.amagCh-section-description.offset-lg-1.col-12.col-lg-11
+            div
+              div.wrapper.justify-content-center.align-items-center.col-12.p-0
+                p.amagCh-section-description__theme.amag-topline.col-sm-12.col-md-3.p-0 "SERVICES"
+                h2.amagCh-section-description__headline.col-sm-12.col-md-9.p-0 "Our most requested services"
+              div.amagCh-section-description__subtext.col-12.p-0
+                p.m-0 "The best service brings highest safety and comfort. How can we be of f"
+          div.amag-serviceContainerWrapper.amag-marginBottom
+            div.amag-serviceContainerWrapper__image.d-sm-none.d-md-block
+              picture
+                source {media=(min-width: 1200px) | srcset=tions/original.transform/w1440_h400-serviceContainer/img.jpg}
+                source {media=(min-width: 768px) | srcset=itions/original.transform/w768_h433-serviceContainer/img.jpg}
+                source {media=(min-width: 360px) | srcset=itions/original.transform/w360_h480-serviceContainer/img.jpg}
+                img.template-image.dam-image {src=inal.transform/w1440_h400-serviceContainer/img.jpg | alt= | srcset=0}
+            div.amag-serviceContainerWrapper__counter.d-sm-block.d-md-none.col-sm-3
+              p "1/3"
+                span.amag-serviceContainerWrapper__counter--current "1"
+                span.amag-serviceContainerWrapper__counter--count "3"
+            div.amag-serviceContainerWrapper__serviceBox.d-flex.carousel.slide
+              div.amag-serviceBoxWrapper.active.col-sm-9.col-md-4.carousel-item.carousel-align-left
+                div.amag-serviceBoxWrapper__content
+                  img.amag-serviceBoxWrapper__content--image {src=e-dateien/icons/blau/car-tool-steering-wheel-1.svg | alt=Tyres and wheels | srcset=0}
+                  div.amag-serviceBoxWrapper__content--headline
+                    p "Tyres and wheels"
+                  div.amag-serviceBoxWrapper__content--textarea
+                    p "Summer tyre change"
+                    p "Winter tyre change"
+                    p "Complete wheels"
+                    p "All-season tyres"
+                  div.amag-serviceBoxWrapper__content--link
+                    a.amag-linkWrapper__link.amag-linkWrapper__link--text-decoration-underline {href=/en/services/tyre-service.html} "About the service"
+              div.amag-serviceBoxWrapper.col-sm-9.col-md-4.carousel-item.carousel-align-left
+                div.amag-serviceBoxWrapper__content
+                  img.amag-serviceBoxWrapper__content--image {src=eien/icons/blau/temperature-thermometer-medium.svg | alt=Air conditioning service | srcset=0}
+                  div.amag-serviceBoxWrapper__content--headline
+                    p "Air conditioning service"
+                  div.amag-serviceBoxWrapper__content--textarea
+                    p "Cleaning"
+                    p "Fluid check"
+                    p "Functional check"
+                  div.amag-serviceBoxWrapper__content--link
+                    a.amag-linkWrapper__link.amag-linkWrapper__link--text-decoration-underline {href=/en/services/top-services/air-conditioning-service.html} "About the service"
+              div.amag-serviceBoxWrapper.col-sm-9.col-md-4.carousel-item.carousel-align-left
+                div.amag-serviceBoxWrapper__content
+                  img.amag-serviceBoxWrapper__content--image {src=emeinsame-dateien/icons/blau/car-actions-check.svg | alt=Car service / maintenance | srcset=0}
+                  div.amag-serviceBoxWrapper__content--headline
+                    p "Car service / maintenance"
+                  div.amag-serviceBoxWrapper__content--textarea
+                    p "Mobility guarantee"
+                    p "Original spare parts"
+                    p "Maintenance of the warranty"
+                  div.amag-serviceBoxWrapper__content--link
+                    a.amag-linkWrapper__link.amag-linkWrapper__link--text-decoration-underline {href=/en/services/top-services/car-service.html} "About the service"
+            div.amag-serviceContainerWrapper__ctaButton.col-sm-12.col-md-6.col-lg-4
+              a.amag-ctaWrapper__button.d-flex.justify-content-center.align-items-center.text-decoration-none.amag-ctaWrapper__button--bgColor-amagDark-blue {href=/en/services/otv.html} "Arrange an appointment"
+                img {src=/amag-ch/gemeinsame-dateien/icons/weiss/Termin.svg | alt= | srcset=0}
+  div.amag-divider.d-flex.justify-content-center
+    div.amag-divider__background
+      picture
+        source {media=(min-width: 1200px) | srcset=ent/renditions/original.transform/w1440_h400-divider/img.png}
+        source {media=(min-width: 768px) | srcset=tent/renditions/original.transform/w768_h433-divider/img.png}
+        source {media=(min-width: 360px) | srcset=tent/renditions/original.transform/w360_h203-divider/img.png}
+        img.template-image.dam-image {src=ions/original.transform/w1440_h400-divider/img.png | alt=AMAG Newsletter | srcset=0}
+    div.amag-divider__absoluteContainer
+      div.amag-divider__relativeContainer.mr-auto.ml-auto
+        div.amag-divider__content
+          div.amag-divider__contentBox.offset-md-4.offset-lg-6.col-sm-12.col-md-8.col-lg-6
+            p.amag-divider__topline.text-uppercase "AMAG Newsletter"
+            h3.amag-divider__headline "News and promotions directly into your inbox"
+            p.amag-divider__copytext "Top offers, attractive discounts and event invitations – with our news"
+            div.amag-divider__ctaButton.col-md-9.pl-0.pr-0
+              a.amag-ctaWrapper__button.d-flex.justify-content-center.align-items-center.text-decoration-none.amag-ctaWrapper__button--bgColor-amagViolet {href=https://www.amag.ch/en/newsletter/subscribe.html | style=background-color: rgb(128, 25, 119); color: rgb(255, 255, 255);} "Subscribe to newsletter"
+                img {src=h/gemeinsame-dateien/icons/weiss/w_arrow-right.svg | alt= | srcset=0}
+  section.section
+    div.amagCh-section.#FFFFFF.amagCh-section--white
+      div.amagCh-section__stepswrapper-before
+        div.stepscontainer
+          div.left
+          div.right
+      div.amagCh-section__container
+        div.m-auto
+          div.amag-quoteModul
+            p.amag-quoteModul__qoute "I was able to easily and conveniently book my appointment online. Than"
+            p.amag-quoteModul__author.mb-0 "Regula S."
+            p.amag-quoteModul__customerBy.mb-0 "Customer of AMAG"
+  section.section
+    div.amagCh-section.#FFFFFF.amagCh-section--white
+      div.amagCh-section__stepswrapper-before.background-color-white
+        div.stepscontainer
+          div.left
+          div.right
+      div.amagCh-section__container
+        div.m-auto
+          div.amag-iconListContainer
+            div.amag-marginBottom.amag-iconListContainer--spaceIconList
+              div.col-12.amag-iconListContainer__headline
+                h2 "Our AMAG pledge"
+              div.col-lg-4.col-md-4.col-sm-12.amag-iconListItem
+                div.mx-0.flex-md-column.flex-lg-row
+                  div.col-lg-auto.col-sm-auto.col-md-12.p-0
+                    div.amag-iconListItem__iconBox.amag-iconListItem__iconBox--bgGreyBlue.d-flex.align-items-center.justify-content-center.rounded-sm
+                      svg {svg:0 0 32 32 4542ch}
+                        g
+                          path
+                          path
+                          path
+                          path
+                        defs
+                          clippath#clip0
+                            rect
+                  div.col.p-0.amag-iconListItem__textBox
+                    p.mb-0.amag-iconListItem__title.d-flex.align-items-center "Full transparency"
+                    div.amag-iconListItem__text
+                      p "Largest selection of vehicles"
+                      p "Free test drive"
+                      p "Buy a vehicle online with just a few clicks"
+                      p "Fair trade-in price"
+              div.col-lg-4.col-md-4.col-sm-12.amag-iconListItem
+                div.mx-0.flex-md-column.flex-lg-row
+                  div.col-lg-auto.col-sm-auto.col-md-12.p-0
+                    div.amag-iconListItem__iconBox.amag-iconListItem__iconBox--bgGreyBlue.d-flex.align-items-center.justify-content-center.rounded-sm
+                      svg#Ebene_1 {svg:0 0 32 32 1924ch | style=enable-background:new 0 0 32 32;}
+                        style ".st0{fill:#172983;}"
+                        path.st0
+                  div.col.p-0.amag-iconListItem__textBox
+                    p.mb-0.amag-iconListItem__title.d-flex.align-items-center "Greater safety"
+                    div.amag-iconListItem__text
+                      p "15 day right of exchange for used vehicles"
+                      p "Quality check"
+                      p "Minimum 12-month warranty"
+                      p "Totalmobil vehicle insurance"
+              div.col-lg-4.col-md-4.col-sm-12.amag-iconListItem
+                div.mx-0.flex-md-column.flex-lg-row
+                  div.col-lg-auto.col-sm-auto.col-md-12.p-0
+                    div.amag-iconListItem__iconBox.amag-iconListItem__iconBox--bgGreyBlue.d-flex.align-items-center.justify-content-center.rounded-sm
+                      svg#Ebene_1 {svg:0 0 32 32 1429ch | style=enable-background:new 0 0 32 32;}
+                        style ".st0{clip-path:url(#SVGID_2_);} .st1{fill:#172983;}"
+                        g
+                          defs
+                            rect#SVGID_1_
+                          clippath#SVGID_2_
+                            use
+                          g.st0
+                            path.st1
+                            path.st1
+                  div.col.p-0.amag-iconListItem__textBox
+                    p.mb-0.amag-iconListItem__title.d-flex.align-items-center "Best service"
+                    div.amag-iconListItem__text
+                      p "Breakdown assistance 24h"
+                      p "Highest service quality"
+                      p "Attractive financing options"
+                      p "Individual insurance packages"
+  section.section
+    div.amagCh-section.#FFFFFF.amagCh-section--white
+      div.amagCh-section__stepswrapper-before.background-color-white
+        div.stepscontainer
+          div.left
+          div.right
+      div.amagCh-section__container
+        div.m-auto
+          div.accordion.panelcontainer
+            div#accordion-4ccbade43a.cmp-accordion.amag-marginBottom
+              div.cmp-accordion__intro
+                h2.cmp-accordion__headline "AMAG – your car dealership at 90 locations and online"
+                p.cmp-accordion__introText.col-lg-8.px-0 "Welcome to the biggest car dealership in Switzerland. As official Swis"
+              div.cmp-accordion__item
+                div.cmp-accordion__header
+                  button#accordion-4ccbade43a-item-6902b18af9-button.cmp-accordion__button "Buy vehicles directly online"
+                    h2.cmp-accordion__title "Buy vehicles directly online"
+                    span.cmp-accordion__icon
+                      svg {svg:0 0 24 24 670ch}
+                        path
+                div.cmp-accordion__panel.cmp-accordion__panel--hidden
+                  div.standardTeaser
+                    div.cmp-teaser.amag-standardTeaser
+                      div.cmp-teaser__content.col-lg-8.col-md-6.col-sm-12.amag-standardTeaser__content
+                        div.cmp-teaser__description.amag-standardTeaser__description
+                          p "On our online marketplace, find your dream car from our house brands V"
+              div.cmp-accordion__item
+                div.cmp-accordion__header
+                  button#accordion-4ccbade43a-item-9e9074153e-button.cmp-accordion__button "To sell your car to AMAG"
+                    h2.cmp-accordion__title "To sell your car to AMAG"
+                    span.cmp-accordion__icon
+                      svg {svg:0 0 24 24 670ch}
+                        path
+                div.cmp-accordion__panel.cmp-accordion__panel--hidden
+                  div.standardTeaser
+                    div.cmp-teaser.amag-standardTeaser
+                      div.cmp-teaser__content.col-lg-8.col-md-6.col-sm-12.amag-standardTeaser__content
+                        div.cmp-teaser__description.amag-standardTeaser__description
+                          p "Would you like to sell your used car? Then you’re right to turn to AMA"
+              div.cmp-accordion__item
+                div.cmp-accordion__header
+                  button#accordion-4ccbade43a-item-5d0064a0ff-button.cmp-accordion__button "All-round service for your car"
+                    h2.cmp-accordion__title "All-round service for your car"
+                    span.cmp-accordion__icon
+                      svg {svg:0 0 24 24 670ch}
+                        path
+                div.cmp-accordion__panel.cmp-accordion__panel--hidden
+                  div.standardTeaser
+                    div.cmp-teaser.amag-standardTeaser
+                      div.cmp-teaser__content.col-lg-8.col-md-6.col-sm-12.amag-standardTeaser__content
+                        div.cmp-teaser__description.amag-standardTeaser__description
+                          p "Also with regard to service, you’re in good hands with us at the garag"
+              div.cmp-accordion__item
+                div.cmp-accordion__header
+                  button#accordion-4ccbade43a-item-f94a2ab045-button.cmp-accordion__button "Find the AMAG garage of your choice"
+                    h2.cmp-accordion__title "Find the AMAG garage of your choice"
+                    span.cmp-accordion__icon
+                      svg {svg:0 0 24 24 670ch}
+                        path
+                div.cmp-accordion__panel.cmp-accordion__panel--hidden
+                  div.standardTeaser
+                    div.cmp-teaser.amag-standardTeaser
+                      div.cmp-teaser__content.col-lg-8.col-md-6.col-sm-12.amag-standardTeaser__content
+                        div.cmp-teaser__description.amag-standardTeaser__description
+                          p "Wherever you are, an AMAG garage is never far away. With our 90 locati"
+  div.amag-divider.d-flex.justify-content-center
+    div.amag-divider__background
+      picture
+        source {media=(min-width: 1200px) | srcset=ent/renditions/original.transform/w1440_h400-divider/img.png}
+        source {media=(min-width: 768px) | srcset=tent/renditions/original.transform/w768_h433-divider/img.png}
+        source {media=(min-width: 360px) | srcset=tent/renditions/original.transform/w360_h203-divider/img.png}
+        img.template-image.dam-image {src=ions/original.transform/w1440_h400-divider/img.png | alt=AMAG Jobs | srcset=0}
+    div.amag-divider__absoluteContainer
+      div.amag-divider__relativeContainer.mr-auto.ml-auto
+        div.amag-divider__content
+          div.amag-divider__contentBox.offset-md-4.offset-lg-6.col-sm-12.col-md-8.col-lg-6
+            h3.amag-divider__headline "Turn your passion into a profession"
+            p.amag-divider__copytext "Do you have ambitious goals? Take your chance and find your dream job "
+            div.amag-divider__ctaButton.col-md-9.pl-0.pr-0
+              a.amag-ctaWrapper__button.d-flex.justify-content-center.align-items-center.text-decoration-none.amag-ctaWrapper__button--bgColor-amagDark-blue {href=https://jobs-retail.amag.ch/} "About the jobs"
+                img {src=h/gemeinsame-dateien/icons/weiss/w_arrow-right.svg | alt= | srcset=0}
+  span.amag-pop-up__check-element
+===== footer
+footer
+  div.container-fluid.amag-footer.pl-0.pr-0
+    div.amag-footer__container
+      div.m-0.amag-footer__contentWrapper
+        div.col-sm-12.col-md.amag-footer__listWrapper.pr-0
+          a.amag-footer__toggleLink.d-flex.align-items-center.text-decoration-none {href=#listOne} "Assistance & contact"
+            p.amag-textWrapper__text "Assistance & contact"
+            svg.d-md-none {svg:0 0 20 14 1960ch}
+              g
+                path
+                path
+              defs
+                filter#filter0_d
+                  feflood
+                  fecolormatrix
+                  feoffset
+                  fegaussianblur
+                  fecolormatrix
+                  feblend
+                  feblend
+          div#listOne.collapse.show
+            ul.amag-footer__list.list-unstyled
+              li.amag-linkWrapper.list-unstyled "Contact"
+                a.amag-linkWrapper__link {href=/en/contact.html} "Contact"
+              li.amag-linkWrapper.list-unstyled "Online appointment"
+                a.amag-linkWrapper__link {href=/en/komponenten/car-dealers.html} "Online appointment"
+              li.amag-linkWrapper.list-unstyled "FAQ Online car purchase"
+                a.amag-linkWrapper__link {href=https://auto.amag.ch/de/hilfe-kontakt/faq-online-autokauf} "FAQ Online car purchase"
+              li.amag-linkWrapper.list-unstyled "Corporate clients"
+                a.amag-linkWrapper__link {href=/en/find-vehicle/cars-amag/fleet.html} "Corporate clients"
+              li.amag-linkWrapper.list-unstyled "Newsletter"
+                a.amag-linkWrapper__link {href=https://www.amag.ch/en/newsletter/subscribe.html} "Newsletter"
+              li.amag-linkWrapper.list-unstyled "Emergency"
+                a.amag-linkWrapper__link {href=/en/services/help-in-case-of-damage/totalmobil.html} "Emergency"
+        hr.amag-hrBreak.w-100.d-sm-inline-block.d-md-none
+        div.col-sm-12.col-md.amag-footer__listWrapper.pr-0
+          a.amag-footer__toggleLink.d-flex.align-items-center.text-decoration-none.collapsed {href=#listTwo} "Find a car & service"
+            p.amag-textWrapper__text "Find a car & service"
+            svg.d-md-none {svg:0 0 20 14 1960ch}
+              g
+                path
+                path
+              defs
+                filter#filter0_d
+                  feflood
+                  fecolormatrix
+                  feoffset
+                  fegaussianblur
+                  fecolormatrix
+                  feblend
+                  feblend
+          div#listTwo.collapse
+            ul.amag-footer__list.list-unstyled
+              li.amag-linkWrapper.list-unstyled "Find a vehicle"
+                a.amag-linkWrapper__link {href=https://auto.amag.ch/de} "Find a vehicle"
+              li.amag-linkWrapper.list-unstyled "Services"
+                a.amag-linkWrapper__link {href=/en/services.html} "Services"
+              li.amag-linkWrapper.list-unstyled "Find garage"
+                a.amag-linkWrapper__link {href=/en/komponenten/car-dealers.html} "Find garage"
+              li.amag-linkWrapper.list-unstyled "Car subscription"
+                a.amag-linkWrapper__link {href=/en/find-vehicle/cars-amag/abo.html} "Car subscription"
+              li.amag-linkWrapper.list-unstyled "Clyde"
+                a.amag-linkWrapper__link {href=/en/find-vehicle/cars-amag/clyde.html} "Clyde"
+              li.amag-linkWrapper.list-unstyled "Leasing"
+                a.amag-linkWrapper__link {href=/en/find-vehicle/cars-amag/amag-leasing.html} "Leasing"
+              li.amag-linkWrapper.list-unstyled "Europcar"
+                a.amag-linkWrapper__link {href=https://www.europcar.ch/de} "Europcar"
+              li.amag-linkWrapper.list-unstyled "Carsharing"
+                a.amag-linkWrapper__link {href=https://ondemand.europcar.ch/en.html} "Carsharing"
+              li.amag-linkWrapper.list-unstyled "Mobility-as-a-Service"
+                a.amag-linkWrapper__link {href=https://allride.ch/en/} "Mobility-as-a-Service"
+              li.amag-linkWrapper.list-unstyled "AMAG Classic"
+                a.amag-linkWrapper__link {href=https://www.amag-classic.ch/en.html} "AMAG Classic"
+              li.amag-linkWrapper.list-unstyled "Parking"
+                a.amag-linkWrapper__link {href=https://parking.amag.ch/en.html} "Parking"
+        hr.amag-hrBreak.w-100.d-sm-inline-block.d-md-none
+        div.col-sm-12.col-md.amag-footer__listWrapper.pr-0
+          a.amag-footer__toggleLink.d-flex.align-items-center.text-decoration-none.collapsed {href=#listThree} "Company"
+            p.amag-textWrapper__text "Company"
+            svg.d-md-none {svg:0 0 20 14 1960ch}
+              g
+                path
+                path
+              defs
+                filter#filter0_d
+                  feflood
+                  fecolormatrix
+                  feoffset
+                  fegaussianblur
+                  fecolormatrix
+                  feblend
+                  feblend
+          div#listThree.collapse
+            ul.amag-footer__list.list-unstyled
+              li.amag-linkWrapper.list-unstyled "About us"
+                a.amag-linkWrapper__link {href=/en/about-us.html} "About us"
+              li.amag-linkWrapper.list-unstyled "AMAG Group"
+                a.amag-linkWrapper__link {href=https://www.amag-group.ch/de.html} "AMAG Group"
+              li.amag-linkWrapper.list-unstyled "Sustainability"
+                a.amag-linkWrapper__link {href=/de/ueber-uns/esg.html} "Sustainability"
+              li.amag-linkWrapper.list-unstyled "Jobs & careers"
+                a.amag-linkWrapper__link {href=/en/jobs.html} "Jobs & careers"
+              li.amag-linkWrapper.list-unstyled "Press"
+                a.amag-linkWrapper__link {href=https://www.amagpress.ch/} "Press"
+        hr.amag-hrBreak.w-100.d-sm-inline-block.d-md-none
+        div.col-md-12.col-lg-4.amag-footer__markenLogoWrapper.pr-0
+          p.amag-textWrapper__text "Our brands"
+          div.amag-footer__markenLogos.d-flex.flex-wrap
+            div.amag-markenLogo.rounded
+              a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/find-vehicle/brands/vw/vw-models.html}
+                img.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=Volkswagen | srcset=0}
+            div.amag-markenLogo.rounded
+              a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/find-vehicle/brands/audi/audi-models.}
+                img.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=Audi | srcset=0}
+            div.amag-markenLogo.rounded
+              a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/find-vehicle/brands/seat/seat-models.}
+                img.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=Seat | srcset=0}
+            div.amag-markenLogo.rounded
+              a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/find-vehicle/brands/skoda/skoda-model}
+                img.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=Skoda | srcset=0}
+            div.amag-markenLogo.rounded
+              a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/find-vehicle/brands/cupra/cupra-model}
+                img.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=CUPRA | srcset=0}
+            div.amag-markenLogo.rounded
+              a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/find-vehicle/brands/commercial-vehicl}
+                img.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=Volkswagen Nutzfahrzeuge | srcset=0}
+            div.amag-markenLogo.rounded
+              a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/find-vehicle/brands/bentley/bentley-m}
+                img.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=Bentley | srcset=0}
+            div.amag-markenLogo.rounded
+              a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/find-vehicle/cars-amag/microlino.html}
+                img.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=Microlino | srcset=0}
+            div.amag-markenLogo.rounded
+              a.h-100.w-100.d-flex.align-items-center {href=https://www.amag.ch/en/car-dealers/car-dealer-volketswil.htm}
+                img.amag-markenLogo__image {src=riginal.transform/w100-hAuto_nav-brandLogo/img.png | alt=Ducati Volketswil | srcset=0}
+        div.amag-app-download-footer.col-12
+          a.amag-app-download-footer__icon-link {href=/en/services/top-services/app.html} "AMAG App Get connected with AMAG"
+            div
+              svg {svg:0 0 78 78 4001ch}
+                mask#mask0_11737_470
+                  path
+                g
+                  rect
+                  g
+                    path
+                  path
+                defs
+                  clippath#clip0_11737_470
+                    rect
+            div.amag-app-download-footer__icon-text
+              p.amag-app-download-footer__icon-text--bold "AMAG App"
+              p "Get connected with AMAG"
+          div.amag-app-download-footer__link-badges
+            a.amag-app-download-footer__link-badges--IOS {href=https://apps.apple.com/ch/app/amag/id1632500360}
+              img {src=ad_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg | alt= | srcset=0}
+            a.amag-app-download-footer__link-badges--Android {href=https://play.google.com/store/apps/details?id=ch.amag.amagap}
+              img {src=emeinsame-dateien/icons/sonstige/GooglePlay-EN.png | alt= | srcset=0}
+        div.col-12.amag-footer__socialMediaWrapper.d-flex.align-items-center.p-0.text-left
+          div.amag-socialIconWrapper.d-inline-block
+            a.amag-socialIconWrapper__link.text-decoration-none.d-inline-flex {href=https://www.instagram.com/amag.ch/}
+              img.amag-socialIconWrapper__icon {src=ag-ch/gemeinsame-dateien/icons/weiss/instagram.svg | alt=Instagram | srcset=0}
+          div.amag-socialIconWrapper.d-inline-block
+            a.amag-socialIconWrapper__link.text-decoration-none.d-inline-flex {href=https://www.facebook.com/amag.automobile?ref=hl}
+              img.amag-socialIconWrapper__icon {src=mag-ch/gemeinsame-dateien/icons/weiss/facebook.svg | alt=Facebook | srcset=0}
+          div.amag-socialIconWrapper.d-inline-block
+            a.amag-socialIconWrapper__link.text-decoration-none.d-inline-flex {href=https://www.linkedin.com/showcase/71635012}
+              img.amag-socialIconWrapper__icon {src=gemeinsame-dateien/icons/weiss/w_linkedin-logo.svg | alt=AMAG Linkedin | srcset=0}
+          div.amag-socialIconWrapper.d-inline-block
+            a.amag-socialIconWrapper__link.text-decoration-none.d-inline-flex {href=https://www.amag-group.blog/}
+              img.amag-socialIconWrapper__icon {src=ame-dateien/icons/weiss/AMAG-Blog-Button-24x24.svg | alt=Social Link | srcset=0}
+        div.amag-footer__essentials
+          div.amag-footer__copyrightWrapper
+            p.amag-textWrapper__text "© 2026 AMAG Automobil und Motoren AG"
+          div.amag-footer__impressumWrapper
+            li.amag-linkWrapper.list-unstyled "Privacy policy"
+              a.amag-linkWrapper__link {href=https://www.amag-group.ch/de/footer/privacy-policy.html} "Privacy policy"
+            li.amag-linkWrapper.list-unstyled "Legal notice"
+              a.amag-linkWrapper__link {href=https://www.amag-group.ch/de/footer/legal-notice.html} "Legal notice"
+            li.amag-linkWrapper.list-unstyled "Impressum"
+              a.amag-linkWrapper__link {href=/en/imprint.html} "Impressum"
+            li.amag-linkWrapper.list-unstyled "Terms and conditions"
+              a.amag-linkWrapper__link {href=/en/gtc.html} "Terms and conditions"
+            li.amag-linkWrapper.list-unstyled "Cookie policy"
+              a.amag-linkWrapper__link {href=https://www.amag-group.ch/de/footer/cookie-policy.html} "Cookie policy"
+            li.amag-linkWrapper.list-unstyled "Jobs"
+              a.amag-linkWrapper__link {href=https://jobs-retail.amag.ch} "Jobs"

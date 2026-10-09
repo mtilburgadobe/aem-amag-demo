@@ -1,0 +1,204 @@
+/* cta-band — values lifted from the prototype page CSS (kontaktaufnahme @371999, garage
+   election @1619178) and canon.css (CTA button, section shell). */
+.cta-band {
+  position: relative;
+  background: #fff;
+  margin-bottom: 120px;
+}
+
+.cta-band.grey {
+  background: var(--amag-grey-100);
+}
+
+.cta-band.lavender {
+  background: #ede7fe;
+}
+
+.cta-band .wrap {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0 var(--section-gutter);
+}
+
+.cta-band.band {
+  padding-top: 80px;
+}
+
+.cta-band.band-white::before,
+.cta-band.band-grey::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: calc(max(0px, (100% - var(--content-max)) / 2) + var(--section-gutter));
+  background: #fff;
+}
+
+.cta-band.band-grey::before {
+  background: var(--amag-grey-100);
+}
+
+.cta-band.section-end {
+  margin-bottom: 0;
+  padding-bottom: 80px;
+}
+
+.cta-band.first-section.band {
+  padding-top: 0;
+}
+
+.cta-band.first-section::before {
+  display: none;
+}
+
+/* band */
+.cta-band .band {
+  width: 100%;
+}
+
+.cta-band .media p {
+  margin: 0;
+}
+
+.cta-band .media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cta-band .headline :is(h1, h2, h3, h4) {
+  font-family: var(--font-display-bold);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 36px;
+  margin: 0;
+}
+
+.cta-band .text {
+  padding-top: 20px;
+}
+
+.cta-band .text p {
+  font-family: var(--font-text-light);
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.cta-band .cta {
+  display: flex;
+  width: 100vw;
+  margin: 0 -15px;
+  padding-top: 36px;
+}
+
+.cta-band .cta-box {
+  display: flex;
+  width: 100%;
+  padding: 0;
+}
+
+.cta-band .cta-box p {
+  display: flex;
+  flex: 1;
+  margin: 0;
+}
+
+.cta-band .cta-box a:any-link {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 70px;
+  margin: 0;
+  padding: 0 40px;
+  border: 0;
+  border-radius: 0;
+  background: var(--amag-dark-blue);
+  color: #fff;
+  font-family: var(--font-text-bold);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.cta-band .cta-box a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cta-band .cta-box strong {
+  font-weight: 400;
+}
+
+.cta-band .cta-box p > strong {
+  display: flex;
+  flex: 1;
+}
+
+.cta-band .cta-box a picture {
+  display: inline-flex;
+  margin-right: 10px;
+}
+
+.cta-band .cta-box a img {
+  height: 32px;
+  width: 32px;
+}
+
+@media (width < 768px) {
+  .cta-band.band-white::before,
+  .cta-band.band-grey::before {
+    display: none;
+  }
+}
+
+@media (width >= 768px) {
+  .cta-band .cta {
+    width: 100%;
+    margin: 0;
+  }
+
+  .cta-band .cta-box {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px 0 0;
+  }
+}
+
+@media (width >= 1200px) {
+  .cta-band.band,
+  .cta-band.first-section.band {
+    padding-top: 120px;
+  }
+
+  .cta-band.band-white::before,
+  .cta-band.band-grey::before {
+    height: 120px;
+  }
+
+  .cta-band.section-end {
+    padding-bottom: 120px;
+  }
+
+  .cta-band .headline :is(h1, h2, h3, h4) {
+    font-size: 44px;
+    line-height: 48px;
+  }
+
+  .cta-band .text {
+    padding-top: 17px;
+  }
+
+  .cta-band .cta-box {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+
+  .cta-band .cta-box a:any-link {
+    min-height: 100px;
+  }
+}

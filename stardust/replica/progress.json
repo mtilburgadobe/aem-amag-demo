@@ -1,0 +1,1075 @@
+{
+  "archetypes": {
+    "en-html": {
+      "pageType": "landing",
+      "archetype": "home",
+      "liveUrl": "https://www.amag.ch/en.html",
+      "prototype": "stardust/prototypes/en-html-proposed.html",
+      "css": [
+        "stardust/prototypes/css/canon.css",
+        "stardust/prototypes/css/en-html.css"
+      ],
+      "js": [
+        "stardust/prototypes/js/canon.js"
+      ],
+      "server": {
+        "note": "coordinator server on :8791 (python http.server pid 5314) had crashed (getfqdn IDNA UnicodeError in stardust/.work/replica/http.log) before the first gate round; a per-project node static server was started on :8792 for the gates (stardust/replica/notes/en-html-serve.mjs) and stopped by PID afterwards. All gate evidence uses http://localhost:8792/."
+      },
+      "breakpoints": {
+        "360": {
+          "iterations": 4,
+          "result": {
+            "structuralRed": 4,
+            "visualFlags": 1,
+            "pixelPct": 26.09,
+            "heightDelta": -390,
+            "clipped": 0,
+            "overflow": "ok (360=360)",
+            "capProbe": "n/a (1440 row)",
+            "pass": false
+          },
+          "justified": [
+            "same GooglePlay badge flag",
+            "same 4 video-placeholder 🔴"
+          ],
+          "residuals": [
+            {
+              "band": "y 1000–4500",
+              "pct": "16–67%",
+              "cause": "vehicle-search + AMAG NEWS stack: mobile geometry of the select rows and promo card heights (487/547 vs live) not lifted at 360; Δheight -371px",
+              "inherits": "next pass: lift 360 dspSearch/promo rules (css-rules --media 767)"
+            },
+            {
+              "band": "y 10000–12466",
+              "pct": "21–66%",
+              "cause": "footer registration offset by the -371px delta; off-canvas mobile nav overlay styles differ from live (186 chrome-parity deltas, all inside the hidden .navbar-overlay panel: font 20/30, padding 34px 10px 34px 30px, bg #f5f5f5, <div> vs <a> wrapping)",
+              "inherits": "canon.css follow-up (mobile nav)"
+            },
+            {
+              "band": "hero",
+              "pct": "(inside 0–500, below bar)",
+              "cause": "same autoplay capture state",
+              "inherits": "C-deliver"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "autoplay stage carousel: live.png froze on slide 4 (video teaser frame) while the prototype shows slide 1 (ID. Polo) as initial state",
+              "where": ".amagCh-stageCarousel (y 60–860 @1440, y 0–480 @360)",
+              "restoreAtDelivery": "autoplay carousel, slide 1 first, advances every ~5 s with 1 s left/opacity/transform transitions (observed), pause/play controls"
+            },
+            {
+              "what": "stage video slides 4+5 render a cookie-consent video placeholder (\"There is so much to discover! This will display…\" + 60×60 svg + slide link) injected by clientlib JS at runtime; not present in the captured HTML (nothing to lift verbatim)",
+              "where": ".amagCh-stageCarousel .amag-stageTeaserVideo__player (slides 4,5)",
+              "restoreAtDelivery": "embed the same consent-gated video players (YouTube/Vimeo ids from the AEM component) with the live placeholder banner copy"
+            },
+            {
+              "what": "lazy-loaded promo images: live selects the 2_1_Medium (768w) rendition; the 630w img fallback and hidden cards 5–9 renditions were never requested by the live page and are not rehosted (hidden cards keep a 1×1 placeholder + data-missing)",
+              "where": "#promo .amag-promotionTeaser[style*=\"display: none\"] img",
+              "restoreAtDelivery": "wire real renditions when authors upload media"
+            }
+          ]
+        },
+        "1440": {
+          "iterations": 4,
+          "result": {
+            "structuralRed": 4,
+            "visualFlags": 1,
+            "pixelPct": 23.84,
+            "heightDelta": -136,
+            "clipped": 0,
+            "overflow": "ok (1440=1440)",
+            "capProbe": "PASS at 2560 (0/5 rows failed)",
+            "pass": false
+          },
+          "justified": [
+            "visual-diff STRETCHED IMAGE GooglePlay-EN.png 646×250 → 120×52: the source CSS sizes it identically (.amag-app-download-footer__link-badges--Android img{height:52px;width:120px})",
+            "4 structural 🔴 = the two video-slide consent placeholders (CTA+icon ×2) — runtime-injected, see captureState"
+          ],
+          "residuals": [
+            {
+              "band": "y 0–1000",
+              "pct": "77/75%",
+              "cause": "hero capture state: live froze on slide 4 (video frame) vs prototype slide 1 — permanent while the live carousel autoplays",
+              "inherits": "C-deliver (captureState)"
+            },
+            {
+              "band": "y 1500–3500",
+              "pct": "15–57%",
+              "cause": "vehicle-search block +81px taller than live (filter/select row geometry) shifting AMAG NEWS by 81px; promo card boxes match live size exactly (570×716/686)",
+              "inherits": "next en-html pass: measure .amag-dspSearch children"
+            },
+            {
+              "band": "y 3500–5000",
+              "pct": "15–16%",
+              "cause": "contentTeaserS row-1 cards 426px vs live 488px (live carousel row-1 items carry extra height not in the lifted rules)",
+              "inherits": "next pass"
+            },
+            {
+              "band": "y 5500–7000, 9000–10500",
+              "pct": "23–61%",
+              "cause": "offset contamination from the +81/+62 deltas above (Δheight -136 total) plus service-box/footer-top mis-registration",
+              "inherits": "next pass"
+            },
+            {
+              "band": "header",
+              "pct": "7 chrome deltas",
+              "cause": "language switcher padding (12px) and 16px chevron vs 24px; desktop notification pop-up x +51px; after 3 iterations",
+              "inherits": "canon.css follow-up"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "autoplay stage carousel: live.png froze on slide 4 (video teaser frame) while the prototype shows slide 1 (ID. Polo) as initial state",
+              "where": ".amagCh-stageCarousel (y 60–860 @1440, y 0–480 @360)",
+              "restoreAtDelivery": "autoplay carousel, slide 1 first, advances every ~5 s with 1 s left/opacity/transform transitions (observed), pause/play controls"
+            },
+            {
+              "what": "stage video slides 4+5 render a cookie-consent video placeholder (\"There is so much to discover! This will display…\" + 60×60 svg + slide link) injected by clientlib JS at runtime; not present in the captured HTML (nothing to lift verbatim)",
+              "where": ".amagCh-stageCarousel .amag-stageTeaserVideo__player (slides 4,5)",
+              "restoreAtDelivery": "embed the same consent-gated video players (YouTube/Vimeo ids from the AEM component) with the live placeholder banner copy"
+            },
+            {
+              "what": "lazy-loaded promo images: live selects the 2_1_Medium (768w) rendition; the 630w img fallback and hidden cards 5–9 renditions were never requested by the live page and are not rehosted (hidden cards keep a 1×1 placeholder + data-missing)",
+              "where": "#promo .amag-promotionTeaser[style*=\"display: none\"] img",
+              "restoreAtDelivery": "wire real renditions when authors upload media"
+            }
+          ]
+        }
+      },
+      "motion": {
+        "observed": "stardust/replica/motion/en-html.json (pokes: accordion row 1, stage next, footer toggle #listTwo @1440)",
+        "implemented": [
+          "header scroll morph (navbar/beforeDivWhite/afterDivWhite --transparent while pageYOffset < stage.clientHeight-100)",
+          "accordion expand/collapse (--expanded / panel--hidden|expanded)",
+          "stage carousel next/prev/indicator (--active on item + indicator)",
+          "footer list toggle (.collapse.show / .collapsed)"
+        ],
+        "dead": [
+          "optanon-category-C0003/C0004, ot-vscat-C0004 (OneTrust consent SDK, third-party)",
+          "collapsing (Bootstrap height-animation intermediate class; footer toggle is pointer-events:none ≥768 on live)",
+          "left/opacity/transform/top/right/height transitions of the autoplay slide change and nav flyouts (not implemented: static initial state, logged in captureState)"
+        ],
+        "compare": "stardust/replica/motion/en-html-compare.json — 9 parity, 11 missing (6 third-party/transition-only), 0 extra"
+      },
+      "portations": [
+        {
+          "type": "js",
+          "file": "stardust/prototypes/js/canon.js",
+          "what": "header scroll-state morph lifted from clientlib-amagch.min.js (classes amag-header__navbar--transparent, amag-header__beforeDivWhite--transparent, amag-header__afterDivWhite--transparent; threshold stage.clientHeight-100)"
+        },
+        {
+          "type": "js",
+          "file": "stardust/prototypes/js/canon.js",
+          "what": "observed-interaction handlers (accordion, stage carousel, footer toggle) — minimal, no framework"
+        },
+        {
+          "type": "markup-generation",
+          "file": "stardust/replica/notes/en-html-build.mjs",
+          "what": "prototype markup generated from the captured DOM (content verbatim, AEM/author noise dropped, every src/srcset rewritten to assets/media mirror paths); CSS authored by hand from lifted rules"
+        }
+      ],
+      "fonts": {
+        "selfHosted": [
+          "amag_displaybold",
+          "amag_displaylight",
+          "amag_textbold",
+          "amag_textlight"
+        ],
+        "files": "assets/fonts/amag_{display,text}-{bold,light}.woff2",
+        "weight": 400,
+        "substitutes": "none"
+      },
+      "assets": {
+        "harvest": "stardust/replica/notes/harvest-en-html.mjs (one Playwright pass, 1440 then 360, response interception)",
+        "map": "stardust/replica/notes/en-html-media-map.json",
+        "files": 67,
+        "notes": "www.amag.ch assets mirrored under assets/media/amag/<path> so basenames equal the source; Scene7 renditions as assets/media/s7-<name>-<preset>-w<wid>h<hei>.<ext>"
+      },
+      "units": "stardust/replica/units.json (9 families)",
+      "status": "gated-with-residuals",
+      "gatedAt": "2026-10-08",
+      "fixes": [
+        {
+          "date": "2026-10-08",
+          "round": "fix1",
+          "what": "removed invented .amag-promotionTeaser__wrapper>a flex-column rules (same defect as en-services)",
+          "evidence": "1440 30.45→23.84 %, 360 28.23→26.09 %; Δh −136/−390 unchanged — bar still not reached, C-archetype owns the next rounds"
+        }
+      ],
+      "prototypeTable": {
+        "360": {
+          "pixelPct": 26.09,
+          "heightDelta": -390,
+          "clipped": 0,
+          "units": null,
+          "verdict": "FAIL",
+          "evidence": "stardust/replica/gates/prototypes-360/en-html/"
+        },
+        "1440": {
+          "pixelPct": 23.84,
+          "heightDelta": -136,
+          "clipped": 0,
+          "units": null,
+          "verdict": "FAIL",
+          "evidence": "stardust/replica/gates/prototypes-1440/en-html/"
+        }
+      }
+    },
+    "en-services-html": {
+      "pageType": "program",
+      "archetype": "services overview (intro service hero, rich text, icon-text grid, service offer, maxi teasers, promotion teaser box, pledge icon list, contact + garage chooser, divider, direct-entry pill)",
+      "liveUrl": "https://www.amag.ch/en/services.html",
+      "prototype": "stardust/prototypes/en-services-html-proposed.html",
+      "css": [
+        "stardust/prototypes/css/canon.css",
+        "stardust/prototypes/css/en-services-html.css"
+      ],
+      "js": [
+        "stardust/prototypes/js/canon.js",
+        "stardust/prototypes/js/en-services-html.js"
+      ],
+      "server": "coordinator node static server :8791",
+      "breakpoints": {
+        "360": {
+          "iterations": 4,
+          "result": {
+            "structuralRed": 2,
+            "visualFlags": 1,
+            "pixelPct": 5.12,
+            "heightDelta": 0,
+            "clipped": 0,
+            "overflow": "ok",
+            "capProbe": "n/a (1440 only)",
+            "pass": false
+          },
+          "justified": [
+            "visual-diff GooglePlay badge as above",
+            "chrome-parity 172: all in the off-canvas mobile navigation overlay (hidden), inherited from canon (en-html had 186)",
+            {
+              "what": "unit-geometry picture rows (promotionTeaser ×3, maxiTeaserBild ×3)",
+              "why": "unit-geometry false red: the live <picture> is an inline element whose rect is its 19 px line box (y≈centre of the image) while the build renders it block; the <img> rows inside are within tolerance and the pixel/height criteria pass — no paint consequence (measure.mjs 1440: img Δ 0/0/0/0, picture display inline→block only)"
+            }
+          ],
+          "residuals": [
+            {
+              "band": "y 6000–6500",
+              "pct": "16.4%",
+              "cause": "promotion teaser row: live 360 serves a 660×330 Scene7 rendition of the same 2:1 image (different sharpening) vs harvested 768×384 — geometry equal",
+              "inherits": "asset rendition (log only)"
+            },
+            {
+              "band": "content-diff",
+              "pct": "2 🔴",
+              "cause": "same Gumefens live drift as 1440",
+              "inherits": "re-capture"
+            },
+            {
+              "band": "clip-probe advisory",
+              "pct": "horizontal 22",
+              "cause": "100vw full-bleed wrappers (introService ratioWrapper, otv button, garageElectionOverlay, serviceOffer) as in source CSS; overflow assert ok",
+              "inherits": "none"
+            }
+          ],
+          "captureState": []
+        },
+        "1440": {
+          "iterations": 4,
+          "result": {
+            "structuralRed": 2,
+            "visualFlags": 2,
+            "pixelPct": 1.08,
+            "heightDelta": 0,
+            "clipped": 0,
+            "overflow": "ok",
+            "capProbe": "PASS at 2560 (0/5 rows failed)",
+            "pass": true
+          },
+          "justified": [
+            "visual-diff STRETCHED IMAGE img.jpg 380×380 → 365×401: third maxi teaser image uses the source rule .amag-maxiTeaserBild__img{height:100%;object-fit:cover} (intentional cover crop)",
+            "visual-diff STRETCHED IMAGE GooglePlay-EN.png 646×250 → 120×52: source sizes it identically (canon)",
+            "chrome-parity 9 = 7 header deltas inherited from canon (language switcher padding/chevron, desktop pop-up offsets) + 2 footer (© line-height, badge icon) — same on en-html",
+            {
+              "what": "unit-geometry picture rows (promotionTeaser ×3, maxiTeaserBild ×3)",
+              "why": "unit-geometry false red: the live <picture> is an inline element whose rect is its 19 px line box (y≈centre of the image) while the build renders it block; the <img> rows inside are within tolerance and the pixel/height criteria pass — no paint consequence (measure.mjs 1440: img Δ 0/0/0/0, picture display inline→block only)"
+            }
+          ],
+          "residuals": [
+            {
+              "band": "content-diff",
+              "pct": "2 🔴",
+              "cause": "live content drift since capture: live DOM now reads \"AMAG Carrosserie Center Gumefens\" in both garage choosers, the capture (and the build) read \"AMAG Centre Carrosserie Gumefens\"",
+              "inherits": "re-capture"
+            },
+            {
+              "band": "unit-geometry promo-teaser",
+              "pct": "5 elements off (+416px text, picture 540×19 vs 540×270)",
+              "cause": "instrument reading contradicts measure.mjs (textWrapper/image boxes equal) and the 1.21% pixel result; live <picture> is inline (line box), build picture is block — no visual effect",
+              "inherits": "instrument review"
+            }
+          ],
+          "captureState": []
+        }
+      },
+      "motion": {
+        "observed": "stardust/replica/motion/en-services-html.json (pokes: Contact garage → modal, modal close, language switcher, hover gozilla button, hover promo teaser)",
+        "implemented": [
+          "header hide-on-scroll (canon.js, clientlib @1241777: top:-height when scrolling down past header height, 50px hysteresis)",
+          "direct-entry pill .show at scrollY ≥ 300 + pop-up toggle (en-services-html.js, clientlib @2355270)",
+          "garage chooser modal open/close (body.modal-open, .modal.show, 300ms dialog transform)"
+        ],
+        "dead": [
+          "optanon-category-C0003 (OneTrust consent SDK, third-party)",
+          "header scroll-morph --transparent (no stage on this page; canon.js keeps it inert)",
+          "language switcher / modal close / hover probes: no sampled change on live"
+        ],
+        "compare": "stardust/replica/motion/en-services-html-build.json vs live — 5 parity, 1 missing (third-party), 0 extra"
+      },
+      "portations": [
+        {
+          "type": "js",
+          "file": "stardust/prototypes/js/canon.js",
+          "what": "header hide-on-scroll ported from clientlib-amagch.min.js @1241777"
+        },
+        {
+          "type": "js",
+          "file": "stardust/prototypes/js/en-services-html.js",
+          "what": "direct-entry pill + garage chooser modal behaviour ported from clientlib-amagch.min.js @2355270 / Bootstrap modal"
+        },
+        {
+          "type": "css",
+          "file": "stardust/prototypes/css/en-services-html.css",
+          "what": "mobile breadcrumb parent link (\"‹ Homepage\") shown by CSS below 1200 — live does it in clientlib JS"
+        },
+        {
+          "type": "css",
+          "file": "stardust/prototypes/css/en-services-html.css",
+          "what": "promotion teaser module duplicated from en-html.css (candidate for canon)"
+        }
+      ],
+      "fonts": {
+        "selfHosted": [
+          "amag_displaybold",
+          "amag_displaylight",
+          "amag_textbold",
+          "amag_textlight"
+        ],
+        "files": "assets/fonts/amag_{display,text}-{bold,light}.woff2",
+        "weight": 400,
+        "substitutes": "none"
+      },
+      "assets": {
+        "harvest": "stardust/replica/notes/harvest-en-services-html.mjs → 27 new files, 42 reused; map notes/en-services-html-media-map.json; 19 inline SVGs from the live DOM",
+        "extra": "icons/schwarz/close.svg (hidden, never requested live) and the 9 footer brand logos re-fetched directly (home harvest had saved identical bytes for all nine)"
+      },
+      "units": [
+        "icon-text-item ×12",
+        "maxi-teaser ×3",
+        "promo-teaser ×3",
+        "pledge-item ×3",
+        "garage-chooser-row ×100 ×2 (hidden modals)",
+        "direct-entry-link ×3",
+        "divider-band ×1"
+      ],
+      "canonChanges": [
+        "footer legal links color/line-height (canon.css)",
+        "desktop pop-up hidden <1200 (canon.css)",
+        "header hide-on-scroll (canon.js)",
+        "footer brand logo files re-fetched"
+      ],
+      "status": "gated-with-residuals",
+      "gatedAt": "2026-10-08",
+      "fixes": [
+        {
+          "date": "2026-10-08",
+          "round": "fix1",
+          "what": "removed invented .amag-promotionTeaser__wrapper>a flex-column rules (text panel sat one card-height below the card, hidden behind the next row); breadcrumb <1200 rule → :nth-last-of-type(2) (parent crumb, as live)",
+          "evidence": "gate-all --stage prototype units + measure.mjs; 1440 1.21→1.08 %, 360 5.77→5.12 %, Δh 360 +19→0 (canon footer fix)"
+        }
+      ],
+      "prototypeTable": {
+        "360": {
+          "pixelPct": 5.12,
+          "heightDelta": 0,
+          "clipped": 0,
+          "units": null,
+          "verdict": "PASS (override: promotionTeaser ×3 + maxiTeaserBild ×3 picture rows)",
+          "evidence": "stardust/replica/gates/prototypes-360/en-services-html/"
+        },
+        "1440": {
+          "pixelPct": 1.08,
+          "heightDelta": 0,
+          "clipped": 0,
+          "units": null,
+          "verdict": "PASS (override: promotionTeaser ×3 + maxiTeaserBild ×3 picture rows)",
+          "evidence": "stardust/replica/gates/prototypes-1440/en-services-html/"
+        }
+      }
+    },
+    "en-komponenten-car-dealers-html": {
+      "pageType": "unique",
+      "archetype": "garage finder / store locator (header, map, search panel + garage list, off-canvas filter, direct-entry pill, footer)",
+      "liveUrl": "https://www.amag.ch/en/komponenten/car-dealers.html",
+      "prototype": "stardust/prototypes/en-komponenten-car-dealers-html-proposed.html",
+      "css": [
+        "stardust/prototypes/css/canon.css",
+        "stardust/prototypes/css/en-komponenten-car-dealers-html.css"
+      ],
+      "js": [
+        "stardust/prototypes/js/canon.js",
+        "stardust/prototypes/js/en-komponenten-car-dealers-html.js"
+      ],
+      "build": "stardust/replica/notes/en-komponenten-car-dealers-html-build.mjs",
+      "harvest": "stardust/replica/notes/harvest-en-komponenten-car-dealers-html.mjs",
+      "breakpoints": {
+        "360": {
+          "iterations": 2,
+          "rounds": {
+            "iter1": {
+              "pixelPct": 7.41,
+              "heightDelta": 19,
+              "note": "hot band 0-500 31.3% — the 360 map capture was taken after a resize (desktop center/zoom); re-harvested with a fresh load at 360"
+            },
+            "iter2": {
+              "pixelPct": 2.34,
+              "heightDelta": 19
+            },
+            "confirm": {
+              "pixelPct": 2.34,
+              "heightDelta": 19
+            }
+          },
+          "result": {
+            "structuralRed": 223,
+            "visualFlags": 2,
+            "pixelPct": 2.34,
+            "heightDelta": 19,
+            "clipped": 0,
+            "overflow": "ok",
+            "capProbe": "n/a (1440 row PASS)",
+            "pass": false,
+            "passNote": "pixel/structure/clip/overflow pass; |Δh| 19 > 8 inherited from the canon footer (same as en-services)"
+          },
+          "justified": [
+            "223 red = map runtime DOM + 1 live-drift heading",
+            "visual flags: Google tiles count, canon GooglePlay badge",
+            "chrome 161 = inherited canon mobile-nav deltas"
+          ],
+          "residuals": [
+            {
+              "band": "height",
+              "pct": "+19px",
+              "cause": "canon footer at 360 (same +19 as en-services; footer text identical, live 3041 vs build 3022)",
+              "inherits": "canon"
+            },
+            {
+              "band": "content-diff",
+              "pct": "223 structural red",
+              "cause": "same as 1440 (map runtime DOM + 1 live-drift heading)",
+              "inherits": "map embed / content refresh"
+            },
+            {
+              "band": "chrome-parity header",
+              "pct": "161 deltas",
+              "cause": "inherited canon mobile-nav drawer deltas (services logged 172); not touched here",
+              "inherits": "canon"
+            },
+            {
+              "band": "unit-geometry",
+              "pct": "confirm round: off 978 / missing 101",
+              "cause": "instrument compared the 1440 live origin (830,536 445x227) against the 360 build — iter2 of the same build read within 1075 / off 4; logged for instrument review",
+              "inherits": "instrument review"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "Google Maps canvas (tiles, 100 markers, bundled zoom control, Google attribution links/keyboard-shortcuts button) is runtime-hydrated; the build carries the rendered state AS CAPTURED as one element screenshot per breakpoint (assets/media/amag/storelocator/map-capture-1440.png 1440x740, map-capture-360.png 360x360; the 360 state needs a fresh load at 360 — a resize keeps the desktop center/zoom)",
+              "where": "#storelocator__map",
+              "restoreAtDelivery": "Google Maps JS API embed with the AMAG style + amagMarkerBlack.png markers; the garage-row click pans the map / opens the info window"
+            }
+          ]
+        },
+        "1440": {
+          "iterations": 2,
+          "rounds": {
+            "iter1": {
+              "pixelPct": 0.27,
+              "heightDelta": 0
+            },
+            "iter2": {
+              "pixelPct": 0.26,
+              "heightDelta": 0
+            },
+            "confirm": {
+              "pixelPct": 0.26,
+              "heightDelta": 0
+            }
+          },
+          "result": {
+            "structuralRed": 225,
+            "visualFlags": 3,
+            "pixelPct": 0.26,
+            "heightDelta": 0,
+            "clipped": 0,
+            "overflow": "ok",
+            "capProbe": "PASS",
+            "pass": true
+          },
+          "justified": [
+            "225 red = map runtime DOM (224) + 1 live-drift heading",
+            "visual flags: map capture cover crop, Google tiles count, canon GooglePlay badge",
+            "chrome 7 = inherited canon header deltas"
+          ],
+          "residuals": [
+            {
+              "band": "content-diff",
+              "pct": "225 structural red",
+              "cause": "224 are the Google Maps runtime DOM (100 marker aria-labels + transparent.png marker images, zoom in/out data-URI icons, \"Terms\"/\"Report a map error\" links, \"Keyboard shortcuts\" button) carried by the map capture; 1 = live drift: live heading \"AMAG Carrosserie Center Gumefens\" vs captured \"AMAG Centre Carrosserie Gumefens\" (content kept verbatim from the capture)",
+              "inherits": "map embed at delivery / content refresh"
+            },
+            {
+              "band": "chrome-parity header",
+              "pct": "7 deltas",
+              "cause": "inherited canon header deltas (My garage box 146→136, language dropdown padding/colour, Emotion Days pop-up offsets) — identical to the en-services round; not touched here",
+              "inherits": "canon"
+            },
+            {
+              "band": "visual-diff",
+              "pct": "3 advisory",
+              "cause": "IMAGERY GAP = Google tiles/markers vs one capture image; STRETCHED map-capture-1440.png (740→840 at the probe viewport, intentional cover crop of a runtime capture); GooglePlay badge = inherited canon footer flag",
+              "inherits": "canon / map embed"
+            },
+            {
+              "band": "unit-geometry",
+              "pct": "3 selector errors, hidden 1058",
+              "cause": "hidden = the 100 [hidden] detail modals (expected); selector errors are instrument-side (units.json selectors are plain descendant selectors)",
+              "inherits": "instrument review"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "Google Maps canvas (tiles, 100 markers, bundled zoom control, Google attribution links/keyboard-shortcuts button) is runtime-hydrated; the build carries the rendered state AS CAPTURED as one element screenshot per breakpoint (assets/media/amag/storelocator/map-capture-1440.png 1440x740, map-capture-360.png 360x360; the 360 state needs a fresh load at 360 — a resize keeps the desktop center/zoom)",
+              "where": "#storelocator__map",
+              "restoreAtDelivery": "Google Maps JS API embed with the AMAG style + amagMarkerBlack.png markers; the garage-row click pans the map / opens the info window"
+            },
+            {
+              "what": "off-canvas filter panel parked at right:-610px with .d-none brand lists; detail modals [hidden]; direct-entry pill opacity 0 until scrollY>=300",
+              "where": "aside.off-canvas__wrapper, .amag-garageModal, .amag-direct-entry__button",
+              "restoreAtDelivery": "same classes toggled by the storelocator JS"
+            },
+            {
+              "what": "webbosaurus rating badge iframes (100, inside the hidden detail modals) are kept as <iframe data-src> (third-party, not loaded)",
+              "where": ".amag-rating__container iframe",
+              "restoreAtDelivery": "set src from data-src when a modal opens"
+            }
+          ]
+        }
+      },
+      "motion": {
+        "observed": "live pokes: .storelocator__garage, .amag-garageModal__closeButton, .storelocator__filterButton (+ scroll traversal). Fired: header top .35s (hide-on-scroll), direct-entry .show opacity .3s, filter button → .off-canvas__canvas-box.is-shown (right .5s, z-index), body.no-scroll, .amag-filterModal__resetButton.visible; garage/close pokes: Google-Maps opacity transitions only, no class mutation",
+        "implemented": "js/en-komponenten-car-dealers-html.js: filter click → is-shown + no-scroll + visible (close button reverts); header morph + pill from canon.js. motion-compare: 8 parity, 2 missing (OneTrust optanon-category-* consent classes), 0 extra",
+        "dead": [
+          "optanon-category-C0003/C0004 (OneTrust consent, third-party)",
+          ".storelocator__garage click (map pan/info window + hidden-attribute toggle, no class mutation)",
+          ".amag-garageModal__closeButton (no class mutation)",
+          "header scroll-morph class (static across traversal on both sides)"
+        ]
+      },
+      "portations": [
+        {
+          "what": "direct-entry pill CSS @1594666 + scroll/click JS @2355270 moved from en-services-html into canon (shared by services + car-dealers)",
+          "file": "stardust/prototypes/css/canon.css, stardust/prototypes/js/canon.js"
+        },
+        {
+          "what": "off-canvas open state body.no-scroll{overflow-y:hidden} @588644 + .amag-filterModal__resetButton.visible",
+          "file": "stardust/prototypes/css/en-komponenten-car-dealers-html.css"
+        }
+      ],
+      "fonts": [
+        "amag_displaybold",
+        "amag_displaylight",
+        "amag_textbold",
+        "amag_textlight (self-hosted woff2 via canon.css @font-face)"
+      ],
+      "chrome": {
+        "header": "en-services chrome header reused; only the 3 language-switch hrefs differ (adapted in the build)",
+        "footer": "en-services chrome footer reused verbatim (live text identical)"
+      },
+      "assets": {
+        "harvested": "notes/en-komponenten-car-dealers-html-media-map.json (51 entries: marker/brand logos, trash icon, direct-entry icons, 2 map captures); remote asset refs in the prototype: 0"
+      },
+      "status": "gated-with-residuals",
+      "date": "2026-10-08",
+      "prototypeTable": {
+        "360": {
+          "pixelPct": 0.86,
+          "heightDelta": 0,
+          "clipped": 0,
+          "units": null,
+          "verdict": "PASS (override: storelocator-garage-item, 4 text widths — runtime data drift)",
+          "evidence": "stardust/replica/gates/prototypes-360/en-komponenten-car-dealers-html/"
+        },
+        "1440": {
+          "pixelPct": 0.23,
+          "heightDelta": 0,
+          "clipped": 0,
+          "units": null,
+          "verdict": "PASS (override: storelocator-garage-item)",
+          "evidence": "stardust/replica/gates/prototypes-1440/en-komponenten-car-dealers-html/"
+        }
+      }
+    },
+    "de-service-auto-services-online-termin-buchen-html": {
+      "pageType": "form",
+      "archetype": "service page with online booking wizard (OTV): 5-step sidebar/step bar + first pane \"Ihr Fahrzeug\" (brand/model dropdowns, CTAs, login benefits box); later panes, login modal and off-canvas kept hidden as captured",
+      "liveUrl": "https://www.amag.ch/de/service/auto-services-online-termin-buchen.html",
+      "prototype": "stardust/prototypes/de-service-auto-services-online-termin-buchen-html-proposed.html",
+      "css": [
+        "stardust/prototypes/css/canon.css",
+        "stardust/prototypes/css/de-service-auto-services-online-termin-buchen-html.css"
+      ],
+      "js": [
+        "stardust/prototypes/js/canon.js",
+        "stardust/prototypes/js/de-service-auto-services-online-termin-buchen-html.js"
+      ],
+      "build": "stardust/replica/notes/de-service-auto-services-online-termin-buchen-html-build.mjs",
+      "harvest": [
+        "stardust/replica/notes/harvest-de-service-auto-services-online-termin-buchen-html.mjs",
+        "stardust/replica/notes/de-service-auto-services-online-termin-buchen-html-fetch-missing.mjs"
+      ],
+      "chrome": {
+        "header": "stardust/replica/notes/de-service-auto-services-online-termin-buchen-html-chrome-header.html",
+        "footer": "stardust/replica/notes/de-service-auto-services-online-termin-buchen-html-chrome-footer.html",
+        "note": "German chrome serialized from the captured HTML (same classes as the English chrome, canon.css unchanged for it); footer root of chrome-parity resolves to the hidden off-canvas <footer> inside the wizard on both sides (0/0 texts) — footer parity verified with measure.mjs instead (all blocks equal after the two canon footer fixes)"
+      },
+      "server": "coordinator static server :8791 (not started here)",
+      "breakpoints": {
+        "360": {
+          "iterations": 3,
+          "rounds": [
+            {
+              "name": "iter1 --full",
+              "pixelPct": 8.53,
+              "heightDelta": 2543,
+              "note": "same broken build as 1440 iter1"
+            },
+            {
+              "name": "iter2",
+              "pixelPct": 4.91,
+              "heightDelta": 0,
+              "note": "hot bands 1500–2000 / 2500–3000 (15.3%) = live step bar fixed on scroll repeating in every stitched chunk; build bar in flow"
+            },
+            {
+              "name": "confirm --full",
+              "pixelPct": 0.65,
+              "heightDelta": 0,
+              "note": "after porting the fixed step bar + nav-open toggle"
+            }
+          ],
+          "result": {
+            "structuralRed": 1,
+            "visualFlags": 6,
+            "pixelPct": 0.65,
+            "heightDelta": 0,
+            "clipped": 0,
+            "overflow": "ok (advisory horizontal 23 = off-canvas mobile-nav drawer, inherited)",
+            "chromeParity": "166 header deltas (inherited canon mobile-nav drawer: 161 on the English pages; the German drawer has 4 more entries → 59 MISSING vs 55)",
+            "capProbe": "n/a (1440 row)",
+            "pass": true
+          },
+          "justified": [
+            "chrome-parity 166 = inherited canon mobile-nav drawer deltas (same families as en-services/car-dealers 161; +5 from the longer German drawer)",
+            "visual-diff ×6 identical to 1440 (hidden-pane headings, GooglePlay badge)"
+          ],
+          "residuals": [
+            {
+              "band": "content-diff",
+              "pct": "1 structural 🔴",
+              "cause": "same hidden-modal ROLE SWAP as 1440",
+              "inherits": "next gate round of this page"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "same as 1440 (badge crop assets/media/recaptcha-badge-360.png captured; the prototype uses the 1440 crop, identical bytes)",
+              "where": "body > .grecaptcha-badge--capture",
+              "restoreAtDelivery": "as 1440"
+            }
+          ]
+        },
+        "1440": {
+          "iterations": 3,
+          "rounds": [
+            {
+              "name": "iter1 --full",
+              "pixelPct": 2.59,
+              "heightDelta": 1623,
+              "note": "build footer missing (serializer took the off-canvas <footer>), pane columns unwrapped (inline style=\"flex-wrap: wrap\" dropped) → overflow 4990px; numbers void"
+            },
+            {
+              "name": "iter2",
+              "pixelPct": 0.14,
+              "heightDelta": 0
+            },
+            {
+              "name": "confirm --full",
+              "pixelPct": 0.14,
+              "heightDelta": 0
+            }
+          ],
+          "result": {
+            "structuralRed": 1,
+            "visualFlags": 6,
+            "pixelPct": 0.14,
+            "heightDelta": 0,
+            "clipped": 0,
+            "overflow": "ok",
+            "chromeParity": "7 header deltas (inherited), footer n/a (see chrome.note)",
+            "capProbe": "PASS at 2560 (0 of 4 rows failed; content cap 1020 = 1020; advisory: probe reads build root as body → 4 top-level sections vs live 2)",
+            "pass": true
+          },
+          "justified": [
+            "7 header chrome-parity deltas inherited from canon (language switcher padding/chevron, desktop pop-up offset) — same set as en-services/car-dealers",
+            "visual-diff SURFACE/GROUND MISMATCH ×5: headings of the hidden wizard panes (\"Leistungen\",\"Garage\",\"Termin\",\"Daten\",\"IHRE ANMERKUNG / RÜCKRUF\") — display:none at capture (tab-pane without .active), their later-step colour rules were not lifted; no paint",
+            "visual-diff STRETCHED IMAGE GooglePlay-DE.png 646×250 → 120×52: live rule .amag-app-download-footer__link-badges--Android img{height:52px;width:120px} (same flag on the English pages)"
+          ],
+          "residuals": [
+            {
+              "band": "content-diff",
+              "pct": "1 structural 🔴",
+              "cause": "ROLE SWAP \"AMAG ID\": label.guest-access__topline / .gigya-composite-control-label.sub-title inside the hidden login modal (#cdcModal, display:none) read as body — the topline rules were scoped to #amag-otv but the modal sits after it; source rules @1779977/@1799518/@855512 added to the page CSS after the confirm round (no paint effect), not re-gated (iteration cap)",
+              "inherits": "next gate round of this page"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "reCAPTCHA v3 badge (third-party iframe from www.google.com/recaptcha, fixed bottom-right, 256×60 box at right:-186px showing 70px)",
+              "where": "body > .grecaptcha-badge--capture (static <img> of the live badge crop, assets/media/recaptcha-badge-1440.png, fixed bottom:14px right:0)",
+              "restoreAtDelivery": "Google reCAPTCHA badge rendered by the booking form's recaptcha script (booking backend dispositioned to the owner batch, dynamic-features.md row 8)"
+            },
+            {
+              "what": "wizard first pane as captured: \"Modell\" dropdown wrapper [hidden], \"Weiter zur Leistung\" without href, tabs 1–5 panes (service categories, 86 garages, dates, data form, confirmation) and the login modal hidden, dropdown spinners hidden",
+              "where": "#amag-otv .tab-content, #cdcModal",
+              "restoreAtDelivery": "OTV booking JS (otvgarages / public-holidays APIs, Gigya login) — host-bound, see dynamic-features.md row 8 (staged-form)"
+            }
+          ]
+        }
+      },
+      "motion": {
+        "observed": "stardust/replica/motion/de-service-auto-services-online-termin-buchen-html.json (1440) + de-service-auto-services-online-termin-buchen-html-360.json (360); build: de-service-auto-services-online-termin-buchen-html-build.json, de-service-auto-services-online-termin-buchen-html-360-build.json; compare: de-service-auto-services-online-termin-buchen-html-compare.json, de-service-auto-services-online-termin-buchen-html-360-compare.json",
+        "implemented": [
+          "wizard scroll-state chrome: .sticky-anchor gains/loses nav-open from the header inline top (\"0px\"), step bar position:fixed below 1200 once scrolled past the anchor (anchor padding-bottom = bar height), top .35s — ported verbatim from the bundle (js/<slug>.js)",
+          "brand dropdown click: .show on .generic-dynamic-dropdown-menu + chevron, .active on the label; outside click closes (js/<slug>.js)",
+          "hamburger click: header--overlay-open on #header + drawer slideIn/slideDown (canon.js + canon.css, see canon-changes.md)",
+          "header hide-on-scroll + morph (canon.js, inherited)"
+        ],
+        "dead": [
+          ".amag-languageWrapper__language click (no class mutation on live at 1440)",
+          "#otv-tab-0-header step link click (tabs locked until a vehicle is chosen; no mutation)",
+          "hover on \"Weiter zur Leistung\" / \"Anmelden\" (no measured hover diff)",
+          "OneTrust optanon-category-* script classes and #ot-sdk-btn-floating z-index transition (cookie SDK, third-party — MISSING on build by design)"
+        ],
+        "compare": "1440: 8 parity / 2 missing (OneTrust) / 0 extra; 360: 8 parity / 1 missing (OneTrust) / 0 extra; confirm rounds returned 0.14% / 0.65% with Δh 0"
+      },
+      "portations": [
+        {
+          "what": "OTV tabs scroll handler (nav-open toggle, fixed step bar <1200, anchor padding-bottom, top 350ms ease)",
+          "source": "stardust/replica/notes/js/clientlib-amagch.min.js — the tabs component window \"scroll\" handler next to toggleClass(\"nav-open\")",
+          "where": "stardust/prototypes/js/de-service-auto-services-online-termin-buchen-html.js"
+        },
+        {
+          "what": "pane row wrap kept as the captured inline style=\"flex-wrap: wrap\" (serializer whitelist extended to flex-wrap)",
+          "source": "captured HTML",
+          "where": "stardust/replica/notes/de-service-auto-services-online-termin-buchen-html-build.mjs"
+        },
+        {
+          "what": "reCAPTCHA badge replaced by its captured image (fixed)",
+          "source": "live badge crop",
+          "where": "de-service-auto-services-online-termin-buchen-html.css .grecaptcha-badge--capture"
+        }
+      ],
+      "canonChanges": [
+        "footer © line-height:48px (+margin-bottom 0, justify-content) from @250682",
+        ".amag-app-download-footer padding 40px 0 35px from @674551",
+        "mobile-nav open state .header--overlay-open (+keyframes) and canon.js hamburger toggle"
+      ],
+      "fonts": "4 self-hosted AMAG faces via canon.css @font-face (amag_displaylight/bold, amag_textlight/bold)",
+      "units": [
+        "otv-wizard-step ×6",
+        "otv-brand-option ×9",
+        "otv-benefit-item ×4",
+        "otv-garage-row ×86 [hidden pane]",
+        "footer-brand-logo (shared)"
+      ],
+      "status": "gated-with-residuals",
+      "gatedAt": "2026-10-08",
+      "prototypeTable": {
+        "360": {
+          "pixelPct": 0.42,
+          "heightDelta": 0,
+          "clipped": 0,
+          "units": null,
+          "verdict": "PASS",
+          "evidence": "stardust/replica/gates/prototypes-360/de-service-auto-services-online-termin-buchen-html/"
+        },
+        "1440": {
+          "pixelPct": 0.13,
+          "heightDelta": 0,
+          "clipped": 0,
+          "units": null,
+          "verdict": "PASS",
+          "evidence": "stardust/replica/gates/prototypes-1440/de-service-auto-services-online-termin-buchen-html/"
+        }
+      }
+    },
+    "de-service-reifen-und-raeder-winterreifen-html": {
+      "pageType": "article",
+      "archetype": "de-service-reifen-und-raeder-winterreifen-html",
+      "liveUrl": "https://www.amag.ch/de/service/reifen-und-raeder/winterreifen.html",
+      "prototype": "stardust/prototypes/de-service-reifen-und-raeder-winterreifen-html-proposed.html",
+      "css": [
+        "stardust/prototypes/css/canon.css",
+        "stardust/prototypes/css/de-service-reifen-und-raeder-winterreifen-html.css"
+      ],
+      "js": [
+        "stardust/prototypes/js/canon.js",
+        "stardust/prototypes/js/de-service-reifen-und-raeder-winterreifen-html.js"
+      ],
+      "build": "stardust/replica/notes/de-service-reifen-und-raeder-winterreifen-html-build.mjs",
+      "harvest": "stardust/replica/notes/harvest-de-service-reifen-und-raeder-winterreifen-html.mjs",
+      "server": "coordinator node static server :8791 (not started/stopped here)",
+      "chrome": {
+        "source": "German chrome of the booking archetype re-serialized from THIS page’s captured HTML (same structure; text diff empty for header and footer)",
+        "deltas": "only the 3 language-switch hrefs differ (/en/services/tyre-service/winter-tyres.html, /fr/services/pneus-roues/pneus-hiver.html, /it/servizi/ruote-pneumatici/pneumatici-invernali.html) plus two truncated hrefs in the booking note that are full here",
+        "footerRoot": "chrome-parity footer root resolves to the real site footer on this page (1 footer in the DOM): 37/37 texts paired @1440, 21/21 @360, 1 icon delta (GooglePlay badge 120×40 → 103×34, inherited)"
+      },
+      "breakpoints": {
+        "360": {
+          "iterations": 4,
+          "rounds": [
+            {
+              "name": "iter1 --full",
+              "pixelPct": 18.07,
+              "heightDelta": -195,
+              "note": "same two causes as 1440 plus synthetic bold in .cmp-text b (+30: one extra wrapped line) and h5 at the UA 13.28px (-16)"
+            },
+            {
+              "name": "iter2",
+              "pixelPct": 3.95,
+              "heightDelta": 0
+            },
+            {
+              "name": "confirm --full",
+              "pixelPct": 3.66,
+              "heightDelta": 0
+            }
+          ],
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": 1,
+            "pixelPct": 3.66,
+            "heightDelta": 0,
+            "clipped": 0,
+            "overflow": "ok (scrollWidth 360)",
+            "chromeParity": "146 deltas: 145 header, all inside the off-canvas mobile-nav drawer (inherited set, 166 on booking → 145 after the desktop-wrapper fix) + 1 footer icon (GooglePlay, inherited)",
+            "capProbe": "n/a (1440 row)",
+            "pass": true
+          },
+          "justified": [
+            "145 header chrome-parity deltas inside the hidden mobile-nav drawer (inherited; drawer typography/padding)",
+            "visual-diff STRETCHED GooglePlay-DE.png (inherited)",
+            "band 14500–14741 at 16.8 % and bands 6000/7500/13000 at 12–13 %: live-only frontnow launcher + popover and the OneTrust COOKIE button repeated in the stitched chunks (confirm crop: prototype side shows only the Services pill, as live)",
+            {
+              "what": "unit-geometry picture rows (maxiTeaserBild ×2)",
+              "why": "unit-geometry false red: live <picture> inline line box vs block in the build; img rows within, pixel/height pass"
+            }
+          ],
+          "residuals": [],
+          "captureState": [
+            "see 1440"
+          ]
+        },
+        "1440": {
+          "iterations": 3,
+          "rounds": [
+            {
+              "name": "iter1 --full",
+              "pixelPct": 18.91,
+              "heightDelta": 994,
+              "note": "accordion intro icon unsized (+1040: SVG without intrinsic size at 1110px wide) and an empty <p>&nbsp;</p> collapsed by the serializer (-46); numbers offset-contaminated below y 3400"
+            },
+            {
+              "name": "iter2",
+              "pixelPct": 0.93,
+              "heightDelta": 0
+            },
+            {
+              "name": "confirm --full",
+              "pixelPct": 0.89,
+              "heightDelta": 0
+            }
+          ],
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": 3,
+            "pixelPct": 0.89,
+            "heightDelta": 0,
+            "clipped": 0,
+            "overflow": "ok (scrollWidth 1440)",
+            "chromeParity": "8 deltas: 7 header (inherited canon set) + 1 footer icon (GooglePlay badge, inherited)",
+            "capProbe": "PASS at 2560 (0 of 5 rows failed; content cap 1920 = 1920; advisory: probe reads build root as body → 3 top-level sections vs live 9)",
+            "pass": true
+          },
+          "justified": [
+            "7 header chrome-parity deltas inherited from canon (language switcher padding/chevron/icon size, desktop pop-up x/y offset) — same set as the earlier archetypes",
+            "footer icon #10 GooglePlay badge 120×40 → 103×34 + visual-diff STRETCHED GooglePlay-DE.png — inherited (recorded on booking)",
+            "visual-diff STRETCHED IMAGE ×2 (maxi-teaser img.jpg 380×380 → 365×383 / 365×413): intentional cover crop, live renders the same boxes (measure Δ 0)",
+            "bands 9500–10500 at 3.0/3.4 %: live-only frontnow chat launcher + greeting popover (third-party, fixed) over the footer",
+            {
+              "what": "unit-geometry picture rows (maxiTeaserBild ×2)",
+              "why": "unit-geometry false red: live <picture> inline line box vs block in the build; img rows within, pixel/height pass"
+            }
+          ],
+          "residuals": [],
+          "captureState": [
+            {
+              "what": "frontnow AI chat launcher (#frontnow-advisor-launcher, 54×54) + greeting popover (.frontnow-advisor-popover) and the OneTrust floating COOKIE button (#ot-sdk-btn-floating)",
+              "where": "fixed bottom-right, live only; painted in every stitched chunk",
+              "restoreAtDelivery": "third-party runtime injections (sdk.frontnow.app advisor.js, cdn.cookielaw.org) — not authored content, re-attached by the host scripts; not replicated"
+            },
+            {
+              "what": "otvCta and garage-election widgets kept in the captured no-cookie state (.amag-otvCtaWrapper--cookie / .amag-garageOverlay--cookie d-none; 5 garage chooser modals .modal.fade display:none with 500 garage rows)",
+              "where": "intro, sections 3/4/6/7",
+              "restoreAtDelivery": "site clientlib JS reads the garage cookie and swaps the variants; modal opens on the Garage kontaktieren button (host-bound)"
+            },
+            {
+              "what": "dynamic-image <img src> fallbacks (4_3_Large, 16_9_Large wid=1045) not harvested — the browser never requested them; srcset keeps the live-selected renditions (4_3_Medium w690, 16_9_Large w1920)",
+              "where": "intro image, promo image",
+              "restoreAtDelivery": "full srcset when the DAM renditions are rehosted"
+            }
+          ]
+        }
+      },
+      "motion": {
+        "observed": "stardust/replica/motion/de-service-reifen-und-raeder-winterreifen-html.json (1440) + de-service-reifen-und-raeder-winterreifen-html-360.json; build: de-service-reifen-und-raeder-winterreifen-html-build.json, de-service-reifen-und-raeder-winterreifen-html-360-build.json; compare: de-service-reifen-und-raeder-winterreifen-html-compare.json, de-service-reifen-und-raeder-winterreifen-html-360-compare.json",
+        "implemented": [
+          "accordion row click: cmp-accordion__button--expanded + panel--expanded, button transform .5s (canon.js, inherited)",
+          "direct-entry pill: .show on scroll ≥300, click toggles pop-up .show / backdrop + open/close d-none, NEW body.no-scroll while open (canon.js + canon.css)",
+          "hamburger: header--overlay-open + slideDown (1440) / slideIn (360), NEW html.overflow-hidden while open (canon.js + canon.css)",
+          "header hide-on-scroll top .35s (canon.js, inherited)",
+          "gozilla button hover: a:hover colour #0056b3 (NEW canon reboot rule) + width 300 / margin-left -40 (.2s, en-services CSS copy) — verified by notes/de-service-reifen-und-raeder-winterreifen-html-hover-probe.mjs"
+        ],
+        "dead": [
+          ".amag-languageWrapper__language click (no class mutation on live at 1440)",
+          "hover on .amag-image-text-v2__link and the otv CTA (no measured hover diff on live)",
+          "OneTrust optanon-category-* script classes, frontnow/ot-sdk z-index transitions (third-party)"
+        ],
+        "compare": "1440: 11 parity / 6 missing (optanon ×1, z-index ×1 third-party; hover colour/width/margin-left ×4 = instrument read the build inside the 200 ms transition — direct probe shows colour rgb(0,86,179), width 300px, margin-left -40px on hover) / 0 extra; 360: 11 parity / 2 missing (third-party) / 0 extra"
+      },
+      "portations": [
+        {
+          "what": "breadcrumb chevron + parent link below 1200 (site JS → CSS)",
+          "where": "css/de-service-reifen-und-raeder-winterreifen-html.css (copied from en-services-html.css)",
+          "source": "clientlib JS"
+        },
+        {
+          "what": "header scroll morph / hide-on-scroll / hamburger / direct-entry pill JS",
+          "where": "js/canon.js (inherited)",
+          "source": "clientlib-amagch.min.js @1241777, @2355270"
+        }
+      ],
+      "canonChanges": [
+        "canon.css: .cmp-accordion__introIcon 40×40 + margin (@275772)",
+        "canon.css: [hidden]{display:none!important} moved from booking + car-dealers page CSS (@19120)",
+        "canon.css: .amagNavigation-wrapper--desktop display:none <1200 (@599322) — removes the 15px drawer overhang at 360 on every page",
+        "canon.css: .overflow-hidden (@172010), body.no-scroll (@588644), a:hover (@17065)",
+        "canon.js: body.no-scroll with the direct-entry pop-up, html.overflow-hidden with the drawer",
+        "all logged in notes/canon-changes.md; page CSS carries byte-identical copies of the en-services modules (breadcrumb, intro service, rich text, icon text box, maxi teaser, contact, garage modal) — promote on a third page"
+      ],
+      "fonts": {
+        "selfHosted": [
+          "amag_displaybold",
+          "amag_displaylight",
+          "amag_textbold",
+          "amag_textlight"
+        ],
+        "source": "canon.css @font-face → assets/fonts/amag_*-{bold,light}.woff2",
+        "note": ".cmp-text b uses amag_textbold weight 400 (@1917841), not synthetic bold"
+      },
+      "assets": {
+        "mediaMap": "stardust/replica/notes/de-service-reifen-und-raeder-winterreifen-html-media-map.json",
+        "harvested": "13 new files + 45 reused; 0 remote refs in the prototype; dynamic-image <img src> fallbacks for 2 unrequested renditions left as data-missing (srcset carries the live-selected renditions)"
+      },
+      "units": [
+        "accordion-row(8)",
+        "maxi-teaser(2)",
+        "icon-text-item(3)",
+        "pledge-item(3)",
+        "garage-chooser-row(500)",
+        "direct-entry-link(4)",
+        "footer-brand-logo(9)",
+        "fact-box-colour(2)",
+        "faq-standard-teaser(8)",
+        "otv-cta(2)",
+        "garage-election(2)",
+        "breadcrumb-item(4)",
+        "section-description(4)",
+        "rich-text(3)",
+        "advantage-item(2)"
+      ],
+      "status": "gated",
+      "gatedAt": "2026-10-08",
+      "fixes": [
+        {
+          "date": "2026-10-08",
+          "round": "fix1 (360)",
+          "what": "breadcrumb <1200: invented :first-of-type rule → :nth-last-of-type(2) (live shows the parent crumb “Räder- & Reifenservice” on mobile; unit-geometry MISSING link cleared)",
+          "evidence": "gate-all --stage prototype 360 units missing 1 → 0; pixel 3.66 % unchanged, Δh 0, 0 🔴, Clipped 0"
+        }
+      ],
+      "prototypeTable": {
+        "360": {
+          "pixelPct": 3.66,
+          "heightDelta": 0,
+          "clipped": 0,
+          "units": null,
+          "verdict": "PASS (override: maxiTeaserBild ×2 picture rows)",
+          "evidence": "stardust/replica/gates/prototypes-360/de-service-reifen-und-raeder-winterreifen-html/"
+        },
+        "1440": {
+          "pixelPct": 0.89,
+          "heightDelta": 0,
+          "clipped": 0,
+          "units": null,
+          "verdict": "PASS (override: maxiTeaserBild ×2 picture rows)",
+          "evidence": "stardust/replica/gates/prototypes-1440/de-service-reifen-und-raeder-winterreifen-html/"
+        }
+      }
+    }
+  },
+  "prototypeTable": {
+    "writtenAt": "2026-10-08T19:05Z",
+    "widths": {
+      "360": "1 PASS + 3 override-pass + 1 FAIL (en-html pixel)",
+      "1440": "1 PASS + 3 override-pass + 1 FAIL (en-html pixel)"
+    },
+    "overrides": "stardust/replica/gates/prototypes-<w>/overrides.json",
+    "unitCacheNote": "unit-geometry caches the origin inventory per slug without a width key (stardust/current/measure/<slug>-units.json); caches were cleared before every width run — do the same before any gate-all / gate.sh round at another width"
+  },
+  "siblings": {},
+  "migrate": {
+    "at": "2026-10-08T19:02:33.036Z",
+    "pages": 5,
+    "archetypes": 5,
+    "siblings": 0,
+    "thin": 0,
+    "gates": {
+      "content-fidelity": 5,
+      "pixel-gate-1440": 1,
+      "pixel-gate-360": 1,
+      "delivery-lint": 3,
+      "content-count": 1
+    },
+    "missing": {}
+  }
+}

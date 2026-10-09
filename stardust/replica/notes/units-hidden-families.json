@@ -1,0 +1,123 @@
+{
+  "note": "families removed from units.json on 2026-10-08: every unit is hidden at capture (display:none dropdowns, modals, collapsed panels, off-canvas lists), so unit-geometry reports “no visible unit on the origin side” and gate-all counts the error as a FAIL even when advisory. Counts stay reconciled by content-diff; kept here for the record.",
+  "families": {
+    "otv-brand-option": {
+      "origin": "#brand .generic-dynamic-dropdown-item",
+      "build": "#brand .generic-dynamic-dropdown-item",
+      "n": 9,
+      "required": false,
+      "pages": [
+        "de-service-auto-services-online-termin-buchen-html"
+      ],
+      "templates": [
+        "form"
+      ],
+      "note": "custom dropdown list, hidden until the button is clicked; native <select> mirrors the 9 options",
+      "advisory": "dropdown items hidden at capture: no visible unit on the origin side (unit-geometry) — advisory row, counts reconciled by content-diff"
+    },
+    "otv-garage-row": {
+      "origin": "#otv-tab-1-content label.garage-selection__garage",
+      "build": "#otv-tab-1-content label.garage-selection__garage",
+      "n": 86,
+      "required": false,
+      "pages": [
+        "de-service-auto-services-online-termin-buchen-html"
+      ],
+      "templates": [
+        "form"
+      ],
+      "note": "inside the hidden Garage pane (tab-pane without .active) at capture; data as captured",
+      "advisory": "garage list hidden at capture (pane 1): no visible unit on the origin side (unit-geometry) — advisory row, counts reconciled by content-diff"
+    },
+    "garage-chooser-row": {
+      "origin": ".amag-garageOverlay__garageList--garage",
+      "build": ".amag-garageOverlay__garageList--garage",
+      "n": 200,
+      "required": false,
+      "pages": [
+        "en-services-html",
+        "de-service-reifen-und-raeder-winterreifen-html"
+      ],
+      "templates": [
+        "program",
+        "article"
+      ],
+      "nByPage": {
+        "de-service-reifen-und-raeder-winterreifen-html": 500
+      },
+      "advisory": "garage overlay list hidden at capture: no visible unit on the origin side (unit-geometry) — advisory row, counts reconciled by content-diff"
+    },
+    "direct-entry-link": {
+      "origin": ".amag-direct-entry__pop-up-element",
+      "build": ".amag-direct-entry__pop-up-element",
+      "n": 3,
+      "required": false,
+      "pages": [
+        "en-services-html",
+        "de-service-reifen-und-raeder-winterreifen-html"
+      ],
+      "templates": [
+        "program",
+        "article"
+      ],
+      "nByPage": {
+        "de-service-reifen-und-raeder-winterreifen-html": 4
+      },
+      "advisory": "pop-up elements hidden until scroll: no visible unit on the origin side (unit-geometry) — advisory row, counts reconciled by content-diff"
+    },
+    "faq-standard-teaser": {
+      "origin": ".cmp-accordion__panel > .standardTeaser",
+      "build": ".cmp-accordion__panel > .standardTeaser",
+      "n": 8,
+      "required": false,
+      "pages": [
+        "de-service-reifen-und-raeder-winterreifen-html"
+      ],
+      "templates": [
+        "article"
+      ],
+      "advisory": "inside collapsed accordion panels: no visible unit on the origin side (unit-geometry) — advisory row, counts reconciled by content-diff"
+    },
+    "storelocator-garage-modal": {
+      "origin": ".storelocator__garageContainer > .amag-garageModal[hidden]",
+      "build": ".storelocator__garageContainer > .amag-garageModal[hidden]",
+      "n": 100,
+      "required": false,
+      "pages": [
+        "en-komponenten-car-dealers-html"
+      ],
+      "templates": [
+        "unique"
+      ],
+      "note": "hidden at capture; opened by JS on a list click",
+      "advisory": "hidden modals: no visible unit on the origin side (unit-geometry) — advisory row, counts reconciled by content-diff"
+    },
+    "filter-brand-checkbox": {
+      "origin": ".amag-filterModal__checkboxList > .amag-filterModal__checkboxListItem",
+      "build": ".amag-filterModal__checkboxList > .amag-filterModal__checkboxListItem",
+      "n": 7,
+      "required": false,
+      "pages": [
+        "en-komponenten-car-dealers-html"
+      ],
+      "templates": [
+        "unique"
+      ],
+      "note": "7 sale + 7 service (service list d-none); off-canvas panel d-none at capture",
+      "advisory": "inside hidden filter modal: no visible unit on the origin side (unit-geometry) — advisory row, counts reconciled by content-diff"
+    },
+    "filter-offer-switch": {
+      "origin": ".amag-filterModal__saleList > .amag-filterModal__saleListItem",
+      "build": ".amag-filterModal__saleList > .amag-filterModal__saleListItem",
+      "n": 3,
+      "required": false,
+      "pages": [
+        "en-komponenten-car-dealers-html"
+      ],
+      "templates": [
+        "unique"
+      ],
+      "advisory": "inside hidden filter modal: no visible unit on the origin side (unit-geometry) — advisory row, counts reconciled by content-diff"
+    }
+  }
+}

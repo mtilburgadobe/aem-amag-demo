@@ -1,0 +1,497 @@
+=== ^(\.otv|#amag-otv)(\s|$|,|\.|>)|^\.otv 
+stardust/current/assets/css/clientlib-amagch.css: 1126 of 11171 rules match /^(\.otv|#amag-otv)(\s|$|,|\.|>)|^\.otv /i, showing 120
+@1703184 #amag-otv tabs#otv-tab-component
+      display: none;
+@1703230 #amag-otv input[type=radio]
+      -ms-flex-negative: 0; border: none; cursor: pointer; flex-shrink: 0;
+@1703319 #amag-otv input[type=radio],#amag-otv input[type=radio]:before
+      border-radius: 100%; height: 24px; width: 24px;
+@1703424 #amag-otv input[type=radio]:before
+      background: #fff; border: 1px solid #172983; content: ""; display: inline-block;
+@1703532 #amag-otv input[type=radio]:checked:before
+      border-width: 8px;
+@1703592 #amag-otv input[type=checkbox]
+      border: none; cursor: pointer; margin-right: 10px; position: relative;
+@1703686 #amag-otv input[type=checkbox],#amag-otv input[type=checkbox]:before
+      border-radius: 2px; height: 24px; width: 24px;
+@1703796 #amag-otv input[type=checkbox]:before
+      background: #fff; border: 1px solid #172983; content: ""; display: inline-block;
+@1703907 #amag-otv input[type=checkbox]:checked:before
+      background-color: #172983;
+@1703978 #amag-otv input[type=checkbox]:checked:after
+      border-color: rgba(0,0,0,0) #fff #fff rgba(0,0,0,0); border-radius: 3px; border-style: solid; border-width: 2px; content: ""; height: 19px; left: 6px; position: absolute; top: -1px; -webkit-transform: scaleX(0.8) rotate(37deg); transform: scaleX(0.8) rotate(37deg); width: 13px;
+@1704278 #amag-otv .gigya-terms-error .gigya-input-checkbox:before
+      border-color: #e2001a;
+@1704357 #amag-otv .text-box
+      -webkit-box-orient: vertical; -webkit-box-direction: normal; background-color: #f5f5f5; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; margin-top: 10px; padding: 20px;
+@1704589 #amag-otv .text-box__headline
+      font-family: amag_displaybold; font-size: 16px; line-height: 24px; margin-bottom: 0;
+@1704720 #amag-otv .text-box__headline   @media(min-width:768px)
+      font-family: amag_displaybold; font-size: 20px; line-height: 30px;
+@1704812 #amag-otv .text-box__description
+      color: #222; font-family: amag_textlight; font-size: 16px; line-height: 24px; margin-bottom: 0; overflow: hidden; text-overflow: ellipsis; white-space: normal;
+@1705013 #amag-otv .text-box__description   @media(min-width:768px)
+      font-size: 20px; line-height: 30px;
+@1705079 #amag-otv .text-box__description--big
+      font-size: 20px; line-height: 30px;
+@1705149 #amag-otv .text-box__image
+      height: auto; max-width: 80px;
+@1705203 #amag-otv .text-box__textarea
+      font-family: amag_textlight; font-size: 20px; height: 160px; line-height: 30px; margin: 20px 0; padding: 20px; resize: none;
+@1705344 #amag-otv .chosen-garage
+      -webkit-box-orient: vertical; -webkit-box-direction: normal; background-color: #f5f5f5; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; padding: 20px;
+@1705565 #amag-otv .chosen-garage__name
+      font-family: amag_displaybold; font-size: 16px; line-height: 24px; margin-bottom: 0;
+@1705697 #amag-otv .chosen-garage__name   @media(min-width:768px)
+      font-family: amag_displaybold; font-size: 20px; line-height: 30px;
+@1705790 #amag-otv .chosen-garage__city-zip,#amag-otv .chosen-garage__service-brands,#amag-otv .chosen-garage__street
+      color: #222; font-family: amag_textlight; font-size: 16px; line-height: 24px; margin-bottom: 0;
+@1706009 #amag-otv .chosen-garage__city-zip,#amag-otv .chosen-garage__service-brands,#amag-otv .chosen-garage__street   @media(min-width:768px)
+      font-size: 20px; line-height: 30px;
+@1706151 #amag-otv .chosen-garage__city-zip,#amag-otv .chosen-garage__service-brands
+      margin-bottom: 10px;
+@1706246 #amag-otv .chosen-garage__route
+      color: #000; display: inline-block; font-family: amag_displaybold; font-size: 16px; line-height: 24px;
+@1706371 #amag-otv .chosen-garage__route:hover
+      color: #000; text-decoration: none;
+@1706441 #amag-otv .chosen-garage__route-icon
+      fill: #000; margin-right: 10px;
+@1706506 #amag-otv .tab-header-container
+      position: relative;
+@1706556 #amag-otv .tab-header-container .car-selection-container
+      -webkit-box-pack: start; -ms-flex-pack: start; background: #f5f5f5; display: -webkit-box; display: -ms-flexbox; display: flex; justify-content: flex-start; padding: 20px; width: 100%;
+@1706779 #amag-otv .tab-header-container .car-selection-container .car-selection-icon
+      margin-right: 10px;
+@1706874 #amag-otv .tab-header-container .car-selection-container .car-selection-text
+      color: #222; font-family: amag_textlight; font-size: 16px; margin-bottom: 0;
+@1707020 #amag-otv .tab-header-container .car-selection-container .car-selection-text .car-text:before
+      content: " ";
+@1707150 #amag-otv .tab-header-container .car-selection-container   @media(min-width:768px)
+      padding-left: 40px;
+@1707226 #amag-otv .tab-header-container .nav-open .tab-header-navigation-container
+      top: 75px;
+@1707334 #amag-otv .tab-header-container .nav-open .tab-header-navigation-container   @media(min-width:768px)
+      top: 121px;
+@1707715 #amag-otv .tab-header-container .tab-header-navigation-container
+      background: #fff; position: relative; top: 0; z-index: 3;
+@1707830 #amag-otv .tab-header-container .tab-header-navigation-container:after
+      background: #f5f5f5; bottom: 0; content: ""; height: 1px; position: absolute; width: 100%;
+@1707980 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header
+      -ms-flex-wrap: nowrap; flex-wrap: nowrap; overflow-x: scroll; position: relative; scroll-behavior: smooth; scrollbar-width: none;
+@1708186 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header::-webkit-scrollbar
+      display: none;
+@1708306 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item
+      -webkit-box-flex: 0; -ms-flex-positive: 0; flex-grow: 0;
+@1708457 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item:last-of-type a.nav-link,#amag-otv .tab-header-container .ta…
+      margin-left: 15px;
+@1708748 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item:last-of-type a.nav-link,#amag-otv .tab-header-container .ta…   @media(min-width:768px)
+      margin-left: 39px;
+@1709016 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link
+      -webkit-box-align: center; -ms-flex-align: center; align-items: center; color: #6f6d6a; display: -webkit-box; display: -ms-flexbox; display: flex; font-family: amag_textbold; font-size: 20px; margin: 0 30px; padding: 25px 0 25px 42px; position: relative; white-space: nowrap;
+@1709377 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link .checked-icon,#amag-otv .tab-header-container .t…
+      -webkit-box-align: center; -ms-flex-align: center; -webkit-box-pack: center; -ms-flex-pack: center; align-items: center; height: 32px; justify-content: center; left: 0; margin-top: -5px; padding-top: 3px; position: absolute; width: 32px;
+@1709834 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link:before
+      border: 1px solid #6f6d6a; border-radius: 100%; content: attr(data-tab-number); display: -webkit-box; display: -ms-flexbox; display: flex; font-family: amag_textlight; font-size: 22px;
+@1710121 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link .checked-icon
+      display: none;
+@1710259 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link.active
+      color: #172983;
+@1710391 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link.active:before
+      border: 1px solid #172983;
+@1710541 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link.checked
+      color: #006431;
+@1710674 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link.checked:before
+      display: none;
+@1710813 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link.checked .checked-icon
+      display: -webkit-box; display: -ms-flexbox; display: flex;
+@1711023 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link   @media(min-width:768px)
+      margin: 0 43px;
+@1711149 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header .active-tab-border
+      background: #172983; bottom: 0; height: 2px; position: absolute; -webkit-transition: left .5s ease,width .5s ease; transition: left .5s ease,width .5s ease; width: 0; z-index: 1;
+@1711419 #amag-otv .tab-header-container .tab-header-navigation-container .scroll-left,#amag-otv .tab-header-container .tab-header-navigation-container .scroll-right
+      -webkit-box-pack: center; -ms-flex-pack: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0.…; background: linear-gradient(90deg,rgba(255,255,255,0.001),rgb(255,255,255) 92.1…; bottom: 0; display: -webkit-box; display: -ms-flexbox; display: flex; justify-content: center; padding: 0 15px; position: absolute; top: 0;
+@1712038 #amag-otv .tab-header-container .tab-header-navigation-container .scroll-left,#amag-otv .tab-header-container .tab-header-navigation-container .scroll-right   @media(min-width:768px)
+      padding: 0 40px;
+@1712211 #amag-otv .tab-header-container .tab-header-navigation-container .scroll-left svg path,#amag-otv .tab-header-container .tab-header-navigation-container .scroll…
+      fill: #222;
+@1712396 #amag-otv .tab-header-container .tab-header-navigation-container .scroll-left
+      left: 0; -webkit-transform: rotate(180deg); transform: rotate(180deg);
+@1712539 #amag-otv .tab-header-container .tab-header-navigation-container .scroll-right
+      right: 0;
+@1712626 #amag-otv .tab-content
+      padding: 40px 15px 70px; width: 100%;
+@1712707 #amag-otv .tab-content   @media(min-width:768px)
+      padding: 40px 40px 100px;
+@1712780 #amag-otv .tab-content   @media(min-width:1200px)
+      padding: 100px 260px 135px 125px;
+@1712835 #amag-otv>div   @media(min-width:1200px)
+      -webkit-box-pack: center; -ms-flex-pack: center; display: -webkit-box; display: -ms-flexbox; display: flex; justify-content: center;
+@1712970 #amag-otv .tab-header-container   @media(min-width:1200px)
+      -ms-flex-negative: 0; -webkit-box-flex: 0; background-color: #f5f5f5; flex-shrink: 0; -ms-flex: 0 0 420px; flex: 0 0 420px; padding-top: 100px;
+@1713132 #amag-otv .tab-header-container .sticky-anchor   @media(min-width:1200px)
+      position: sticky; top: 100px; -webkit-transition: top .35s ease; transition: top .35s ease;
+@1713263 #amag-otv .tab-header-container .sticky-anchor.nav-open   @media(min-width:1200px)
+      top: 260px;
+@1713329 #amag-otv .tab-header-container .sticky-anchor.nav-open .tab-header-navigation-container   @media(min-width:1200px)
+      top: 0;
+@1713424 #amag-otv .tab-header-container .car-selection-container   @media(min-width:1200px)
+      -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; padding-left: 165px; padding-top: 0;
+@1713582 #amag-otv .tab-header-container .car-selection-container .car-selection-icon   @media(min-width:1200px)
+      margin-right: 20px; margin-top: 3px;
+@1713692 #amag-otv .tab-header-container .car-selection-container .car-selection-text   @media(min-width:1200px)
+      -webkit-box-orient: vertical; -webkit-box-direction: normal; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column;
+@1713927 #amag-otv .tab-header-container .car-selection-container .car-selection-text .car-text:before   @media(min-width:1200px)
+      content: "";
+@1714032 #amag-otv .tab-header-container .tab-header-navigation-container   @media(min-width:1200px)
+      background: rgba(0,0,0,0);
+@1714122 #amag-otv .tab-header-container .tab-header-navigation-container:after   @media(min-width:1200px)
+      display: none;
+@1714206 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header   @media(min-width:1200px)
+      display: block; overflow-x: hidden; width: 100%;
+@1714337 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link   @media(min-width:1200px)
+      background-color: rgba(0,0,0,0); margin: 0!important; padding-left: 207px;
+@1714517 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link .checked-icon,#amag-otv .tab-header-container .t…   @media(min-width:1200px)
+      left: 165px;
+@1714771 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link.active   @media(min-width:1200px)
+      background-color: #fff;
+@1714911 #amag-otv .tab-header-container .tab-header-navigation-container .scroll-left,#amag-otv .tab-header-container .tab-header-navigation-container .scroll-right,#a…   @media(min-width:1200px)
+      display: none;
+@1715188 #amag-otv .tab-content   @media(min-width:1200px)
+      -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; max-width: 1020px; padding: 100px 260px 100px 125px;
+@1715312 #amag-otv .tab-pane__navigation-container,#amag-otv .tab-pane__sub-page-navigation-backwards
+      -webkit-box-align: center; -ms-flex-align: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; align-items: center; background-color: #fff; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; padding: 15px 0;
+@1715690 #amag-otv .tab-pane__navigation-container,#amag-otv .tab-pane__sub-page-navigation-backwards   @media(min-width:768px)
+      padding: 20px 0;
+@1715824 #amag-otv .tab-pane__navigation-container,#amag-otv .tab-pane__sub-page-navigation-backwards   @media(min-width:1200px)
+      -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row;
+@1716019 #amag-otv .tab-pane__navigation-backwards,#amag-otv .tab-pane__navigation-forwards,#amag-otv .tab-pane__sub-page-navigation-backwards-link
+      background-color: rgba(0,0,0,0); border: none; font-family: amag_displaybold; font-size: 20px; line-height: 30px; padding: 0;
+@1716272 #amag-otv .tab-pane__navigation-backwards:focus,#amag-otv .tab-pane__navigation-forwards:focus,#amag-otv .tab-pane__sub-page-navigation-backwards-link:focus
+      outline: none;
+@1716442 #amag-otv .tab-pane__navigation-forwards
+      background-color: #172983; color: #fff; margin-bottom: 20px; padding: 20px; width: 100%;
+@1716587 #amag-otv .tab-pane__navigation-forwards   @media(min-width:1200px)
+      -webkit-box-ordinal-group: 2; -ms-flex-order: 1; margin-bottom: 0; min-width: 220px; order: 1; padding: 35px 80px; width: auto;
+@1716743 #amag-otv .tab-pane__navigation-backwards,#amag-otv .tab-pane__sub-page-navigation-backwards-link
+      background-color: rgba(0,0,0,0); border: none; border-bottom: 2px solid #172983; color: #172983; font-family: amag_displaybold; font-size: 20px; line-height: 30px; padding: 0 0 10px;
+@1717033 #amag-otv .tab-pane__navigation-backwards,#amag-otv .tab-pane__sub-page-navigation-backwards-link   @media(min-width:1200px)
+      margin-right: 40px;
+@1717150 #amag-otv .tab-pane__navigation-backwards:focus,#amag-otv .tab-pane__sub-page-navigation-backwards-link:focus
+      outline: none;
+@1717273 #amag-otv .tab-pane__sub-page-navigation-backwards
+      padding-left: 15px; padding-right: 15px;
+@1717361 #amag-otv .tab-pane__sub-page-navigation-backwards-link
+      margin-right: 0;
+@1717432 #amag-otv .tab-pane__sub-page-navigation-backwards-link:hover
+      text-decoration: none;
+@1717515 #amag-otv .services__headline--top
+      font-family: amag_displaybold; font-size: 32px; line-height: 36px; margin-bottom: 10px;
+@1717655 #amag-otv .services__headline--top   @media(min-width:1200px)
+      font-family: amag_displaybold; font-size: 44px; line-height: 48px;
+@1717752 #amag-otv .services__headline--regular
+      font-family: amag_textbold; font-size: 16px; line-height: 24px; margin-bottom: 15px;
+@1717868 #amag-otv .services__subline
+      margin-bottom: 40px;
+@1717916 #amag-otv .services__subline,#amag-otv .services__subline p
+      font-family: amag_displaylight; font-size: 20px; line-height: 30px;
+@1718038 #amag-otv .services__subline a
+      color: #172983; text-decoration: underline;
+@1718109 #amag-otv .services__subline b
+      font-family: amag_displaybold;
+@1718194 #amag-otv .services-switch-wrapper   @media(min-width:1200px)
+      width: 700px;
+@1718242 #amag-otv .services-switch-wrapper .otv-service__service-selection-wrapper
+      padding: 0 15px;
+@1718357 #amag-otv .services-switch-wrapper .otv-service__service-selection-wrapper   @media(min-width:1200px)
+      padding: 20px 15px 0;
+@1718453 #amag-otv .services-switch-wrapper .otv-service__service-selection-wrapper>a
+      -webkit-box-align: stretch; -ms-flex-align: stretch; align-items: stretch; display: -webkit-box; display: -ms-flexbox; display: flex; text-decoration: none;
+@1718721 #amag-otv .services-switch-wrapper .otv-service__service-selection-wrapper>a   @media(min-width:360px)and (max-width:767.98px)
+      padding: 0;
+@1718808 #amag-otv .services-switch-wrapper .otv-service__service-selection-wrapper>a:first-of-type   @media(min-width:360px)and (max-width:767.98px)
+      margin-bottom: 10px;
+@1718943 #amag-otv .services-switch-wrapper .otv-service__service-selection-wrapper>a:first-of-type   @media(min-width:768px)
+      padding-left: 0;
+@1719049 #amag-otv .services-switch-wrapper .otv-service__service-selection-wrapper>a:last-of-type   @media(min-width:768px)
+      padding-right: 0;
+@1719156 #amag-otv .services-switch-wrapper .otv-service__service-selection
+      -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-box-pack: start; -ms-flex-pack: start; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; background: #f5f5f5; color: #000; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; justify-content: flex-start; padding-right: 0; text-decoration: none; width: 100%;
+@1719591 #amag-otv .services-switch-wrapper .otv-service__service-selection:hover
+      -webkit-box-shadow: 0 20px 40px rgba(0,0,0,.1); box-shadow: 0 20px 40px rgba(0,0,0,.1);
+@1719748 #amag-otv .services-switch-wrapper .otv-service__service-selection .otv-service__time-estimation-container
+      background: #e8e8e8; font-family: amag_textlight; font-size: 14px; letter-spacing: .01em; line-height: 125%; padding: 10px 20px;
+@1719996 #amag-otv .services-switch-wrapper .otv-service__service-selection .otv-service__time-estimation-container   @media(min-width:768px)
+      font-size: 16px; letter-spacing: .01em; line-height: 150%;
+@1720157 #amag-otv .services-switch-wrapper .otv-service__service-selection .otv-service__time-estimation
+      color: #222;
+@1720265 #amag-otv .services-switch-wrapper .otv-service__service-selection .otv-service__service
+      display: -webkit-box; display: -ms-flexbox; display: flex; width: 100%;
+@1720442 #amag-otv .services-switch-wrapper .otv-service__service-selection .otv-service__service   @media(min-width:768px)
+      display: block; height: 100%; margin-bottom: 50px; position: relative;
+@1720620 #amag-otv .services-switch-wrapper .otv-service__service-selection .otv-service__service   @media(min-width:1200px)
+      display: block;
+@1720748 #amag-otv .services-switch-wrapper .otv-service__service-selection .otv-service__service-type   @media(min-width:768px)
+      padding: 10px 0 0 40px!important;
+@1720875 #amag-otv .services-switch-wrapper .otv-service__service-selection .otv-service__service-typecontent
+      display: -webkit-box; display: -ms-flexbox; display: flex;
+@1721053 #amag-otv .services-switch-wrapper .otv-service__service-selection .otv-service__service-typecontent   @media(min-width:768px)
+      display: block; height: 100%;
+@1721181 #amag-otv .services-switch-wrapper .otv-service__service-selection .otv-service__service-type-icon
+      height: 40px; margin: 2px 0 0 12px; -webkit-transform: scale(0.6); transform: scale(0.6); width: 40px;
+@1721397 #amag-otv .services-switch-wrapper .otv-service__service-selection .otv-service__service-type-icon   @media(min-width:768px)
+      height: 40px; margin: 0; -webkit-transform: scale(1); transform: scale(1); width: 40px;
+… 1006 more — narrow the selector regex, add --media/--decl, or raise --max
+=== tab-header-container|sticky-anchor|tab-header-navigation|amag-otv-tab-header|active-tab-border|\.scroll-(left|right)|car-selection
+stardust/current/assets/css/clientlib-amagch.css: 54 of 11171 rules match /tab-header-container|sticky-anchor|tab-header-navigation|amag-otv-tab-header|active-tab-border|\.scroll-(left|right)|car-selection/i
+@1490729 .damageReport-nav .scroll-left,.damageReport-nav .scroll-right
+      -webkit-box-pack: center; -ms-flex-pack: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0.…; background: linear-gradient(90deg,rgba(255,255,255,0.7),rgb(255,255,255) 92.14%); border: none; bottom: 0; display: -webkit-box; display: -ms-flexbox; display: flex; justify-content: center; padding: 0 15px; position: absolute; top: 0;
+@1491263 .damageReport-nav .scroll-left,.damageReport-nav .scroll-right   @media(min-width:1200px)
+      display: none;
+@1491340 .damageReport-nav .scroll-left
+      left: 0; -webkit-transform: rotate(180deg); transform: rotate(180deg);
+@1491436 .damageReport-nav .scroll-right
+      right: 0;
+@1491501 .damageReport-nav .sticky-anchor   @media(min-width:1200px)
+      position: sticky; top: 100px; -webkit-transition: top .35s ease; transition: top .35s ease;
+@1491618 .damageReport-nav .sticky-anchor.nav-open   @media(min-width:1200px)
+      top: 260px;
+@1706506 #amag-otv .tab-header-container
+      position: relative;
+@1706556 #amag-otv .tab-header-container .car-selection-container
+      -webkit-box-pack: start; -ms-flex-pack: start; background: #f5f5f5; display: -webkit-box; display: -ms-flexbox; display: flex; justify-content: flex-start; padding: 20px; width: 100%;
+@1706779 #amag-otv .tab-header-container .car-selection-container .car-selection-icon
+      margin-right: 10px;
+@1706874 #amag-otv .tab-header-container .car-selection-container .car-selection-text
+      color: #222; font-family: amag_textlight; font-size: 16px; margin-bottom: 0;
+@1707020 #amag-otv .tab-header-container .car-selection-container .car-selection-text .car-text:before
+      content: " ";
+@1707150 #amag-otv .tab-header-container .car-selection-container   @media(min-width:768px)
+      padding-left: 40px;
+@1707226 #amag-otv .tab-header-container .nav-open .tab-header-navigation-container
+      top: 75px;
+@1707334 #amag-otv .tab-header-container .nav-open .tab-header-navigation-container   @media(min-width:768px)
+      top: 121px;
+@1707420 #header.non-captive-header--porsche~.amag-content #amag-otv .tab-header-container .nav-open .tab-header-navigation-container
+      top: 148px;
+@1707579 #header.non-captive-header--porsche~.amag-content #amag-otv .tab-header-container .nav-open .tab-header-navigation-container   @media(min-width:768px)
+      top: 169px;
+@1707715 #amag-otv .tab-header-container .tab-header-navigation-container
+      background: #fff; position: relative; top: 0; z-index: 3;
+@1707830 #amag-otv .tab-header-container .tab-header-navigation-container:after
+      background: #f5f5f5; bottom: 0; content: ""; height: 1px; position: absolute; width: 100%;
+@1707980 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header
+      -ms-flex-wrap: nowrap; flex-wrap: nowrap; overflow-x: scroll; position: relative; scroll-behavior: smooth; scrollbar-width: none;
+@1708186 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header::-webkit-scrollbar
+      display: none;
+@1708306 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item
+      -webkit-box-flex: 0; -ms-flex-positive: 0; flex-grow: 0;
+@1708457 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item:last-of-type a.nav-link,#amag-otv .tab-header-container .ta…
+      margin-left: 15px;
+@1708748 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item:last-of-type a.nav-link,#amag-otv .tab-header-container .ta…   @media(min-width:768px)
+      margin-left: 39px;
+@1709016 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link
+      -webkit-box-align: center; -ms-flex-align: center; align-items: center; color: #6f6d6a; display: -webkit-box; display: -ms-flexbox; display: flex; font-family: amag_textbold; font-size: 20px; margin: 0 30px; padding: 25px 0 25px 42px; position: relative; white-space: nowrap;
+@1709377 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link .checked-icon,#amag-otv .tab-header-container .t…
+      -webkit-box-align: center; -ms-flex-align: center; -webkit-box-pack: center; -ms-flex-pack: center; align-items: center; height: 32px; justify-content: center; left: 0; margin-top: -5px; padding-top: 3px; position: absolute; width: 32px;
+@1709834 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link:before
+      border: 1px solid #6f6d6a; border-radius: 100%; content: attr(data-tab-number); display: -webkit-box; display: -ms-flexbox; display: flex; font-family: amag_textlight; font-size: 22px;
+@1710121 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link .checked-icon
+      display: none;
+@1710259 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link.active
+      color: #172983;
+@1710391 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link.active:before
+      border: 1px solid #172983;
+@1710541 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link.checked
+      color: #006431;
+@1710674 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link.checked:before
+      display: none;
+@1710813 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link.checked .checked-icon
+      display: -webkit-box; display: -ms-flexbox; display: flex;
+@1711023 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link   @media(min-width:768px)
+      margin: 0 43px;
+@1711149 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header .active-tab-border
+      background: #172983; bottom: 0; height: 2px; position: absolute; -webkit-transition: left .5s ease,width .5s ease; transition: left .5s ease,width .5s ease; width: 0; z-index: 1;
+@1711419 #amag-otv .tab-header-container .tab-header-navigation-container .scroll-left,#amag-otv .tab-header-container .tab-header-navigation-container .scroll-right
+      -webkit-box-pack: center; -ms-flex-pack: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0.…; background: linear-gradient(90deg,rgba(255,255,255,0.001),rgb(255,255,255) 92.1…; bottom: 0; display: -webkit-box; display: -ms-flexbox; display: flex; justify-content: center; padding: 0 15px; position: absolute; top: 0;
+@1712038 #amag-otv .tab-header-container .tab-header-navigation-container .scroll-left,#amag-otv .tab-header-container .tab-header-navigation-container .scroll-right   @media(min-width:768px)
+      padding: 0 40px;
+@1712211 #amag-otv .tab-header-container .tab-header-navigation-container .scroll-left svg path,#amag-otv .tab-header-container .tab-header-navigation-container .scroll…
+      fill: #222;
+@1712396 #amag-otv .tab-header-container .tab-header-navigation-container .scroll-left
+      left: 0; -webkit-transform: rotate(180deg); transform: rotate(180deg);
+@1712539 #amag-otv .tab-header-container .tab-header-navigation-container .scroll-right
+      right: 0;
+@1712970 #amag-otv .tab-header-container   @media(min-width:1200px)
+      -ms-flex-negative: 0; -webkit-box-flex: 0; background-color: #f5f5f5; flex-shrink: 0; -ms-flex: 0 0 420px; flex: 0 0 420px; padding-top: 100px;
+@1713132 #amag-otv .tab-header-container .sticky-anchor   @media(min-width:1200px)
+      position: sticky; top: 100px; -webkit-transition: top .35s ease; transition: top .35s ease;
+@1713263 #amag-otv .tab-header-container .sticky-anchor.nav-open   @media(min-width:1200px)
+      top: 260px;
+@1713329 #amag-otv .tab-header-container .sticky-anchor.nav-open .tab-header-navigation-container   @media(min-width:1200px)
+      top: 0;
+@1713424 #amag-otv .tab-header-container .car-selection-container   @media(min-width:1200px)
+      -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; padding-left: 165px; padding-top: 0;
+@1713582 #amag-otv .tab-header-container .car-selection-container .car-selection-icon   @media(min-width:1200px)
+      margin-right: 20px; margin-top: 3px;
+@1713692 #amag-otv .tab-header-container .car-selection-container .car-selection-text   @media(min-width:1200px)
+      -webkit-box-orient: vertical; -webkit-box-direction: normal; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column;
+@1713927 #amag-otv .tab-header-container .car-selection-container .car-selection-text .car-text:before   @media(min-width:1200px)
+      content: "";
+@1714032 #amag-otv .tab-header-container .tab-header-navigation-container   @media(min-width:1200px)
+      background: rgba(0,0,0,0);
+@1714122 #amag-otv .tab-header-container .tab-header-navigation-container:after   @media(min-width:1200px)
+      display: none;
+@1714206 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header   @media(min-width:1200px)
+      display: block; overflow-x: hidden; width: 100%;
+@1714337 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link   @media(min-width:1200px)
+      background-color: rgba(0,0,0,0); margin: 0!important; padding-left: 207px;
+@1714517 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link .checked-icon,#amag-otv .tab-header-container .t…   @media(min-width:1200px)
+      left: 165px;
+@1714771 #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link.active   @media(min-width:1200px)
+      background-color: #fff;
+@1714911 #amag-otv .tab-header-container .tab-header-navigation-container .scroll-left,#amag-otv .tab-header-container .tab-header-navigation-container .scroll-right,#a…   @media(min-width:1200px)
+      display: none;
+=== otv-tab-title|otv-text\b|otv-login|otv-available|preSelection__|\.error-msg-box|app-vehicle__notification
+stardust/current/assets/css/clientlib-amagch.css: 22 of 11171 rules match /otv-tab-title|otv-text\b|otv-login|otv-available|preSelection__|\.error-msg-box|app-vehicle__notification/i
+@1867171 #amag-otv .app-vehicle__notification
+      background: #e8eaf3; color: #172983; display: -webkit-box; display: -ms-flexbox; display: flex; font-family: amag_textbold; font-size: 16px; line-height: 24px; margin-bottom: 20px; padding: 15px;
+@1867384 #amag-otv .app-vehicle__notification-icon-container
+      -ms-flex-negative: 0; -webkit-box-flex: 0; -ms-flex-positive: 0; flex-grow: 0; flex-shrink: 0; margin-right: 10px; width: 25px;
+@1867550 #amag-otv .app-vehicle__notification-icon-container svg
+      height: auto; width: 100%;
+@1900119 #amag-otv .tab-content .otv-tab-title
+      font-family: amag_displaybold; margin-bottom: 1rem;
+@1900229 #amag-otv .tab-content .otv-tab-title   @media(min-width:360px)
+      font-size: 32px; line-height: 38.4px;
+@1900327 #amag-otv .tab-content .otv-tab-title   @media(min-width:1200px)
+      font-size: 44px; line-height: 52.8px;
+@1900400 #amag-otv .tab-content .otv-text,#amag-otv .tab-content .otv-vehicle-not-included
+      font-family: amag_displaylight; font-size: 20px; line-height: 24px;
+@1900544 #amag-otv .tab-content .otv-login-link
+      border: 2px solid #172983; color: #172983; margin-bottom: 40px; margin-top: 20px;
+@1900657 #amag-otv .tab-content .otv-login-wrapper span
+      -ms-flex-preferred-size: 100%; -webkit-box-align: center; -ms-flex-align: center; align-items: center; color: #000; display: -webkit-box; display: -ms-flexbox; display: flex; flex-basis: 100%; font-family: amag_textlight; font-size: 20px; line-height: 30px;
+@1900938 #amag-otv .tab-content .otv-login-wrapper span:after,#amag-otv .tab-content .otv-login-wrapper span:before
+      -webkit-box-flex: 1; -ms-flex-positive: 1; background: #e8e8e8; content: ""; flex-grow: 1; font-size: 0px; height: 1px; line-height: 0px; margin: 0px 8px;
+@1901182 #amag-otv .tab-content .otv-login-info-box
+      background-color: #f5f5f5; margin-bottom: 55px; padding: 15px;
+@1901282 #amag-otv .tab-content .otv-login-info-box p,#amag-otv .tab-content .otv-login-info-box ul
+      color: #000; font-family: amag_textlight; font-size: 20px; line-height: 30px; margin-bottom: 0;
+@1901459 #amag-otv .tab-content .otv-login-info-box h4
+      font-family: amag_displaybold; font-size: 24px; line-height: 28px;
+@1901647 #amag-otv .tab-content .otv-available-cars
+      margin-top: 20px;
+@1902034 .error-msg-box
+      background: rgba(226,0,26,.1)!important; border: none!important; border-radius: 2px; color: #000!important; display: -webkit-box; display: -ms-flexbox; display: flex; margin-bottom: 10px!important; padding: 15px;
+@1902244 .error-msg-box__icon
+      display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; padding: 0 10px 0 1px;
+@1902360 .error-msg-box__icon .otv-error-type-icon
+      fill: #000; margin: auto 0;
+@1902426 .error-msg-box__msg
+      display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex;
+@1902520 .preSelection__error-msg
+      background: #f5f5f5; border: 1px solid #e2001a; color: #e2001a; font-family: amag_textlight; font-size: 16px; line-height: 24px; margin-bottom: 0; padding: 20px;
+@1984454 #vehicle-overview-component .app-vehicle__notification
+      background: #e8eaf3; color: #172983; display: -webkit-box; display: -ms-flexbox; display: flex; font-family: amag_textbold; font-size: 16px; line-height: 24px; margin-bottom: 20px; padding: 15px;
+@1984685 #vehicle-overview-component .app-vehicle__notification-icon-container
+      -ms-flex-negative: 0; -webkit-box-flex: 0; -ms-flex-positive: 0; flex-grow: 0; flex-shrink: 0; margin-right: 10px; width: 25px;
+@1984869 #vehicle-overview-component .app-vehicle__notification-icon-container svg
+      height: auto; width: 100%;
+=== ^\.otv .*(nav|tab-pane|tab-content)|\.otv .*nav-link|\.otv .*nav-item|otv.*tab-content|otv.*tab-pane
+stardust/current/assets/css/clientlib-amagch.css: 48 of 11171 rules match /^\.otv .*(nav|tab-pane|tab-content)|\.otv .*nav-link|\.otv .*nav-item|otv.*tab-content|otv.*tab-pane/i
+@1712626 #amag-otv .tab-content
+      padding: 40px 15px 70px; width: 100%;
+@1712707 #amag-otv .tab-content   @media(min-width:768px)
+      padding: 40px 40px 100px;
+@1712780 #amag-otv .tab-content   @media(min-width:1200px)
+      padding: 100px 260px 135px 125px;
+@1715188 #amag-otv .tab-content   @media(min-width:1200px)
+      -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; max-width: 1020px; padding: 100px 260px 100px 125px;
+@1715312 #amag-otv .tab-pane__navigation-container,#amag-otv .tab-pane__sub-page-navigation-backwards
+      -webkit-box-align: center; -ms-flex-align: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; align-items: center; background-color: #fff; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; padding: 15px 0;
+@1715690 #amag-otv .tab-pane__navigation-container,#amag-otv .tab-pane__sub-page-navigation-backwards   @media(min-width:768px)
+      padding: 20px 0;
+@1715824 #amag-otv .tab-pane__navigation-container,#amag-otv .tab-pane__sub-page-navigation-backwards   @media(min-width:1200px)
+      -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row;
+@1716019 #amag-otv .tab-pane__navigation-backwards,#amag-otv .tab-pane__navigation-forwards,#amag-otv .tab-pane__sub-page-navigation-backwards-link
+      background-color: rgba(0,0,0,0); border: none; font-family: amag_displaybold; font-size: 20px; line-height: 30px; padding: 0;
+@1716272 #amag-otv .tab-pane__navigation-backwards:focus,#amag-otv .tab-pane__navigation-forwards:focus,#amag-otv .tab-pane__sub-page-navigation-backwards-link:focus
+      outline: none;
+@1716442 #amag-otv .tab-pane__navigation-forwards
+      background-color: #172983; color: #fff; margin-bottom: 20px; padding: 20px; width: 100%;
+@1716587 #amag-otv .tab-pane__navigation-forwards   @media(min-width:1200px)
+      -webkit-box-ordinal-group: 2; -ms-flex-order: 1; margin-bottom: 0; min-width: 220px; order: 1; padding: 35px 80px; width: auto;
+@1716743 #amag-otv .tab-pane__navigation-backwards,#amag-otv .tab-pane__sub-page-navigation-backwards-link
+      background-color: rgba(0,0,0,0); border: none; border-bottom: 2px solid #172983; color: #172983; font-family: amag_displaybold; font-size: 20px; line-height: 30px; padding: 0 0 10px;
+@1717033 #amag-otv .tab-pane__navigation-backwards,#amag-otv .tab-pane__sub-page-navigation-backwards-link   @media(min-width:1200px)
+      margin-right: 40px;
+@1717150 #amag-otv .tab-pane__navigation-backwards:focus,#amag-otv .tab-pane__sub-page-navigation-backwards-link:focus
+      outline: none;
+@1717273 #amag-otv .tab-pane__sub-page-navigation-backwards
+      padding-left: 15px; padding-right: 15px;
+@1717361 #amag-otv .tab-pane__sub-page-navigation-backwards-link
+      margin-right: 0;
+@1717432 #amag-otv .tab-pane__sub-page-navigation-backwards-link:hover
+      text-decoration: none;
+@1741615 #amag-otv .services-summary__wrapper~.tab-pane__navigation-container,#amag-otv .services-summary__wrapper~.tab-pane__sub-page-navigation-backwards
+      margin-top: 60px;
+@1741778 #amag-otv .services-summary__wrapper~.tab-pane__navigation-error-msg~.tab-pane__navigation-container,#amag-otv .services-summary__wrapper~.tab-pane__navigation…
+      margin-top: 0;
+@1742002 #amag-otv .services-summary__wrapper~.tab-pane__navigation-error-msg
+      -ms-flex-item-align: start; align-self: flex-start; color: #e2001a; font-family: amag_textlight; font-size: 16px; line-height: 24px; margin-bottom: 1rem; margin-top: 60px;
+@1752578 #amag-otv .garage-selection.active~.is-sticky.tab-pane__sub-page-navigation-backwards,#amag-otv .garage-selection.active~.tab-pane__navigation-container.is-sti…
+      bottom: 0; position: sticky; width: 100%;
+@1752777 #amag-otv .garage-selection.active~.is-sticky.no-sticky.tab-pane__sub-page-navigation-backwards,#amag-otv .garage-selection.active~.tab-pane__navigation-contai…
+      position: relative;
+@1774916 #amag-otv .choose-date.active~.is-sticky.tab-pane__sub-page-navigation-backwards,#amag-otv .choose-date.active~.tab-pane__navigation-container.is-sticky
+      bottom: 0; position: sticky; width: 100%;
+@1775105 #amag-otv .choose-date.active~.is-sticky.no-sticky.tab-pane__sub-page-navigation-backwards,#amag-otv .choose-date.active~.tab-pane__navigation-container.is-sti…
+      position: relative;
+@1847075 #amag-otv #amag-component-tab_tab-content
+      padding-bottom: 0;
+@1847158 #amag-otv #amag-component-tab_tab-content   @media(min-width:768px)
+      padding: 60px 40px;
+@1847244 #amag-otv #amag-component-tab_tab-content   @media(min-width:1200px)
+      padding: 100px 260px 100px 125px;
+@1899467 #amag-otv .tab-content .tab-pane
+      position: relative;
+@1899518 #amag-otv .tab-content .amag-ctaWrapper__button,#amag-otv .tab-content .select2
+      margin-bottom: 15px;
+@1899641 #amag-otv .tab-content .amag-ctaWrapper__button,#amag-otv .tab-content .select2   @media(min-width:360px)
+      margin-bottom: 20px;
+@1899765 #amag-otv .tab-content .amag-ctaWrapper__button,#amag-otv .tab-content .select2   @media(min-width:768px)
+      margin-bottom: 30px;
+@1899865 #amag-otv .tab-content .amag-ctaWrapper__button
+      margin-top: 50px;
+@1899953 #amag-otv .tab-content .amag-ctaWrapper__button   @media(min-width:768px)
+      margin-bottom: 20px; margin-top: 30px;
+@1900037 #amag-otv .tab-content .gigya-composite-control-dropdown .select2
+      margin-bottom: 0;
+@1900119 #amag-otv .tab-content .otv-tab-title
+      font-family: amag_displaybold; margin-bottom: 1rem;
+@1900229 #amag-otv .tab-content .otv-tab-title   @media(min-width:360px)
+      font-size: 32px; line-height: 38.4px;
+@1900327 #amag-otv .tab-content .otv-tab-title   @media(min-width:1200px)
+      font-size: 44px; line-height: 52.8px;
+@1900400 #amag-otv .tab-content .otv-text,#amag-otv .tab-content .otv-vehicle-not-included
+      font-family: amag_displaylight; font-size: 20px; line-height: 24px;
+@1900544 #amag-otv .tab-content .otv-login-link
+      border: 2px solid #172983; color: #172983; margin-bottom: 40px; margin-top: 20px;
+@1900657 #amag-otv .tab-content .otv-login-wrapper span
+      -ms-flex-preferred-size: 100%; -webkit-box-align: center; -ms-flex-align: center; align-items: center; color: #000; display: -webkit-box; display: -ms-flexbox; display: flex; flex-basis: 100%; font-family: amag_textlight; font-size: 20px; line-height: 30px;
+@1900938 #amag-otv .tab-content .otv-login-wrapper span:after,#amag-otv .tab-content .otv-login-wrapper span:before
+      -webkit-box-flex: 1; -ms-flex-positive: 1; background: #e8e8e8; content: ""; flex-grow: 1; font-size: 0px; height: 1px; line-height: 0px; margin: 0px 8px;
+@1901182 #amag-otv .tab-content .otv-login-info-box
+      background-color: #f5f5f5; margin-bottom: 55px; padding: 15px;
+@1901282 #amag-otv .tab-content .otv-login-info-box p,#amag-otv .tab-content .otv-login-info-box ul
+      color: #000; font-family: amag_textlight; font-size: 20px; line-height: 30px; margin-bottom: 0;
+@1901459 #amag-otv .tab-content .otv-login-info-box h4
+      font-family: amag_displaybold; font-size: 24px; line-height: 28px;
+@1901566 #amag-otv .tab-content .otv-vehicle-not-included
+      margin-bottom: 0; margin-top: 30px;
+@1901647 #amag-otv .tab-content .otv-available-cars
+      margin-top: 20px;
+@1901706 #amag-otv .tab-content #otv-tab--1-content .otv-dropdown-tab--1
+      margin-bottom: 20px;
+@1901813 #amag-otv .tab-content #otv-tab--1-content .otv-dropdown-tab--1   @media(min-width:768px)
+      margin-bottom: 30px;

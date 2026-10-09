@@ -1,0 +1,192 @@
+/* garage-chooser — values lifted from the prototype page CSS (garage overlay @1619636,
+   Bootstrap 4 modal shell). Fixed chrome: no flow height where it is authored. */
+.garage-chooser {
+  height: 0;
+  overflow: visible;
+}
+
+.garage-chooser .modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  padding: 30px 15px 0;
+  overflow: hidden;
+  outline: 0;
+  background-color: #fff;
+}
+
+.garage-chooser .modal.show {
+  display: block;
+  overflow-y: hidden;
+}
+
+.garage-chooser .dialog {
+  position: relative;
+  width: 100%;
+  max-width: 100vw;
+  margin: 0;
+  pointer-events: none;
+  transform: translate(0, -50px);
+  transition: transform 0.3s ease-out;
+}
+
+.garage-chooser .modal.show .dialog {
+  transform: none;
+}
+
+.garage-chooser .content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #fff;
+  pointer-events: auto;
+}
+
+.garage-chooser .header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.garage-chooser .header-spacer {
+  flex: 1 1 auto;
+}
+
+.garage-chooser .close {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.garage-chooser .close svg {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.garage-chooser .body {
+  position: relative;
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.garage-chooser .panel {
+  width: 100%;
+  height: 100%;
+}
+
+.garage-chooser .headline {
+  padding-top: 35px;
+}
+
+.garage-chooser .headline :is(h2, h3, h4) {
+  margin: 0;
+  font-family: var(--font-display-bold);
+  font-size: 32px;
+  line-height: 36px;
+  color: #000;
+}
+
+.garage-chooser .search {
+  padding-top: 37px;
+}
+
+.garage-chooser .search-field {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 0 10px;
+  border-bottom: 1px solid var(--amag-grey-600);
+}
+
+.garage-chooser .search-icon svg {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin-right: 15px;
+}
+
+.garage-chooser .search-input {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font-family: var(--font-text-light);
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+}
+
+.garage-chooser .list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  max-height: 60vh;
+  margin-top: 20px;
+  overflow-y: auto;
+}
+
+.garage-chooser .garage {
+  width: 100%;
+}
+
+.garage-chooser .garage:nth-child(even) {
+  background: var(--amag-grey-100);
+}
+
+.garage-chooser .garage[hidden] {
+  display: none;
+}
+
+.garage-chooser .garage-link {
+  display: block;
+  padding: 15px;
+  color: #000;
+  text-decoration: none;
+}
+
+.garage-chooser .garage-info p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.garage-chooser .garage-name p {
+  font-family: var(--font-text-bold);
+}
+
+@media (width >= 768px) {
+  .garage-chooser .modal {
+    padding: 80px 40px 30px;
+  }
+
+  .garage-chooser .headline {
+    padding-top: 20px;
+  }
+
+  .garage-chooser .search {
+    padding-top: 63px;
+  }
+}
+
+@media (width >= 1200px) {
+  .garage-chooser .modal {
+    padding: 80px 165px 0;
+  }
+
+  .garage-chooser .headline {
+    padding-top: 40px;
+  }
+}

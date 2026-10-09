@@ -1,0 +1,120 @@
+/* service-offer — values lifted from the prototype page CSS (service offer @411546) and
+   canon.css (section shell, bootstrap col gutters). */
+.service-offer {
+  position: relative;
+  background: #fff;
+}
+
+.service-offer .wrap {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0 var(--section-gutter);
+}
+
+.service-offer.band {
+  padding-top: 80px;
+}
+
+.service-offer.section-end {
+  padding-bottom: 80px;
+}
+
+.service-offer.first-section.band {
+  padding-top: 0;
+}
+
+/* col-12 inside a row: 15 px inset, 20 px bottom gap + the 92 px rich-text spacer that follows
+   the live module (two blank 30 px lines with their 16 px margins) */
+.service-offer .strip {
+  padding: 0 15px 112px;
+}
+
+.service-offer .offer {
+  display: flex;
+  padding: 26px 0 31px;
+  background: var(--amag-grey-300, #e8e8e8);
+  color: #000;
+  text-decoration: none;
+}
+
+.service-offer .offer:any-link:hover {
+  text-decoration: none;
+}
+
+.service-offer .offer-text {
+  flex: 0 0 75%;
+  max-width: 75%;
+  padding: 0 15px;
+}
+
+.service-offer .offer-text p {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.service-offer .offer-headline p {
+  font-family: var(--font-text-bold);
+  color: #000;
+}
+
+.service-offer .offer-copy p {
+  font-family: var(--font-text-light);
+  color: var(--amag-grey-600);
+}
+
+.service-offer .offer-icon {
+  display: flex;
+  flex: 0 0 25%;
+  max-width: 25%;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.service-offer .offer-icon :is(picture, img) {
+  display: block;
+  width: 32px;
+}
+
+@media (width >= 768px) {
+  .service-offer .offer-text {
+    margin-left: 8.3333%;
+  }
+
+  .service-offer .offer-icon {
+    flex: 0 0 16.6667%;
+    max-width: 16.6667%;
+  }
+}
+
+@media (width >= 1200px) {
+  .service-offer.band {
+    padding-top: 120px;
+  }
+
+  .service-offer.section-end {
+    padding-bottom: 120px;
+  }
+
+  .service-offer .offer {
+    padding: 54px 0 50px;
+  }
+
+  .service-offer .offer-text {
+    display: flex;
+  }
+
+  .service-offer .offer-headline {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+  }
+
+  .service-offer .offer-copy {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+
+  .service-offer .offer-text p {
+    font-size: 24px;
+  }
+}

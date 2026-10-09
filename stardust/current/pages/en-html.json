@@ -1,0 +1,1900 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-08T14:43:34.213Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "en-html",
+  "url": "https://www.amag.ch/en.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-08T14:43:34.213Z",
+  "finalUrl": "https://www.amag.ch/en.html",
+  "title": "The biggest automotive company in Switzerland | AMAG",
+  "description": "Find your dream car, or book a service at AMAG – the biggest car dealership and official Swiss partner of VW Group vehicle brands",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "The new VW ID. Polo"
+    },
+    {
+      "tag": "h2",
+      "text": "Our vehicles"
+    },
+    {
+      "tag": "h2",
+      "text": "AMAG NEWS"
+    },
+    {
+      "tag": "h3",
+      "text": "The new Škoda Epiq from CHF 209.–/month"
+    },
+    {
+      "tag": "h3",
+      "text": "The new Audi A3 Ambition now from 253.-/ month"
+    },
+    {
+      "tag": "h3",
+      "text": "News and promotions directly in your email inbox"
+    },
+    {
+      "tag": "h3",
+      "text": "The new ID. Polo from CHF 199.–/ month"
+    },
+    {
+      "tag": "h2",
+      "text": "From purchase via service to sale of your car – at AMAG you will find what you’re looking for"
+    },
+    {
+      "tag": "h4",
+      "text": "Your dream car from AMAG"
+    },
+    {
+      "tag": "h3",
+      "text": "Buy or lease a car"
+    },
+    {
+      "tag": "h3",
+      "text": "AMAG car subscription"
+    },
+    {
+      "tag": "h3",
+      "text": "Test drive now"
+    },
+    {
+      "tag": "h3",
+      "text": "Mobility partners"
+    },
+    {
+      "tag": "h4",
+      "text": "Our services for you"
+    },
+    {
+      "tag": "h3",
+      "text": "Your online appointment"
+    },
+    {
+      "tag": "h3",
+      "text": "Top garage services"
+    },
+    {
+      "tag": "h3",
+      "text": "Help in case of damage"
+    },
+    {
+      "tag": "h3",
+      "text": "AMAG App"
+    },
+    {
+      "tag": "h2",
+      "text": "Our most requested services"
+    },
+    {
+      "tag": "h3",
+      "text": "News and promotions directly into your inbox"
+    },
+    {
+      "tag": "h2",
+      "text": "Our AMAG pledge"
+    },
+    {
+      "tag": "h2",
+      "text": "AMAG – your car dealership at 90 locations and online"
+    },
+    {
+      "tag": "h2",
+      "text": "Buy vehicles directly online"
+    },
+    {
+      "tag": "h2",
+      "text": "To sell your car to AMAG"
+    },
+    {
+      "tag": "h2",
+      "text": "All-round service for your car"
+    },
+    {
+      "tag": "h2",
+      "text": "Find the AMAG garage of your choice"
+    },
+    {
+      "tag": "h3",
+      "text": "Turn your passion into a profession"
+    }
+  ],
+  "body": [
+    "Electromobility switch now",
+    "AMAG Group Mobility, Sustainability & Future",
+    "No. 1 Car Dealer in Switzerland with 90 locations",
+    "Find a vehicle",
+    "Services",
+    "Find garage",
+    "Jobs",
+    "My garage",
+    "ID. Polo",
+    "Raval",
+    "Epiq",
+    "Schadenmeldung Video",
+    "E-Occasionen",
+    "360 Grad Lösungen",
+    "Find and buy your car now directly online.",
+    "AMAG",
+    "Škoda Promotion",
+    "Compact design. Made big.",
+    "Audi Promotion",
+    "Sporty design, modern technology and premium comfort",
+    "AMAG Newsletter",
+    "Exclusive offers and attractive discounts",
+    "VW Promotion",
+    "Reimagined small car.",
+    "WELCOME TO AMAG",
+    "Find what you’re looking for here. Discover all the offers from your AMAG!",
+    "Get your dream car for a flat price per month - everything except fuel included.",
+    "Experience your dream car live during a test drive.",
+    "We offer a comprehensive energy and mobility solution – from charging and photovoltaics to two- and four-wheeled mobility.",
+    "Without detours directly online on the desired date at an AMAG garage of your choice.",
+    "Quality and speed: our service and workshop staff are here for you.",
+    "Whether breakdown or hail damage. We are here for you 24/7.",
+    "Your garage in an app: Get a direct line to all AMAG services on your smartphone.",
+    "SERVICES",
+    "The best service brings highest safety and comfort. How can we be of further assistance?",
+    "Tyres and wheels",
+    "Summer tyre change",
+    "Winter tyre change",
+    "Complete wheels",
+    "All-season tyres",
+    "Air conditioning service",
+    "Cleaning",
+    "Fluid check",
+    "Functional check",
+    "Car service / maintenance",
+    "Mobility guarantee",
+    "Original spare parts",
+    "Maintenance of the warranty",
+    "AMAG Newsletter",
+    "Top offers, attractive discounts and event invitations – with our newsletter you are always up to date and enjoy exclusive benefits.",
+    "I was able to easily and conveniently book my appointment online. Thank you for the amazing service!",
+    "Regula S.",
+    "Customer of AMAG",
+    "Full transparency",
+    "Largest selection of vehicles",
+    "Free test drive",
+    "Buy a vehicle online with just a few clicks",
+    "Fair trade-in price",
+    "Greater safety",
+    "15 day right of exchange for used vehicles",
+    "Quality check",
+    "Minimum 12-month warranty",
+    "Totalmobil vehicle insurance",
+    "Best service",
+    "Breakdown assistance 24h",
+    "Highest service quality",
+    "Attractive financing options",
+    "Individual insurance packages",
+    "Welcome to the biggest car dealership in Switzerland. As official Swiss dealership, we at AMAG offer you all the models of all the Volkswagen brands. At AMAG, you will find online and on site a huge range of new, stock and used vehicles from car brands like Volkswagen, Audi, SEAT, Škoda, CUPRA, VW Commercial Vehicles and Bentley. Of course, our experts also offer all the services related to the car after the purchase – be it a repair in the workshop or a consultation at the garage!",
+    "Do you have ambitious goals? Take your chance and find your dream job at AMAG.",
+    "Assistance & contact",
+    "Contact",
+    "Online appointment",
+    "FAQ Online car purchase",
+    "Corporate clients",
+    "Newsletter",
+    "Emergency",
+    "Find a car & service",
+    "Find a vehicle",
+    "Services",
+    "Find garage",
+    "Car subscription",
+    "Clyde",
+    "Leasing",
+    "Europcar",
+    "Carsharing",
+    "Mobility-as-a-Service",
+    "AMAG Classic",
+    "Parking",
+    "Company",
+    "About us",
+    "AMAG Group",
+    "Sustainability",
+    "Jobs & careers",
+    "Press",
+    "Our brands",
+    "AMAG App",
+    "Get connected with AMAG",
+    "© 2026 AMAG Automobil und Motoren AG",
+    "Privacy policy",
+    "Legal notice",
+    "Impressum",
+    "Terms and conditions",
+    "Cookie policy",
+    "Jobs"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Electromobility switch now",
+      "href": "/en/find-vehicle/cars-amag/e-mobility.html"
+    },
+    {
+      "label": "AMAG Group Mobility, Sustainability & Future",
+      "href": "https://www.amag-group.ch/de/energy-und-mobility/loesungen.html"
+    },
+    {
+      "label": "No. 1 Car Dealer in Switzerland with 90 locations",
+      "href": "/en/komponenten/car-dealers.html"
+    },
+    {
+      "label": "Find a vehicle",
+      "href": "/en/find-vehicle.html"
+    },
+    {
+      "label": "Services",
+      "href": "/en/services.html"
+    },
+    {
+      "label": "Find garage",
+      "href": "/en/komponenten/car-dealers.html"
+    },
+    {
+      "label": "Jobs",
+      "href": "/en/jobs-amag.html"
+    },
+    {
+      "label": "My garage --",
+      "href": null
+    },
+    {
+      "label": "en",
+      "href": null
+    },
+    {
+      "label": "Discover more",
+      "href": "/de/events/emotiondays.html"
+    },
+    {
+      "label": "The new VW ID. Polo Book your test drive now",
+      "href": "/en/find-vehicle/brands/vw/id-polo.html"
+    },
+    {
+      "label": "The new CUPRA Raval Discover now",
+      "href": "/en/find-vehicle/brands/cupra/raval.html"
+    },
+    {
+      "label": "New Škoda Epiq Discover now",
+      "href": "/en/find-vehicle/brands/skoda/epiq.html"
+    },
+    {
+      "label": "Fast help in the event of damage Report a damage online now",
+      "href": "/en/services/help-in-case-of-damage/reporting-damage.html"
+    },
+    {
+      "label": "Discover our used electric cars 12 month warranty, battery certificate and other benefits",
+      "href": "/en/find-vehicle/cars-amag/used-vehicles/elektro-occasionen.html"
+    },
+    {
+      "label": "Everything electric. From solar power to electric driving. Discover our products",
+      "href": "https://www.amag.ch/en/find-vehicle/cars-amag/e-mobility/360-degree-solutions.html#start"
+    },
+    {
+      "label": "Find a vehicle",
+      "href": "/en/find-vehicle.html"
+    },
+    {
+      "label": "Services",
+      "href": "/en/services.html"
+    },
+    {
+      "label": "Find garage",
+      "href": "/en/komponenten/car-dealers.html"
+    },
+    {
+      "label": "Find vehicles",
+      "href": "https://auto.amag.ch/de"
+    },
+    {
+      "label": "Škoda Promotion The new Škoda Epiq from CHF 209.–/month Compact design. Made big. Benefit now",
+      "href": "https://www.amag.ch/en/promotion/skoda/epiq.html?filters=C"
+    },
+    {
+      "label": "Audi Promotion The new Audi A3 Ambition now from 253.-/ month Sporty design, modern technology and premium comfort Benefit now",
+      "href": "https://www.amag.ch/en/promotion/audi/a3.html?filters=A"
+    },
+    {
+      "label": "AMAG Newsletter News and promotions directly in your email inbox Exclusive offers and attractive discounts Subscribe to the newsletter now",
+      "href": "https://www.amag.ch/en/newsletter/subscribe.html"
+    },
+    {
+      "label": "VW Promotion The new ID. Polo from CHF 199.–/ month Reimagined small car. Benefit now",
+      "href": "https://www.amag.ch/en/promotion/vw/id-polo.html?filters=V"
+    },
+    {
+      "label": "Show more",
+      "href": null
+    },
+    {
+      "label": "Find out more",
+      "href": "/en/find-vehicle.html"
+    },
+    {
+      "label": "Find out more",
+      "href": "/en/find-vehicle/cars-amag/abo.html"
+    },
+    {
+      "label": "Book a test drive",
+      "href": "/en/testdrive.html"
+    },
+    {
+      "label": "Find out more",
+      "href": "/en/find-vehicle/partner.html"
+    },
+    {
+      "label": "Arrange an appointment",
+      "href": "/en/services/otv.html"
+    },
+    {
+      "label": "Find out more",
+      "href": "/en/services/top-services.html"
+    },
+    {
+      "label": "Find out more",
+      "href": "/en/services/help-in-case-of-damage.html"
+    },
+    {
+      "label": "Find out more",
+      "href": "/en/services/top-services/app.html"
+    },
+    {
+      "label": "About the service",
+      "href": "/en/services/tyre-service.html"
+    },
+    {
+      "label": "About the service",
+      "href": "/en/services/top-services/air-conditioning-service.html"
+    },
+    {
+      "label": "About the service",
+      "href": "/en/services/top-services/car-service.html"
+    },
+    {
+      "label": "Arrange an appointment",
+      "href": "/en/services/otv.html"
+    },
+    {
+      "label": "Subscribe to newsletter",
+      "href": "https://www.amag.ch/en/newsletter/subscribe.html"
+    },
+    {
+      "label": "Buy vehicles directly online",
+      "href": null
+    },
+    {
+      "label": "To sell your car to AMAG",
+      "href": null
+    },
+    {
+      "label": "All-round service for your car",
+      "href": null
+    },
+    {
+      "label": "Find the AMAG garage of your choice",
+      "href": null
+    },
+    {
+      "label": "About the jobs",
+      "href": "https://jobs-retail.amag.ch/"
+    },
+    {
+      "label": "Assistance & contact",
+      "href": "#listOne"
+    },
+    {
+      "label": "Contact",
+      "href": "/en/contact.html"
+    },
+    {
+      "label": "Online appointment",
+      "href": "/en/komponenten/car-dealers.html"
+    },
+    {
+      "label": "FAQ Online car purchase",
+      "href": "https://auto.amag.ch/de/hilfe-kontakt/faq-online-autokauf"
+    },
+    {
+      "label": "Corporate clients",
+      "href": "/en/find-vehicle/cars-amag/fleet.html"
+    },
+    {
+      "label": "Newsletter",
+      "href": "https://www.amag.ch/en/newsletter/subscribe.html"
+    },
+    {
+      "label": "Emergency",
+      "href": "/en/services/help-in-case-of-damage/totalmobil.html"
+    },
+    {
+      "label": "Find a car & service",
+      "href": "#listTwo"
+    },
+    {
+      "label": "Find a vehicle",
+      "href": "https://auto.amag.ch/de"
+    },
+    {
+      "label": "Services",
+      "href": "/en/services.html"
+    },
+    {
+      "label": "Find garage",
+      "href": "/en/komponenten/car-dealers.html"
+    },
+    {
+      "label": "Car subscription",
+      "href": "/en/find-vehicle/cars-amag/abo.html"
+    },
+    {
+      "label": "Clyde",
+      "href": "/en/find-vehicle/cars-amag/clyde.html"
+    },
+    {
+      "label": "Leasing",
+      "href": "/en/find-vehicle/cars-amag/amag-leasing.html"
+    },
+    {
+      "label": "Europcar",
+      "href": "https://www.europcar.ch/de"
+    },
+    {
+      "label": "Carsharing",
+      "href": "https://ondemand.europcar.ch/en.html"
+    },
+    {
+      "label": "Mobility-as-a-Service",
+      "href": "https://allride.ch/en/"
+    },
+    {
+      "label": "AMAG Classic",
+      "href": "https://www.amag-classic.ch/en.html"
+    },
+    {
+      "label": "Parking",
+      "href": "https://parking.amag.ch/en.html"
+    },
+    {
+      "label": "Company",
+      "href": "#listThree"
+    },
+    {
+      "label": "About us",
+      "href": "/en/about-us.html"
+    },
+    {
+      "label": "AMAG Group",
+      "href": "https://www.amag-group.ch/de.html"
+    },
+    {
+      "label": "Sustainability",
+      "href": "/de/ueber-uns/esg.html"
+    },
+    {
+      "label": "Jobs & careers",
+      "href": "/en/jobs.html"
+    },
+    {
+      "label": "Press",
+      "href": "https://www.amagpress.ch/"
+    },
+    {
+      "label": "AMAG App Get connected with AMAG",
+      "href": "/en/services/top-services/app.html"
+    },
+    {
+      "label": "Privacy policy",
+      "href": "https://www.amag-group.ch/de/footer/privacy-policy.html"
+    },
+    {
+      "label": "Legal notice",
+      "href": "https://www.amag-group.ch/de/footer/legal-notice.html"
+    },
+    {
+      "label": "Impressum",
+      "href": "/en/imprint.html"
+    },
+    {
+      "label": "Terms and conditions",
+      "href": "/en/gtc.html"
+    },
+    {
+      "label": "Cookie policy",
+      "href": "https://www.amag-group.ch/de/footer/cookie-policy.html"
+    },
+    {
+      "label": "Jobs",
+      "href": "https://jobs-retail.amag.ch"
+    }
+  ],
+  "links": [
+    "https://www.amag.ch/de/events/emotiondays.html",
+    "https://www.amag.ch/en.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/e-mobility.html",
+    "https://www.amag-group.ch/de/energy-und-mobility/loesungen.html",
+    "https://www.amag.ch/en/komponenten/car-dealers.html",
+    "https://www.amag.ch/en/find-vehicle.html",
+    "https://www.amag.ch/en/services.html",
+    "https://www.amag.ch/en/jobs-amag.html",
+    "https://www.amag.ch/en/search.html",
+    "https://www.amag.ch/en/user/login.html",
+    "https://auto.amag.ch/de/watchlist",
+    "https://www.amag.ch/de.html",
+    "https://www.amag.ch/fr.html",
+    "https://www.amag.ch/it.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/vehicle-range.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/warehouse-vehicles.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/demonstration-vehicles.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/used-vehicles.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/used-vehicles/occasionen-leasing.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/used-vehicles/elektro-occasionen.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/e-mobility/id-buzz.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/e-mobility/used-electric-cars.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/e-mobility/fast-charging-network.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/abo.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/abo/faq.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/amag-leasing.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/configure-vehicles.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/fleet.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/financing.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/buy-your-car.html",
+    "https://www.amag.ch/en/find-vehicle/body-type.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/suv.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/estate.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/limousine.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/convertible.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/coupe.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/mpv.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/camper-van.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/bus.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/pickup.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/business.html",
+    "https://www.amag.ch/en/find-vehicle/partner.html",
+    "https://www.amag.ch/en/find-vehicle/partner/helion.html",
+    "https://www.amag.ch/en/find-vehicle/partner/clyde.html",
+    "https://www.amag.ch/en/find-vehicle/partner/ducati.html",
+    "https://www.amag.ch/en/find-vehicle/partner/microlino.html",
+    "https://www.amag.ch/en/find-vehicle/partner/allride.html",
+    "https://www.amag.ch/en/find-vehicle/brands/vw/vw-models.html",
+    "https://www.amag.ch/en/find-vehicle/brands/audi/audi-models.html",
+    "https://www.amag.ch/en/find-vehicle/brands/seat/seat-models.html",
+    "https://www.amag.ch/en/find-vehicle/brands/skoda/skoda-models.html",
+    "https://www.amag.ch/en/find-vehicle/brands/cupra/cupra-models.html",
+    "https://www.amag.ch/en/find-vehicle/brands/commercial-vehicles/commercial-vehicles-models.html",
+    "https://www.amag.ch/en/find-vehicle/brands/bentley/bentley-models.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/microlino.html",
+    "https://www.amag.ch/en/services/tyre-service.html",
+    "https://www.amag.ch/en/services/tyre-service/winter-tyres.html",
+    "https://www.amag.ch/en/services/tyre-service/summer-tyres.html",
+    "https://www.amag.ch/en/services/tyre-service/complete-wheels.html",
+    "https://www.amag.ch/en/services/tyre-service/tyre-warranty.html",
+    "https://www.amag.ch/en/services/tyre-service/wheel-hotel.html",
+    "https://www.amag.ch/en/services/tyre-service/rim-repair.html",
+    "https://www.amag.ch/en/services/top-services.html",
+    "https://www.amag.ch/en/services/top-services/saison-check.html",
+    "https://www.amag.ch/en/services/top-services/saison-check/feriencheck.html",
+    "https://www.amag.ch/en/services/top-services/saison-check/saison-check2.html",
+    "https://www.amag.ch/en/services/top-services/car-service.html",
+    "https://www.amag.ch/en/services/top-services/app.html",
+    "https://www.amag.ch/en/services/top-services/kreditkarte.html",
+    "https://www.amag.ch/en/services/top-services/battery.html",
+    "https://www.amag.ch/en/services/top-services/brakes.html",
+    "https://www.amag.ch/en/services/top-services/electric-charging-stations.html",
+    "https://www.amag.ch/en/services/top-services/accessories.html",
+    "https://www.amag.ch/en/services/top-services/abt-sportsline.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/audi-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/vw-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/seat-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/skoda-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/vw-commercial-vehicles-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/audi-used-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/vw-used-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/seat-used-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/skoda-used-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/vw-commercial-vehicles-used-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/carwash.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage/reporting-damage.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage/reporting-damage/guide.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage/car-paint-and-body-service.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage/tesla-service.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage/hail-damage.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage/car-glass-repair.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage/totalmobil.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage/recalls-by-manufacturers.html",
+    "https://www.amag.ch/en/cards/charging-card.html",
+    "https://www.amag.ch/en.html#",
+    "tel:+41%20848%20024%20365",
+    "https://www.amag.ch/en/services/otv.html",
+    "https://www.amag.ch/en/find-vehicle/brands.html",
+    "https://www.amag.ch/en/services/aktuelles-angebot-fuer-sie.html",
+    "https://www.amag.ch/en/find-vehicle/brands/vw/id-polo.html",
+    "https://www.amag.ch/en/find-vehicle/brands/cupra/raval.html",
+    "https://www.amag.ch/en/find-vehicle/brands/skoda/epiq.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/e-mobility/360-degree-solutions.html#start",
+    "https://auto.amag.ch/de",
+    "javascript:void(0)",
+    "https://www.amag.ch/en/promotion/skoda/epiq.html?filters=C",
+    "https://www.amag.ch/en/promotion/audi/a3.html?filters=A",
+    "https://www.amag.ch/en/newsletter/subscribe.html",
+    "https://www.amag.ch/en/promotion/vw/id-polo.html?filters=V",
+    "https://www.amag.ch/en/service/reifen-und-raeder/winterreifen.html#frueh",
+    "https://www.amag.ch/en/promotions/as/after-sales-kontaktformular.html",
+    "https://www.amag.ch/en/service/top-services/markenversicherung.html#promotion",
+    "https://www.amag.ch/en/testdrive.html",
+    "https://www.amag.ch/en/services/top-services/air-conditioning-service.html",
+    "https://jobs-retail.amag.ch/",
+    "https://www.amag.ch/en.html#listOne",
+    "https://www.amag.ch/en/contact.html",
+    "https://auto.amag.ch/de/hilfe-kontakt/faq-online-autokauf",
+    "https://www.amag.ch/en.html#listTwo",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/clyde.html",
+    "https://www.europcar.ch/de",
+    "https://ondemand.europcar.ch/en.html",
+    "https://allride.ch/en/",
+    "https://www.amag-classic.ch/en.html",
+    "https://parking.amag.ch/en.html",
+    "https://www.amag.ch/en.html#listThree",
+    "https://www.amag.ch/en/about-us.html",
+    "https://www.amag-group.ch/de.html",
+    "https://www.amag.ch/de/ueber-uns/esg.html",
+    "https://www.amag.ch/en/jobs.html",
+    "https://www.amagpress.ch/",
+    "https://www.amag.ch/en/car-dealers/car-dealer-volketswil.html",
+    "https://apps.apple.com/ch/app/amag/id1632500360",
+    "https://play.google.com/store/apps/details?id=ch.amag.amagapp&gl=CH",
+    "https://www.instagram.com/amag.ch/",
+    "https://www.facebook.com/amag.automobile?ref=hl",
+    "https://www.linkedin.com/showcase/71635012",
+    "https://www.amag-group.blog/",
+    "https://www.amag-group.ch/de/footer/privacy-policy.html",
+    "https://www.amag-group.ch/de/footer/legal-notice.html",
+    "https://www.amag.ch/en/imprint.html",
+    "https://www.amag.ch/en/gtc.html",
+    "https://www.amag-group.ch/de/footer/cookie-policy.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/shopping-cart-empty-1.svg",
+        "alt": "Electromobility",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/check-circle.svg",
+        "alt": "AMAG Group",
+        "w": 23,
+        "h": 23
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/shop-1.svg",
+        "alt": "SITES throughout Switzerland",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Volkswagen",
+        "w": 100,
+        "h": 100
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Audi_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Audi",
+        "w": 100,
+        "h": 35
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Seat_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "SEAT",
+        "w": 100,
+        "h": 107
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/new_Skoda_Logo_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Škoda",
+        "w": 100,
+        "h": 107
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/CUPRA_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "CUPRA",
+        "w": 100,
+        "h": 66
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Nutzfahrzeuge_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "VW Nutzfahrzeuge",
+        "w": 100,
+        "h": 107
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Bentley_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Bentley",
+        "w": 100,
+        "h": 107
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Micro_Microlino.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Microlino",
+        "w": 100,
+        "h": 50
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-generic/resources/img/iconsMobileNavigation/w_phone.svg",
+        "alt": "icon",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-generic/resources/img/iconsMobileNavigation/w_calendar-add-1.svg",
+        "alt": "icon",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Volkswagen",
+        "w": 100,
+        "h": 100
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Audi_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Audi",
+        "w": 100,
+        "h": 35
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Seat_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "SEAT",
+        "w": 100,
+        "h": 107
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/new_Skoda_Logo_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Škoda",
+        "w": 100,
+        "h": 107
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/CUPRA_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "CUPRA",
+        "w": 100,
+        "h": 66
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Nutzfahrzeuge_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "VW Nutzfahrzeuge",
+        "w": 100,
+        "h": 107
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Bentley_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Bentley",
+        "w": 100,
+        "h": 107
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Micro_Microlino.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Microlino",
+        "w": 100,
+        "h": 50
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_calendar-add-1.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_Glasschaden.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/e-auto.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-vw-id-polo-header-desktop-v3:16_9_Large?wid=1920&hei=1080&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+        "alt": "",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-cupra-raval-header-desktop-v3:16_9_Large?wid=1920&hei=1080&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+        "alt": "",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "src": "https://dam.amag-group.ch/is/image/amagproduction/skoda-epiq-header-desktop:16_9_Large?wid=1920&hei=1080&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+        "alt": "",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-360-loesung-energie-e-mobilitaet-2500x1667-2:16_9_Large?wid=1920&hei=1080&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+        "alt": "",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/sonstige/car-actions-search.svg",
+        "alt": "Our vehicles",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-skoda-epiq-front:2_1_Medium?wid=768&hei=384&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+        "alt": "",
+        "w": 629,
+        "h": 314
+      },
+      {
+        "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-audi-a3-ambition-headerbild:2_1_Medium?wid=768&hei=384&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+        "alt": "",
+        "w": 629,
+        "h": 314
+      },
+      {
+        "src": "https://dam.amag-group.ch/is/image/amagproduction/nl_st_1494565931:2_1_Medium?wid=768&hei=384&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+        "alt": "",
+        "w": 629,
+        "h": 314
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+        "alt": "icon",
+        "w": 95,
+        "h": 50
+      },
+      {
+        "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-vw-idpolo-basketball:2_1_Medium?wid=768&hei=384&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+        "alt": "",
+        "w": 629,
+        "h": 314
+      },
+      {
+        "src": "https://dam.amag-group.ch/is/image/amagproduction/ServiceCam_Reifenofferte3:2_1_Medium?wid=768&hei=384&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+        "alt": "",
+        "w": 629,
+        "h": 314
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+        "alt": "icon",
+        "w": 95,
+        "h": 50
+      },
+      {
+        "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-vw-nutzfahrzeugeWinterreifen:2_1_Medium?wid=768&hei=384&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+        "alt": "",
+        "w": 629,
+        "h": 314
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+        "alt": "icon",
+        "w": 95,
+        "h": 50
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+        "alt": "icon",
+        "w": 95,
+        "h": 50
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+        "alt": "icon",
+        "w": 95,
+        "h": 50
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/bilder/Services_%C3%9Cbersicht_1_1440x400.jpg/jcr:content/renditions/original.transform/w1440_h400-serviceContainer/img.jpg",
+        "alt": "",
+        "w": 1440,
+        "h": 400
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/blau/car-tool-steering-wheel-1.svg",
+        "alt": "Tyres and wheels",
+        "w": 41,
+        "h": 40
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/blau/temperature-thermometer-medium.svg",
+        "alt": "Air conditioning service",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/blau/car-actions-check.svg",
+        "alt": "Car service / maintenance",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/Termin.svg",
+        "alt": "",
+        "w": 32,
+        "h": 32
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/services/bilder/amag-e-mailing-neuabo-1800x500px.png/jcr:content/renditions/original.transform/w1440_h400-divider/img.png",
+        "alt": "AMAG Newsletter",
+        "w": 1440,
+        "h": 400
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_arrow-right.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/bilder/divider-jobs-KI.png/jcr:content/renditions/original.transform/w1440_h400-divider/img.png",
+        "alt": "AMAG Jobs",
+        "w": 1440,
+        "h": 400
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_arrow-right.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/ve-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Volkswagen",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/audi-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Audi",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/seat-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Seat",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/skoda-logo-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Skoda",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/cupra-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "CUPRA",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/vw-nf-d-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Volkswagen Nutzfahrzeuge",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/bentley-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Bentley",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/micro-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Microlino",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/Ducati_Shield_weiss-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Ducati Volketswil",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/sonstige/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg",
+        "alt": "",
+        "w": 120,
+        "h": 40
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/sonstige/GooglePlay-EN.png",
+        "alt": "",
+        "w": 646,
+        "h": 250
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/instagram.svg",
+        "alt": "Instagram",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/facebook.svg",
+        "alt": "Facebook",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_linkedin-logo.svg",
+        "alt": "AMAG Linkedin",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/AMAG-Blog-Button-24x24.svg",
+        "alt": "Social Link",
+        "w": 24,
+        "h": 24
+      }
+    ],
+    "allImgCount": 68,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--blue": "#007bff",
+    "--indigo": "#6610f2",
+    "--purple": "#6f42c1",
+    "--pink": "#e83e8c",
+    "--red": "#dc3545",
+    "--orange": "#fd7e14",
+    "--yellow": "#ffc107",
+    "--green": "#28a745",
+    "--teal": "#20c997",
+    "--cyan": "#17a2b8",
+    "--white": "#fff",
+    "--gray": "#6c757d",
+    "--gray-dark": "#343a40",
+    "--primary": "#007bff",
+    "--secondary": "#6c757d",
+    "--success": "#28a745",
+    "--info": "#17a2b8",
+    "--warning": "#ffc107",
+    "--danger": "#dc3545",
+    "--light": "#f8f9fa",
+    "--dark": "#343a40",
+    "--breakpoint-xs": "0",
+    "--breakpoint-sm": "360px",
+    "--breakpoint-md": "768px",
+    "--breakpoint-lg": "1200px",
+    "--breakpoint-xl": "1920px",
+    "--font-family-sans-serif": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",\"Liberation Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
+    "--font-family-monospace": "SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+    "--header-height": "160px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 27,
+    "mainTextLen": 43841,
+    "realImageCount": 64,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/151e70dd-e113-417d-94ba-57722b5a5aae/151e70dd-e113-417d-94ba-57722b5a5aae.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/151e70dd-e113-417d-94ba-57722b5a5aae/018e750d-67c6-7f0f-9796-d80b80a2250e/en.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.2.0/assets/otFlat.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 3001,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.2.0/assets/otFlat.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.2.0/assets/otCookieSettingsButton.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1740,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.2.0/assets/otCookieSettingsButton.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.2.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.2.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.2.0/assets/v2/otPcTab.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 13848,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.2.0/assets/v2/otPcTab.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdns.eu1.gigya.com",
+        "path": "/sdk.config.get",
+        "query": [
+          "apiKey",
+          "httpStatusCodes",
+          "ver"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/javascript",
+        "status": 200,
+        "bytes": 5947,
+        "hits": 4,
+        "example": "https://cdns.eu1.gigya.com/sdk.config.get",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.amag.ch",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://www.amag.ch/libs/granite/csrf/token.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.amag.ch",
+        "path": "/libs/cq/i18n/dict.en.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.amag.ch/libs/cq/i18n/dict.en.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "identity.amag.ch",
+        "path": "/accounts.webSdkBootstrap",
+        "query": [
+          "apiKey",
+          "format",
+          "pageURL",
+          "sdk",
+          "sdkBuild"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "status": 200,
+        "bytes": 182,
+        "hits": 1,
+        "example": "https://identity.amag.ch/accounts.webSdkBootstrap",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "maps.googleapis.com",
+        "path": "/maps/api/mapsjs/gen_204",
+        "query": [
+          "csp_test"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 23,
+        "hits": 1,
+        "example": "https://maps.googleapis.com/maps/api/mapsjs/gen_204",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.eu01.nr-data.net",
+        "path": "/{n}/NRJS-f9581b55a288c743721",
+        "query": [
+          "a",
+          "af",
+          "be",
+          "ck",
+          "dc",
+          "fcp",
+          "fe",
+          "fp",
+          "fsh",
+          "perf",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 198,
+        "hits": 1,
+        "example": "https://bam.eu01.nr-data.net/1/NRJS-f9581b55a288c743721",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "privacyportal-de.onetrust.com",
+        "path": "/request/v1/consentreceipts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://privacyportal-de.onetrust.com/request/v1/consentreceipts",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.eu01.nr-data.net",
+        "path": "/events/{n}/NRJS-f9581b55a288c743721",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 2,
+        "example": "https://bam.eu01.nr-data.net/events/1/NRJS-f9581b55a288c743721",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.eu01.nr-data.net",
+        "path": "/jserrors/{n}/NRJS-f9581b55a288c743721",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 1,
+        "example": "https://bam.eu01.nr-data.net/jserrors/1/NRJS-f9581b55a288c743721",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "accdn.lpsnmedia.net",
+        "path": "/api/account/{n}/configuration/setting/accountproperties",
+        "query": [
+          "__d"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://accdn.lpsnmedia.net/api/account/46695133/configuration/setting/accountproperties",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "accdn.lpsnmedia.net",
+        "path": "/api/account/{n}/configuration/le-campaigns/zones",
+        "query": [
+          "__d",
+          "fields"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://accdn.lpsnmedia.net/api/account/46695133/configuration/le-campaigns/zones",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "bzrcdn.openai.com",
+        "path": "/pixel-config/v1/RhLfQhNaYroSH9bsp3Kbm2.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 44,
+        "hits": 1,
+        "example": "https://bzrcdn.openai.com/pixel-config/v1/RhLfQhNaYroSH9bsp3Kbm2.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "alb.reddit.com",
+        "path": "/rp",
+        "query": [
+          "event",
+          "id"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://alb.reddit.com/rp",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "ct.pinterest.com",
+        "path": "/user/",
+        "query": [
+          "cb",
+          "dep",
+          "ed",
+          "event",
+          "tid"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 229,
+        "hits": 3,
+        "example": "https://ct.pinterest.com/user/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "query": [
+          "fmt",
+          "medium"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://px.ads.linkedin.com/wa/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "ct.pinterest.com",
+        "path": "/v3/",
+        "query": [
+          "ad",
+          "cb",
+          "dep",
+          "ed",
+          "event",
+          "pd",
+          "tid"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 35,
+        "hits": 2,
+        "example": "https://ct.pinterest.com/v3/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "sst.amag.ch",
+        "path": "/g/collect",
+        "query": [
+          "_fplc",
+          "_fv",
+          "_geo",
+          "_nsi",
+          "_p",
+          "_rdi",
+          "_s",
+          "_ss",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "ecid",
+          "en",
+          "ep.if_AI_URL_fragment",
+          "ep.if_AI_bot",
+          "ep.if_AI_sc",
+          "ep.ot_activegroups",
+          "ep.page_hostname",
+          "ep.url_without_PII",
+          "ep.virtual_page_path",
+          "evnid",
+          "frm",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "richsstsse",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "sst.gch",
+          "sst.lpc",
+          "sst.navt",
+          "sst.ngs",
+          "sst.rnd",
+          "sst.sw_exp",
+          "sst.tft",
+          "sst.ude",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "ur",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://sst.amag.ch/g/collect",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "bat.bing.com",
+        "path": "/p/insights/c/g",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://bat.bing.com/p/insights/c/g",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.googleadservices.com",
+        "path": "/pagead/conversion/{n}/",
+        "query": [
+          "_is_sw",
+          "_tu",
+          "auid",
+          "bg",
+          "bttype",
+          "cv",
+          "data",
+          "dma",
+          "evnid",
+          "fmt",
+          "fst",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "guid",
+          "label",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "s3p",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "uip",
+          "url",
+          "value"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1266,
+        "hits": 1,
+        "example": "https://www.googleadservices.com/pagead/conversion/875904358/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "googleads.g.doubleclick.net",
+        "path": "/pagead/viewthroughconversion/{n}/",
+        "query": [
+          "_is_sw",
+          "_tu",
+          "auid",
+          "bg",
+          "cerd",
+          "crd",
+          "ct_cookie_present",
+          "cv",
+          "data",
+          "dma",
+          "eitems",
+          "evnid",
+          "fmt",
+          "fsk",
+          "fst",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "guid",
+          "label",
+          "npa",
+          "pscdl",
+          "pscrd",
+          "random",
+          "rcb",
+          "s3p",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "uip",
+          "url",
+          "value"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "status": 302,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/875904358/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/pagead/1p-conversion/{n}/",
+        "query": [
+          "_is_sw",
+          "_tu",
+          "auid",
+          "bg",
+          "cerd",
+          "cid",
+          "crd",
+          "ct_cookie_present",
+          "cv",
+          "data",
+          "dma",
+          "eitems",
+          "evnid",
+          "fmt",
+          "fsk",
+          "fst",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "guid",
+          "is_vtc",
+          "label",
+          "npa",
+          "pscdl",
+          "pscrd",
+          "random",
+          "rcb",
+          "s3p",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "uip",
+          "url",
+          "value"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/pagead/1p-conversion/875904358/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bzr.openai.com",
+        "path": "/v1/sdk/events",
+        "query": [
+          "ec",
+          "pid",
+          "st",
+          "sv",
+          "t"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 202,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://bzr.openai.com/v1/sdk/events",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "maps.googleapis.com",
+        "count": 5
+      },
+      {
+        "host": "lpcdn.lpsnmedia.net",
+        "count": 4
+      },
+      {
+        "host": "bat.bing.com",
+        "count": 4
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 3
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 3
+      },
+      {
+        "host": "analytics.tiktok.com",
+        "count": 3
+      },
+      {
+        "host": "lptag.liveperson.net",
+        "count": 2
+      },
+      {
+        "host": "s.pinimg.com",
+        "count": 2
+      },
+      {
+        "host": "snap.licdn.com",
+        "count": 2
+      },
+      {
+        "host": "lo.v.liveperson.net",
+        "count": 2
+      },
+      {
+        "host": "rum.hlx.page",
+        "count": 1
+      },
+      {
+        "host": "www.google.com",
+        "count": 1
+      },
+      {
+        "host": "cdns.eu1.gigya.com",
+        "count": 1
+      },
+      {
+        "host": "www.gstatic.com",
+        "count": 1
+      },
+      {
+        "host": "munchkin.marketo.net",
+        "count": 1
+      },
+      {
+        "host": "static.hotjar.com",
+        "count": 1
+      },
+      {
+        "host": "bzrcdn.openai.com",
+        "count": 1
+      },
+      {
+        "host": "www.redditstatic.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "marketo-forms"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 4,
+      "thirdPartyEndpoints": 26,
+      "thirdPartyScriptHosts": 18,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/en-html.png",
+  "renderedHtml": "pages/en-html.html",
+  "slots": {
+    "hero": "carousel (first slide: The new VW ID. Polo)",
+    "quick-links": "utility tiles under hero",
+    "vehicle-search": "Our vehicles search form",
+    "news-cards": "AMAG NEWS card row",
+    "newsletter": "News and promotions directly in your email inbox",
+    "service-cards": "Our services for you + Our most requested services",
+    "pledge-row": "Our AMAG pledge",
+    "seo-accordion": "AMAG – your car dealership at 90 locations and online"
+  }
+}

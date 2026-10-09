@@ -1,0 +1,25 @@
+{
+ "source": "http://localhost:8791/de-service-auto-services-online-termin-buchen-html-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "off-canvas__inner-container",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Kilometerstand"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Eingabe darf folgende Formen haben: 12345 | 12'345 | 12'345.67 | 12'345,67"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  }
+ ]
+}

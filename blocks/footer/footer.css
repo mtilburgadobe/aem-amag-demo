@@ -1,0 +1,486 @@
+/* stylelint-disable no-descending-specificity */
+
+/*
+ * footer — values lifted from canon.css (.amag-footer*, .amag-app-download-footer*,
+ * .amag-markenLogo*, .amag-footer__essentials*) and the prototype's computed styles.
+ * Authored elements are styled through their wrappers with descendant selectors (EW2).
+ */
+
+footer .footer {
+  background-color: #000;
+  color: #fff;
+  font-family: var(--font-text-light);
+}
+
+:where(footer .footer) p,
+:where(footer .footer) a {
+  font-family: var(--font-text-light);
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+
+:where(footer .footer) ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer .footer a:any-link,
+footer .footer a:hover {
+  color: #fff;
+}
+
+:where(footer .footer) img {
+  display: block;
+}
+
+.footer-inner {
+  padding-bottom: 160px;
+}
+
+.footer-container {
+  width: 100%;
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 15px;
+}
+
+/* link lists (3 columns ≥ 768); the 37px stacked gap is the measured live/prototype rhythm at 360 */
+.footer-list {
+  position: relative;
+  width: 100%;
+  margin-bottom: 37px;
+}
+
+.footer-list-title {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 38px;
+  cursor: pointer;
+}
+
+.footer-list-title p {
+  font-family: var(--font-text-bold);
+  margin: 0;
+}
+
+.footer-list-toggle {
+  position: absolute;
+  right: 0;
+  top: 8px;
+  width: 20px;
+  height: 14px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #fff;
+  line-height: 0;
+}
+
+.footer-list-toggle svg {
+  display: block;
+  width: 20px;
+  height: 14px;
+  transform: rotate(0deg);
+  transition: transform 1s;
+}
+
+.footer-list.open .footer-list-toggle svg {
+  transform: rotate(-180deg);
+}
+
+.footer-list-body {
+  display: none;
+}
+
+.footer-list.open .footer-list-body {
+  display: block;
+}
+
+.footer-list-body ul {
+  margin-bottom: 36px;
+}
+
+.footer-list-body li {
+  display: block;
+  margin-bottom: 36px;
+}
+
+.footer-list-body li:last-child {
+  margin-bottom: 0;
+}
+
+.footer-list-body a {
+  text-decoration: none;
+}
+
+/* brand logos */
+.footer-brands {
+  width: 100%;
+}
+
+.footer-brands-title p {
+  font-family: var(--font-text-bold);
+  margin: 0 0 38px;
+}
+
+.footer-brands-logos ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px -15px;
+}
+
+.footer-brands-logos li {
+  display: flex;
+  align-items: center;
+  width: 90px;
+  height: 120px;
+  margin: 10px 15px;
+  padding: 0 20px;
+  border-radius: 0.25rem;
+  background-color: var(--amag-dark-grey);
+}
+
+.footer-brands-logos a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.footer-brands-logos picture,
+.footer-brands-logos img {
+  width: 100%;
+  height: auto;
+}
+
+/* app teaser band */
+.footer-app {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 40px;
+  padding: 40px 0 35px;
+  border: solid #6d6d6d;
+  border-width: 1px 0;
+}
+
+.footer-app-link {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-app-link:hover {
+  text-decoration: none;
+}
+
+.footer-app-link > svg {
+  flex: 0 0 auto;
+  width: 78px;
+  height: 78px;
+}
+
+.footer-app-text {
+  margin-left: 20px;
+}
+
+.footer-app-text p {
+  margin: 0;
+}
+
+.footer-app-title p {
+  font-family: var(--font-text-bold);
+}
+
+.footer-app-badges {
+  margin-top: 25px;
+}
+
+.footer-app-badges ul {
+  display: flex;
+  align-items: center;
+}
+
+.footer-app-badges li {
+  display: flex;
+  line-height: 0;
+}
+
+.footer-app-badges a {
+  display: block;
+  line-height: 0;
+}
+
+.footer-app-badges li:first-child {
+  margin-right: 15px;
+}
+
+.footer-app-badges li:first-child a,
+.footer-app-badges li:first-child img {
+  display: block;
+  width: 120px;
+  height: 40px;
+}
+
+.footer-app-badges li:last-child img {
+  width: 120px;
+  height: 52px;
+}
+
+/* social icons */
+.footer-social {
+  width: 100%;
+  margin: 70px 0 80px;
+  font-size: 0;
+}
+
+.footer-social ul {
+  display: flex;
+  align-items: center;
+}
+
+.footer-social li {
+  display: flex;
+  margin-right: 30px;
+  line-height: 0;
+}
+
+.footer-social li:last-child {
+  margin-right: 0;
+}
+
+.footer-social a {
+  display: flex;
+}
+
+.footer-social img {
+  width: 20px;
+  height: 20px;
+}
+
+/* legal row */
+.footer-legal {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+}
+
+.footer-copyright {
+  display: flex;
+  flex: 0 0 auto;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.footer-copyright p {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+  color: rgb(255 255 255 / 60%);
+  line-height: 48px;
+}
+
+.footer-legal-links {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.footer-legal-links ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-legal-links li {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  line-height: 48px;
+}
+
+.footer-legal-links a {
+  display: inline-flex;
+  line-height: 48px;
+  text-decoration: none;
+}
+
+@media (width >= 768px) {
+  .footer-container {
+    padding-top: 117px;
+  }
+
+  .footer-content {
+    padding: 0 39px;
+  }
+
+  .footer-list {
+    flex: 1 0 0;
+    width: auto;
+    margin-bottom: 0;
+    padding-left: 15px;
+  }
+
+  .footer-list:first-child {
+    padding-left: 0;
+  }
+
+  .footer-list-title {
+    margin-bottom: 23px;
+    pointer-events: none;
+    cursor: default;
+  }
+
+  .footer-list-toggle {
+    display: none;
+  }
+
+  .footer-list-body,
+  .footer-list.open .footer-list-body {
+    display: block;
+  }
+
+  .footer-list-body ul {
+    margin: 0;
+  }
+
+  .footer-list-body li {
+    margin-bottom: 23px;
+  }
+
+  .footer-brands {
+    margin-top: 105px;
+  }
+
+  .footer-brands-title p {
+    margin-bottom: 32px;
+  }
+
+  .footer-brands-logos ul {
+    margin: 0;
+  }
+
+  .footer-brands-logos li {
+    width: 90px;
+    height: 100px;
+    margin: 0 30px 0 0;
+  }
+
+  .footer-brands-logos li:last-child {
+    margin-right: 0;
+  }
+
+  .footer-app {
+    flex-direction: row;
+    align-items: center;
+    padding: 40px 0;
+  }
+
+  .footer-app-badges {
+    margin-top: 0;
+    margin-left: 50px;
+  }
+
+  .footer-social {
+    margin: 120px 0 75px;
+  }
+
+  .footer-social li {
+    margin-right: 56px;
+  }
+
+  .footer-social img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .footer-copyright {
+    margin-bottom: 20px;
+  }
+
+  .footer-legal-links li {
+    margin-right: 25px;
+  }
+}
+
+@media (width >= 1200px) {
+  .footer-inner {
+    padding-bottom: 120px;
+  }
+
+  .footer-container {
+    padding-top: 115px;
+  }
+
+  .footer-content {
+    padding: 0 var(--section-gutter);
+  }
+
+  .footer-list-title {
+    margin-bottom: 28px;
+  }
+
+  .footer-list-body li {
+    margin-bottom: 28px;
+  }
+
+  .footer-brands {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    width: auto;
+    margin-top: 0;
+    padding-left: 15px;
+  }
+
+  .footer-brands-title p {
+    margin-bottom: 33px;
+  }
+
+  .footer-brands-logos ul {
+    max-width: 250px;
+    margin: -10px -15px;
+  }
+
+  .footer-brands-logos li {
+    width: 93px;
+    height: 90px;
+    margin: 10px 15px;
+  }
+
+  .footer-social {
+    margin: 50px 0 40px;
+  }
+
+  .footer-legal {
+    flex-direction: row;
+  }
+
+  .footer-copyright {
+    align-items: flex-start;
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  .footer-copyright p {
+    margin-right: 25px;
+    font-size: 16px;
+  }
+
+  .footer-legal-links li,
+  .footer-legal-links a {
+    font-size: 16px;
+  }
+}

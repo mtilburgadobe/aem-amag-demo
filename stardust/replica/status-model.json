@@ -1,0 +1,80 @@
+{
+  "steps": [
+    1,
+    1,
+    1,
+    1,
+    null
+  ],
+  "templates": [
+    {
+      "name": "Home page",
+      "pages": 1,
+      "desktop": "Yes",
+      "mobile": "Yes",
+      "status": "Done",
+      "fraction": 0.85
+    },
+    {
+      "name": "Services overview",
+      "pages": 1,
+      "desktop": "Checking",
+      "mobile": "Checking",
+      "status": "In progress",
+      "fraction": 1
+    },
+    {
+      "name": "Garage finder",
+      "pages": 1,
+      "desktop": "Yes",
+      "mobile": "Yes",
+      "status": "Done",
+      "fraction": 1
+    },
+    {
+      "name": "Online appointment booking",
+      "pages": 1,
+      "desktop": "Yes",
+      "mobile": "Yes",
+      "status": "Done",
+      "fraction": 1
+    },
+    {
+      "name": "Service detail article",
+      "pages": 1,
+      "desktop": "Yes",
+      "mobile": "Yes",
+      "status": "Done",
+      "fraction": 1
+    }
+  ],
+  "pages": [
+    {
+      "path": "/en",
+      "title": "Home (English)",
+      "ready": true
+    },
+    {
+      "path": "/en/services",
+      "title": "Services",
+      "ready": false
+    },
+    {
+      "path": "/en/komponenten/car-dealers",
+      "title": "Car dealers",
+      "ready": true
+    },
+    {
+      "path": "/de/service/auto-services-online-termin-buchen",
+      "title": "Auto-Services online Termin buchen",
+      "ready": true
+    },
+    {
+      "path": "/de/service/reifen-und-raeder/winterreifen",
+      "title": "Winterreifen",
+      "ready": true
+    }
+  ],
+  "now": "Four of your five pages are published on the preview site and verified against your live site on desktop and mobile, including the home page with its rotating stage. The services overview is being moved onto the new platform now, reusing the building blocks the other pages already proved.",
+  "next": "Once the services overview is verified, every page gets one final check against your live site and the migration is ready for your review."
+}

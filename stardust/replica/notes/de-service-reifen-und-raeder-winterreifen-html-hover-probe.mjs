@@ -1,0 +1,12 @@
+import { chromium } from 'playwright';
+const url = 'http://localhost:8791/de-service-reifen-und-raeder-winterreifen-html-proposed.html';
+const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1440, height: 900 } });
+await p.goto(url, { waitUntil: 'load' }); await p.waitForTimeout(500);
+const sel = '.amag-maxiTeaserBild__btnWrapper';
+await p.locator(sel).first().scrollIntoViewIfNeeded(); await p.waitForTimeout(300);
+const before = await p.evaluate(() => { const a = document.querySelector('.amag-maxiTeaserBild__btn'); return getComputedStyle(a).color + ' ' + getComputedStyle(a).width; });
+const bb = await p.locator(sel).first().boundingBox();
+await p.mouse.move(bb.x + bb.width / 2, bb.y + bb.height / 2); await p.waitForTimeout(500);
+const after = await p.evaluate(([x, y]) => { const a = document.querySelector('.amag-maxiTeaserBild__btn'); const e = document.elementFromPoint(x, y); const hov = document.querySelectorAll(':hover'); return { color: getComputedStyle(a).color, width: getComputedStyle(a).width, ml: getComputedStyle(a).marginLeft, atPoint: e && (e.tagName + '.' + (typeof e.className === 'string' ? e.className : e.className.baseVal)), hoverChain: [...hov].map(h => h.tagName + '.' + (typeof h.className === 'string' ? h.className.split(' ')[0] : '')).slice(-4), matches: a.matches(':hover'), rules: [...document.styleSheets].flatMap(s => { try { return [...s.cssRules]; } catch { return []; } }).filter(r => r.selectorText && /a:hover|gozilla:hover|btnWrapper:hover/.test(r.selectorText)).map(r => r.cssText.slice(0, 120)) }; }, [bb.x + bb.width / 2, bb.y + bb.height / 2]);
+console.log('before', before); console.log('after', JSON.stringify(after, null, 1));
+await b.close();

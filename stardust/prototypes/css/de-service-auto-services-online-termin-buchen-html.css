@@ -1,0 +1,146 @@
+/* de-service-auto-services-online-termin-buchen-html — OTV online-booking wizard, first pane ("Ihr Fahrzeug") as captured.
+   Values lifted from clientlib-amagch.css (@byte offsets noted) and the Bootstrap 4 base bundled in it; chrome comes from canon.css. */
+
+/* ---- Bootstrap 4 pieces canon.css does not carry, scoped to the wizard / its modal (@19120, @74207, @97309, @97448, @98406, @98673, @131262) ---- */
+/* [hidden]{display:none!important} moved to canon.css (2026-10-08, winterreifen archetype) */
+.amag-content .fade{transition:opacity .15s linear}.amag-content .fade:not(.show){opacity:0}
+#amag-otv .nav{display:flex;flex-wrap:wrap;list-style:none;margin-bottom:0;padding-left:0}
+#amag-otv .nav-link{display:block;padding:.5rem 1rem}
+#amag-otv .nav-fill .nav-item,#amag-otv .nav-fill>.nav-link{flex:1 1 auto;text-align:center}
+#amag-otv .tab-content>.tab-pane{display:none}#amag-otv .tab-content>.active{display:block}
+.amag-content .modal{display:none;height:100%;left:0;outline:0;overflow:hidden;position:fixed;top:0;width:100%;z-index:1050}
+
+/* ---- wizard shell: sidebar / tab header (@1706506–@1714911) ---- */
+#amag-otv .tab-header-container{position:relative}
+#amag-otv .tab-header-container .car-selection-container{background:#f5f5f5;display:flex;justify-content:flex-start;padding:20px;width:100%}
+#amag-otv .tab-header-container .car-selection-container .car-selection-icon{margin-right:10px}
+#amag-otv .tab-header-container .car-selection-container .car-selection-text{color:#222;font-family:amag_textlight;font-size:16px;margin-bottom:0}
+#amag-otv .tab-header-container .car-selection-container .car-selection-text .car-text:before{content:" "}
+#amag-otv .tab-header-container .nav-open .tab-header-navigation-container{top:75px}
+#amag-otv .tab-header-container .tab-header-navigation-container{background:#fff;position:relative;top:0;z-index:3}
+#amag-otv .tab-header-container .tab-header-navigation-container:after{background:#f5f5f5;bottom:0;content:"";height:1px;position:absolute;width:100%}
+#amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header{flex-wrap:nowrap;overflow-x:scroll;position:relative;scroll-behavior:smooth;scrollbar-width:none}
+#amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header::-webkit-scrollbar{display:none}
+#amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item{flex-grow:0}
+#amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item:last-of-type a.nav-link,#amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item:nth-of-type(2) a.nav-link{margin-left:15px}
+#amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link{align-items:center;color:#6f6d6a;display:flex;font-family:amag_textbold;font-size:20px;margin:0 30px;padding:25px 0 25px 42px;position:relative;white-space:nowrap}
+#amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link .checked-icon,#amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link:before{align-items:center;height:32px;justify-content:center;left:0;margin-top:-5px;padding-top:3px;position:absolute;width:32px}
+#amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link:before{border:1px solid #6f6d6a;border-radius:100%;content:attr(data-tab-number);display:flex;font-family:amag_textlight;font-size:22px}
+#amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link .checked-icon{display:none}
+#amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link.active{color:#172983}
+#amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link.active:before{border:1px solid #172983}
+#amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link.checked{color:#006431}
+#amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link.checked:before{display:none}
+#amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link.checked .checked-icon{display:flex}
+#amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header .active-tab-border{background:#172983;bottom:0;height:2px;position:absolute;transition:left .5s ease,width .5s ease;width:0;z-index:1}
+#amag-otv .tab-header-container .tab-header-navigation-container .scroll-left,#amag-otv .tab-header-container .tab-header-navigation-container .scroll-right{align-items:center;background:linear-gradient(90deg,rgba(255,255,255,0.001),rgb(255,255,255) 92.14%);bottom:0;display:flex;justify-content:center;padding:0 15px;position:absolute;top:0}
+#amag-otv .tab-header-container .tab-header-navigation-container .scroll-left svg path,#amag-otv .tab-header-container .tab-header-navigation-container .scroll-right svg path{fill:#222}
+#amag-otv .tab-header-container .tab-header-navigation-container .scroll-left{left:0;transform:rotate(180deg)}
+#amag-otv .tab-header-container .tab-header-navigation-container .scroll-right{right:0}
+@media (min-width:768px){
+  #amag-otv .tab-header-container .car-selection-container{padding-left:40px}
+  #amag-otv .tab-header-container .nav-open .tab-header-navigation-container{top:121px}
+  #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item:last-of-type a.nav-link,#amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item:nth-of-type(2) a.nav-link{margin-left:39px}
+  #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link{margin:0 43px}
+  #amag-otv .tab-header-container .tab-header-navigation-container .scroll-left,#amag-otv .tab-header-container .tab-header-navigation-container .scroll-right{padding:0 40px}
+}
+@media (min-width:1200px){
+  #amag-otv>div{display:flex;justify-content:center} /* @1712835 */
+  #amag-otv .tab-header-container{background-color:#f5f5f5;flex:0 0 420px;flex-shrink:0;padding-top:100px} /* @1712970 */
+  #amag-otv .tab-header-container .sticky-anchor{position:sticky;top:100px;transition:top .35s ease}
+  #amag-otv .tab-header-container .sticky-anchor.nav-open{top:260px}
+  #amag-otv .tab-header-container .sticky-anchor.nav-open .tab-header-navigation-container{top:0}
+  #amag-otv .tab-header-container .car-selection-container{align-items:flex-start;padding-left:165px;padding-top:0}
+  #amag-otv .tab-header-container .car-selection-container .car-selection-icon{margin-right:20px;margin-top:3px}
+  #amag-otv .tab-header-container .car-selection-container .car-selection-text{display:flex;flex-direction:column}
+  #amag-otv .tab-header-container .car-selection-container .car-selection-text .car-text:before{content:""}
+  #amag-otv .tab-header-container .tab-header-navigation-container{background:rgba(0,0,0,0)}
+  #amag-otv .tab-header-container .tab-header-navigation-container:after{display:none}
+  #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header{display:block;overflow-x:hidden;width:100%}
+  #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link{background-color:rgba(0,0,0,0);margin:0!important;padding-left:207px}
+  #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link .checked-icon,#amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link:before{left:165px}
+  #amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header li.nav-item a.nav-link.active{background-color:#fff}
+  #amag-otv .tab-header-container .tab-header-navigation-container .scroll-left,#amag-otv .tab-header-container .tab-header-navigation-container .scroll-right,#amag-otv .tab-header-container .tab-header-navigation-container ul.amag-otv-tab-header .active-tab-border{display:none}
+}
+
+/* ---- tab content column (@1712626, @1715188, @1847075) ---- */
+#amag-otv .tab-content{padding:40px 15px 70px;width:100%}
+#amag-otv #amag-component-tab_tab-content{padding-bottom:0}
+#amag-otv .tab-content .tab-pane{position:relative}
+@media (min-width:768px){
+  #amag-otv .tab-content{padding:40px 40px 100px}
+  #amag-otv #amag-component-tab_tab-content{padding:60px 40px}
+}
+@media (min-width:1200px){
+  #amag-otv .tab-content{flex-grow:1;max-width:1020px;padding:100px 260px 100px 125px}
+  #amag-otv #amag-component-tab_tab-content{padding:100px 260px 100px 125px}
+}
+
+/* ---- first pane: title, copy, CTAs, login box (@1899518–@1901813) ---- */
+#amag-otv .tab-content .amag-ctaWrapper__button,#amag-otv .tab-content .select2{margin-bottom:15px}
+#amag-otv .tab-content .amag-ctaWrapper__button{margin-top:50px}
+#amag-otv .tab-content .otv-tab-title{font-family:amag_displaybold;margin-bottom:1rem}
+#amag-otv .tab-content .otv-text,#amag-otv .tab-content .otv-vehicle-not-included{font-family:amag_displaylight;font-size:20px;line-height:24px}
+#amag-otv .tab-content .otv-login-wrapper span{align-items:center;color:#000;display:flex;flex-basis:100%;font-family:amag_textlight;font-size:20px;line-height:30px}
+#amag-otv .tab-content .otv-login-wrapper span:after,#amag-otv .tab-content .otv-login-wrapper span:before{background:#e8e8e8;content:"";flex-grow:1;font-size:0;height:1px;line-height:0;margin:0 8px}
+#amag-otv .tab-content .otv-login-info-box{background-color:#f5f5f5;margin-bottom:55px;padding:15px}
+#amag-otv .tab-content .otv-login-info-box p,#amag-otv .tab-content .otv-login-info-box ul{color:#000;font-family:amag_textlight;font-size:20px;line-height:30px;margin-bottom:0}
+#amag-otv .tab-content .otv-login-info-box h4{font-family:amag_displaybold;font-size:24px;line-height:28px}
+#amag-otv .tab-content .otv-vehicle-not-included{margin-bottom:0;margin-top:30px}
+#amag-otv .tab-content .otv-available-cars{margin-top:20px}
+#amag-otv .tab-content #otv-tab--1-content .otv-dropdown-tab--1{margin-bottom:20px}
+@media (min-width:360px){
+  #amag-otv .tab-content .amag-ctaWrapper__button,#amag-otv .tab-content .select2{margin-bottom:20px}
+  #amag-otv .tab-content .otv-tab-title{font-size:32px;line-height:38.4px}
+}
+@media (min-width:768px){
+  #amag-otv .tab-content .amag-ctaWrapper__button,#amag-otv .tab-content .select2{margin-bottom:30px}
+  #amag-otv .tab-content .amag-ctaWrapper__button{margin-bottom:20px;margin-top:30px}
+  #amag-otv .tab-content #otv-tab--1-content .otv-dropdown-tab--1{margin-bottom:30px}
+}
+@media (min-width:1200px){#amag-otv .tab-content .otv-tab-title{font-size:44px;line-height:52.8px}}
+/* @1900544 follows the CTA margin rules in the source sheet, so it wins the equal-specificity tie on the Anmelden button */
+#amag-otv .tab-content .otv-login-link{border:2px solid #172983;color:#172983;margin-bottom:40px;margin-top:20px}
+
+/* ---- login-modal toplines (hidden; keeps the eyebrow role of "AMAG ID"; @1779977, @1799518) ---- */
+#amag-otv .guest-access__topline,#amag-otv .guest-registration__topline,.amag-cdc__modal .guest-access__topline,.amag-cdc__modal .guest-registration__topline{font-family:amag_textlight;font-size:16px;letter-spacing:.06em;line-height:24px;margin-bottom:20px;text-transform:uppercase}
+.amag-cdcbox .cdc-content .gigya-screen-content .gigya-composite-control-label.sub-title{color:#6f6d6a;font-family:amag_textlight;font-size:16px;letter-spacing:.06em;line-height:24px;margin:0;padding:0 0 17px;text-transform:uppercase} /* @855512; the login modal (#cdcModal) sits after #amag-otv, display:none at capture */
+
+/* ---- notifications / error boxes (hidden in the captured state; @1867171, @1902034, @1902520) ---- */
+#amag-otv .app-vehicle__notification{background:#e8eaf3;color:#172983;display:flex;font-family:amag_textbold;font-size:16px;line-height:24px;margin-bottom:20px;padding:15px}
+#amag-otv .app-vehicle__notification-icon-container{flex-grow:0;flex-shrink:0;margin-right:10px;width:25px}
+#amag-otv .app-vehicle__notification-icon-container svg{height:auto;width:100%}
+.error-msg-box{background:rgba(226,0,26,.1)!important;border:none!important;border-radius:2px;color:#000!important;display:flex;margin-bottom:10px!important;padding:15px}
+.error-msg-box__icon{display:inline-flex;padding:0 10px 0 1px}
+.error-msg-box__icon .otv-error-type-icon{fill:#000;margin:auto 0}
+.error-msg-box__msg{display:inline-flex}
+.preSelection__error-msg{background:#f5f5f5;border:1px solid #e2001a;color:#e2001a;font-family:amag_textlight;font-size:16px;line-height:24px;margin-bottom:0;padding:20px}
+
+/* ---- generic dynamic dropdown (brand/model select; @219848–@223734) ---- */
+.generic-dynamic-dropdown-wrapper{height:51px;margin-top:25px;position:relative;width:100%}
+.generic-dynamic-dropdown-wrapper.upwards .generic-dynamic-dropdown-menu{bottom:100%;top:auto!important}
+.generic-dynamic-dropdown-wrapper.invalid .generic-dynamic-dropdown-error-msg{display:block}
+.generic-dynamic-dropdown-wrapper.invalid .generic-dynamic-dropdown-button{border-color:#e2001a}
+.generic-dynamic-dropdown-label{color:#6f6d6a;display:flex;font-family:amag_textlight;font-size:20px;left:10px;line-height:30px;pointer-events:none;position:absolute;top:50%;transform:translateY(-50%);transition:all .3s ease;z-index:1}
+.generic-dynamic-dropdown-label.active{font-size:16px;left:10px;top:15px;transform:translateY(-100%)}
+.generic-dynamic-dropdown-spinner{width:30px}
+.generic-dynamic-dropdown-spinner span{animation:generic-dynamic-dropdown-spinner 1.2s cubic-bezier(0.5,0,0.5,1) infinite;border:4px solid rgba(0,0,0,0);border-radius:50%;border-top-color:#801977;box-sizing:border-box;display:block;height:20px;margin:6px;position:absolute;width:20px}
+.generic-dynamic-dropdown-spinner span:first-child{animation-delay:-0.45s}
+.generic-dynamic-dropdown-spinner span:nth-child(2){animation-delay:-0.3s}
+.generic-dynamic-dropdown-spinner span:nth-child(3){animation-delay:-0.15s}
+.generic-dynamic-dropdown-button,.generic-dynamic-dropdown-custom{height:100%;position:relative;width:100%}
+.generic-dynamic-dropdown-button{align-items:center;background:#fff;border:none;border-bottom:1px solid #bdbdbd;cursor:pointer;display:flex;font-family:amag_textlight;font-size:20px;justify-content:space-between;line-height:30px;padding:0 10px}
+.generic-dynamic-dropdown-menu{background:#fff;border:1px solid #f5f5f5;box-shadow:0 20px 40px 0 rgba(0,0,0,.3);display:none;left:0;list-style:none;margin-bottom:0;max-height:400px;overflow-y:auto;padding-left:0;position:absolute;top:100%;width:100%;z-index:9001}
+.generic-dynamic-dropdown-menu.show{display:block}
+.generic-dynamic-dropdown-item{appearance:none;background:#fff;color:#222;cursor:pointer;font-family:amag_textlight;font-size:20px;line-height:30px;padding:10px;user-select:none}
+.generic-dynamic-dropdown-item:first-child{font-family:amag_textbold;font-size:20px;line-height:30px}
+.generic-dynamic-dropdown-item.focused,.generic-dynamic-dropdown-item:hover{background:#f5f5f5;color:#801977}
+.generic-dynamic-dropdown-chevron{fill:#801977;height:24px;pointer-events:none;position:absolute;right:10px;top:calc(50% + 6px);transform:translateY(-50%) rotate(90deg);transition:transform .3s ease;width:24px}
+.generic-dynamic-dropdown-chevron.show{transform:translateY(calc(-50% - 12px)) rotate(270deg)}
+.generic-dynamic-dropdown-native{display:none}
+.generic-dynamic-dropdown-error-msg{color:#e2001a;display:none;font-family:amag_textlight;font-size:16px;line-height:24px;margin-top:15px}
+@keyframes generic-dynamic-dropdown-spinner{0%{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+
+/* ---- reCAPTCHA badge: third-party fixed iframe replicated as the captured image (captureState) — live box 256×60 at right:-186px, bottom:14px, shadow gray 0 0 5px, radius 2px ---- */
+.grecaptcha-badge--capture{position:fixed;bottom:14px;right:0;width:70px;height:60px;overflow:hidden;box-shadow:gray 0 0 5px;border-radius:2px 0 0 2px;z-index:1000}
+.grecaptcha-badge--capture img{display:block;width:70px;height:60px}

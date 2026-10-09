@@ -1,0 +1,163 @@
+/* icon-text-box — values lifted from the prototype page CSS (icon text box @348440) and
+   canon.css (section shell, bootstrap row/col gutters). */
+.icon-text-box {
+  position: relative;
+  background: #fff;
+}
+
+.icon-text-box .wrap {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0 var(--section-gutter);
+}
+
+.icon-text-box.band {
+  padding-top: 80px;
+}
+
+.icon-text-box.band-white::before,
+.icon-text-box.band-grey::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: calc(max(0px, (100% - var(--content-max)) / 2) + var(--section-gutter));
+  background: #fff;
+}
+
+.icon-text-box.band-grey::before {
+  background: var(--amag-grey-100);
+}
+
+.icon-text-box.section-end {
+  padding-bottom: 80px;
+}
+
+.icon-text-box.first-section.band {
+  padding-top: 0;
+}
+
+.icon-text-box.first-section::before {
+  display: none;
+}
+
+/* the white box sits 15 px inside the content column (bootstrap col inside a row); each item
+   is icon 40 + 20 + title 24 inside the link (live `a` box 84 / 108), plus the 16 px of the
+   live empty paragraph's margin outside it (item 100 / 124) */
+.icon-text-box .box {
+  margin: 0 15px;
+  padding: 40px 40px 29px;
+  background: #fff;
+  color: #000;
+  font-family: var(--font-text-light);
+}
+
+.icon-text-box .headline :is(h1, h2, h3) {
+  margin: 0 0 8px;
+  font-family: var(--font-display-bold);
+  font-size: 24px;
+  line-height: 28px;
+  color: #000;
+}
+
+.icon-text-box .items {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.icon-text-box .item {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-top: 31px;
+  padding: 0 15px 16px;
+}
+
+.icon-text-box .item-link {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+
+.icon-text-box .item-link:any-link:hover {
+  text-decoration: none;
+}
+
+.icon-text-box .item-icon {
+  height: 40px;
+}
+
+.icon-text-box .item-icon :is(picture, img) {
+  display: block;
+  width: 40px;
+  max-height: 40px;
+}
+
+.icon-text-box .item-title :is(h3, h4, h5, h6) {
+  margin: 20px 0 0;
+  font-family: var(--font-display-bold);
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
+
+.icon-text-box .item-text p {
+  margin: 0 0 16px;
+  color: #000;
+}
+
+@media (width < 768px) {
+  .icon-text-box.band-white::before,
+  .icon-text-box.band-grey::before {
+    display: none;
+  }
+}
+
+@media (width >= 768px) {
+  .icon-text-box .box {
+    padding: 40px 40px 26px;
+  }
+
+  .icon-text-box .item {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    margin-top: 29px;
+  }
+
+  .icon-text-box .item-title :is(h3, h4, h5, h6) {
+    margin-top: 25px;
+  }
+}
+
+@media (width >= 1200px) {
+  .icon-text-box.band {
+    padding-top: 120px;
+  }
+
+  .icon-text-box.band-white::before,
+  .icon-text-box.band-grey::before {
+    height: 120px;
+  }
+
+  .icon-text-box.section-end {
+    padding-bottom: 120px;
+  }
+
+  .icon-text-box .box {
+    padding: 57px 95px 52px;
+  }
+
+  .icon-text-box .headline :is(h1, h2, h3) {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .icon-text-box .item {
+    margin-top: 33px;
+  }
+
+  .icon-text-box .item-title :is(h3, h4, h5, h6) {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,2112 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-08T14:43:34.212Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "en-services-html",
+  "url": "https://www.amag.ch/en/services.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-08T14:43:34.212Z",
+  "finalUrl": "https://www.amag.ch/en/services.html",
+  "title": "All vehicle services at a glance | AMAG",
+  "description": "Whether repair, roadside assistance or car service. In your AMAG garage we can help you quickly and easily. Arrange an appointment online now.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "AMAG services – comprehensive and carefree"
+    },
+    {
+      "tag": "h4",
+      "text": "Your vehicle is in the best hands with us!"
+    },
+    {
+      "tag": "h2",
+      "text": "Some of our services at a glance:"
+    },
+    {
+      "tag": "h5",
+      "text": "Service and repair work"
+    },
+    {
+      "tag": "h5",
+      "text": "Bodywork and paintwork"
+    },
+    {
+      "tag": "h5",
+      "text": "Sale of accessories"
+    },
+    {
+      "tag": "h5",
+      "text": "Vehicle check from CHF 59.-"
+    },
+    {
+      "tag": "h5",
+      "text": "Air conditioning service from CHF 98.-"
+    },
+    {
+      "tag": "h5",
+      "text": "Vehicle alignment"
+    },
+    {
+      "tag": "h5",
+      "text": "Exterior and interior cleaning"
+    },
+    {
+      "tag": "h5",
+      "text": "Vehicle polish incl. sealant"
+    },
+    {
+      "tag": "h5",
+      "text": "Wheel rim repair"
+    },
+    {
+      "tag": "h5",
+      "text": "MVI (motor vehicle inspection) provision"
+    },
+    {
+      "tag": "h5",
+      "text": "Battery check"
+    },
+    {
+      "tag": "h5",
+      "text": "Level check and fluid top-up"
+    },
+    {
+      "tag": "h2",
+      "text": "AMAG NEWS"
+    },
+    {
+      "tag": "h3",
+      "text": "CHF 15.- Early booking discount on your tyre or wheel change"
+    },
+    {
+      "tag": "h3",
+      "text": "Offer for new winter tyres"
+    },
+    {
+      "tag": "h3",
+      "text": "Take out Zürich brand insurance and benefit"
+    },
+    {
+      "tag": "h2",
+      "text": "More than just a service – what you can expect from us"
+    },
+    {
+      "tag": "h2",
+      "text": "Do you have any other questions?"
+    },
+    {
+      "tag": "h3",
+      "text": "News and promotions directly into your inbox"
+    }
+  ],
+  "body": [
+    "Electromobility switch now",
+    "AMAG Group Mobility, Sustainability & Future",
+    "No. 1 Car Dealer in Switzerland with 90 locations",
+    "Find a vehicle",
+    "Services",
+    "Find garage",
+    "Jobs",
+    "My garage",
+    "Homepage",
+    "Services",
+    "Our trained staff at over 90 AMAG garages carry out all servicing and repair work according to the required standards and use original replacement parts.",
+    "And you benefit from free mobility insurance when you get a service!",
+    "Arrange an appointment",
+    "Appointment for service, maintenance, repair or wheel change",
+    "Top Services",
+    "How can we help you?",
+    "Tyres and wheels",
+    "Tyre service: from changing tyres to purchasing and storage",
+    "Help in the event of a claim",
+    "Whether it’s an accident or hail damage, we offer quick and straightforward help",
+    "AMAG",
+    "Wheel change",
+    "Only for appointments until 10 october!",
+    "Safe on the road",
+    "We will gladly prepare an offer for new winter tyres for you",
+    "3 months for free!",
+    "12 months insured, but only pay for 9 months",
+    "OUR AMAG PLEDGE",
+    "Greater safety",
+    "Work carried out according to manufacturer guidelines",
+    "Optimally equipped workshops",
+    "Expert advice",
+    "Top offers",
+    "Wide range of products",
+    "High-quality original replacement parts",
+    "Attractive additional offers",
+    "Optimal service quality",
+    "Highly trained employees",
+    "Pick-up and drop-off service",
+    "Largest service network in Switzerland",
+    "Contact your AMAG garage directly – we’ll be glad to help you.",
+    "AMAG Newsletter",
+    "Top offers, attractive discounts and event invitations – with our newsletter you are always up to date and enjoy exclusive benefits.",
+    "Assistance & contact",
+    "Contact",
+    "Online appointment",
+    "FAQ Online car purchase",
+    "Corporate clients",
+    "Newsletter",
+    "Emergency",
+    "Find a car & service",
+    "Find a vehicle",
+    "Services",
+    "Find garage",
+    "Car subscription",
+    "Clyde",
+    "Leasing",
+    "Europcar",
+    "Carsharing",
+    "Mobility-as-a-Service",
+    "AMAG Classic",
+    "Parking",
+    "Company",
+    "About us",
+    "AMAG Group",
+    "Sustainability",
+    "Jobs & careers",
+    "Press",
+    "Our brands",
+    "AMAG App",
+    "Get connected with AMAG",
+    "© 2026 AMAG Automobil und Motoren AG",
+    "Privacy policy",
+    "Legal notice",
+    "Impressum",
+    "Terms and conditions",
+    "Cookie policy",
+    "Jobs"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Electromobility switch now",
+      "href": "/en/find-vehicle/cars-amag/e-mobility.html"
+    },
+    {
+      "label": "AMAG Group Mobility, Sustainability & Future",
+      "href": "https://www.amag-group.ch/de/energy-und-mobility/loesungen.html"
+    },
+    {
+      "label": "No. 1 Car Dealer in Switzerland with 90 locations",
+      "href": "/en/komponenten/car-dealers.html"
+    },
+    {
+      "label": "Find a vehicle",
+      "href": "/en/find-vehicle.html"
+    },
+    {
+      "label": "Services",
+      "href": "/en/services.html"
+    },
+    {
+      "label": "Find garage",
+      "href": "/en/komponenten/car-dealers.html"
+    },
+    {
+      "label": "Jobs",
+      "href": "/en/jobs-amag.html"
+    },
+    {
+      "label": "My garage --",
+      "href": null
+    },
+    {
+      "label": "en",
+      "href": null
+    },
+    {
+      "label": "Discover more",
+      "href": "/de/events/emotiondays.html"
+    },
+    {
+      "label": "Homepage",
+      "href": "/en.html"
+    },
+    {
+      "label": "Arrange an appointment",
+      "href": "/en/services/otv.html"
+    },
+    {
+      "label": "Service and repair work",
+      "href": "/en/services/top-services/car-service.html"
+    },
+    {
+      "label": "Bodywork and paintwork",
+      "href": "/en/services/help-in-case-of-damage/car-paint-and-body-service.html"
+    },
+    {
+      "label": "Sale of accessories",
+      "href": "/en/services/top-services/accessories.html"
+    },
+    {
+      "label": "Vehicle check from CHF 59.-",
+      "href": "/en/services/top-services/saison-check.html"
+    },
+    {
+      "label": "Air conditioning service from CHF 98.-",
+      "href": "/en/services/top-services/air-conditioning-service.html"
+    },
+    {
+      "label": "Vehicle polish incl. sealant",
+      "href": "/en/services/top-services/waxoyl.html"
+    },
+    {
+      "label": "Wheel rim repair",
+      "href": "/en/services/tyre-service/rim-repair.html"
+    },
+    {
+      "label": "MVI (motor vehicle inspection) provision",
+      "href": "/en/services/top-services/motor-vehicle-inspection.html"
+    },
+    {
+      "label": "Battery check",
+      "href": "/en/services/top-services/battery.html"
+    },
+    {
+      "label": "Arrange an appointment Appointment for service, maintenance, repair or wheel change",
+      "href": "/en/services/otv.html"
+    },
+    {
+      "label": "To the services",
+      "href": "/en/services/top-services.html"
+    },
+    {
+      "label": "To the wheels and tyres",
+      "href": "/en/services/tyre-service.html"
+    },
+    {
+      "label": "To the services",
+      "href": "/en/services/help-in-case-of-damage.html"
+    },
+    {
+      "label": "Wheel change CHF 15.- Early booking discount on your tyre or wheel change Only for appointments until 10 october! Book an appointment",
+      "href": "https://www.amag.ch/en/service/reifen-und-raeder/winterreifen.html#frueh"
+    },
+    {
+      "label": "Safe on the road Offer for new winter tyres We will gladly prepare an offer for new winter tyres for you Request a quote",
+      "href": "https://www.amag.ch/en/promotions/as/after-sales-kontaktformular.html"
+    },
+    {
+      "label": "3 months for free! Take out Zürich brand insurance and benefit 12 months insured, but only pay for 9 months More information",
+      "href": "https://www.amag.ch/en/service/top-services/markenversicherung.html#promotion"
+    },
+    {
+      "label": "Contact garage",
+      "href": "javascript:void(0)"
+    },
+    {
+      "label": "Subscribe to newsletter",
+      "href": "https://www.amag.ch/en/newsletter/subscribe.html"
+    },
+    {
+      "label": "Appointments",
+      "href": "/en/services/otv.html"
+    },
+    {
+      "label": "Test drive",
+      "href": "/en/testdrive.html"
+    },
+    {
+      "label": "Find a vehicle",
+      "href": "https://auto.amag.ch/de"
+    },
+    {
+      "label": "Assistance & contact",
+      "href": "#listOne"
+    },
+    {
+      "label": "Contact",
+      "href": "/en/contact.html"
+    },
+    {
+      "label": "Online appointment",
+      "href": "/en/komponenten/car-dealers.html"
+    },
+    {
+      "label": "FAQ Online car purchase",
+      "href": "https://auto.amag.ch/de/hilfe-kontakt/faq-online-autokauf"
+    },
+    {
+      "label": "Corporate clients",
+      "href": "/en/find-vehicle/cars-amag/fleet.html"
+    },
+    {
+      "label": "Newsletter",
+      "href": "https://www.amag.ch/en/newsletter/subscribe.html"
+    },
+    {
+      "label": "Emergency",
+      "href": "/en/services/help-in-case-of-damage/totalmobil.html"
+    },
+    {
+      "label": "Find a car & service",
+      "href": "#listTwo"
+    },
+    {
+      "label": "Find a vehicle",
+      "href": "https://auto.amag.ch/de"
+    },
+    {
+      "label": "Services",
+      "href": "/en/services.html"
+    },
+    {
+      "label": "Find garage",
+      "href": "/en/komponenten/car-dealers.html"
+    },
+    {
+      "label": "Car subscription",
+      "href": "/en/find-vehicle/cars-amag/abo.html"
+    },
+    {
+      "label": "Clyde",
+      "href": "/en/find-vehicle/cars-amag/clyde.html"
+    },
+    {
+      "label": "Leasing",
+      "href": "/en/find-vehicle/cars-amag/amag-leasing.html"
+    },
+    {
+      "label": "Europcar",
+      "href": "https://www.europcar.ch/de"
+    },
+    {
+      "label": "Carsharing",
+      "href": "https://ondemand.europcar.ch/en.html"
+    },
+    {
+      "label": "Mobility-as-a-Service",
+      "href": "https://allride.ch/en/"
+    },
+    {
+      "label": "AMAG Classic",
+      "href": "https://www.amag-classic.ch/en.html"
+    },
+    {
+      "label": "Parking",
+      "href": "https://parking.amag.ch/en.html"
+    },
+    {
+      "label": "Company",
+      "href": "#listThree"
+    },
+    {
+      "label": "About us",
+      "href": "/en/about-us.html"
+    },
+    {
+      "label": "AMAG Group",
+      "href": "https://www.amag-group.ch/de.html"
+    },
+    {
+      "label": "Sustainability",
+      "href": "/de/ueber-uns/esg.html"
+    },
+    {
+      "label": "Jobs & careers",
+      "href": "/en/jobs.html"
+    },
+    {
+      "label": "Press",
+      "href": "https://www.amagpress.ch/"
+    },
+    {
+      "label": "AMAG App Get connected with AMAG",
+      "href": "/en/services/top-services/app.html"
+    },
+    {
+      "label": "Privacy policy",
+      "href": "https://www.amag-group.ch/de/footer/privacy-policy.html"
+    },
+    {
+      "label": "Legal notice",
+      "href": "https://www.amag-group.ch/de/footer/legal-notice.html"
+    },
+    {
+      "label": "Impressum",
+      "href": "/en/imprint.html"
+    },
+    {
+      "label": "Terms and conditions",
+      "href": "/en/gtc.html"
+    },
+    {
+      "label": "Cookie policy",
+      "href": "https://www.amag-group.ch/de/footer/cookie-policy.html"
+    },
+    {
+      "label": "Jobs",
+      "href": "https://jobs-retail.amag.ch"
+    }
+  ],
+  "links": [
+    "https://www.amag.ch/de/events/emotiondays.html",
+    "https://www.amag.ch/en.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/e-mobility.html",
+    "https://www.amag-group.ch/de/energy-und-mobility/loesungen.html",
+    "https://www.amag.ch/en/komponenten/car-dealers.html",
+    "https://www.amag.ch/en/find-vehicle.html",
+    "https://www.amag.ch/en/services.html",
+    "https://www.amag.ch/en/jobs-amag.html",
+    "https://www.amag.ch/en/search.html",
+    "https://www.amag.ch/en/user/login.html",
+    "https://auto.amag.ch/de/watchlist",
+    "https://www.amag.ch/de/service.html",
+    "https://www.amag.ch/fr/services.html",
+    "https://www.amag.ch/it/servizi.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/vehicle-range.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/warehouse-vehicles.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/demonstration-vehicles.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/used-vehicles.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/used-vehicles/occasionen-leasing.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/used-vehicles/elektro-occasionen.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/e-mobility/id-buzz.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/e-mobility/used-electric-cars.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/e-mobility/fast-charging-network.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/abo.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/abo/faq.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/amag-leasing.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/configure-vehicles.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/fleet.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/financing.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/buy-your-car.html",
+    "https://www.amag.ch/en/find-vehicle/body-type.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/suv.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/estate.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/limousine.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/convertible.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/coupe.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/mpv.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/camper-van.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/bus.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/pickup.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/business.html",
+    "https://www.amag.ch/en/find-vehicle/partner.html",
+    "https://www.amag.ch/en/find-vehicle/partner/helion.html",
+    "https://www.amag.ch/en/find-vehicle/partner/clyde.html",
+    "https://www.amag.ch/en/find-vehicle/partner/ducati.html",
+    "https://www.amag.ch/en/find-vehicle/partner/microlino.html",
+    "https://www.amag.ch/en/find-vehicle/partner/allride.html",
+    "https://www.amag.ch/en/find-vehicle/brands/vw/vw-models.html",
+    "https://www.amag.ch/en/find-vehicle/brands/audi/audi-models.html",
+    "https://www.amag.ch/en/find-vehicle/brands/seat/seat-models.html",
+    "https://www.amag.ch/en/find-vehicle/brands/skoda/skoda-models.html",
+    "https://www.amag.ch/en/find-vehicle/brands/cupra/cupra-models.html",
+    "https://www.amag.ch/en/find-vehicle/brands/commercial-vehicles/commercial-vehicles-models.html",
+    "https://www.amag.ch/en/find-vehicle/brands/bentley/bentley-models.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/microlino.html",
+    "https://www.amag.ch/en/services/tyre-service.html",
+    "https://www.amag.ch/en/services/tyre-service/winter-tyres.html",
+    "https://www.amag.ch/en/services/tyre-service/summer-tyres.html",
+    "https://www.amag.ch/en/services/tyre-service/complete-wheels.html",
+    "https://www.amag.ch/en/services/tyre-service/tyre-warranty.html",
+    "https://www.amag.ch/en/services/tyre-service/wheel-hotel.html",
+    "https://www.amag.ch/en/services/tyre-service/rim-repair.html",
+    "https://www.amag.ch/en/services/top-services.html",
+    "https://www.amag.ch/en/services/top-services/saison-check.html",
+    "https://www.amag.ch/en/services/top-services/saison-check/feriencheck.html",
+    "https://www.amag.ch/en/services/top-services/saison-check/saison-check2.html",
+    "https://www.amag.ch/en/services/top-services/car-service.html",
+    "https://www.amag.ch/en/services/top-services/app.html",
+    "https://www.amag.ch/en/services/top-services/kreditkarte.html",
+    "https://www.amag.ch/en/services/top-services/battery.html",
+    "https://www.amag.ch/en/services/top-services/brakes.html",
+    "https://www.amag.ch/en/services/top-services/electric-charging-stations.html",
+    "https://www.amag.ch/en/services/top-services/accessories.html",
+    "https://www.amag.ch/en/services/top-services/abt-sportsline.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/audi-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/vw-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/seat-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/skoda-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/vw-commercial-vehicles-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/audi-used-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/vw-used-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/seat-used-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/skoda-used-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/vw-commercial-vehicles-used-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/carwash.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage/reporting-damage.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage/reporting-damage/guide.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage/car-paint-and-body-service.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage/tesla-service.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage/hail-damage.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage/car-glass-repair.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage/totalmobil.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage/recalls-by-manufacturers.html",
+    "https://www.amag.ch/en/cards/charging-card.html",
+    "https://www.amag.ch/en/services.html#",
+    "tel:+41%20848%20024%20365",
+    "https://www.amag.ch/en/services/otv.html",
+    "https://www.amag.ch/en/find-vehicle/brands.html",
+    "https://www.amag.ch/en/services/aktuelles-angebot-fuer-sie.html",
+    "https://www.amag.ch/en/services/otv.html#3962",
+    "https://www.amag.ch/en/services/otv.html#3537",
+    "https://www.amag.ch/en/services/otv.html#606",
+    "https://www.amag.ch/en/services/otv.html#673",
+    "https://www.amag.ch/en/services/otv.html#400",
+    "https://www.amag.ch/en/services/otv.html#9200",
+    "https://www.amag.ch/en/services/otv.html#698",
+    "https://www.amag.ch/en/services/otv.html#540",
+    "https://www.amag.ch/en/services/otv.html#121",
+    "https://www.amag.ch/en/services/otv.html#90",
+    "https://www.amag.ch/en/services/otv.html#161",
+    "https://www.amag.ch/en/services/otv.html#100",
+    "https://www.amag.ch/en/services/otv.html#399",
+    "https://www.amag.ch/en/services/otv.html#140",
+    "https://www.amag.ch/en/services/otv.html#6140",
+    "https://www.amag.ch/en/services/otv.html#364",
+    "https://www.amag.ch/en/services/otv.html#380",
+    "https://www.amag.ch/en/services/otv.html#3380",
+    "https://www.amag.ch/en/services/otv.html#150",
+    "https://www.amag.ch/en/services/otv.html#227",
+    "https://www.amag.ch/en/services/otv.html#790",
+    "https://www.amag.ch/en/services/otv.html#3965",
+    "https://www.amag.ch/en/services/otv.html#3964",
+    "https://www.amag.ch/en/services/otv.html#3963",
+    "https://www.amag.ch/en/services/otv.html#302",
+    "https://www.amag.ch/en/services/otv.html#289",
+    "https://www.amag.ch/en/services/otv.html#357",
+    "https://www.amag.ch/en/services/otv.html#165",
+    "https://www.amag.ch/en/services/otv.html#3065",
+    "https://www.amag.ch/en/services/otv.html#3100",
+    "https://www.amag.ch/en/services/otv.html#254",
+    "https://www.amag.ch/en/services/otv.html#6696",
+    "https://www.amag.ch/en/services/otv.html#3125",
+    "https://www.amag.ch/en/services/otv.html#330",
+    "https://www.amag.ch/en/services/otv.html#190",
+    "https://www.amag.ch/en/services/otv.html#460",
+    "https://www.amag.ch/en/services/otv.html#6601",
+    "https://www.amag.ch/en/services/otv.html#348",
+    "https://www.amag.ch/en/services/otv.html#200",
+    "https://www.amag.ch/en/services/otv.html#219",
+    "https://www.amag.ch/en/services/otv.html#220",
+    "https://www.amag.ch/en/services/otv.html#92",
+    "https://www.amag.ch/en/services/otv.html#173",
+    "https://www.amag.ch/en/services/otv.html#3346",
+    "https://www.amag.ch/en/services/otv.html#523",
+    "https://www.amag.ch/en/services/otv.html#739",
+    "https://www.amag.ch/en/services/otv.html#760",
+    "https://www.amag.ch/en/services/otv.html#138",
+    "https://www.amag.ch/en/services/otv.html#690",
+    "https://www.amag.ch/en/services/otv.html#260",
+    "https://www.amag.ch/en/services/otv.html#327",
+    "https://www.amag.ch/en/services/otv.html#320",
+    "https://www.amag.ch/en/services/otv.html#710",
+    "https://www.amag.ch/en/services/otv.html#129",
+    "https://www.amag.ch/en/services/otv.html#350",
+    "https://www.amag.ch/en/services/otv.html#369",
+    "https://www.amag.ch/en/services/otv.html#3690",
+    "https://www.amag.ch/en/services/otv.html#232",
+    "https://www.amag.ch/en/services/otv.html#137",
+    "https://www.amag.ch/en/services/otv.html#373",
+    "https://www.amag.ch/en/services/otv.html#244",
+    "https://www.amag.ch/en/services/otv.html#248",
+    "https://www.amag.ch/en/services/otv.html#3570",
+    "https://www.amag.ch/en/services/otv.html#290",
+    "https://www.amag.ch/en/services/otv.html#437",
+    "https://www.amag.ch/en/services/otv.html#136",
+    "https://www.amag.ch/en/services/otv.html#655",
+    "https://www.amag.ch/en/services/otv.html#659",
+    "https://www.amag.ch/en/services/otv.html#463",
+    "https://www.amag.ch/en/services/otv.html#464",
+    "https://www.amag.ch/en/services/otv.html#9201",
+    "https://www.amag.ch/en/services/otv.html#240",
+    "https://www.amag.ch/en/services/otv.html#130",
+    "https://www.amag.ch/en/services/otv.html#127",
+    "https://www.amag.ch/en/services/otv.html#450",
+    "https://www.amag.ch/en/services/otv.html#1",
+    "https://www.amag.ch/en/services/otv.html#788",
+    "https://www.amag.ch/en/services/otv.html#500",
+    "https://www.amag.ch/en/services/otv.html#610",
+    "https://www.amag.ch/en/services/otv.html#376",
+    "https://www.amag.ch/en/services/otv.html#570",
+    "https://www.amag.ch/en/services/otv.html#680",
+    "https://www.amag.ch/en/services/otv.html#6831",
+    "https://www.amag.ch/en/services/otv.html#650",
+    "https://www.amag.ch/en/services/otv.html#151",
+    "https://www.amag.ch/en/services/otv.html#6136",
+    "https://www.amag.ch/en/services/otv.html#600",
+    "https://www.amag.ch/en/services/otv.html#6114",
+    "https://www.amag.ch/en/services/otv.html#781",
+    "https://www.amag.ch/en/services/otv.html#272",
+    "https://www.amag.ch/en/services/otv.html#674",
+    "https://www.amag.ch/en/services/otv.html#6772",
+    "https://www.amag.ch/en/services/otv.html#620",
+    "https://www.amag.ch/en/services/otv.html#6841",
+    "https://www.amag.ch/en/services/otv.html#155",
+    "https://www.amag.ch/en/services/otv.html#645",
+    "https://www.amag.ch/en/services/otv.html#122",
+    "https://www.amag.ch/en/services/otv.html#635",
+    "https://www.amag.ch/en/services/otv.html#798",
+    "https://www.amag.ch/en/services/otv.html#3972",
+    "https://www.amag.ch/en/services/top-services/air-conditioning-service.html",
+    "https://www.amag.ch/en/services/top-services/waxoyl.html",
+    "https://www.amag.ch/en/services/top-services/motor-vehicle-inspection.html",
+    "https://www.amag.ch/en/service/reifen-und-raeder/winterreifen.html#frueh",
+    "https://www.amag.ch/en/promotions/as/after-sales-kontaktformular.html",
+    "https://www.amag.ch/en/service/top-services/markenversicherung.html#promotion",
+    "javascript:void(0)",
+    "https://www.amag.ch/en/car-dealers/carrosserie-center-lengwil.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-aarau.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-aigle.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-altstetten.html",
+    "https://www.amag.ch/en/car-dealers/audi-center-lucerne.html",
+    "https://www.amag.ch/en/car-dealers/auto-abo.html",
+    "https://www.amag.ch/en/car-dealers/autowelt-zuerich.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-baden.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-basel.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-bellinzona.html",
+    "https://www.amag.ch/en/car-dealers/garage-bendern.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-bern.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-beromuenster.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-biel.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-laengfeldweg.html",
+    "https://www.amag.ch/en/car-dealers/audi-center-berganzona.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-buchrain.html",
+    "https://www.amag.ch/en/car-dealers/commercial-vehicles-center-buchrain.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-buchs.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-bulle.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-buelach.html",
+    "https://www.amag.ch/en/car-dealers/carrosseriecenter-gumefens.html",
+    "https://www.amag.ch/en/car-dealers/cc-wettswil.html",
+    "https://www.amag.ch/en/car-dealers/carrosseriecenter-zuchwil.html",
+    "https://www.amag.ch/en/car-dealers/used-vehicles-center-crissier.html",
+    "https://www.amag.ch/en/car-dealers/used-vehicles-center-geneva.html",
+    "https://www.amag.ch/en/car-dealers/used-vehicles-center-lugano.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-chur.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-chatelaine.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-coldrerio.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-crissier.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-davos.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-dulliken.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-emmen.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-etoy.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-frauenfeld.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-fribourg.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-giubiasco-skoda.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-giubiasco.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-guemligen.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-heerbrugg.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-horgen.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-jona.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-kleinbasel.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-kloten.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-kreuzlingen.html",
+    "https://www.amag.ch/en/car-dealers/garage-la-tour-de-treme.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-lausanne.html",
+    "https://www.amag.ch/en/car-dealers/garage-letzigrund.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-liestal.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-lugano.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-mendrisio.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-murten.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-muttenz.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-noranco.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-nyon.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-nyon-champ-colin.html",
+    "https://www.amag.ch/en/car-dealers/used-vehicles-center-contone.html",
+    "https://www.amag.ch/en/car-dealers/used-vehicles-center-muenchenbuchsee.html",
+    "https://www.amag.ch/en/car-dealers/used-vehicles-center-oftringen.html",
+    "https://www.amag.ch/en/car-dealers/used-vehicles-center-pratteln.html",
+    "https://www.amag.ch/en/car-dealers/used-vehicles-center-sihlbrugg.html",
+    "https://www.amag.ch/en/car-dealers/used-vehicles-center-zurich.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-oftringen.html",
+    "https://www.amag.ch/en/car-dealers/online-sales.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-petit-lancy.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-pratteln.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-rheinfelden.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-schaffhausen.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-schinznach-bad.html",
+    "https://www.amag.ch/en/car-dealers/garage-schlieren.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-solothurn.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-st-legier.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-sursee.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-thun.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-uster.html",
+    "https://www.amag.ch/en/car-dealers/commercial-vehicles-center-uster.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-zurich-utoquai.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-vaduz.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-vernier.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-vevey.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-villeneuve.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-volketswil.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-weinfelden.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-wettingen.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-wettswil.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-winterthur.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-zuchwil.html",
+    "https://www.amag.ch/en/car-dealers/car-dealer-zug.html",
+    "https://www.amag.ch/en/car-dealers/garage-bentley-zug.html",
+    "https://www.amag.ch/en/newsletter/subscribe.html",
+    "https://www.amag.ch/en/testdrive.html",
+    "https://auto.amag.ch/de",
+    "https://www.amag.ch/en/services.html#listOne",
+    "https://www.amag.ch/en/contact.html",
+    "https://auto.amag.ch/de/hilfe-kontakt/faq-online-autokauf",
+    "https://www.amag.ch/en/services.html#listTwo",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/clyde.html",
+    "https://www.europcar.ch/de",
+    "https://ondemand.europcar.ch/en.html",
+    "https://allride.ch/en/",
+    "https://www.amag-classic.ch/en.html",
+    "https://parking.amag.ch/en.html",
+    "https://www.amag.ch/en/services.html#listThree",
+    "https://www.amag.ch/en/about-us.html",
+    "https://www.amag-group.ch/de.html",
+    "https://www.amag.ch/de/ueber-uns/esg.html",
+    "https://www.amag.ch/en/jobs.html",
+    "https://www.amagpress.ch/",
+    "https://apps.apple.com/ch/app/amag/id1632500360",
+    "https://play.google.com/store/apps/details?id=ch.amag.amagapp&gl=CH",
+    "https://www.instagram.com/amag.ch/",
+    "https://www.facebook.com/amag.automobile?ref=hl",
+    "https://www.linkedin.com/showcase/71635012",
+    "https://www.amag-group.blog/",
+    "https://www.amag-group.ch/de/footer/privacy-policy.html",
+    "https://www.amag-group.ch/de/footer/legal-notice.html",
+    "https://www.amag.ch/en/imprint.html",
+    "https://www.amag.ch/en/gtc.html",
+    "https://www.amag-group.ch/de/footer/cookie-policy.html",
+    "https://jobs-retail.amag.ch/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/shopping-cart-empty-1.svg",
+        "alt": "Electromobility",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/check-circle.svg",
+        "alt": "AMAG Group",
+        "w": 23,
+        "h": 23
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/shop-1.svg",
+        "alt": "SITES throughout Switzerland",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Volkswagen",
+        "w": 100,
+        "h": 100
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Audi_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Audi",
+        "w": 100,
+        "h": 35
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Seat_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "SEAT",
+        "w": 100,
+        "h": 107
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/new_Skoda_Logo_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Škoda",
+        "w": 100,
+        "h": 107
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/CUPRA_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "CUPRA",
+        "w": 100,
+        "h": 66
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Nutzfahrzeuge_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "VW Nutzfahrzeuge",
+        "w": 100,
+        "h": 107
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Bentley_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Bentley",
+        "w": 100,
+        "h": 107
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Micro_Microlino.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Microlino",
+        "w": 100,
+        "h": 50
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-generic/resources/img/iconsMobileNavigation/w_phone.svg",
+        "alt": "icon",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-generic/resources/img/iconsMobileNavigation/w_calendar-add-1.svg",
+        "alt": "icon",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Volkswagen",
+        "w": 100,
+        "h": 100
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Audi_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Audi",
+        "w": 100,
+        "h": 35
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Seat_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "SEAT",
+        "w": 100,
+        "h": 107
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/new_Skoda_Logo_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Škoda",
+        "w": 100,
+        "h": 107
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/CUPRA_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "CUPRA",
+        "w": 100,
+        "h": 66
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Nutzfahrzeuge_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "VW Nutzfahrzeuge",
+        "w": 100,
+        "h": 107
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Bentley_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Bentley",
+        "w": 100,
+        "h": 107
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Micro_Microlino.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Microlino",
+        "w": 100,
+        "h": 50
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_calendar-add-1.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_Glasschaden.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/e-auto.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/Termin.svg",
+        "alt": "icon",
+        "w": 32,
+        "h": 32
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/Termin.svg",
+        "alt": "icon",
+        "w": 32,
+        "h": 32
+      },
+      {
+        "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-services_uebersicht_1:4_3_Medium?wid=690&hei=518&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+        "alt": "",
+        "w": 610,
+        "h": 457
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/blau/b_tools-wench-screwdriver.svg",
+        "alt": "icon",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/blau/color-spray.svg",
+        "alt": "icon",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/blau/b_shopping-cart-empty-1.svg",
+        "alt": "icon",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/blau/b_car-actions-search.svg",
+        "alt": "icon",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/blau/b_temperature-thermometer-snow%202.svg",
+        "alt": "icon",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/blau/car-repair-bottom-1.svg",
+        "alt": "icon",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/blau/b_car-repair-wash-1.svg",
+        "alt": "icon",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/blau/b_car-repair-wash-2%202.svg",
+        "alt": "icon",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/blau/b_car-tool-steering-wheel-1.svg",
+        "alt": "icon",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/blau/b_car-repair-checklist.svg",
+        "alt": "icon",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/blau/car-tool-battery.svg",
+        "alt": "icon",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/blau/b_car-repair-fluid%201.svg",
+        "alt": "icon",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/blau/b_365-date%202.svg",
+        "alt": "Termin",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/services/bilder/TopService_Maxi_Teaser.jpg/jcr:content/renditions/original.transform/w380_h380-maxiTeaserBild/img.jpg",
+        "alt": "Top Services",
+        "w": 380,
+        "h": 380
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/services/bilder/Radwechsel_Maxi_Teaser.jpg/jcr:content/renditions/original.transform/w380_h380-maxiTeaserBild/img.jpg",
+        "alt": "Tyres and wheels",
+        "w": 380,
+        "h": 380
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/services/bilder/Schadenfall_Maxi_Teaser.jpg/jcr:content/renditions/original.transform/w380_h380-maxiTeaserBild/img.jpg",
+        "alt": "Top Services",
+        "w": 380,
+        "h": 380
+      },
+      {
+        "src": "https://dam.amag-group.ch/is/image/amagproduction/ServiceCam_Reifenofferte3:2_1_Medium?wid=768&hei=384&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+        "alt": "",
+        "w": 629,
+        "h": 314
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+        "alt": "icon",
+        "w": 95,
+        "h": 50
+      },
+      {
+        "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-vw-nutzfahrzeugeWinterreifen:2_1_Medium?wid=768&hei=384&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+        "alt": "",
+        "w": 629,
+        "h": 314
+      },
+      {
+        "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-elektro-mobilitaet-6:2_1_Medium?wid=768&hei=384&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+        "alt": "",
+        "w": 629,
+        "h": 314
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+        "alt": "icon",
+        "w": 95,
+        "h": 50
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_car-garage-2.svg",
+        "alt": "icon",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_car-garage-2.svg",
+        "alt": "icon",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/services/bilder/amag-e-mailing-neuabo-1800x500px.png/jcr:content/renditions/original.transform/w1440_h400-divider/img.png",
+        "alt": "AMAG Newsletter",
+        "w": 1440,
+        "h": 400
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_arrow-right.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/schwarz/calendar-add-1.svg",
+        "alt": "",
+        "w": 32,
+        "h": 32
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/schwarz/Probefahrt.svg",
+        "alt": "",
+        "w": 25,
+        "h": 24
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/schwarz/car-4.svg",
+        "alt": "",
+        "w": 32,
+        "h": 32
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/schwarz/Direkteinstiege.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/ve-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Volkswagen",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/audi-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Audi",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/seat-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Seat",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/skoda-logo-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Skoda",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/cupra-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "CUPRA",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/vw-nf-d-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Volkswagen Nutzfahrzeuge",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/bentley-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Bentley",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/micro-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Microlino",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/Ducati_Shield_weiss-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Ducati Volketswil",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/sonstige/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg",
+        "alt": "",
+        "w": 120,
+        "h": 40
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/sonstige/GooglePlay-EN.png",
+        "alt": "",
+        "w": 646,
+        "h": 250
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/instagram.svg",
+        "alt": "Instagram",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/facebook.svg",
+        "alt": "Facebook",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_linkedin-logo.svg",
+        "alt": "AMAG Linkedin",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/AMAG-Blog-Button-24x24.svg",
+        "alt": "Social Link",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://cdn.frontnow.cloud/https://data.frontnow.ai/storage/v1/object/public/studio/chNyWYZp4gPKoz6jTc4I1.png",
+        "alt": "",
+        "w": 108,
+        "h": 108
+      }
+    ],
+    "allImgCount": 74,
+    "cssBackgrounds": [],
+    "modals": [
+      "Choose your AMAG garage AMAG Carrosserie Center Lengwil Steinstrasse 5, 8574 Lengwil AMAG Aarau Rohrerstrasse 29, 5000 Aarau AMAG Aigle Chemin des Orlons 1, 1860 Aigle AMAG Altstetten Vulkanstrasse 120, 8048 Zürich AMAG Audi Center Luzern Grabenhofstrasse 10, 6010 Kriens AMAG Auto-Abo Giessenstrasse, 8600 Dübendorf AMAG Autowelt Zürich Giessenstrasse 4, 8600 Dübendorf AMAG Baden Winkelstrasse 2, 5442 Fislisbach AMAG Basel Reinacherstrasse 149/151, 4053 Basel AMAG Bellinzona Via San Gottardo 71, 6500 Bellinzona AMAG Bendern Ober Au 4, 9487 Gamprin-Bendern AMAG Bern Wankdorffeldstrasse 60, 3014 Bern AMAG Beromünster Aargauerstrasse 13, 6215 Beromünster AMAG Biel / Bienne Römerstrasse 16, 2555 Brügg AMAG Biel / Bienne Längfeldweg Längfeldweg 118, 2504 Biel/Bienne AMAG Breganzona Centro Audi Via San Carlo 6, 6932 Breganzona AMAG Buchrain Elsihof 1, 6035 Perlen AMAG Buchrain VW Nutzfahrzeuge Center Elsihof 1, 6035 Perlen AMAG Buchs St. Gallerstrasse 100, 9471 Buchs SG AMAG Bulle Rue de Vuippens 55, 1630 Bulle AMAG Bülach Bächliwis 29, 8184 Bachenbülach AMAG Centre Carrosserie Gumefens En Palud 20, 1643 Gumefens AMAG Carrosserie Center Wettswil Leimattenstrasse 2, 8907 Wettswil am Albis AMAG Carrosserie Center Zuchwil Schützenweg 6, 4528 Zuchwil AMAG Centre Occasions Crissier Rue d'Etrablon 1, 1023 Crissier AMAG Centre Occasions Genève Route du Bois-des-Frères 85, 1219 Le Lignon AMAG Centro Occasioni Lugano Via alla Roggia 7, 6926 Montagnola AMAG Chur Rossbodenstrasse 14-16, 7000 Chur AMAG Chur Sommerau Sommeraustrasse 30, 7000 Chur AMAG Châtelaine Chemin J.-Ph. De-Sauvage 44-46, 1219 Châtelaine AMAG Châtelaine Chemin J.-Ph. De-Sauvage 44 - 46, 1219 Châtelaine AMAG Coldrerio Via San Gottardo 52, 6877 Coldrerio AMAG Crissier Rue de la Vernie 2, 1023 Crissier AMAG Crissier Rue de la Vernie 2, 1023 Crissier AMAG Davos Talstrasse 22, 7270 Davos Platz AMAG Dulliken Bodenackerstrasse 61, 4657 Dulliken AMAG Emmen Mooshüslistrasse 32, 6032 Emmen AMAG Etoy Route de Buchillon 1, 1163 Etoy AMAG Frauenfeld Zürcherstrasse 331, 8500 Frauenfeld AMAG Fribourg Route de Villars 110, 1701 Fribourg AMAG Fribourg Route de Villars 103-106, 1701 Fribourg AMAG Giubiasco Via Bellinzona 20, 6512 Giubiasco AMAG Giubiasco Audi Via Bellinzona 37, 6512 Giubiasco AMAG Gümligen Worbstrasse 226, 3073 Gümligen AMAG Heerbrugg Auerstrasse 20, 9435 Heerbrugg AMAG Horgen Im Schnegg, 8810 Horgen AMAG Jona St. Gallerstrasse 101, 8645 Jona AMAG Kleinbasel Schönaustrasse 25, 4058 Basel AMAG Kloten Steinackerstrasse 20, 8302 Kloten AMAG Kreuzlingen Hauptstrasse 99, 8280 Kreuzlingen AMAG La Tour-de-Trême Route de Pra-Riond 5, 1635 La Tour-de-Trême AMAG Lausanne Avenue de Provence 2, 1007 Lausanne AMAG Letzigrund Rautistrasse 23, 8047 Zürich AMAG Liestal Rheinstrasse 107, 4410 Liestal AMAG Lugano Via Monte Boglia 24, 6904 Lugano AMAG Mendrisio Via Rinaldi 3, 6850 Mendrisio AMAG Mendrisio Via Bernasconi 31, 6850 Mendrisio AMAG Murten / Morat Bernstrasse 11, 3280 Murten AMAG Muttenz Birsfelderstrasse 50, 4132 Muttenz AMAG Noranco Via Pian Scairolo 36, 6915 Pambio-Noranco AMAG Nyon Route de Lausanne 114, 1197 Prangins AMAG Nyon Champ-Colin Route de Champ-Colin 9, 1260 Nyon AMAG Occasioni Contone Via Cantonale, 6594 Contone AMAG Occasions Center Münchenbuchsee Moosrainweg 14, 3053 Münchenbuchsee AMAG Occasions Center Oftringen Luzernerstrasse 39, 4665 Oftringen AMAG Occasions Center Pratteln Muttenzerstrasse 143, 4133 Pratteln AMAG Occasions Center Sihlbrugg Zugerstrasse 2, 6340 Sihlbrugg AMAG Occasions Center Zürich Ueberlandstrasse 241, 8051 Zürich AMAG Oftringen Luzernerstrasse 41, 4665 Oftringen AMAG Oftringen Bernstrasse 23, 4665 Oftringen AMAG Online-Sales Giessenstrasse 4, 8600 Dübendorf AMAG Petit-Lancy Chemin du Bac 21, 1213 Petit-Lancy AMAG Pratteln Muttenzerstrasse 143, 4133 Pratteln AMAG Rheinfelden Zürcherstrasse 34, 4310 Rheinfelden AMAG Schaffhausen Spitalstrasse 27, 8200 Schaffhausen AMAG Schinznach-Bad Aarauerstrasse 22, 5116 Schinznach Bad AMAG Schlieren Lättenstrasse 37, 8952 Schlieren AMAG Solothurn/Zuchwil Gewerbestrasse 11, 4528 Zuchwil AMAG St-Légier Route Industrielle 9, 1806 St.-Légier AMAG Sursee Neuweidstrasse 1, 6208 Oberkirch AMAG Thun Gwattstrasse 22-28, 3604 Thun AMAG Uster Ackerstrasse 47, 8610 Uster AMAG Uster VW Nutzfahrzeuge Center Pfäffikerstrasse 32, 8610 Uster AMAG Utoquai Utoquai 47/49, 8008 Zürich AMAG Vaduz Austrasse 37, 9490 Vaduz AMAG Vernier Centre VW Véhicules Utilitaires Route du Nant-d'Avril 34, 1214 Vernier AMAG Vevey Av. Général-Guisan 78, 1800 Vevey AMAG Villeneuve Route du Simplon 17, 1845 Noville AMAG Volketswil Hölzliwisenstrasse 1, 8604 Volketswil AMAG Weinfelden Oberfeldstrasse 7, 8570 Weinfelden AMAG Wettingen Landstrasse 108, 5430 Wettingen AMAG Wettswil Moosstrasse 33a, 8907 Wettswil a. A. AMAG Winterthur Zürcherstrasse 312, 8406 Winterthur AMAG Winterthur Zürcherstrasse 240, 8406 Winterthur AMAG Zuchwil/Solothurn Langfeldstrasse 30, 4528 Zuchwil AMAG Zug Alte Steinhauserstrasse 1, 6330 Cham Audi Center AMAG Basel Reinacherstrasse 149-151, 4053 Basel Audi Center AMAG Zug Alte Steinhauserstrasse 1, 6330 Cham Audi Center AMAG Zürich Giessenstrasse 4, 8600 Dübendorf Bentley ZUG Alte Steinhauserstrasse 1, 6330 Cham",
+      "Choose your AMAG garage AMAG Carrosserie Center Lengwil Steinstrasse 5, 8574 Lengwil AMAG Aarau Rohrerstrasse 29, 5000 Aarau AMAG Aigle Chemin des Orlons 1, 1860 Aigle AMAG Altstetten Vulkanstrasse 120, 8048 Zürich AMAG Audi Center Luzern Grabenhofstrasse 10, 6010 Kriens AMAG Auto-Abo Giessenstrasse, 8600 Dübendorf AMAG Autowelt Zürich Giessenstrasse 4, 8600 Dübendorf AMAG Baden Winkelstrasse 2, 5442 Fislisbach AMAG Basel Reinacherstrasse 149/151, 4053 Basel AMAG Bellinzona Via San Gottardo 71, 6500 Bellinzona AMAG Bendern Ober Au 4, 9487 Gamprin-Bendern AMAG Bern Wankdorffeldstrasse 60, 3014 Bern AMAG Beromünster Aargauerstrasse 13, 6215 Beromünster AMAG Biel / Bienne Römerstrasse 16, 2555 Brügg AMAG Biel / Bienne Längfeldweg Längfeldweg 118, 2504 Biel/Bienne AMAG Breganzona Centro Audi Via San Carlo 6, 6932 Breganzona AMAG Buchrain Elsihof 1, 6035 Perlen AMAG Buchrain VW Nutzfahrzeuge Center Elsihof 1, 6035 Perlen AMAG Buchs St. Gallerstrasse 100, 9471 Buchs SG AMAG Bulle Rue de Vuippens 55, 1630 Bulle AMAG Bülach Bächliwis 29, 8184 Bachenbülach AMAG Centre Carrosserie Gumefens En Palud 20, 1643 Gumefens AMAG Carrosserie Center Wettswil Leimattenstrasse 2, 8907 Wettswil am Albis AMAG Carrosserie Center Zuchwil Schützenweg 6, 4528 Zuchwil AMAG Centre Occasions Crissier Rue d'Etrablon 1, 1023 Crissier AMAG Centre Occasions Genève Route du Bois-des-Frères 85, 1219 Le Lignon AMAG Centro Occasioni Lugano Via alla Roggia 7, 6926 Montagnola AMAG Chur Rossbodenstrasse 14-16, 7000 Chur AMAG Chur Sommerau Sommeraustrasse 30, 7000 Chur AMAG Châtelaine Chemin J.-Ph. De-Sauvage 44-46, 1219 Châtelaine AMAG Châtelaine Chemin J.-Ph. De-Sauvage 44 - 46, 1219 Châtelaine AMAG Coldrerio Via San Gottardo 52, 6877 Coldrerio AMAG Crissier Rue de la Vernie 2, 1023 Crissier AMAG Crissier Rue de la Vernie 2, 1023 Crissier AMAG Davos Talstrasse 22, 7270 Davos Platz AMAG Dulliken Bodenackerstrasse 61, 4657 Dulliken AMAG Emmen Mooshüslistrasse 32, 6032 Emmen AMAG Etoy Route de Buchillon 1, 1163 Etoy AMAG Frauenfeld Zürcherstrasse 331, 8500 Frauenfeld AMAG Fribourg Route de Villars 110, 1701 Fribourg AMAG Fribourg Route de Villars 103-106, 1701 Fribourg AMAG Giubiasco Via Bellinzona 20, 6512 Giubiasco AMAG Giubiasco Audi Via Bellinzona 37, 6512 Giubiasco AMAG Gümligen Worbstrasse 226, 3073 Gümligen AMAG Heerbrugg Auerstrasse 20, 9435 Heerbrugg AMAG Horgen Im Schnegg, 8810 Horgen AMAG Jona St. Gallerstrasse 101, 8645 Jona AMAG Kleinbasel Schönaustrasse 25, 4058 Basel AMAG Kloten Steinackerstrasse 20, 8302 Kloten AMAG Kreuzlingen Hauptstrasse 99, 8280 Kreuzlingen AMAG La Tour-de-Trême Route de Pra-Riond 5, 1635 La Tour-de-Trême AMAG Lausanne Avenue de Provence 2, 1007 Lausanne AMAG Letzigrund Rautistrasse 23, 8047 Zürich AMAG Liestal Rheinstrasse 107, 4410 Liestal AMAG Lugano Via Monte Boglia 24, 6904 Lugano AMAG Mendrisio Via Rinaldi 3, 6850 Mendrisio AMAG Mendrisio Via Bernasconi 31, 6850 Mendrisio AMAG Murten / Morat Bernstrasse 11, 3280 Murten AMAG Muttenz Birsfelderstrasse 50, 4132 Muttenz AMAG Noranco Via Pian Scairolo 36, 6915 Pambio-Noranco AMAG Nyon Route de Lausanne 114, 1197 Prangins AMAG Nyon Champ-Colin Route de Champ-Colin 9, 1260 Nyon AMAG Occasioni Contone Via Cantonale, 6594 Contone AMAG Occasions Center Münchenbuchsee Moosrainweg 14, 3053 Münchenbuchsee AMAG Occasions Center Oftringen Luzernerstrasse 39, 4665 Oftringen AMAG Occasions Center Pratteln Muttenzerstrasse 143, 4133 Pratteln AMAG Occasions Center Sihlbrugg Zugerstrasse 2, 6340 Sihlbrugg AMAG Occasions Center Zürich Ueberlandstrasse 241, 8051 Zürich AMAG Oftringen Luzernerstrasse 41, 4665 Oftringen AMAG Oftringen Bernstrasse 23, 4665 Oftringen AMAG Online-Sales Giessenstrasse 4, 8600 Dübendorf AMAG Petit-Lancy Chemin du Bac 21, 1213 Petit-Lancy AMAG Pratteln Muttenzerstrasse 143, 4133 Pratteln AMAG Rheinfelden Zürcherstrasse 34, 4310 Rheinfelden AMAG Schaffhausen Spitalstrasse 27, 8200 Schaffhausen AMAG Schinznach-Bad Aarauerstrasse 22, 5116 Schinznach Bad AMAG Schlieren Lättenstrasse 37, 8952 Schlieren AMAG Solothurn/Zuchwil Gewerbestrasse 11, 4528 Zuchwil AMAG St-Légier Route Industrielle 9, 1806 St.-Légier AMAG Sursee Neuweidstrasse 1, 6208 Oberkirch AMAG Thun Gwattstrasse 22-28, 3604 Thun AMAG Uster Ackerstrasse 47, 8610 Uster AMAG Uster VW Nutzfahrzeuge Center Pfäffikerstrasse 32, 8610 Uster AMAG Utoquai Utoquai 47/49, 8008 Zürich AMAG Vaduz Austrasse 37, 9490 Vaduz AMAG Vernier Centre VW Véhicules Utilitaires Route du Nant-d'Avril 34, 1214 Vernier AMAG Vevey Av. Général-Guisan 78, 1800 Vevey AMAG Villeneuve Route du Simplon 17, 1845 Noville AMAG Volketswil Hölzliwisenstrasse 1, 8604 Volketswil AMAG Weinfelden Oberfeldstrasse 7, 8570 Weinfelden AMAG Wettingen Landstrasse 108, 5430 Wettingen AMAG Wettswil Moosstrasse 33a, 8907 Wettswil a. A. AMAG Winterthur Zürcherstrasse 312, 8406 Winterthur AMAG Winterthur Zürcherstrasse 240, 8406 Winterthur AMAG Zuchwil/Solothurn Langfeldstrasse 30, 4528 Zuchwil AMAG Zug Alte Steinhauserstrasse 1, 6330 Cham Audi Center AMAG Basel Reinacherstrasse 149-151, 4053 Basel Audi Center AMAG Zug Alte Steinhauserstrasse 1, 6330 Cham Audi Center AMAG Zürich Giessenstrasse 4, 8600 Dübendorf Bentley ZUG Alte Steinhauserstrasse 1, 6330 Cham",
+      "Choose your AMAG garage AMAG Carrosserie Center Lengwil Steinstrasse 5, 8574 Lengwil AMAG Aarau Rohrerstrasse 29, 5000 Aarau AMAG Aigle Chemin des Orlons 1, 1860 Aigle AMAG Altstetten Vulkanstrasse 120, 8048 Zürich AMAG Audi Center Luzern Grabenhofstrasse 10, 6010 Kriens AMAG Auto-Abo Giessenstrasse, 8600 Dübendorf AMAG Autowelt Zürich Giessenstrasse 4, 8600 Dübendorf AMAG Baden Winkelstrasse 2, 5442 Fislisbach AMAG Basel Reinacherstrasse 149/151, 4053 Basel AMAG Bellinzona Via San Gottardo 71, 6500 Bellinzona AMAG Bendern Ober Au 4, 9487 Gamprin-Bendern AMAG Bern Wankdorffeldstrasse 60, 3014 Bern AMAG Beromünster Aargauerstrasse 13, 6215 Beromünster AMAG Biel / Bienne Römerstrasse 16, 2555 Brügg AMAG Biel / Bienne Längfeldweg Längfeldweg 118, 2504 Biel/Bienne AMAG Breganzona Centro Audi Via San Carlo 6, 6932 Breganzona AMAG Buchrain Elsihof 1, 6035 Perlen AMAG Buchrain VW Nutzfahrzeuge Center Elsihof 1, 6035 Perlen AMAG Buchs St. Gallerstrasse 100, 9471 Buchs SG AMAG Bulle Rue de Vuippens 55, 1630 Bulle AMAG Bülach Bächliwis 29, 8184 Bachenbülach AMAG Centre Carrosserie Gumefens En Palud 20, 1643 Gumefens AMAG Carrosserie Center Wettswil Leimattenstrasse 2, 8907 Wettswil am Albis AMAG Carrosserie Center Zuchwil Schützenweg 6, 4528 Zuchwil AMAG Centre Occasions Crissier Rue d'Etrablon 1, 1023 Crissier AMAG Centre Occasions Genève Route du Bois-des-Frères 85, 1219 Le Lignon AMAG Centro Occasioni Lugano Via alla Roggia 7, 6926 Montagnola AMAG Chur Rossbodenstrasse 14-16, 7000 Chur AMAG Chur Sommerau Sommeraustrasse 30, 7000 Chur AMAG Châtelaine Chemin J.-Ph. De-Sauvage 44-46, 1219 Châtelaine AMAG Châtelaine Chemin J.-Ph. De-Sauvage 44 - 46, 1219 Châtelaine AMAG Coldrerio Via San Gottardo 52, 6877 Coldrerio AMAG Crissier Rue de la Vernie 2, 1023 Crissier AMAG Crissier Rue de la Vernie 2, 1023 Crissier AMAG Davos Talstrasse 22, 7270 Davos Platz AMAG Dulliken Bodenackerstrasse 61, 4657 Dulliken AMAG Emmen Mooshüslistrasse 32, 6032 Emmen AMAG Etoy Route de Buchillon 1, 1163 Etoy AMAG Frauenfeld Zürcherstrasse 331, 8500 Frauenfeld AMAG Fribourg Route de Villars 110, 1701 Fribourg AMAG Fribourg Route de Villars 103-106, 1701 Fribourg AMAG Giubiasco Via Bellinzona 20, 6512 Giubiasco AMAG Giubiasco Audi Via Bellinzona 37, 6512 Giubiasco AMAG Gümligen Worbstrasse 226, 3073 Gümligen AMAG Heerbrugg Auerstrasse 20, 9435 Heerbrugg AMAG Horgen Im Schnegg, 8810 Horgen AMAG Jona St. Gallerstrasse 101, 8645 Jona AMAG Kleinbasel Schönaustrasse 25, 4058 Basel AMAG Kloten Steinackerstrasse 20, 8302 Kloten AMAG Kreuzlingen Hauptstrasse 99, 8280 Kreuzlingen AMAG La Tour-de-Trême Route de Pra-Riond 5, 1635 La Tour-de-Trême AMAG Lausanne Avenue de Provence 2, 1007 Lausanne AMAG Letzigrund Rautistrasse 23, 8047 Zürich AMAG Liestal Rheinstrasse 107, 4410 Liestal AMAG Lugano Via Monte Boglia 24, 6904 Lugano AMAG Mendrisio Via Rinaldi 3, 6850 Mendrisio AMAG Mendrisio Via Bernasconi 31, 6850 Mendrisio AMAG Murten / Morat Bernstrasse 11, 3280 Murten AMAG Muttenz Birsfelderstrasse 50, 4132 Muttenz AMAG Noranco Via Pian Scairolo 36, 6915 Pambio-Noranco AMAG Nyon Route de Lausanne 114, 1197 Prangins AMAG Nyon Champ-Colin Route de Champ-Colin 9, 1260 Nyon AMAG Occasioni Contone Via Cantonale, 6594 Contone AMAG Occasions Center Münchenbuchsee Moosrainweg 14, 3053 Münchenbuchsee AMAG Occasions Center Oftringen Luzernerstrasse 39, 4665 Oftringen AMAG Occasions Center Pratteln Muttenzerstrasse 143, 4133 Pratteln AMAG Occasions Center Sihlbrugg Zugerstrasse 2, 6340 Sihlbrugg AMAG Occasions Center Zürich Ueberlandstrasse 241, 8051 Zürich AMAG Oftringen Luzernerstrasse 41, 4665 Oftringen AMAG Oftringen Bernstrasse 23, 4665 Oftringen AMAG Online-Sales Giessenstrasse 4, 8600 Dübendorf AMAG Petit-Lancy Chemin du Bac 21, 1213 Petit-Lancy AMAG Pratteln Muttenzerstrasse 143, 4133 Pratteln AMAG Rheinfelden Zürcherstrasse 34, 4310 Rheinfelden AMAG Schaffhausen Spitalstrasse 27, 8200 Schaffhausen AMAG Schinznach-Bad Aarauerstrasse 22, 5116 Schinznach Bad AMAG Schlieren Lättenstrasse 37, 8952 Schlieren AMAG Solothurn/Zuchwil Gewerbestrasse 11, 4528 Zuchwil AMAG St-Légier Route Industrielle 9, 1806 St.-Légier AMAG Sursee Neuweidstrasse 1, 6208 Oberkirch AMAG Thun Gwattstrasse 22-28, 3604 Thun AMAG Uster Ackerstrasse 47, 8610 Uster AMAG Uster VW Nutzfahrzeuge Center Pfäffikerstrasse 32, 8610 Uster AMAG Utoquai Utoquai 47/49, 8008 Zürich AMAG Vaduz Austrasse 37, 9490 Vaduz AMAG Vernier Centre VW Véhicules Utilitaires Route du Nant-d'Avril 34, 1214 Vernier AMAG Vevey Av. Général-Guisan 78, 1800 Vevey AMAG Villeneuve Route du Simplon 17, 1845 Noville AMAG Volketswil Hölzliwisenstrasse 1, 8604 Volketswil AMAG Weinfelden Oberfeldstrasse 7, 8570 Weinfelden AMAG Wettingen Landstrasse 108, 5430 Wettingen AMAG Wettswil Moosstrasse 33a, 8907 Wettswil a. A. AMAG Winterthur Zürcherstrasse 312, 8406 Winterthur AMAG Winterthur Zürcherstrasse 240, 8406 Winterthur AMAG Zuchwil/Solothurn Langfeldstrasse 30, 4528 Zuchwil AMAG Zug Alte Steinhauserstrasse 1, 6330 Cham Audi Center AMAG Basel Reinacherstrasse 149-151, 4053 Basel Audi Center AMAG Zug Alte Steinhauserstrasse 1, 6330 Cham Audi Center AMAG Zürich Giessenstrasse 4, 8600 Dübendorf Bentley ZUG Alte Steinhauserstrasse 1, 6330 Cham",
+      "Choose your AMAG garage AMAG Carrosserie Center Lengwil Steinstrasse 5, 8574 Lengwil AMAG Aarau Rohrerstrasse 29, 5000 Aarau AMAG Aigle Chemin des Orlons 1, 1860 Aigle AMAG Altstetten Vulkanstrasse 120, 8048 Zürich AMAG Audi Center Luzern Grabenhofstrasse 10, 6010 Kriens AMAG Auto-Abo Giessenstrasse, 8600 Dübendorf AMAG Autowelt Zürich Giessenstrasse 4, 8600 Dübendorf AMAG Baden Winkelstrasse 2, 5442 Fislisbach AMAG Basel Reinacherstrasse 149/151, 4053 Basel AMAG Bellinzona Via San Gottardo 71, 6500 Bellinzona AMAG Bendern Ober Au 4, 9487 Gamprin-Bendern AMAG Bern Wankdorffeldstrasse 60, 3014 Bern AMAG Beromünster Aargauerstrasse 13, 6215 Beromünster AMAG Biel / Bienne Römerstrasse 16, 2555 Brügg AMAG Biel / Bienne Längfeldweg Längfeldweg 118, 2504 Biel/Bienne AMAG Breganzona Centro Audi Via San Carlo 6, 6932 Breganzona AMAG Buchrain Elsihof 1, 6035 Perlen AMAG Buchrain VW Nutzfahrzeuge Center Elsihof 1, 6035 Perlen AMAG Buchs St. Gallerstrasse 100, 9471 Buchs SG AMAG Bulle Rue de Vuippens 55, 1630 Bulle AMAG Bülach Bächliwis 29, 8184 Bachenbülach AMAG Centre Carrosserie Gumefens En Palud 20, 1643 Gumefens AMAG Carrosserie Center Wettswil Leimattenstrasse 2, 8907 Wettswil am Albis AMAG Carrosserie Center Zuchwil Schützenweg 6, 4528 Zuchwil AMAG Centre Occasions Crissier Rue d'Etrablon 1, 1023 Crissier AMAG Centre Occasions Genève Route du Bois-des-Frères 85, 1219 Le Lignon AMAG Centro Occasioni Lugano Via alla Roggia 7, 6926 Montagnola AMAG Chur Rossbodenstrasse 14-16, 7000 Chur AMAG Chur Sommerau Sommeraustrasse 30, 7000 Chur AMAG Châtelaine Chemin J.-Ph. De-Sauvage 44-46, 1219 Châtelaine AMAG Châtelaine Chemin J.-Ph. De-Sauvage 44 - 46, 1219 Châtelaine AMAG Coldrerio Via San Gottardo 52, 6877 Coldrerio AMAG Crissier Rue de la Vernie 2, 1023 Crissier AMAG Crissier Rue de la Vernie 2, 1023 Crissier AMAG Davos Talstrasse 22, 7270 Davos Platz AMAG Dulliken Bodenackerstrasse 61, 4657 Dulliken AMAG Emmen Mooshüslistrasse 32, 6032 Emmen AMAG Etoy Route de Buchillon 1, 1163 Etoy AMAG Frauenfeld Zürcherstrasse 331, 8500 Frauenfeld AMAG Fribourg Route de Villars 110, 1701 Fribourg AMAG Fribourg Route de Villars 103-106, 1701 Fribourg AMAG Giubiasco Via Bellinzona 20, 6512 Giubiasco AMAG Giubiasco Audi Via Bellinzona 37, 6512 Giubiasco AMAG Gümligen Worbstrasse 226, 3073 Gümligen AMAG Heerbrugg Auerstrasse 20, 9435 Heerbrugg AMAG Horgen Im Schnegg, 8810 Horgen AMAG Jona St. Gallerstrasse 101, 8645 Jona AMAG Kleinbasel Schönaustrasse 25, 4058 Basel AMAG Kloten Steinackerstrasse 20, 8302 Kloten AMAG Kreuzlingen Hauptstrasse 99, 8280 Kreuzlingen AMAG La Tour-de-Trême Route de Pra-Riond 5, 1635 La Tour-de-Trême AMAG Lausanne Avenue de Provence 2, 1007 Lausanne AMAG Letzigrund Rautistrasse 23, 8047 Zürich AMAG Liestal Rheinstrasse 107, 4410 Liestal AMAG Lugano Via Monte Boglia 24, 6904 Lugano AMAG Mendrisio Via Rinaldi 3, 6850 Mendrisio AMAG Mendrisio Via Bernasconi 31, 6850 Mendrisio AMAG Murten / Morat Bernstrasse 11, 3280 Murten AMAG Muttenz Birsfelderstrasse 50, 4132 Muttenz AMAG Noranco Via Pian Scairolo 36, 6915 Pambio-Noranco AMAG Nyon Route de Lausanne 114, 1197 Prangins AMAG Nyon Champ-Colin Route de Champ-Colin 9, 1260 Nyon AMAG Occasioni Contone Via Cantonale, 6594 Contone AMAG Occasions Center Münchenbuchsee Moosrainweg 14, 3053 Münchenbuchsee AMAG Occasions Center Oftringen Luzernerstrasse 39, 4665 Oftringen AMAG Occasions Center Pratteln Muttenzerstrasse 143, 4133 Pratteln AMAG Occasions Center Sihlbrugg Zugerstrasse 2, 6340 Sihlbrugg AMAG Occasions Center Zürich Ueberlandstrasse 241, 8051 Zürich AMAG Oftringen Luzernerstrasse 41, 4665 Oftringen AMAG Oftringen Bernstrasse 23, 4665 Oftringen AMAG Online-Sales Giessenstrasse 4, 8600 Dübendorf AMAG Petit-Lancy Chemin du Bac 21, 1213 Petit-Lancy AMAG Pratteln Muttenzerstrasse 143, 4133 Pratteln AMAG Rheinfelden Zürcherstrasse 34, 4310 Rheinfelden AMAG Schaffhausen Spitalstrasse 27, 8200 Schaffhausen AMAG Schinznach-Bad Aarauerstrasse 22, 5116 Schinznach Bad AMAG Schlieren Lättenstrasse 37, 8952 Schlieren AMAG Solothurn/Zuchwil Gewerbestrasse 11, 4528 Zuchwil AMAG St-Légier Route Industrielle 9, 1806 St.-Légier AMAG Sursee Neuweidstrasse 1, 6208 Oberkirch AMAG Thun Gwattstrasse 22-28, 3604 Thun AMAG Uster Ackerstrasse 47, 8610 Uster AMAG Uster VW Nutzfahrzeuge Center Pfäffikerstrasse 32, 8610 Uster AMAG Utoquai Utoquai 47/49, 8008 Zürich AMAG Vaduz Austrasse 37, 9490 Vaduz AMAG Vernier Centre VW Véhicules Utilitaires Route du Nant-d'Avril 34, 1214 Vernier AMAG Vevey Av. Général-Guisan 78, 1800 Vevey AMAG Villeneuve Route du Simplon 17, 1845 Noville AMAG Volketswil Hölzliwisenstrasse 1, 8604 Volketswil AMAG Weinfelden Oberfeldstrasse 7, 8570 Weinfelden AMAG Wettingen Landstrasse 108, 5430 Wettingen AMAG Wettswil Moosstrasse 33a, 8907 Wettswil a. A. AMAG Winterthur Zürcherstrasse 312, 8406 Winterthur AMAG Winterthur Zürcherstrasse 240, 8406 Winterthur AMAG Zuchwil/Solothurn Langfeldstrasse 30, 4528 Zuchwil AMAG Zug Alte Steinhauserstrasse 1, 6330 Cham Audi Center AMAG Basel Reinacherstrasse 149-151, 4053 Basel Audi Center AMAG Zug Alte Steinhauserstrasse 1, 6330 Cham Audi Center AMAG Zürich Giessenstrasse 4, 8600 Dübendorf Bentley ZUG Alte Steinhauserstrasse 1, 6330 Cham"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--blue": "#007bff",
+    "--indigo": "#6610f2",
+    "--purple": "#6f42c1",
+    "--pink": "#e83e8c",
+    "--red": "#dc3545",
+    "--orange": "#fd7e14",
+    "--yellow": "#ffc107",
+    "--green": "#28a745",
+    "--teal": "#20c997",
+    "--cyan": "#17a2b8",
+    "--white": "#fff",
+    "--gray": "#6c757d",
+    "--gray-dark": "#343a40",
+    "--primary": "#007bff",
+    "--secondary": "#6c757d",
+    "--success": "#28a745",
+    "--info": "#17a2b8",
+    "--warning": "#ffc107",
+    "--danger": "#dc3545",
+    "--light": "#f8f9fa",
+    "--dark": "#343a40",
+    "--breakpoint-xs": "0",
+    "--breakpoint-sm": "360px",
+    "--breakpoint-md": "768px",
+    "--breakpoint-lg": "1200px",
+    "--breakpoint-xl": "1920px",
+    "--font-family-sans-serif": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",\"Liberation Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
+    "--font-family-monospace": "SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+    "--header-height": "160px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 22,
+    "mainTextLen": 46833,
+    "realImageCount": 72,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/151e70dd-e113-417d-94ba-57722b5a5aae/151e70dd-e113-417d-94ba-57722b5a5aae.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/151e70dd-e113-417d-94ba-57722b5a5aae/018e750d-67c6-7f0f-9796-d80b80a2250e/en.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.2.0/assets/v2/otPcTab.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 13848,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.2.0/assets/v2/otPcTab.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.2.0/assets/otFlat.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 3001,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.2.0/assets/otFlat.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.2.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.2.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.2.0/assets/otCookieSettingsButton.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1740,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.2.0/assets/otCookieSettingsButton.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdns.eu1.gigya.com",
+        "path": "/sdk.config.get",
+        "query": [
+          "apiKey",
+          "httpStatusCodes",
+          "ver"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/javascript",
+        "status": 200,
+        "bytes": 5947,
+        "hits": 4,
+        "example": "https://cdns.eu1.gigya.com/sdk.config.get",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.amag.ch",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://www.amag.ch/libs/granite/csrf/token.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "maps.googleapis.com",
+        "path": "/maps/api/mapsjs/gen_204",
+        "query": [
+          "csp_test"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 23,
+        "hits": 1,
+        "example": "https://maps.googleapis.com/maps/api/mapsjs/gen_204",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.amag.ch",
+        "path": "/libs/cq/i18n/dict.en.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.amag.ch/libs/cq/i18n/dict.en.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "identity.amag.ch",
+        "path": "/accounts.webSdkBootstrap",
+        "query": [
+          "apiKey",
+          "format",
+          "pageURL",
+          "sdk",
+          "sdkBuild"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "status": 200,
+        "bytes": 182,
+        "hits": 1,
+        "example": "https://identity.amag.ch/accounts.webSdkBootstrap",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "sdk.frontnow.app",
+        "path": "/api/pk-j8iugj8778ue79ox7rrc5s5q",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://sdk.frontnow.app/api/pk-j8iugj8778ue79ox7rrc5s5q",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.amag.ch",
+        "path": "/bin/amagch/storelocator.stores.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2132,
+        "hits": 1,
+        "example": "https://www.amag.ch/bin/amagch/storelocator.stores.json",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "amag4.frontnow.app",
+        "path": "/api/event",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 99,
+        "hits": 1,
+        "example": "https://amag4.frontnow.app/api/event",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "privacyportal-de.onetrust.com",
+        "path": "/request/v1/consentreceipts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://privacyportal-de.onetrust.com/request/v1/consentreceipts",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "bzrcdn.openai.com",
+        "path": "/pixel-config/v1/RhLfQhNaYroSH9bsp3Kbm2.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 44,
+        "hits": 1,
+        "example": "https://bzrcdn.openai.com/pixel-config/v1/RhLfQhNaYroSH9bsp3Kbm2.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "alb.reddit.com",
+        "path": "/rp",
+        "query": [
+          "event",
+          "id"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://alb.reddit.com/rp",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "accdn.lpsnmedia.net",
+        "path": "/api/account/{n}/configuration/setting/accountproperties",
+        "query": [
+          "__d"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://accdn.lpsnmedia.net/api/account/46695133/configuration/setting/accountproperties",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "accdn.lpsnmedia.net",
+        "path": "/api/account/{n}/configuration/le-campaigns/zones",
+        "query": [
+          "__d",
+          "fields"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://accdn.lpsnmedia.net/api/account/46695133/configuration/le-campaigns/zones",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "ct.pinterest.com",
+        "path": "/user/",
+        "query": [
+          "cb",
+          "dep",
+          "ed",
+          "event",
+          "pd",
+          "tid"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 229,
+        "hits": 3,
+        "example": "https://ct.pinterest.com/user/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "query": [
+          "fmt",
+          "medium"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://px.ads.linkedin.com/wa/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "sst.amag.ch",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_fplc",
+          "_fv",
+          "_geo",
+          "_p",
+          "_rdi",
+          "_s",
+          "_ss",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "ecid",
+          "en",
+          "ep.allowLinker",
+          "ep.click_id",
+          "ep.if_AI_URL_fragment",
+          "ep.if_AI_bot",
+          "ep.if_AI_sc",
+          "ep.ot_activegroups",
+          "ep.page_hostname",
+          "ep.url_without_PII",
+          "ep.virtual_page_path",
+          "evnid",
+          "frm",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "ibt",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "richsstsse",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "sst.gch",
+          "sst.lpc",
+          "sst.navt",
+          "sst.ngs",
+          "sst.rnd",
+          "sst.sw_exp",
+          "sst.tft",
+          "sst.ude",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "ur",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://sst.amag.ch/g/collect",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "ct.pinterest.com",
+        "path": "/v3/",
+        "query": [
+          "ad",
+          "cb",
+          "dep",
+          "ed",
+          "event",
+          "pd",
+          "tid"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 35,
+        "hits": 2,
+        "example": "https://ct.pinterest.com/v3/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.googleadservices.com",
+        "path": "/pagead/conversion/{n}/",
+        "query": [
+          "_is_sw",
+          "_tu",
+          "auid",
+          "bg",
+          "bttype",
+          "cv",
+          "data",
+          "dma",
+          "evnid",
+          "fmt",
+          "fst",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "guid",
+          "label",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "s3p",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "uip",
+          "url",
+          "value"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1256,
+        "hits": 1,
+        "example": "https://www.googleadservices.com/pagead/conversion/875904358/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bat.bing.com",
+        "path": "/p/insights/c/n",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://bat.bing.com/p/insights/c/n",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "googleads.g.doubleclick.net",
+        "path": "/pagead/viewthroughconversion/{n}/",
+        "query": [
+          "_is_sw",
+          "_tu",
+          "auid",
+          "bg",
+          "cerd",
+          "crd",
+          "ct_cookie_present",
+          "cv",
+          "data",
+          "dma",
+          "eitems",
+          "evnid",
+          "fmt",
+          "fsk",
+          "fst",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "guid",
+          "label",
+          "npa",
+          "pscdl",
+          "pscrd",
+          "random",
+          "rcb",
+          "s3p",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "uip",
+          "url",
+          "value"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "status": 302,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/875904358/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/pagead/1p-conversion/{n}/",
+        "query": [
+          "_is_sw",
+          "_tu",
+          "auid",
+          "bg",
+          "cerd",
+          "cid",
+          "crd",
+          "ct_cookie_present",
+          "cv",
+          "data",
+          "dma",
+          "eitems",
+          "evnid",
+          "fmt",
+          "fsk",
+          "fst",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "guid",
+          "is_vtc",
+          "label",
+          "npa",
+          "pscdl",
+          "pscrd",
+          "random",
+          "rcb",
+          "s3p",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "uip",
+          "url",
+          "value"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/pagead/1p-conversion/875904358/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bzr.openai.com",
+        "path": "/v1/sdk/events",
+        "query": [
+          "ec",
+          "pid",
+          "st",
+          "sv",
+          "t"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 202,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://bzr.openai.com/v1/sdk/events",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.eu01.nr-data.net",
+        "path": "/{n}/NRJS-f9581b55a288c743721",
+        "query": [
+          "a",
+          "af",
+          "be",
+          "ck",
+          "dc",
+          "fcp",
+          "fe",
+          "fp",
+          "fsh",
+          "perf",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 198,
+        "hits": 1,
+        "example": "https://bam.eu01.nr-data.net/1/NRJS-f9581b55a288c743721",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.eu01.nr-data.net",
+        "path": "/events/{n}/NRJS-f9581b55a288c743721",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 2,
+        "example": "https://bam.eu01.nr-data.net/events/1/NRJS-f9581b55a288c743721",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.eu01.nr-data.net",
+        "path": "/browser/logs",
+        "query": [
+          "browser_monitoring_key"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 1,
+        "example": "https://bam.eu01.nr-data.net/browser/logs",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.eu01.nr-data.net",
+        "path": "/jserrors/{n}/NRJS-f9581b55a288c743721",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 1,
+        "example": "https://bam.eu01.nr-data.net/jserrors/1/NRJS-f9581b55a288c743721",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "maps.googleapis.com",
+        "count": 5
+      },
+      {
+        "host": "bat.bing.com",
+        "count": 4
+      },
+      {
+        "host": "lpcdn.lpsnmedia.net",
+        "count": 4
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 3
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 3
+      },
+      {
+        "host": "analytics.tiktok.com",
+        "count": 3
+      },
+      {
+        "host": "lptag.liveperson.net",
+        "count": 2
+      },
+      {
+        "host": "snap.licdn.com",
+        "count": 2
+      },
+      {
+        "host": "s.pinimg.com",
+        "count": 2
+      },
+      {
+        "host": "lo.v.liveperson.net",
+        "count": 2
+      },
+      {
+        "host": "rum.hlx.page",
+        "count": 1
+      },
+      {
+        "host": "cdns.eu1.gigya.com",
+        "count": 1
+      },
+      {
+        "host": "www.google.com",
+        "count": 1
+      },
+      {
+        "host": "sdk.frontnow.app",
+        "count": 1
+      },
+      {
+        "host": "www.gstatic.com",
+        "count": 1
+      },
+      {
+        "host": "munchkin.marketo.net",
+        "count": 1
+      },
+      {
+        "host": "static.hotjar.com",
+        "count": 1
+      },
+      {
+        "host": "www.redditstatic.com",
+        "count": 1
+      },
+      {
+        "host": "bzrcdn.openai.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "marketo-forms"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 5,
+      "thirdPartyEndpoints": 29,
+      "thirdPartyScriptHosts": 19,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/en-services-html.png",
+  "renderedHtml": "pages/en-services-html.html",
+  "slots": {
+    "program-headline": "AMAG services – comprehensive and carefree",
+    "summary": "Your vehicle is in the best hands with us!",
+    "feature-grid": "Some of our services at a glance (icon grid)",
+    "service-cards": "Vehicle check … Level check (image+text cards)",
+    "news-cards": "AMAG NEWS",
+    "pledge-row": "More than just a service – what you can expect from us",
+    "faq-cta": "Do you have any other questions?",
+    "newsletter": "News and promotions directly into your inbox"
+  }
+}

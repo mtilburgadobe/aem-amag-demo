@@ -1,0 +1,305 @@
+{
+  "stage-slide": {
+    "origin": ".amagCh-stageCarousel .cmp-carousel__item",
+    "build": ".amagCh-stageCarousel .cmp-carousel__item",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "en-html"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "stage-quicklink": {
+    "origin": ".amag-stageCarousel__button",
+    "build": ".amag-stageCarousel__button",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "en-html"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "promo-teaser": {
+    "origin": ".amag-promotionTeaser",
+    "build": ".amag-promotionTeaser",
+    "n": 9,
+    "required": true,
+    "pages": [
+      "en-html",
+      "en-services-html"
+    ],
+    "templates": [
+      "landing",
+      "program"
+    ]
+  },
+  "content-teaser-s": {
+    "origin": ".amag-contentTeaserS",
+    "build": ".amag-contentTeaserS",
+    "n": 8,
+    "required": true,
+    "pages": [
+      "en-html"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "service-box": {
+    "origin": ".amag-serviceBoxWrapper",
+    "build": ".amag-serviceBoxWrapper",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "en-html"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "pledge-item": {
+    "origin": ".amag-iconListItem",
+    "build": ".amag-iconListItem",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "en-html",
+      "en-services-html",
+      "de-service-reifen-und-raeder-winterreifen-html"
+    ],
+    "templates": [
+      "landing",
+      "program",
+      "article"
+    ],
+    "nByPage": {
+      "de-service-reifen-und-raeder-winterreifen-html": 3
+    }
+  },
+  "accordion-row": {
+    "origin": ".cmp-accordion__item",
+    "build": ".cmp-accordion__item",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "en-html",
+      "de-service-reifen-und-raeder-winterreifen-html"
+    ],
+    "templates": [
+      "landing",
+      "article"
+    ],
+    "nByPage": {
+      "de-service-reifen-und-raeder-winterreifen-html": 8
+    }
+  },
+  "divider-band": {
+    "origin": ".amag-divider",
+    "build": ".amag-divider",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "en-html",
+      "en-services-html"
+    ],
+    "templates": [
+      "landing",
+      "program"
+    ]
+  },
+  "footer-brand-logo": {
+    "origin": ".amag-footer .amag-markenLogo",
+    "build": ".amag-footer .amag-markenLogo, footer .footer-brands-logos li",
+    "n": 9,
+    "required": true,
+    "pages": [
+      "en-html",
+      "de-service-auto-services-online-termin-buchen-html",
+      "de-service-reifen-und-raeder-winterreifen-html"
+    ],
+    "templates": [
+      "landing",
+      "form",
+      "article"
+    ],
+    "nByPage": {
+      "de-service-reifen-und-raeder-winterreifen-html": 9
+    },
+    "edsNote": "build is a selector list: prototype selector, then the delivered EDS selector (unit-geometry resolves eds = build; archetype-booking 2026-10-08)"
+  },
+  "icon-text-item": {
+    "origin": ".amag-iconTextBox__item",
+    "build": ".amag-iconTextBox__item",
+    "n": 12,
+    "required": true,
+    "pages": [
+      "en-services-html",
+      "de-service-reifen-und-raeder-winterreifen-html"
+    ],
+    "templates": [
+      "program",
+      "article"
+    ],
+    "nByPage": {
+      "de-service-reifen-und-raeder-winterreifen-html": 3
+    }
+  },
+  "maxi-teaser": {
+    "origin": ".amag-maxiTeaserBild",
+    "build": ".amag-maxiTeaserBild",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "en-services-html",
+      "de-service-reifen-und-raeder-winterreifen-html"
+    ],
+    "templates": [
+      "program",
+      "article"
+    ],
+    "nByPage": {
+      "de-service-reifen-und-raeder-winterreifen-html": 2
+    }
+  },
+  "storelocator-garage-item": {
+    "origin": ".storelocator__garageContainer > .storelocator__garage",
+    "build": ".storelocator__garageContainer > .storelocator__garage",
+    "n": 100,
+    "required": true,
+    "pages": [
+      "en-komponenten-car-dealers-html"
+    ],
+    "templates": [
+      "unique"
+    ],
+    "note": "alternating inline bg #f5f5f5/#fff; 227px tall at 1440 and 360"
+  },
+  "storelocator-brand-chip": {
+    "origin": ".storelocator__sellingBrands > span",
+    "build": ".storelocator__sellingBrands > span",
+    "n": 3,
+    "required": false,
+    "pages": [
+      "en-komponenten-car-dealers-html"
+    ],
+    "templates": [
+      "unique"
+    ],
+    "note": "per garage, 1–6 chips"
+  },
+  "otv-wizard-step": {
+    "origin": "#amag-otv ul.amag-otv-tab-header li.nav-item",
+    "build": "#amag-otv ul.amag-otv-tab-header li.nav-item, .booking-wizard .wizard-steplist li",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "de-service-auto-services-online-termin-buchen-html"
+    ],
+    "templates": [
+      "form"
+    ],
+    "note": "5 visible steps + 1 d-none pre-step (\"Ihr Fahrzeug\"); step number from data-tab-number via ::before",
+    "edsNote": "build is a selector list: prototype selector, then the delivered EDS selector (unit-geometry resolves eds = build; archetype-booking 2026-10-08)"
+  },
+  "otv-benefit-item": {
+    "origin": ".otv-login-info-box li",
+    "build": ".otv-login-info-box li, .booking-wizard .wizard-benefits-list li",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "de-service-auto-services-online-termin-buchen-html"
+    ],
+    "templates": [
+      "form"
+    ],
+    "edsNote": "build is a selector list: prototype selector, then the delivered EDS selector (unit-geometry resolves eds = build; archetype-booking 2026-10-08)"
+  },
+  "fact-box-colour": {
+    "origin": ".amag-factBox > .amag-farbBox",
+    "build": ".amag-factBox > .amag-farbBox",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "de-service-reifen-und-raeder-winterreifen-html"
+    ],
+    "templates": [
+      "article"
+    ]
+  },
+  "otv-cta": {
+    "origin": ".amag-otvCtaWrapper",
+    "build": ".amag-otvCtaWrapper",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "de-service-reifen-und-raeder-winterreifen-html"
+    ],
+    "templates": [
+      "article"
+    ]
+  },
+  "garage-election": {
+    "origin": ".amag-garageElectionOverlay",
+    "build": ".amag-garageElectionOverlay",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "de-service-reifen-und-raeder-winterreifen-html"
+    ],
+    "templates": [
+      "article"
+    ]
+  },
+  "breadcrumb-item": {
+    "origin": ".cmp-breadcrumb__item",
+    "build": ".cmp-breadcrumb__item",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "de-service-reifen-und-raeder-winterreifen-html"
+    ],
+    "templates": [
+      "article"
+    ]
+  },
+  "section-description": {
+    "origin": ".amagCh-section-description",
+    "build": ".amagCh-section-description",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "de-service-reifen-und-raeder-winterreifen-html"
+    ],
+    "templates": [
+      "article"
+    ]
+  },
+  "rich-text": {
+    "origin": ".rich-text.text > .cmp-text",
+    "build": ".rich-text.text > .cmp-text",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "de-service-reifen-und-raeder-winterreifen-html"
+    ],
+    "templates": [
+      "article"
+    ]
+  },
+  "advantage-item": {
+    "origin": ".amag-vorteilsModul__subElementHeadline",
+    "build": ".amag-vorteilsModul__subElementHeadline",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "de-service-reifen-und-raeder-winterreifen-html"
+    ],
+    "templates": [
+      "article"
+    ]
+  }
+}

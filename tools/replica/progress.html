@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Migration status</title>
+<link rel="stylesheet" href="spectrum.css">
+<style>
+  body { background-color: var(--spectrum-bg-app); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 24px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .meta { color: var(--spectrum-text-subdued); margin: 0 0 24px; }
+  .spectrum-panel { margin-bottom: 16px; }
+  .spectrum-panel-header { margin: 0; padding: 0 16px; }
+  .panel-body { padding: 16px; }
+  .panel-body > :last-child { margin-bottom: 0; }
+  .bar { height: 8px; border-radius: 9999px; background-color: var(--spectrum-gray-200); overflow: hidden; }
+  .bar span { display: block; height: 100%; width: 100%; background-color: var(--spectrum-accent-bg); }
+  .estimate { color: var(--spectrum-text-subdued); margin: 8px 0 0; }
+  ol.steps { list-style: none; padding: 0; margin: 0; }
+  ol.steps li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; }
+  ol.steps li + li { border-top: 1px solid var(--spectrum-gray-200); }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px; text-align: left; border-bottom: 1px solid var(--spectrum-gray-200); }
+  th { color: var(--spectrum-text-subdued); font-weight: 700; }
+  ul.pages { margin: 8px 0 0; padding-left: 20px; }
+  ul.pages li { margin: 4px 0; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Migration status</h1>
+    <span class="spectrum-badge spectrum-badge--positive">Ready</span>
+  </header>
+  <p class="meta">Source site: <a href="https://www.amag.ch/">https://www.amag.ch/</a><br>Preview site: <a href="https://main--65541681--aemcoder.aem.page/">https://main--65541681--aemcoder.aem.page/</a><br>Last updated: 2026-10-09 00:52 UTC</p>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Journey</h2>
+    <div class="panel-body">
+      <ol class="steps">
+        <li>Analyzing your site<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Capturing brand and design<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Rebuilding page templates<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Checking fidelity<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Migrating your pages<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Page templates</h2>
+    <div class="panel-body">
+      <table>
+        <thead><tr><th>Template</th><th>Pages</th><th>Desktop</th><th>Mobile</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>Home page</td><td>1</td><td><span class="spectrum-badge spectrum-badge--positive">Yes</span></td><td><span class="spectrum-badge spectrum-badge--positive">Yes</span></td><td><span class="spectrum-badge spectrum-badge--positive">Done</span></td></tr>
+          <tr><td>Services overview</td><td>1</td><td><span class="spectrum-badge spectrum-badge--positive">Yes</span></td><td><span class="spectrum-badge spectrum-badge--positive">Yes</span></td><td><span class="spectrum-badge spectrum-badge--positive">Done</span></td></tr>
+          <tr><td>Garage finder</td><td>1</td><td><span class="spectrum-badge spectrum-badge--positive">Yes</span></td><td><span class="spectrum-badge spectrum-badge--positive">Yes</span></td><td><span class="spectrum-badge spectrum-badge--positive">Done</span></td></tr>
+          <tr><td>Online appointment booking</td><td>1</td><td><span class="spectrum-badge spectrum-badge--positive">Yes</span></td><td><span class="spectrum-badge spectrum-badge--positive">Yes</span></td><td><span class="spectrum-badge spectrum-badge--positive">Done</span></td></tr>
+          <tr><td>Service detail article</td><td>1</td><td><span class="spectrum-badge spectrum-badge--positive">Yes</span></td><td><span class="spectrum-badge spectrum-badge--positive">Yes</span></td><td><span class="spectrum-badge spectrum-badge--positive">Done</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Pages migrated</h2>
+    <div class="panel-body">
+      <p>5 of 5 pages are ready on the preview site.</p>
+      <details open>
+        <summary>Ready pages</summary>
+        <ul class="pages">
+          <li><a href="https://main--65541681--aemcoder.aem.page/en">Home (English)</a></li>
+          <li><a href="https://main--65541681--aemcoder.aem.page/en/services">Services overview</a></li>
+          <li><a href="https://main--65541681--aemcoder.aem.page/en/komponenten/car-dealers">Car dealers</a></li>
+          <li><a href="https://main--65541681--aemcoder.aem.page/de/service/auto-services-online-termin-buchen">Auto-Services online Termin buchen</a></li>
+          <li><a href="https://main--65541681--aemcoder.aem.page/de/service/reifen-und-raeder/winterreifen">Winterreifen</a></li>
+        </ul>
+      </details>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Progress</h2>
+    <div class="panel-body">
+      <p>100% complete</p>
+      <div class="bar"><span></span></div>
+      <p class="estimate">Complete</p>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">What's happening now</h2>
+    <div class="panel-body">
+      <p>Your migration is complete. All five pages are published and verified on desktop and mobile, with the same structured business data as your current site, forwarding from the old page addresses, and a sitemap listing exactly your pages. The final quality review scored 100 out of 100 with nothing open, and the interactive features such as the home carousel, accordions and the garage chooser were checked working on the published site.</p>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">What's next</h2>
+    <div class="panel-body">
+      <p>Your team reviews the handover notes, which list the items that need your input before the site moves to its final address, such as analytics tags, consent management and the map key.</p>
+    </div>
+  </section>
+</main>
+</body>
+</html>

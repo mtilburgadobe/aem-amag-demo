@@ -1,0 +1,256 @@
+/* hero-split — values lifted from the prototype page CSS (intro service @367130, otv CTA
+   @1907555) and canon.css (section shell, amag-ctaWrapper__button). */
+
+/* section shell: full-bleed ground, top band, 1920 cap with the responsive gutter */
+.hero-split {
+  position: relative;
+  background: #fff;
+}
+
+.hero-split.grey {
+  background: var(--amag-grey-100);
+}
+
+.hero-split.lavender {
+  background: #ede7fe;
+}
+
+.hero-split .wrap {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0 var(--section-gutter);
+}
+
+.hero-split.band {
+  padding-top: 80px;
+}
+
+.hero-split.band-white::before,
+.hero-split.band-grey::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: calc(max(0px, (100% - var(--content-max)) / 2) + var(--section-gutter));
+  background: #fff;
+}
+
+.hero-split.band-grey::before {
+  background: var(--amag-grey-100);
+}
+
+.hero-split.section-end {
+  margin-bottom: 0;
+  padding-bottom: 80px;
+}
+
+/* the page's first section has no step band below 1200 (no stage before it) */
+.hero-split.first-section.band {
+  padding-top: 0;
+}
+
+.hero-split.first-section::before {
+  display: none;
+}
+
+/* composition */
+.hero-split .grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero-split .text {
+  order: 1;
+  width: 100%;
+  padding: 0;
+}
+
+.hero-split .media {
+  order: 0;
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  margin: 0 -15px;
+}
+
+.hero-split .ratio {
+  position: relative;
+  width: 100%;
+  padding-top: 75%;
+}
+
+.hero-split .ratio picture,
+.hero-split .ratio > img {
+  position: absolute;
+  inset: 0;
+}
+
+.hero-split .ratio img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero-split .headline :is(h1, h2, h3) {
+  font-family: var(--font-display-bold);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0 0 20px;
+}
+
+/* appointment CTA (otv) */
+.hero-split .cta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 48px;
+}
+
+.hero-split .cta-box {
+  margin: 41px -15px 0;
+  width: 100vw;
+}
+
+.hero-split .actions {
+  display: flex;
+}
+
+.hero-split .actions p {
+  display: flex;
+  flex: 1;
+  margin: 0;
+}
+
+.hero-split .actions a:any-link {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+  margin: 0;
+  padding: 0 40px;
+  border: 0;
+  border-radius: 0;
+  background: var(--amag-dark-blue);
+  color: #fff;
+  font-family: var(--font-text-bold);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.hero-split .actions a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-split .actions strong {
+  font-weight: 400;
+}
+
+.hero-split .actions p > strong {
+  display: flex;
+  flex: 1;
+}
+
+.hero-split .actions a picture {
+  display: inline-flex;
+  margin-right: 10px;
+}
+
+.hero-split .actions a img {
+  height: 32px;
+  width: 32px;
+}
+
+.hero-split .note {
+  display: flex;
+  justify-content: center;
+  margin-top: 19px;
+}
+
+.hero-split .note p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (width < 768px) {
+  .hero-split.band-white::before,
+  .hero-split.band-grey::before {
+    display: none;
+  }
+}
+
+@media (width >= 768px) {
+  .hero-split .media {
+    margin: 0 calc(-1 * var(--section-gutter));
+  }
+
+  .hero-split .ratio {
+    padding-top: 50%;
+  }
+
+  .hero-split .headline :is(h1, h2, h3) {
+    font-size: 44px;
+  }
+
+  .hero-split .cta-box {
+    margin: 41px 0 0;
+    width: auto;
+  }
+
+  .hero-split .actions p,
+  .hero-split .actions p > strong,
+  .hero-split .actions a:any-link {
+    flex: 0 0 auto;
+  }
+}
+
+@media (width >= 1200px) {
+  .hero-split.band,
+  .hero-split.first-section.band {
+    padding-top: 120px;
+  }
+
+  .hero-split.band-white::before,
+  .hero-split.band-grey::before {
+    height: 120px;
+  }
+
+  .hero-split.section-end {
+    padding-bottom: 120px;
+  }
+
+  .hero-split .text {
+    order: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .hero-split .media {
+    order: 1;
+    width: 100%;
+    max-width: calc(41.6667% + 165px);
+    margin: 0 -165px 0 8.3333%;
+  }
+
+  .hero-split .ratio {
+    padding-top: 75%;
+  }
+
+  .hero-split .actions a:any-link {
+    min-height: 100px;
+  }
+}
+
+/* services variant (archetype-services unit, additive): on the services overview the intro
+   is followed by rich text in the same section, so the live module keeps its 100 px bottom
+   margin (@367130 `.amag-introService .amag-marginBottom`; zeroed on live only when the intro
+   is the section's last module, the article case). Existing rules above are untouched. */
+.hero-split.spaced .wrap {
+  padding-bottom: 100px;
+}

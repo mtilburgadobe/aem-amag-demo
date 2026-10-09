@@ -1,0 +1,373 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "*"
+      ],
+      "pages": 2,
+      "blocks": 2,
+      "startedAt": "2026-10-08T19:06:28Z",
+      "endedAt": "2026-10-08T19:50:32.235Z",
+      "gates": {
+        "360": {
+          "crop-header": "0.38% PASS (y0+68)",
+          "crop-footer": "11.67% — same live-only overlays ×3 along the band; chrome matches",
+          "chrome-parity": "188 deltas, 153 are the at-rest drawer sub-menus (display:none on build, measured on live), rest as at 1440"
+        },
+        "1440": {
+          "crop-header": "0.87% PASS (y0+140)",
+          "crop-footer": "3.22% — footer chrome matches; the diff is live-only overlays (chat bubble, green side tab, Services pill) stitched into the live capture",
+          "chrome-parity": "69 deltas, all explained (page-offset Δy on a shell, rehosted-media signatures, p→a pairing, a11y labels)"
+        },
+        "crop": "header 1440 0.87 / 360 0.38 PASS; footer bands match minus live widget overlays",
+        "chrome": "69 / 188 deltas, explained"
+      },
+      "verdict": "foundation: files 25, chrome docs 4/4 live, shells 2/2 live, lint clean, plain-checks ok, render 1440/360 ok, chrome-parity 1440 69 deltas / 360 188 deltas",
+      "notes": [
+        "header-style meta transparent → body.header-transparent; stage = main .header-stage / [data-header-stage] else first non-empty section",
+        "nav/footer metadata wins, else /de/nav + /de/footer for de paths, else /nav + /footer",
+        "chrome media at content.da.live/aemcoder/65541681/media/chrome/<name> (ledger stardust/deploy/media-ledger-chrome.json)",
+        "buttons: strong>a dark-blue, em>a violet, both black; ground variants as classes; CTA 70px (100px ≥1200)",
+        "frozen: stardust/rollout/foundation-freeze.json (18 files)"
+      ]
+    },
+    "archetype-de-service-reifen-und-raeder-winterreifen-html": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "de-service-reifen-und-raeder-winterreifen-html"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-08T19:55:07Z",
+      "blocks": "8",
+      "fixRounds": 3,
+      "verdict": "archetype-de-service-reifen-und-raeder-winterreifen-html: pages 1/1 live, blocks 8, gate 1440 1.11% / 360 4.17% (same-browser capture), requests 1",
+      "gates": {
+        "360": {
+          "pixel": 4.17,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": "MISSING 0 / HIDDEN 0",
+          "verdict": "PASS (same-browser capture; headless-vs-Chrome asymmetric row was 22.88% / Δh 134)"
+        },
+        "1440": {
+          "pixel": 1.11,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": "MISSING 0 / HIDDEN 0",
+          "verdict": "PASS (same-browser; asymmetric row 1.85% / Δh 0)"
+        },
+        "crop": "header 1440 2.08% / 360 0.34%; footer 1440 3.39% / 360 8.05% (round-1 numbers carried; live-only chat bubble, side tab, cookie pill)",
+        "chrome": "36 / 189 deltas (carried)"
+      },
+      "residuals": [
+        "units criterion off 123 / missing 10 at 360 (1440 off 27 / missing 13): EW7 chevron-only toggle has no button text, flex-item wrappers box text narrower than live, frozen footer brand logos dh 30 at 360 — outside the four delivery criteria",
+        "gate-all shot the origin in real Chrome (--headed tier) and the EDS side in bundled Chromium; the two binaries wrap the amag text face differently at 360 (a paragraph gains a line on BOTH sides). Fixed in the instrument: gate-all --same-browser (project copy) shoots both sides in the same tier; foundation-requests line kept as the record",
+        "direct-entry pill left out (no owning block)"
+      ],
+      "endedAt": "2026-10-08T21:43:05Z",
+      "notes": [
+        "fix round 2 (91e46da): promo-teaser image-left card width, breadcrumb ul min-height below 1200, long-form-article headline flow-root + tile media 40px, cta-gap variant replaces the dropped &nbsp; spacer",
+        "fix round 3 (9950acd, d1ec9e5): pledge-row headline flow-root; cta-gap as padding 30 + margin 16",
+        "content re-PUT once (--force) to add the cta-gap class; preview + live OK",
+        "gate-all --same-browser added to stardust/scripts/replica/gate-all.mjs; gate-all (C-final) must run with it"
+      ]
+    },
+    "archetype-de-service-auto-services-online-termin-buchen-html": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "de-service-auto-services-online-termin-buchen-html"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-08T19:55:07Z",
+      "endedAt": "2026-10-08T20:38:00Z",
+      "blocks": "1",
+      "verdict": "archetype-de-service-auto-services-online-termin-buchen-html: pages 1/1 live, blocks 1, gate 1440 0.54% / 360 1.06%, requests 1",
+      "gates": {
+        "360": {
+          "pixel": 1.06,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": "MISSING 0 / HIDDEN 0",
+          "verdict": "PASS"
+        },
+        "1440": {
+          "pixel": 0.54,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": "MISSING 0 / HIDDEN 0",
+          "verdict": "PASS"
+        },
+        "crop": "header 1440 2.08% / 360 0.34%; footer 1440 0.42% / 360 0.87% (header 1440 over by 0.08: frozen DE header benefits row offset — foundation request filed)",
+        "chrome": "57 / 175 deltas, explained (DE benefits-row offset, sr-only labels, icon signatures; live footer root resolves to the off-canvas footer)"
+      },
+      "residuals": [
+        "header crop 1440 2.08% (frozen chrome, foundation request)",
+        "chrome-parity footer root artefact on this page"
+      ],
+      "notes": [
+        "blocks/booking-wizard template-slotted",
+        "gate-all needs status deployed + liveUrl in state → ran with a derived gate-state.json; --eds-host needs https://",
+        "unit-geometry origin cache is per width now (-units-1440/-units-360)",
+        "chrome-live caches under .work/rollout/foundation were re-probed on this page"
+      ]
+    },
+    "archetype-en-komponenten-car-dealers-html": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "en-komponenten-car-dealers-html"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-08T19:55:07Z",
+      "endedAt": "2026-10-08T20:43:03Z",
+      "blocks": "1",
+      "verdict": "archetype-en-komponenten-car-dealers-html: pages 1/1 live, blocks 1, gate 1440 0.56% / 360 1.29%, requests 0",
+      "gates": {
+        "360": {
+          "pixel": 1.29,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": "MISSING 2 / HIDDEN 0 — Google Maps canvas attribution links (owner row 5)",
+          "verdict": "PASS with documented override (gates/all-360/overrides.json + presence.json)"
+        },
+        "1440": {
+          "pixel": 0.56,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": "MISSING 0 / HIDDEN 0",
+          "verdict": "PASS"
+        },
+        "crop": "header 1440 1.95% / 360 0.34%; footer 1440 0.48% / 360 1.29% (live footer overlays)",
+        "chrome": "59 / 178 deltas, inherited foundation chrome"
+      },
+      "residuals": [
+        "360 content MISSING 2: Google→/maps and Terms links are the live map canvas attribution; map ships as captured image (map API key = owner) — override + presence sidecars written",
+        "units.json storelocator families name prototype DOM selectors → 0 served matches (units not required for the verdict); the 100 garages render",
+        "EW probe edit-mode drift 202 texts not inspected (dead 0, dup 0)"
+      ],
+      "notes": [
+        "dealer-search: template-slotted frame/filter/pill, reconstructive garage rows + detail modals (100 each)",
+        "admin code POST needs Bearer, not token",
+        "gate-all state: stardust/.work/rollout/archetype-dealers/probes/gate-state.json"
+      ]
+    },
+    "archetype-en-html": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "en-html"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-08T21:10:00Z",
+      "endedAt": "2026-10-08T22:33:07Z",
+      "blocks": "7",
+      "fixRounds": "2",
+      "verdict": "archetype-en-html: pages 1/1 live, blocks 7, gate 1440 4.92% / 360 8.8% (same-browser capture; content override: autoplay stage headline), requests 1",
+      "gates": {
+        "360": {
+          "pixel": 8.8,
+          "heightDelta": 41,
+          "clipped": 0,
+          "content": "MISSING 1 / HIDDEN 0 — autoplay stage headline (capture state)",
+          "verdict": "PASS with documented override (gates/all-360/overrides.json + presence.json + masks.json)"
+        },
+        "1440": {
+          "pixel": 4.92,
+          "heightDelta": 6,
+          "clipped": 0,
+          "content": "MISSING 1 / HIDDEN 0 (+3 control state) — autoplay stage headline (capture state)",
+          "verdict": "PASS with documented override (gates/all-1440/overrides.json + presence.json + masks.json)"
+        },
+        "crop": "header 1440 1.04% / 360 0.49%; footer 1440 2.63% / 360 8.96% (live-only chat bubble, message card, cookie pill)",
+        "chrome": "1440 71 deltas / 360 189, inherited foundation chrome"
+      },
+      "residuals": [
+        "content MISSING 1 = autoplay stage headline: origin captured on slide 1/4 while the served carousel had advanced; stage band 60:800 (1440) / 0:480 (360) masked and overridden as capture state",
+        "units off 34/115: instrument structure rows (live inline anchor/picture boxes, foundation picture wrappers, reused pledge title); unit rects 0 delta at 1440",
+        "360 Δh 41: live script-set strip min-height race (444 vs natural 403); equalised 488/428 strips replicated at >= 1200 only",
+        "vehicle-search block-roundtrip red = the prototype's display:none select2 duplicate (javascript:void anchors), recorded exception",
+        "stage video slides 4–5: consent-gated player ids and placeholder copy were never captured → frame + overlay only (dynamic plan row)"
+      ],
+      "notes": [
+        "tiers — template-slotted: hero-carousel, vehicle-search, newsletter-band, testimonial; reconstructive: quick-links, news-cards, icon-feature-grid",
+        "reused: pledge-row (+plain-head variant), accordion-faq (+section-intro rules); promo-teaser, image-text-card, cta-band not placed on /en (sidecar mislabelled two teaser strips; both divider bands = one newsletter-band) — eds-conversion-log",
+        "motion implemented: hero autoplay/arrows/dots/pause-play, accordion, carousel prev/next, header morph (data-header-stage); 3 dead classes stay dead",
+        "foundation request filed: EN header benefit row Δx −34, My garage toggle 86×30 vs 146×44, language switcher",
+        "media: 28 files on media/home/ (ledger stardust/deploy/media-ledger-archetype-home.json); 9 commits, last 1080d24"
+      ]
+    },
+    "archetype-en-services-html": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "en-services-html"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-08T22:37:09Z",
+      "endedAt": "2026-10-08T23:25:09Z",
+      "blocks": "12",
+      "fixRounds": "1",
+      "verdict": "archetype-en-services-html: pages 1/1 live, blocks 12 (4 new), gate 1440 1.18% / 360 5.22% (same-browser capture; units false reds overridden), requests 1",
+      "gates": {
+        "360": {
+          "pixel": 5.22,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": "MISSING 0 / HIDDEN 0",
+          "verdict": "PASS (confirmation row 23:22 after final CSS; units override: probe origin not at 360)"
+        },
+        "1440": {
+          "pixel": 1.18,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": "MISSING 0 / HIDDEN 0",
+          "verdict": "PASS (units false reds documented in gates/all-1440/overrides.json)"
+        },
+        "crop": "header 1440 0.48% / 360 0.34%; footer 1440 2.34% / 360 9.49% (live-only chat bubble, message card, side tab)",
+        "chrome": "1440 36 deltas / 360 171, inherited EN foundation chrome (filed by home)"
+      },
+      "residuals": [
+        "units 1440 off 15 = known false reds: live <picture> inline boxes x6, badge dx 15 x2, gozilla svg 31x34 x3, pledge title x3, divider icon x1",
+        "units 360 off 88 = gate-all units probe measures the origin from the 1440 cache (origin docH 8205 at 360) — instrument finding, foundation-requests line",
+        "hidden direct-entry pop-up 283 vs live 259 px (prototype identical)"
+      ],
+      "notes": [
+        "tiers — template-slotted: hero-split, rich text, service-offer, cta-band, newsletter-band, direct-entry; reconstructive: icon-text-box x12, image-text-card x3, news-cards x3, pledge-row x3, garage-chooser x100",
+        "new blocks: icon-text-box, service-offer, garage-chooser, direct-entry; additive variants: hero-split spaced (+100 px intro margin), news-cards grey band-white; no existing rule changed, foundation unchanged",
+        "motion implemented: direct-entry pill .show at scrollY >= 300 + pop-up toggle, garage chooser modal (300 ms transform, body.modal-open, Escape/backdrop close, list filter); dead stay dead (OneTrust, header scroll-morph, hover probes)",
+        "dropped on purpose: hero cookie variant + second garage overlay, hidden Show more (display:none on live) — eds-conversion-log",
+        "media: 33 files on media/services/ (ledger stardust/deploy/media-ledger-archetype-services.json); commits 6040574 … b551ced"
+      ]
+    },
+    "cluster-de-service-reifen-und-raeder-winterreifen-html": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "de-service-reifen-und-raeder-winterreifen-html"
+      ],
+      "pages": 0,
+      "startedAt": "2026-10-08T21:43:45Z",
+      "endedAt": "2026-10-08T21:43:45Z",
+      "verdict": "cluster-de-service-reifen-und-raeder-winterreifen-html: pages 0/0 — no sibling pages in the fixed five-page scope; the template's only page is its archetype (unit archetype-de-service-reifen-und-raeder-winterreifen-html)"
+    },
+    "cluster-de-service-auto-services-online-termin-buchen-html": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "de-service-auto-services-online-termin-buchen-html"
+      ],
+      "pages": 0,
+      "startedAt": "2026-10-08T21:43:45Z",
+      "endedAt": "2026-10-08T21:43:45Z",
+      "verdict": "cluster-de-service-auto-services-online-termin-buchen-html: pages 0/0 — no sibling pages in the fixed five-page scope; the template's only page is its archetype (unit archetype-de-service-auto-services-online-termin-buchen-html)"
+    },
+    "cluster-en-komponenten-car-dealers-html": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "en-komponenten-car-dealers-html"
+      ],
+      "pages": 0,
+      "startedAt": "2026-10-08T21:43:45Z",
+      "endedAt": "2026-10-08T21:43:45Z",
+      "verdict": "cluster-en-komponenten-car-dealers-html: pages 0/0 — no sibling pages in the fixed five-page scope; the template's only page is its archetype (unit archetype-en-komponenten-car-dealers-html)"
+    },
+    "cluster-en-html": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "en-html"
+      ],
+      "pages": "0",
+      "startedAt": "2026-10-08T23:26:09Z",
+      "endedAt": "2026-10-08T23:26:09Z",
+      "verdict": "cluster-en-html: pages 0/0 — no sibling pages in the fixed five-page scope; the template's only page is its archetype (unit archetype-en-html)"
+    },
+    "cluster-en-services-html": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "en-services-html"
+      ],
+      "pages": "0",
+      "startedAt": "2026-10-08T23:26:09Z",
+      "endedAt": "2026-10-08T23:26:09Z",
+      "verdict": "cluster-en-services-html: pages 0/0 — no sibling pages in the fixed five-page scope; the template's only page is its archetype (unit archetype-en-services-html)"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "*"
+      ],
+      "pages": "5",
+      "startedAt": "2026-10-08T23:42:18Z",
+      "endedAt": "2026-10-09T00:20:52Z",
+      "verdict": "gate-all: 5/5 delivered at 1440 and 360 (same-browser, EDS recaptured after the header fix): pixel 0.13–4.92% / 0.59–8.8%, Δh ≤ 6 / ≤ 41, clipped 0, content 0 (home stage headline = capture state); 1 clean PASS + 4 documented units-criterion overrides per width",
+      "gates": {
+        "360": {
+          "pass": 1,
+          "overridePass": 4,
+          "fail": 0,
+          "pixel": {
+            "booking": 0.59,
+            "dealers": 0.91,
+            "article": 4.17,
+            "home": 8.8,
+            "services": 5.22
+          },
+          "heightDelta": {
+            "home": 41,
+            "others": 0
+          },
+          "clipped": 0,
+          "content": "home MISSING 1 (capture state), dealers MISSING 2 (map attribution, owner), others 0"
+        },
+        "1440": {
+          "pass": 1,
+          "overridePass": 4,
+          "fail": 0,
+          "pixel": {
+            "booking": 0.13,
+            "dealers": 0.25,
+            "article": 1.11,
+            "home": 4.92,
+            "services": 1.18
+          },
+          "heightDelta": {
+            "home": 6,
+            "others": 0
+          },
+          "clipped": 0,
+          "content": "home MISSING 1 (autoplay stage headline, presence.json), others 0"
+        },
+        "units": "origin probe cache made per width (stardust/current/measure/<slug>-units-<w>.json; the probe keys by slug only): booking 0 off at both widths, dealers selector-mapping errors only, article/home/services inner structure rows documented in overrides.json"
+      },
+      "residuals": [
+        "units criterion: the probe caches the origin inventory per slug without width; swapped per width by hand for this run and recorded in foundation-requests.md (instrument)",
+        "home 360 Δh 41 = live script-set strip min-height race (recorded by the home unit)",
+        "dealers units families declare the prototype DOM selectors; the delivered block uses .garage-list > .garage — overrides at both widths"
+      ]
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "*"
+      ],
+      "pages": 5,
+      "startedAt": "2026-10-09T00:22:44Z",
+      "endedAt": "2026-10-09T00:23:29Z",
+      "verdict": "final: foundation-freeze check clean (18 files); queued foundation requests applied once (header utility rows, commit 41cbd8f) and re-gated; roster gate-all 5/5 delivered at 1440 and 360; coverage 5/5 rows gate.pass true; C-deliver closed",
+      "gates": {
+        "freeze": "unchanged (18 files)",
+        "requests": "4 queued, 4 applied/closed (2 block edits in blocks/header, 2 instrument/method)",
+        "coverage": "5/5 pages deployed+published, gate.pass true at 1440 and 360"
+      }
+    }
+  }
+}

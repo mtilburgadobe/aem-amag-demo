@@ -1,0 +1,38 @@
+/*
+ * AMAG brand faces — self-hosted (stardust/current/assets/fonts, no substitution).
+ * Loaded by loadFonts() in scripts/scripts.js, never from head.html; the
+ * metric-matched *-fallback faces live in styles/styles.css (first paint).
+ * Each face is its own family at weight 400 (the source CSS switches weight by family).
+ */
+
+@font-face {
+  font-family: "amag_displaybold";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/amag_display-bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "amag_displaylight";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/amag_display-light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "amag_textbold";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/amag_text-bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "amag_textlight";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/amag_text-light.woff2") format("woff2");
+}

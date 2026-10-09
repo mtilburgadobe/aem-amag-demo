@@ -1,0 +1,527 @@
+/* stylelint-disable no-descending-specificity */
+
+/*
+ * www.amag.ch → AEM Edge Delivery Services — foundation.
+ * Tokens and global rules are lifted from the gated prototypes' canon.css
+ * (stardust/prototypes/css/canon.css) and their computed styles, never from the eye.
+ * The boilerplate's STRUCTURAL layer (body gate, chrome reservation, section
+ * scaffold) is kept; only its demo layer is replaced.
+ */
+
+:root {
+  /* colours (canon.css :root) */
+  --amag-violet: #801977;
+  --amag-dark-blue: #172983;
+  --amag-light-blue: #009ee0;
+  --amag-green: #006431;
+  --amag-lime: #97bf0d;
+  --amag-black: #000;
+  --amag-dark-grey: #222;
+  --amag-grey-100: #f5f5f5;
+  --amag-grey-300: #e8e8e8;
+  --amag-grey-400: #bdbdbd;
+  --amag-grey-600: #6f6d6a;
+  --amag-grey-blue: #e8eaf3;
+  --background-color: #fff;
+  --text-color: #000;
+  --link-color: #007bff;
+  --link-hover-color: #0056b3;
+
+  /* fonts — four single-weight families; the *-fallback faces are metric-matched Arial */
+  --font-display-bold: "amag_displaybold", amag-display-bold-fallback, arial, sans-serif;
+  --font-display-light: "amag_displaylight", amag-display-light-fallback, arial, sans-serif;
+  --font-text-bold: "amag_textbold", amag-text-bold-fallback, arial, sans-serif;
+  --font-text-light: "amag_textlight", amag-text-light-fallback, arial, sans-serif;
+  --body-font-family: var(--font-text-light);
+  --heading-font-family: var(--font-display-bold);
+
+  /* type ramp (prototype computed styles, 360 → 1440) */
+  --body-font-size: 16px;
+  --body-line-height: 24px;
+  --heading-font-size-xl: 32px;
+  --heading-font-size-l: 32px;
+  --heading-font-size-m: 24px;
+  --heading-font-size-s: 20px;
+
+  /* layout (canon.css :root) */
+  --header-height: 75px;
+  --nav-height: var(--header-height);
+  --section-gutter: 15px;
+  --content-max: 1920px;
+
+  /* motion */
+  --header-transition: 350ms;
+}
+
+@media (width >= 768px) {
+  :root {
+    --header-height: 120px;
+    --section-gutter: 40px;
+  }
+}
+
+@media (width >= 1200px) {
+  :root {
+    --header-height: 160px;
+    --section-gutter: 165px;
+    --heading-font-size-xl: 44px;
+  }
+}
+
+@media (width >= 1450px) {
+  :root {
+    --section-gutter: 315px;
+  }
+}
+
+/* fallback fonts — Arial re-declared with the brand faces' metrics (fontTools, hhea/xAvgCharWidth) */
+@font-face {
+  font-family: amag-display-bold-fallback;
+  src: local("Arial");
+  size-adjust: 128.23%;
+  ascent-override: 70.97%;
+  descent-override: 17.94%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: amag-display-light-fallback;
+  src: local("Arial");
+  size-adjust: 124.15%;
+  ascent-override: 73.3%;
+  descent-override: 18.53%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: amag-text-bold-fallback;
+  src: local("Arial");
+  size-adjust: 122.34%;
+  ascent-override: 74.39%;
+  descent-override: 18.8%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: amag-text-light-fallback;
+  src: local("Arial");
+  size-adjust: 118.03%;
+  ascent-override: 77.1%;
+  descent-override: 19.49%;
+  line-gap-override: 0%;
+}
+
+/* document reset (Bootstrap reboot subset lifted by canon.css) */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.15;
+  text-size-adjust: 100%;
+}
+
+body {
+  display: none;
+  margin: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+}
+
+body.appear {
+  display: block;
+}
+
+/* the hamburger drawer / pop-ups lock the page scroll (fired on live) */
+html.overflow-hidden {
+  overflow: hidden !important;
+}
+
+body.no-scroll {
+  overflow-y: hidden;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+/* chrome reservation — the header block is position: fixed; this is its in-flow spacer.
+   Scoped to body > header so a block-internal <header> is never clamped (#107). */
+body > header {
+  height: var(--nav-height);
+  background: transparent;
+}
+
+@media (width >= 1200px) {
+  body > header {
+    background: linear-gradient(to bottom, var(--amag-violet) 0 60px, #fff 60px);
+  }
+}
+
+/* transparent header variant (home): <meta name="header-style" content="transparent">
+   → body.header-transparent (scripts.js). Only the 60px benefit bar stays in flow ≥ 1200;
+   below that the nav floats over the stage. */
+body.header-transparent {
+  --nav-height: 0px;
+}
+
+body.header-transparent > header {
+  background: transparent;
+}
+
+@media (width >= 1200px) {
+  body.header-transparent {
+    --nav-height: 60px;
+  }
+
+  body.header-transparent > header {
+    background: var(--amag-violet);
+  }
+}
+
+header .header,
+footer .footer {
+  visibility: hidden;
+}
+
+header .header[data-block-status="loaded"],
+footer .footer[data-block-status="loaded"] {
+  visibility: visible;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: var(--heading-font-family);
+  font-weight: 500;
+  line-height: 1.2;
+  scroll-margin: calc(var(--header-height) + 16px);
+}
+
+h1 {
+  font-size: var(--heading-font-size-xl);
+  margin-bottom: 20px;
+}
+
+h2,
+h3 {
+  font-size: var(--heading-font-size-l);
+  line-height: 1.125;
+}
+
+h4 {
+  font-size: var(--heading-font-size-m);
+  line-height: 28px;
+}
+
+h5,
+h6 {
+  font-size: var(--heading-font-size-s);
+  line-height: 24px;
+}
+
+p,
+dl,
+ol,
+ul,
+pre,
+blockquote {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+a,
+p {
+  font-family: var(--font-text-light);
+  font-size: var(--body-font-size);
+}
+
+code,
+pre {
+  font-size: 87.5%;
+}
+
+pre {
+  padding: 16px;
+  background-color: var(--amag-grey-100);
+  overflow-x: auto;
+  white-space: pre;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+}
+
+svg {
+  vertical-align: middle;
+}
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+
+button {
+  margin: 0;
+  text-transform: none;
+  cursor: pointer;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+/* links (reboot: a + a:hover fired on live) */
+a:any-link {
+  color: var(--link-color);
+  text-decoration: none;
+  background-color: transparent;
+  overflow-wrap: break-word;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
+
+/* styled text link (amag-linkWrapper__link--text-decoration-underline) — wrapper variant
+   at equal specificity for edit mode (EW3 c) */
+.link-underline,
+.link-underline-wrap :where(a) {
+  border-bottom: 2px solid;
+  padding-bottom: 3px;
+  text-decoration: none !important;
+}
+
+/* buttons — the site's CTA system (amag-ctaWrapper__button): white text-bold 20px on a
+   solid ground, 70px tall (100px ≥ 1200), 40px side padding, square corners. */
+p.button-wrapper {
+  margin: 0;
+}
+
+a.button:any-link,
+button.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  min-height: 70px;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  padding: 0 40px;
+  font-family: var(--font-text-bold);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+a.button:any-link:hover,
+button.button:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+a.button[aria-disabled="true"],
+button.button:disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+a.button img,
+button.button img,
+a.button svg,
+button.button svg {
+  height: 32px;
+  width: 32px;
+  margin-right: 10px;
+  fill: #fff;
+}
+
+@media (width >= 1200px) {
+  a.button:any-link,
+  button.button {
+    min-height: 100px;
+  }
+}
+
+/* the three authoring slots: <strong><a> primary = dark blue (the site's default CTA),
+   <em><a> secondary = violet, <em><strong><a> accent = black */
+a.button.primary,
+button.button.primary,
+a.button.dark-blue,
+.dark-blue a.button {
+  background-color: var(--amag-dark-blue);
+}
+
+a.button.secondary,
+button.button.secondary,
+a.button.violet,
+.violet a.button {
+  background-color: var(--amag-violet);
+}
+
+a.button.accent,
+button.button.accent,
+a.button.black,
+.black a.button {
+  background-color: var(--amag-black);
+}
+
+/* the remaining ground variants of the source system — applied by the owning block on
+   its .actions wrapper (never on the authored anchor) */
+a.button.light-blue,
+.light-blue a.button {
+  background-color: var(--amag-light-blue);
+}
+
+a.button.green,
+.green a.button {
+  background-color: var(--amag-green);
+}
+
+a.button.light-green,
+.light-green a.button {
+  background-color: var(--amag-lime);
+}
+
+a.button.grey,
+.grey a.button {
+  background-color: var(--amag-grey-600);
+}
+
+a.button.white,
+.white a.button {
+  background-color: #fff;
+  color: #000;
+}
+
+a.button.white:hover,
+.white a.button:hover {
+  color: #000;
+}
+
+a.button.white img,
+a.button.white svg,
+.white a.button img,
+.white a.button svg {
+  fill: #000;
+}
+
+/* icons */
+.icon {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+}
+
+.icon img {
+  height: 100%;
+  width: 100%;
+}
+
+/* sections — the site's module cap is 1920px (DESIGN.json caps[].module) with the
+   responsive gutter; sections carry no outer margin (bands paint their own ground). */
+main > .section {
+  margin: 0;
+}
+
+main > .section > div {
+  max-width: var(--content-max);
+  margin: auto;
+  padding: 0 var(--section-gutter);
+}
+
+/* ONE full-bleed escape at scaffold level: style "full-bleed" on the section, or a block
+   wrapper that opts out via its own class ending in -bleed-wrapper. */
+main > .section.full-bleed > div,
+main > .section > div:where([class$="-bleed-wrapper"]) {
+  max-width: none;
+  padding: 0;
+}
+
+/* the page-metadata block leaves an empty section behind */
+main .section:empty {
+  display: none;
+}
+
+/* section style vocabulary for default-content sections (small closed set) */
+main .section.grey {
+  background-color: var(--amag-grey-100);
+}
+
+main .section.dark {
+  background-color: var(--amag-black);
+  color: #fff;
+}
+
+main .section.dark a:any-link {
+  color: #fff;
+}
+
+main .section.grey[data-section-status="loaded"],
+main .section.dark[data-section-status="loaded"] {
+  display: block !important;
+}
+
+/* Experience Workspace edit mode (da.live inline editor only) */
+
+/* (b) card-as-link inner anchor reads like the card text */
+a .prosemirror-editor a:any-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* (a) repaint CTAs from their authored marks — the .button classes die while editing */
+.prosemirror-editor p > :is(strong, em) > a:any-link,
+.prosemirror-editor p > a:any-link:has(> :is(strong, em):only-child) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+  padding: 0 40px;
+  font-family: var(--font-text-bold);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.prosemirror-editor p > a:any-link > :is(strong, em) {
+  font-weight: inherit;
+  font-style: inherit;
+}
+
+.prosemirror-editor p > strong > a:any-link,
+.prosemirror-editor p > a:any-link:has(> strong:only-child) {
+  background-color: var(--amag-dark-blue);
+}
+
+.prosemirror-editor p > em > a:any-link,
+.prosemirror-editor p > a:any-link:has(> em:only-child) {
+  background-color: var(--amag-violet);
+}

@@ -1,0 +1,1008 @@
+{
+  "slug": "en-html",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hero-carousel",
+    "quick-links",
+    "vehicle-search",
+    "news-cards",
+    "promo-teaser",
+    "image-text-card",
+    "icon-feature-grid",
+    "pledge-row",
+    "newsletter-band",
+    "cta-band",
+    "accordion-faq",
+    "testimonial"
+  ],
+  "slotsFilled": [
+    "amag-content"
+  ],
+  "canonShas": {
+    "header": "ce78759b0c27",
+    "footer": "f6ea3c3b2e98",
+    "css": "bf6ac7a8414d"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "The biggest automotive company in Switzerland | AMAG",
+    "description": "Find your dream car, or book a service at AMAG – the biggest car dealership and official Swiss partner of VW Group vehicle brands",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "The biggest automotive company in Switzerland | AMAG",
+    "description": "Find your dream car, or book a service at AMAG – the biggest car dealership and official Swiss partner of VW Group vehicle brands",
+    "url": "https://www.amag.ch/en.html"
+  },
+  "migratedAt": "2026-10-08T19:01:39Z",
+  "designMdSha": "d22638837e51",
+  "designJsonSha": "97b05bd4a1b8",
+  "sourceCurrentSha": "9827cbbc19b3",
+  "sourceProposedSha": "6ad0918eeef6",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "verbatim captured content; Phase 4 content-diff 0 structural on main+chrome roots (stardust/replica/gates/en-html-1440, -360)",
+    "pixel-gate-1440": "FAIL: pixel 23.84% > 10%; units off 50 hidden 8 missing 1 — 23.84%, height delta -136px, clipped 0, content n/a (stardust/replica/gates/prototypes-1440/summary.md) [prototype regime]",
+    "pixel-gate-360": "FAIL: pixel 26.09% > 10%; units off 19 hidden 11 missing 2 — 26.09%, height delta -390px, clipped 0, content n/a (stardust/replica/gates/prototypes-360/summary.md) [prototype regime]",
+    "content-count": "OPEN: content-diff: 31 (4 structural 🔴) (en-html-360-fix1.log)",
+    "media-reconcile": "n/a: no delivered content file yet (content/en.html) — media-reconcile runs in the delivery chain (row C)",
+    "delivery-lint": "FAIL: 0 P0 · 1 P1 · 1 P2 (delivery-lint --path /en)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 68,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/de/events/emotiondays.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/e-mobility.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/jobs-amag.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/search.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/user/login.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/vehicle-range.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/warehouse-vehicles.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/demonstration-vehicles.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/used-vehicles.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/used-vehicles.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/used-vehicles/occasionen-leasing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/used-vehicles/elektro-occasionen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/e-mobility.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/e-mobility.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/e-mobility/id-buzz.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/e-mobility/used-electric-cars.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/e-mobility/fast-charging-network.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/abo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/abo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/abo/faq.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/amag-leasing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/configure-vehicles.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/fleet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/financing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/buy-your-car.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/body-type.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/body-type.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/body-type/suv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/body-type/estate.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/body-type/limousine.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/body-type/convertible.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/body-type/coupe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/body-type/mpv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/body-type/camper-van.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/body-type/bus.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/body-type/pickup.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/body-type/business.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/partner.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/partner.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/partner/helion.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/partner/clyde.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/partner/ducati.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/partner/microlino.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/partner/allride.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/brands/vw/vw-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/brands/audi/audi-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/brands/seat/seat-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/brands/skoda/skoda-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/brands/cupra/cupra-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/brands/commercial-vehicles/commercial-vehicles-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/brands/bentley/bentley-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/cars-amag/microlino.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/tyre-service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/tyre-service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/tyre-service/winter-tyres.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/tyre-service/summer-tyres.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/tyre-service/complete-wheels.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/tyre-service/tyre-warranty.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/tyre-service/wheel-hotel.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/tyre-service/rim-repair.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/saison-check.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/saison-check.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/saison-check/feriencheck.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/saison-check/saison-check2.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/car-service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/app.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/kreditkarte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/battery.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/brakes.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/electric-charging-stations.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/accessories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/abt-sportsline.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/brand-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/brand-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/brand-insurance/audi-car-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/brand-insurance/vw-car-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/brand-insurance/seat-car-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/brand-insurance/skoda-car-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/brand-insurance/vw-commercial-vehicles-car-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/brand-insurance/audi-used-car-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/brand-insurance/vw-used-car-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/brand-insurance/seat-used-car-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/brand-insurance/skoda-used-car-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/brand-insurance/vw-commercial-vehicles-used-car-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/carwash.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/help-in-case-of-damage.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/help-in-case-of-damage.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/help-in-case-of-damage/reporting-damage.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/help-in-case-of-damage/reporting-damage.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/help-in-case-of-damage/reporting-damage/guide.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/help-in-case-of-damage/car-paint-and-body-service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/help-in-case-of-damage/tesla-service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/help-in-case-of-damage/hail-damage.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/help-in-case-of-damage/car-glass-repair.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/help-in-case-of-damage/totalmobil.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/help-in-case-of-damage/recalls-by-manufacturers.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/cards/charging-card.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/jobs-amag.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/services/otv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/vehicle-range.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/warehouse-vehicles.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/demonstration-vehicles.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/used-vehicles.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/e-mobility.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/abo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/amag-leasing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/configure-vehicles.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/fleet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/financing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/buy-your-car.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/body-type.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/body-type/suv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/body-type/estate.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/body-type/limousine.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/body-type/convertible.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/body-type/coupe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/body-type/mpv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/body-type/camper-van.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/body-type/bus.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/body-type/pickup.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/body-type/business.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/partner.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/partner/helion.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/partner/clyde.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/partner/ducati.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/partner/microlino.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/partner/allride.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/brands.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/brands/vw/vw-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/brands/audi/audi-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/brands/seat/seat-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/brands/skoda/skoda-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/brands/cupra/cupra-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/brands/commercial-vehicles/commercial-vehicles-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/brands/bentley/bentley-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/cars-amag/microlino.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/tyre-service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/tyre-service/winter-tyres.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/tyre-service/summer-tyres.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/tyre-service/complete-wheels.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/tyre-service/tyre-warranty.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/tyre-service/wheel-hotel.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/tyre-service/rim-repair.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/saison-check.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/car-service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/app.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/kreditkarte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/battery.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/brakes.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/electric-charging-stations.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/accessories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/abt-sportsline.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/brand-insurance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/carwash.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/help-in-case-of-damage.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/help-in-case-of-damage/reporting-damage.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/help-in-case-of-damage/car-paint-and-body-service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/help-in-case-of-damage/tesla-service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/help-in-case-of-damage/hail-damage.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/help-in-case-of-damage/car-glass-repair.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/help-in-case-of-damage/totalmobil.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/help-in-case-of-damage/recalls-by-manufacturers.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/services/otv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/services/help-in-case-of-damage/reporting-damage.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/aktuelles-angebot-fuer-sie.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/cards/charging-card.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/events/emotiondays.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/brands/vw/id-polo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/brands/cupra/raval.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/brands/skoda/epiq.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/help-in-case-of-damage/reporting-damage.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/used-vehicles/elektro-occasionen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/cars-amag/e-mobility/360-degree-solutions.html#start",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/promotion/skoda/epiq.html?filters=C",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/promotion/audi/a3.html?filters=A",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/newsletter/subscribe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/promotion/vw/id-polo.html?filters=V",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/service/reifen-und-raeder/winterreifen.html#frueh",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/promotions/as/after-sales-kontaktformular.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/cards/charging-card.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/service/top-services/markenversicherung.html#promotion",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/cars-amag/e-mobility.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/abo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/testdrive.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/partner.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/otv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/help-in-case-of-damage.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/app.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/tyre-service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/air-conditioning-service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/car-service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/otv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/newsletter/subscribe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/contact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/fleet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/newsletter/subscribe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/help-in-case-of-damage/totalmobil.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/abo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/clyde.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/find-vehicle/cars-amag/amag-leasing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/about-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/ueber-uns/esg.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/jobs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/brands/vw/vw-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/brands/audi/audi-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/brands/seat/seat-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/brands/skoda/skoda-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/brands/cupra/cupra-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/brands/commercial-vehicles/commercial-vehicles-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/brands/bentley/bentley-models.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/find-vehicle/cars-amag/microlino.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/en/car-dealers/car-dealer-volketswil.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/top-services/app.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/imprint.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/gtc.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "en.html",
+  "outputPathDefault": null,
+  "sidecar": "en._meta.json",
+  "driverVersion": "1"
+}

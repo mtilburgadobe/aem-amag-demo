@@ -1,0 +1,158 @@
+/* direct-entry — values lifted from canon.css (direct-entry pill @588644 ff.). The block is
+   fixed chrome: it occupies no flow height where it is authored. */
+.direct-entry {
+  height: 0;
+  overflow: visible;
+}
+
+.direct-entry .backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.direct-entry .backdrop[hidden] {
+  display: none;
+}
+
+.direct-entry .pop-up {
+  position: fixed;
+  right: 15px;
+  bottom: 118px;
+  z-index: 1080;
+  width: 300px;
+  margin: 0 0 0 auto;
+  border-radius: 4px;
+  background: #fff;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.direct-entry .pop-up.show {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.direct-entry .topline p {
+  display: block;
+  margin: 0;
+  padding: 20px;
+  border-bottom: 1px solid var(--amag-grey-100);
+  color: var(--amag-grey-600);
+  font-family: var(--font-text-light);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.direct-entry .entry-link {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 60px;
+  padding: 20px;
+  border-bottom: 1px solid var(--amag-grey-100);
+  text-decoration: none;
+}
+
+.direct-entry .entry-link:last-of-type {
+  border-bottom: none;
+}
+
+.direct-entry .entry-icon {
+  margin-right: 15px;
+}
+
+.direct-entry .entry-icon :is(picture, img) {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+.direct-entry .entry-label p {
+  margin: 0;
+  color: #000;
+  font-family: var(--font-text-bold);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.direct-entry .entry-chevron {
+  margin-left: auto;
+  width: 24px;
+  height: 24px;
+}
+
+.direct-entry .entry-chevron svg {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.direct-entry .button {
+  position: fixed;
+  right: 15px;
+  bottom: 38px;
+  z-index: 1050;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  max-width: 150px;
+  padding: 0 18px;
+  border-radius: 100px;
+  background: var(--amag-grey-300, #e8e8e8);
+  opacity: 0;
+  pointer-events: none;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s ease;
+}
+
+.direct-entry .button.show {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.direct-entry .face {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.direct-entry .face[hidden] {
+  display: none;
+}
+
+.direct-entry .face-icon :is(picture, img) {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.direct-entry .face-label p {
+  margin: 0 0 0 10px;
+  color: #000;
+  font-family: var(--font-text-bold);
+  font-size: 16px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+@media (width >= 768px) {
+  .direct-entry .pop-up {
+    right: 24px;
+    bottom: 128px;
+  }
+
+  .direct-entry .button {
+    right: 24px;
+    bottom: 48px;
+  }
+}

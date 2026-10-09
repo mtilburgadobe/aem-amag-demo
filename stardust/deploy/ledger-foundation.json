@@ -1,0 +1,56 @@
+{
+  "/de/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-08T19:35:38.494Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/de/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-08T19:35:38.494Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/de/service/reifen-und-raeder/winterreifen": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-08T19:35:45.108Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/en/services": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-08T19:35:45.108Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-08T19:35:49.399Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-08T19:35:49.399Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

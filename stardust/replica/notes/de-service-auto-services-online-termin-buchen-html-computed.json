@@ -1,0 +1,1788 @@
+{
+ "360": {
+  "title": "Auto-Service: Online-Termin buchen | AMAG",
+  "viewport": {
+   "width": 360,
+   "height": 900
+  },
+  "elements": {
+   "total": 4592,
+   "visible": 731
+  },
+  "occluders": [],
+  "headings": [
+   {
+    "tag": "h6",
+    "text": "Bitte wählen Sie Ihre Garage aus",
+    "selector": "div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > ul > div:nth-of-type(1) > div:nth-of-type(1) > h6",
+    "fontFamily": "amag_textlight",
+    "fontSize": "20px",
+    "fontWeight": "400",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "tag": "h2",
+    "text": "Ihr Fahrzeug",
+    "selector": "#otv-tab--1-content > div > div:nth-of-type(1) > h2",
+    "fontFamily": "amag_displaybold",
+    "fontSize": "32px",
+    "fontWeight": "500",
+    "lineHeight": "38.4px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "tag": "h4",
+    "text": "Vorteile eines AMAG Kundenkontos",
+    "selector": "#otv-tab--1-content > div > div:nth-of-type(10) > div > h4",
+    "fontFamily": "amag_displaybold",
+    "fontSize": "24px",
+    "fontWeight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "text": [
+   {
+    "tag": "p",
+    "text": "-- wurde als Ihre Garage gespeichert.",
+    "selector": "#header > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > p",
+    "fontFamily": "amag_textbold",
+    "fontSize": "20px",
+    "fontWeight": "400",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "tag": "p",
+    "text": "Einmalig Fahrzeugmodell auswählen oder …",
+    "selector": "#otv-tab--1-content > div > div:nth-of-type(1) > p",
+    "fontFamily": "amag_displaylight",
+    "fontSize": "20px",
+    "fontWeight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "tag": "p",
+    "text": "Bequeme Terminverwaltung mit Übernahme …",
+    "selector": "#otv-tab--1-content > div > div:nth-of-type(10) > div > ul > li:nth-of-type(1) > p",
+    "fontFamily": "amag_textlight",
+    "fontSize": "20px",
+    "fontWeight": "400",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "tag": "p",
+    "text": "Schneller Zugriff auf Ihre Daten",
+    "selector": "#otv-tab--1-content > div > div:nth-of-type(10) > div > ul > li:nth-of-type(2) > p",
+    "fontFamily": "amag_textlight",
+    "fontSize": "20px",
+    "fontWeight": "400",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "tag": "p",
+    "text": "Direkter Kontakt zu Ihrer Garage",
+    "selector": "#otv-tab--1-content > div > div:nth-of-type(10) > div > ul > li:nth-of-type(3) > p",
+    "fontFamily": "amag_textlight",
+    "fontSize": "20px",
+    "fontWeight": "400",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "tag": "p",
+    "text": "Kurze Wartezeiten bei der Annahme",
+    "selector": "#otv-tab--1-content > div > div:nth-of-type(10) > div > ul > li:nth-of-type(4) > p",
+    "fontFamily": "amag_textlight",
+    "fontSize": "20px",
+    "fontWeight": "400",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "tag": "p",
+    "text": "Auto finden & Service",
+    "selector": "footer > div > div > div > div:nth-of-type(2) > a > p",
+    "fontFamily": "amag_textbold",
+    "fontSize": "20px",
+    "fontWeight": "400",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "tag": "p",
+    "text": "Get connected with AMAG",
+    "selector": "footer > div > div > div > div:nth-of-type(5) > a > div:nth-of-type(2) > p:nth-of-type(2)",
+    "fontFamily": "amag_textlight",
+    "fontSize": "20px",
+    "fontWeight": "400",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "tag": "p",
+    "text": "© 2026 AMAG Automobil und Motoren AG",
+    "selector": "footer > div > div > div > div:nth-of-type(7) > div:nth-of-type(1) > p",
+    "fontFamily": "amag_textlight",
+    "fontSize": "20px",
+    "fontWeight": "400",
+    "lineHeight": "48px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgba(255, 255, 255, 0.6)"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "Meine Garage merken",
+    "selector": "div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > ul > div:nth-of-type(1) > div:nth-of-type(1) > div > a",
+    "count": 1,
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 0)",
+    "borderRadius": "0px",
+    "padding": "0px 40px",
+    "border": "0px none rgb(0, 0, 0)",
+    "borderColor": "rgb(0, 0, 0)",
+    "boxShadow": "none",
+    "fontFamily": "amag_textbold",
+    "fontSize": "20px",
+    "fontWeight": "400",
+    "textTransform": "none",
+    "letterSpacing": "normal",
+    "hover": null
+   },
+   {
+    "text": "Pannenhilfe",
+    "selector": "#header > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a",
+    "count": 1,
+    "backgroundColor": "rgb(0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "borderRadius": "0px",
+    "padding": "0px 40px",
+    "border": "0px none rgb(255, 255, 255)",
+    "borderColor": "rgb(255, 255, 255)",
+    "boxShadow": "none",
+    "fontFamily": "amag_textbold",
+    "fontSize": "20px",
+    "fontWeight": "400",
+    "textTransform": "none",
+    "letterSpacing": "normal",
+    "hover": null
+   },
+   {
+    "text": "Termin",
+    "selector": "#header > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > a",
+    "count": 2,
+    "backgroundColor": "rgb(23, 41, 131)",
+    "color": "rgb(255, 255, 255)",
+    "borderRadius": "0px",
+    "padding": "0px 40px",
+    "border": "0px none rgb(255, 255, 255)",
+    "borderColor": "rgb(255, 255, 255)",
+    "boxShadow": "none",
+    "fontFamily": "amag_textbold",
+    "fontSize": "20px",
+    "fontWeight": "400",
+    "textTransform": "none",
+    "letterSpacing": "normal",
+    "hover": null
+   },
+   {
+    "text": "Anmelden",
+    "selector": "#otv-tab--1-content > div > div:nth-of-type(9) > a",
+    "count": 1,
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(23, 41, 131)",
+    "borderRadius": "0px",
+    "padding": "0px 40px",
+    "border": "2px solid rgb(23, 41, 131)",
+    "borderColor": "rgb(23, 41, 131)",
+    "boxShadow": "none",
+    "fontFamily": "amag_textbold",
+    "fontSize": "20px",
+    "fontWeight": "400",
+    "textTransform": "none",
+    "letterSpacing": "normal",
+    "hover": {
+     "backgroundColor": "rgb(255, 255, 255)",
+     "color": "rgb(23, 41, 131)",
+     "borderColor": "rgb(23, 41, 131)",
+     "boxShadow": "none",
+     "changed": false
+    }
+   }
+  ],
+  "links": [
+   {
+    "text": "Auto finden",
+    "selector": "div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > ul > li:nth-of-type(2) > ul > li:nth-of-type(2) > a",
+    "count": 94,
+    "color": "rgb(0, 123, 255)",
+    "textDecoration": "none",
+    "fontWeight": "400",
+    "hover": null
+   },
+   {
+    "text": "fr",
+    "selector": "#header > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > ul > div:nth-of-type(2) > a:nth-of-type(2)",
+    "count": 3,
+    "color": "rgb(0, 0, 0)",
+    "textDecoration": "none",
+    "fontWeight": "400",
+    "hover": null
+   },
+   {
+    "text": "Leistung",
+    "selector": "#otv-tab-0-header",
+    "count": 5,
+    "color": "rgb(111, 109, 106)",
+    "textDecoration": "none",
+    "fontWeight": "400",
+    "hover": {
+     "backgroundColor": "rgba(0, 0, 0, 0)",
+     "color": "rgb(111, 109, 106)",
+     "borderColor": "rgb(111, 109, 106)",
+     "boxShadow": "none",
+     "changed": true
+    }
+   },
+   {
+    "text": "Kontakt",
+    "selector": "#listOne > ul > li:nth-of-type(1) > a",
+    "count": 14,
+    "color": "rgb(255, 255, 255)",
+    "textDecoration": "none",
+    "fontWeight": "400",
+    "hover": null
+   }
+  ],
+  "surfaces": [
+   {
+    "matched": "header",
+    "selector": "#header",
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 360,
+     "h": 75
+    },
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "padding": "0px",
+    "maxWidth": "none",
+    "borderRadius": "0px",
+    "boxShadow": "none",
+    "position": "static",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", \"Liberation Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "fontSize": "16px"
+   },
+   {
+    "matched": "nav",
+    "selector": "nav",
+    "rect": {
+     "x": 75,
+     "y": 0,
+     "w": 285,
+     "h": 75
+    },
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 0)",
+    "padding": "0px",
+    "maxWidth": "none",
+    "borderRadius": "0px",
+    "boxShadow": "none",
+    "position": "relative",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", \"Liberation Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "fontSize": "16px"
+   },
+   {
+    "matched": "footer",
+    "selector": "footer",
+    "rect": {
+     "x": 0,
+     "y": 1206,
+     "w": 360,
+     "h": 2237
+    },
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "padding": "0px",
+    "maxWidth": "none",
+    "borderRadius": "0px",
+    "boxShadow": "none",
+    "position": "static",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", \"Liberation Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "fontSize": "16px"
+   }
+  ],
+  "radii": [
+   {
+    "value": "4px",
+    "count": 19,
+    "area": 174430,
+    "sources": [
+     "nav > div > div:nth-of-type(1) > a",
+     "li:nth-of-type(7) > ul > li:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div",
+     "li:nth-of-type(7) > ul > li:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div"
+    ]
+   },
+   {
+    "value": "2px",
+    "count": 1,
+    "area": 15360,
+    "sources": [
+     "#recaptcha > div"
+    ]
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0.2) 0px 4px 8px 0px",
+    "count": 2,
+    "sources": [
+     "#ot-sdk-btn-floating > div:nth-of-type(1)",
+     "#ot-sdk-btn-floating > div:nth-of-type(2)"
+    ]
+   },
+   {
+    "value": "rgb(128, 128, 128) 0px 0px 5px 0px",
+    "count": 1,
+    "sources": [
+     "#recaptcha > div"
+    ]
+   }
+  ],
+  "gradients": [
+   {
+    "value": "linear-gradient(90deg, rgba(255, 255, 255, 0), rgb(255, 255, 255) 92.14%)",
+    "count": 1,
+    "area": 4320,
+    "sources": [
+     "#amag-otv > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2)"
+    ]
+   }
+  ],
+  "bgColors": [
+   {
+    "value": "rgb(255, 255, 255)",
+    "count": 135,
+    "area": 6256246,
+    "sources": [
+     "body",
+     "nav",
+     "#header > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > ul > li:nth-of-type(2) > ul"
+    ]
+   },
+   {
+    "value": "rgb(245, 245, 245)",
+    "count": 125,
+    "area": 4527230,
+    "sources": [
+     "div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > ul > li:nth-of-type(2) > label > div:nth-of-type(1)",
+     "div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > ul > li:nth-of-type(2) > ul > li:nth-of-type(1)",
+     "div:nth-of-type(1) > div:nth-of-type(1) > ul > li:nth-of-type(2) > ul > li:nth-of-type(2) > a > div:nth-of-type(2)"
+    ]
+   },
+   {
+    "value": "rgb(34, 34, 34)",
+    "count": 9,
+    "area": 97200,
+    "sources": [
+     "footer > div > div > div > div:nth-of-type(4) > div > div:nth-of-type(1)",
+     "footer > div > div > div > div:nth-of-type(4) > div > div:nth-of-type(2)",
+     "footer > div > div > div > div:nth-of-type(4) > div > div:nth-of-type(3)"
+    ]
+   },
+   {
+    "value": "rgb(0, 0, 0)",
+    "count": 3,
+    "area": 823545,
+    "sources": [
+     "#header > div:nth-of-type(1) > div:nth-of-type(3) > a",
+     "#header > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a",
+     "footer > div"
+    ]
+   },
+   {
+    "value": "rgb(23, 41, 131)",
+    "count": 2,
+    "area": 33600,
+    "sources": [
+     "#header > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > a",
+     "#otv-tab--1-content > div > div:nth-of-type(7) > a"
+    ]
+   },
+   {
+    "value": "rgb(151, 151, 151)",
+    "count": 2,
+    "area": 4200,
+    "sources": [
+     "#ot-sdk-btn-floating > div:nth-of-type(1)",
+     "#ot-sdk-btn-floating > div:nth-of-type(2)"
+    ]
+   }
+  ],
+  "textColors": [
+   {
+    "value": "rgb(0, 0, 0)",
+    "count": 130,
+    "sources": [
+     "#header > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > ul > li:nth-of-type(1) > label",
+     "div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > ul > li:nth-of-type(2) > label > div:nth-of-type(2)",
+     "div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > ul > li:nth-of-type(2) > ul > li:nth-of-type(1) > label"
+    ]
+   },
+   {
+    "value": "rgb(255, 255, 255)",
+    "count": 25,
+    "sources": [
+     "#header > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a",
+     "#header > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > a",
+     "#header > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > p"
+    ]
+   },
+   {
+    "value": "rgb(33, 37, 41)",
+    "count": 9,
+    "sources": [
+     "li:nth-of-type(7) > ul > li:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(1) > span",
+     "li:nth-of-type(7) > ul > li:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > span",
+     "li:nth-of-type(7) > ul > li:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > span"
+    ]
+   },
+   {
+    "value": "rgb(111, 109, 106)",
+    "count": 6,
+    "sources": [
+     "#otv-tab-0-header",
+     "#otv-tab-1-header",
+     "#otv-tab-2-header"
+    ]
+   },
+   {
+    "value": "rgb(23, 41, 131)",
+    "count": 1,
+    "sources": [
+     "#otv-tab--1-content > div > div:nth-of-type(9) > a"
+    ]
+   },
+   {
+    "value": "rgba(255, 255, 255, 0.6)",
+    "count": 1,
+    "sources": [
+     "footer > div > div > div > div:nth-of-type(7) > div:nth-of-type(1) > p"
+    ]
+   }
+  ],
+  "borderColors": [
+   {
+    "value": "rgb(232, 232, 232)",
+    "count": 107,
+    "sources": [
+     "div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > ul > li:nth-of-type(2) > label > div:nth-of-type(2)",
+     "div:nth-of-type(1) > div:nth-of-type(1) > ul > li:nth-of-type(2) > ul > li:nth-of-type(2) > a > div:nth-of-type(2)",
+     "div:nth-of-type(1) > div:nth-of-type(1) > ul > li:nth-of-type(2) > ul > li:nth-of-type(3) > a > div:nth-of-type(2)"
+    ]
+   },
+   {
+    "value": "rgb(109, 109, 109)",
+    "count": 1,
+    "sources": [
+     "footer > div > div > div > div:nth-of-type(5)"
+    ]
+   },
+   {
+    "value": "rgb(189, 189, 189)",
+    "count": 1,
+    "sources": [
+     "#brand > div > button"
+    ]
+   },
+   {
+    "value": "rgb(23, 41, 131)",
+    "count": 1,
+    "sources": [
+     "#otv-tab--1-content > div > div:nth-of-type(9) > a"
+    ]
+   }
+  ],
+  "customProps": {
+   "--blue": {
+    "declared": "#007bff",
+    "computed": "#007bff"
+   },
+   "--indigo": {
+    "declared": "#6610f2",
+    "computed": "#6610f2"
+   },
+   "--purple": {
+    "declared": "#6f42c1",
+    "computed": "#6f42c1"
+   },
+   "--pink": {
+    "declared": "#e83e8c",
+    "computed": "#e83e8c"
+   },
+   "--red": {
+    "declared": "#dc3545",
+    "computed": "#dc3545"
+   },
+   "--orange": {
+    "declared": "#fd7e14",
+    "computed": "#fd7e14"
+   },
+   "--yellow": {
+    "declared": "#ffc107",
+    "computed": "#ffc107"
+   },
+   "--green": {
+    "declared": "#28a745",
+    "computed": "#28a745"
+   },
+   "--teal": {
+    "declared": "#20c997",
+    "computed": "#20c997"
+   },
+   "--cyan": {
+    "declared": "#17a2b8",
+    "computed": "#17a2b8"
+   },
+   "--white": {
+    "declared": "#fff",
+    "computed": "#fff"
+   },
+   "--gray": {
+    "declared": "#6c757d",
+    "computed": "#6c757d"
+   },
+   "--gray-dark": {
+    "declared": "#343a40",
+    "computed": "#343a40"
+   },
+   "--primary": {
+    "declared": "#007bff",
+    "computed": "#007bff"
+   },
+   "--secondary": {
+    "declared": "#6c757d",
+    "computed": "#6c757d"
+   },
+   "--success": {
+    "declared": "#28a745",
+    "computed": "#28a745"
+   },
+   "--info": {
+    "declared": "#17a2b8",
+    "computed": "#17a2b8"
+   },
+   "--warning": {
+    "declared": "#ffc107",
+    "computed": "#ffc107"
+   },
+   "--danger": {
+    "declared": "#dc3545",
+    "computed": "#dc3545"
+   },
+   "--light": {
+    "declared": "#f8f9fa",
+    "computed": "#f8f9fa"
+   },
+   "--dark": {
+    "declared": "#343a40",
+    "computed": "#343a40"
+   },
+   "--breakpoint-xs": {
+    "declared": "0",
+    "computed": "0"
+   },
+   "--breakpoint-sm": {
+    "declared": "360px",
+    "computed": "360px"
+   },
+   "--breakpoint-md": {
+    "declared": "768px",
+    "computed": "768px"
+   },
+   "--breakpoint-lg": {
+    "declared": "1200px",
+    "computed": "1200px"
+   },
+   "--breakpoint-xl": {
+    "declared": "1920px",
+    "computed": "1920px"
+   },
+   "--font-family-sans-serif": {
+    "declared": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",\"Liberation Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
+    "computed": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",\"Liberation Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\""
+   },
+   "--font-family-monospace": {
+    "declared": "SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+    "computed": "SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace"
+   },
+   "--header-height": {
+    "declared": "160px",
+    "computed": "75px"
+   }
+  },
+  "fonts": [
+   {
+    "family": "hotjar",
+    "weight": "normal",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "amag_displaylight",
+    "weight": "400",
+    "style": "normal",
+    "status": "loaded"
+   },
+   {
+    "family": "amag_displaybold",
+    "weight": "400",
+    "style": "normal",
+    "status": "loaded"
+   },
+   {
+    "family": "amag_textbold",
+    "weight": "400",
+    "style": "normal",
+    "status": "loaded"
+   },
+   {
+    "family": "amag_textlight",
+    "weight": "400",
+    "style": "normal",
+    "status": "loaded"
+   }
+  ],
+  "logoCandidates": [
+   {
+    "tag": "svg",
+    "selector": "#header > div:nth-of-type(1) > div:nth-of-type(3) > a > svg",
+    "src": null,
+    "inlineSvg": true,
+    "hasText": false,
+    "viewBox": "0 0 67 24",
+    "ariaLabel": null,
+    "class": "amag-header__logoImage",
+    "id": null,
+    "href": "/de.html",
+    "inHomeLink": false,
+    "rect": {
+     "x": 14,
+     "y": 29,
+     "w": 48,
+     "h": 17
+    }
+   },
+   {
+    "tag": "svg",
+    "selector": "nav > div > a:nth-of-type(1) > svg",
+    "src": null,
+    "inlineSvg": true,
+    "hasText": false,
+    "viewBox": "0 0 24 24",
+    "ariaLabel": null,
+    "class": "",
+    "id": null,
+    "href": "/de/suche.html",
+    "inHomeLink": false,
+    "rect": {
+     "x": 163,
+     "y": 27,
+     "w": 24,
+     "h": 24
+    }
+   },
+   {
+    "tag": "svg",
+    "selector": "nav > div > div:nth-of-type(1) > a > svg:nth-of-type(1)",
+    "src": null,
+    "inlineSvg": true,
+    "hasText": false,
+    "viewBox": "0 0 24 24",
+    "ariaLabel": null,
+    "class": "loginIcon__loggedOut",
+    "id": null,
+    "href": "/de/user/login.html",
+    "inHomeLink": false,
+    "rect": {
+     "x": 220,
+     "y": 26,
+     "w": 24,
+     "h": 24
+    }
+   },
+   {
+    "tag": "svg",
+    "selector": "nav > div > a:nth-of-type(2) > svg",
+    "src": null,
+    "inlineSvg": true,
+    "hasText": false,
+    "viewBox": "0 0 32 32",
+    "ariaLabel": null,
+    "class": "",
+    "id": null,
+    "href": "https://auto.amag.ch/de/watchlist",
+    "inHomeLink": false,
+    "rect": {
+     "x": 277,
+     "y": 27,
+     "w": 24,
+     "h": 24
+    }
+   },
+   {
+    "tag": "svg",
+    "selector": "nav > div > a:nth-of-type(3) > svg",
+    "src": null,
+    "inlineSvg": true,
+    "hasText": false,
+    "viewBox": "0 0 36 36",
+    "ariaLabel": null,
+    "class": "",
+    "id": null,
+    "href": null,
+    "inHomeLink": false,
+    "rect": {
+     "x": 321,
+     "y": 27,
+     "w": 24,
+     "h": 24
+    }
+   },
+   {
+    "tag": "svg",
+    "selector": "div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > ul > li:nth-of-type(2) > label > div:nth-of-type(1) > svg",
+    "src": null,
+    "inlineSvg": true,
+    "hasText": false,
+    "viewBox": "0 0 32 32",
+    "ariaLabel": null,
+    "class": "",
+    "id": null,
+    "href": null,
+    "inHomeLink": false,
+    "rect": {
+     "x": 386,
+     "y": 207,
+     "w": 24,
+     "h": 32
+    }
+   },
+   {
+    "tag": "svg",
+    "selector": "div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > ul > li:nth-of-type(2) > label > div:nth-of-type(2) > svg",
+    "src": null,
+    "inlineSvg": true,
+    "hasText": false,
+    "viewBox": "0 0 14 24",
+    "ariaLabel": null,
+    "class": "navigation-item__arrow",
+    "id": null,
+    "href": null,
+    "inHomeLink": false,
+    "rect": {
+     "x": 696,
+     "y": 210,
+     "w": 14,
+     "h": 24
+    }
+   },
+   {
+    "tag": "svg",
+    "selector": "div:nth-of-type(1) > div:nth-of-type(1) > ul > li:nth-of-type(2) > ul > li:nth-of-type(1) > label > svg",
+    "src": null,
+    "inlineSvg": true,
+    "hasText": false,
+    "viewBox": "0 0 24 24",
+    "ariaLabel": null,
+    "class": "navigation-item__arrow",
+    "id": null,
+    "href": null,
+    "inHomeLink": false,
+    "rect": {
+     "x": 750,
+     "y": 112,
+     "w": 24,
+     "h": 24
+    }
+   },
+   {
+    "tag": "svg",
+    "selector": "div:nth-of-type(1) > ul > li:nth-of-type(2) > ul > li:nth-of-type(2) > a > div:nth-of-type(1) > svg",
+    "src": null,
+    "inlineSvg": true,
+    "hasText": false,
+    "viewBox": "0 0 32 32",
+    "ariaLabel": null,
+    "class": "",
+    "id": null,
+    "href": "/de/auto-finden.html",
+    "inHomeLink": false,
+    "rect": {
+     "x": 746,
+     "y": 207,
+     "w": 24,
+     "h": 32
+    }
+   },
+   {
+    "tag": "svg",
+    "selector": "div:nth-of-type(1) > ul > li:nth-of-type(2) > ul > li:nth-of-type(4) > label > div:nth-of-type(2) > svg",
+    "src": null,
+    "inlineSvg": true,
+    "hasText": false,
+    "viewBox": "0 0 24 24",
+    "ariaLabel": null,
+    "class": "navigation-item__arrow",
+    "id": null,
+    "href": null,
+    "inHomeLink": false,
+    "rect": {
+     "x": 1046,
+     "y": 408,
+     "w": 24,
+     "h": 24
+    }
+   },
+   {
+    "tag": "svg",
+    "selector": "ul > li:nth-of-type(2) > ul > li:nth-of-type(4) > ul > li:nth-of-type(1) > label > svg",
+    "src": null,
+    "inlineSvg": true,
+    "hasText": false,
+    "viewBox": "0 0 24 24",
+    "ariaLabel": null,
+    "class": "navigation-item__arrow",
+    "id": null,
+    "href": null,
+    "inHomeLink": false,
+    "rect": {
+     "x": 750,
+     "y": 112,
+     "w": 24,
+     "h": 24
+    }
+   },
+   {
+    "tag": "svg",
+    "selector": "li:nth-of-type(2) > ul > li:nth-of-type(4) > ul > li:nth-of-type(2) > a > div:nth-of-type(1) > svg",
+    "src": null,
+    "inlineSvg": true,
+    "hasText": false,
+    "viewBox": "0 0 32 32",
+    "ariaLabel": null,
+    "class": "",
+    "id": null,
+    "href": "/de/auto-finden/autos-bei-amag-haendler.html",
+    "inHomeLink": false,
+    "rect": {
+     "x": 746,
+     "y": 207,
+     "w": 24,
+     "h": 32
+    }
+   }
+  ],
+  "iconFont": null,
+  "consent": {
+   "dismissed": "#onetrust-accept-btn-handler"
+  },
+  "finalUrl": "https://www.amag.ch/de/service/auto-services-online-termin-buchen.html"
+ },
+ "1440": {
+  "title": "Auto-Service: Online-Termin buchen | AMAG",
+  "viewport": {
+   "width": 1440,
+   "height": 900
+  },
+  "elements": {
+   "total": 4592,
+   "visible": 242
+  },
+  "occluders": [],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Ihr Fahrzeug",
+    "selector": "#otv-tab--1-content > div > div:nth-of-type(1) > h2",
+    "fontFamily": "amag_displaybold",
+    "fontSize": "44px",
+    "fontWeight": "500",
+    "lineHeight": "52.8px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "tag": "h4",
+    "text": "Vorteile eines AMAG Kundenkontos",
+    "selector": "#otv-tab--1-content > div > div:nth-of-type(10) > div > h4",
+    "fontFamily": "amag_displaybold",
+    "fontSize": "24px",
+    "fontWeight": "500",
+    "lineHeight": "28px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "text": [
+   {
+    "tag": "p",
+    "text": "Elektromobilität jetzt umsteigen",
+    "selector": "#header > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(1) > a > p",
+    "fontFamily": "amag_textlight",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "tag": "p",
+    "text": "AMAG Group Mobilität, Nachhaltigkeit & …",
+    "selector": "#header > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(2) > a > p",
+    "fontFamily": "amag_textlight",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "tag": "p",
+    "text": "Nr. 1 in der Schweiz mit 90 Standorten",
+    "selector": "#header > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(3) > a > p",
+    "fontFamily": "amag_textlight",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "tag": "p",
+    "text": "Einmalig Fahrzeugmodell auswählen oder …",
+    "selector": "#otv-tab--1-content > div > div:nth-of-type(1) > p",
+    "fontFamily": "amag_displaylight",
+    "fontSize": "20px",
+    "fontWeight": "400",
+    "lineHeight": "24px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "tag": "p",
+    "text": "Bequeme Terminverwaltung mit Übernahme …",
+    "selector": "#otv-tab--1-content > div > div:nth-of-type(10) > div > ul > li:nth-of-type(1) > p",
+    "fontFamily": "amag_textlight",
+    "fontSize": "20px",
+    "fontWeight": "400",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "tag": "p",
+    "text": "Schneller Zugriff auf Ihre Daten",
+    "selector": "#otv-tab--1-content > div > div:nth-of-type(10) > div > ul > li:nth-of-type(2) > p",
+    "fontFamily": "amag_textlight",
+    "fontSize": "20px",
+    "fontWeight": "400",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "tag": "p",
+    "text": "Direkter Kontakt zu Ihrer Garage",
+    "selector": "#otv-tab--1-content > div > div:nth-of-type(10) > div > ul > li:nth-of-type(3) > p",
+    "fontFamily": "amag_textlight",
+    "fontSize": "20px",
+    "fontWeight": "400",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "tag": "p",
+    "text": "Kurze Wartezeiten bei der Annahme",
+    "selector": "#otv-tab--1-content > div > div:nth-of-type(10) > div > ul > li:nth-of-type(4) > p",
+    "fontFamily": "amag_textlight",
+    "fontSize": "20px",
+    "fontWeight": "400",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "tag": "p",
+    "text": "Auto finden & Service",
+    "selector": "footer > div > div > div > div:nth-of-type(2) > a > p",
+    "fontFamily": "amag_textbold",
+    "fontSize": "20px",
+    "fontWeight": "400",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "tag": "p",
+    "text": "Get connected with AMAG",
+    "selector": "footer > div > div > div > div:nth-of-type(5) > a > div:nth-of-type(2) > p:nth-of-type(2)",
+    "fontFamily": "amag_textlight",
+    "fontSize": "20px",
+    "fontWeight": "400",
+    "lineHeight": "30px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "tag": "p",
+    "text": "© 2026 AMAG Automobil und Motoren AG",
+    "selector": "footer > div > div > div > div:nth-of-type(7) > div:nth-of-type(1) > p",
+    "fontFamily": "amag_textlight",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "lineHeight": "48px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgba(255, 255, 255, 0.6)"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "Weiter zur Leistung",
+    "selector": "#otv-tab--1-content > div > div:nth-of-type(7) > a",
+    "count": 1,
+    "backgroundColor": "rgb(23, 41, 131)",
+    "color": "rgb(255, 255, 255)",
+    "borderRadius": "0px",
+    "padding": "0px 40px",
+    "border": "0px none rgb(255, 255, 255)",
+    "borderColor": "rgb(255, 255, 255)",
+    "boxShadow": "none",
+    "fontFamily": "amag_textbold",
+    "fontSize": "20px",
+    "fontWeight": "400",
+    "textTransform": "none",
+    "letterSpacing": "normal",
+    "hover": {
+     "backgroundColor": "rgb(23, 41, 131)",
+     "color": "rgb(255, 255, 255)",
+     "borderColor": "rgb(255, 255, 255)",
+     "boxShadow": "none",
+     "changed": false
+    }
+   },
+   {
+    "text": "Anmelden",
+    "selector": "#otv-tab--1-content > div > div:nth-of-type(9) > a",
+    "count": 1,
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(23, 41, 131)",
+    "borderRadius": "0px",
+    "padding": "0px 40px",
+    "border": "2px solid rgb(23, 41, 131)",
+    "borderColor": "rgb(23, 41, 131)",
+    "boxShadow": "none",
+    "fontFamily": "amag_textbold",
+    "fontSize": "20px",
+    "fontWeight": "400",
+    "textTransform": "none",
+    "letterSpacing": "normal",
+    "hover": {
+     "backgroundColor": "rgb(255, 255, 255)",
+     "color": "rgb(23, 41, 131)",
+     "borderColor": "rgb(23, 41, 131)",
+     "boxShadow": "none",
+     "changed": false
+    }
+   }
+  ],
+  "links": [
+   {
+    "text": "Elektromobilität jetzt umsteigen",
+    "selector": "#header > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(1) > a",
+    "count": 33,
+    "color": "rgb(255, 255, 255)",
+    "textDecoration": "none",
+    "fontWeight": "400",
+    "hover": {
+     "backgroundColor": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "borderColor": "rgb(255, 255, 255)",
+     "boxShadow": "none",
+     "changed": true
+    }
+   },
+   {
+    "text": "Auto finden",
+    "selector": "nav > ul > li:nth-of-type(1) > a",
+    "count": 5,
+    "color": "rgb(0, 0, 0)",
+    "textDecoration": "none",
+    "fontWeight": "400",
+    "hover": {
+     "backgroundColor": "rgba(0, 0, 0, 0)",
+     "color": "rgb(128, 25, 119)",
+     "borderColor": "rgb(128, 25, 119)",
+     "boxShadow": "none",
+     "changed": true
+    }
+   },
+   {
+    "text": "Leistung",
+    "selector": "#otv-tab-0-header",
+    "count": 5,
+    "color": "rgb(111, 109, 106)",
+    "textDecoration": "none",
+    "fontWeight": "400",
+    "hover": null
+   },
+   {
+    "text": "Hilfe & Kontakt",
+    "selector": "footer > div > div > div > div:nth-of-type(1) > a",
+    "count": 4,
+    "color": "rgb(0, 123, 255)",
+    "textDecoration": "none",
+    "fontWeight": "400",
+    "hover": null
+   }
+  ],
+  "surfaces": [
+   {
+    "matched": "header",
+    "selector": "#header",
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 1440,
+     "h": 160
+    },
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "padding": "0px",
+    "maxWidth": "none",
+    "borderRadius": "0px",
+    "boxShadow": "none",
+    "position": "static",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", \"Liberation Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "fontSize": "16px"
+   },
+   {
+    "matched": "nav",
+    "selector": "nav",
+    "rect": {
+     "x": 128,
+     "y": 60,
+     "w": 1312,
+     "h": 100
+    },
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 0)",
+    "padding": "0px",
+    "maxWidth": "none",
+    "borderRadius": "0px",
+    "boxShadow": "none",
+    "position": "relative",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", \"Liberation Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "fontSize": "16px"
+   },
+   {
+    "matched": "footer",
+    "selector": "footer",
+    "rect": {
+     "x": 0,
+     "y": 1210,
+     "w": 1440,
+     "h": 1313
+    },
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "padding": "0px",
+    "maxWidth": "none",
+    "borderRadius": "0px",
+    "boxShadow": "none",
+    "position": "static",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", \"Liberation Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "fontSize": "16px"
+   }
+  ],
+  "radii": [
+   {
+    "value": "4px",
+    "count": 12,
+    "area": 87958,
+    "sources": [
+     "nav > div > div:nth-of-type(1) > a",
+     "nav > div > div:nth-of-type(2) > a",
+     "nav > div > div:nth-of-type(3) > a"
+    ]
+   },
+   {
+    "value": "2px",
+    "count": 1,
+    "area": 15360,
+    "sources": [
+     "#recaptcha > div"
+    ]
+   }
+  ],
+  "shadows": [
+   {
+    "value": "rgba(0, 0, 0, 0.2) 0px 4px 8px 0px",
+    "count": 2,
+    "sources": [
+     "#ot-sdk-btn-floating > div:nth-of-type(1)",
+     "#ot-sdk-btn-floating > div:nth-of-type(2)"
+    ]
+   },
+   {
+    "value": "rgb(128, 128, 128) 0px 0px 5px 0px",
+    "count": 1,
+    "sources": [
+     "#recaptcha > div"
+    ]
+   }
+  ],
+  "gradients": [],
+  "bgColors": [
+   {
+    "value": "rgb(34, 34, 34)",
+    "count": 9,
+    "area": 75330,
+    "sources": [
+     "footer > div > div > div > div:nth-of-type(4) > div > div:nth-of-type(1)",
+     "footer > div > div > div > div:nth-of-type(4) > div > div:nth-of-type(2)",
+     "footer > div > div > div > div:nth-of-type(4) > div > div:nth-of-type(3)"
+    ]
+   },
+   {
+    "value": "rgb(255, 255, 255)",
+    "count": 4,
+    "area": 3807441,
+    "sources": [
+     "body",
+     "nav",
+     "#brand > div > button"
+    ]
+   },
+   {
+    "value": "rgb(0, 0, 0)",
+    "count": 2,
+    "area": 1911200,
+    "sources": [
+     "#header > div:nth-of-type(1) > div:nth-of-type(3) > a",
+     "footer > div"
+    ]
+   },
+   {
+    "value": "rgb(245, 245, 245)",
+    "count": 2,
+    "area": 571595,
+    "sources": [
+     "#amag-otv > div:nth-of-type(1) > div:nth-of-type(1)",
+     "#otv-tab--1-content > div > div:nth-of-type(10) > div"
+    ]
+   },
+   {
+    "value": "rgb(232, 234, 243)",
+    "count": 2,
+    "area": 165120,
+    "sources": [
+     "#header > div:nth-of-type(1) > div:nth-of-type(2)",
+     "#header > div:nth-of-type(1) > div:nth-of-type(6)"
+    ]
+   },
+   {
+    "value": "rgb(151, 151, 151)",
+    "count": 2,
+    "area": 4200,
+    "sources": [
+     "#ot-sdk-btn-floating > div:nth-of-type(1)",
+     "#ot-sdk-btn-floating > div:nth-of-type(2)"
+    ]
+   },
+   {
+    "value": "rgb(128, 25, 119)",
+    "count": 1,
+    "area": 78720,
+    "sources": [
+     "#header > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div"
+    ]
+   },
+   {
+    "value": "rgb(23, 41, 131)",
+    "count": 1,
+    "area": 28750,
+    "sources": [
+     "#otv-tab--1-content > div > div:nth-of-type(7) > a"
+    ]
+   }
+  ],
+  "textColors": [
+   {
+    "value": "rgb(255, 255, 255)",
+    "count": 43,
+    "sources": [
+     "#header > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(1) > a > p",
+     "div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(1) > a > p > span",
+     "#header > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(2) > a > p"
+    ]
+   },
+   {
+    "value": "rgb(0, 0, 0)",
+    "count": 16,
+    "sources": [
+     "nav > ul > li:nth-of-type(1) > a",
+     "nav > ul > li:nth-of-type(2) > a",
+     "nav > ul > li:nth-of-type(3) > a"
+    ]
+   },
+   {
+    "value": "rgb(111, 109, 106)",
+    "count": 6,
+    "sources": [
+     "#otv-tab-0-header",
+     "#otv-tab-1-header",
+     "#otv-tab-2-header"
+    ]
+   },
+   {
+    "value": "rgb(23, 41, 131)",
+    "count": 1,
+    "sources": [
+     "#otv-tab--1-content > div > div:nth-of-type(9) > a"
+    ]
+   },
+   {
+    "value": "rgb(33, 37, 41)",
+    "count": 1,
+    "sources": [
+     "nav > div > div:nth-of-type(3) > a"
+    ]
+   },
+   {
+    "value": "rgba(255, 255, 255, 0.6)",
+    "count": 1,
+    "sources": [
+     "footer > div > div > div > div:nth-of-type(7) > div:nth-of-type(1) > p"
+    ]
+   }
+  ],
+  "borderColors": [
+   {
+    "value": "rgb(0, 0, 0)",
+    "count": 1,
+    "sources": [
+     "#header > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > a"
+    ]
+   },
+   {
+    "value": "rgb(109, 109, 109)",
+    "count": 1,
+    "sources": [
+     "footer > div > div > div > div:nth-of-type(5)"
+    ]
+   },
+   {
+    "value": "rgb(189, 189, 189)",
+    "count": 1,
+    "sources": [
+     "#brand > div > button"
+    ]
+   },
+   {
+    "value": "rgb(23, 41, 131)",
+    "count": 1,
+    "sources": [
+     "#otv-tab--1-content > div > div:nth-of-type(9) > a"
+    ]
+   }
+  ],
+  "customProps": {
+   "--blue": {
+    "declared": "#007bff",
+    "computed": "#007bff"
+   },
+   "--indigo": {
+    "declared": "#6610f2",
+    "computed": "#6610f2"
+   },
+   "--purple": {
+    "declared": "#6f42c1",
+    "computed": "#6f42c1"
+   },
+   "--pink": {
+    "declared": "#e83e8c",
+    "computed": "#e83e8c"
+   },
+   "--red": {
+    "declared": "#dc3545",
+    "computed": "#dc3545"
+   },
+   "--orange": {
+    "declared": "#fd7e14",
+    "computed": "#fd7e14"
+   },
+   "--yellow": {
+    "declared": "#ffc107",
+    "computed": "#ffc107"
+   },
+   "--green": {
+    "declared": "#28a745",
+    "computed": "#28a745"
+   },
+   "--teal": {
+    "declared": "#20c997",
+    "computed": "#20c997"
+   },
+   "--cyan": {
+    "declared": "#17a2b8",
+    "computed": "#17a2b8"
+   },
+   "--white": {
+    "declared": "#fff",
+    "computed": "#fff"
+   },
+   "--gray": {
+    "declared": "#6c757d",
+    "computed": "#6c757d"
+   },
+   "--gray-dark": {
+    "declared": "#343a40",
+    "computed": "#343a40"
+   },
+   "--primary": {
+    "declared": "#007bff",
+    "computed": "#007bff"
+   },
+   "--secondary": {
+    "declared": "#6c757d",
+    "computed": "#6c757d"
+   },
+   "--success": {
+    "declared": "#28a745",
+    "computed": "#28a745"
+   },
+   "--info": {
+    "declared": "#17a2b8",
+    "computed": "#17a2b8"
+   },
+   "--warning": {
+    "declared": "#ffc107",
+    "computed": "#ffc107"
+   },
+   "--danger": {
+    "declared": "#dc3545",
+    "computed": "#dc3545"
+   },
+   "--light": {
+    "declared": "#f8f9fa",
+    "computed": "#f8f9fa"
+   },
+   "--dark": {
+    "declared": "#343a40",
+    "computed": "#343a40"
+   },
+   "--breakpoint-xs": {
+    "declared": "0",
+    "computed": "0"
+   },
+   "--breakpoint-sm": {
+    "declared": "360px",
+    "computed": "360px"
+   },
+   "--breakpoint-md": {
+    "declared": "768px",
+    "computed": "768px"
+   },
+   "--breakpoint-lg": {
+    "declared": "1200px",
+    "computed": "1200px"
+   },
+   "--breakpoint-xl": {
+    "declared": "1920px",
+    "computed": "1920px"
+   },
+   "--font-family-sans-serif": {
+    "declared": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",\"Liberation Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
+    "computed": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",\"Liberation Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\""
+   },
+   "--font-family-monospace": {
+    "declared": "SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+    "computed": "SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace"
+   },
+   "--header-height": {
+    "declared": "160px",
+    "computed": "160px"
+   }
+  },
+  "fonts": [
+   {
+    "family": "hotjar",
+    "weight": "normal",
+    "style": "normal",
+    "status": "unloaded"
+   },
+   {
+    "family": "amag_displaylight",
+    "weight": "400",
+    "style": "normal",
+    "status": "loaded"
+   },
+   {
+    "family": "amag_displaybold",
+    "weight": "400",
+    "style": "normal",
+    "status": "loaded"
+   },
+   {
+    "family": "amag_textbold",
+    "weight": "400",
+    "style": "normal",
+    "status": "loaded"
+   },
+   {
+    "family": "amag_textlight",
+    "weight": "400",
+    "style": "normal",
+    "status": "loaded"
+   }
+  ],
+  "logoCandidates": [
+   {
+    "tag": "svg",
+    "selector": "#header > div:nth-of-type(1) > div:nth-of-type(3) > a > svg",
+    "src": null,
+    "inlineSvg": true,
+    "hasText": false,
+    "viewBox": "0 0 67 24",
+    "ariaLabel": null,
+    "class": "amag-header__logoImage",
+    "id": null,
+    "href": "/de.html",
+    "inHomeLink": false,
+    "rect": {
+     "x": 31,
+     "y": 68,
+     "w": 66,
+     "h": 24
+    }
+   },
+   {
+    "tag": "img",
+    "selector": "#header > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(1) > a > img",
+    "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/shopping-cart-empty-1.svg",
+    "inlineSvg": false,
+    "alt": "Voitures neuves",
+    "ariaLabel": null,
+    "class": "",
+    "id": null,
+    "href": "/de/auto-finden/autos-bei-amag-haendler/e-mobilitaet.html",
+    "inHomeLink": false,
+    "rect": {
+     "x": 206,
+     "y": 18,
+     "w": 24,
+     "h": 24
+    }
+   },
+   {
+    "tag": "img",
+    "selector": "#header > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(2) > a > img",
+    "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/check-circle.svg",
+    "inlineSvg": false,
+    "alt": "Nummer eins",
+    "ariaLabel": null,
+    "class": "",
+    "id": null,
+    "href": "https://www.amag-group.ch/de/energy-und-mobility/loesungen.html",
+    "inHomeLink": false,
+    "rect": {
+     "x": 574,
+     "y": 19,
+     "w": 23,
+     "h": 23
+    }
+   },
+   {
+    "tag": "img",
+    "selector": "#header > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(3) > a > img",
+    "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/shop-1.svg",
+    "inlineSvg": false,
+    "alt": "Standorte in Ihrer Nähe",
+    "ariaLabel": null,
+    "class": "",
+    "id": null,
+    "href": "/de/komponenten/storelocator.html",
+    "inHomeLink": false,
+    "rect": {
+     "x": 1034,
+     "y": 18,
+     "w": 24,
+     "h": 24
+    }
+   },
+   {
+    "tag": "svg",
+    "selector": "nav > div > a:nth-of-type(1) > svg",
+    "src": null,
+    "inlineSvg": true,
+    "hasText": false,
+    "viewBox": "0 0 24 24",
+    "ariaLabel": null,
+    "class": "",
+    "id": null,
+    "href": "/de/suche.html",
+    "inHomeLink": false,
+    "rect": {
+     "x": 915,
+     "y": 99,
+     "w": 24,
+     "h": 24
+    }
+   },
+   {
+    "tag": "svg",
+    "selector": "nav > div > div:nth-of-type(1) > a > svg:nth-of-type(1)",
+    "src": null,
+    "inlineSvg": true,
+    "hasText": false,
+    "viewBox": "0 0 24 24",
+    "ariaLabel": null,
+    "class": "loginIcon__loggedOut",
+    "id": null,
+    "href": "/de/user/login.html",
+    "inHomeLink": false,
+    "rect": {
+     "x": 994,
+     "y": 98,
+     "w": 24,
+     "h": 24
+    }
+   },
+   {
+    "tag": "svg",
+    "selector": "nav > div > a:nth-of-type(2) > svg",
+    "src": null,
+    "inlineSvg": true,
+    "hasText": false,
+    "viewBox": "0 0 32 32",
+    "ariaLabel": null,
+    "class": "",
+    "id": null,
+    "href": "https://auto.amag.ch/de/watchlist",
+    "inHomeLink": false,
+    "rect": {
+     "x": 1058,
+     "y": 99,
+     "w": 24,
+     "h": 24
+    }
+   },
+   {
+    "tag": "svg",
+    "selector": "nav > div > div:nth-of-type(2) > a > svg",
+    "src": null,
+    "inlineSvg": true,
+    "hasText": false,
+    "viewBox": "0 0 24 24",
+    "ariaLabel": null,
+    "class": "amag-header__garageIcon",
+    "id": null,
+    "href": null,
+    "inHomeLink": false,
+    "rect": {
+     "x": 1125,
+     "y": 98,
+     "w": 24,
+     "h": 24
+    }
+   },
+   {
+    "tag": "svg",
+    "selector": "nav > div > div:nth-of-type(3) > a > svg",
+    "src": null,
+    "inlineSvg": true,
+    "hasText": false,
+    "viewBox": "0 0 16 16",
+    "ariaLabel": null,
+    "class": "",
+    "id": null,
+    "href": null,
+    "inHomeLink": false,
+    "rect": {
+     "x": 1368,
+     "y": 94,
+     "w": 24,
+     "h": 24
+    }
+   },
+   {
+    "tag": "svg",
+    "selector": "#header > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(2) > svg",
+    "src": null,
+    "inlineSvg": true,
+    "hasText": false,
+    "viewBox": "0 0 24 24",
+    "ariaLabel": null,
+    "class": "amag-pop-up__icon-svg size-m",
+    "id": null,
+    "href": null,
+    "inHomeLink": false,
+    "rect": {
+     "x": 1191,
+     "y": -37,
+     "w": 16,
+     "h": 16
+    }
+   }
+  ],
+  "iconFont": null,
+  "consent": {
+   "dismissed": "#onetrust-accept-btn-handler"
+  },
+  "finalUrl": "https://www.amag.ch/de/service/auto-services-online-termin-buchen.html"
+ }
+}
