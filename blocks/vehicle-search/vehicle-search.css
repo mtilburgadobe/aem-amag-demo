@@ -1,0 +1,299 @@
+/* vehicle-search — values lifted from the prototype page CSS (dspSearch + select2 skin,
+   en-html.css) and canon.css (section shell). */
+.vehicle-search {
+  position: relative;
+  background: #fff;
+}
+
+.vehicle-search.band {
+  padding-top: 80px;
+}
+
+.vehicle-search.first-section.band {
+  padding-top: 0;
+}
+
+.vehicle-search.section-end {
+  padding-bottom: 80px;
+}
+
+.vehicle-search .wrap {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0 var(--section-gutter);
+}
+
+/* head: icon | headline, intro below */
+.vehicle-search .head {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vehicle-search .icon {
+  width: 100%;
+  min-height: 40px;
+  margin-bottom: 44px;
+}
+
+.vehicle-search .icon p {
+  margin: 0;
+}
+
+.vehicle-search .icon picture {
+  display: block;
+}
+
+.vehicle-search .icon img {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.vehicle-search .headline {
+  width: 100%;
+}
+
+.vehicle-search .headline :is(h1, h2, h3) {
+  font-family: var(--font-display-bold);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 36px;
+  margin: 0;
+}
+
+.vehicle-search .intro {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.vehicle-search .intro p {
+  font-family: var(--font-text-light);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0;
+}
+
+/* pickers */
+.vehicle-search .grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vehicle-search .filter {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 27px 0 0;
+}
+
+.vehicle-search .field {
+  position: relative;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.vehicle-search .field-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.vehicle-search .field-label p {
+  margin: 0;
+}
+
+.vehicle-search .field-box {
+  position: relative;
+  height: 56px;
+  border-bottom: 1px solid var(--amag-grey-400);
+}
+
+.vehicle-search .field-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.vehicle-search .field-list li {
+  display: none;
+  color: #000;
+  font-family: var(--font-text-light);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  padding: 15px 40px 10px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.vehicle-search .field-list li[aria-selected="true"] {
+  display: block;
+}
+
+.vehicle-search .field.open .field-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  max-height: 320px;
+  overflow-y: auto;
+  background: #fff;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 15%);
+}
+
+.vehicle-search .field.open .field-list li {
+  display: block;
+  padding: 10px 15px;
+  white-space: normal;
+}
+
+.vehicle-search .field.open .field-list li[aria-selected="true"] {
+  background: var(--amag-grey-100);
+}
+
+.vehicle-search .field.disabled .field-list li {
+  color: var(--amag-grey-400);
+  cursor: default;
+}
+
+.vehicle-search .field-toggle {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.vehicle-search .field-toggle::after {
+  content: "";
+  position: absolute;
+  top: 13px;
+  right: 8px;
+  display: block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid var(--amag-violet);
+  border-width: 0 1px 1px 0;
+  transform: rotate(48deg) skew(5deg);
+}
+
+.vehicle-search .field.disabled .field-toggle {
+  cursor: default;
+}
+
+.vehicle-search .field.disabled .field-toggle::after {
+  border-color: var(--amag-grey-400);
+}
+
+/* CTA: the marketplace link (em → secondary violet button) */
+.vehicle-search .search {
+  width: 100vw;
+  margin: 0 -15px;
+  padding: 45px 0 0;
+}
+
+.vehicle-search .cta p {
+  margin: 0;
+}
+
+.vehicle-search .cta a:any-link {
+  width: 100%;
+  border-radius: 2px;
+}
+
+.vehicle-search .glyph svg {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+@media (width >= 768px) {
+  .vehicle-search .icon {
+    width: 8.3333%;
+    margin-left: 16.6667%;
+    margin-bottom: 0;
+  }
+
+  .vehicle-search .headline {
+    width: 58.3333%;
+  }
+
+  .vehicle-search .intro {
+    width: 66.6667%;
+    margin-left: 16.6667%;
+    padding-top: 18px;
+  }
+
+  .vehicle-search .filter {
+    width: 66.6667%;
+    margin-left: 16.6667%;
+    padding: 40px 15px 0;
+  }
+
+  .vehicle-search .field {
+    margin-top: 20px;
+  }
+
+  .vehicle-search .search {
+    width: 66.6667%;
+    margin: 0 0 0 16.6667%;
+    padding: 45px 15px;
+  }
+}
+
+@media (width >= 1200px) {
+  .vehicle-search.band {
+    padding-top: 120px;
+  }
+
+  .vehicle-search.section-end {
+    padding-bottom: 120px;
+  }
+
+  .vehicle-search .icon {
+    margin-left: 0;
+  }
+
+  .vehicle-search .headline {
+    width: 91.6667%;
+  }
+
+  .vehicle-search .headline :is(h1, h2, h3) {
+    font-size: 44px;
+    line-height: 48px;
+  }
+
+  .vehicle-search .intro {
+    width: 100%;
+    margin-left: 0;
+    padding-top: 20px;
+  }
+
+  .vehicle-search .filter {
+    flex-wrap: nowrap;
+    width: 75%;
+    margin-left: 0;
+    padding: 40px 15px 0;
+  }
+
+  .vehicle-search .field {
+    width: 25%;
+    padding: 0 15px;
+  }
+
+  .vehicle-search .search {
+    width: 25%;
+    margin: 0;
+    padding: 41px 15px 45px;
+  }
+}

@@ -1,0 +1,2982 @@
+{
+  "slug": "de-service-reifen-und-raeder-winterreifen-html",
+  "type": "article",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hero-split",
+    "breadcrumb",
+    "long-form-article",
+    "promo-teaser",
+    "image-text-card",
+    "pledge-row",
+    "cta-band",
+    "accordion-faq"
+  ],
+  "slotsFilled": [
+    "amag-content"
+  ],
+  "canonShas": {
+    "header": "ac4fb6df740c",
+    "footer": "313fc573bbce",
+    "css": "bf6ac7a8414d"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Winterreifen wechseln, einlagern oder kaufen in Ihrer AMAG Garage | AMAG",
+    "description": "Winterreifen wechseln, einlagern oder kaufen: AMAG bietet den besten Winterreifen Service. Jetzt Termin vereinbaren.",
+    "canonical": null,
+    "lang": "de"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Winterreifen wechseln, einlagern oder kaufen in Ihrer AMAG Garage | AMAG",
+    "description": "Winterreifen wechseln, einlagern oder kaufen: AMAG bietet den besten Winterreifen Service. Jetzt Termin vereinbaren.",
+    "mainEntityOfPage": "https://www.amag.ch/de/service/reifen-und-raeder/winterreifen.html"
+  },
+  "migratedAt": "2026-10-08T19:01:40Z",
+  "designMdSha": "d22638837e51",
+  "designJsonSha": "97b05bd4a1b8",
+  "sourceCurrentSha": "30526912c069",
+  "sourceProposedSha": "2dd80c6ddd0d",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "content-fidelity",
+    "content-count",
+    "delivery-lint"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "verbatim captured content; Phase 4 content-diff 0 structural on main+chrome roots (stardust/replica/gates/de-service-reifen-und-raeder-winterreifen-html-1440, -360)",
+    "pixel-gate-1440": "FAIL: units off 2 hidden 0 missing 0 — 0.89%, height delta 0px, clipped 0, content n/a (stardust/replica/gates/prototypes-1440/summary.md) [prototype regime]",
+    "pixel-gate-360": "FAIL: units off 2 hidden 0 missing 0 — 3.66%, height delta 0px, clipped 0, content n/a (stardust/replica/gates/prototypes-360/summary.md) [prototype regime]",
+    "content-count": "content-diff: 9 (0 structural 🔴) (de-service-reifen-und-raeder-winterreifen-html-360-fix1.log)",
+    "media-reconcile": "n/a: no delivered content file yet (content/de/service/reifen-und-raeder/winterreifen.html) — media-reconcile runs in the delivery chain (row C)",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /de/service/reifen-und-raeder/winterreifen)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 59,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/de/events/emotiondays.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/e-mobilitaet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/komponenten/storelocator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/komponenten/storelocator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/jobs-amag.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/suche.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/user/login.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/komponenten/storelocator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/services/pneus-roues/pneus-hiver.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/servizi/ruote-pneumatici/pneumatici-invernali.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/tyre-service/winter-tyres.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/alle-autos-bei-amag.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/lagerfahrzeug.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/vorfuehrwagen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/occasionen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/occasionen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/occasionen/occasionen-leasing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/occasionen/elektro-occasionen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/e-mobilitaet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/abo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/abo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/abo/faq.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/fleet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/neuwagen-konfigurieren.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/leasing-bei-amag.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/finanzierungen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/amag-kauft-mein-auto.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/camper.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/camper.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/camper/camper.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/suv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/van.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/bus.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/limousine.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/coupe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/cabriolet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/kombi.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/gewerbe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner/helion.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner/clyde.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner/ducati.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner/microlino.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner/allride.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/vw/vw-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/audi/audi-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/seat/seat-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/skoda/skoda-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/cupra/cupra-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/vw-nutzfahrzeuge/nutzfahrzeuge-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/bentley/bentley-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/autos-bei-amag-haendler/microlino.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/partner/ducati.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder/reifenwechsel-buchen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder/raederhotel.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder/komplettraeder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder/felgenreparatur.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder/sommerreifen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/saison-check.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/saison-check.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/saison-check/feriencheck.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/auto-service-unterhalt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/elektro-ladestationen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/app.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung/audi-versicherung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung/vw-versicherung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung/seat-versicherung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung/skoda-versicherung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung/vwnutzfahrzeuge-versicherung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung/audi-versicherung-occasionen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung/vw-versicherung-occasionen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung/seat-versicherung-occasionen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung/skoda-versicherung-occasionen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung/vwnutzfahrzeuge-versicherung-occasionen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/abt-sportsline.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/zubehoer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/amag-classic.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/amag-classic.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/amag-classic/ansprechpartner.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/amag-classic/synfuel.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/carwash.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/schadenmeldung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/schadenmeldung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/schadenmeldung/ratgeber.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/karosserie-und-lack.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/karosserie-tesla.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/hagelschaden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/scheiben-und-glas.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/versicherung-und-garantie.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/karten/ladekarte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/komponenten/storelocator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/jobs-amag.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/komponenten/storelocator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/services/pneus-roues/pneus-hiver.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/servizi/ruote-pneumatici/pneumatici-invernali.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/tyre-service/winter-tyres.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/service/otv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/alle-autos-bei-amag.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/lagerfahrzeug.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/vorfuehrwagen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/occasionen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/e-mobilitaet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/abo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/fleet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/neuwagen-konfigurieren.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/leasing-bei-amag.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/finanzierungen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/amag-kauft-mein-auto.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/camper.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/suv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/van.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/bus.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/limousine.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/coupe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/cabriolet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/kombi.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/gewerbe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner/helion.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner/clyde.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner/ducati.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner/microlino.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner/allride.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/autos-bei-amag-haendler/e-mobilitaet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/probefahrt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/nach-marken.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/vw/vw-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/audi/audi-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/seat/seat-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/skoda/skoda-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/cupra/cupra-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/vw-nutzfahrzeuge/nutzfahrzeuge-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/bentley/bentley-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/autos-bei-amag-haendler/microlino.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/partner/ducati.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder/reifenwechsel-buchen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder/raederhotel.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder/komplettraeder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder/felgenreparatur.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder/sommerreifen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/saison-check.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/auto-service-unterhalt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/elektro-ladestationen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/app.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/abt-sportsline.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/zubehoer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/amag-classic.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/carwash.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/schadenmeldung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/karosserie-und-lack.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/karosserie-tesla.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/hagelschaden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/scheiben-und-glas.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/versicherung-und-garantie.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/service/otv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/service/hilfe-im-schadensfall/schadenmeldung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/aktuelles-angebot-fuer-sie.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/karten/ladekarte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/komponenten/storelocator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/events/emotiondays.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3962",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3537",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#606",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#673",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#400",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#9200",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#698",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#540",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#121",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#90",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#161",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#100",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#399",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#140",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#6140",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#364",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#380",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3380",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#150",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#227",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#790",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3965",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3964",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3963",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#302",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#289",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#357",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#165",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3065",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3100",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#254",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#6696",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3125",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#330",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#190",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#460",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#6601",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#348",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#200",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#219",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#220",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#92",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#173",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3346",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#523",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#739",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#760",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#138",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#690",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#260",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#327",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#320",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#710",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#129",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#350",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#369",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3690",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#232",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#137",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#373",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#244",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#248",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3570",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#290",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#437",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#136",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#655",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#659",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#463",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#464",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#9201",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#240",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#130",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#127",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#450",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#1",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#788",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#500",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#610",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#376",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#570",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#680",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#6831",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#650",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#151",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#6136",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#600",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#6114",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#781",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#272",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#674",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#6772",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#620",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#6841",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#155",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#645",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#122",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#635",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#798",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3972",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3962",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3537",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#606",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#673",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#400",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#9200",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#698",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#540",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#121",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#90",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#161",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#100",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#399",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#140",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#6140",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#364",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#380",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3380",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#150",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#227",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#790",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3965",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3964",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3963",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#302",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#289",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#357",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#165",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3065",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3100",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#254",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#6696",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3125",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#330",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#190",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#460",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#6601",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#348",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#200",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#219",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#220",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#92",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#173",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3346",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#523",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#739",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#760",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#138",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#690",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#260",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#327",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#320",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#710",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#129",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#350",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#369",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3690",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#232",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#137",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#373",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#244",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#248",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3570",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#290",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#437",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#136",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#655",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#659",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#463",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#464",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#9201",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#240",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#130",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#127",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#450",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#1",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#788",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#500",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#610",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#376",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#570",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#680",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#6831",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#650",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#151",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#6136",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#600",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#6114",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#781",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#272",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#674",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#6772",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#620",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#6841",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#155",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#645",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#122",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#635",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#798",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3972",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/carrosserie-center-lengwil.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-aarau.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-aigle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-altstetten.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/audi-center-luzern.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/auto-abo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/autowelt-zuerich.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-baden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-basel.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-bellinzona.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-bendern.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-bern.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-beromuenster.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-biel.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-biel-laengfeldweg.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/centro-audi-breganzona.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-buchrain.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/nutzfahrzeuge-center-buchrain.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-buchs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-bulle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-buelach.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/carrosseriecenter-gumefens.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/carrosserie-center-wettswil.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/carrosseriecenter-zuchwil.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/occasions-center-crissier.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/occasions-center-genf.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/centro-occasioni-lugano.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-chur.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-chur.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-chatelaine.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-chatelaine.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-coldrerio.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-crissier.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-crissier.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-davos.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-dulliken.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-emmen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-etoy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-frauenfeld.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-fribourg.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-fribourg.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-giubiasco-skoda.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-giubiasco-audi.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-guemligen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-heerbrugg.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-horgen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-jona.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-kleinbasel.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-kloten.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-kreuzlingen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-la-tour-de-treme.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-lausanne.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-letzigrund.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-liestal.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-lugano.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/mendrisio.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/mendrisio.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-murten.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-muttenz.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-noranco.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-nyon.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-nyon-champ-colin.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/occasions-center-contone.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/occasions-center-muenchenbuchsee.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/occasions-center-oftringen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/occasions-center-pratteln.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/occasions-center-sihlbrugg.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/occasions-center-zuerich.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-oftringen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-oftringen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/online-sales.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-petit-lancy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-pratteln.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-rheinfelden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-schaffhausen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-schinznach-bad.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-schlieren.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-solothurn.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-st-legier.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-sursee.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-thun.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-uster.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/nutzfahrzeuge-center-uster.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-zuerich-utoquai.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-vaduz.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-vernier.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-vevey.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-villeneuve.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-volketswil.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-weinfelden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-wettingen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-wettswil.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-winterthur.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-winterthur.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-zuchwil.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-zug.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-basel.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-zug.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/autowelt-zuerich.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-bentley-zug.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder/raederhotel.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder/reifengarantie.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3962",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3537",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#606",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#673",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#400",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#9200",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#698",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#540",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#121",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#90",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#161",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#100",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#399",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#140",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#6140",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#364",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#380",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3380",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#150",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#227",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#790",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3965",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3964",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3963",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#302",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#289",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#357",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#165",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3065",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3100",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#254",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#6696",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3125",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#330",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#190",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#460",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#6601",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#348",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#200",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#219",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#220",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#92",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#173",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3346",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#523",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#739",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#760",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#138",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#690",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#260",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#327",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#320",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#710",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#129",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#350",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#369",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3690",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#232",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#137",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#373",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#244",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#248",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3570",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#290",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#437",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#136",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#655",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#659",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#463",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#464",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#9201",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#240",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#130",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#127",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#450",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#1",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#788",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#500",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#610",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#376",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#570",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#680",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#6831",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#650",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#151",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#6136",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#600",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#6114",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#781",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#272",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#674",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#6772",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#620",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#6841",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#155",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#645",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#122",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#635",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#798",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html#3972",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/carrosserie-center-lengwil.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-aarau.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-aigle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-altstetten.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/audi-center-luzern.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/auto-abo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/autowelt-zuerich.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-baden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-basel.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-bellinzona.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-bendern.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-bern.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-beromuenster.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-biel.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-biel-laengfeldweg.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/centro-audi-breganzona.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-buchrain.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/nutzfahrzeuge-center-buchrain.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-buchs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-bulle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-buelach.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/carrosseriecenter-gumefens.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/carrosserie-center-wettswil.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/carrosseriecenter-zuchwil.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/occasions-center-crissier.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/occasions-center-genf.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/centro-occasioni-lugano.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-chur.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-chur.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-chatelaine.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-chatelaine.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-coldrerio.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-crissier.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-crissier.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-davos.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-dulliken.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-emmen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-etoy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-frauenfeld.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-fribourg.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-fribourg.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-giubiasco-skoda.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-giubiasco-audi.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-guemligen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-heerbrugg.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-horgen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-jona.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-kleinbasel.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-kloten.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-kreuzlingen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-la-tour-de-treme.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-lausanne.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-letzigrund.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-liestal.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-lugano.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/mendrisio.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/mendrisio.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-murten.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-muttenz.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-noranco.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-nyon.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-nyon-champ-colin.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/occasions-center-contone.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/occasions-center-muenchenbuchsee.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/occasions-center-oftringen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/occasions-center-pratteln.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/occasions-center-sihlbrugg.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/occasions-center-zuerich.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-oftringen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-oftringen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/online-sales.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-petit-lancy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-pratteln.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-rheinfelden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-schaffhausen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-schinznach-bad.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-schlieren.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-solothurn.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-st-legier.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-sursee.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-thun.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-uster.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/nutzfahrzeuge-center-uster.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-zuerich-utoquai.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-vaduz.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-vernier.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-vevey.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-villeneuve.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-volketswil.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-weinfelden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-wettingen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-wettswil.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-winterthur.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-winterthur.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-zuchwil.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-zug.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-basel.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-zug.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/autowelt-zuerich.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/garagenuebersicht/garage-bentley-zug.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/komponenten/storelocator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/service/reifen-und-raeder/raederhotel.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/probefahrt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/e-mobilitaet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/kontakt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/komponenten/storelocator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/fleet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/newsletter/subscribe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/versicherung-und-garantie.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/komponenten/storelocator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/abo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/clyde.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/ueber-uns.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/ueber-uns/esg.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/jobs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/vw/vw-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/audi/audi-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/seat/seat-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/skoda/skoda-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/cupra/cupra-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/vw-nutzfahrzeuge/nutzfahrzeuge-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/bentley/bentley-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/autos-bei-amag-haendler/microlino.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/garagenuebersicht/garage-volketswil.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/app.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/rechtliche-hinweise-online-chat.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/impressum.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/agb.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "de/service/reifen-und-raeder/winterreifen.html",
+  "outputPathDefault": null,
+  "sidecar": "de/service/reifen-und-raeder/winterreifen._meta.json",
+  "driverVersion": "1"
+}

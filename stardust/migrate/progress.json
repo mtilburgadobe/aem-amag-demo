@@ -1,0 +1,40 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "en-html",
+        "en-services-html",
+        "en-komponenten-car-dealers-html",
+        "de-service-auto-services-online-termin-buchen-html",
+        "de-service-reifen-und-raeder-winterreifen-html"
+      ],
+      "pages": 5,
+      "startedAt": "2026-10-08T19:00:30Z",
+      "endedAt": "2026-10-08T19:00:30Z",
+      "verdict": "5 pages in scope, all Path A (approved archetypes, one per template); 0 siblings (no render clusters after the archetype units); 0 Path B; page map 5 entries, 0 collisions; canon stardust/prototypes/css/canon.css"
+    },
+    "archetypes": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "en-html",
+        "en-services-html",
+        "en-komponenten-car-dealers-html",
+        "de-service-auto-services-online-termin-buchen-html",
+        "de-service-reifen-und-raeder-winterreifen-html"
+      ],
+      "pages": 5,
+      "startedAt": "2026-10-08T19:00:30.628Z",
+      "endedAt": "2026-10-08T19:02:33.075Z",
+      "verdict": "rendered 5, unchanged 0, refused 0, passthrough 0 → stardust/migrated/ (Path A ×5; <main> wrapper added around div.amag-content in the prototypes for strict 2; modules[] + content-fidelity recorded; gate-evidence sidecars filled)"
+    },
+    "report": {
+      "status": "pending",
+      "kind": "report",
+      "templates": [],
+      "pages": 5
+    }
+  }
+}

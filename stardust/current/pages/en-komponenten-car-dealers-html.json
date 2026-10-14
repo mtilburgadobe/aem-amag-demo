@@ -1,0 +1,3447 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-08T14:43:36.484Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "en-komponenten-car-dealers-html",
+  "url": "https://www.amag.ch/en/komponenten/car-dealers.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-08T14:43:36.484Z",
+  "finalUrl": "https://www.amag.ch/en/komponenten/car-dealers.html",
+  "title": "Find AMAG car dealers near you",
+  "description": "Find AMAG car dealers near you using our store locator. Discover a wide selection of cars and services.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h3",
+      "text": "Search garage"
+    }
+  ],
+  "body": [
+    "Electromobility switch now",
+    "AMAG Group Mobility, Sustainability & Future",
+    "No. 1 Car Dealer in Switzerland with 90 locations",
+    "Find a vehicle",
+    "Services",
+    "Find garage",
+    "Jobs",
+    "My garage",
+    "AMAG Aarau",
+    "Rohrerstrasse 29",
+    "5000 Aarau",
+    "AMAG Aigle",
+    "Chemin des Orlons 1",
+    "1860 Aigle",
+    "AMAG Altstetten",
+    "Vulkanstrasse 120",
+    "8048 Zürich",
+    "AMAG Audi Center Luzern",
+    "Grabenhofstrasse 10",
+    "6010 Kriens",
+    "AMAG Auto-Abo",
+    "Giessenstrasse",
+    "8600 Dübendorf",
+    "AMAG Autowelt Zürich",
+    "Giessenstrasse 4",
+    "8600 Dübendorf",
+    "AMAG Baden",
+    "Winkelstrasse 2",
+    "5442 Fislisbach",
+    "AMAG Basel",
+    "Reinacherstrasse 149/151",
+    "4053 Basel",
+    "AMAG Bellinzona",
+    "Via San Gottardo 71",
+    "6500 Bellinzona",
+    "AMAG Bendern",
+    "Ober Au 4",
+    "9487 Gamprin-Bendern",
+    "AMAG Bern",
+    "Wankdorffeldstrasse 60",
+    "3014 Bern",
+    "AMAG Beromünster",
+    "Aargauerstrasse 13",
+    "6215 Beromünster",
+    "AMAG Biel / Bienne",
+    "Römerstrasse 16",
+    "2555 Brügg",
+    "AMAG Biel / Bienne Längfeldweg",
+    "Längfeldweg 118",
+    "2504 Biel/Bienne",
+    "AMAG Breganzona Centro Audi",
+    "Via San Carlo 6",
+    "6932 Breganzona",
+    "AMAG Buchrain",
+    "Elsihof 1",
+    "6035 Perlen",
+    "AMAG Buchrain VW Nutzfahrzeuge Center",
+    "Elsihof 1",
+    "6035 Perlen",
+    "AMAG Buchs",
+    "St. Gallerstrasse 100",
+    "9471 Buchs SG",
+    "AMAG Bülach",
+    "Bächliwis 29",
+    "8184 Bachenbülach",
+    "AMAG Bulle",
+    "Rue de Vuippens 55",
+    "1630 Bulle",
+    "AMAG Carrosserie Center Lengwil",
+    "Steinstrasse 5",
+    "8574 Lengwil",
+    "AMAG Carrosserie Center Wettswil",
+    "Leimattenstrasse 2",
+    "8907 Wettswil am Albis",
+    "AMAG Carrosserie Center Zuchwil",
+    "Schützenweg 6",
+    "4528 Zuchwil",
+    "AMAG Centre Carrosserie Gumefens",
+    "En Palud 20",
+    "1643 Gumefens",
+    "AMAG Centre Occasions Crissier",
+    "Rue d'Etrablon 1",
+    "1023 Crissier",
+    "AMAG Centre Occasions Genève",
+    "Route du Bois-des-Frères 85",
+    "1219 Le Lignon",
+    "AMAG Centro Occasioni Lugano",
+    "Via alla Roggia 7",
+    "6926 Montagnola",
+    "AMAG Châtelaine",
+    "Chemin J.-Ph. De-Sauvage 44-46",
+    "1219 Châtelaine",
+    "AMAG Châtelaine",
+    "Chemin J.-Ph. De-Sauvage 44 - 46",
+    "1219 Châtelaine",
+    "AMAG Chur",
+    "Rossbodenstrasse 14-16",
+    "7000 Chur",
+    "AMAG Chur Sommerau",
+    "Sommeraustrasse 30",
+    "7000 Chur",
+    "AMAG Coldrerio",
+    "Via San Gottardo 52",
+    "6877 Coldrerio",
+    "AMAG Crissier",
+    "Rue de la Vernie 2",
+    "1023 Crissier",
+    "AMAG Crissier",
+    "Rue de la Vernie 2",
+    "1023 Crissier",
+    "AMAG Davos",
+    "Talstrasse 22",
+    "7270 Davos Platz",
+    "AMAG Dulliken",
+    "Bodenackerstrasse 61",
+    "4657 Dulliken",
+    "AMAG Emmen",
+    "Mooshüslistrasse 32",
+    "6032 Emmen",
+    "AMAG Etoy",
+    "Route de Buchillon 1",
+    "1163 Etoy",
+    "AMAG Frauenfeld",
+    "Zürcherstrasse 331",
+    "8500 Frauenfeld",
+    "AMAG Fribourg",
+    "Route de Villars 110",
+    "1701 Fribourg",
+    "AMAG Fribourg",
+    "Route de Villars 103-106",
+    "1701 Fribourg",
+    "AMAG Giubiasco",
+    "Via Bellinzona 20",
+    "6512 Giubiasco",
+    "AMAG Giubiasco Audi",
+    "Via Bellinzona 37",
+    "6512 Giubiasco",
+    "AMAG Gümligen",
+    "Worbstrasse 226",
+    "3073 Gümligen",
+    "AMAG Heerbrugg",
+    "Auerstrasse 20",
+    "9435 Heerbrugg",
+    "AMAG Horgen",
+    "Im Schnegg",
+    "8810 Horgen",
+    "AMAG Jona",
+    "St. Gallerstrasse 101",
+    "8645 Jona",
+    "AMAG Kleinbasel",
+    "Schönaustrasse 25",
+    "4058 Basel",
+    "AMAG Kloten",
+    "Steinackerstrasse 20",
+    "8302 Kloten",
+    "AMAG Kreuzlingen",
+    "Hauptstrasse 99",
+    "8280 Kreuzlingen",
+    "AMAG La Tour-de-Trême",
+    "Route de Pra-Riond 5",
+    "1635 La Tour-de-Trême",
+    "AMAG Lausanne",
+    "Avenue de Provence 2",
+    "1007 Lausanne",
+    "AMAG Letzigrund",
+    "Rautistrasse 23",
+    "8047 Zürich",
+    "AMAG Liestal",
+    "Rheinstrasse 107",
+    "4410 Liestal",
+    "AMAG Lugano",
+    "Via Monte Boglia 24",
+    "6904 Lugano",
+    "AMAG Mendrisio",
+    "Via Rinaldi 3",
+    "6850 Mendrisio",
+    "AMAG Mendrisio",
+    "Via Bernasconi 31",
+    "6850 Mendrisio",
+    "AMAG Murten / Morat",
+    "Bernstrasse 11",
+    "3280 Murten",
+    "AMAG Muttenz",
+    "Birsfelderstrasse 50",
+    "4132 Muttenz",
+    "AMAG Noranco",
+    "Via Pian Scairolo 36",
+    "6915 Pambio-Noranco",
+    "AMAG Nyon",
+    "Route de Lausanne 114",
+    "1197 Prangins",
+    "AMAG Nyon Champ-Colin",
+    "Route de Champ-Colin 9",
+    "1260 Nyon",
+    "AMAG Occasioni Contone",
+    "Via Cantonale",
+    "6594 Contone",
+    "AMAG Occasions Center Münchenbuchsee",
+    "Moosrainweg 14",
+    "3053 Münchenbuchsee",
+    "AMAG Occasions Center Oftringen",
+    "Luzernerstrasse 39",
+    "4665 Oftringen",
+    "AMAG Occasions Center Pratteln",
+    "Muttenzerstrasse 143",
+    "4133 Pratteln",
+    "AMAG Occasions Center Sihlbrugg",
+    "Zugerstrasse 2",
+    "6340 Sihlbrugg",
+    "AMAG Occasions Center Zürich",
+    "Ueberlandstrasse 241",
+    "8051 Zürich",
+    "AMAG Oftringen",
+    "Luzernerstrasse 41",
+    "4665 Oftringen",
+    "AMAG Oftringen",
+    "Bernstrasse 23",
+    "4665 Oftringen",
+    "AMAG Online-Sales",
+    "Giessenstrasse 4",
+    "8600 Dübendorf",
+    "AMAG Petit-Lancy",
+    "Chemin du Bac 21",
+    "1213 Petit-Lancy",
+    "AMAG Pratteln",
+    "Muttenzerstrasse 143",
+    "4133 Pratteln",
+    "AMAG Rheinfelden",
+    "Zürcherstrasse 34",
+    "4310 Rheinfelden",
+    "AMAG Schaffhausen",
+    "Spitalstrasse 27",
+    "8200 Schaffhausen",
+    "AMAG Schinznach-Bad",
+    "Aarauerstrasse 22",
+    "5116 Schinznach Bad",
+    "AMAG Schlieren",
+    "Lättenstrasse 37",
+    "8952 Schlieren",
+    "AMAG Solothurn/Zuchwil",
+    "Gewerbestrasse 11",
+    "4528 Zuchwil",
+    "AMAG St-Légier",
+    "Route Industrielle 9",
+    "1806 St.-Légier",
+    "AMAG Sursee",
+    "Neuweidstrasse 1",
+    "6208 Oberkirch",
+    "AMAG Thun",
+    "Gwattstrasse 22-28",
+    "3604 Thun",
+    "AMAG Uster",
+    "Ackerstrasse 47",
+    "8610 Uster",
+    "AMAG Uster VW Nutzfahrzeuge Center",
+    "Pfäffikerstrasse 32",
+    "8610 Uster",
+    "AMAG Utoquai",
+    "Utoquai 47/49",
+    "8008 Zürich",
+    "AMAG Vaduz",
+    "Austrasse 37",
+    "9490 Vaduz",
+    "AMAG Vernier Centre VW Véhicules Utilitaires",
+    "Route du Nant-d'Avril 34",
+    "1214 Vernier",
+    "AMAG Vevey",
+    "Av. Général-Guisan 78",
+    "1800 Vevey",
+    "AMAG Villeneuve",
+    "Route du Simplon 17",
+    "1845 Noville",
+    "AMAG Volketswil",
+    "Hölzliwisenstrasse 1",
+    "8604 Volketswil",
+    "AMAG Weinfelden",
+    "Oberfeldstrasse 7",
+    "8570 Weinfelden",
+    "AMAG Wettingen",
+    "Landstrasse 108",
+    "5430 Wettingen",
+    "AMAG Wettswil",
+    "Moosstrasse 33a",
+    "8907 Wettswil a. A.",
+    "AMAG Winterthur",
+    "Zürcherstrasse 312",
+    "8406 Winterthur",
+    "AMAG Winterthur",
+    "Zürcherstrasse 240",
+    "8406 Winterthur",
+    "AMAG Zuchwil/Solothurn",
+    "Langfeldstrasse 30",
+    "4528 Zuchwil",
+    "AMAG Zug",
+    "Alte Steinhauserstrasse 1",
+    "6330 Cham",
+    "Audi Center AMAG Basel",
+    "Reinacherstrasse 149-151",
+    "4053 Basel",
+    "Audi Center AMAG Zug",
+    "Alte Steinhauserstrasse 1",
+    "6330 Cham",
+    "Audi Center AMAG Zürich",
+    "Giessenstrasse 4",
+    "8600 Dübendorf",
+    "Bentley ZUG",
+    "Alte Steinhauserstrasse 1",
+    "6330 Cham",
+    "Assistance & contact",
+    "Contact",
+    "Online appointment",
+    "FAQ Online car purchase",
+    "Corporate clients",
+    "Newsletter",
+    "Emergency",
+    "Find a car & service",
+    "Find a vehicle",
+    "Services",
+    "Find garage",
+    "Car subscription",
+    "Clyde",
+    "Leasing",
+    "Europcar",
+    "Carsharing",
+    "Mobility-as-a-Service",
+    "AMAG Classic",
+    "Parking",
+    "Company",
+    "About us",
+    "AMAG Group",
+    "Sustainability",
+    "Jobs & careers",
+    "Press",
+    "Our brands",
+    "AMAG App",
+    "Get connected with AMAG",
+    "© 2026 AMAG Automobil und Motoren AG",
+    "Privacy policy",
+    "Legal notice",
+    "Impressum",
+    "Terms and conditions",
+    "Cookie policy",
+    "Jobs"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Electromobility switch now",
+      "href": "/en/find-vehicle/cars-amag/e-mobility.html"
+    },
+    {
+      "label": "AMAG Group Mobility, Sustainability & Future",
+      "href": "https://www.amag-group.ch/de/energy-und-mobility/loesungen.html"
+    },
+    {
+      "label": "No. 1 Car Dealer in Switzerland with 90 locations",
+      "href": "/en/komponenten/car-dealers.html"
+    },
+    {
+      "label": "Find a vehicle",
+      "href": "/en/find-vehicle.html"
+    },
+    {
+      "label": "Services",
+      "href": "/en/services.html"
+    },
+    {
+      "label": "Find garage",
+      "href": "/en/komponenten/car-dealers.html"
+    },
+    {
+      "label": "Jobs",
+      "href": "/en/jobs-amag.html"
+    },
+    {
+      "label": "My garage --",
+      "href": null
+    },
+    {
+      "label": "en",
+      "href": null
+    },
+    {
+      "label": "Discover more",
+      "href": "/de/events/emotiondays.html"
+    },
+    {
+      "label": "Keyboard shortcuts",
+      "href": null
+    },
+    {
+      "label": "Terms",
+      "href": "https://www.google.com/intl/en_US/help/terms_maps.html"
+    },
+    {
+      "label": "Show filters",
+      "href": null
+    },
+    {
+      "label": "+41628368020Call",
+      "href": "tel:+41628368020"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Aarau,%20Rohrerstrasse%2029,%205000,%20Aarau"
+    },
+    {
+      "label": "+41244686080Call",
+      "href": "tel:+41244686080"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Aigle,%20Chemin%20des%20Orlons%201,%201860,%20Aigle"
+    },
+    {
+      "label": "+41444372424Call",
+      "href": "tel:+41444372424"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Altstetten,%20Vulkanstrasse%20120,%208048,%20Zürich"
+    },
+    {
+      "label": "+41413480909Call",
+      "href": "tel:+41413480909"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Audi%20Center%20Luzern,%20Grabenhofstrasse%2010,%206010,%20Kriens"
+    },
+    {
+      "label": "+41800335533Call",
+      "href": "tel:+41800335533"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Auto-Abo,%20Giessenstrasse,%208600,%20Dübendorf"
+    },
+    {
+      "label": "+41443254545Call",
+      "href": "tel:+41443254545"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Autowelt%20Zürich,%20Giessenstrasse%204,%208600,%20Dübendorf"
+    },
+    {
+      "label": "+41564846666Call",
+      "href": "tel:+41564846666"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Baden,%20Winkelstrasse%202,%205442,%20Fislisbach"
+    },
+    {
+      "label": "+41613351111Call",
+      "href": "tel:+41613351111"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Basel,%20Reinacherstrasse%20149/151,%204053,%20Basel"
+    },
+    {
+      "label": "+41918206040Call",
+      "href": "tel:+41918206040"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Bellinzona,%20Via%20San%20Gottardo%2071,%206500,%20Bellinzona"
+    },
+    {
+      "label": "+4233731555Call",
+      "href": "tel:+4233731555"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Bendern,%20Ober%20Au%204,%209487,%20Gamprin-Bendern"
+    },
+    {
+      "label": "+41313375511Call",
+      "href": "tel:+41313375511"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Bern,%20Wankdorffeldstrasse%2060,%203014,%20Bern"
+    },
+    {
+      "label": "+41419303377Call",
+      "href": "tel:+41419303377"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Beromünster,%20Aargauerstrasse%2013,%206215,%20Beromünster"
+    },
+    {
+      "label": "+41323665151Call",
+      "href": "tel:+41323665151"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Biel%20/%20Bienne,%20Römerstrasse%2016,%202555,%20Brügg"
+    },
+    {
+      "label": "+41323665100Call",
+      "href": "tel:+41323665100"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Biel%20/%20Bienne%20Längfeldweg,%20Längfeldweg%20118,%202504,%20Biel/Bienne"
+    },
+    {
+      "label": "+41919612181Call",
+      "href": "tel:+41919612181"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Breganzona%20Centro%20Audi,%20Via%20San%20Carlo%206,%206932,%20Breganzona"
+    },
+    {
+      "label": "+41414444444Call",
+      "href": "tel:+41414444444"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Buchrain,%20Elsihof%201,%206035,%20Perlen"
+    },
+    {
+      "label": "+41414444444Call",
+      "href": "tel:+41414444444"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Buchrain%20VW%20Nutzfahrzeuge%20Center,%20Elsihof%201,%206035,%20Perlen"
+    },
+    {
+      "label": "+41817500810Call",
+      "href": "tel:+41817500810"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Buchs,%20St.%20Gallerstrasse%20100,%209471,%20Buchs%20SG"
+    },
+    {
+      "label": "+41448648640Call",
+      "href": "tel:+41448648640"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Bülach,%20Bächliwis%2029,%208184,%20Bachenbülach"
+    },
+    {
+      "label": "+41269161313Call",
+      "href": "tel:+41269161313"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Bulle,%20Rue%20de%20Vuippens%2055,%201630,%20Bulle"
+    },
+    {
+      "label": "+41714667010Call",
+      "href": "tel:+41714667010"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Carrosserie%20Center%20Lengwil,%20Steinstrasse%205,%208574,%20Lengwil"
+    },
+    {
+      "label": "+41Call",
+      "href": "tel:+41"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Carrosserie%20Center%20Wettswil,%20Leimattenstrasse%202,%208907,%20Wettswil%20am%20Albis"
+    },
+    {
+      "label": "+41326865343Call",
+      "href": "tel:+41326865343"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Carrosserie%20Center%20Zuchwil,%20Schützenweg%206,%204528,%20Zuchwil"
+    },
+    {
+      "label": "+41269152120Call",
+      "href": "tel:+41269152120"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Centre%20Carrosserie%20Gumefens,%20En%20Palud%2020,%201643,%20Gumefens"
+    },
+    {
+      "label": "+41216372030Call",
+      "href": "tel:+41216372030"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Centre%20Occasions%20Crissier,%20Rue%20d%27Etrablon%201,%201023,%20Crissier"
+    },
+    {
+      "label": "+41227952700Call",
+      "href": "tel:+41227952700"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Centre%20Occasions%20Genève,%20Route%20du%20Bois-des-Frères%2085,%201219,%20Le%20Lignon"
+    },
+    {
+      "label": "+41919851010Call",
+      "href": "tel:+41919851010"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Centro%20Occasioni%20Lugano,%20Via%20alla%20Roggia%207,%206926,%20Montagnola"
+    },
+    {
+      "label": "+41229703636Call",
+      "href": "tel:+41229703636"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Châtelaine,%20Chemin%20J.-Ph.%20De-Sauvage%2044-46,%201219,%20Châtelaine"
+    },
+    {
+      "label": "+41229703636Call",
+      "href": "tel:+41229703636"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Châtelaine,%20Chemin%20J.-Ph.%20De-Sauvage%2044%20-%2046,%201219,%20Châtelaine"
+    },
+    {
+      "label": "+41812864848Call",
+      "href": "tel:+41812864848"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Chur,%20Rossbodenstrasse%2014-16,%207000,%20Chur"
+    },
+    {
+      "label": "+41812864848Call",
+      "href": "tel:+41812864848"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Chur%20Sommerau,%20Sommeraustrasse%2030,%207000,%20Chur"
+    },
+    {
+      "label": "+41916409880Call",
+      "href": "tel:+41916409880"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Coldrerio,%20Via%20San%20Gottardo%2052,%206877,%20Coldrerio"
+    },
+    {
+      "label": "+41216377878Call",
+      "href": "tel:+41216377878"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Crissier,%20Rue%20de%20la%20Vernie%202,%201023,%20Crissier"
+    },
+    {
+      "label": "+41216377676Call",
+      "href": "tel:+41216377676"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Crissier,%20Rue%20de%20la%20Vernie%202,%201023,%20Crissier"
+    },
+    {
+      "label": "+41814101234Call",
+      "href": "tel:+41814101234"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Davos,%20Talstrasse%2022,%207270,%20Davos%20Platz"
+    },
+    {
+      "label": "+41622951414Call",
+      "href": "tel:+41622951414"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Dulliken,%20Bodenackerstrasse%2061,%204657,%20Dulliken"
+    },
+    {
+      "label": "+41412691069Call",
+      "href": "tel:+41412691069"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Emmen,%20Mooshüslistrasse%2032,%206032,%20Emmen"
+    },
+    {
+      "label": "+41218220000Call",
+      "href": "tel:+41218220000"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Etoy,%20Route%20de%20Buchillon%201,%201163,%20Etoy"
+    },
+    {
+      "label": "+41527289777Call",
+      "href": "tel:+41527289777"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Frauenfeld,%20Zürcherstrasse%20331,%208500,%20Frauenfeld"
+    },
+    {
+      "label": "+41264084141Call",
+      "href": "tel:+41264084141"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Fribourg,%20Route%20de%20Villars%20110,%201701,%20Fribourg"
+    },
+    {
+      "label": "+41264084141Call",
+      "href": "tel:+41264084141"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Fribourg,%20Route%20de%20Villars%20103-106,%201701,%20Fribourg"
+    },
+    {
+      "label": "+41919118383Call",
+      "href": "tel:+41919118383"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Giubiasco,%20Via%20Bellinzona%2020,%206512,%20Giubiasco"
+    },
+    {
+      "label": "+41918513380Call",
+      "href": "tel:+41918513380"
+    },
+    {
+      "label": "Route",
+      "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Giubiasco%20Audi,%20Via%20Bellinzona%2037,%206512,%20Giubiasco"
+    },
+    {
+      "label": "+41319151515Call",
+      "href": "tel:+41319151515"
+    }
+  ],
+  "links": [
+    "https://www.amag.ch/de/events/emotiondays.html",
+    "https://www.amag.ch/en.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/e-mobility.html",
+    "https://www.amag-group.ch/de/energy-und-mobility/loesungen.html",
+    "https://www.amag.ch/en/komponenten/car-dealers.html",
+    "https://www.amag.ch/en/find-vehicle.html",
+    "https://www.amag.ch/en/services.html",
+    "https://www.amag.ch/en/jobs-amag.html",
+    "https://www.amag.ch/en/search.html",
+    "https://www.amag.ch/en/user/login.html",
+    "https://auto.amag.ch/de/watchlist",
+    "https://www.amag.ch/de/komponenten/storelocator.html",
+    "https://www.amag.ch/fr/composants/amag-garage.html",
+    "https://www.amag.ch/it/componenti/ricerca-garage.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/vehicle-range.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/warehouse-vehicles.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/demonstration-vehicles.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/used-vehicles.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/used-vehicles/occasionen-leasing.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/used-vehicles/elektro-occasionen.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/e-mobility/id-buzz.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/e-mobility/used-electric-cars.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/e-mobility/fast-charging-network.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/abo.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/abo/faq.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/amag-leasing.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/configure-vehicles.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/fleet.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/financing.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/buy-your-car.html",
+    "https://www.amag.ch/en/find-vehicle/body-type.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/suv.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/estate.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/limousine.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/convertible.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/coupe.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/mpv.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/camper-van.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/bus.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/pickup.html",
+    "https://www.amag.ch/en/find-vehicle/body-type/business.html",
+    "https://www.amag.ch/en/find-vehicle/partner.html",
+    "https://www.amag.ch/en/find-vehicle/partner/helion.html",
+    "https://www.amag.ch/en/find-vehicle/partner/clyde.html",
+    "https://www.amag.ch/en/find-vehicle/partner/ducati.html",
+    "https://www.amag.ch/en/find-vehicle/partner/microlino.html",
+    "https://www.amag.ch/en/find-vehicle/partner/allride.html",
+    "https://www.amag.ch/en/find-vehicle/brands/vw/vw-models.html",
+    "https://www.amag.ch/en/find-vehicle/brands/audi/audi-models.html",
+    "https://www.amag.ch/en/find-vehicle/brands/seat/seat-models.html",
+    "https://www.amag.ch/en/find-vehicle/brands/skoda/skoda-models.html",
+    "https://www.amag.ch/en/find-vehicle/brands/cupra/cupra-models.html",
+    "https://www.amag.ch/en/find-vehicle/brands/commercial-vehicles/commercial-vehicles-models.html",
+    "https://www.amag.ch/en/find-vehicle/brands/bentley/bentley-models.html",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/microlino.html",
+    "https://www.amag.ch/en/services/tyre-service.html",
+    "https://www.amag.ch/en/services/tyre-service/winter-tyres.html",
+    "https://www.amag.ch/en/services/tyre-service/summer-tyres.html",
+    "https://www.amag.ch/en/services/tyre-service/complete-wheels.html",
+    "https://www.amag.ch/en/services/tyre-service/tyre-warranty.html",
+    "https://www.amag.ch/en/services/tyre-service/wheel-hotel.html",
+    "https://www.amag.ch/en/services/tyre-service/rim-repair.html",
+    "https://www.amag.ch/en/services/top-services.html",
+    "https://www.amag.ch/en/services/top-services/saison-check.html",
+    "https://www.amag.ch/en/services/top-services/saison-check/feriencheck.html",
+    "https://www.amag.ch/en/services/top-services/saison-check/saison-check2.html",
+    "https://www.amag.ch/en/services/top-services/car-service.html",
+    "https://www.amag.ch/en/services/top-services/app.html",
+    "https://www.amag.ch/en/services/top-services/kreditkarte.html",
+    "https://www.amag.ch/en/services/top-services/battery.html",
+    "https://www.amag.ch/en/services/top-services/brakes.html",
+    "https://www.amag.ch/en/services/top-services/electric-charging-stations.html",
+    "https://www.amag.ch/en/services/top-services/accessories.html",
+    "https://www.amag.ch/en/services/top-services/abt-sportsline.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/audi-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/vw-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/seat-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/skoda-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/vw-commercial-vehicles-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/audi-used-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/vw-used-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/seat-used-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/skoda-used-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/brand-insurance/vw-commercial-vehicles-used-car-insurance.html",
+    "https://www.amag.ch/en/services/top-services/carwash.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage/reporting-damage.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage/reporting-damage/guide.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage/car-paint-and-body-service.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage/tesla-service.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage/hail-damage.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage/car-glass-repair.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage/totalmobil.html",
+    "https://www.amag.ch/en/services/help-in-case-of-damage/recalls-by-manufacturers.html",
+    "https://www.amag.ch/en/cards/charging-card.html",
+    "https://www.amag.ch/en/komponenten/car-dealers.html#",
+    "tel:+41%20848%20024%20365",
+    "https://www.amag.ch/en/services/otv.html",
+    "https://www.amag.ch/en/find-vehicle/brands.html",
+    "https://www.amag.ch/en/services/aktuelles-angebot-fuer-sie.html",
+    "https://maps.google.com/maps?ll=46.786682,10.5369&z=7&hl=en&gl=US&mapclient=apiv3",
+    "https://www.google.com/intl/en_US/help/terms_maps.html",
+    "https://www.google.com/maps/@46.7866816,10.5369,7z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3",
+    "tel:+41628368020",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Aarau,%20Rohrerstrasse%2029,%205000,%20Aarau",
+    "tel:+41244686080",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Aigle,%20Chemin%20des%20Orlons%201,%201860,%20Aigle",
+    "tel:+41444372424",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Altstetten,%20Vulkanstrasse%20120,%208048,%20Z%C3%BCrich",
+    "tel:+41413480909",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Audi%20Center%20Luzern,%20Grabenhofstrasse%2010,%206010,%20Kriens",
+    "tel:+41800335533",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Auto-Abo,%20Giessenstrasse,%208600,%20D%C3%BCbendorf",
+    "tel:+41443254545",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Autowelt%20Z%C3%BCrich,%20Giessenstrasse%204,%208600,%20D%C3%BCbendorf",
+    "tel:+41564846666",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Baden,%20Winkelstrasse%202,%205442,%20Fislisbach",
+    "tel:+41613351111",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Basel,%20Reinacherstrasse%20149/151,%204053,%20Basel",
+    "tel:+41918206040",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Bellinzona,%20Via%20San%20Gottardo%2071,%206500,%20Bellinzona",
+    "tel:+4233731555",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Bendern,%20Ober%20Au%204,%209487,%20Gamprin-Bendern",
+    "tel:+41313375511",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Bern,%20Wankdorffeldstrasse%2060,%203014,%20Bern",
+    "tel:+41419303377",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Berom%C3%BCnster,%20Aargauerstrasse%2013,%206215,%20Berom%C3%BCnster",
+    "tel:+41323665151",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Biel%20/%20Bienne,%20R%C3%B6merstrasse%2016,%202555,%20Br%C3%BCgg",
+    "tel:+41323665100",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Biel%20/%20Bienne%20L%C3%A4ngfeldweg,%20L%C3%A4ngfeldweg%20118,%202504,%20Biel/Bienne",
+    "tel:+41919612181",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Breganzona%20Centro%20Audi,%20Via%20San%20Carlo%206,%206932,%20Breganzona",
+    "tel:+41414444444",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Buchrain,%20Elsihof%201,%206035,%20Perlen",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Buchrain%20VW%20Nutzfahrzeuge%20Center,%20Elsihof%201,%206035,%20Perlen",
+    "tel:+41817500810",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Buchs,%20St.%20Gallerstrasse%20100,%209471,%20Buchs%20SG",
+    "tel:+41448648640",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20B%C3%BClach,%20B%C3%A4chliwis%2029,%208184,%20Bachenb%C3%BClach",
+    "tel:+41269161313",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Bulle,%20Rue%20de%20Vuippens%2055,%201630,%20Bulle",
+    "tel:+41714667010",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Carrosserie%20Center%20Lengwil,%20Steinstrasse%205,%208574,%20Lengwil",
+    "tel:+41",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Carrosserie%20Center%20Wettswil,%20Leimattenstrasse%202,%208907,%20Wettswil%20am%20Albis",
+    "tel:+41326865343",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Carrosserie%20Center%20Zuchwil,%20Sch%C3%BCtzenweg%206,%204528,%20Zuchwil",
+    "tel:+41269152120",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Centre%20Carrosserie%20Gumefens,%20En%20Palud%2020,%201643,%20Gumefens",
+    "tel:+41216372030",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Centre%20Occasions%20Crissier,%20Rue%20d%27Etrablon%201,%201023,%20Crissier",
+    "tel:+41227952700",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Centre%20Occasions%20Gen%C3%A8ve,%20Route%20du%20Bois-des-Fr%C3%A8res%2085,%201219,%20Le%20Lignon",
+    "tel:+41919851010",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Centro%20Occasioni%20Lugano,%20Via%20alla%20Roggia%207,%206926,%20Montagnola",
+    "tel:+41229703636",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Ch%C3%A2telaine,%20Chemin%20J.-Ph.%20De-Sauvage%2044-46,%201219,%20Ch%C3%A2telaine",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Ch%C3%A2telaine,%20Chemin%20J.-Ph.%20De-Sauvage%2044%20-%2046,%201219,%20Ch%C3%A2telaine",
+    "tel:+41812864848",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Chur,%20Rossbodenstrasse%2014-16,%207000,%20Chur",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Chur%20Sommerau,%20Sommeraustrasse%2030,%207000,%20Chur",
+    "tel:+41916409880",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Coldrerio,%20Via%20San%20Gottardo%2052,%206877,%20Coldrerio",
+    "tel:+41216377878",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Crissier,%20Rue%20de%20la%20Vernie%202,%201023,%20Crissier",
+    "tel:+41216377676",
+    "tel:+41814101234",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Davos,%20Talstrasse%2022,%207270,%20Davos%20Platz",
+    "tel:+41622951414",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Dulliken,%20Bodenackerstrasse%2061,%204657,%20Dulliken",
+    "tel:+41412691069",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Emmen,%20Moosh%C3%BCslistrasse%2032,%206032,%20Emmen",
+    "tel:+41218220000",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Etoy,%20Route%20de%20Buchillon%201,%201163,%20Etoy",
+    "tel:+41527289777",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Frauenfeld,%20Z%C3%BCrcherstrasse%20331,%208500,%20Frauenfeld",
+    "tel:+41264084141",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Fribourg,%20Route%20de%20Villars%20110,%201701,%20Fribourg",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Fribourg,%20Route%20de%20Villars%20103-106,%201701,%20Fribourg",
+    "tel:+41919118383",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Giubiasco,%20Via%20Bellinzona%2020,%206512,%20Giubiasco",
+    "tel:+41918513380",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Giubiasco%20Audi,%20Via%20Bellinzona%2037,%206512,%20Giubiasco",
+    "tel:+41319151515",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20G%C3%BCmligen,%20Worbstrasse%20226,%203073,%20G%C3%BCmligen",
+    "tel:+41717272727",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Heerbrugg,%20Auerstrasse%2020,%209435,%20Heerbrugg",
+    "tel:+41447274040",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Horgen,%20Im%20Schnegg,%208810,%20Horgen",
+    "tel:+41552250505",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Jona,%20St.%20Gallerstrasse%20101,%208645,%20Jona",
+    "tel:+41616909340",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Kleinbasel,%20Sch%C3%B6naustrasse%2025,%204058,%20Basel",
+    "tel:+41432555454",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Kloten,%20Steinackerstrasse%2020,%208302,%20Kloten",
+    "tel:+41716782828",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Kreuzlingen,%20Hauptstrasse%2099,%208280,%20Kreuzlingen",
+    "tel:+41269161388",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20La%20Tour-de-Tr%C3%AAme,%20Route%20de%20Pra-Riond%205,%201635,%20La%20Tour-de-Tr%C3%AAme",
+    "tel:+41216206262",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Lausanne,%20Avenue%20de%20Provence%202,%201007,%20Lausanne",
+    "tel:+41444056868",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Letzigrund,%20Rautistrasse%2023,%208047,%20Z%C3%BCrich",
+    "tel:+41619069988",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Liestal,%20Rheinstrasse%20107,%204410,%20Liestal",
+    "tel:+41919733333",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Lugano,%20Via%20Monte%20Boglia%2024,%206904,%20Lugano",
+    "tel:+41916404080",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Mendrisio,%20Via%20Rinaldi%203,%206850,%20Mendrisio",
+    "tel:+41916409165",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Mendrisio,%20Via%20Bernasconi%2031,%206850,%20Mendrisio",
+    "tel:+41266728484",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Murten%20/%20Morat,%20Bernstrasse%2011,%203280,%20Murten",
+    "tel:+41614654141",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Muttenz,%20Birsfelderstrasse%2050,%204132,%20Muttenz",
+    "tel:+41919612171",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Noranco,%20Via%20Pian%20Scairolo%2036,%206915,%20Pambio-Noranco",
+    "tel:+41223652929",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Nyon,%20Route%20de%20Lausanne%20114,%201197,%20Prangins",
+    "tel:+41229942900",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Nyon%20Champ-Colin,%20Route%20de%20Champ-Colin%209,%201260,%20Nyon",
+    "tel:+41919851000",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Occasioni%20Contone,%20Via%20Cantonale,%206594,%20Contone",
+    "tel:+41313373232",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Occasions%20Center%20M%C3%BCnchenbuchsee,%20Moosrainweg%2014,%203053,%20M%C3%BCnchenbuchsee",
+    "tel:+41627897000",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Occasions%20Center%20Oftringen,%20Luzernerstrasse%2039,%204665,%20Oftringen",
+    "tel:+41618269555",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Occasions%20Center%20Pratteln,%20Muttenzerstrasse%20143,%204133,%20Pratteln",
+    "tel:+41417486748",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Occasions%20Center%20Sihlbrugg,%20Zugerstrasse%202,%206340,%20Sihlbrugg",
+    "tel:+41443252900",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Occasions%20Center%20Z%C3%BCrich,%20Ueberlandstrasse%20241,%208051,%20Z%C3%BCrich",
+    "tel:+41627891070",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Oftringen,%20Luzernerstrasse%2041,%204665,%20Oftringen",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Oftringen,%20Bernstrasse%2023,%204665,%20Oftringen",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Online-Sales,%20Giessenstrasse%204,%208600,%20D%C3%BCbendorf",
+    "tel:+41228709200",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Petit-Lancy,%20Chemin%20du%20Bac%2021,%201213,%20Petit-Lancy",
+    "tel:+41618269525",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Pratteln,%20Muttenzerstrasse%20143,%204133,%20Pratteln",
+    "tel:+41618333535",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Rheinfelden,%20Z%C3%BCrcherstrasse%2034,%204310,%20Rheinfelden",
+    "tel:+41526305555",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Schaffhausen,%20Spitalstrasse%2027,%208200,%20Schaffhausen",
+    "tel:+41564639292",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Schinznach-Bad,%20Aarauerstrasse%2022,%205116,%20Schinznach%20Bad",
+    "tel:+41447386200",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Schlieren,%20L%C3%A4ttenstrasse%2037,%208952,%20Schlieren",
+    "tel:+41326253500",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Solothurn/Zuchwil,%20Gewerbestrasse%2011,%204528,%20Zuchwil",
+    "tel:+41219430560",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20St-L%C3%A9gier,%20Route%20Industrielle%209,%201806,%20St.-L%C3%A9gier",
+    "tel:+41419268040",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Sursee,%20Neuweidstrasse%201,%206208,%20Oberkirch",
+    "tel:+41333340000",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Thun,%20Gwattstrasse%2022-28,%203604,%20Thun",
+    "tel:+41449055777",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Uster,%20Ackerstrasse%2047,%208610,%20Uster",
+    "tel:+41449431688",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Uster%20VW%20Nutzfahrzeuge%20Center,%20Pf%C3%A4ffikerstrasse%2032,%208610,%20Uster",
+    "tel:+41442695151",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Utoquai,%20Utoquai%2047/49,%208008,%20Z%C3%BCrich",
+    "tel:+4232377700",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Vaduz,%20Austrasse%2037,%209490,%20Vaduz",
+    "tel:+41229390630",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Vernier%20Centre%20VW%20V%C3%A9hicules%20Utilitaires,%20Route%20du%20Nant-d%27Avril%2034,%201214,%20Vernier",
+    "tel:+41219253838",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Vevey,%20Av.%20G%C3%A9n%C3%A9ral-Guisan%2078,%201800,%20Vevey",
+    "tel:+41219672160",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Villeneuve,%20Route%20du%20Simplon%2017,%201845,%20Noville",
+    "tel:+41449085710",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Volketswil,%20H%C3%B6lzliwisenstrasse%201,%208604,%20Volketswil",
+    "tel:+41716261010",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Weinfelden,%20Oberfeldstrasse%207,%208570,%20Weinfelden",
+    "tel:+41565550700",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Wettingen,%20Landstrasse%20108,%205430,%20Wettingen",
+    "tel:+41447045959",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Wettswil,%20Moosstrasse%2033a,%208907,%20Wettswil%20a.%20A.",
+    "tel:+41522083232",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Winterthur,%20Z%C3%BCrcherstrasse%20312,%208406,%20Winterthur",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Winterthur,%20Z%C3%BCrcherstrasse%20240,%208406,%20Winterthur",
+    "tel:+41326862786",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Zuchwil/Solothurn,%20Langfeldstrasse%2030,%204528,%20Zuchwil",
+    "tel:+41417485755",
+    "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Zug,%20Alte%20Steinhauserstrasse%201,%206330,%20Cham",
+    "tel:+41613178585",
+    "https://www.google.com/maps/dir/?api=1&destination=Audi%20Center%20AMAG%20Basel,%20Reinacherstrasse%20149-151,%204053,%20Basel",
+    "https://www.google.com/maps/dir/?api=1&destination=Audi%20Center%20AMAG%20Zug,%20Alte%20Steinhauserstrasse%201,%206330,%20Cham",
+    "https://www.google.com/maps/dir/?api=1&destination=Audi%20Center%20AMAG%20Z%C3%BCrich,%20Giessenstrasse%204,%208600,%20D%C3%BCbendorf",
+    "tel:+41417486767",
+    "https://www.google.com/maps/dir/?api=1&destination=Bentley%20ZUG,%20Alte%20Steinhauserstrasse%201,%206330,%20Cham",
+    "mailto:acc-lengwil@amag.ch",
+    "https://www.amag.ch/en/car-dealers/carrosserie-center-lengwil.html",
+    "https://www.amag.ch/en/services/otv.html#3962",
+    "mailto:aarau@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-aarau.html",
+    "https://www.amag.ch/en/services/otv.html#3537",
+    "mailto:aigle@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-aigle.html",
+    "https://www.amag.ch/en/services/otv.html#606",
+    "mailto:altstetten@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-altstetten.html",
+    "https://www.amag.ch/en/services/otv.html#673",
+    "mailto:kriens@amag.ch",
+    "https://www.amag.ch/en/car-dealers/audi-center-lucerne.html",
+    "https://www.amag.ch/en/services/otv.html#400",
+    "mailto:online.sales@amag.ch",
+    "https://www.amag.ch/en/car-dealers/auto-abo.html",
+    "https://www.amag.ch/en/services/otv.html#9200",
+    "mailto:autowelt@amag.ch",
+    "https://www.amag.ch/en/car-dealers/autowelt-zuerich.html",
+    "https://www.amag.ch/en/services/otv.html#698",
+    "mailto:baden@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-baden.html",
+    "https://www.amag.ch/en/services/otv.html#540",
+    "mailto:basel@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-basel.html",
+    "https://www.amag.ch/en/services/otv.html#121",
+    "mailto:bellinzona@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-bellinzona.html",
+    "https://www.amag.ch/en/services/otv.html#90",
+    "mailto:bendern@amag.li",
+    "https://www.amag.ch/en/car-dealers/garage-bendern.html",
+    "https://www.amag.ch/en/services/otv.html#161",
+    "mailto:bern@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-bern.html",
+    "https://www.amag.ch/en/services/otv.html#100",
+    "mailto:beromuenster@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-beromuenster.html",
+    "https://www.amag.ch/en/services/otv.html#399",
+    "mailto:biel@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-biel.html",
+    "https://www.amag.ch/en/services/otv.html#140",
+    "mailto:biel-laengfeld@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-laengfeldweg.html",
+    "https://www.amag.ch/en/services/otv.html#6140",
+    "mailto:BREGANZONA@AMAG.CH",
+    "https://www.amag.ch/en/car-dealers/audi-center-berganzona.html",
+    "https://www.amag.ch/en/services/otv.html#364",
+    "mailto:buchrain@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-buchrain.html",
+    "https://www.amag.ch/en/services/otv.html#380",
+    "mailto:nfc.buchrain@amag.ch",
+    "https://www.amag.ch/en/car-dealers/commercial-vehicles-center-buchrain.html",
+    "https://www.amag.ch/en/services/otv.html#3380",
+    "mailto:buchs@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-buchs.html",
+    "https://www.amag.ch/en/services/otv.html#150",
+    "mailto:bulle@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-bulle.html",
+    "https://www.amag.ch/en/services/otv.html#227",
+    "mailto:buelach@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-buelach.html",
+    "https://www.amag.ch/en/services/otv.html#790",
+    "mailto:amag.bulle@amag.ch",
+    "https://www.amag.ch/en/car-dealers/carrosseriecenter-gumefens.html",
+    "https://www.amag.ch/en/services/otv.html#3965",
+    "mailto:acc-wettswil@amag.ch",
+    "https://www.amag.ch/en/car-dealers/cc-wettswil.html",
+    "https://www.amag.ch/en/services/otv.html#3964",
+    "mailto:acc-zuchwil@amag.ch",
+    "https://www.amag.ch/en/car-dealers/carrosseriecenter-zuchwil.html",
+    "https://www.amag.ch/en/services/otv.html#3963",
+    "mailto:occasions.crissier@amag.ch",
+    "https://www.amag.ch/en/car-dealers/used-vehicles-center-crissier.html",
+    "https://www.amag.ch/en/services/otv.html#302",
+    "mailto:aoc.geneve@amag.ch",
+    "https://www.amag.ch/en/car-dealers/used-vehicles-center-geneva.html",
+    "https://www.amag.ch/en/services/otv.html#289",
+    "mailto:aoc.lugano@amag.ch",
+    "https://www.amag.ch/en/car-dealers/used-vehicles-center-lugano.html",
+    "https://www.amag.ch/en/services/otv.html#357",
+    "mailto:chur@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-chur.html",
+    "https://www.amag.ch/en/services/otv.html#165",
+    "https://www.amag.ch/en/services/otv.html#3065",
+    "mailto:chatelaine@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-chatelaine.html",
+    "https://www.amag.ch/en/services/otv.html#3100",
+    "https://www.amag.ch/en/services/otv.html#254",
+    "mailto:coldrerio@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-coldrerio.html",
+    "https://www.amag.ch/en/services/otv.html#6696",
+    "mailto:crissier@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-crissier.html",
+    "https://www.amag.ch/en/services/otv.html#3125",
+    "https://www.amag.ch/en/services/otv.html#330",
+    "mailto:davos@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-davos.html",
+    "https://www.amag.ch/en/services/otv.html#190",
+    "mailto:dulliken@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-dulliken.html",
+    "https://www.amag.ch/en/services/otv.html#460",
+    "mailto:emmen@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-emmen.html",
+    "https://www.amag.ch/en/services/otv.html#6601",
+    "mailto:etoy@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-etoy.html",
+    "https://www.amag.ch/en/services/otv.html#348",
+    "mailto:frauenfeld@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-frauenfeld.html",
+    "https://www.amag.ch/en/services/otv.html#200",
+    "mailto:fribourg@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-fribourg.html",
+    "https://www.amag.ch/en/services/otv.html#219",
+    "https://www.amag.ch/en/services/otv.html#220",
+    "mailto:giubiasco@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-giubiasco-skoda.html",
+    "https://www.amag.ch/en/services/otv.html#92",
+    "https://www.amag.ch/en/car-dealers/car-dealer-giubiasco.html",
+    "https://www.amag.ch/en/services/otv.html#173",
+    "mailto:guemligen@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-guemligen.html",
+    "https://www.amag.ch/en/services/otv.html#3346",
+    "mailto:heerbrugg@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-heerbrugg.html",
+    "https://www.amag.ch/en/services/otv.html#523",
+    "mailto:horgen@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-horgen.html",
+    "https://www.amag.ch/en/services/otv.html#739",
+    "mailto:jona@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-jona.html",
+    "https://www.amag.ch/en/services/otv.html#760",
+    "mailto:kleinbasel@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-kleinbasel.html",
+    "https://www.amag.ch/en/services/otv.html#138",
+    "mailto:kloten@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-kloten.html",
+    "https://www.amag.ch/en/services/otv.html#690",
+    "mailto:kreuzlingen@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-kreuzlingen.html",
+    "https://www.amag.ch/en/services/otv.html#260",
+    "mailto:ltdt@amag.ch",
+    "https://www.amag.ch/en/car-dealers/garage-la-tour-de-treme.html",
+    "https://www.amag.ch/en/services/otv.html#327",
+    "mailto:lausanne@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-lausanne.html",
+    "https://www.amag.ch/en/services/otv.html#320",
+    "mailto:letzigrund@amag.ch",
+    "https://www.amag.ch/en/car-dealers/garage-letzigrund.html",
+    "https://www.amag.ch/en/services/otv.html#710",
+    "mailto:liestal@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-liestal.html",
+    "https://www.amag.ch/en/services/otv.html#129",
+    "mailto:LUGANO@AMAG.CH",
+    "https://www.amag.ch/en/car-dealers/car-dealer-lugano.html",
+    "https://www.amag.ch/en/services/otv.html#350",
+    "mailto:mendrisio@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-mendrisio.html",
+    "https://www.amag.ch/en/services/otv.html#369",
+    "https://www.amag.ch/en/services/otv.html#3690",
+    "mailto:murten@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-murten.html",
+    "https://www.amag.ch/en/services/otv.html#232",
+    "mailto:muttenz@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-muttenz.html",
+    "https://www.amag.ch/en/services/otv.html#137",
+    "mailto:noranco@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-noranco.html",
+    "https://www.amag.ch/en/services/otv.html#373",
+    "mailto:nyon@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-nyon.html",
+    "https://www.amag.ch/en/services/otv.html#244",
+    "mailto:nyon.champcolin@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-nyon-champ-colin.html",
+    "https://www.amag.ch/en/services/otv.html#248",
+    "mailto:aoc.bellinzona@amag.ch",
+    "https://www.amag.ch/en/car-dealers/used-vehicles-center-contone.html",
+    "https://www.amag.ch/en/services/otv.html#3570",
+    "mailto:aoc.muenchenbuchsee@amag.ch",
+    "https://www.amag.ch/en/car-dealers/used-vehicles-center-muenchenbuchsee.html",
+    "https://www.amag.ch/en/services/otv.html#290",
+    "mailto:aoc.oftringen@amag.ch",
+    "https://www.amag.ch/en/car-dealers/used-vehicles-center-oftringen.html",
+    "https://www.amag.ch/en/services/otv.html#437",
+    "mailto:aoc.pratteln@amag.ch",
+    "https://www.amag.ch/en/car-dealers/used-vehicles-center-pratteln.html",
+    "https://www.amag.ch/en/services/otv.html#136",
+    "mailto:sihlbrugg@amag.ch",
+    "https://www.amag.ch/en/car-dealers/used-vehicles-center-sihlbrugg.html",
+    "https://www.amag.ch/en/services/otv.html#655",
+    "mailto:aoc.zuerich@amag.ch",
+    "https://www.amag.ch/en/car-dealers/used-vehicles-center-zurich.html",
+    "https://www.amag.ch/en/services/otv.html#659",
+    "mailto:oftringen@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-oftringen.html",
+    "https://www.amag.ch/en/services/otv.html#463",
+    "https://www.amag.ch/en/services/otv.html#464",
+    "https://www.amag.ch/en/car-dealers/online-sales.html",
+    "https://www.amag.ch/en/services/otv.html#9201",
+    "mailto:petit-lancy@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-petit-lancy.html",
+    "https://www.amag.ch/en/services/otv.html#240",
+    "mailto:pratteln@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-pratteln.html",
+    "https://www.amag.ch/en/services/otv.html#130",
+    "mailto:rheinfelden@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-rheinfelden.html",
+    "https://www.amag.ch/en/services/otv.html#127",
+    "mailto:schaffhausen@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-schaffhausen.html",
+    "https://www.amag.ch/en/services/otv.html#450",
+    "mailto:schinznach-bad@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-schinznach-bad.html",
+    "https://www.amag.ch/en/services/otv.html#1",
+    "mailto:schlieren@amag.ch",
+    "https://www.amag.ch/en/car-dealers/garage-schlieren.html",
+    "https://www.amag.ch/en/services/otv.html#788",
+    "mailto:solothurn@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-solothurn.html",
+    "https://www.amag.ch/en/services/otv.html#500",
+    "mailto:st-legier@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-st-legier.html",
+    "https://www.amag.ch/en/services/otv.html#610",
+    "mailto:sursee@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-sursee.html",
+    "https://www.amag.ch/en/services/otv.html#376",
+    "mailto:thun@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-thun.html",
+    "https://www.amag.ch/en/services/otv.html#570",
+    "mailto:uster@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-uster.html",
+    "https://www.amag.ch/en/services/otv.html#680",
+    "mailto:uster-oberuster@amag.ch",
+    "https://www.amag.ch/en/car-dealers/commercial-vehicles-center-uster.html",
+    "https://www.amag.ch/en/services/otv.html#6831",
+    "mailto:utoquai@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-zurich-utoquai.html",
+    "https://www.amag.ch/en/services/otv.html#650",
+    "mailto:vaduz@amag.li",
+    "https://www.amag.ch/en/car-dealers/car-dealer-vaduz.html",
+    "https://www.amag.ch/en/services/otv.html#151",
+    "mailto:vernier@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-vernier.html",
+    "https://www.amag.ch/en/services/otv.html#6136",
+    "mailto:vevey@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-vevey.html",
+    "https://www.amag.ch/en/services/otv.html#600",
+    "mailto:villeneuve@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-villeneuve.html",
+    "https://www.amag.ch/en/services/otv.html#6114",
+    "mailto:volketswil@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-volketswil.html",
+    "https://www.amag.ch/en/services/otv.html#781",
+    "mailto:weinfelden@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-weinfelden.html",
+    "https://www.amag.ch/en/services/otv.html#272",
+    "mailto:wettingen@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-wettingen.html",
+    "https://www.amag.ch/en/services/otv.html#674",
+    "mailto:wettswil@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-wettswil.html",
+    "https://www.amag.ch/en/services/otv.html#6772",
+    "mailto:Winterthur@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-winterthur.html",
+    "https://www.amag.ch/en/services/otv.html#620",
+    "https://www.amag.ch/en/services/otv.html#6841",
+    "mailto:zuchwil@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-zuchwil.html",
+    "https://www.amag.ch/en/services/otv.html#155",
+    "mailto:zug@amag.ch",
+    "https://www.amag.ch/en/car-dealers/car-dealer-zug.html",
+    "https://www.amag.ch/en/services/otv.html#645",
+    "mailto:audicenterbasel@amag.ch",
+    "https://www.amag.ch/en/services/otv.html#122",
+    "https://www.amag.ch/en/services/otv.html#635",
+    "https://www.amag.ch/en/services/otv.html#798",
+    "mailto:info@bentley-zug.ch",
+    "https://www.amag.ch/en/car-dealers/garage-bentley-zug.html",
+    "https://www.amag.ch/en/services/otv.html#3972",
+    "https://www.amag.ch/en/testdrive.html",
+    "https://auto.amag.ch/de",
+    "https://www.amag.ch/en/komponenten/car-dealers.html#listOne",
+    "https://www.amag.ch/en/contact.html",
+    "https://auto.amag.ch/de/hilfe-kontakt/faq-online-autokauf",
+    "https://www.amag.ch/en/newsletter/subscribe.html",
+    "https://www.amag.ch/en/komponenten/car-dealers.html#listTwo",
+    "https://www.amag.ch/en/find-vehicle/cars-amag/clyde.html",
+    "https://www.europcar.ch/de",
+    "https://ondemand.europcar.ch/en.html",
+    "https://allride.ch/en/",
+    "https://www.amag-classic.ch/en.html",
+    "https://parking.amag.ch/en.html",
+    "https://www.amag.ch/en/komponenten/car-dealers.html#listThree",
+    "https://www.amag.ch/en/about-us.html",
+    "https://www.amag-group.ch/de.html",
+    "https://www.amag.ch/de/ueber-uns/esg.html",
+    "https://www.amag.ch/en/jobs.html",
+    "https://www.amagpress.ch/",
+    "https://apps.apple.com/ch/app/amag/id1632500360",
+    "https://play.google.com/store/apps/details?id=ch.amag.amagapp&gl=CH",
+    "https://www.instagram.com/amag.ch/",
+    "https://www.facebook.com/amag.automobile?ref=hl",
+    "https://www.linkedin.com/showcase/71635012",
+    "https://www.amag-group.blog/",
+    "https://www.amag-group.ch/de/footer/privacy-policy.html",
+    "https://www.amag-group.ch/de/footer/legal-notice.html",
+    "https://www.amag.ch/en/imprint.html",
+    "https://www.amag.ch/en/gtc.html",
+    "https://www.amag-group.ch/de/footer/cookie-policy.html",
+    "https://jobs-retail.amag.ch/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/shopping-cart-empty-1.svg",
+        "alt": "Electromobility",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/check-circle.svg",
+        "alt": "AMAG Group",
+        "w": 23,
+        "h": 23
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/shop-1.svg",
+        "alt": "SITES throughout Switzerland",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Volkswagen",
+        "w": 100,
+        "h": 100
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Audi_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Audi",
+        "w": 100,
+        "h": 35
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Seat_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "SEAT",
+        "w": 100,
+        "h": 107
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/new_Skoda_Logo_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Škoda",
+        "w": 100,
+        "h": 107
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/CUPRA_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "CUPRA",
+        "w": 100,
+        "h": 66
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Nutzfahrzeuge_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "VW Nutzfahrzeuge",
+        "w": 100,
+        "h": 107
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Bentley_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Bentley",
+        "w": 100,
+        "h": 107
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Micro_Microlino.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Microlino",
+        "w": 100,
+        "h": 50
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-generic/resources/img/iconsMobileNavigation/w_phone.svg",
+        "alt": "icon",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-generic/resources/img/iconsMobileNavigation/w_calendar-add-1.svg",
+        "alt": "icon",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Volkswagen",
+        "w": 100,
+        "h": 100
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Audi_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Audi",
+        "w": 100,
+        "h": 35
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Seat_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "SEAT",
+        "w": 100,
+        "h": 107
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/new_Skoda_Logo_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Škoda",
+        "w": 100,
+        "h": 107
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/CUPRA_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "CUPRA",
+        "w": 100,
+        "h": 66
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Nutzfahrzeuge_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "VW Nutzfahrzeuge",
+        "w": 100,
+        "h": 107
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Bentley_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Bentley",
+        "w": 100,
+        "h": 107
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Micro_Microlino.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Microlino",
+        "w": 100,
+        "h": 50
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_calendar-add-1.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_Glasschaden.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/e-auto.svg",
+        "alt": "",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerViolet.png",
+        "alt": "",
+        "w": 76,
+        "h": 92
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/googleMapsImg/amagMarkerBlack.png",
+        "alt": "",
+        "w": 61,
+        "h": 73
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i66!3i44!4i256!2m3!1e0!2sm!3i798564374!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=44248",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i68!3i45!4i256!2m3!1e0!2sm!3i798564374!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=96963",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i67!3i44!4i256!2m3!1e0!2sm!3i798564374!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=106330",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i67!3i43!4i256!2m3!1e0!2sm!3i798564374!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=46708",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i68!3i46!4i256!2m3!1e0!2sm!3i798564374!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=25514",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i68!3i44!4i256!2m3!1e0!2sm!3i798564374!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=37341",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i65!3i45!4i256!2m3!1e0!2sm!3i798564374!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=41788",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i67!3i46!4i256!2m3!1e0!2sm!3i798564374!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=94503",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i64!3i46!4i256!2m3!1e0!2sm!3i798564194!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=14571",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i69!3i45!4i256!2m3!1e0!2sm!3i798564374!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=27974",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i64!3i45!4i256!2m3!1e0!2sm!3i798564302!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=95517",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i69!3i44!4i256!2m3!1e0!2sm!3i798564374!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=99423",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i65!3i43!4i256!2m3!1e0!2sm!3i798564374!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=53615",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i70!3i43!4i256!2m3!1e0!2sm!3i798564302!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=113787",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i64!3i43!4i256!2m3!1e0!2sm!3i798564374!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=122604",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i70!3i46!4i256!2m3!1e0!2sm!3i798564374!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=45771",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i66!3i46!4i256!2m3!1e0!2sm!3i798564374!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=32421",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i65!3i46!4i256!2m3!1e0!2sm!3i798564374!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=101410",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i65!3i44!4i256!2m3!1e0!2sm!3i798564374!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=113237",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i69!3i43!4i256!2m3!1e0!2sm!3i798564374!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=39801",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i69!3i46!4i256!2m3!1e0!2sm!3i798564374!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=87596",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i66!3i45!4i256!2m3!1e0!2sm!3i798564374!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=103870",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i67!3i45!4i256!2m3!1e0!2sm!3i798564374!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=34881",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i64!3i44!4i256!2m3!1e0!2sm!3i798564302!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=35895",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i70!3i45!4i256!2m3!1e0!2sm!3i798564374!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=117220",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i66!3i43!4i256!2m3!1e0!2sm!3i798564374!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=115697",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i70!3i44!4i256!2m3!1e0!2sm!3i798564374!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=57598",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i7!2i68!3i43!4i256!2m3!1e0!2sm!3i798564374!3m18!2sen!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5oOiNlN2VjZjAscy50OjgyfHMuZTpnLmZ8cC5zOjAscy50OjgyfHMuZTpnLnN8cC5zOjB8cC5sOjAscy50OjJ8cC52Om9mZixzLnQ6M3xwLnM6LTcwLHMudDo0fHAudjpvZmYscy50OjZ8cC52OnNpbXBsaWZpZWR8cC5zOi02MCxzLnQ6NnxzLmU6Zy5mfHAuczo3NHxwLmw6LTM!4e0!5m1!1e3!23i46991212!23i47054750!23i47083502&key=AIzaSyAiIYqDFmY1f0Ytb3_T2W5kvGmA4bUPljc&token=108790",
+        "alt": "",
+        "w": 256,
+        "h": 256
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/blau/trash-remove.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/schwarz/calendar-add-1.svg",
+        "alt": "",
+        "w": 32,
+        "h": 32
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/schwarz/Probefahrt.svg",
+        "alt": "",
+        "w": 25,
+        "h": 24
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/schwarz/car-4.svg",
+        "alt": "",
+        "w": 32,
+        "h": 32
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/schwarz/Direkteinstiege.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/ve-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Volkswagen",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/audi-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Audi",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/seat-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Seat",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/skoda-logo-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Skoda",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/cupra-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "CUPRA",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/vw-nf-d-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Volkswagen Nutzfahrzeuge",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/bentley-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Bentley",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/micro-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Microlino",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/Ducati_Shield_weiss-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+        "alt": "Ducati Volketswil",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/sonstige/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg",
+        "alt": "",
+        "w": 120,
+        "h": 40
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/sonstige/GooglePlay-EN.png",
+        "alt": "",
+        "w": 646,
+        "h": 250
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/instagram.svg",
+        "alt": "Instagram",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/facebook.svg",
+        "alt": "Facebook",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_linkedin-logo.svg",
+        "alt": "AMAG Linkedin",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/AMAG-Blog-Button-24x24.svg",
+        "alt": "Social Link",
+        "w": 24,
+        "h": 24
+      }
+    ],
+    "allImgCount": 337,
+    "cssBackgrounds": [],
+    "modals": [
+      "All filters Delete all filters Show garages by Sale Service Brand selection VW Audi SEAT Škoda CUPRA VW Commercial Vehicles Bentley VW Audi SEAT Škoda CUPRA VW Commercial Vehicles Bentley Offer Used Car Center Commercial vehicle center Body Shop AllShow garage Close"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--blue": "#007bff",
+    "--indigo": "#6610f2",
+    "--purple": "#6f42c1",
+    "--pink": "#e83e8c",
+    "--red": "#dc3545",
+    "--orange": "#fd7e14",
+    "--yellow": "#ffc107",
+    "--green": "#28a745",
+    "--teal": "#20c997",
+    "--cyan": "#17a2b8",
+    "--white": "#fff",
+    "--gray": "#6c757d",
+    "--gray-dark": "#343a40",
+    "--primary": "#007bff",
+    "--secondary": "#6c757d",
+    "--success": "#28a745",
+    "--info": "#17a2b8",
+    "--warning": "#ffc107",
+    "--danger": "#dc3545",
+    "--light": "#f8f9fa",
+    "--dark": "#343a40",
+    "--breakpoint-xs": "0",
+    "--breakpoint-sm": "360px",
+    "--breakpoint-md": "768px",
+    "--breakpoint-lg": "1200px",
+    "--breakpoint-xl": "1920px",
+    "--font-family-sans-serif": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",\"Liberation Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
+    "--font-family-monospace": "SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+    "--header-height": "160px"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 1,
+    "mainTextLen": 59556,
+    "realImageCount": 172,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/151e70dd-e113-417d-94ba-57722b5a5aae/151e70dd-e113-417d-94ba-57722b5a5aae.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/151e70dd-e113-417d-94ba-57722b5a5aae/018e750d-67c6-7f0f-9796-d80b80a2250e/en.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.2.0/assets/v2/otPcTab.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 13848,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.2.0/assets/v2/otPcTab.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.2.0/assets/otFlat.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 3001,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.2.0/assets/otFlat.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.2.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.2.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.2.0/assets/otCookieSettingsButton.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1740,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.2.0/assets/otCookieSettingsButton.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdns.eu1.gigya.com",
+        "path": "/sdk.config.get",
+        "query": [
+          "apiKey",
+          "httpStatusCodes",
+          "ver"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/javascript",
+        "status": 200,
+        "bytes": 5947,
+        "hits": 4,
+        "example": "https://cdns.eu1.gigya.com/sdk.config.get",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.amag.ch",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://www.amag.ch/libs/granite/csrf/token.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "maps.googleapis.com",
+        "path": "/maps/api/mapsjs/gen_204",
+        "query": [
+          "csp_test"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 23,
+        "hits": 1,
+        "example": "https://maps.googleapis.com/maps/api/mapsjs/gen_204",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.amag.ch",
+        "path": "/libs/cq/i18n/dict.en.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.amag.ch/libs/cq/i18n/dict.en.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "identity.amag.ch",
+        "path": "/accounts.webSdkBootstrap",
+        "query": [
+          "apiKey",
+          "format",
+          "pageURL",
+          "sdk",
+          "sdkBuild"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "status": 200,
+        "bytes": 182,
+        "hits": 1,
+        "example": "https://identity.amag.ch/accounts.webSdkBootstrap",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.amag.ch",
+        "path": "/bin/amagch/storelocator.synonyms.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 50,
+        "hits": 1,
+        "example": "https://www.amag.ch/bin/amagch/storelocator.synonyms.json",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "maps.googleapis.com",
+        "path": "/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json+protobuf",
+        "status": 200,
+        "bytes": 11807,
+        "hits": 2,
+        "example": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.eu01.nr-data.net",
+        "path": "/{n}/NRJS-f9581b55a288c743721",
+        "query": [
+          "a",
+          "af",
+          "be",
+          "ck",
+          "dc",
+          "fcp",
+          "fe",
+          "fp",
+          "fsh",
+          "perf",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 198,
+        "hits": 1,
+        "example": "https://bam.eu01.nr-data.net/1/NRJS-f9581b55a288c743721",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.eu01.nr-data.net",
+        "path": "/events/{n}/NRJS-f9581b55a288c743721",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 2,
+        "example": "https://bam.eu01.nr-data.net/events/1/NRJS-f9581b55a288c743721",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.eu01.nr-data.net",
+        "path": "/jserrors/{n}/NRJS-f9581b55a288c743721",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 1,
+        "example": "https://bam.eu01.nr-data.net/jserrors/1/NRJS-f9581b55a288c743721",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.eu01.nr-data.net",
+        "path": "/browser/logs",
+        "query": [
+          "browser_monitoring_key"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 1,
+        "example": "https://bam.eu01.nr-data.net/browser/logs",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "privacyportal-de.onetrust.com",
+        "path": "/request/v1/consentreceipts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://privacyportal-de.onetrust.com/request/v1/consentreceipts",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "bzrcdn.openai.com",
+        "path": "/pixel-config/v1/RhLfQhNaYroSH9bsp3Kbm2.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 44,
+        "hits": 1,
+        "example": "https://bzrcdn.openai.com/pixel-config/v1/RhLfQhNaYroSH9bsp3Kbm2.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "alb.reddit.com",
+        "path": "/rp",
+        "query": [
+          "event",
+          "id"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://alb.reddit.com/rp",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "accdn.lpsnmedia.net",
+        "path": "/api/account/{n}/configuration/setting/accountproperties",
+        "query": [
+          "__d"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://accdn.lpsnmedia.net/api/account/46695133/configuration/setting/accountproperties",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "accdn.lpsnmedia.net",
+        "path": "/api/account/{n}/configuration/le-campaigns/zones",
+        "query": [
+          "__d",
+          "fields"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://accdn.lpsnmedia.net/api/account/46695133/configuration/le-campaigns/zones",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "ct.pinterest.com",
+        "path": "/user/",
+        "query": [
+          "cb",
+          "dep",
+          "ed",
+          "event",
+          "tid"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 229,
+        "hits": 3,
+        "example": "https://ct.pinterest.com/user/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "query": [
+          "fmt",
+          "medium"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://px.ads.linkedin.com/wa/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "ct.pinterest.com",
+        "path": "/v3/",
+        "query": [
+          "ad",
+          "cb",
+          "dep",
+          "ed",
+          "event",
+          "pd",
+          "tid"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 35,
+        "hits": 2,
+        "example": "https://ct.pinterest.com/v3/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "sst.amag.ch",
+        "path": "/g/collect",
+        "query": [
+          "_fplc",
+          "_fv",
+          "_geo",
+          "_nsi",
+          "_p",
+          "_rdi",
+          "_s",
+          "_ss",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "ecid",
+          "en",
+          "ep.if_AI_URL_fragment",
+          "ep.if_AI_bot",
+          "ep.if_AI_sc",
+          "ep.ot_activegroups",
+          "ep.page_hostname",
+          "ep.url_without_PII",
+          "ep.virtual_page_path",
+          "evnid",
+          "frm",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "richsstsse",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "sst.gch",
+          "sst.lpc",
+          "sst.navt",
+          "sst.ngs",
+          "sst.rnd",
+          "sst.sw_exp",
+          "sst.tft",
+          "sst.ude",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "ur",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://sst.amag.ch/g/collect",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "ct.pinterest.com",
+        "path": "/stats/",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://ct.pinterest.com/stats/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bat.bing.com",
+        "path": "/p/insights/c/b",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://bat.bing.com/p/insights/c/b",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.googleadservices.com",
+        "path": "/pagead/conversion/{n}/",
+        "query": [
+          "_is_sw",
+          "_tu",
+          "auid",
+          "bg",
+          "bttype",
+          "cv",
+          "data",
+          "dma",
+          "evnid",
+          "fmt",
+          "fst",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "guid",
+          "label",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "s3p",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "uip",
+          "url",
+          "value"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 1289,
+        "hits": 1,
+        "example": "https://www.googleadservices.com/pagead/conversion/875904358/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "googleads.g.doubleclick.net",
+        "path": "/pagead/viewthroughconversion/{n}/",
+        "query": [
+          "_is_sw",
+          "_tu",
+          "auid",
+          "bg",
+          "cerd",
+          "crd",
+          "ct_cookie_present",
+          "cv",
+          "data",
+          "dma",
+          "eitems",
+          "evnid",
+          "fmt",
+          "fsk",
+          "fst",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "guid",
+          "label",
+          "npa",
+          "pscdl",
+          "pscrd",
+          "random",
+          "rcb",
+          "s3p",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "uip",
+          "url",
+          "value"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "status": 302,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/875904358/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/pagead/1p-conversion/{n}/",
+        "query": [
+          "_is_sw",
+          "_tu",
+          "auid",
+          "bg",
+          "cerd",
+          "cid",
+          "crd",
+          "ct_cookie_present",
+          "cv",
+          "data",
+          "dma",
+          "eitems",
+          "evnid",
+          "fmt",
+          "fsk",
+          "fst",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "guid",
+          "is_vtc",
+          "label",
+          "npa",
+          "pscdl",
+          "pscrd",
+          "random",
+          "rcb",
+          "s3p",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "uip",
+          "url",
+          "value"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/pagead/1p-conversion/875904358/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bzr.openai.com",
+        "path": "/v1/sdk/events",
+        "query": [
+          "ec",
+          "pid",
+          "st",
+          "sv",
+          "t"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 202,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://bzr.openai.com/v1/sdk/events",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "maps.googleapis.com",
+        "count": 13
+      },
+      {
+        "host": "bat.bing.com",
+        "count": 4
+      },
+      {
+        "host": "lpcdn.lpsnmedia.net",
+        "count": 4
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 3
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 3
+      },
+      {
+        "host": "analytics.tiktok.com",
+        "count": 3
+      },
+      {
+        "host": "lptag.liveperson.net",
+        "count": 2
+      },
+      {
+        "host": "snap.licdn.com",
+        "count": 2
+      },
+      {
+        "host": "s.pinimg.com",
+        "count": 2
+      },
+      {
+        "host": "lo.v.liveperson.net",
+        "count": 2
+      },
+      {
+        "host": "rum.hlx.page",
+        "count": 1
+      },
+      {
+        "host": "www.google.com",
+        "count": 1
+      },
+      {
+        "host": "cdns.eu1.gigya.com",
+        "count": 1
+      },
+      {
+        "host": "www.gstatic.com",
+        "count": 1
+      },
+      {
+        "host": "munchkin.marketo.net",
+        "count": 1
+      },
+      {
+        "host": "static.hotjar.com",
+        "count": 1
+      },
+      {
+        "host": "www.redditstatic.com",
+        "count": 1
+      },
+      {
+        "host": "bzrcdn.openai.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "marketo-forms"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 1,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "amag-garagenModal__callButton",
+        "href": "tel:+41714667010"
+      },
+      {
+        "marker": "amag-garagenModal__emailButton",
+        "href": "mailto:acc-lengwil@amag.ch"
+      },
+      {
+        "marker": "amag-garagenModal__routeButton",
+        "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Carrosserie%20Center%20Lengwil,%20Steinstrasse%205,%208574,%20Lengwil"
+      },
+      {
+        "marker": "amag-garagenModal__garagenDetailLink",
+        "href": "/en/car-dealers/carrosserie-center-lengwil.html"
+      },
+      {
+        "marker": "amag-garagenModal__otvButton",
+        "href": "/en/services/otv.html#3962"
+      },
+      {
+        "marker": "amag-garagenModal__callButton",
+        "href": "tel:+41628368020"
+      },
+      {
+        "marker": "amag-garagenModal__emailButton",
+        "href": "mailto:aarau@amag.ch"
+      },
+      {
+        "marker": "amag-garagenModal__routeButton",
+        "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Aarau,%20Rohrerstrasse%2029,%205000,%20Aarau"
+      },
+      {
+        "marker": "amag-garagenModal__garagenDetailLink",
+        "href": "/en/car-dealers/car-dealer-aarau.html"
+      },
+      {
+        "marker": "amag-garagenModal__otvButton",
+        "href": "/en/services/otv.html#3537"
+      },
+      {
+        "marker": "amag-garagenModal__callButton",
+        "href": "tel:+41244686080"
+      },
+      {
+        "marker": "amag-garagenModal__emailButton",
+        "href": "mailto:aigle@amag.ch"
+      },
+      {
+        "marker": "amag-garagenModal__routeButton",
+        "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Aigle,%20Chemin%20des%20Orlons%201,%201860,%20Aigle"
+      },
+      {
+        "marker": "amag-garagenModal__garagenDetailLink",
+        "href": "/en/car-dealers/car-dealer-aigle.html"
+      },
+      {
+        "marker": "amag-garagenModal__otvButton",
+        "href": "/en/services/otv.html#606"
+      },
+      {
+        "marker": "amag-garagenModal__callButton",
+        "href": "tel:+41444372424"
+      },
+      {
+        "marker": "amag-garagenModal__emailButton",
+        "href": "mailto:altstetten@amag.ch"
+      },
+      {
+        "marker": "amag-garagenModal__routeButton",
+        "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Altstetten,%20Vulkanstrasse%20120,%208048,%20Zürich"
+      },
+      {
+        "marker": "amag-garagenModal__garagenDetailLink",
+        "href": "/en/car-dealers/car-dealer-altstetten.html"
+      },
+      {
+        "marker": "amag-garagenModal__otvButton",
+        "href": "/en/services/otv.html#673"
+      },
+      {
+        "marker": "amag-garagenModal__callButton",
+        "href": "tel:+41413480909"
+      },
+      {
+        "marker": "amag-garagenModal__emailButton",
+        "href": "mailto:kriens@amag.ch"
+      },
+      {
+        "marker": "amag-garagenModal__routeButton",
+        "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Audi%20Center%20Luzern,%20Grabenhofstrasse%2010,%206010,%20Kriens"
+      },
+      {
+        "marker": "amag-garagenModal__garagenDetailLink",
+        "href": "/en/car-dealers/audi-center-lucerne.html"
+      },
+      {
+        "marker": "amag-garagenModal__otvButton",
+        "href": "/en/services/otv.html#400"
+      },
+      {
+        "marker": "amag-garagenModal__callButton",
+        "href": "tel:+41800335533"
+      },
+      {
+        "marker": "amag-garagenModal__emailButton",
+        "href": "mailto:online.sales@amag.ch"
+      },
+      {
+        "marker": "amag-garagenModal__routeButton",
+        "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Auto-Abo,%20Giessenstrasse,%208600,%20Dübendorf"
+      },
+      {
+        "marker": "amag-garagenModal__garagenDetailLink",
+        "href": "/en/car-dealers/auto-abo.html"
+      },
+      {
+        "marker": "amag-garagenModal__otvButton",
+        "href": "/en/services/otv.html#9200"
+      },
+      {
+        "marker": "amag-garagenModal__callButton",
+        "href": "tel:+41443254545"
+      },
+      {
+        "marker": "amag-garagenModal__emailButton",
+        "href": "mailto:autowelt@amag.ch"
+      },
+      {
+        "marker": "amag-garagenModal__routeButton",
+        "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Autowelt%20Zürich,%20Giessenstrasse%204,%208600,%20Dübendorf"
+      },
+      {
+        "marker": "amag-garagenModal__garagenDetailLink",
+        "href": "/en/car-dealers/autowelt-zuerich.html"
+      },
+      {
+        "marker": "amag-garagenModal__otvButton",
+        "href": "/en/services/otv.html#698"
+      },
+      {
+        "marker": "amag-garagenModal__callButton",
+        "href": "tel:+41564846666"
+      },
+      {
+        "marker": "amag-garagenModal__emailButton",
+        "href": "mailto:baden@amag.ch"
+      },
+      {
+        "marker": "amag-garagenModal__routeButton",
+        "href": "https://www.google.com/maps/dir/?api=1&destination=AMAG%20Baden,%20Winkelstrasse%202,%205442,%20Fislisbach"
+      },
+      {
+        "marker": "amag-garagenModal__garagenDetailLink",
+        "href": "/en/car-dealers/car-dealer-baden.html"
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 5,
+      "thirdPartyEndpoints": 29,
+      "thirdPartyScriptHosts": 18,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/en-komponenten-car-dealers-html.png",
+  "renderedHtml": "pages/en-komponenten-car-dealers-html.html",
+  "slots": {
+    "map": "full-viewport dealer map",
+    "search-panel": "Search garage (input + filters + result list)"
+  }
+}

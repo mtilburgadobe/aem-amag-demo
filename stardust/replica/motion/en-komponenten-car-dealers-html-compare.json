@@ -1,0 +1,117 @@
+{
+  "live": "stardust/replica/motion/en-komponenten-car-dealers-html.json",
+  "build": "stardust/replica/motion/en-komponenten-car-dealers-html-build.json",
+  "toleranceMs": 150,
+  "tolerancePx": 8,
+  "advisory": true,
+  "findings": 2,
+  "counts": {
+    "behaviors": 14,
+    "parity": 8,
+    "missing": 2,
+    "extra": 0,
+    "tolerance": 0,
+    "dead": 4,
+    "advisory": 0
+  },
+  "verdicts": [
+    {
+      "cls": "header",
+      "name": "scroll-morph",
+      "state": "dead",
+      "note": "header static across the scroll traversal on both sides",
+      "line": "motion header scroll-morph: dead on live — not required (header static across the scroll traversal on both sides)"
+    },
+    {
+      "cls": "widget",
+      "name": ".storelocator__garage",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .storelocator__garage: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": ".amag-garageModal__closeButton",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .amag-garageModal__closeButton: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": ".storelocator__filterButton",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .storelocator__filterButton: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "transition",
+      "name": "opacity",
+      "state": "parity",
+      "note": "53 event(s) on live, 4 on build, 300ms",
+      "line": "motion transition opacity: parity (53 event(s) on live, 4 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "right",
+      "state": "parity",
+      "note": "1 event(s) on live, 1 on build, 500ms",
+      "line": "motion transition right: parity (1 event(s) on live, 1 on build, 500ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "top",
+      "state": "parity",
+      "note": "6 event(s) on live, 6 on build, 350ms",
+      "line": "motion transition top: parity (6 event(s) on live, 6 on build, 350ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "z-index",
+      "state": "parity",
+      "note": "1 event(s) on live, 1 on build, 500ms",
+      "line": "motion transition z-index: parity (1 event(s) on live, 1 on build, 500ms)"
+    },
+    {
+      "cls": "class",
+      "name": "is-shown",
+      "state": "parity",
+      "note": "added 1× on live, 1× on build",
+      "line": "motion class is-shown: parity (added 1× on live, 1× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "no-scroll",
+      "state": "parity",
+      "note": "added 1× on live, 1× on build",
+      "line": "motion class no-scroll: parity (added 1× on live, 1× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "optanon-category-C0003",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class optanon-category-C0003: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "optanon-category-C0004",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class optanon-category-C0004: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "show",
+      "state": "parity",
+      "note": "added 2× on live, 2× on build",
+      "line": "motion class show: parity (added 2× on live, 2× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "visible",
+      "state": "parity",
+      "note": "added 1× on live, 1× on build",
+      "line": "motion class visible: parity (added 1× on live, 1× on build)"
+    }
+  ]
+}

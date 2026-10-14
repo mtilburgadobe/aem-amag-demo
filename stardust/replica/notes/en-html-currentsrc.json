@@ -1,0 +1,1145 @@
+{
+ "360": [
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/shopping-cart-empty-1.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/shopping-cart-empty-1.svg",
+   "w": 0,
+   "h": 0,
+   "nat": 24,
+   "alt": "Electromobility"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/check-circle.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/check-circle.svg",
+   "w": 0,
+   "h": 0,
+   "nat": 23,
+   "alt": "AMAG Group"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/shop-1.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/shop-1.svg",
+   "w": 0,
+   "h": 0,
+   "nat": 24,
+   "alt": "SITES throughout Switzerland"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 50,
+   "h": 50,
+   "nat": 100,
+   "alt": "Volkswagen"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/Audi_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Audi_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 50,
+   "h": 17.5,
+   "nat": 100,
+   "alt": "Audi"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/Seat_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Seat_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 50,
+   "h": 53.5,
+   "nat": 100,
+   "alt": "SEAT"
+  },
+  {
+   "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/new_Skoda_Logo_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/new_Skoda_Logo_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 50,
+   "h": 53.5,
+   "nat": 100,
+   "alt": "Škoda"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/CUPRA_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/CUPRA_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 50,
+   "h": 33,
+   "nat": 100,
+   "alt": "CUPRA"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Nutzfahrzeuge_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Nutzfahrzeuge_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 50,
+   "h": 53.5,
+   "nat": 100,
+   "alt": "VW Nutzfahrzeuge"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/Bentley_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Bentley_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 50,
+   "h": 53.5,
+   "nat": 100,
+   "alt": "Bentley"
+  },
+  {
+   "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Micro_Microlino.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Micro_Microlino.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 50,
+   "h": 25,
+   "nat": 100,
+   "alt": "Microlino"
+  },
+  {
+   "src": "/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-generic/resources/img/iconsMobileNavigation/w_phone.svg",
+   "cur": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-generic/resources/img/iconsMobileNavigation/w_phone.svg",
+   "w": 32,
+   "h": 32,
+   "nat": 150,
+   "alt": "icon"
+  },
+  {
+   "src": "/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-generic/resources/img/iconsMobileNavigation/w_calendar-add-1.svg",
+   "cur": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-generic/resources/img/iconsMobileNavigation/w_calendar-add-1.svg",
+   "w": 32,
+   "h": 32,
+   "nat": 150,
+   "alt": "icon"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 0,
+   "h": 0,
+   "nat": 100,
+   "alt": "Volkswagen"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/Audi_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Audi_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 0,
+   "h": 0,
+   "nat": 100,
+   "alt": "Audi"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/Seat_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Seat_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 0,
+   "h": 0,
+   "nat": 100,
+   "alt": "SEAT"
+  },
+  {
+   "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/new_Skoda_Logo_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/new_Skoda_Logo_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 0,
+   "h": 0,
+   "nat": 100,
+   "alt": "Škoda"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/CUPRA_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/CUPRA_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 0,
+   "h": 0,
+   "nat": 100,
+   "alt": "CUPRA"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Nutzfahrzeuge_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Nutzfahrzeuge_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 0,
+   "h": 0,
+   "nat": 100,
+   "alt": "VW Nutzfahrzeuge"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/Bentley_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Bentley_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 0,
+   "h": 0,
+   "nat": 100,
+   "alt": "Bentley"
+  },
+  {
+   "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Micro_Microlino.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Micro_Microlino.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 0,
+   "h": 0,
+   "nat": 100,
+   "alt": "Microlino"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_calendar-add-1.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_calendar-add-1.svg",
+   "w": 0,
+   "h": 0,
+   "nat": 150,
+   "alt": ""
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_Glasschaden.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_Glasschaden.svg",
+   "w": 0,
+   "h": 0,
+   "nat": 150,
+   "alt": ""
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/e-auto.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/e-auto.svg",
+   "w": 0,
+   "h": 0,
+   "nat": 150,
+   "alt": ""
+  },
+  {
+   "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-vw-id-polo-header-desktop-v3:16_9_Large?wid=1920&hei=1080&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "cur": "https://dam.amag-group.ch/is/image/amagproduction/amag-vw-id-polo-seitlich-blau:3_4_Small?wid=360&hei=480&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "w": 360,
+   "h": 480,
+   "nat": 360,
+   "alt": ""
+  },
+  {
+   "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-cupra-raval-header-desktop-v3:16_9_Large?wid=1920&hei=1080&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "cur": "https://dam.amag-group.ch/is/image/amagproduction/amag-cupra-raval-header-mobile:3_4_Small?wid=360&hei=480&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "w": 360,
+   "h": 480,
+   "nat": 360,
+   "alt": ""
+  },
+  {
+   "src": "https://dam.amag-group.ch/is/image/amagproduction/skoda-epiq-header-desktop:16_9_Large?wid=1920&hei=1080&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "cur": "https://dam.amag-group.ch/is/image/amagproduction/amag-skoda-epiq-header-mobile-1st-edition:3_4_Small?wid=360&hei=480&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "w": 360,
+   "h": 480,
+   "nat": 360,
+   "alt": ""
+  },
+  {
+   "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-360-loesung-energie-e-mobilitaet-2500x1667-2:16_9_Large?wid=1920&hei=1080&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "cur": "https://dam.amag-group.ch/is/image/amagproduction/amag-360-loesung-energie-e-mobilitaet-360x480:3_4_Small?wid=360&hei=480&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "w": 360,
+   "h": 480,
+   "nat": 360,
+   "alt": ""
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/sonstige/car-actions-search.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/sonstige/car-actions-search.svg",
+   "w": 40,
+   "h": 40,
+   "nat": 40,
+   "alt": "Our vehicles"
+  },
+  {
+   "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-skoda-epiq-front:2_1_Large?wid=630&hei=315&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "cur": "https://dam.amag-group.ch/is/image/amagproduction/amag-skoda-epiq-front:2_1_Medium?wid=768&hei=384&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "w": 330,
+   "h": 165,
+   "nat": 660,
+   "alt": ""
+  },
+  {
+   "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-audi-a3-ambition-headerbild:2_1_Large?wid=630&hei=315&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "cur": "https://dam.amag-group.ch/is/image/amagproduction/amag-audi-a3-ambition-headerbild:2_1_Medium?wid=768&hei=384&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "w": 330,
+   "h": 165,
+   "nat": 660,
+   "alt": ""
+  },
+  {
+   "src": "https://dam.amag-group.ch/is/image/amagproduction/nl_st_1494565931:2_1_Large?wid=630&hei=315&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "cur": "https://dam.amag-group.ch/is/image/amagproduction/nl_st_1494565931:2_1_Medium?wid=768&hei=384&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "w": 330,
+   "h": 165,
+   "nat": 660,
+   "alt": ""
+  },
+  {
+   "src": "/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+   "cur": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+   "w": 95,
+   "h": 50,
+   "nat": 95,
+   "alt": "icon"
+  },
+  {
+   "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-vw-idpolo-basketball:2_1_Large?wid=630&hei=315&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "cur": "https://dam.amag-group.ch/is/image/amagproduction/amag-vw-idpolo-basketball:2_1_Medium?wid=768&hei=384&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "w": 330,
+   "h": 165,
+   "nat": 660,
+   "alt": ""
+  },
+  {
+   "src": "https://dam.amag-group.ch/is/image/amagproduction/ServiceCam_Reifenofferte3:2_1_Large?wid=630&hei=315&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "cur": "https://dam.amag-group.ch/is/image/amagproduction/ServiceCam_Reifenofferte3:2_1_Medium?wid=768&hei=384&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "w": 0,
+   "h": 0,
+   "nat": 660,
+   "alt": ""
+  },
+  {
+   "src": "/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+   "cur": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+   "w": 0,
+   "h": 0,
+   "nat": 95,
+   "alt": "icon"
+  },
+  {
+   "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-vw-nutzfahrzeugeWinterreifen:2_1_Large?wid=630&hei=315&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "cur": "https://dam.amag-group.ch/is/image/amagproduction/amag-vw-nutzfahrzeugeWinterreifen:2_1_Medium?wid=768&hei=384&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "w": 0,
+   "h": 0,
+   "nat": 660,
+   "alt": ""
+  },
+  {
+   "src": "/content/dam/amag-ch/services/teaser/AMAG-App-ladeaktion-EN-2-1.jpg/_jcr_content/renditions/original.transform/w630_h315-promotionTeaserAmag/img.jpg",
+   "cur": "",
+   "w": 0,
+   "h": 0,
+   "nat": 0,
+   "alt": "amag-ladeaktion-0.28-kwh-de.png"
+  },
+  {
+   "src": "/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+   "cur": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+   "w": 0,
+   "h": 0,
+   "nat": 95,
+   "alt": "icon"
+  },
+  {
+   "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-elektro-mobilitaet-6:2_1_Large?wid=630&hei=315&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "cur": "",
+   "w": 0,
+   "h": 0,
+   "nat": 0,
+   "alt": ""
+  },
+  {
+   "src": "/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+   "cur": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+   "w": 0,
+   "h": 0,
+   "nat": 95,
+   "alt": "icon"
+  },
+  {
+   "src": "/content/dam/amag-ch/auto-finden/teaser/elektro-teaser-2zu1.png/_jcr_content/renditions/original.transform/w630_h315-promotionTeaserAmag/img.png",
+   "cur": "",
+   "w": 0,
+   "h": 0,
+   "nat": 0,
+   "alt": "70 Jahre SEAT"
+  },
+  {
+   "src": "/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+   "cur": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+   "w": 0,
+   "h": 0,
+   "nat": 95,
+   "alt": "icon"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/bilder/Services_Übersicht_1_1440x400.jpg/_jcr_content/renditions/original.transform/w1440_h400-serviceContainer/img.jpg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/bilder/Services_%C3%9Cbersicht_1_1440x400.jpg/jcr:content/renditions/original.transform/w360_h480-serviceContainer/img.jpg",
+   "w": 0,
+   "h": 0,
+   "nat": 0,
+   "alt": ""
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/blau/car-tool-steering-wheel-1.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/blau/car-tool-steering-wheel-1.svg",
+   "w": 40,
+   "h": 40,
+   "nat": 41,
+   "alt": "Tyres and wheels"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/blau/temperature-thermometer-medium.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/blau/temperature-thermometer-medium.svg",
+   "w": 40,
+   "h": 40,
+   "nat": 40,
+   "alt": "Air conditioning service"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/blau/car-actions-check.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/blau/car-actions-check.svg",
+   "w": 40,
+   "h": 40,
+   "nat": 40,
+   "alt": "Car service / maintenance"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/Termin.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/Termin.svg",
+   "w": 32,
+   "h": 32,
+   "nat": 32,
+   "alt": ""
+  },
+  {
+   "src": "/content/dam/amag-ch/services/bilder/amag-e-mailing-neuabo-1800x500px.png/_jcr_content/renditions/original.transform/w1440_h400-divider/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/services/bilder/amag-e-mailing-neuabo-1800x500px.png/jcr:content/renditions/original.transform/w360_h203-divider/img.png",
+   "w": 360,
+   "h": 203,
+   "nat": 768,
+   "alt": "AMAG Newsletter"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_arrow-right.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_arrow-right.svg",
+   "w": 32,
+   "h": 32,
+   "nat": 150,
+   "alt": ""
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/bilder/divider-jobs-KI.png/_jcr_content/renditions/original.transform/w1440_h400-divider/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/bilder/divider-jobs-KI.png/jcr:content/renditions/original.transform/w360_h203-divider/img.png",
+   "w": 360,
+   "h": 203,
+   "nat": 768,
+   "alt": "AMAG Jobs"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_arrow-right.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_arrow-right.svg",
+   "w": 32,
+   "h": 32,
+   "nat": 150,
+   "alt": ""
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/ve-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/ve-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 50,
+   "h": 50,
+   "nat": 60,
+   "alt": "Volkswagen"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/audi-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/audi-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 50,
+   "h": 50,
+   "nat": 60,
+   "alt": "Audi"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/seat-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/seat-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 50,
+   "h": 50,
+   "nat": 60,
+   "alt": "Seat"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/skoda-logo-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/skoda-logo-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 50,
+   "h": 50,
+   "nat": 60,
+   "alt": "Skoda"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/cupra-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/cupra-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 50,
+   "h": 50,
+   "nat": 60,
+   "alt": "CUPRA"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/vw-nf-d-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/vw-nf-d-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 50,
+   "h": 50,
+   "nat": 60,
+   "alt": "Volkswagen Nutzfahrzeuge"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/bentley-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/bentley-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 50,
+   "h": 50,
+   "nat": 60,
+   "alt": "Bentley"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/micro-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/micro-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 50,
+   "h": 50,
+   "nat": 60,
+   "alt": "Microlino"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/Ducati_Shield_weiss-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/Ducati_Shield_weiss-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 50,
+   "h": 50,
+   "nat": 60,
+   "alt": "Ducati Volketswil"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/sonstige/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/sonstige/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg",
+   "w": 119.65625,
+   "h": 40,
+   "nat": 120,
+   "alt": ""
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/sonstige/GooglePlay-EN.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/sonstige/GooglePlay-EN.png",
+   "w": 120,
+   "h": 52,
+   "nat": 646,
+   "alt": ""
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/instagram.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/instagram.svg",
+   "w": 20,
+   "h": 20,
+   "nat": 24,
+   "alt": "Instagram"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/facebook.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/facebook.svg",
+   "w": 20,
+   "h": 20,
+   "nat": 24,
+   "alt": "Facebook"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_linkedin-logo.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_linkedin-logo.svg",
+   "w": 20,
+   "h": 20,
+   "nat": 150,
+   "alt": "AMAG Linkedin"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/AMAG-Blog-Button-24x24.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/AMAG-Blog-Button-24x24.svg",
+   "w": 20,
+   "h": 20,
+   "nat": 24,
+   "alt": "Social Link"
+  },
+  {
+   "src": "https://cdn.cookielaw.org/logos/af1e88b8-69bf-47ef-b61f-82647edd8088/1c7643c6-897d-4d0a-ac02-c99ac025304d/31b6dd87-878b-49c4-b585-676c364bc532/logoamag.png",
+   "cur": "https://cdn.cookielaw.org/logos/af1e88b8-69bf-47ef-b61f-82647edd8088/1c7643c6-897d-4d0a-ac02-c99ac025304d/31b6dd87-878b-49c4-b585-676c364bc532/logoamag.png",
+   "w": 0,
+   "h": 0,
+   "nat": 128,
+   "alt": "Company Logo"
+  },
+  {
+   "src": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+   "cur": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+   "w": 0,
+   "h": 0,
+   "nat": 568,
+   "alt": "Powered by Onetrust"
+  },
+  {
+   "src": "https://bat.bing.com/action/0?ti=17508134&tm=gtm002&Ver=2&mid=5fd54cf1-11f9-4ea8-bde4-1e24db70af66&bo=2&sid=9455e200c32b11f1b890afe269907d6b&vid=945622d0c32b11f1b8c96bc48bcf7bcb&vids=1&msclkid=N&pi=0&lg=en-US&sw=1440&sh=900&sc=24&nwd=1&tl=The%20biggest%20automotive%20company%20in%20Switzerland%20%7C%20AMAG&p=https%3A%2F%2Fwww.amag.ch%2Fen.html&r=&lt=3046&evt=pageLoad&sv=2&asc=G&cdb=AQET&rn=459865",
+   "cur": "https://bat.bing.com/action/0?ti=17508134&tm=gtm002&Ver=2&mid=5fd54cf1-11f9-4ea8-bde4-1e24db70af66&bo=2&sid=9455e200c32b11f1b890afe269907d6b&vid=945622d0c32b11f1b8c96bc48bcf7bcb&vids=1&msclkid=N&pi=0&lg=en-US&sw=1440&sh=900&sc=24&nwd=1&tl=The%20biggest%20automotive%20company%20in%20Switzerland%20%7C%20AMAG&p=https%3A%2F%2Fwww.amag.ch%2Fen.html&r=&lt=3046&evt=pageLoad&sv=2&asc=G&cdb=AQET&rn=459865",
+   "w": 0,
+   "h": 0,
+   "nat": 0,
+   "alt": ""
+  },
+  {
+   "src": "https://cdn.frontnow.cloud/https://data.frontnow.ai/storage/v1/object/public/studio/chNyWYZp4gPKoz6jTc4I1.png",
+   "cur": "https://cdn.frontnow.cloud/https://data.frontnow.ai/storage/v1/object/public/studio/chNyWYZp4gPKoz6jTc4I1.png",
+   "w": 54,
+   "h": 54,
+   "nat": 108,
+   "alt": ""
+  }
+ ],
+ "1440": [
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/shopping-cart-empty-1.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/shopping-cart-empty-1.svg",
+   "w": 24,
+   "h": 24,
+   "nat": 24,
+   "alt": "Electromobility"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/check-circle.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/check-circle.svg",
+   "w": 23,
+   "h": 23,
+   "nat": 23,
+   "alt": "AMAG Group"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/shop-1.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/shop-1.svg",
+   "w": 24,
+   "h": 24,
+   "nat": 24,
+   "alt": "SITES throughout Switzerland"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 0,
+   "h": 0,
+   "nat": 100,
+   "alt": "Volkswagen"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/Audi_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Audi_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 0,
+   "h": 0,
+   "nat": 100,
+   "alt": "Audi"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/Seat_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Seat_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 0,
+   "h": 0,
+   "nat": 100,
+   "alt": "SEAT"
+  },
+  {
+   "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/new_Skoda_Logo_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/new_Skoda_Logo_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 0,
+   "h": 0,
+   "nat": 100,
+   "alt": "Škoda"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/CUPRA_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/CUPRA_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 0,
+   "h": 0,
+   "nat": 100,
+   "alt": "CUPRA"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Nutzfahrzeuge_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Nutzfahrzeuge_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 0,
+   "h": 0,
+   "nat": 100,
+   "alt": "VW Nutzfahrzeuge"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/Bentley_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Bentley_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 0,
+   "h": 0,
+   "nat": 100,
+   "alt": "Bentley"
+  },
+  {
+   "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Micro_Microlino.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Micro_Microlino.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 0,
+   "h": 0,
+   "nat": 100,
+   "alt": "Microlino"
+  },
+  {
+   "src": "/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-generic/resources/img/iconsMobileNavigation/w_phone.svg",
+   "cur": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-generic/resources/img/iconsMobileNavigation/w_phone.svg",
+   "w": 0,
+   "h": 0,
+   "nat": 150,
+   "alt": "icon"
+  },
+  {
+   "src": "/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-generic/resources/img/iconsMobileNavigation/w_calendar-add-1.svg",
+   "cur": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-generic/resources/img/iconsMobileNavigation/w_calendar-add-1.svg",
+   "w": 0,
+   "h": 0,
+   "nat": 150,
+   "alt": "icon"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 0,
+   "h": 0,
+   "nat": 100,
+   "alt": "Volkswagen"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/Audi_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Audi_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 0,
+   "h": 0,
+   "nat": 100,
+   "alt": "Audi"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/Seat_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Seat_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 0,
+   "h": 0,
+   "nat": 100,
+   "alt": "SEAT"
+  },
+  {
+   "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/new_Skoda_Logo_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/new_Skoda_Logo_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 0,
+   "h": 0,
+   "nat": 100,
+   "alt": "Škoda"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/CUPRA_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/CUPRA_black.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 0,
+   "h": 0,
+   "nat": 100,
+   "alt": "CUPRA"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Nutzfahrzeuge_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/VW_Nutzfahrzeuge_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 0,
+   "h": 0,
+   "nat": 100,
+   "alt": "VW Nutzfahrzeuge"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/Bentley_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Bentley_Transparent.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 0,
+   "h": 0,
+   "nat": 100,
+   "alt": "Bentley"
+  },
+  {
+   "src": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Micro_Microlino.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/Micro_Microlino.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 0,
+   "h": 0,
+   "nat": 100,
+   "alt": "Microlino"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_calendar-add-1.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_calendar-add-1.svg",
+   "w": 0,
+   "h": 0,
+   "nat": 150,
+   "alt": ""
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_Glasschaden.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_Glasschaden.svg",
+   "w": 0,
+   "h": 0,
+   "nat": 150,
+   "alt": ""
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/e-auto.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/e-auto.svg",
+   "w": 0,
+   "h": 0,
+   "nat": 150,
+   "alt": ""
+  },
+  {
+   "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-vw-id-polo-header-desktop-v3:16_9_Large?wid=1920&hei=1080&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "cur": "https://dam.amag-group.ch/is/image/amagproduction/amag-vw-id-polo-header-desktop-v3:16_9_Large?wid=1920&hei=1080&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "w": 1440,
+   "h": 800,
+   "nat": 1920,
+   "alt": ""
+  },
+  {
+   "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-cupra-raval-header-desktop-v3:16_9_Large?wid=1920&hei=1080&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "cur": "https://dam.amag-group.ch/is/image/amagproduction/amag-cupra-raval-header-desktop-v3:16_9_Large?wid=1920&hei=1080&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "w": 1440,
+   "h": 800,
+   "nat": 1920,
+   "alt": ""
+  },
+  {
+   "src": "https://dam.amag-group.ch/is/image/amagproduction/skoda-epiq-header-desktop:16_9_Large?wid=1920&hei=1080&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "cur": "https://dam.amag-group.ch/is/image/amagproduction/skoda-epiq-header-desktop:16_9_Large?wid=1920&hei=1080&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "w": 1440,
+   "h": 800,
+   "nat": 1920,
+   "alt": ""
+  },
+  {
+   "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-360-loesung-energie-e-mobilitaet-2500x1667-2:16_9_Large?wid=1920&hei=1080&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "cur": "https://dam.amag-group.ch/is/image/amagproduction/amag-360-loesung-energie-e-mobilitaet-2500x1667-2:16_9_Large?wid=1920&hei=1080&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "w": 1440,
+   "h": 800,
+   "nat": 1920,
+   "alt": ""
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/sonstige/car-actions-search.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/sonstige/car-actions-search.svg",
+   "w": 40,
+   "h": 40,
+   "nat": 40,
+   "alt": "Our vehicles"
+  },
+  {
+   "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-skoda-epiq-front:2_1_Large?wid=630&hei=315&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "cur": "https://dam.amag-group.ch/is/image/amagproduction/amag-skoda-epiq-front:2_1_Medium?wid=768&hei=384&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "w": 540,
+   "h": 270,
+   "nat": 629,
+   "alt": ""
+  },
+  {
+   "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-audi-a3-ambition-headerbild:2_1_Large?wid=630&hei=315&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "cur": "https://dam.amag-group.ch/is/image/amagproduction/amag-audi-a3-ambition-headerbild:2_1_Medium?wid=768&hei=384&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "w": 540,
+   "h": 270,
+   "nat": 629,
+   "alt": ""
+  },
+  {
+   "src": "https://dam.amag-group.ch/is/image/amagproduction/nl_st_1494565931:2_1_Large?wid=630&hei=315&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "cur": "https://dam.amag-group.ch/is/image/amagproduction/nl_st_1494565931:2_1_Medium?wid=768&hei=384&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "w": 540,
+   "h": 270,
+   "nat": 629,
+   "alt": ""
+  },
+  {
+   "src": "/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+   "cur": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+   "w": 95,
+   "h": 50,
+   "nat": 95,
+   "alt": "icon"
+  },
+  {
+   "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-vw-idpolo-basketball:2_1_Large?wid=630&hei=315&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "cur": "https://dam.amag-group.ch/is/image/amagproduction/amag-vw-idpolo-basketball:2_1_Medium?wid=768&hei=384&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "w": 540,
+   "h": 270,
+   "nat": 629,
+   "alt": ""
+  },
+  {
+   "src": "https://dam.amag-group.ch/is/image/amagproduction/ServiceCam_Reifenofferte3:2_1_Large?wid=630&hei=315&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "cur": "https://dam.amag-group.ch/is/image/amagproduction/ServiceCam_Reifenofferte3:2_1_Medium?wid=768&hei=384&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "w": 0,
+   "h": 0,
+   "nat": 629,
+   "alt": ""
+  },
+  {
+   "src": "/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+   "cur": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+   "w": 0,
+   "h": 0,
+   "nat": 95,
+   "alt": "icon"
+  },
+  {
+   "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-vw-nutzfahrzeugeWinterreifen:2_1_Large?wid=630&hei=315&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "cur": "https://dam.amag-group.ch/is/image/amagproduction/amag-vw-nutzfahrzeugeWinterreifen:2_1_Medium?wid=768&hei=384&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "w": 0,
+   "h": 0,
+   "nat": 629,
+   "alt": ""
+  },
+  {
+   "src": "/content/dam/amag-ch/services/teaser/AMAG-App-ladeaktion-EN-2-1.jpg/_jcr_content/renditions/original.transform/w630_h315-promotionTeaserAmag/img.jpg",
+   "cur": "",
+   "w": 0,
+   "h": 0,
+   "nat": 0,
+   "alt": "amag-ladeaktion-0.28-kwh-de.png"
+  },
+  {
+   "src": "/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+   "cur": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+   "w": 0,
+   "h": 0,
+   "nat": 95,
+   "alt": "icon"
+  },
+  {
+   "src": "https://dam.amag-group.ch/is/image/amagproduction/amag-elektro-mobilitaet-6:2_1_Large?wid=630&hei=315&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+   "cur": "",
+   "w": 0,
+   "h": 0,
+   "nat": 0,
+   "alt": ""
+  },
+  {
+   "src": "/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+   "cur": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+   "w": 0,
+   "h": 0,
+   "nat": 95,
+   "alt": "icon"
+  },
+  {
+   "src": "/content/dam/amag-ch/auto-finden/teaser/elektro-teaser-2zu1.png/_jcr_content/renditions/original.transform/w630_h315-promotionTeaserAmag/img.png",
+   "cur": "",
+   "w": 0,
+   "h": 0,
+   "nat": 0,
+   "alt": "70 Jahre SEAT"
+  },
+  {
+   "src": "/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+   "cur": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-amagch/resources/img/promotions/promotionTeaserLogoAmag.png",
+   "w": 0,
+   "h": 0,
+   "nat": 95,
+   "alt": "icon"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/bilder/Services_Übersicht_1_1440x400.jpg/_jcr_content/renditions/original.transform/w1440_h400-serviceContainer/img.jpg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/bilder/Services_%C3%9Cbersicht_1_1440x400.jpg/jcr:content/renditions/original.transform/w1440_h400-serviceContainer/img.jpg",
+   "w": 1440,
+   "h": 400,
+   "nat": 1440,
+   "alt": ""
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/blau/car-tool-steering-wheel-1.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/blau/car-tool-steering-wheel-1.svg",
+   "w": 40,
+   "h": 40,
+   "nat": 41,
+   "alt": "Tyres and wheels"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/blau/temperature-thermometer-medium.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/blau/temperature-thermometer-medium.svg",
+   "w": 40,
+   "h": 40,
+   "nat": 40,
+   "alt": "Air conditioning service"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/blau/car-actions-check.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/blau/car-actions-check.svg",
+   "w": 40,
+   "h": 40,
+   "nat": 40,
+   "alt": "Car service / maintenance"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/Termin.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/Termin.svg",
+   "w": 32,
+   "h": 32,
+   "nat": 32,
+   "alt": ""
+  },
+  {
+   "src": "/content/dam/amag-ch/services/bilder/amag-e-mailing-neuabo-1800x500px.png/_jcr_content/renditions/original.transform/w1440_h400-divider/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/services/bilder/amag-e-mailing-neuabo-1800x500px.png/jcr:content/renditions/original.transform/w1440_h400-divider/img.png",
+   "w": 1440,
+   "h": 400,
+   "nat": 1440,
+   "alt": "AMAG Newsletter"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_arrow-right.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_arrow-right.svg",
+   "w": 32,
+   "h": 32,
+   "nat": 150,
+   "alt": ""
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/bilder/divider-jobs-KI.png/_jcr_content/renditions/original.transform/w1440_h400-divider/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/bilder/divider-jobs-KI.png/jcr:content/renditions/original.transform/w1440_h400-divider/img.png",
+   "w": 1440,
+   "h": 400,
+   "nat": 1440,
+   "alt": "AMAG Jobs"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_arrow-right.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_arrow-right.svg",
+   "w": 32,
+   "h": 32,
+   "nat": 150,
+   "alt": ""
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/ve-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/ve-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 53,
+   "h": 53,
+   "nat": 60,
+   "alt": "Volkswagen"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/audi-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/audi-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 53,
+   "h": 53,
+   "nat": 60,
+   "alt": "Audi"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/seat-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/seat-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 53,
+   "h": 53,
+   "nat": 60,
+   "alt": "Seat"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/skoda-logo-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/skoda-logo-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 53,
+   "h": 53,
+   "nat": 60,
+   "alt": "Skoda"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/cupra-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/cupra-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 53,
+   "h": 53,
+   "nat": 60,
+   "alt": "CUPRA"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/vw-nf-d-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/vw-nf-d-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 53,
+   "h": 53,
+   "nat": 60,
+   "alt": "Volkswagen Nutzfahrzeuge"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/bentley-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/bentley-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 53,
+   "h": 53,
+   "nat": 60,
+   "alt": "Bentley"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/micro-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/micro-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 53,
+   "h": 53,
+   "nat": 60,
+   "alt": "Microlino"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/Ducati_Shield_weiss-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/logos/komprimiert/neu/Ducati_Shield_weiss-60x60.png/_jcr_content/renditions/original.transform/w100-hAuto_nav-brandLogo/img.png",
+   "w": 53,
+   "h": 53,
+   "nat": 60,
+   "alt": "Ducati Volketswil"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/sonstige/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/sonstige/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg",
+   "w": 119.65625,
+   "h": 40,
+   "nat": 120,
+   "alt": ""
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/sonstige/GooglePlay-EN.png",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/sonstige/GooglePlay-EN.png",
+   "w": 120,
+   "h": 52,
+   "nat": 646,
+   "alt": ""
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/instagram.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/instagram.svg",
+   "w": 24,
+   "h": 24,
+   "nat": 24,
+   "alt": "Instagram"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/facebook.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/facebook.svg",
+   "w": 24,
+   "h": 24,
+   "nat": 24,
+   "alt": "Facebook"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_linkedin-logo.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/w_linkedin-logo.svg",
+   "w": 24,
+   "h": 24,
+   "nat": 150,
+   "alt": "AMAG Linkedin"
+  },
+  {
+   "src": "/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/AMAG-Blog-Button-24x24.svg",
+   "cur": "https://www.amag.ch/content/dam/amag-ch/gemeinsame-dateien/icons/weiss/AMAG-Blog-Button-24x24.svg",
+   "w": 24,
+   "h": 24,
+   "nat": 24,
+   "alt": "Social Link"
+  },
+  {
+   "src": "https://cdn.cookielaw.org/logos/af1e88b8-69bf-47ef-b61f-82647edd8088/1c7643c6-897d-4d0a-ac02-c99ac025304d/31b6dd87-878b-49c4-b585-676c364bc532/logoamag.png",
+   "cur": "https://cdn.cookielaw.org/logos/af1e88b8-69bf-47ef-b61f-82647edd8088/1c7643c6-897d-4d0a-ac02-c99ac025304d/31b6dd87-878b-49c4-b585-676c364bc532/logoamag.png",
+   "w": 0,
+   "h": 0,
+   "nat": 128,
+   "alt": "Company Logo"
+  },
+  {
+   "src": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+   "cur": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+   "w": 0,
+   "h": 0,
+   "nat": 568,
+   "alt": "Powered by Onetrust"
+  },
+  {
+   "src": "https://bat.bing.com/action/0?ti=17508134&tm=gtm002&Ver=2&mid=5fd54cf1-11f9-4ea8-bde4-1e24db70af66&bo=2&sid=9455e200c32b11f1b890afe269907d6b&vid=945622d0c32b11f1b8c96bc48bcf7bcb&vids=1&msclkid=N&pi=0&lg=en-US&sw=1440&sh=900&sc=24&nwd=1&tl=The%20biggest%20automotive%20company%20in%20Switzerland%20%7C%20AMAG&p=https%3A%2F%2Fwww.amag.ch%2Fen.html&r=&lt=3046&evt=pageLoad&sv=2&asc=G&cdb=AQET&rn=459865",
+   "cur": "https://bat.bing.com/action/0?ti=17508134&tm=gtm002&Ver=2&mid=5fd54cf1-11f9-4ea8-bde4-1e24db70af66&bo=2&sid=9455e200c32b11f1b890afe269907d6b&vid=945622d0c32b11f1b8c96bc48bcf7bcb&vids=1&msclkid=N&pi=0&lg=en-US&sw=1440&sh=900&sc=24&nwd=1&tl=The%20biggest%20automotive%20company%20in%20Switzerland%20%7C%20AMAG&p=https%3A%2F%2Fwww.amag.ch%2Fen.html&r=&lt=3046&evt=pageLoad&sv=2&asc=G&cdb=AQET&rn=459865",
+   "w": 0,
+   "h": 0,
+   "nat": 0,
+   "alt": ""
+  },
+  {
+   "src": "https://cdn.frontnow.cloud/https://data.frontnow.ai/storage/v1/object/public/studio/chNyWYZp4gPKoz6jTc4I1.png",
+   "cur": "https://cdn.frontnow.cloud/https://data.frontnow.ai/storage/v1/object/public/studio/chNyWYZp4gPKoz6jTc4I1.png",
+   "w": 54,
+   "h": 54,
+   "nat": 108,
+   "alt": ""
+  }
+ ],
+ "cssUrls": [
+  "https://cdn.cookielaw.org/logos/static/ot_close.svg"
+ ]
+}

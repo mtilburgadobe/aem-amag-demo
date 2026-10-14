@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- stardust:provenance
+  writtenBy:        stardust:extract
+  writtenAt:        2026-10-08T15:55:00Z
+  readArtifacts:
+    - stardust/current/_brand-extraction.json
+    - stardust/current/DESIGN.md
+    - stardust/current/DESIGN.json
+    - stardust/current/PRODUCT.md
+    - stardust/current/_computed-styles.json
+    - stardust/current/_crawl-log.json
+    - stardust/current/pages/en-html.json
+    - stardust/current/pages/en-services-html.json
+    - stardust/current/pages/en-komponenten-car-dealers-html.json
+    - stardust/current/pages/de-service-auto-services-online-termin-buchen-html.json
+    - stardust/current/pages/de-service-reifen-und-raeder-winterreifen-html.json
+    - stardust/current/assets/logo.svg
+  synthesizedInputs: []
+  stardustVersion:  0.29.1
+-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AMAG · Current state · brand review</title>
+<style>
+@font-face{font-family:amag_displaybold;font-weight:400;font-style:normal;src:url(assets/fonts/amag_display-bold.woff2) format("woff2")}
+@font-face{font-family:amag_displaylight;font-weight:400;font-style:normal;src:url(assets/fonts/amag_display-light.woff2) format("woff2")}
+@font-face{font-family:amag_textbold;font-weight:400;font-style:normal;src:url(assets/fonts/amag_text-bold.woff2) format("woff2")}
+@font-face{font-family:amag_textlight;font-weight:400;font-style:normal;src:url(assets/fonts/amag_text-light.woff2) format("woff2")}
+:root{
+  --primary:#172983; --primary-dark:#000000; /* brand's dark surface is the black footer/header strip */
+  --accent:#801977; --bg:#ffffff; --ink:#000000; --ink-2:#222222; --muted:#6f6d6a; --line:#e8e8e8; --divider:#bdbdbd; --lilac:#ede7fe;
+  --display:amag_displaybold,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --body:amag_textlight,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --label:amag_textbold,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --mono:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:24px}
+a{color:var(--primary)}
+h1,h2,h3,h4{font-family:var(--display);font-weight:500;margin:0;letter-spacing:normal}
+h2{font-size:32px;line-height:36px}
+h3{font-size:24px;line-height:28px}
+h4{font-size:20px;line-height:30px}
+code,.mono{font-family:var(--mono);font-size:13px}
+.wrap{max-width:1140px;margin:0 auto;padding:0 30px}
+/* top sticky nav */
+.topnav{position:sticky;top:0;z-index:10;background:var(--primary-dark);color:#fff;font-family:var(--display);text-transform:uppercase;letter-spacing:1.5px;font-size:12px}
+.topnav .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px;padding-top:10px;padding-bottom:10px}
+.topnav strong{margin-right:16px;font-weight:500;white-space:nowrap}
+.topnav a{color:#fff;text-decoration:none;padding:6px 12px;border-radius:150px}
+.topnav a:hover{background:rgba(255,255,255,.18)}
+/* masthead */
+.masthead{background:var(--primary-dark);color:#fff;padding:60px 0 80px}
+.masthead .logo{display:inline-block;width:201px;height:72px}
+.masthead h1{font-size:54px;line-height:60px;margin-top:30px}
+.masthead .hero-line{font-family:var(--display);font-size:32px;line-height:36px;color:#c9a4c6;margin:20px 0 10px}
+.masthead p{max-width:70ch;font-size:20px;line-height:30px;margin:8px 0}
+.masthead .origin{font-family:var(--mono);font-size:13px;color:#bdbdbd}
+/* sections */
+section{padding:80px 0;border-top:1px solid var(--line)}
+section:nth-of-type(even){background:#fafafa}
+.sechead{display:flex;flex-wrap:wrap;align-items:baseline;gap:12px;margin-bottom:8px}
+.src{font-family:var(--mono);font-size:12px;color:var(--muted);margin:0 0 30px}
+.badge{display:inline-block;font-family:var(--label);font-size:11px;letter-spacing:1px;text-transform:uppercase;padding:3px 10px;border-radius:100px;border:1px solid var(--divider);color:var(--ink-2);background:#fff}
+.badge.observed,.badge.cross-page{border-color:var(--primary);color:var(--primary)}
+.badge.inferred{border-color:var(--accent);color:var(--accent)}
+.badge.synthesized{border-color:var(--muted);color:var(--muted)}
+.badge.home-only{border-color:#009ee0;color:#006a9a}
+.tag{display:inline-block;font-family:var(--label);font-size:12px;color:var(--accent);margin-bottom:6px}
+.grid{display:grid;gap:30px}
+.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+@media(max-width:1023px){.g4{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.g2,.g3,.g4{grid-template-columns:1fr}}
+.stat{border:1px solid var(--line);padding:24px;background:#fff}
+.stat b{display:block;font-family:var(--display);font-weight:500;font-size:44px;line-height:48px}
+.stat span{color:var(--muted)}
+.thumb{background:#fff;border:1px solid var(--line)}
+.thumb img{display:block;width:100%;height:auto;max-height:420px;object-fit:cover;object-position:top}
+.thumb figcaption{padding:12px 16px;font-size:14px;line-height:20px}
+.thumb figcaption code{display:block;color:var(--muted);margin-top:4px}
+.swatch{min-height:200px;border:1px solid var(--line);background:#fff;padding:0 0 16px}
+.swatch .chip{height:96px;border-bottom:1px solid var(--line)}
+.swatch .role{font-family:var(--display);text-transform:uppercase;font-size:13px;letter-spacing:1px;padding:12px 16px 0}
+.swatch .hex{font-family:var(--mono);font-size:14px;padding:4px 16px}
+.swatch .meta{font-size:13px;line-height:19px;color:var(--muted);padding:0 16px}
+.pill{display:inline-block;background:var(--line);border-radius:100px;padding:4px 12px;font-family:var(--label);font-size:13px;margin:2px 4px 2px 0;color:var(--ink)}
+.typerow{border-bottom:1px solid var(--line);padding:24px 0}
+.typerow .lbl{font-family:var(--mono);font-size:12px;color:var(--muted);margin-bottom:8px}
+.card{background:#fff;border:1px solid var(--line);padding:24px}
+.tension{background:#fff;border:1px solid var(--line);border-left:4px solid var(--accent);padding:20px 24px}
+.tension h4{margin:2px 0 6px}
+.tension p{margin:0 0 8px;font-size:15px;line-height:22px}
+.tension footer{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.motif{background:#fff;border:1px solid var(--line);padding:20px;text-align:center}
+.motif .box{height:90px;background:var(--primary);margin:0 auto 12px;width:160px}
+.motif .shadowbox{height:90px;background:#fff;margin:0 auto 12px;width:160px;box-shadow:rgba(0,0,0,.2) 0 4px 8px 0}
+.list{list-style:none;margin:0;padding:0}
+.list li{border-left:3px solid var(--primary);padding:10px 16px;margin-bottom:10px;background:#fff}
+.list li b{font-family:var(--label);font-weight:400}
+.sys{background:#fff;border:1px solid var(--line);padding:20px 24px;margin-bottom:16px}
+.sys .kind{font-family:var(--label);font-size:12px;text-transform:uppercase;letter-spacing:1px;color:var(--primary)}
+.logo-row{display:flex;flex-wrap:wrap;gap:40px;align-items:flex-start}
+.logo-row .mark{background:var(--primary-dark);padding:40px;width:280px}
+.logo-row .mark img{display:block;width:200px;height:auto}
+dl{display:grid;grid-template-columns:max-content 1fr;gap:8px 24px;margin:0}
+dt{font-family:var(--label);color:var(--ink-2)}dd{margin:0}
+.bars{display:flex;align-items:flex-end;gap:12px;height:140px;margin:20px 0}
+.bars div{background:var(--primary);width:36px;position:relative}
+.bars div span{position:absolute;top:-22px;left:0;right:0;text-align:center;font-family:var(--mono);font-size:11px;color:var(--muted)}
+.foot{background:var(--primary-dark);color:#fff;padding:60px 0 120px;font-size:14px;line-height:22px}
+.foot a{color:#fff}
+.foot .badge{background:transparent;color:#fff;border-color:#555}
+@media print{.topnav{position:static}section{break-inside:avoid;padding:40px 0}.tension,.swatch,.card{break-inside:avoid}}
+</style>
+</head>
+<body>
+<nav class="topnav" aria-label="Sections"><div class="wrap">
+  <strong>AMAG · Current state</strong>
+  <a href="#coverage">Coverage</a><a href="#pages">Pages</a><a href="#palette">Palette</a><a href="#type">Typography</a><a href="#voice">Voice</a><a href="#tensions">Tensions</a><a href="#motifs">Motifs</a><a href="#components">Components</a><a href="#system">System</a><a href="#logo">Logo</a><a href="#spacing">Spacing</a>
+</div></nav>
+
+<header class="masthead"><div class="wrap">
+  <img class="logo" src="assets/logo.svg" alt="AMAG wordmark" width="201" height="72">
+  <h1>AMAG</h1>
+  <p class="hero-line">The new VW ID. Polo</p>
+  <p>Find your dream car, or book a service at AMAG – the biggest car dealership and official Swiss partner of VW Group vehicle brands</p>
+  <p class="origin">https://www.amag.ch · captured 2026-10-08 · same-design migration (replica) prep</p>
+</div></header>
+
+<section id="coverage"><div class="wrap">
+  <div class="sechead"><h2>Coverage</h2><span class="badge cross-page">cross-page</span></div>
+  <p class="src">source: stardust/current/_crawl-log.json · pages/*.json#_provenance</p>
+  <div class="grid g3">
+    <div class="stat"><b>5</b><span>pages extracted (headless, concurrency 3, 0 failures, auto-consent) — 2 English, 2 German, 1 locale-neutral dealer map</span></div>
+    <div class="stat"><b>2500 ms</b><span>wait strategy "medium" on every page; all 5 hydrated; 45 same-site endpoints, 19 third-party script hosts</span></div>
+    <div class="stat"><b>8 / 4 / 21</b><span>palette roles / webfont files / module candidates; vision check passed on all 5 pages (logo visible, no overlays)</span></div>
+  </div>
+  <p style="margin-top:20px;color:var(--muted)">Not captured: og:* metadata (null on every page), fr / it pages, cookie-banner content (OneTrust dismissed), carousel auto-advance, form error states.</p>
+</div></section>
+
+<section id="pages"><div class="wrap">
+  <div class="sechead"><h2>Pages</h2><span class="badge observed">observed</span></div>
+  <p class="src">source: stardust/current/assets/screenshots/*-thumb.png · pages/*.json#title</p>
+  <div class="grid g4">
+    <figure class="thumb"><img src="assets/screenshots/en-html-thumb.png" alt="Home page thumbnail"><figcaption>The biggest automotive company in Switzerland | AMAG<code>/en.html</code></figcaption></figure>
+    <figure class="thumb"><img src="assets/screenshots/en-services-html-thumb.png" alt="Services page thumbnail"><figcaption>All vehicle services at a glance | AMAG<code>/en/services.html</code></figcaption></figure>
+    <figure class="thumb"><img src="assets/screenshots/en-komponenten-car-dealers-html-thumb.png" alt="Car dealers page thumbnail"><figcaption>Find AMAG car dealers near you<code>/en/komponenten/car-dealers.html</code></figcaption></figure>
+    <figure class="thumb"><img src="assets/screenshots/de-service-auto-services-online-termin-buchen-html-thumb.png" alt="Booking wizard thumbnail"><figcaption>Auto-Service: Online-Termin buchen | AMAG<code>/de/service/auto-services-online-termin-buchen.html</code></figcaption></figure>
+    <figure class="thumb"><img src="assets/screenshots/de-service-reifen-und-raeder-winterreifen-html-thumb.png" alt="Winter tyre page thumbnail"><figcaption>Winterreifen wechseln, einlagern oder kaufen in Ihrer AMAG Garage | AMAG<code>/de/service/reifen-und-raeder/winterreifen.html</code></figcaption></figure>
+  </div>
+</div></section>
+
+<section id="palette"><div class="wrap">
+  <div class="sechead"><h2>Color palette</h2><span class="badge cross-page">cross-page</span><span class="badge observed">observed</span></div>
+  <p class="src">source: _brand-extraction.json#palette ← _computed-styles.json#aggregate.colors (weight = element count across 5 pages × 2 widths)</p>
+  <div class="grid g4">
+    <div class="swatch"><div class="chip" style="background:#ffffff"></div><div class="role">background</div><div class="hex">#ffffff</div><div class="meta">2431 occurrences · 193M px²<br><span class="pill">background</span><span class="pill">text</span><span class="pill">border</span><br>all 5 pages</div></div>
+    <div class="swatch"><div class="chip" style="background:#000000"></div><div class="role">text-primary</div><div class="hex">#000000</div><div class="meta">2121 · footer fill (.amag-footer)<br><span class="pill">text</span><span class="pill">background</span><span class="pill">border</span><br>all 5 pages</div></div>
+    <div class="swatch"><div class="chip" style="background:#222222"></div><div class="role">text-secondary</div><div class="hex">#222222</div><div class="meta">1110 · promo tiles, legal bar<br><span class="pill">text</span><span class="pill">background</span><br>all 5 pages</div></div>
+    <div class="swatch"><div class="chip" style="background:#e8e8e8"></div><div class="role">border</div><div class="hex">#e8e8e8</div><div class="meta">930 · hairlines, pill button fill<br><span class="pill">border</span><span class="pill">background</span><br>all 5 pages</div></div>
+    <div class="swatch"><div class="chip" style="background:#007bff"></div><div class="role">accent-link</div><div class="hex">#007bff</div><div class="meta">555 · Bootstrap default anchor, hover #0056b3<br><span class="pill">text</span><br>all 5 pages</div></div>
+    <div class="swatch"><div class="chip" style="background:#172983"></div><div class="role">primary</div><div class="hex">#172983</div><div class="meta">334 · buttons, icons, outlines<br><span class="pill">text</span><span class="pill">background</span><span class="pill">border</span><br>all 5 pages</div></div>
+    <div class="swatch"><div class="chip" style="background:#6f6d6a"></div><div class="role">text-muted</div><div class="hex">#6f6d6a</div><div class="meta">78 · breadcrumb (→ #000 on hover)<br><span class="pill">text</span><span class="pill">border</span><br>all 5 pages</div></div>
+    <div class="swatch"><div class="chip" style="background:#801977"></div><div class="role">secondary</div><div class="hex">#801977</div><div class="meta">45 · nav hover, active wizard step<br><span class="pill">background</span><span class="pill">border</span><span class="pill">text</span><br>all 5 pages</div></div>
+  </div>
+  <p style="margin-top:24px;font-size:14px;color:var(--muted)">Dropped at the 8-entry cap (recorded in _provenance.notes): #bdbdbd (38, accordion dividers), #979797 (20), #ffffff99 (10), #ede7fe (6, background-only lilac surface, 1.48M px²), #009ee0 (4, background-only), #0000001a / #0000004d (scrims), #006431 (2, background-only).</p>
+</div></section>
+
+<section id="type"><div class="wrap">
+  <div class="sechead"><h2>Typography</h2><span class="badge cross-page">cross-page</span><span class="badge synthesized">No modular scale</span></div>
+  <p class="src">source: _brand-extraction.json#type ← _computed-styles.json#aggregate.type + clientlib-amagch.css (.amag-headline--h1..h6, .amag-copy--*)</p>
+  <div class="typerow"><div class="lbl">H1 display · amag_displaybold 500 / 54px / 60px · observed once (home stage)</div><div style="font-family:var(--display);font-size:54px;line-height:60px">The new VW ID. Polo</div></div>
+  <div class="typerow"><div class="lbl">H1 · amag_displaybold 500 / 44px / 48px · 8 hits</div><div style="font-family:var(--display);font-size:44px;line-height:48px">AMAG services – comprehensive and carefree</div></div>
+  <div class="typerow"><div class="lbl">H2 / H3 · amag_displaybold 500 / 32px / 36px · 55 hits</div><div style="font-family:var(--display);font-size:32px;line-height:36px">Our most requested services</div></div>
+  <div class="typerow"><div class="lbl">H4 · amag_displaybold 500 / 24px / 28px · 28 hits</div><div style="font-family:var(--display);font-size:24px;line-height:28px">Your dream car from AMAG</div></div>
+  <div class="typerow"><div class="lbl">H5 · amag_displaybold 500 / 20px / 30px · 63 heading hits at 20px</div><div style="font-family:var(--display);font-size:20px;line-height:30px">Vehicle check from CHF 59.-</div></div>
+  <div class="typerow"><div class="lbl">Body · amag_textlight 400 / 20px / 30px · 88 text hits</div><p style="font-size:20px;line-height:30px;max-width:72ch;margin:0">Welcome to the biggest car dealership in Switzerland. As official Swiss dealership, we at AMAG offer you all the models of all the Volkswagen brands. At AMAG, you will find online and on site a huge range of new, stock and used vehicles from car brands like Volkswagen, Audi, SEAT, Škoda, CUPRA, VW Commercial Vehicles and Bentley.</p></div>
+  <div class="typerow"><div class="lbl">Small · amag_textlight 400 / 16px / 24px · 24 hits — Label · amag_textbold 400 / 20px · 45 button hits</div><p style="margin:0 0 8px">© 2026 AMAG Automobil und Motoren AG · Privacy policy · Legal notice · Impressum</p><span style="font-family:var(--label);font-size:20px;display:inline-block;background:var(--primary);color:#fff;padding:0 40px;line-height:70px;border-radius:2px">Arrange an appointment</span></div>
+  <p style="margin-top:20px;font-size:14px;color:var(--muted)">Scale audit: ad-hoc — 44 → 32 → 24 → 20 gives ratios 1.375 / 1.333 / 1.2. All four @font-face rules declare weight 400 (no font-display); headings compute to 500. 0 of 75 headings are uppercase.</p>
+</div></section>
+
+<section id="voice"><div class="wrap">
+  <div class="sechead"><h2>Voice</h2><span class="badge home-only">home-only</span><span class="badge inferred">tone guess: professional-warm</span></div>
+  <p class="src">source: _brand-extraction.json#voice (home) · #voiceTable (all 5 pages)</p>
+  <div class="grid g3">
+    <div class="card"><div class="tag">Hero headline</div><h3>The new VW ID. Polo</h3><p style="color:var(--muted);font-size:14px">CTA: Book your test drive now</p></div>
+    <div class="card"><div class="tag">Tagline (meta description)</div><p>Find your dream car, or book a service at AMAG – the biggest car dealership and official Swiss partner of VW Group vehicle brands</p></div>
+    <div class="card"><div class="tag">First paragraph</div><p style="font-size:14px;line-height:21px">Welcome to the biggest car dealership in Switzerland. As official Swiss dealership, we at AMAG offer you all the models of all the Volkswagen brands… Of course, our experts also offer all the services related to the car after the purchase – be it a repair in the workshop or a consultation at the garage!</p></div>
+  </div>
+  <h4 style="margin:40px 0 12px">CTA frequency (top 8 of 180 distinct labels, 360 CTAs)</h4>
+  <p><span class="pill">Route ×43</span><span class="pill">Jobs ×9</span><span class="pill">Find a vehicle ×7</span><span class="pill">Services ×6</span><span class="pill">Find out more ×6</span><span class="pill">Find garage ×6</span><span class="pill">Auto finden ×5</span><span class="pill">Newsletter ×4</span></p>
+  <p style="font-size:13px;color:var(--muted)">"Route" is the dealer-result action on the car-dealers page only; the rest are header/footer chrome plus the content CTA "Find out more".</p>
+  <h4 style="margin:30px 0 12px">Repeated headings</h4>
+  <p>No heading repeats on ≥3 pages. On 2 pages: <b>AMAG NEWS</b> · <b>News and promotions directly into your inbox</b>. The pledge-row heading repeats as a translation triple (Our AMAG pledge / More than just a service… / Mehr als nur Service…).</p>
+  <div class="grid g3" style="margin-top:30px">
+    <div class="stat"><b>0%</b><span>headings uppercase (0 of 75)</span></div>
+    <div class="stat"><b>73</b><span>distinct headings (75 total)</span></div>
+    <div class="stat"><b>180</b><span>distinct CTA labels</span></div>
+  </div>
+</div></section>
+
+<section id="tensions"><div class="wrap">
+  <div class="sechead"><h2>Tensions</h2><span class="badge synthesized">synthesized</span></div>
+  <p class="src">source: brand-review-template.md § Detector rules run against _brand-extraction.json and pages/*.json · 7 mechanical + 2 agent-added</p>
+  <div class="grid g2">
+    <div class="tension"><span class="tag">T-scale</span><h4>Type scale is ad-hoc</h4><p>Type scale is ad-hoc (44px → 32px → 24px → 20px, ratios 1.375 / 1.333 / 1.2, no consistent ratio; theme ramp 54 → 44 → 32 → 24 → 20 → 16 is also uneven). Direct will need to decide whether the target adopts a modular scale.</p><footer>_brand-extraction.json#type.scaleAudit.kind = "ad-hoc"</footer></div>
+    <div class="tension"><span class="tag">T-radius-vocab</span><h4>Radius vocabulary is fragmented</h4><p>Radius vocabulary is fragmented: 2px ×385, 4px ×152, 3.2px ×18 (three distinct values under 16px with ≥10 occurrences; 4px and 3.2px are Bootstrap .25rem / .2rem). Direct will need to pick a single small-radius value or accept the variance.</p><footer>_brand-extraction.json#motifs.borderRadius.occurrences</footer></div>
+    <div class="tension"><span class="tag">T-logo-variants</span><h4>Only one logo variant captured</h4><p>Only one logo variant captured (inline-svg, white fill, 67×24). The migration will need a monochrome / dark-on-light / favicon-scale variant set; direct should plan that.</p><footer>_brand-extraction.json#logo.source = "inline-svg"</footer></div>
+    <div class="tension"><span class="tag">T-color-imbalance</span><h4>#007bff appears as text only</h4><p>Color #007bff (accent-link) appears as text only — never as background, border or fill. It is the Bootstrap 4 default anchor color (hover #0056b3) on 541 content links. Direct will need to decide: drop, expand, or keep as accent.</p><footer>_brand-extraction.json#palette[role="accent-link"].usedAs = ["text"]</footer></div>
+    <div class="tension"><span class="tag">T-tokens-unused</span><h4>Design tokens defined but unused</h4><p>Design tokens defined but unused: <code>--primary</code> ships as <code>#007bff</code> (Bootstrap 4 default) on all 5 pages while the brand's actual primary is <code>#172983</code>. The token layer exists in name only — the migration target will need to either rewire components to consume tokens or replace the token values to match the brand.</p><footer>pages/*.json#customProps.--primary · _brand-extraction.json#palette[role="primary"]</footer></div>
+    <div class="tension"><span class="tag">T-img-alt-generic</span><h4>Generic alt text widespread</h4><p>Generic alt text found: 46 image(s) carry alt text equal to a stock placeholder ("icon") — 7 home, 20 services, 2 dealers, 2 booking, 15 winter tyres. Distinct from empty alt — these images claim a label but the label is content-free.</p><footer>pages/*.json#media.imgs[].alt (exact match, case-insensitive)</footer></div>
+    <div class="tension"><span class="tag">T-img-alt-empty</span><h4>Empty alt text widespread</h4><p>46% of images carry empty alt text (193 of 419). The dealer-map page dominates (138 of 172 — map pins and brand chips); excluding it the rate is 22% (55 of 247). Accessibility issue and a content-sourcing decision for direct.</p><footer>pages/*.json#media.imgs[].alt</footer></div>
+    <div class="tension"><span class="tag">A-cta-voice · agent-added</span><h4>See-more affordance has many voices</h4><p>Not triggered by the closed T-cta-vocab list (only "Discover more" matches), but the same affordance ships as "Find out more" ×6, "Discover now" ×2, "Discover more", "Show more", "About the service" ×3, "To the services" ×2, "Mehr erfahren". Direct will need a canonical label per language.</p><footer>pages/*.json#ctas[].label (counted)</footer></div>
+    <div class="tension"><span class="tag">A-temporal-content · agent-added</span><h4>Date-bound content lives in chrome</h4><p>Not a T-temporal-mark match (logo and hero are evergreen), but the header carries a campaign strip on all 5 pages ("AMAG Emotion Days — September 18 &amp; 19") and promos state deadlines ("Only for appointments until 10 october!", "bis zum 10.10.2026"). The migration must model these as authorable, expiring content, not fixed markup.</p><footer>pages/*.json#ctas "Discover more" → /de/events/emotiondays.html ×5 · body text</footer></div>
+  </div>
+  <p style="margin-top:24px;font-size:14px;color:var(--muted)">Not triggered: T-cta-vocab (one closed-list member), T-link-content-free (0), T-no-tokens (29 custom properties present), T-nav-conflict (nav = Find a vehicle / Services / Find garage / Jobs / My garage), T-temporal-mark, T-embed-dominance (no embedDominance data; the dealer map is a JS map, not an iframe).</p>
+</div></section>
+
+<section id="motifs"><div class="wrap">
+  <div class="sechead"><h2>Motifs</h2><span class="badge cross-page">cross-page</span></div>
+  <p class="src">source: _brand-extraction.json#motifs ← _computed-styles.json#aggregate.motifs</p>
+  <div class="grid g4">
+    <div class="motif"><div class="box" style="border-radius:2px"></div><b>2px</b><br><span class="mono">385 · theme buttons</span></div>
+    <div class="motif"><div class="box" style="border-radius:4px"></div><b>4px</b><br><span class="mono">152 · Bootstrap .25rem</span></div>
+    <div class="motif"><div class="box" style="border-radius:3.2px"></div><b>3.2px</b><br><span class="mono">18 · Bootstrap .2rem</span></div>
+    <div class="motif"><div class="box" style="border-radius:50%;width:90px"></div><b>50%</b><br><span class="mono">6 · icon circles</span></div>
+    <div class="motif"><div class="box" style="border-radius:100px;height:60px"></div><b>100px</b><br><span class="mono">4 · .amag-direct-entry__button</span></div>
+    <div class="motif"><div class="shadowbox"></div><b>0 4px 8px rgba(0,0,0,.2)</b><br><span class="mono">20 · OneTrust button only — not brand</span></div>
+    <div class="motif"><div class="box" style="background:linear-gradient(90deg,rgba(23,41,131,0),#172983 92.14%)"></div><b>90° fade</b><br><span class="mono">1 · scroller edge (white on site)</span></div>
+    <div class="motif"><div class="box" style="background:#ede7fe"></div><b>#ede7fe ground</b><br><span class="mono">6 · lilac section surface</span></div>
+  </div>
+</div></section>
+
+<section id="components"><div class="wrap">
+  <div class="sechead"><h2>Components</h2><span class="badge cross-page">cross-page</span></div>
+  <p class="src">source: DESIGN.json#extensions.modules (21 candidates, 51 instances) · _brand-extraction.json#motifs.patterns</p>
+  <ul class="list">
+    <li><b>site-header</b> · 5/5 · utility-bar + announcement-bar + nav-mega + language switch + My garage</li>
+    <li><b>site-footer</b> · 5/5 · footer-mega: 3 link lists, brand-logo-strip, app badges, social, legal bar (#000)</li>
+    <li><b>announcement-bar</b> · 5/5 · "AMAG Emotion Days" campaign strip</li>
+    <li><b>brand-logo-strip</b> · 5/5 · VW, Audi, SEAT, Škoda, CUPRA, VW Nutzfahrzeuge, Bentley, Microlino, Ducati</li>
+    <li><b>pledge-row</b> · 3/5 · benefit-icon-row, three pillars + bullets</li>
+    <li><b>image-text-card</b> · 3/5 · 2–4-up cards with "Find out more"</li>
+    <li><b>promo-teaser</b> · 3/5 · brand logo + price headline + "Benefit now"</li>
+    <li><b>cta-band</b> · 3/5 · jobs divider band / "Do you have any other questions?"</li>
+    <li><b>hero-split</b> · 2/5 · text + image hero (services, winter tyres)</li>
+    <li><b>news-cards</b> · 2/5 · card-grid, 3-up 2:1 images</li>
+    <li><b>icon-feature-grid</b> · 2/5 · blue line icons + h5 labels</li>
+    <li><b>newsletter-band</b> · 2/5 · 1440×400 divider-band + "Subscribe to newsletter"</li>
+    <li><b>accordion-faq</b> · 2/5 · hairline rows, h2 toggles</li>
+    <li><b>breadcrumb</b> · 2/5 · nav &gt; ol, #6f6d6a → #000</li>
+    <li><b>hero-carousel</b> · 1/5 · home stage, 4 × 1920×1080 slides</li>
+    <li><b>quick-links</b> · 1/5 · 3 utility tiles under hero</li>
+    <li><b>vehicle-search</b> · 1/5 · posts to auto.amag.ch</li>
+    <li><b>testimonial</b> · 1/5 · single customer quote</li>
+    <li><b>long-form-article</b> · 1/5 · h2 sections + h5 benefit tiles</li>
+    <li><b>dealer-search</b> · 1/5 · Google Map + search panel + Call / Route list</li>
+    <li><b>booking-wizard</b> · 1/5 · 5-step rail, brand select, Gigya login, reCAPTCHA</li>
+  </ul>
+</div></section>
+
+<section id="system"><div class="wrap">
+  <div class="sechead"><h2>System components</h2><span class="badge cross-page">cross-page</span></div>
+  <p class="src">source: _brand-extraction.json#systemComponents (threshold ≥3 of 5 pages; two entries below threshold flagged)</p>
+  <div class="sys"><span class="kind">header · 5 pages</span><h4>site-header</h4><p>Electromobility switch now · AMAG Group Mobility, Sustainability &amp; Future · No. 1 Car Dealer in Switzerland with 90 locations → Find a vehicle · Services · Find garage · Jobs · My garage · en | de | fr | it. CTAs: Discover more, Find my garage. Fixed, white, --header-height 75 / 120 / 160px.</p></div>
+  <div class="sys"><span class="kind">footer · 5 pages</span><h4>site-footer</h4><p>Assistance &amp; contact · Find a car &amp; service · Company · Our brands · AMAG App · Get connected with AMAG · © 2026 AMAG Automobil und Motoren AG. CTAs: Contact, Online appointment, Newsletter, Emergency, Privacy policy, Legal notice, Impressum, Terms and conditions, Cookie policy, Jobs. Background #000, text #fff.</p></div>
+  <div class="sys"><span class="kind">other · 3 pages</span><h4>pledge-row</h4><p>Our AMAG pledge / More than just a service – what you can expect from us / Mehr als nur Service. Three pillars: Full transparency · Greater safety · Best service.</p></div>
+  <div class="sys"><span class="kind">cta-band · 2 pages · below threshold</span><h4>newsletter-band</h4><p>News and promotions directly into your inbox → Subscribe to newsletter (home, services).</p></div>
+  <div class="sys"><span class="kind">other · 2 pages · below threshold</span><h4>news-cards</h4><p>AMAG NEWS 3-up (home, services).</p></div>
+  <div class="sys"><span class="kind">cta-band · 2 pages · below threshold</span><h4>faq-cta-band</h4><p>Do you have any other questions? / Haben Sie weitere Fragen? → Contact garage / Garage kontaktieren.</p></div>
+  <div class="sys"><span class="kind">other · not captured as content</span><h4>cookie-consent</h4><p>OneTrust (cdn.cookielaw.org); auto-consented at capture. Its floating button is the only source of the 0 4px 8px shadow.</p></div>
+</div></section>
+
+<section id="logo"><div class="wrap">
+  <div class="sechead"><h2>Logo &amp; favicon</h2><span class="badge home-only">home-only</span></div>
+  <p class="src">source: _brand-extraction.json#logo · assets/logo.svg · assets/favicon.svg · _crawl-log.json#favicon</p>
+  <div class="logo-row">
+    <div class="mark"><img src="assets/logo.svg" alt="AMAG logo, white on black"></div>
+    <dl>
+      <dt>Source</dt><dd>inline-svg · <code>#header &gt; div:nth-of-type(1) &gt; div:nth-of-type(3) &gt; a &gt; svg</code> · rendered 66×24 at x 31 / y 46 (1440 viewport)</dd>
+      <dt>File</dt><dd>assets/logo.svg · SVG · viewBox 0 0 67 24 · 4 paths fill="white" (shown on black here; the header surface is white #fff, so the live mark sits on a dark strip)</dd>
+      <dt>Variants captured</dt><dd>1 (white-fill wordmark) + favicon.svg</dd>
+      <dt>Variants not captured</dt><dd>dark-on-light wordmark, monochrome, app icon, brand-colour variant</dd>
+    </dl>
+  </div>
+</div></section>
+
+<section id="spacing"><div class="wrap">
+  <div class="sechead"><h2>Spacing &amp; shape</h2><span class="badge observed">observed</span></div>
+  <p class="src">source: _brand-extraction.json#spacing ← clientlib-amagch.css (.container, .row, .amag-marginBottom, .amag-footer, --header-height)</p>
+  <p>Base unit 4px (Bootstrap rem quarters). Observed rhythm values:</p>
+  <div class="bars">
+    <div style="height:4px"><span>4</span></div><div style="height:8px"><span>8</span></div><div style="height:15px"><span>15</span></div><div style="height:20px"><span>20</span></div><div style="height:30px"><span>30</span></div><div style="height:40px"><span>40</span></div><div style="height:80px"><span>80</span></div><div style="height:100px"><span>100</span></div><div style="height:120px"><span>120</span></div>
+  </div>
+  <p>Containers 540 / 720 / 960 / 1140px at 360 / 768 / 1200 / 1920px · gutter 30px · header 75 / 120 / 160px · module spacing 100–120px.</p>
+  <h4 style="margin:30px 0 10px">Radii revisited</h4>
+  <p><span class="pill" style="border-radius:2px">2px ×385</span><span class="pill" style="border-radius:4px">4px ×152</span><span class="pill" style="border-radius:3.2px">3.2px ×18</span><span class="pill" style="border-radius:50%">50% ×6</span><span class="pill">100px ×4</span></p>
+</div></section>
+
+<footer class="foot"><div class="wrap">
+  <p>This review was written by stardust:extract (0.29.1) from _brand-extraction.json, DESIGN.md, DESIGN.json, PRODUCT.md, _computed-styles.json, _crawl-log.json and the five pages/*.json captures. Every value traces to one of those files; tonal ramps in DESIGN.json are the only synthesized data. Fonts are the site's own self-hosted woff2 files (proprietary — verify licence before redeploy).</p>
+  <p>What's next: this is a same-design migration, so <code>$stardust direct</code> is not expected to diverge; the module candidates in DESIGN.json#extensions.modules feed block modelling. A separate probe writes extensions.breakpoints.</p>
+  <p><span class="badge">observed</span> frequency-counted across ≥3 pages · <span class="badge">cross-page</span> aggregated over all 5 pages · <span class="badge">home-only</span> single page · <span class="badge">inferred</span> agent judgment · <span class="badge">synthesized</span> constructed claim</p>
+</div></footer>
+</body>
+</html>

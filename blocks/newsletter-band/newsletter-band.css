@@ -1,0 +1,160 @@
+/* newsletter-band — values lifted from canon.css (amag-divider). The band sits between sections
+   on live (no band padding); its bottom margin is the overhang room of the white box. */
+.newsletter-band {
+  position: relative;
+}
+
+.newsletter-band.band,
+.newsletter-band.first-section.band {
+  padding-top: 0;
+}
+
+.newsletter-band.section-end {
+  padding-bottom: 0;
+}
+
+.newsletter-band .band {
+  position: relative;
+  width: 100%;
+  margin-bottom: 375px;
+}
+
+.newsletter-band .band-media {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.3889%;
+}
+
+.newsletter-band .band-media p {
+  margin: 0;
+}
+
+.newsletter-band .band-media picture {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+}
+
+.newsletter-band .band-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.newsletter-band .band-layer {
+  position: absolute;
+  inset: 0;
+}
+
+.newsletter-band .band-inner {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  max-width: var(--content-max);
+  margin: 0 auto;
+}
+
+.newsletter-band .band-content {
+  position: absolute;
+  bottom: -170px;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.newsletter-band .band-box {
+  width: 100%;
+  background: #fff;
+  padding: 34px 39px 0;
+}
+
+.newsletter-band .topline p {
+  margin: 0;
+  padding-bottom: 16px;
+  font-family: var(--font-text-light);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.newsletter-band .headline :is(h1, h2, h3, h4) {
+  margin: 0;
+  font-family: var(--font-display-bold);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.newsletter-band .copy p {
+  margin: 0;
+  padding-top: 25px;
+  font-family: var(--font-text-light);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.newsletter-band .cta {
+  width: 100%;
+  padding-top: 48px;
+}
+
+.newsletter-band .cta p {
+  margin: 0;
+}
+
+.newsletter-band .cta a:any-link {
+  display: flex;
+  width: 100%;
+}
+
+@media (width >= 768px) {
+  .newsletter-band .band {
+    margin-bottom: 230px;
+  }
+
+  .newsletter-band .band-media {
+    padding-top: 56.3802%;
+  }
+
+  .newsletter-band .band-content {
+    bottom: -130px;
+    padding: 0 40px;
+  }
+
+  .newsletter-band .band-box {
+    width: 66.6667%;
+    margin-left: 33.3333%;
+  }
+
+  .newsletter-band .cta {
+    width: 75%;
+  }
+}
+
+@media (width >= 1200px) {
+  .newsletter-band .band {
+    margin-bottom: 180px;
+  }
+
+  .newsletter-band .band-media {
+    padding-top: 27.7778%;
+  }
+
+  .newsletter-band .band-media img {
+    height: auto;
+  }
+
+  .newsletter-band .band-content {
+    bottom: -80px;
+    padding: 0 var(--section-gutter);
+  }
+
+  .newsletter-band .band-box {
+    width: 50%;
+    margin-left: 50%;
+    padding: 54px 60px 0 59px;
+  }
+}

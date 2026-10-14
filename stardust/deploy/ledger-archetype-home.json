@@ -1,0 +1,11 @@
+{
+  "/en": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-08T21:52:24.288Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

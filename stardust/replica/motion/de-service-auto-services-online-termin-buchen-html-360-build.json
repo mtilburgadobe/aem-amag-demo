@@ -1,0 +1,397 @@
+{
+  "url": "http://localhost:8791/de-service-auto-services-online-termin-buchen-html-proposed.html",
+  "width": 360,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 1200,
+      "cls": "",
+      "position": "static",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 2400,
+      "cls": "",
+      "position": "static",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 1443,
+      "cls": "",
+      "position": "static",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 2400,
+      "cls": "",
+      "position": "static",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 1200,
+      "cls": "",
+      "position": "static",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 800,
+      "cls": "",
+      "position": "static",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 500,
+      "cls": "",
+      "position": "static",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 300,
+      "cls": "",
+      "position": "static",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 200,
+      "cls": "",
+      "position": "static",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 150,
+      "cls": "",
+      "position": "static",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 120,
+      "cls": "",
+      "position": "static",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 90,
+      "cls": "",
+      "position": "static",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 60,
+      "cls": "",
+      "position": "static",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 30,
+      "cls": "",
+      "position": "static",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".amag-header__hamburger",
+      "frames": [
+        {
+          "t": 9500.10000000149,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 9705.60000000149,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 9910.300000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 10114.700000001118,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "#brand .generic-dynamic-dropdown-button",
+      "frames": [
+        {
+          "t": 11127.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 11330.700000001118,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 11535.60000000149,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 11741.300000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "slideIn",
+        "el": "html > body > header.header--overlay-open > div.container-fluid.amag-header.fixed-top > div.navbar-overlay",
+        "txt": "Menu wählen      \n                                ",
+        "y": 0
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "top",
+        "el": "html > body > header > div.container-fluid.amag-header.fixed-top",
+        "y": 400,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "top",
+        "el": "html > body > header > div.container-fluid.amag-header.fixed-top",
+        "y": 1443,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "top",
+        "el": "div.otv > div > div.tab-header-container > div.sticky-anchor.nav-open > div.tab-header-navigation-container",
+        "y": 1443,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "top",
+        "el": "html > body > header > div.container-fluid.amag-header.fixed-top",
+        "y": 2400,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "top",
+        "el": "div.otv > div > div.tab-header-container > div.sticky-anchor > div.tab-header-navigation-container",
+        "y": 2400,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "top",
+        "el": "html > body > header > div.container-fluid.amag-header.fixed-top",
+        "y": 1200,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "top",
+        "el": "div.otv > div > div.tab-header-container > div.sticky-anchor.nav-open > div.tab-header-navigation-container",
+        "y": 1200,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.d-flex > div.col-sm-12.col-md-6.col-lg-6 > div.generic-dynamic-dropdown-wrapper.otv-dropdown-tab--1 > div.generic-dynamic-dropdown-custom > svg.generic-dynamic-dropdown-chevron.show",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "font-size",
+        "el": "div.tab-pane.show.active > div.d-flex > div.col-sm-12.col-md-6.col-lg-6 > div.generic-dynamic-dropdown-wrapper.otv-dropdown-tab--1 > label.generic-dynamic-dropdown-label.active",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "div.tab-pane.show.active > div.d-flex > div.col-sm-12.col-md-6.col-lg-6 > div.generic-dynamic-dropdown-wrapper.otv-dropdown-tab--1 > label.generic-dynamic-dropdown-label.active",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.tab-pane.show.active > div.d-flex > div.col-sm-12.col-md-6.col-lg-6 > div.generic-dynamic-dropdown-wrapper.otv-dropdown-tab--1 > label.generic-dynamic-dropdown-label.active",
+        "y": 0,
+        "dur": "0.3s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "nav-open"
+        ],
+        "el": "div.amag-content > div.otv > div > div.tab-header-container > div.sticky-anchor.nav-open",
+        "y": 1443
+      },
+      {
+        "added": [
+          "nav-open"
+        ],
+        "el": "div.amag-content > div.otv > div > div.tab-header-container > div.sticky-anchor.nav-open",
+        "y": 1200
+      },
+      {
+        "added": [
+          "header--overlay-open"
+        ],
+        "el": "html > body > header.header--overlay-open",
+        "y": 0
+      },
+      {
+        "added": [
+          "show"
+        ],
+        "el": "div.d-flex > div.col-sm-12.col-md-6.col-lg-6 > div.generic-dynamic-dropdown-wrapper.otv-dropdown-tab--1 > div.generic-dynamic-dropdown-custom > ul.generic-dynamic-dropdown-menu.show",
+        "y": 0
+      },
+      {
+        "added": [
+          "show"
+        ],
+        "el": "div.d-flex > div.col-sm-12.col-md-6.col-lg-6 > div.generic-dynamic-dropdown-wrapper.otv-dropdown-tab--1 > div.generic-dynamic-dropdown-custom > svg.generic-dynamic-dropdown-chevron.show",
+        "y": 0
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.tab-pane.show.active > div.d-flex > div.col-sm-12.col-md-6.col-lg-6 > div.generic-dynamic-dropdown-wrapper.otv-dropdown-tab--1 > label.generic-dynamic-dropdown-label.active",
+        "y": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "extensions": {
+    "breakpoints": {
+      "containerMaxWidth": "1920px",
+      "probeWidth": 2560,
+      "shellMaxWidth": "445px",
+      "caps": [
+        {
+          "kind": "shell",
+          "px": 445,
+          "via": "fixed",
+          "selector": "#storelocatorId > div.storelocator__garagenOverlay.storelocator__garageOverlay",
+          "pages": [
+            "https://www.amag.ch/en/komponenten/car-dealers.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1920,
+          "via": "max-width",
+          "selector": "div.amag-stageTeaserImage.amag-ch > a.text-decoration-none > div.amag-stageTeaserImage__overlay.amagCh-section__container > div.container",
+          "pages": [
+            "https://www.amag.ch/en.html",
+            "https://www.amag.ch/en/services.html",
+            "https://www.amag.ch/de/service/reifen-und-raeder/winterreifen.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1020,
+          "via": "max-width",
+          "selector": "#amag-component-tab_tab-content",
+          "pages": [
+            "https://www.amag.ch/de/service/auto-services-online-termin-buchen.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 610,
+          "via": "max-width",
+          "selector": "#storelocatorId > aside.off-canvas__wrapper > div.off-canvas__canvas-box",
+          "pages": [
+            "https://www.amag.ch/en/komponenten/car-dealers.html",
+            "https://www.amag.ch/de/service/reifen-und-raeder/winterreifen.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 493,
+          "via": "fixed",
+          "selector": "div.container > div.row > div.col-12.col-md-6 > span.amag-stageTeaserVideo__linktext",
+          "pages": [
+            "https://www.amag.ch/en.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 455,
+          "via": "fixed",
+          "selector": "div.rich-text.text > div.cmp-text > h4 > b",
+          "pages": [
+            "https://www.amag.ch/en/services.html",
+            "https://www.amag.ch/de/service/reifen-und-raeder/winterreifen.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 407,
+          "via": "fixed",
+          "selector": "div.container > div.row > div.col-12.col-md-6 > div",
+          "pages": [
+            "https://www.amag.ch/en.html",
+            "https://www.amag.ch/de/service/auto-services-online-termin-buchen.html",
+            "https://www.amag.ch/de/service/reifen-und-raeder/winterreifen.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 365,
+          "via": "fixed",
+          "selector": "#storelocatorId > div.storelocator__garagenOverlay.storelocator__garageOverlay > div > h3.storelocator__searchTitle",
+          "pages": [
+            "https://www.amag.ch/en/komponenten/car-dealers.html",
+            "https://www.amag.ch/de/service/reifen-und-raeder/winterreifen.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 340,
+          "via": "fixed",
+          "selector": "div.container.row > div.promotionTeaserBox > div.amag-promotionTeaserBox.amag-marginBottom > button",
+          "pages": [
+            "https://www.amag.ch/en.html",
+            "https://www.amag.ch/en/services.html",
+            "https://www.amag.ch/de/service/reifen-und-raeder/winterreifen.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 318,
+          "via": "fixed",
+          "selector": "#otv-tab--1-content > div.d-flex > div.col-sm-12.col-md-6",
+          "pages": [
+            "https://www.amag.ch/de/service/auto-services-online-termin-buchen.html",
+            "https://www.amag.ch/de/service/reifen-und-raeder/winterreifen.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 282,
+          "via": "fixed",
+          "selector": "a.text-decoration-none > div.col-sm-12 > div > div",
+          "pages": [
+            "https://www.amag.ch/en.html",
+            "https://www.amag.ch/en/services.html",
+            "https://www.amag.ch/en/komponenten/car-dealers.html",
+            "https://www.amag.ch/de/service/reifen-und-raeder/winterreifen.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 250,
+          "via": "fixed",
+          "selector": "div.container > div.row > div.col-12.col-md-6 > span.amag-stageTeaserVideo__linktext",
+          "pages": [
+            "https://www.amag.ch/en.html",
+            "https://www.amag.ch/en/services.html",
+            "https://www.amag.ch/en/komponenten/car-dealers.html",
+            "https://www.amag.ch/de/service/reifen-und-raeder/winterreifen.html"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.amag.ch/en.html",
+          "section": 0,
+          "selector": "#header",
+          "px": null
+        },
+        {
+          "url": "https://www.amag.ch/en.html",
+          "section": 1,
+          "selector": "body.view-withKeyboard > div.amag-content",
+          "px": 1920
+        },
+        {
+          "url": "https://www.amag.ch/en.html",
+          "section": 2,
+          "selector": "body.view-withKeyboard > footer",
+          "px": null
+        },
+        {
+          "url": "https://www.amag.ch/en.html",
+          "section": 3,
+          "selector": "#frontnow-advisor-launcher",
+          "px": null
+        },
+        {
+          "url": "https://www.amag.ch/en.html",
+          "section": 4,
+          "selector": "body.view-withKeyboard > div.frontnow-advisor-container.frontnow-hidden",
+          "px": null
+        },
+        {
+          "url": "https://www.amag.ch/en.html",
+          "section": 5,
+          "selector": "#frontnow-advisor-popover",
+          "px": 244
+        },
+        {
+          "url": "https://www.amag.ch/en/services.html",
+          "section": 0,
+          "selector": "#header",
+          "px": null
+        },
+        {
+          "url": "https://www.amag.ch/en/services.html",
+          "section": 1,
+          "selector": "body.view-withKeyboard > div.amag-content",
+          "px": 1920
+        },
+        {
+          "url": "https://www.amag.ch/en/services.html",
+          "section": 2,
+          "selector": "body.view-withKeyboard > footer",
+          "px": null
+        },
+        {
+          "url": "https://www.amag.ch/en/services.html",
+          "section": 3,
+          "selector": "#frontnow-advisor-launcher",
+          "px": null
+        },
+        {
+          "url": "https://www.amag.ch/en/services.html",
+          "section": 4,
+          "selector": "#frontnow-advisor-popover",
+          "px": 244
+        },
+        {
+          "url": "https://www.amag.ch/en/komponenten/car-dealers.html",
+          "section": 0,
+          "selector": "#header",
+          "px": null
+        },
+        {
+          "url": "https://www.amag.ch/en/komponenten/car-dealers.html",
+          "section": 1,
+          "selector": "body.amag-overrideBootstrapModal.view-withKeyboard > div.amag-content",
+          "px": 610
+        },
+        {
+          "url": "https://www.amag.ch/en/komponenten/car-dealers.html",
+          "section": 2,
+          "selector": "body.amag-overrideBootstrapModal.view-withKeyboard > footer",
+          "px": null
+        },
+        {
+          "url": "https://www.amag.ch/de/service/auto-services-online-termin-buchen.html",
+          "section": 0,
+          "selector": "#header",
+          "px": null
+        },
+        {
+          "url": "https://www.amag.ch/de/service/auto-services-online-termin-buchen.html",
+          "section": 1,
+          "selector": "body.view-withKeyboard > div.amag-content",
+          "px": 1020
+        },
+        {
+          "url": "https://www.amag.ch/de/service/auto-services-online-termin-buchen.html",
+          "section": 2,
+          "selector": "body.view-withKeyboard > footer",
+          "px": null
+        },
+        {
+          "url": "https://www.amag.ch/de/service/reifen-und-raeder/winterreifen.html",
+          "section": 0,
+          "selector": "#header",
+          "px": null
+        },
+        {
+          "url": "https://www.amag.ch/de/service/reifen-und-raeder/winterreifen.html",
+          "section": 1,
+          "selector": "body.view-withKeyboard > div.amag-content",
+          "px": 1920
+        },
+        {
+          "url": "https://www.amag.ch/de/service/reifen-und-raeder/winterreifen.html",
+          "section": 2,
+          "selector": "body.view-withKeyboard > footer",
+          "px": null
+        },
+        {
+          "url": "https://www.amag.ch/de/service/reifen-und-raeder/winterreifen.html",
+          "section": 3,
+          "selector": "#frontnow-advisor-launcher",
+          "px": null
+        },
+        {
+          "url": "https://www.amag.ch/de/service/reifen-und-raeder/winterreifen.html",
+          "section": 4,
+          "selector": "body.view-withKeyboard > div.frontnow-advisor-container.frontnow-hidden",
+          "px": null
+        },
+        {
+          "url": "https://www.amag.ch/de/service/reifen-und-raeder/winterreifen.html",
+          "section": 5,
+          "selector": "#frontnow-advisor-popover",
+          "px": 244
+        }
+      ],
+      "capRegister": [
+        "contentMaxWidth differs between archetypes: 1920 (https://www.amag.ch/en.html), 1920 (https://www.amag.ch/en/services.html), 445 (https://www.amag.ch/en/komponenten/car-dealers.html), 1020 (https://www.amag.ch/de/service/auto-services-online-termin-buchen.html), 1920 (https://www.amag.ch/de/service/reifen-und-raeder/winterreifen.html) — decide per template in the inconsistency register",
+        "shellMaxWidth differs between archetypes: fluid (https://www.amag.ch/en.html), fluid (https://www.amag.ch/en/services.html), 445 (https://www.amag.ch/en/komponenten/car-dealers.html), fluid (https://www.amag.ch/de/service/auto-services-online-termin-buchen.html), fluid (https://www.amag.ch/de/service/reifen-und-raeder/winterreifen.html)",
+        "module cap 1020px on a single section (#amag-component-tab_tab-content, https://www.amag.ch/de/service/auto-services-online-termin-buchen.html) — intent or mistake? register it"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-10-08T14:50:00.758Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.amag.ch/en.html",
+          "https://www.amag.ch/en/services.html",
+          "https://www.amag.ch/en/komponenten/car-dealers.html",
+          "https://www.amag.ch/de/service/auto-services-online-termin-buchen.html",
+          "https://www.amag.ch/de/service/reifen-und-raeder/winterreifen.html"
+        ]
+      }
+    }
+  }
+}

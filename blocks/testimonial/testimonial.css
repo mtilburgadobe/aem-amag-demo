@@ -1,0 +1,72 @@
+/* testimonial — values lifted from canon.css (amag-quoteModul, section shell). */
+.testimonial {
+  position: relative;
+  background: #fff;
+}
+
+.testimonial.band {
+  padding-top: 80px;
+}
+
+.testimonial.first-section.band {
+  padding-top: 0;
+}
+
+.testimonial.section-end {
+  padding-bottom: 80px;
+}
+
+.testimonial .wrap {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0 var(--section-gutter);
+}
+
+.testimonial .quote-text :is(p, blockquote) {
+  margin: 0 0 30px;
+  font-family: var(--font-display-bold);
+  font-size: 32px;
+  line-height: 1.1;
+}
+
+.testimonial .quote-text :is(p, blockquote)::before {
+  content: "\2018";
+}
+
+.testimonial .quote-text :is(p, blockquote)::after {
+  content: "\2019";
+}
+
+.testimonial .quote-author p {
+  margin: 0;
+  font-family: var(--font-display-bold);
+  font-size: 20px;
+}
+
+.testimonial .quote-by p {
+  margin: 0;
+  color: var(--amag-grey-600);
+  font-family: var(--font-text-light);
+  font-size: 20px;
+}
+
+@media (width >= 768px) {
+  .testimonial .quote-text :is(p, blockquote) {
+    margin-bottom: 20px;
+  }
+}
+
+@media (width >= 1200px) {
+  .testimonial.band {
+    padding-top: 120px;
+  }
+
+  .testimonial.section-end {
+    padding-bottom: 120px;
+  }
+
+  .testimonial .quote-text :is(p, blockquote) {
+    margin-bottom: 27px;
+    font-size: 44px;
+  }
+}

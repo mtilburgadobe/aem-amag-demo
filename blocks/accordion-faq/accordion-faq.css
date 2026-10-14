@@ -1,0 +1,244 @@
+/* accordion-faq — values lifted from canon.css (cmp-accordion, section shell) and the page
+   CSS (standard teaser panel @447804). */
+.accordion-faq {
+  position: relative;
+  background: #fff;
+  margin-bottom: 100px;
+}
+
+.accordion-faq.grey {
+  background: var(--amag-grey-100);
+}
+
+.accordion-faq.lavender {
+  background: #ede7fe;
+}
+
+.accordion-faq .wrap {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0 var(--section-gutter);
+}
+
+.accordion-faq.band {
+  padding-top: 80px;
+}
+
+.accordion-faq.band-white::before,
+.accordion-faq.band-grey::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: calc(max(0px, (100% - var(--content-max)) / 2) + var(--section-gutter));
+  background: #fff;
+}
+
+.accordion-faq.band-grey::before {
+  background: var(--amag-grey-100);
+}
+
+.accordion-faq.section-end {
+  margin-bottom: 0;
+  padding-bottom: 80px;
+}
+
+.accordion-faq.first-section.band {
+  padding-top: 0;
+}
+
+.accordion-faq.first-section::before {
+  display: none;
+}
+
+/* intro */
+.accordion-faq .intro {
+  padding-bottom: 32px;
+}
+
+.accordion-faq .intro-icon p {
+  margin: 0;
+}
+
+.accordion-faq .intro-icon img {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 33px;
+}
+
+.accordion-faq .headline :is(h1, h2, h3, h4) {
+  font-family: var(--font-display-bold);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0;
+}
+
+/* rows */
+.accordion-faq .item {
+  border-top: 1px solid var(--amag-grey-400);
+}
+
+.accordion-faq .item:last-child {
+  border-bottom: 1px solid var(--amag-grey-400);
+}
+
+.accordion-faq .item-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 35px 0 40px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.accordion-faq .item-title :is(h2, h3, h4, h5, p) {
+  font-family: var(--font-text-bold);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.accordion-faq .item-toggle {
+  display: flex;
+  flex: 0 0 auto;
+  margin-left: 20px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.accordion-faq .item-toggle svg {
+  display: block;
+  height: 24px;
+  width: 24px;
+  transition: transform 0.5s;
+}
+
+.accordion-faq .item.expanded .item-toggle svg {
+  transform: rotate(180deg);
+}
+
+.accordion-faq .panel {
+  padding-bottom: 53px;
+}
+
+.accordion-faq .panel-inner {
+  width: 100%;
+}
+
+.accordion-faq .panel-inner p {
+  font-family: var(--font-text-light);
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 0 1rem;
+}
+
+.accordion-faq .panel-inner p:first-of-type {
+  margin-top: -5px;
+}
+
+.accordion-faq .panel-inner p:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .accordion-faq .item-toggle svg {
+    transition: none;
+  }
+}
+
+@media (width < 768px) {
+  .accordion-faq.band-white::before,
+  .accordion-faq.band-grey::before {
+    display: none;
+  }
+}
+
+@media (width >= 768px) {
+  .accordion-faq .intro {
+    padding-bottom: 41px;
+  }
+
+  .accordion-faq .intro-icon img {
+    margin-bottom: 30px;
+  }
+
+  .accordion-faq .headline :is(h1, h2, h3, h4) {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+
+  .accordion-faq .panel-inner {
+    max-width: 50%;
+  }
+}
+
+@media (width >= 1200px) {
+  .accordion-faq.band,
+  .accordion-faq.first-section.band {
+    padding-top: 120px;
+  }
+
+  .accordion-faq.band-white::before,
+  .accordion-faq.band-grey::before {
+    height: 120px;
+  }
+
+  .accordion-faq.section-end {
+    padding-bottom: 120px;
+  }
+
+  .accordion-faq .panel-inner {
+    max-width: 66.6667%;
+  }
+}
+
+/* home (archetype-home, additive): the live accordion intro (`.cmp-accordion__intro`: h2 + lede)
+   is authored as default content above the block — band padding, 24/32px display headline,
+   20/30px lede capped at 8/12 ≥ 768. Inert on pages whose accordion section has no prose. */
+.section.accordion-faq-container .default-content-wrapper {
+  padding-top: 80px;
+  padding-bottom: 32px;
+}
+
+.section.accordion-faq-container .default-content-wrapper h2 {
+  margin: 0;
+  font-family: var(--font-display-bold);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.section.accordion-faq-container .default-content-wrapper p {
+  margin: 29px 0 9px;
+  font-family: var(--font-text-light);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+@media (width >= 768px) {
+  .section.accordion-faq-container .default-content-wrapper {
+    padding-bottom: 41px;
+  }
+
+  .section.accordion-faq-container .default-content-wrapper h2 {
+    margin-bottom: 5px;
+    font-size: 32px;
+  }
+
+  .section.accordion-faq-container .default-content-wrapper p {
+    max-width: 66.6667%;
+    margin: 24px 0 0;
+  }
+}
+
+@media (width >= 1200px) {
+  .section.accordion-faq-container .default-content-wrapper {
+    padding-top: 120px;
+  }
+}

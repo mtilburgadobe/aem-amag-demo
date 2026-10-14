@@ -1,0 +1,623 @@
+{
+  "url": "https://www.amag.ch/en/services.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4800,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 6000,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 7200,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 6205,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4705,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".amag-garageOverlay--noCookie .amag-ctaWrapper__button",
+      "frames": [
+        {
+          "t": 21905.300000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 22109.800000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 22313.800000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 22517.800000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".amag-garageOverlay__icon--close",
+      "frames": [
+        {
+          "t": 23534.700000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 23737.60000000056,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 23943.10000000056,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 24148.300000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".amag-languageWrapper__language",
+      "frames": [
+        {
+          "t": 25164.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 25367.60000000056,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 25571.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 25776.10000000056,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".amag-maxiTeaserBild__btn",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(23, 41, 131)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.2s"
+        },
+        "subs": [
+          {
+            "el": "span.btn__icon",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(23, 41, 131)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.2s"
+        },
+        "subs": [
+          {
+            "el": "span.btn__icon",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".amag-promotionTeaser__wrapper",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(23, 41, 131)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.text-decoration-none",
+            "transform": "none",
+            "color": "rgb(0, 123, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.template-dynamic-image.amag-promotionTeaser__image",
+            "transform": "none",
+            "color": "rgb(0, 123, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h3.amag-promotionTeaser__text",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(23, 41, 131)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.text-decoration-none",
+            "transform": "none",
+            "color": "rgb(0, 123, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.template-dynamic-image.amag-promotionTeaser__image",
+            "transform": "none",
+            "color": "rgb(0, 123, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h3.amag-promotionTeaser__text",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "top",
+        "el": "html.macos.desktop.landscape > body > header > div.container-fluid.amag-header.fixed-top",
+        "y": 400,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html.macos.desktop.landscape > body > div.amag-content > div.amag-direct-entry > div.amag-direct-entry__button.show",
+        "y": 400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html.macos.desktop.landscape > body > div.frontnow-advisor-popover.rounded-lg",
+        "y": 3600,
+        "dur": "0.25s, 0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "html.macos.desktop.landscape > body > div.frontnow-advisor-popover.rounded-lg",
+        "y": 3600,
+        "dur": "0.25s, 0.25s"
+      },
+      {
+        "prop": "top",
+        "el": "html.macos.desktop.landscape > body > header > div.container-fluid.amag-header.fixed-top",
+        "y": 6205,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html.macos.desktop.landscape > body > div.amag-content > div.amag-direct-entry > div.amag-direct-entry__button",
+        "y": 200,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "html.macos.desktop.landscape > body > header > div.container-fluid.amag-header.fixed-top",
+        "y": 5740,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html.macos.desktop.landscape > body > div.amag-content > div.amag-direct-entry > div.amag-direct-entry__button.show",
+        "y": 5740,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html.macos.desktop.landscape > body.modal-open > div.modal-backdrop.fade.show",
+        "y": 5740,
+        "dur": "0.15s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.amag-kontaktaufnahme.col-12.p-0 > div.amag-garageElectionOverlay > div.amag-garageOverlay--noCookie > div.amag-garageOverlay.modal.fade > div.modal-dialog",
+        "y": 5740,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container.row.m-auto > div.amag-kontaktaufnahme.col-12.p-0 > div.amag-garageElectionOverlay > div.amag-garageOverlay--noCookie > div.amag-garageOverlay.modal.fade",
+        "y": 5740,
+        "dur": "0.15s"
+      },
+      {
+        "prop": "top",
+        "el": "html.macos.desktop.landscape > body.modal-open > header > div.container-fluid.amag-header.fixed-top",
+        "y": 2020,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "top",
+        "el": "html.macos.desktop.landscape > body.modal-open > header > div.container-fluid.amag-header.fixed-top",
+        "y": 3781,
+        "dur": "0.35s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "show"
+        ],
+        "el": "html.macos.desktop.landscape > body > div.amag-content > div.amag-direct-entry > div.amag-direct-entry__button.show",
+        "y": 400
+      },
+      {
+        "added": [
+          "optanon-category-C0003"
+        ],
+        "el": "html.macos.desktop.landscape > head > script.optanon-category-C0003",
+        "y": 6000
+      },
+      {
+        "added": [
+          "show"
+        ],
+        "el": "html.macos.desktop.landscape > body > div.amag-content > div.amag-direct-entry > div.amag-direct-entry__button.show",
+        "y": 5740
+      },
+      {
+        "added": [
+          "modal-open"
+        ],
+        "el": "html.macos.desktop.landscape > body.modal-open",
+        "y": 5740
+      },
+      {
+        "added": [
+          "show"
+        ],
+        "el": "html.macos.desktop.landscape > body.modal-open > div.modal-backdrop.fade.show",
+        "y": 5740
+      },
+      {
+        "added": [
+          "show"
+        ],
+        "el": "div.container.row.m-auto > div.amag-kontaktaufnahme.col-12.p-0 > div.amag-garageElectionOverlay > div.amag-garageOverlay--noCookie > div.amag-garageOverlay.modal.fade",
+        "y": 5740
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "/de/service/reifen-und-raeder/winterreifen": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-08T21:20:02.678Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

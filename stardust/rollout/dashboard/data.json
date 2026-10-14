@@ -1,0 +1,148 @@
+{
+  "generatedAt": "2026-10-09T00:49:52.463Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.amag.ch/",
+    "liveHost": "main--65541681--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 5,
+    "prototyped": 5,
+    "deployed": 5,
+    "optimised": 5
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 0,
+    "optimised": 5
+  },
+  "pages": [
+    {
+      "slug": "de-service-auto-services-online-termin-buchen-html",
+      "path": "/de/service/auto-services-online-termin-buchen",
+      "stage": "optimised",
+      "templateId": "de-service-auto-services-online-termin-buchen-html",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "de-service-reifen-und-raeder-winterreifen-html",
+      "path": "/de/service/reifen-und-raeder/winterreifen",
+      "stage": "optimised",
+      "templateId": "de-service-reifen-und-raeder-winterreifen-html",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-html",
+      "path": "/en",
+      "stage": "optimised",
+      "templateId": "en-html",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-komponenten-car-dealers-html",
+      "path": "/en/komponenten/car-dealers",
+      "stage": "optimised",
+      "templateId": "en-komponenten-car-dealers-html",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-services-html",
+      "path": "/en/services",
+      "stage": "optimised",
+      "templateId": "en-services-html",
+      "isTemplate": true,
+      "openFindings": 0
+    }
+  ],
+  "templates": [
+    {
+      "id": "de-service-auto-services-online-termin-buchen-html",
+      "archetype": "de-service-auto-services-online-termin-buchen-html",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "de-service-reifen-und-raeder-winterreifen-html",
+      "archetype": "de-service-reifen-und-raeder-winterreifen-html",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "en-html",
+      "archetype": "en-html",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "en-komponenten-car-dealers-html",
+      "archetype": "en-komponenten-car-dealers-html",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "en-services-html",
+      "archetype": "en-services-html",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    }
+  ],
+  "blocks": {
+    "total": 17,
+    "converted": 17
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": 100,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": null
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      75,
+      100
+    ]
+  },
+  "findings": {
+    "byFixability": {},
+    "byAutofix": {}
+  }
+}

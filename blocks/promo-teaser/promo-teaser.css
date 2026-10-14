@@ -1,0 +1,207 @@
+/* promo-teaser — values lifted from the prototype page CSS (image + text v2 @1645797–@1649725)
+   and canon.css (section shell, grid). */
+.promo-teaser {
+  position: relative;
+  background: #fff;
+  margin-bottom: 40px;
+}
+
+.promo-teaser.grey {
+  background: var(--amag-grey-100);
+}
+
+.promo-teaser.lavender {
+  background: #ede7fe;
+}
+
+.promo-teaser .wrap {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0 var(--section-gutter);
+}
+
+.promo-teaser.band {
+  padding-top: 80px;
+}
+
+.promo-teaser.band-white::before,
+.promo-teaser.band-grey::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: calc(max(0px, (100% - var(--content-max)) / 2) + var(--section-gutter));
+  background: #fff;
+}
+
+.promo-teaser.band-grey::before {
+  background: var(--amag-grey-100);
+}
+
+.promo-teaser.section-end {
+  margin-bottom: 0;
+  padding-bottom: 80px;
+}
+
+.promo-teaser.first-section.band {
+  padding-top: 0;
+}
+
+.promo-teaser.first-section::before {
+  display: none;
+}
+
+/* card */
+.promo-teaser .card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.promo-teaser .media {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.promo-teaser .frame {
+  position: relative;
+}
+
+.promo-teaser .frame p {
+  margin: 0;
+}
+
+.promo-teaser .frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.promo-teaser .text {
+  width: 100%;
+}
+
+.promo-teaser .headline :is(h1, h2, h3, h4) {
+  font-family: var(--font-display-bold);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  margin: 0 0 20px;
+}
+
+.promo-teaser .description :is(p, li) {
+  font-family: var(--font-text-light);
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+
+.promo-teaser .link p {
+  margin: 0;
+}
+
+.promo-teaser .link a:any-link {
+  display: inline-block;
+  border-bottom: 2px solid var(--amag-dark-blue);
+  color: var(--amag-dark-blue);
+  font-family: var(--font-text-bold);
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 40px;
+  padding-bottom: 5px;
+  text-decoration: none;
+}
+
+.promo-teaser .link a:hover {
+  color: var(--amag-dark-blue);
+  text-decoration: none;
+}
+
+/* image-left: the image bleeds through the left gutter (prototype --imageLeft) */
+.promo-teaser.image-left .card {
+  margin: 0 -15px;
+  width: auto;
+}
+
+.promo-teaser.image-left .media,
+.promo-teaser.image-left .text {
+  padding: 0 15px;
+}
+
+.promo-teaser.image-left .frame img {
+  max-width: none;
+  width: calc(100% + 30px);
+  margin-left: -15px;
+}
+
+@media (width < 768px) {
+  .promo-teaser.band-white::before,
+  .promo-teaser.band-grey::before {
+    display: none;
+  }
+}
+
+@media (width >= 768px) {
+  .promo-teaser {
+    margin-bottom: 60px;
+  }
+
+  .promo-teaser.image-left .media {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 0;
+  }
+
+  .promo-teaser.image-left .text {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .promo-teaser.image-left .frame img {
+    width: calc(100% + 40px);
+    margin-left: -40px;
+  }
+}
+
+@media (width >= 1200px) {
+  .promo-teaser {
+    margin-bottom: 80px;
+  }
+
+  .promo-teaser.band,
+  .promo-teaser.first-section.band {
+    padding-top: 120px;
+  }
+
+  .promo-teaser.band-white::before,
+  .promo-teaser.band-grey::before {
+    height: 120px;
+  }
+
+  .promo-teaser.section-end {
+    padding-bottom: 120px;
+  }
+
+  .promo-teaser .headline :is(h1, h2, h3, h4) {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .promo-teaser.image-left .media {
+    flex: 0 0 58.3333%;
+    max-width: 58.3333%;
+  }
+
+  .promo-teaser.image-left .text {
+    flex: 0 0 41.6667%;
+    max-width: 41.6667%;
+    padding: 0 45px;
+  }
+
+  .promo-teaser.image-left .frame img {
+    width: calc(100% + 165px);
+    margin-left: -165px;
+  }
+}

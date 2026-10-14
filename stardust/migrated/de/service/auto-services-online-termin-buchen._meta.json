@@ -1,0 +1,932 @@
+{
+  "slug": "de-service-auto-services-online-termin-buchen-html",
+  "type": "form",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "booking-wizard"
+  ],
+  "slotsFilled": [
+    "amag-content",
+    "g-recaptcha",
+    "amag-otv-canvas",
+    "js-amag-otv-delay-days",
+    "cdcboxModalSection"
+  ],
+  "canonShas": {
+    "header": "20fdef68ef33",
+    "footer": "8e8976aaed6b",
+    "css": "bf6ac7a8414d"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Auto-Service: Online-Termin buchen | AMAG",
+    "description": "Ob Reparatur, Pannenhilfe oder Autoservice. In Ihrer AMAG Garage helfen wir Ihnen schnell und unkompliziert weiter. Jetzt online Termin vereinbaren.",
+    "canonical": null,
+    "lang": "de"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Auto-Service: Online-Termin buchen | AMAG",
+    "description": "Ob Reparatur, Pannenhilfe oder Autoservice. In Ihrer AMAG Garage helfen wir Ihnen schnell und unkompliziert weiter. Jetzt online Termin vereinbaren.",
+    "url": "https://www.amag.ch/de/service/auto-services-online-termin-buchen.html"
+  },
+  "migratedAt": "2026-10-08T19:01:40Z",
+  "designMdSha": "d22638837e51",
+  "designJsonSha": "97b05bd4a1b8",
+  "sourceCurrentSha": "630f6b175c07",
+  "sourceProposedSha": "45c72c4e8c34",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "content-fidelity",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "delivery-lint"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "verbatim captured content; Phase 4 content-diff 0 structural on main+chrome roots (stardust/replica/gates/de-service-auto-services-online-termin-buchen-html-1440, -360)",
+    "pixel-gate-1440": "0.13%, height delta 0px, clipped 0, content n/a (stardust/replica/gates/prototypes-1440/summary.md) [prototype regime]",
+    "pixel-gate-360": "0.42%, height delta 0px, clipped 0, content n/a (stardust/replica/gates/prototypes-360/summary.md) [prototype regime]",
+    "content-count": "OPEN: content-diff: 18 (1 structural 🔴) (de-service-auto-services-online-termin-buchen-html-360-confirm.log)",
+    "media-reconcile": "n/a: no delivered content file yet (content/de/service/auto-services-online-termin-buchen.html) — media-reconcile runs in the delivery chain (row C)",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /de/service/auto-services-online-termin-buchen)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 47,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/de/events/emotiondays.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/e-mobilitaet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/komponenten/storelocator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/komponenten/storelocator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/jobs-amag.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/suche.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/user/login.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/komponenten/storelocator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/services/rendez-vous-en-ligne.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/servizi/appuntamento-online.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/appointment-online.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/alle-autos-bei-amag.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/lagerfahrzeug.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/vorfuehrwagen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/occasionen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/occasionen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/occasionen/occasionen-leasing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/occasionen/elektro-occasionen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/e-mobilitaet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/abo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/abo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/abo/faq.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/fleet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/neuwagen-konfigurieren.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/leasing-bei-amag.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/finanzierungen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/amag-kauft-mein-auto.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/camper.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/camper.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/camper/camper.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/suv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/van.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/bus.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/limousine.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/coupe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/cabriolet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/kombi.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/gewerbe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner/helion.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner/clyde.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner/ducati.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner/microlino.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner/allride.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/vw/vw-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/audi/audi-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/seat/seat-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/skoda/skoda-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/cupra/cupra-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/vw-nutzfahrzeuge/nutzfahrzeuge-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/bentley/bentley-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/autos-bei-amag-haendler/microlino.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/partner/ducati.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder/reifenwechsel-buchen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder/raederhotel.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder/komplettraeder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder/felgenreparatur.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder/sommerreifen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/saison-check.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/saison-check.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/saison-check/feriencheck.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/auto-service-unterhalt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/elektro-ladestationen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/app.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung/audi-versicherung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung/vw-versicherung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung/seat-versicherung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung/skoda-versicherung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung/vwnutzfahrzeuge-versicherung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung/audi-versicherung-occasionen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung/vw-versicherung-occasionen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung/seat-versicherung-occasionen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung/skoda-versicherung-occasionen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung/vwnutzfahrzeuge-versicherung-occasionen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/abt-sportsline.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/zubehoer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/amag-classic.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/amag-classic.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/amag-classic/ansprechpartner.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/amag-classic/synfuel.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/carwash.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/schadenmeldung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/schadenmeldung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/schadenmeldung/ratgeber.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/karosserie-und-lack.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/karosserie-tesla.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/hagelschaden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/scheiben-und-glas.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/versicherung-und-garantie.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/karten/ladekarte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/komponenten/storelocator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/jobs-amag.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/komponenten/storelocator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/fr/services/rendez-vous-en-ligne.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it/servizi/appuntamento-online.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/services/appointment-online.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/service/otv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/alle-autos-bei-amag.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/lagerfahrzeug.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/vorfuehrwagen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/occasionen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/e-mobilitaet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/abo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/fleet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/neuwagen-konfigurieren.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/leasing-bei-amag.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/finanzierungen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/amag-kauft-mein-auto.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/camper.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/suv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/van.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/bus.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/limousine.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/coupe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/cabriolet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/kombi.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/karosserieart/gewerbe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner/helion.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner/clyde.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner/ducati.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner/microlino.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/partner/allride.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/autos-bei-amag-haendler/e-mobilitaet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/probefahrt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/nach-marken.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/vw/vw-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/audi/audi-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/seat/seat-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/skoda/skoda-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/cupra/cupra-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/vw-nutzfahrzeuge/nutzfahrzeuge-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/bentley/bentley-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/autos-bei-amag-haendler/microlino.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/partner/ducati.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder/reifenwechsel-buchen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder/raederhotel.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder/komplettraeder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder/felgenreparatur.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/reifen-und-raeder/sommerreifen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/saison-check.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/auto-service-unterhalt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/elektro-ladestationen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/app.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/markenversicherung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/abt-sportsline.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/zubehoer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/amag-classic.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/carwash.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/schadenmeldung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/karosserie-und-lack.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/karosserie-tesla.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/hagelschaden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/scheiben-und-glas.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/versicherung-und-garantie.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/service/otv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/service/hilfe-im-schadensfall/schadenmeldung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/aktuelles-angebot-fuer-sie.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/karten/ladekarte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/komponenten/storelocator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/events/emotiondays.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/komponenten/storelocator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/otv-buchungsbestaetigung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/agb.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/kontakt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/komponenten/storelocator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/fleet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/newsletter/subscribe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/hilfe-im-schadensfall/versicherung-und-garantie.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/komponenten/storelocator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/abo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/auto-finden/autos-bei-amag-haendler/clyde.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/ueber-uns.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/ueber-uns/esg.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/jobs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/vw/vw-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/audi/audi-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/seat/seat-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/skoda/skoda-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/cupra/cupra-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/vw-nutzfahrzeuge/nutzfahrzeuge-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/nach-marken/bentley/bentley-modelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/auto-finden/autos-bei-amag-haendler/microlino.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.amag.ch/de/garagenuebersicht/garage-volketswil.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/service/top-services/app.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/rechtliche-hinweise-online-chat.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/impressum.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de/agb.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "de/service/auto-services-online-termin-buchen.html",
+  "outputPathDefault": null,
+  "sidecar": "de/service/auto-services-online-termin-buchen._meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,273 @@
+stardust/current/assets/css/clientlib-amagch.css: 136 of 11171 rules match /\.off-canvas|amag-filterModal/i
+@480613 .storelocatorRetail .amag-filterModal
+      background-color: #fff; display: none; height: 100%; padding-right: 0!important; position: absolute; top: 0; width: 100%; z-index: 1000;
+@480772 .storelocatorRetail .amag-filterModal--colorRed
+      color: #d9002b;
+@480834 .storelocatorRetail .amag-filterModal--breakSpaces
+      white-space: break-spaces;
+@480910 .storelocatorRetail .amag-filterModal__container
+      background-color: #f5f5f5; overflow-y: auto;
+@481024 .storelocatorRetail .amag-filterModal__container   @media(min-width:360px)
+      height: auto;
+@481110 .storelocatorRetail .amag-filterModal__container   @media(min-width:768px)
+      height: calc(100% - 100px);
+@481211 .storelocatorRetail .amag-filterModal__container   @media(min-width:1200px)
+      height: calc(100% - 100px);
+@481287 .storelocatorRetail .amag-filterModal__header
+      -webkit-box-align: center; -ms-flex-align: center; -webkit-box-pack: justify; -ms-flex-pack: justify; align-items: center; background-color: #fff; display: -webkit-box; display: -ms-flexbox; display: flex; justify-content: space-between;
+@481575 .storelocatorRetail .amag-filterModal__header   @media(min-width:360px)
+      padding: 37px 15px 37px 10px;
+@481674 .storelocatorRetail .amag-filterModal__header   @media(min-width:768px)
+      padding: 37px 20px 37px 15px;
+@481774 .storelocatorRetail .amag-filterModal__header   @media(min-width:1200px)
+      padding: 37px 40px 37px 35px;
+@481849 .storelocatorRetail .amag-filterModal__closeButton
+      -webkit-box-align: center; -ms-flex-align: center; align-items: center; background-color: rgba(0,0,0,0); border: none; display: -webkit-box; display: -ms-flexbox; display: flex; font-family: amag_textlight; font-size: 16px; padding: 0;
+@482114 .storelocatorRetail .amag-filterModal__closeButton svg
+      margin-right: 7px; -webkit-transform: rotate(180deg); transform: rotate(180deg);
+@482244 .storelocatorRetail .amag-filterModal__closeButton:focus
+      outline: none;
+@482314 .storelocatorRetail .amag-filterModal__resetButton
+      background-color: rgba(0,0,0,0); border: none; font-family: amag_textbold; font-size: 20px; padding: 0; visibility: hidden;
+@482477 .storelocatorRetail .amag-filterModal__resetButton:focus
+      outline: none;
+@482547 .storelocatorRetail .amag-filterModal__content
+      margin-top: 40px;
+@482634 .storelocatorRetail .amag-filterModal__content   @media(min-width:360px)
+      height: calc(100% - 104px); padding: 0 15px;
+@482747 .storelocatorRetail .amag-filterModal__content   @media(min-width:768px)
+      height: calc(100% - 104px); padding: 0 20px;
+@482861 .storelocatorRetail .amag-filterModal__content   @media(min-width:1200px)
+      height: calc(100% - 104px); padding: 0 40px;
+@482950 .storelocatorRetail .amag-filterModal input[type=checkbox][id^=cb]
+      display: none;
+@483030 .storelocatorRetail .amag-filterModal__checkboxList
+      display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; list-style: none; padding: 0;
+@483219 .storelocatorRetail .amag-filterModal__checkboxList   @media(min-width:360px)
+      margin: -12px -10px;
+@483315 .storelocatorRetail .amag-filterModal__checkboxList   @media(min-width:768px)
+      margin: -12px -15px;
+@483412 .storelocatorRetail .amag-filterModal__checkboxList   @media(min-width:1200px)
+      margin: -12px -10px;
+@483484 .storelocatorRetail .amag-filterModal__checkboxListItem
+      width: 50%;
+@483574 .storelocatorRetail .amag-filterModal__checkboxListItem   @media(min-width:360px)
+      padding: 12px 10px;
+@483673 .storelocatorRetail .amag-filterModal__checkboxListItem   @media(min-width:768px)
+      padding: 12px 15px;
+@483773 .storelocatorRetail .amag-filterModal__checkboxListItem   @media(min-width:1200px)
+      padding: 12px 10px;
+@483848 .storelocatorRetail .amag-filterModal__checkboxListItem:nth-child(6)
+      width: 100%;
+@483928 .storelocatorRetail .amag-filterModal__checkboxListItem label
+      -webkit-box-align: center; -ms-flex-align: center; align-items: center; color: #212429; cursor: pointer; display: -webkit-box; display: -ms-flexbox; display: flex; font-family: amag_textlight; font-size: 20px; margin: 0; text-align: center;
+@484207 .storelocatorRetail .amag-filterModal__saleWrapper
+      margin-bottom: 40px; margin-top: 40px;
+@484293 .storelocatorRetail .amag-filterModal input[type=checkbox][id^=sale]
+      display: none;
+@484375 .storelocatorRetail .amag-filterModal__saleList
+      display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; list-style: none; padding: 0;
+@484560 .storelocatorRetail .amag-filterModal__saleList   @media(min-width:360px)
+      margin: -12px -10px;
+@484652 .storelocatorRetail .amag-filterModal__saleList   @media(min-width:768px)
+      margin: -12px -15px;
+@484745 .storelocatorRetail .amag-filterModal__saleList   @media(min-width:1200px)
+      margin: -12px -10px;
+@484813 .storelocatorRetail .amag-filterModal__saleListItem
+      position: relative; width: 100%;
+@484894 .storelocatorRetail .amag-filterModal__saleListItem:nth-child(-n+2)
+      width: 50%;
+@484996 .storelocatorRetail .amag-filterModal__saleListItem   @media(min-width:360px)
+      padding: 12px 10px;
+@485091 .storelocatorRetail .amag-filterModal__saleListItem   @media(min-width:768px)
+      padding: 12px 15px;
+@485187 .storelocatorRetail .amag-filterModal__saleListItem   @media(min-width:1200px)
+      padding: 12px 10px;
+@485258 .storelocatorRetail .amag-filterModal__saleListItem label
+      cursor: pointer; font-family: amag_textlight; font-size: 20px; margin: 0;
+@485382 .storelocatorRetail .amag-filterModal__checkbox,.storelocatorRetail .amag-filterModal__saleListItem label
+      -webkit-box-align: center; -ms-flex-align: center; align-items: center; display: -webkit-box; display: -ms-flexbox; display: flex;
+@485607 .storelocatorRetail .amag-filterModal__checkbox
+      -webkit-box-pack: center; -ms-flex-pack: center; -ms-flex-negative: 0; background-color: rgba(0,0,0,0); border: 1px solid #172983; flex-shrink: 0; height: 40px; justify-content: center; margin-right: 20px; width: 40px;
+@485854 .storelocatorRetail .amag-filterModal__checkbox svg
+      opacity: 0;
+@485916 .storelocatorRetail .amag-filterModal__checkboxListItem input:checked~label .amag-filterModal__checkbox,.storelocatorRetail .amag-filterModal__saleListItem inp…
+      background-color: #172983;
+@486145 .storelocatorRetail .amag-filterModal__checkboxListItem input:checked~label .amag-filterModal__checkbox svg,.storelocatorRetail .amag-filterModal__saleListItem…
+      opacity: 1;
+@486391 .storelocatorRetail .amag-filterModal__footer   @media(min-width:768px)
+      bottom: 0; position: absolute; width: 100%;
+@486501 .storelocatorRetail .amag-filterModal__footer   @media(min-width:1200px)
+      bottom: 0; position: absolute; width: 100%;
+@486586 .storelocatorRetail .amag-filterModal__showGaragesButton
+      background-color: #172983; border: none; -webkit-box-shadow: none; box-shadow: none; color: #fff; font-family: amag_textbold; font-size: 20px; height: 100px; width: 100%;
+@486796 .storelocatorRetail .amag-filterModal__showGaragesButton svg
+      margin-right: 10px;
+@486875 .storelocatorRetail .amag-filterModal__showGaragesButton:focus
+      outline: none;
+@486951 .storelocatorRetail .amag-filterModal__garagenCounter
+      margin-right: 7px;
+@1484269 .damage-report__info-off-canvas .off-canvas__confirm-button
+      display: none;
+@1546892 .off-canvas__backdrop
+      background-color: #000; height: 100vh; left: 0; opacity: .5; position: fixed; top: 0; width: 100vw; z-index: 1040;
+@1547013 .off-canvas__backdrop:not(.d-none)~.off-canvas__canvas-box
+      z-index: 1050;
+@1547085 .off-canvas__back-btn,.off-canvas__close-btn
+      background: none; border: none; cursor: pointer; margin-bottom: 30px;
+@1547192 .off-canvas__back-btn-icon,.off-canvas__close-btn-icon
+      fill: #000; height: 24px;
+@1547269 .off-canvas__close-btn
+      padding: 15px 15px 0;
+@1547336 .off-canvas__close-btn   @media(min-width:768px)
+      max-width: 610px; padding: 20px 50px 0; right: -610px;
+@1547409 .off-canvas__canvas-box
+      -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-box-pack: start; -ms-flex-pack: start; background: #fff; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; height: 100%; justify-content: flex-start; max-width: 345px; overflow: auto; position: fixed; right: -345px; top: 0; -webkit-transition: all .5s ease-in-out; transition: all .5s ease-in-out; width: 100%; z-index: 1050;
+@1547871 .off-canvas__canvas-box   @media(min-width:768px)
+      max-width: 610px; right: -610px;
+@1547925 .off-canvas__canvas-box.is-shown
+      right: 0;
+@1547966 .off-canvas__canvas-box-upper
+      overflow-y: auto;
+@1548012 .off-canvas__canvas-box-lower,.off-canvas__canvas-box-upper
+      -webkit-box-flex: 0; -ms-flex-positive: 0; -ms-flex-negative: 0; flex-grow: 0; flex-shrink: 0;
+@1548157 .off-canvas__canvas-box-lower
+      padding: 30px 15px 15px;
+@1548234 .off-canvas__canvas-box-lower   @media(min-width:768px)
+      padding: 30px 50px 20px;
+@1548288 .off-canvas__canvas-box-lower.is-sticky
+      background: #fff; bottom: 0; position: sticky;
+@1548369 .off-canvas__canvas-box a,.off-canvas__canvas-box a:active,.off-canvas__canvas-box a:focus,.off-canvas__canvas-box a:hover
+      color: #172983; text-decoration: underline;
+@1548532 .off-canvas__inner-container.side-padding
+      padding: 0 15px;
+@1548613 .off-canvas__inner-container.side-padding   @media(min-width:768px)
+      padding: 0 50px;
+@1548671 .off-canvas__confirm-button
+      -webkit-box-pack: center; -ms-flex-pack: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; border: 0; display: -webkit-box; display: -ms-flexbox; display: flex; justify-content: center; margin-bottom: 20px; text-decoration: none; width: 100%;
+@1548946 .off-canvas__cancel-button
+      background-color: rgba(0,0,0,0); border: #172983; border-bottom: 2px solid #172983; color: #172983; font-family: amag_displaybold; font-size: 20px; line-height: 30px; margin: 0; padding: 0 0 10px;
+@1549177 .off-canvas__cancel-button   @media(min-width:1200px)
+      margin-right: 40px;
+@1549223 .off-canvas__cancel-button:focus
+      outline: none;
+@1549294 .off-canvas__cancel-button   @media(min-width:1200px)
+      margin: 0;
+@1549331 .off-canvas__cancel-button-wrapper
+      -webkit-box-pack: center; -ms-flex-pack: center; display: -webkit-box; display: -ms-flexbox; display: flex; justify-content: center;
+@1549487 .off-canvas__content
+      -webkit-box-flex: 1; -ms-flex-positive: 1; -ms-flex-negative: 1; flex-grow: 1; flex-shrink: 1;
+@1549593 .off-canvas__content .process-container__headline
+      font-family: amag_displaybold; font-size: 24px; line-height: 28px; margin-bottom: 20px;
+@1549723 .off-canvas__content .process-container__subheadline
+      font-family: amag_displaybold; font-size: 20px; line-height: 30px; margin-bottom: 20px;
+@1549856 .off-canvas__content .amag-image
+      margin-bottom: 40px;
+@1938341 .storelocator .off-canvas__canvas-box.is-shown
+      overflow-y: auto; z-index: 1080;
+@1938417 .storelocator .off-canvas__canvas-box .off-canvas__canvas-box-lower
+      background-color: #fff; bottom: 0; outline: 1px solid rgba(0,0,0,0); padding: 20px 15px 15px; position: sticky;
+@1938611 .storelocator .off-canvas__canvas-box .off-canvas__canvas-box-lower   @media(min-width:768px)
+      padding: 30px 50px 20px;
+@1938703 .storelocator .off-canvas__canvas-box .off-canvas__canvas-box-lower .off-canvas__confirm-button
+      border-radius: 2px; margin-bottom: 0; min-height: 70px;
+@1938873 .storelocator .off-canvas__canvas-box .off-canvas__canvas-box-lower .off-canvas__confirm-button   @media(min-width:768px)
+      margin-bottom: 20px;
+@1938989 .storelocator .off-canvas__canvas-box .off-canvas__confirm-button
+      height: 70px;
+@1946486 .amag-filterModal,.storelocator__brand-filter-off-canvas
+      background-color: #fff; height: 100%; padding-right: 0!important; width: 100%;
+@1946614 .amag-filterModal__header,.storelocator__brand-filter-off-canvas__header
+      -webkit-box-align: center; -ms-flex-align: center; -webkit-box-pack: justify; -ms-flex-pack: justify; align-items: center; background-color: #fff; display: -webkit-box; display: -ms-flexbox; display: flex; justify-content: space-between;
+@1946905 .amag-filterModal__closeButton,.storelocator__brand-filter-off-canvas__closeButton
+      -webkit-box-align: center; -ms-flex-align: center; align-items: center; background-color: rgba(0,0,0,0); border: none; color: #000; display: -webkit-box; display: -ms-flexbox; display: flex; font-family: amag_textlight; font-size: 16px; line-height: 24px; padding: 0;
+@1947230 .amag-filterModal__closeButton svg,.storelocator__brand-filter-off-canvas__closeButton svg
+      margin-right: 7px; -webkit-transform: rotate(180deg); transform: rotate(180deg);
+@1947396 .amag-filterModal__closeButton:focus,.storelocator__brand-filter-off-canvas__closeButton:focus
+      outline: none;
+@1947504 .amag-filterModal__resetButton,.storelocator__brand-filter-off-canvas__resetButton
+      background-color: rgba(0,0,0,0); border: none; color: #172983; font-family: amag_textbold; font-size: 14px; line-height: 22px; padding: 0; visibility: hidden;
+@1947730 .amag-filterModal__resetButton:focus,.storelocator__brand-filter-off-canvas__resetButton:focus
+      outline: none;
+@1947838 .amag-filterModal__resetButton-icon,.storelocator__brand-filter-off-canvas__resetButton-icon
+      height: 24px; margin-right: 12px; width: 24px;
+@1947972 .amag-filterModal__resetButton span,.storelocator__brand-filter-off-canvas__resetButton span
+      border-bottom: 1px solid #172983;
+@1948097 .amag-filterModal__headline,.storelocator__brand-filter-off-canvas__headline
+      font-family: amag_displaybold; font-size: 24px; line-height: 28px;
+@1948235 .amag-filterModal__selectionHeadline,.storelocator__brand-filter-off-canvas__selectionHeadline
+      font-family: amag_textbold; font-size: 20px; line-height: 30px; margin-bottom: 10px; margin-top: 20px;
+@1948423 .amag-filterModal__brandsHeadline,.storelocator__brand-filter-off-canvas__brandsHeadline
+      font-family: amag_textbold; font-size: 20px; line-height: 30px; margin-bottom: 10px; margin-top: 40px;
+@1948605 .amag-filterModal input[type=checkbox][id^=cb],.storelocator__brand-filter-off-canvas input[type=checkbox][id^=cb]
+      border-radius: 2px; cursor: pointer; height: 20px; position: relative; width: 20px;
+@1948794 .amag-filterModal input[type=checkbox][id^=cb]:before,.storelocator__brand-filter-off-canvas input[type=checkbox][id^=cb]:before
+      background: #fff; border: 1px solid #172983; border-radius: 2px; content: ""; display: inline-block; height: 24px; width: 24px;
+@1949037 .amag-filterModal input[type=checkbox][id^=cb]:checked:before,.storelocator__brand-filter-off-canvas input[type=checkbox][id^=cb]:checked:before
+      background: #172983;
+@1949201 .amag-filterModal input[type=checkbox][id^=cb]:checked:after,.storelocator__brand-filter-off-canvas input[type=checkbox][id^=cb]:checked:after
+      border-color: rgba(0,0,0,0) #fff #fff rgba(0,0,0,0); border-radius: 2px; border-style: solid; border-width: 1px; content: ""; height: 14px; left: 6px; position: absolute; top: 2px; -webkit-transform: scaleX(0.8) rotate(37deg); transform: scaleX(0.8) rotate(37deg); width: 11px;
+@1949598 .amag-filterModal .switch,.storelocator__brand-filter-off-canvas .switch
+      display: -webkit-box; display: -ms-flexbox; display: flex; position: relative; width: 100%;
+@1949753 .amag-filterModal .switch input,.storelocator__brand-filter-off-canvas .switch input
+      height: 0; opacity: 0; width: 0;
+@1949865 .amag-filterModal .switch input:checked+.slider,.storelocator__brand-filter-off-canvas .switch input:checked+.slider
+      background-color: #172983;
+@1950007 .amag-filterModal .switch input:checked+.slider:before,.storelocator__brand-filter-off-canvas .switch input:checked+.slider:before
+      -webkit-transform: translateX(26px); transform: translateX(26px);
+@1950200 .amag-filterModal .slider,.storelocator__brand-filter-off-canvas .slider
+      background-color: #e8e8e8; border-radius: 2px; cursor: pointer; height: 34px; margin-right: 20px; -webkit-transition: .4s; transition: .4s; width: 60px;
+@1950410 .amag-filterModal .slider:before,.storelocator__brand-filter-off-canvas .slider:before
+      background-color: #fff; border-radius: 2px; bottom: 3px; content: ""; height: 28px; left: 3px; position: absolute; -webkit-transition: .4s; transition: .4s; width: 28px;
+@1950647 .amag-filterModal__checkboxList,.storelocator__brand-filter-off-canvas__checkboxList
+      display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; list-style: none; margin-bottom: 40px; padding: 0;
+@1950864 .amag-filterModal__checkboxListItem,.storelocator__brand-filter-off-canvas__checkboxListItem
+      border-bottom: 1px solid #e8e8e8; padding: 5px 0;
+@1951003 .amag-filterModal__checkboxListItem,.amag-filterModal__checkboxListItem label,.storelocator__brand-filter-off-canvas__checkboxListItem,.storelocator__brand-fil…
+      -webkit-box-pack: justify; -ms-flex-pack: justify; -webkit-box-align: center; -ms-flex-align: center; align-items: center; display: -webkit-box; display: -ms-flexbox; display: flex; justify-content: space-between; width: 100%;
+@1951408 .amag-filterModal__checkboxListItem label,.storelocator__brand-filter-off-canvas__checkboxListItem label
+      -webkit-box-orient: horizontal; -webkit-box-direction: reverse; color: #212429; cursor: pointer; -ms-flex-direction: row-reverse; flex-direction: row-reverse; font-family: amag_textlight; font-size: 16px; line-height: 24px; margin: 0; text-align: center;
+@1951746 input[type=checkbox]:checked+.amag-filterModal__checkboxListItem-front,input[type=checkbox]:checked+.storelocator__brand-filter-off-canvas__checkboxListItem-fr…
+      font-family: amag_textbold; font-size: 16px; line-height: 24px;
+@1951967 .amag-filterModal__checkboxListItem-front,.storelocator__brand-filter-off-canvas__checkboxListItem-front
+      -webkit-box-align: center; -ms-flex-align: center; align-items: center; display: -webkit-box; display: -ms-flexbox; display: flex; text-align: center;
+@1952209 .amag-filterModal__imgWrapper,.storelocator__brand-filter-off-canvas__imgWrapper
+      -webkit-box-align: center; -ms-flex-align: center; -webkit-box-pack: center; -ms-flex-pack: center; align-items: center; background-color: #fff; display: -webkit-box; display: -ms-flexbox; display: flex; height: 45px; justify-content: center; margin-right: 20px; overflow: hidden; width: 45px;
+@1952556 .amag-filterModal__image,.storelocator__brand-filter-off-canvas__image
+      width: 100%;
+@1952638 .amag-filterModal__saleWrapper,.storelocator__brand-filter-off-canvas__saleWrapper
+      margin-bottom: 40px;
+@1952740 .amag-filterModal__saleHeadline,.storelocator__brand-filter-off-canvas__saleHeadline
+      font-family: amag_textbold; font-size: 20px; line-height: 30px; margin-bottom: 17px;
+@1952902 .amag-filterModal__saleList,.storelocator__brand-filter-off-canvas__saleList
+      list-style: none; margin: 0; padding: 0;
+@1953038 .amag-filterModal__saleList,.storelocator__brand-filter-off-canvas__saleList   @media(min-width:360px)
+      margin-bottom: 40px;
+@1953160 .amag-filterModal__saleList,.storelocator__brand-filter-off-canvas__saleList   @media(min-width:1200px)
+      margin-bottom: 0;
+@1953254 .amag-filterModal__saleListItem,.storelocator__brand-filter-off-canvas__saleListItem
+      margin-bottom: 20px; position: relative;
+@1953376 .amag-filterModal__saleListItem:last-of-type,.storelocator__brand-filter-off-canvas__saleListItem:last-of-type
+      margin-bottom: 0;
+@1953503 .amag-filterModal__saleListItem label,.storelocator__brand-filter-off-canvas__saleListItem label
+      -webkit-box-align: center; -ms-flex-align: center; align-items: center; cursor: pointer; display: -webkit-box; display: -ms-flexbox; display: flex; font-family: amag_textlight; font-size: 16px; line-height: 24px; margin: 0;
+@1953802 .amag-filterModal__checkbox,.storelocator__brand-filter-off-canvas__checkbox
+      -webkit-box-align: center; -ms-flex-align: center; -webkit-box-pack: center; -ms-flex-pack: center; align-items: center; background-color: rgba(0,0,0,0); border: 1px solid #172983; display: -webkit-box; display: -ms-flexbox; display: flex; height: 40px; justify-content: center; margin-right: 20px; width: 40px;
+@1954163 .amag-filterModal__checkbox svg,.storelocator__brand-filter-off-canvas__checkbox svg
+      opacity: 0;
+@1954258 .amag-filterModal__saleListItem input:checked~label .amag-filterModal__checkbox,.amag-filterModal__saleListItem input:checked~label .storelocator__brand-filter…
+      background-color: #172983;
+@1954687 .amag-filterModal__saleListItem input:checked~label .amag-filterModal__checkbox svg,.amag-filterModal__saleListItem input:checked~label .storelocator__brand-fi…
+      opacity: 1;
+@1955117 .amag-filterModal__filter-selection,.storelocator__brand-filter-off-canvas__filter-selection
+      border-bottom: 1px solid #e8e8e8; display: -webkit-box; display: -ms-flexbox; display: flex; padding-bottom: 20px;
+@1955315 .amag-filterModal__filter-selection-button,.storelocator__brand-filter-off-canvas__filter-selection-button
+      background-color: #fff; border: 1px solid #172983; color: #172983; font-family: amag_textbold; font-size: 16px; line-height: 24px; padding: 10px; width: 100%;
+@1955565 .amag-filterModal__filter-selection-button.is-active,.storelocator__brand-filter-off-canvas__filter-selection-button.is-active
+      background-color: #172983; color: #fff;
+@1955728 .amag-filterModal__filter-selection-button#brand-type-sale,.storelocator__brand-filter-off-canvas__filter-selection-button#brand-type-sale
+      border-radius: 2px 0 0 2px;
+@1955893 .amag-filterModal__filter-selection-button#brand-type-service,.storelocator__brand-filter-off-canvas__filter-selection-button#brand-type-service
+      border-radius: 0 2px 2px 0;
+@1956064 .amag-filterModal__garagenCounter,.storelocator__brand-filter-off-canvas__garagenCounter
+      margin-right: 7px;

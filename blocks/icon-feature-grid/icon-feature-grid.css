@@ -1,0 +1,324 @@
+/* icon-feature-grid — values lifted from canon.css (serviceContainerWrapper / serviceBoxWrapper,
+   section description, section shell). */
+.icon-feature-grid {
+  position: relative;
+  background: #fff;
+}
+
+.icon-feature-grid.band {
+  padding-top: 80px;
+}
+
+.icon-feature-grid.first-section.band {
+  padding-top: 0;
+}
+
+.icon-feature-grid.section-end {
+  padding-bottom: 80px;
+}
+
+.icon-feature-grid .wrap {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0 var(--section-gutter);
+}
+
+/* head */
+.icon-feature-grid .head {
+  margin-bottom: 20px;
+}
+
+.icon-feature-grid .head-row {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.icon-feature-grid .eyebrow p {
+  margin: 0 0 14px;
+  padding-top: 12px;
+  color: var(--amag-grey-600);
+  font-family: var(--font-text-light);
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.icon-feature-grid .headline {
+  display: flow-root;
+}
+
+.icon-feature-grid .headline :is(h1, h2, h3) {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-display-bold);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.icon-feature-grid .lede p {
+  margin: 0 0 1rem;
+  font-family: var(--font-text-light);
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* panel */
+.icon-feature-grid .band-image {
+  display: none;
+}
+
+.icon-feature-grid .band-image p {
+  margin: 0;
+}
+
+.icon-feature-grid .band-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.icon-feature-grid .counter {
+  height: 70px;
+  padding-top: 40px;
+  font-family: var(--font-text-light);
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--amag-grey-600);
+}
+
+.icon-feature-grid .boxes {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 30px -15px 0;
+  overflow: hidden;
+}
+
+.icon-feature-grid .box {
+  flex: 0 0 75%;
+  max-width: 75%;
+  padding: 0 15px;
+}
+
+.icon-feature-grid .box-inner {
+  height: 100%;
+  padding: 40px;
+  background: var(--amag-grey-100);
+}
+
+/* live mobile carousel: the active box stretches 20px past the row, the others sit 20px low */
+.icon-feature-grid .box.active .box-inner {
+  height: calc(100% + 20px);
+}
+
+.icon-feature-grid .box.active .box-icon {
+  margin-top: 20px;
+}
+
+.icon-feature-grid .box:not(.active) {
+  padding-top: 20px;
+}
+
+.icon-feature-grid .box-icon p {
+  margin: 0;
+}
+
+.icon-feature-grid .box-icon img {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.icon-feature-grid .box-title {
+  min-height: 75px;
+  padding-top: 15px;
+}
+
+.icon-feature-grid .box-title :is(h2, h3, h4, p) {
+  margin: 0;
+  font-family: var(--font-display-bold);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.2;
+  overflow-wrap: break-word;
+}
+
+.icon-feature-grid .box-title strong {
+  font-weight: inherit;
+}
+
+.icon-feature-grid .box-text {
+  min-height: 115px;
+  padding-top: 4px;
+}
+
+.icon-feature-grid .box-text :is(p, li) {
+  margin: 0;
+  font-family: var(--font-text-light);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.icon-feature-grid .box-text :is(ul, ol) {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.icon-feature-grid .box-link {
+  padding-top: 20px;
+}
+
+.icon-feature-grid .box-link p {
+  margin: 0;
+}
+
+.icon-feature-grid .box-link a:any-link {
+  display: inline-block;
+  color: var(--amag-dark-blue);
+  font-family: var(--font-text-bold);
+  font-size: 20px;
+}
+
+.icon-feature-grid .cta {
+  padding-top: 40px;
+}
+
+.icon-feature-grid .cta p {
+  margin: 0;
+}
+
+.icon-feature-grid .cta a:any-link {
+  width: calc(100% + 30px);
+  margin-left: -15px;
+}
+
+@media (width >= 768px) {
+  .icon-feature-grid .head {
+    margin-bottom: 30px;
+  }
+
+  .icon-feature-grid .head-row {
+    display: flex;
+    margin-bottom: 30px;
+  }
+
+  .icon-feature-grid .eyebrow {
+    width: 25%;
+  }
+
+  .icon-feature-grid .eyebrow p {
+    margin-bottom: 0;
+  }
+
+  .icon-feature-grid .headline {
+    width: 75%;
+  }
+
+  .icon-feature-grid .band-image {
+    display: block;
+  }
+
+  .icon-feature-grid .band-image img {
+    height: 400px;
+    object-fit: fill;
+  }
+
+  .icon-feature-grid .counter {
+    display: none;
+  }
+
+  .icon-feature-grid .boxes {
+    margin-top: -215px;
+  }
+
+  .icon-feature-grid .box {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    padding: 15px;
+  }
+
+  .icon-feature-grid .box-inner {
+    height: auto;
+    padding-left: 30px;
+  }
+
+  .icon-feature-grid .box.active .box-inner {
+    height: auto;
+  }
+
+  .icon-feature-grid .box.active .box-icon {
+    margin-top: 0;
+  }
+
+  .icon-feature-grid .box:not(.active) {
+    padding-top: 15px;
+  }
+
+  .icon-feature-grid .box-text {
+    min-height: 125px;
+    padding-top: 9px;
+  }
+
+  .icon-feature-grid .box-link {
+    padding-top: 14px;
+  }
+
+  .icon-feature-grid .cta {
+    width: 50%;
+  }
+
+  .icon-feature-grid .cta a:any-link {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (width >= 1200px) {
+  .icon-feature-grid.band {
+    padding-top: 120px;
+  }
+
+  .icon-feature-grid.section-end {
+    padding-bottom: 120px;
+  }
+
+  .icon-feature-grid .head {
+    margin-bottom: 40px;
+    padding-left: 8.3333%;
+  }
+
+  .icon-feature-grid .head-row {
+    margin-bottom: 40px;
+  }
+
+  .icon-feature-grid .boxes {
+    margin-top: -230px;
+  }
+
+  .icon-feature-grid .box-inner {
+    padding: 60px;
+  }
+
+  .icon-feature-grid .box-title {
+    min-height: 90px;
+    padding-top: 22px;
+  }
+
+  .icon-feature-grid .box-title :is(h2, h3, h4, p) {
+    font-size: 32px;
+  }
+
+  .icon-feature-grid .box-text {
+    min-height: 160px;
+    padding-top: 12px;
+  }
+
+  .icon-feature-grid .box-text :is(p, li) {
+    font-size: 20px;
+  }
+
+  .icon-feature-grid .cta {
+    width: 33.3333%;
+  }
+}

@@ -1,0 +1,314 @@
+/* pledge-row — values lifted from canon.css (icon list, section description, shell). */
+.pledge-row {
+  position: relative;
+  background: #fff;
+}
+
+.pledge-row.grey {
+  background: var(--amag-grey-100);
+}
+
+.pledge-row.lavender {
+  background: #ede7fe;
+}
+
+.pledge-row .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0 var(--section-gutter);
+}
+
+.pledge-row.band {
+  padding-top: 80px;
+}
+
+.pledge-row.band-white::before,
+.pledge-row.band-grey::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: calc(max(0px, (100% - var(--content-max)) / 2) + var(--section-gutter));
+  background: #fff;
+}
+
+.pledge-row.band-grey::before {
+  background: var(--amag-grey-100);
+}
+
+.pledge-row.section-end {
+  margin-bottom: 0;
+  padding-bottom: 80px;
+}
+
+.pledge-row.first-section.band {
+  padding-top: 0;
+}
+
+.pledge-row.first-section::before {
+  display: none;
+}
+
+/* section head */
+.pledge-row .head {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.pledge-row .head-row {
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* a flow-root so the headline's 8 px bottom margin stays inside the head (live: flex item) */
+.pledge-row .headline {
+  display: flow-root;
+}
+
+.pledge-row .eyebrow p {
+  color: var(--amag-grey-600);
+  font-family: var(--font-text-light);
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  line-height: 24px;
+  margin: 0 0 14px;
+  padding-top: 12px;
+  text-transform: uppercase;
+}
+
+.pledge-row .headline :is(h1, h2, h3) {
+  font-family: var(--font-display-bold);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0 0 0.5rem;
+}
+
+/* pillars */
+.pledge-row .items {
+  width: 100%;
+}
+
+.pledge-row .items-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px 97px;
+}
+
+.pledge-row .item {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 35px;
+  padding: 0 15px;
+}
+
+.pledge-row .item:last-child {
+  margin-bottom: 0;
+}
+
+.pledge-row .item-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.pledge-row .icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+  margin-right: 15px;
+  border-radius: 0.2rem;
+}
+
+.pledge-row .icon-box p {
+  margin: 0;
+}
+
+.pledge-row .icon-box img {
+  height: 32px;
+  width: 33px;
+}
+
+.pledge-row .item-text {
+  flex: 1;
+  padding: 0;
+}
+
+.pledge-row .item-title :is(h2, h3, h4, h5, p) {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  margin: 0;
+  color: #000;
+  font-family: var(--font-text-bold);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.pledge-row .item-title strong {
+  font-weight: 400;
+}
+
+.pledge-row .item-list :is(ul, ol) {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pledge-row .item-list :is(li, p) {
+  display: flex;
+  margin: 0;
+  color: #000;
+  font-family: var(--font-text-light);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.pledge-row .item-list :is(li, p)::before {
+  content: "–";
+  display: flex;
+  margin-right: 5px;
+}
+
+@media (width < 768px) {
+  .pledge-row.band-white::before,
+  .pledge-row.band-grey::before {
+    display: none;
+  }
+}
+
+@media (width >= 768px) {
+  .pledge-row .head {
+    margin-bottom: 30px;
+  }
+
+  .pledge-row .head-row {
+    display: flex;
+    margin-bottom: 30px;
+  }
+
+  .pledge-row .eyebrow {
+    flex: 0 0 25%;
+    max-width: 25%;
+    align-self: flex-start;
+  }
+
+  .pledge-row .eyebrow p {
+    margin-bottom: 0;
+  }
+
+  .pledge-row .headline {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+
+  .pledge-row .item {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    margin-bottom: 0;
+  }
+
+  .pledge-row .item-row {
+    flex-direction: column;
+  }
+
+  .pledge-row .icon-box {
+    height: 80px;
+    width: 90px;
+    margin-right: 0;
+  }
+
+  .pledge-row .item-title :is(h2, h3, h4, h5, p) {
+    height: auto;
+    margin-top: 16px;
+  }
+
+  .pledge-row .item-list {
+    margin-top: 15px;
+  }
+}
+
+@media (width >= 1200px) {
+  .pledge-row.band,
+  .pledge-row.first-section.band {
+    padding-top: 120px;
+  }
+
+  .pledge-row.band-white::before,
+  .pledge-row.band-grey::before {
+    height: 120px;
+  }
+
+  .pledge-row.section-end {
+    padding-bottom: 120px;
+  }
+
+  .pledge-row .head {
+    flex: 0 0 91.6667%;
+    max-width: 91.6667%;
+    margin-left: 8.3333%;
+    margin-bottom: 40px;
+  }
+
+  .pledge-row .head-row {
+    margin-bottom: 40px;
+  }
+
+  .pledge-row .item-row {
+    flex-direction: row;
+  }
+
+  .pledge-row .icon-box {
+    height: 80px;
+    width: 80px;
+    margin-right: 15px;
+  }
+
+  .pledge-row .item-title :is(h2, h3, h4, h5, p) {
+    height: 80px;
+    margin-top: 0;
+  }
+
+  .pledge-row .item-list {
+    margin-top: 0;
+  }
+}
+
+/* home variant `plain-head` (archetype-home, additive): a single <h2> head without eyebrow —
+   live `.amag-iconListContainer__headline h2` 24/32px, 38 → 36 → 22px below, no head margins. */
+.pledge-row.plain-head .head,
+.pledge-row.plain-head .head-row {
+  margin-bottom: 0;
+}
+
+.pledge-row.plain-head .headline {
+  width: 100%;
+  margin-left: 0;
+}
+
+.pledge-row.plain-head .headline :is(h1, h2, h3) {
+  font-size: 24px;
+  margin: 0 0 38px;
+}
+
+@media (width >= 768px) {
+  .pledge-row.plain-head .headline :is(h1, h2, h3) {
+    font-size: 32px;
+    margin-bottom: 36px;
+  }
+}
+
+@media (width >= 1200px) {
+  .pledge-row.plain-head .headline :is(h1, h2, h3) {
+    margin-bottom: 22px;
+  }
+}
+
+.pledge-row.plain-head .items-row {
+  margin-bottom: 0;
+}

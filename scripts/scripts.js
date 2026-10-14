@@ -1,4 +1,5 @@
 import {
+  getMetadata,
   loadHeader,
   loadFooter,
   decorateIcons,
@@ -47,6 +48,30 @@ async function loadFonts() {
   } catch (e) {
     // do nothing
   }
+}
+
+/**
+ * Locale of the current page: the first path segment when it is a supported
+ * language code (`/de/...` → `de`), otherwise `en`.
+ * @returns {string} language code
+ */
+export function getLocale() {
+  const [, first = ''] = window.location.pathname.split('/');
+  return ['de', 'fr', 'it'].includes(first) ? first : 'en';
+}
+
+/**
+ * Resolves the authored chrome document for this page: explicit `nav` / `footer`
+ * page metadata wins; otherwise the locale decides (`/de/nav`, `/de/footer` for
+ * German pages, `/nav`, `/footer` for everything else).
+ * @param {string} kind `nav` or `footer`
+ * @returns {string} root-relative path of the chrome document
+ */
+export function getChromePath(kind) {
+  const meta = getMetadata(kind);
+  if (meta) return new URL(meta, window.location).pathname;
+  const locale = getLocale();
+  return locale === 'en' ? `/${kind}` : `/${locale}/${kind}`;
 }
 
 /**
@@ -160,8 +185,12 @@ export function decorateMain(main) {
  * @param {Element} doc The container element
  */
 async function loadEager(doc) {
-  document.documentElement.lang = 'en';
+  document.documentElement.lang = getLocale();
   decorateTemplateAndTheme();
+  // page-level chrome signal: <meta name="header-style" content="transparent"> lets the
+  // header float over the first section (the home stage); the header block reads the class
+  const headerStyle = getMetadata('header-style');
+  if (headerStyle) document.body.classList.add(`header-${headerStyle}`);
   const main = doc.querySelector('main');
   if (main) {
     decorateMain(main);

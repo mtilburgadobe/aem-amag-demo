@@ -1,0 +1,381 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-10-08T19:03:19.509Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-09T00:47:25.931Z",
+  "blocks": [
+    {
+      "id": "accordion-faq",
+      "label": "accordion-faq",
+      "kind": "module",
+      "signature": "module:accordion-faq",
+      "source": null,
+      "usedByTemplates": [
+        "de-service-reifen-und-raeder-winterreifen-html",
+        "en-html"
+      ],
+      "usedByPages": [
+        "de-service-reifen-und-raeder-winterreifen-html",
+        "en-html"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "accordion-faq",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "booking-wizard",
+      "label": "booking-wizard",
+      "kind": "module",
+      "signature": "module:booking-wizard",
+      "source": null,
+      "usedByTemplates": [
+        "de-service-auto-services-online-termin-buchen-html"
+      ],
+      "usedByPages": [
+        "de-service-auto-services-online-termin-buchen-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "booking-wizard",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "breadcrumb",
+      "label": "breadcrumb",
+      "kind": "module",
+      "signature": "module:breadcrumb",
+      "source": null,
+      "usedByTemplates": [
+        "de-service-reifen-und-raeder-winterreifen-html",
+        "en-services-html"
+      ],
+      "usedByPages": [
+        "de-service-reifen-und-raeder-winterreifen-html",
+        "en-services-html"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "breadcrumb",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "cta-band",
+      "label": "cta-band",
+      "kind": "module",
+      "signature": "module:cta-band",
+      "source": null,
+      "usedByTemplates": [
+        "de-service-reifen-und-raeder-winterreifen-html",
+        "en-html",
+        "en-services-html"
+      ],
+      "usedByPages": [
+        "de-service-reifen-und-raeder-winterreifen-html",
+        "en-html",
+        "en-services-html"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "cta-band",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "dealer-search",
+      "label": "dealer-search",
+      "kind": "module",
+      "signature": "module:dealer-search",
+      "source": null,
+      "usedByTemplates": [
+        "en-komponenten-car-dealers-html"
+      ],
+      "usedByPages": [
+        "en-komponenten-car-dealers-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "dealer-search",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero-carousel",
+      "label": "hero-carousel",
+      "kind": "module",
+      "signature": "module:hero-carousel",
+      "source": null,
+      "usedByTemplates": [
+        "en-html"
+      ],
+      "usedByPages": [
+        "en-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "hero-carousel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero-split",
+      "label": "hero-split",
+      "kind": "module",
+      "signature": "module:hero-split",
+      "source": null,
+      "usedByTemplates": [
+        "de-service-reifen-und-raeder-winterreifen-html",
+        "en-services-html"
+      ],
+      "usedByPages": [
+        "de-service-reifen-und-raeder-winterreifen-html",
+        "en-services-html"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "hero-split",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "icon-feature-grid",
+      "label": "icon-feature-grid",
+      "kind": "module",
+      "signature": "module:icon-feature-grid",
+      "source": null,
+      "usedByTemplates": [
+        "en-html",
+        "en-services-html"
+      ],
+      "usedByPages": [
+        "en-html",
+        "en-services-html"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "icon-feature-grid",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "image-text-card",
+      "label": "image-text-card",
+      "kind": "module",
+      "signature": "module:image-text-card",
+      "source": null,
+      "usedByTemplates": [
+        "de-service-reifen-und-raeder-winterreifen-html",
+        "en-html",
+        "en-services-html"
+      ],
+      "usedByPages": [
+        "de-service-reifen-und-raeder-winterreifen-html",
+        "en-html",
+        "en-services-html"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "image-text-card",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "long-form-article",
+      "label": "long-form-article",
+      "kind": "module",
+      "signature": "module:long-form-article",
+      "source": null,
+      "usedByTemplates": [
+        "de-service-reifen-und-raeder-winterreifen-html"
+      ],
+      "usedByPages": [
+        "de-service-reifen-und-raeder-winterreifen-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "long-form-article",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "news-cards",
+      "label": "news-cards",
+      "kind": "module",
+      "signature": "module:news-cards",
+      "source": null,
+      "usedByTemplates": [
+        "en-html",
+        "en-services-html"
+      ],
+      "usedByPages": [
+        "en-html",
+        "en-services-html"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "news-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "newsletter-band",
+      "label": "newsletter-band",
+      "kind": "module",
+      "signature": "module:newsletter-band",
+      "source": null,
+      "usedByTemplates": [
+        "en-html",
+        "en-services-html"
+      ],
+      "usedByPages": [
+        "en-html",
+        "en-services-html"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "newsletter-band",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "pledge-row",
+      "label": "pledge-row",
+      "kind": "module",
+      "signature": "module:pledge-row",
+      "source": null,
+      "usedByTemplates": [
+        "de-service-reifen-und-raeder-winterreifen-html",
+        "en-html",
+        "en-services-html"
+      ],
+      "usedByPages": [
+        "de-service-reifen-und-raeder-winterreifen-html",
+        "en-html",
+        "en-services-html"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "pledge-row",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "promo-teaser",
+      "label": "promo-teaser",
+      "kind": "module",
+      "signature": "module:promo-teaser",
+      "source": null,
+      "usedByTemplates": [
+        "de-service-reifen-und-raeder-winterreifen-html",
+        "en-html",
+        "en-services-html"
+      ],
+      "usedByPages": [
+        "de-service-reifen-und-raeder-winterreifen-html",
+        "en-html",
+        "en-services-html"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "promo-teaser",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "quick-links",
+      "label": "quick-links",
+      "kind": "module",
+      "signature": "module:quick-links",
+      "source": null,
+      "usedByTemplates": [
+        "en-html"
+      ],
+      "usedByPages": [
+        "en-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "quick-links",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "testimonial",
+      "label": "testimonial",
+      "kind": "module",
+      "signature": "module:testimonial",
+      "source": null,
+      "usedByTemplates": [
+        "en-html"
+      ],
+      "usedByPages": [
+        "en-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "testimonial",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "vehicle-search",
+      "label": "vehicle-search",
+      "kind": "module",
+      "signature": "module:vehicle-search",
+      "source": null,
+      "usedByTemplates": [
+        "en-html"
+      ],
+      "usedByPages": [
+        "en-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "vehicle-search",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

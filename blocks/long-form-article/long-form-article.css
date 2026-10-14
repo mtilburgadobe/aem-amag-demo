@@ -1,0 +1,569 @@
+/* long-form-article — values lifted from the prototype page CSS (rich text @508770, fact box
+   @322024, advantages @468536, icon text box @348440, text image @465546, otv CTA @1907555,
+   garage election @1619178) and canon.css (section shell / description, CTA button). */
+.long-form-article {
+  position: relative;
+  background: #fff;
+}
+
+.long-form-article.grey {
+  background: var(--amag-grey-100);
+}
+
+.long-form-article.lavender {
+  background: #ede7fe;
+}
+
+.long-form-article .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0 var(--section-gutter);
+}
+
+.long-form-article.band {
+  padding-top: 80px;
+}
+
+.long-form-article.band-white::before,
+.long-form-article.band-grey::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: calc(max(0px, (100% - var(--content-max)) / 2) + var(--section-gutter));
+  background: #fff;
+}
+
+.long-form-article.band-grey::before {
+  background: var(--amag-grey-100);
+}
+
+.long-form-article.section-end {
+  margin-bottom: 0;
+  padding-bottom: 80px;
+}
+
+.long-form-article.first-section.band {
+  padding-top: 0;
+}
+
+.long-form-article.first-section::before {
+  display: none;
+}
+
+/* section head (eyebrow 3/12 + headline 9/12, indented by one column ≥ 1200) */
+.long-form-article .head {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.long-form-article .head-row {
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* a flow-root so the headline's 8 px bottom margin stays inside the head (live: flex item) */
+.long-form-article .headline {
+  display: flow-root;
+}
+
+.long-form-article .eyebrow p {
+  color: var(--amag-grey-600);
+  font-family: var(--font-text-light);
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  line-height: 24px;
+  margin: 0 0 14px;
+  padding-top: 12px;
+  text-transform: uppercase;
+}
+
+.long-form-article .headline :is(h1, h2, h3) {
+  font-family: var(--font-display-bold);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0 0 0.5rem;
+}
+
+/* rich text */
+.long-form-article .rich-text {
+  width: 100%;
+}
+
+.long-form-article .prose :is(p, a, li) {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.long-form-article .prose p {
+  margin: 0 0 1rem;
+}
+
+/* cta-gap: the authored empty paragraph before the CTA (30 px line + 16 px margin) */
+.long-form-article.cta-gap .prose {
+  padding-bottom: 30px;
+  margin-bottom: 16px;
+}
+
+.long-form-article .prose :is(ul, ol) {
+  margin: 0 0 1rem;
+  padding-left: 40px;
+}
+
+.long-form-article .prose strong {
+  font-family: var(--font-text-bold);
+  font-weight: 400;
+}
+
+.long-form-article .prose :is(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--font-display-bold);
+  hyphens: auto;
+}
+
+.long-form-article .prose h2 {
+  font-size: 44px;
+  line-height: 48px;
+}
+
+.long-form-article .prose h3 {
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.long-form-article .prose h4 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.long-form-article .prose a:any-link {
+  hyphens: auto;
+}
+
+/* fact boxes (quote + benefits), the icon tiles sit in the same row */
+.long-form-article .facts {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 100%;
+  margin: 0 -15px 100px;
+}
+
+.long-form-article .fact {
+  display: flex;
+  flex: 0 0 100%;
+  flex-wrap: wrap;
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.long-form-article .fact-box {
+  width: 100%;
+  padding: 75px 40px;
+  color: #fff;
+}
+
+.long-form-article .fact-box.quote {
+  background: var(--amag-light-blue);
+}
+
+.long-form-article .fact-box.benefits {
+  background: var(--amag-dark-blue);
+  font-family: var(--font-text-light);
+}
+
+.long-form-article .quote-module {
+  margin-bottom: -40px;
+}
+
+.long-form-article .quote-text blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.long-form-article .quote-text p {
+  font-family: var(--font-display-bold);
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0 0 60px;
+}
+
+.long-form-article .quote-text p::before {
+  content: "«";
+}
+
+.long-form-article .quote-text p::after {
+  content: "»";
+}
+
+.long-form-article .quote-author p {
+  font-family: var(--font-display-bold);
+  font-size: 20px;
+  margin: 0;
+}
+
+.long-form-article .quote-by p {
+  color: #fff;
+  font-family: var(--font-text-light);
+  font-size: 20px;
+  margin: 0;
+}
+
+.long-form-article .benefits-title :is(h2, h3, h4) {
+  font-family: var(--font-display-bold);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  margin: 0 0 43px;
+}
+
+.long-form-article .benefit-title {
+  margin-top: 22px;
+}
+
+.long-form-article .benefit-title :is(h3, h4, h5) {
+  font-family: var(--font-display-bold);
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0 0 0.5rem;
+}
+
+.long-form-article .benefit-title :is(h3, h4, h5)::before {
+  content: "-";
+  font-family: var(--font-display-bold);
+}
+
+.long-form-article .benefit-copy p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* icon tiles (tread depth) */
+.long-form-article .tiles {
+  flex: 1 1 100%;
+  width: 100%;
+  margin: 0 15px;
+  padding: 40px 40px 29px;
+  background: #fff;
+  color: #000;
+  font-family: var(--font-text-light);
+}
+
+.long-form-article .tiles-title :is(h2, h3, h4) {
+  font-family: var(--font-display-bold);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  margin: 0 0 0.5rem;
+}
+
+.long-form-article .tiles-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.long-form-article .tile {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-top: 31px;
+  padding: 0 15px;
+}
+
+.long-form-article .tile-media {
+  min-height: 40px;
+}
+
+.long-form-article .tile-media p {
+  margin: 0;
+}
+
+.long-form-article .tile-media img {
+  width: 40px;
+  max-height: 40px;
+  height: auto;
+}
+
+.long-form-article .tile-title :is(h3, h4, h5) {
+  color: #000;
+  font-family: var(--font-display-bold);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 20px 0 0.5rem;
+}
+
+.long-form-article .tile-copy p {
+  color: #000;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 1rem;
+}
+
+/* full-width text image (square rendition below 1200 on the live page) */
+.long-form-article .figure {
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+.long-form-article .figure p {
+  margin: 0;
+}
+
+.long-form-article .figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+/* CTA (appointment: intrinsic width ≥ 768, 100vw below; garage: 1/2 → 1/3 column) */
+.long-form-article .cta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.long-form-article .cta-box {
+  width: 100vw;
+  margin: 41px -15px 0;
+}
+
+.long-form-article .actions {
+  display: flex;
+}
+
+.long-form-article .actions p {
+  display: flex;
+  flex: 1;
+  margin: 0;
+}
+
+.long-form-article .actions a:any-link {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+  margin: 0;
+  padding: 0 40px;
+  border: 0;
+  border-radius: 0;
+  background: var(--amag-dark-blue);
+  color: #fff;
+  font-family: var(--font-text-bold);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.long-form-article .actions a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.long-form-article .actions strong {
+  font-weight: 400;
+}
+
+.long-form-article .actions p > strong {
+  display: flex;
+  flex: 1;
+}
+
+.long-form-article .actions a picture {
+  display: inline-flex;
+  margin-right: 10px;
+}
+
+.long-form-article .actions a img {
+  height: 32px;
+  width: 32px;
+}
+
+.long-form-article .note {
+  display: flex;
+  justify-content: center;
+  margin-top: 19px;
+}
+
+.long-form-article .note p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.long-form-article.narrow-cta .cta-box {
+  margin-top: 0;
+}
+
+@media (width < 768px) {
+  .long-form-article.band-white::before,
+  .long-form-article.band-grey::before {
+    display: none;
+  }
+}
+
+@media (width >= 768px) {
+  .long-form-article .head {
+    margin-bottom: 30px;
+  }
+
+  .long-form-article .head-row {
+    display: flex;
+    margin-bottom: 30px;
+  }
+
+  .long-form-article .eyebrow {
+    flex: 0 0 25%;
+    max-width: 25%;
+    align-self: flex-start;
+  }
+
+  .long-form-article .eyebrow p {
+    margin-bottom: 0;
+  }
+
+  .long-form-article .headline {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+
+  .long-form-article .fact {
+    flex: 0 0 50%;
+    max-width: 50%;
+    min-width: 50%;
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  .long-form-article .tiles {
+    padding: 40px 40px 26px;
+  }
+
+  .long-form-article .tile {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    margin-top: 29px;
+  }
+
+  .long-form-article .tile-title :is(h3, h4, h5) {
+    margin-top: 25px;
+  }
+
+  .long-form-article .cta-box {
+    width: auto;
+    margin: 41px 0 0;
+  }
+
+  .long-form-article .actions p,
+  .long-form-article .actions p > strong,
+  .long-form-article .actions a:any-link {
+    flex: 0 0 auto;
+  }
+
+  .long-form-article.narrow-cta .cta-box {
+    flex: 0 0 50%;
+    max-width: 50%;
+    width: 50%;
+    padding-right: 15px;
+  }
+
+  .long-form-article.narrow-cta .actions p > strong,
+  .long-form-article.narrow-cta .actions p,
+  .long-form-article.narrow-cta .actions a:any-link {
+    flex: 1;
+  }
+}
+
+@media (width >= 1200px) {
+  .long-form-article.band,
+  .long-form-article.first-section.band {
+    padding-top: 120px;
+  }
+
+  .long-form-article.band-white::before,
+  .long-form-article.band-grey::before {
+    height: 120px;
+  }
+
+  .long-form-article.section-end {
+    padding-bottom: 120px;
+  }
+
+  .long-form-article .head {
+    flex: 0 0 91.6667%;
+    max-width: 91.6667%;
+    margin-left: 8.3333%;
+    margin-bottom: 40px;
+  }
+
+  .long-form-article .head-row {
+    margin-bottom: 40px;
+  }
+
+  .long-form-article .fact-box {
+    padding: 75px 95px;
+  }
+
+  .long-form-article .quote-text p {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 45px;
+  }
+
+  .long-form-article .benefits-title :is(h2, h3, h4) {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 38px;
+  }
+
+  .long-form-article .benefit-title {
+    margin-top: 25px;
+  }
+
+  .long-form-article .tiles {
+    padding: 57px 95px 52px;
+  }
+
+  .long-form-article .tiles-title :is(h2, h3, h4) {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .long-form-article .tile {
+    margin-top: 33px;
+  }
+
+  .long-form-article .tile-title :is(h3, h4, h5) {
+    margin-top: 20px;
+  }
+
+  .long-form-article .figure {
+    margin-bottom: 100px;
+  }
+
+  .long-form-article .figure img {
+    aspect-ratio: auto;
+  }
+
+  .long-form-article .actions a:any-link {
+    min-height: 100px;
+  }
+
+  .long-form-article.narrow-cta .cta-box {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    width: 33.3333%;
+  }
+}

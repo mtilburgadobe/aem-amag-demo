@@ -1,0 +1,765 @@
+{
+  "url": "https://www.amag.ch/de/service/reifen-und-raeder/winterreifen.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4800,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 6000,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 7200,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 8400,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 9600,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 8622,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 7122,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".amag-languageWrapper__language",
+      "frames": [
+        {
+          "t": 22769.900000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 22973.700000001118,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 23177.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 23381.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".cmp-accordion__button",
+      "frames": [
+        {
+          "t": 24413.099999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 24615.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 24819.200000001118,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 25022.800000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".amag-direct-entry__button",
+      "frames": [
+        {
+          "t": 26045.200000001118,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 26248.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 26452.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 26654.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".amag-header__hamburger",
+      "frames": [
+        {
+          "t": 27683.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 27885.900000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 28089.099999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 28293.200000001118,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".amag-maxiTeaserBild__btnWrapper",
+      "changed": [
+        "a.amag-maxiTeaserBild__btn.amag-btn--gozilla.color",
+        "span.btn__icon.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.amag-maxiTeaserBild__btn.amag-btn--gozilla",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(23, 41, 131)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.2s"
+          },
+          {
+            "el": "span.btn__icon",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.amag-maxiTeaserBild__btn.amag-btn--gozilla",
+            "transform": "none",
+            "color": "rgb(0, 86, 179)",
+            "background": "rgb(23, 41, 131)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.2s"
+          },
+          {
+            "el": "span.btn__icon",
+            "transform": "none",
+            "color": "rgb(0, 86, 179)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".amag-image-text-v2__link",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(23, 41, 131)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(23, 41, 131)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".amag-otvCtaWrapper__button .amag-ctaWrapper__button",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(23, 41, 131)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(23, 41, 131)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "slideDown",
+        "el": "html.macos.desktop.landscape > body.no-scroll > header.header--overlay-open > div.container-fluid.amag-header.fixed-top > div.navbar-overlay",
+        "txt": "Menu wählen\n            \n\n            \n           ",
+        "y": 7659
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "top",
+        "el": "html.macos.desktop.landscape > body > header > div.container-fluid.amag-header.fixed-top",
+        "y": 400,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html.macos.desktop.landscape > body > div.amag-content > div.amag-direct-entry > div.amag-direct-entry__button.show",
+        "y": 400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html.macos.desktop.landscape > body > div.frontnow-advisor-popover.rounded-lg",
+        "y": 3600,
+        "dur": "0.25s, 0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "html.macos.desktop.landscape > body > div.frontnow-advisor-popover.rounded-lg",
+        "y": 3600,
+        "dur": "0.25s, 0.25s"
+      },
+      {
+        "prop": "top",
+        "el": "html.macos.desktop.landscape > body > header > div.container-fluid.amag-header.fixed-top",
+        "y": 8622,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html.macos.desktop.landscape > body > div.amag-content > div.amag-direct-entry > div.amag-direct-entry__button",
+        "y": 200,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "html.macos.desktop.landscape > body > header > div.container-fluid.amag-header.fixed-top",
+        "y": 7659,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html.macos.desktop.landscape > body > div.amag-content > div.amag-direct-entry > div.amag-direct-entry__button.show",
+        "y": 7659,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.cmp-accordion__item > div.cmp-accordion__header > button.cmp-accordion__button.cmp-accordion__button--expanded > span.cmp-accordion__icon > svg",
+        "y": 7659,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html.macos.desktop.landscape > body.no-scroll > div.amag-content > div.amag-direct-entry > div.amag-direct-entry__pop-up.show",
+        "y": 7659,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "z-index",
+        "el": "html.macos.desktop.landscape > body.no-scroll > div > div.ot-floating-button",
+        "y": 7659,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "html.macos.desktop.landscape > body.no-scroll > header.header--overlay-open > div.container-fluid.amag-header.fixed-top",
+        "y": 7659,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "color",
+        "el": "div.amag-maxiTeaserBild > div.amag-maxiTeaserBild__container.amag-marginBottom > div.amag-maxiTeaserBild__content.dd-image > div.amag-maxiTeaserBild__btnWrapper > a.amag-maxiTeaserBild__btn.amag-btn--gozilla",
+        "y": 3488,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "margin-left",
+        "el": "div.amag-maxiTeaserBild > div.amag-maxiTeaserBild__container.amag-marginBottom > div.amag-maxiTeaserBild__content.dd-image > div.amag-maxiTeaserBild__btnWrapper > a.amag-maxiTeaserBild__btn.amag-btn--gozilla",
+        "y": 3488,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "width",
+        "el": "div.amag-maxiTeaserBild > div.amag-maxiTeaserBild__container.amag-marginBottom > div.amag-maxiTeaserBild__content.dd-image > div.amag-maxiTeaserBild__btnWrapper > a.amag-maxiTeaserBild__btn.amag-btn--gozilla",
+        "y": 3488,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "color",
+        "el": "div.amag-maxiTeaserBild > div.amag-maxiTeaserBild__container.amag-marginBottom > div.amag-maxiTeaserBild__content.dd-image > div.amag-maxiTeaserBild__btnWrapper > a.amag-maxiTeaserBild__btn.amag-btn--gozilla",
+        "y": 3488,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "margin-left",
+        "el": "div.amag-maxiTeaserBild > div.amag-maxiTeaserBild__container.amag-marginBottom > div.amag-maxiTeaserBild__content.dd-image > div.amag-maxiTeaserBild__btnWrapper > a.amag-maxiTeaserBild__btn.amag-btn--gozilla",
+        "y": 3488,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "width",
+        "el": "div.amag-maxiTeaserBild > div.amag-maxiTeaserBild__container.amag-marginBottom > div.amag-maxiTeaserBild__content.dd-image > div.amag-maxiTeaserBild__btnWrapper > a.amag-maxiTeaserBild__btn.amag-btn--gozilla",
+        "y": 3488,
+        "dur": "0.2s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "show"
+        ],
+        "el": "html.macos.desktop.landscape > body > div.amag-content > div.amag-direct-entry > div.amag-direct-entry__button.show",
+        "y": 400
+      },
+      {
+        "added": [
+          "optanon-category-C0003"
+        ],
+        "el": "html.macos.desktop.landscape > head > script.optanon-category-C0003",
+        "y": 5600
+      },
+      {
+        "added": [
+          "show"
+        ],
+        "el": "html.macos.desktop.landscape > body > div.amag-content > div.amag-direct-entry > div.amag-direct-entry__button.show",
+        "y": 7659
+      },
+      {
+        "added": [
+          "cmp-accordion__button--expanded"
+        ],
+        "el": "div.accordion.panelcontainer > div.cmp-accordion.amag-marginBottom > div.cmp-accordion__item > div.cmp-accordion__header > button.cmp-accordion__button.cmp-accordion__button--expanded",
+        "y": 7659
+      },
+      {
+        "added": [
+          "cmp-accordion__panel--expanded"
+        ],
+        "el": "div.container.row.m-auto > div.accordion.panelcontainer > div.cmp-accordion.amag-marginBottom > div.cmp-accordion__item > div.cmp-accordion__panel.cmp-accordion__panel--expanded",
+        "y": 7659
+      },
+      {
+        "added": [
+          "show"
+        ],
+        "el": "html.macos.desktop.landscape > body.no-scroll > div.amag-content > div.amag-direct-entry > div.amag-direct-entry__pop-up.show",
+        "y": 7659
+      },
+      {
+        "added": [
+          "no-scroll"
+        ],
+        "el": "html.macos.desktop.landscape > body.no-scroll",
+        "y": 7659
+      },
+      {
+        "added": [
+          "optanon-category-C0003"
+        ],
+        "el": "html.macos.desktop.landscape > head > script.optanon-category-C0003",
+        "y": 7659
+      },
+      {
+        "added": [
+          "header--overlay-open"
+        ],
+        "el": "html.macos.desktop.landscape > body.no-scroll > header.header--overlay-open",
+        "y": 7659
+      },
+      {
+        "added": [
+          "d-none"
+        ],
+        "el": "html.macos.desktop.landscape > body.no-scroll > div.amag-content > div.amag-direct-entry.d-none",
+        "y": 7659
+      },
+      {
+        "added": [
+          "overflow-hidden"
+        ],
+        "el": "html.macos.desktop.landscape",
+        "y": 7659
+      }
+    ]
+  }
+}
