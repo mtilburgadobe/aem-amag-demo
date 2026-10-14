@@ -1,0 +1,260 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-10-08T15:40:00Z",
+    "readArtifacts": [
+      "https://www.amag.ch/en.html",
+      "stardust/current/pages/en-html.json",
+      "stardust/current/pages/en-services-html.json",
+      "stardust/current/pages/en-komponenten-car-dealers-html.json",
+      "stardust/current/pages/de-service-auto-services-online-termin-buchen-html.json",
+      "stardust/current/pages/de-service-reifen-und-raeder-winterreifen-html.json",
+      "stardust/current/_computed-styles.json",
+      "stardust/current/_crawl-log.json",
+      "stardust/current/assets/css/clientlib-amagch.css",
+      "stardust/current/assets/logo.svg"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.29.1",
+    "notes": [
+      "Palette capped at 8 by census weight. Dropped (recorded here, not lost): #bdbdbd (weight 38, border/text; accordion dividers .cmp-accordion__item), #979797 (20), #ffffff99 (10, translucent white), #ede7fe (6, background only, bgArea 1480556 — light purple surface), #009ee0 (4, background only, cyan), #0000001a (2, scrim), #0000004d (2, scrim), #006431 (2, background only, green).",
+      "Heading weights: the four @font-face rules all declare font-weight 400 (bold/light are separate families), but the census computed font-weight 500 on 150/150 amag_displaybold headings — the theme sets weight 500 on headlines; the bold cut is carried by the family name, not the weight.",
+      "No font-display declared in any @font-face rule (0 of 4) — loadStrategy recorded as 'auto'.",
+      "Shadow rgba(0,0,0,.2) 0 4px 8px (mode, 20 occurrences): all 5 cited sources are #ot-sdk-btn-floating (OneTrust consent button) — third-party, not a brand motif. Treat shadows as effectively absent from brand surfaces.",
+      "heroImage.rect / domPath / localPath: the capture stores natural width/height for <img> only (no bounding rect, no download); set null rather than invented.",
+      "heroMedium: home hero is a 4-slide image carousel (.amagCh-stageCarousel); no <video>, <iframe>, canvas, or motion library (hls/lottie/gsap/three) in the home capture. Auto-advance behaviour not observed — set null.",
+      "Line-heights come from the theme stylesheet (.amag-headline--h1..h6, .amag-copy--*), not the census, which did not record line-height.",
+      "System-component threshold is min(3, 50% of 5) = 2.5 → ≥3 pages. newsletter-band, news-cards and faq-cta-band appear on 2 of 5 pages and are listed with belowThreshold:true on parent instruction; the crawl is small and both are site-wide chrome by construction (AEM experience fragments).",
+      "cookie-consent: OneTrust (cdn.cookielaw.org, #ot-sdk-btn-floating) is present but was dismissed by auto-consent and is not captured as content.",
+      "og:* tags are null on all captured pages; tagline taken from <meta name=description>."
+    ]
+  },
+  "site": {
+    "name": "AMAG",
+    "tagline": "Find your dream car, or book a service at AMAG – the biggest car dealership and official Swiss partner of VW Group vehicle brands",
+    "originUrl": "https://www.amag.ch"
+  },
+  "origins": [
+    {
+      "origin": "https://www.amag.ch",
+      "role": "primary",
+      "pagesCaptured": 5,
+      "contributedSignals": []
+    }
+  ],
+  "logo": {
+    "source": "inline-svg",
+    "sourceSelector": "#header > div:nth-of-type(1) > div:nth-of-type(3) > a > svg",
+    "localPath": "stardust/current/assets/logo.svg",
+    "format": "svg",
+    "intrinsicWidth": 67,
+    "intrinsicHeight": 24,
+    "renderedRect": { "x": 31, "y": 46, "w": 66, "h": 24, "width": 1440 },
+    "fill": "white",
+    "synthesized": false,
+    "synthesizedBasis": null
+  },
+  "palette": [
+    { "role": "background", "value": "#ffffff", "occurrences": 2431, "bgArea": 193042560, "sourceSelectors": ["body", ".generic-header-v2__header", ".amag-ctaWrapper__button (text)"], "sources": ["en-html", "en-services-html", "en-komponenten-car-dealers-html", "de-service-auto-services-online-termin-buchen-html", "de-service-reifen-und-raeder-winterreifen-html"], "usedAs": ["background", "text", "border"] },
+    { "role": "text-primary", "value": "#000000", "occurrences": 2121, "bgArea": 13432685, "sourceSelectors": ["nav > ul > li > a", "#header label", ".amag-footer (background)"], "sources": ["en-html", "en-services-html", "en-komponenten-car-dealers-html", "de-service-auto-services-online-termin-buchen-html", "de-service-reifen-und-raeder-winterreifen-html"], "usedAs": ["text", "background", "border"] },
+    { "role": "text-secondary", "value": "#222222", "occurrences": 1110, "bgArea": 1971691, "sourceSelectors": ["#storelocatorId p", "#promo tiles (background)", "footer > div … div:nth-of-type(4) (background)"], "sources": ["en-html", "en-services-html", "en-komponenten-car-dealers-html", "de-service-auto-services-online-termin-buchen-html", "de-service-reifen-und-raeder-winterreifen-html"], "usedAs": ["text", "background"] },
+    { "role": "border", "value": "#e8e8e8", "occurrences": 930, "bgArea": 3270532, "sourceSelectors": ["#header … label > div (border)", ".amag-direct-entry__button (background)", "#storelocatorId span"], "sources": ["en-html", "en-services-html", "en-komponenten-car-dealers-html", "de-service-auto-services-online-termin-buchen-html", "de-service-reifen-und-raeder-winterreifen-html"], "usedAs": ["border", "background"] },
+    { "role": "accent-link", "value": "#007bff", "occurrences": 555, "bgArea": null, "sourceSelectors": ["a (Bootstrap default link color)", ".btn-primary (framework default, not themed)"], "sources": ["en-html", "en-services-html", "en-komponenten-car-dealers-html", "de-service-auto-services-online-termin-buchen-html", "de-service-reifen-und-raeder-winterreifen-html"], "usedAs": ["text"], "note": "Bootstrap 4 default; hover resolves to #0056b3 (hover census). Framework leakage, not a brand choice." },
+    { "role": "primary", "value": "#172983", "occurrences": 334, "bgArea": 2853100, "sourceSelectors": [".amag-ctaWrapper__button--bgColor-amagDark-blue", ".process-container__button--next", ".storelocatorRetail .amag-filterModal__showGaragesButton", ".amagCh-stageCarousel .amag-stageCarousel__button:hover", "#storelocatorId p"], "sources": ["en-html", "en-services-html", "en-komponenten-car-dealers-html", "de-service-auto-services-online-termin-buchen-html", "de-service-reifen-und-raeder-winterreifen-html"], "usedAs": ["text", "background", "border"] },
+    { "role": "text-muted", "value": "#6f6d6a", "occurrences": 78, "bgArea": null, "sourceSelectors": ["nav > ol > li > a (breadcrumb, hover → #000)"], "sources": ["en-html", "en-services-html", "en-komponenten-car-dealers-html", "de-service-auto-services-online-termin-buchen-html", "de-service-reifen-und-raeder-winterreifen-html"], "usedAs": ["text", "border"] },
+    { "role": "secondary", "value": "#801977", "occurrences": 45, "bgArea": 1095794, "sourceSelectors": [".generic-header__listItem a:hover", ".progression-bar.step.active", ".generic-dynamic-dropdown-item:hover", "nav > ul > li > a:hover"], "sources": ["en-html", "en-services-html", "en-komponenten-car-dealers-html", "de-service-auto-services-online-termin-buchen-html", "de-service-reifen-und-raeder-winterreifen-html"], "usedAs": ["background", "border", "text"] }
+  ],
+  "type": {
+    "headingFamily": {
+      "name": "amag_displaybold",
+      "stack": "amag_displaybold, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "weights": [500],
+      "declaredWeight": 400,
+      "sizes": ["44px", "32px", "32px", "24px", "20px", "20px"],
+      "sizesByLevel": { "h1": "44px", "h2": "32px", "h3": "32px", "h4": "24px", "h5": "20px", "h6": "20px" },
+      "themeRamp": { ".amag-headline--h1": "54px/60px", ".amag-headline--h2": "44px/48px", ".amag-headline--h3": "32px/36px", ".amag-headline--h4": "24px/28px", ".amag-headline--h5": "20px/30px", ".amag-headline--h6": "16px/24px" },
+      "lineHeights": [1.11, 1.09, 1.125, 1.17, 1.5, 1.5],
+      "letterSpacing": ["normal"],
+      "sourceSelectors": ["h1", "h2", "h3", "h4", "h5", ".amag-headline--h1"]
+    },
+    "bodyFamily": {
+      "name": "amag_textlight",
+      "stack": "amag_textlight, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "weights": [400],
+      "sizes": ["20px", "16px", "24px"],
+      "lineHeights": [1.5, 1.5, 1.25],
+      "letterSpacing": ["normal"],
+      "sourceSelectors": ["p", ".amag-copy--bigLight", ".amag-copy--smallLight", ".amag-copy--heroLight"]
+    },
+    "labelFamily": {
+      "name": "amag_textbold",
+      "stack": "amag_textbold, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+      "weights": [400],
+      "sizes": ["20px", "16px"],
+      "sourceSelectors": [".amag-ctaWrapper__button", "button", "h3/h4 in cards (24 heading hits)"]
+    },
+    "monoFamily": null,
+    "familyCensus": { "amag_displaybold": { "count": 128, "headings": 126, "text": 2, "buttons": 0 }, "amag_textlight": { "count": 109, "headings": 5, "text": 90, "buttons": 14 }, "amag_textbold": { "count": 91, "headings": 24, "text": 22, "buttons": 45 }, "amag_displaylight": { "count": 2, "headings": 0, "text": 2, "buttons": 0 } },
+    "scaleRatio": null,
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "ratios": [1.375, 1.333, 1.2],
+      "sizesPx": [44, 32, 24, 20],
+      "matchedScale": null,
+      "note": "Theme ramp 54→44→32→24→20→16 gives ratios 1.227, 1.375, 1.333, 1.2, 1.25 — also ad-hoc. One 54px H1 observed (hero)."
+    },
+    "loadStrategy": "auto",
+    "files": [
+      { "url": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-generic/resources/fonts/amag_display-bold.woff2", "family": "amag_displaybold", "weight": 400, "style": "normal", "unicodeRange": null, "localPath": "stardust/current/assets/fonts/amag_display-bold.woff2", "bytes": 25328, "sourceCssRule": "@font-face { font-family: amag_displaybold; font-style: normal; font-weight: 400; src: url(clientlib-generic/resources/fonts/amag_display-bold.woff2) format(\"woff2\") }", "licensingFlag": "private", "licensingNote": "Proprietary AMAG corporate typeface, self-hosted by the site; verify licence before redeploying." },
+      { "url": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-generic/resources/fonts/amag_display-light.woff2", "family": "amag_displaylight", "weight": 400, "style": "normal", "unicodeRange": null, "localPath": "stardust/current/assets/fonts/amag_display-light.woff2", "bytes": 24652, "sourceCssRule": "@font-face { font-family: amag_displaylight; font-style: normal; font-weight: 400; src: url(clientlib-generic/resources/fonts/amag_display-light.woff2) format(\"woff2\") }", "licensingFlag": "private", "licensingNote": "Proprietary AMAG corporate typeface, self-hosted by the site; verify licence before redeploying." },
+      { "url": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-generic/resources/fonts/amag_text-bold.woff2", "family": "amag_textbold", "weight": 400, "style": "normal", "unicodeRange": null, "localPath": "stardust/current/assets/fonts/amag_text-bold.woff2", "bytes": 24856, "sourceCssRule": "@font-face { font-family: amag_textbold; font-style: normal; font-weight: 400; src: url(clientlib-generic/resources/fonts/amag_text-bold.woff2) format(\"woff2\") }", "licensingFlag": "private", "licensingNote": "Proprietary AMAG corporate typeface, self-hosted by the site; verify licence before redeploying." },
+      { "url": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/themes/clientlib-generic/resources/fonts/amag_text-light.woff2", "family": "amag_textlight", "weight": 400, "style": "normal", "unicodeRange": null, "localPath": "stardust/current/assets/fonts/amag_text-light.woff2", "bytes": 24512, "sourceCssRule": "@font-face { font-family: amag_textlight; font-style: normal; font-weight: 400; src: url(clientlib-generic/resources/fonts/amag_text-light.woff2) format(\"woff2\") }", "licensingFlag": "private", "licensingNote": "Proprietary AMAG corporate typeface, self-hosted by the site; verify licence before redeploying." }
+    ]
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "scale": [4, 8, 12, 15, 16, 18, 20, 24, 30, 40, 80, 100, 120],
+    "sectionPadding": "100px–120px (.amag-marginBottom margin-bottom: 100px / 120px; .amag-footer padding-bottom: 120px at ≥1200px)",
+    "containerMaxWidth": "960px at ≥1200px (540 / 720 / 960 / 1140px at 360 / 768 / 1200 / 1920px — Bootstrap container with a custom 1920 tier)",
+    "gridGap": "30px",
+    "headerHeight": "75px / 120px / 160px at 360 / 768 / 1200px (--header-height)"
+  },
+  "motifs": {
+    "borderRadius": {
+      "primary": "2px",
+      "secondary": "4px",
+      "pill": "100px",
+      "primarySources": ["en-html", "en-services-html", "de-service-auto-services-online-termin-buchen-html"],
+      "occurrences": { "2px": 385, "4px": 152, "3.2px": 18, "50%": 6, "100px": 4 },
+      "note": "4px wins by area (areaMode); 4px = Bootstrap .25rem on .btn/.form-control; 2px is the theme's own value (.amag-stageCarousel__button, .amag-dspSearch__searchButton .amag-ctaWrapper__button); 100px only on .amag-direct-entry__button; 50% on circular icon chips."
+    },
+    "shadows": [
+      { "value": "rgba(0, 0, 0, 0.2) 0px 4px 8px 0px", "count": 20, "uses": "OneTrust floating consent button (#ot-sdk-btn-floating) — third-party, not brand" },
+      { "value": "layered 5-step rgba(0,0,0,.02–.03) 0 2.8px 2.7px … 0 29.9px 29.2px", "count": 6, "uses": "unknown surface (source not resolved by census)" },
+      { "value": "rgb(128, 128, 128) 0px 0px 5px 0px", "count": 2, "uses": "unknown" }
+    ],
+    "gradients": [
+      { "value": "linear-gradient(90deg, rgba(255, 255, 255, 0), rgb(255, 255, 255) 92.14%)", "count": 1, "area": 4320, "uses": "edge fade on a horizontal scroller" }
+    ],
+    "patterns": [
+      { "name": "hero-carousel", "evidence": "home stage: 4 slides, 1920×1080 DAM renditions (ID. Polo, CUPRA Raval, Škoda Epiq, 360° solutions), headline + CTA per slide" },
+      { "name": "hero-split", "evidence": "services and winterreifen open with a split text/image hero (visionCheck notes)" },
+      { "name": "utility-bar", "evidence": "3 benefit links with white icons above the nav on all 5 pages (Electromobility / AMAG Group / No. 1 with 90 locations)" },
+      { "name": "announcement-bar", "evidence": "'AMAG Emotion Days' campaign strip with 'Discover more' / 'Mehr erfahren' on all 5 pages" },
+      { "name": "nav-mega", "evidence": "header mega menu with brand-logo strip and topic columns (Find a vehicle → Cars at AMAG dealerships, Used vehicles, E-mobility, Car subscription …)" },
+      { "name": "quick-links", "evidence": "home: 3 utility tiles under the hero (damage report, used electric cars, everything electric)" },
+      { "name": "card-grid", "evidence": "AMAG NEWS 3-up 2:1 image cards on home and services; promo teaser tiles 4-up on home" },
+      { "name": "image-text-card", "evidence": "home 'Your dream car from AMAG' 4 cards + 'Our services for you' 4 cards; services service cards; winterreifen 380×380 maxi-teasers (Räderhotel, ReifenGarantie)" },
+      { "name": "icon-feature-grid", "evidence": "services 'Some of our services at a glance' 12 h5 items with blue line icons; home 'Our most requested services' 3 icons" },
+      { "name": "benefit-icon-row", "evidence": "'Our AMAG pledge' / 'More than just a service' / 'Mehr als nur Service' on 3 pages — 3 pillars with sub-bullets" },
+      { "name": "divider-band", "evidence": "1440×400 image bands: newsletter (home, services) and jobs (home) with a single white CTA" },
+      { "name": "accordion-faq", "evidence": "home SEO accordion (5 h2 toggles) and winterreifen FAQ (8 h2 toggles) — .cmp-accordion__item with 1px #bdbdbd dividers" },
+      { "name": "testimonial", "evidence": "home: single quote 'I was able to easily and conveniently book my appointment online…' — Regula S., Customer of AMAG" },
+      { "name": "dealer-map", "evidence": "car-dealers: full-viewport Google Map + 'Search garage' panel + result list with Call / Route actions (43 'Route' CTAs)" },
+      { "name": "wizard-steps", "evidence": "booking: 5-step tab rail Leistung / Garage / Termin / Daten / Buchung with 'Weiter zur Leistung' primary and 'Anmelden'" },
+      { "name": "breadcrumb", "evidence": "services (Homepage > Services) and winterreifen (Startseite > Services im Überblick > Räder- & Reifenservice), #6f6d6a → #000 on hover" },
+      { "name": "footer-mega", "evidence": "black footer: 3 link lists (Assistance & contact / Find a car & service / Company), Our brands logo strip, AMAG App badges, social icons, legal bar" }
+    ]
+  },
+  "componentStyle": {
+    "buttons": {
+      "primary": {
+        "background": "#172983",
+        "color": "#ffffff",
+        "borderRadius": "2px",
+        "padding": "0 40px (min-height 70px; 100px at ≥1200px)",
+        "fontFamily": "amag_textbold",
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "shadow": null,
+        "hoverDelta": "none observed on .amag-ctaWrapper__button:hover (color stays #fff); carousel button hover fills #172983",
+        "sourceSelectors": [".amag-ctaWrapper__button", ".amag-ctaWrapper__button--bgColor-amagDark-blue", ".process-container__button--next"]
+      },
+      "secondary": {
+        "background": "transparent",
+        "color": "#172983",
+        "border": "1px solid #172983 (displayAsLink) / 2px solid #172983 (.amag-appointment-overview__remembered-garage-button)",
+        "borderRadius": "2px",
+        "sourceSelectors": [".amag-ctaWrapper__button--bgColor-amagDark-blue.displayAsLink", ".process-container__button--back (border-bottom 2px solid #172983)"]
+      },
+      "ghost": {
+        "background": "#e8e8e8",
+        "color": "#000000",
+        "borderRadius": "100px",
+        "height": "60px",
+        "padding": "0 18px",
+        "transition": "all .3s ease",
+        "sourceSelectors": [".amag-direct-entry__button"]
+      },
+      "dark": {
+        "background": "#000000",
+        "color": "#ffffff",
+        "sourceSelectors": [".amag-promotionTeaserBox__showMoreBtn"]
+      }
+    },
+    "dualCTAPattern": "primary-then-outline (process-container next/back; stage carousel button pair, second in #172983 text)",
+    "cards": { "background": "#ffffff", "borderRadius": "0px–4px", "padding": null, "shadow": null, "border": null, "note": "News cards are flat image-over-text (2:1 image, h3 title, text link); no card chrome observed." },
+    "inputs": { "borderRadius": "4px (.25rem, Bootstrap .form-control)", "padding": "6px 12px (.375rem .75rem)", "border": "1px solid #ced4da", "focusRing": "0 0 0 .2rem rgba(0,123,255,.25) with border #80bdff (Bootstrap default, not themed)" },
+    "links": { "default": "#007bff (Bootstrap default) in content; #000000 in nav", "hover": "#0056b3 content / #801977 nav", "breadcrumb": "#6f6d6a → #000000" }
+  },
+  "systemComponents": [
+    { "name": "site-header", "kind": "header", "occurrences": 5, "headingSequence": ["Electromobility switch now", "AMAG Group Mobility, Sustainability & Future", "No. 1 Car Dealer in Switzerland with 90 locations", "Find a vehicle", "Services", "Find garage", "Jobs", "My garage", "en | de | fr | it"], "ctaLabels": ["Discover more", "Find my garage"], "domFingerprintHash": null, "exampleSlug": "en-html", "exampleSelector": "header", "examplePages": ["en-html", "en-services-html", "en-komponenten-car-dealers-html", "de-service-auto-services-online-termin-buchen-html", "de-service-reifen-und-raeder-winterreifen-html"], "notes": "position: fixed (.generic-header-v2__header, background #fff), --header-height 75/120/160px; utility bar + campaign banner + main nav + mega menu + language switch + 'My garage' saved-dealer widget; white-fill logo SVG 67×24." },
+    { "name": "site-footer", "kind": "footer", "occurrences": 5, "headingSequence": ["Assistance & contact", "Find a car & service", "Company", "Our brands", "AMAG App", "Get connected with AMAG", "© 2026 AMAG Automobil und Motoren AG"], "ctaLabels": ["Contact", "Online appointment", "Newsletter", "Emergency", "Find a vehicle", "Services", "Find garage", "About us", "Jobs & careers", "Privacy policy", "Legal notice", "Impressum", "Terms and conditions", "Cookie policy", "Jobs"], "domFingerprintHash": null, "exampleSlug": "en-html", "exampleSelector": "footer", "examplePages": ["en-html", "en-services-html", "en-komponenten-car-dealers-html", "de-service-auto-services-online-termin-buchen-html", "de-service-reifen-und-raeder-winterreifen-html"], "notes": ".amag-footer background #000, color #fff; padding-bottom 120px at ≥1200px; legal bar block measured #222222." },
+    { "name": "pledge-row", "kind": "other", "occurrences": 3, "headingSequence": ["Our AMAG pledge | More than just a service – what you can expect from us | Mehr als nur Service – was Sie von uns erwarten können"], "ctaLabels": [], "domFingerprintHash": null, "exampleSlug": "en-html", "exampleSelector": "section (slots.pledge-row)", "examplePages": ["en-html", "en-services-html", "de-service-reifen-und-raeder-winterreifen-html"], "notes": "3 pillars (Full transparency / Greater safety / Best service) each with 4–5 sub-bullets." },
+    { "name": "newsletter-band", "kind": "cta-band", "occurrences": 2, "belowThreshold": true, "headingSequence": ["News and promotions directly into your inbox"], "ctaLabels": ["Subscribe to newsletter"], "domFingerprintHash": null, "exampleSlug": "en-html", "exampleSelector": "section (slots.newsletter)", "examplePages": ["en-html", "en-services-html"], "notes": "1440×400 divider image (amag-e-mailing-neuabo) with heading + single CTA." },
+    { "name": "news-cards", "kind": "other", "occurrences": 2, "belowThreshold": true, "headingSequence": ["AMAG NEWS"], "ctaLabels": ["Benefit now", "Book a…", "Request a quote", "More information"], "domFingerprintHash": null, "exampleSlug": "en-html", "exampleSelector": "section (slots.news-cards)", "examplePages": ["en-html", "en-services-html"], "notes": "3-up card row, 2:1 DAM renditions (768×384 → 629×314 rendered)." },
+    { "name": "faq-cta-band", "kind": "cta-band", "occurrences": 2, "belowThreshold": true, "headingSequence": ["Do you have any other questions? | Haben Sie weitere Fragen?"], "ctaLabels": ["Contact garage", "Garage kontaktieren"], "domFingerprintHash": null, "exampleSlug": "en-services-html", "exampleSelector": "section (slots.faq-cta)", "examplePages": ["en-services-html", "de-service-reifen-und-raeder-winterreifen-html"], "notes": "CTA opens the garage-contact overlay (href javascript:void(0))." },
+    { "name": "cookie-consent", "kind": "other", "occurrences": 5, "headingSequence": [], "ctaLabels": [], "domFingerprintHash": null, "exampleSlug": null, "exampleSelector": "#ot-sdk-btn-floating", "examplePages": [], "notes": "OneTrust (cdn.cookielaw.org). Auto-consented at capture; not captured as content. Its floating button is the only source of the 0 4px 8px shadow." }
+  ],
+  "iconFont": null,
+  "voice": {
+    "heroHeadline": "The new VW ID. Polo",
+    "heroSubcopy": null,
+    "heroImage": {
+      "url": "https://dam.amag-group.ch/is/image/amagproduction/amag-vw-id-polo-header-desktop-v3:16_9_Large?wid=1920&hei=1080&qlt=82,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+      "alt": "",
+      "source": "img",
+      "domPath": null,
+      "localPath": null,
+      "rect": null,
+      "intrinsic": { "width": 1920, "height": 1080 },
+      "note": "First slide of the home stage carousel (slots.hero). Three sibling slides: amag-cupra-raval-header-desktop-v3, skoda-epiq-header-desktop, amag-360-loesung-energie-e-mobilitaet."
+    },
+    "heroMedium": null,
+    "primaryCTALabel": "Book your test drive now",
+    "ctaSamples": ["Book your test drive now", "Discover now", "Find out more", "Arrange an appointment", "Book a test drive", "Find vehicles", "Subscribe to newsletter", "About the service", "Show more", "Benefit now", "Request a quote", "Contact garage", "Termin vereinbaren", "Jetzt Reifenwechsel buchen", "Weiter zur Leistung"],
+    "navItems": ["Find a vehicle", "Services", "Find garage", "Jobs", "My garage", "en", "de", "fr", "it"],
+    "footerHeadings": ["Assistance & contact", "Find a car & service", "Company", "Our brands", "AMAG App", "Get connected with AMAG"],
+    "firstParagraph": "Welcome to the biggest car dealership in Switzerland. As official Swiss dealership, we at AMAG offer you all the models of all the Volkswagen brands. At AMAG, you will find online and on site a huge range of new, stock and used vehicles from car brands like Volkswagen, Audi, SEAT, Škoda, CUPRA, VW Commercial Vehicles and Bentley. Of course, our experts also offer all the services related to the car after the purchase – be it a repair in the workshop or a consultation at the garage!",
+    "tone": {
+      "guess": "professional-warm",
+      "evidence": "second-person address throughout ('your dream car', 'We are here for you 24/7'); price-led offer headlines ('from CHF 209.–/month'); reassurance verbs (quality, safety, carefree); sentence-case headings, 0% uppercase; eyebrow labels in caps (WELCOME TO AMAG, SERVICES, OUR AMAG PLEDGE); German pages use formal 'Sie'."
+    }
+  },
+  "voiceTable": {
+    "ctaFrequency": [
+      { "label": "Route", "count": 43, "note": "dealer result list, car-dealers page only" },
+      { "label": "Jobs", "count": 9 },
+      { "label": "Find a vehicle", "count": 7 },
+      { "label": "Services", "count": 6 },
+      { "label": "Find out more", "count": 6 },
+      { "label": "Find garage", "count": 6 },
+      { "label": "Auto finden", "count": 5 },
+      { "label": "Newsletter", "count": 4 }
+    ],
+    "headingFrequency": [
+      { "text": "AMAG NEWS", "pages": 2 },
+      { "text": "News and promotions directly into your inbox", "pages": 2 }
+    ],
+    "headingsUppercasePercent": 0,
+    "distinctHeadings": 73,
+    "totalHeadings": 75,
+    "distinctCtaLabels": 180,
+    "totalCtas": 360
+  },
+  "crossPromo": {
+    "detected": false,
+    "note": "No interior-only block of 3+ nav links + CTA found; the repeated interior blocks (pledge-row, faq-cta-band) are benefit/CTA bands, recorded under systemComponents."
+  },
+  "register": "brand"
+}

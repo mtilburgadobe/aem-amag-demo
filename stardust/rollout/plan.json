@@ -1,0 +1,210 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-10-08T19:03:19.564Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-08T19:03:19.564Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "de-service-auto-services-online-termin-buchen-html",
+    "de-service-reifen-und-raeder-winterreifen-html",
+    "en-html",
+    "en-komponenten-car-dealers-html",
+    "en-services-html"
+  ],
+  "steps": [
+    {
+      "slug": "de-service-auto-services-online-termin-buchen-html",
+      "path": "/de/service/auto-services-online-termin-buchen",
+      "templateId": "de-service-auto-services-online-termin-buchen-html",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "booking-wizard",
+          "edsBlockName": "booking-wizard"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "de-service-reifen-und-raeder-winterreifen-html",
+      "path": "/de/service/reifen-und-raeder/winterreifen",
+      "templateId": "de-service-reifen-und-raeder-winterreifen-html",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero-split",
+          "edsBlockName": "hero-split"
+        },
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb"
+        },
+        {
+          "id": "long-form-article",
+          "edsBlockName": "long-form-article"
+        },
+        {
+          "id": "promo-teaser",
+          "edsBlockName": "promo-teaser"
+        },
+        {
+          "id": "image-text-card",
+          "edsBlockName": "image-text-card"
+        },
+        {
+          "id": "pledge-row",
+          "edsBlockName": "pledge-row"
+        },
+        {
+          "id": "cta-band",
+          "edsBlockName": "cta-band"
+        },
+        {
+          "id": "accordion-faq",
+          "edsBlockName": "accordion-faq"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "en-html",
+      "path": "/en",
+      "templateId": "en-html",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero-carousel",
+          "edsBlockName": "hero-carousel"
+        },
+        {
+          "id": "quick-links",
+          "edsBlockName": "quick-links"
+        },
+        {
+          "id": "vehicle-search",
+          "edsBlockName": "vehicle-search"
+        },
+        {
+          "id": "news-cards",
+          "edsBlockName": "news-cards"
+        },
+        {
+          "id": "icon-feature-grid",
+          "edsBlockName": "icon-feature-grid"
+        },
+        {
+          "id": "newsletter-band",
+          "edsBlockName": "newsletter-band"
+        },
+        {
+          "id": "testimonial",
+          "edsBlockName": "testimonial"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "promo-teaser",
+          "edsBlockName": "promo-teaser",
+          "convertedBy": "de-service-reifen-und-raeder-winterreifen-html"
+        },
+        {
+          "id": "image-text-card",
+          "edsBlockName": "image-text-card",
+          "convertedBy": "de-service-reifen-und-raeder-winterreifen-html"
+        },
+        {
+          "id": "pledge-row",
+          "edsBlockName": "pledge-row",
+          "convertedBy": "de-service-reifen-und-raeder-winterreifen-html"
+        },
+        {
+          "id": "cta-band",
+          "edsBlockName": "cta-band",
+          "convertedBy": "de-service-reifen-und-raeder-winterreifen-html"
+        },
+        {
+          "id": "accordion-faq",
+          "edsBlockName": "accordion-faq",
+          "convertedBy": "de-service-reifen-und-raeder-winterreifen-html"
+        }
+      ]
+    },
+    {
+      "slug": "en-komponenten-car-dealers-html",
+      "path": "/en/komponenten/car-dealers",
+      "templateId": "en-komponenten-car-dealers-html",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "dealer-search",
+          "edsBlockName": "dealer-search"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "en-services-html",
+      "path": "/en/services",
+      "templateId": "en-services-html",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero-split",
+          "edsBlockName": "hero-split",
+          "convertedBy": "de-service-reifen-und-raeder-winterreifen-html"
+        },
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb",
+          "convertedBy": "de-service-reifen-und-raeder-winterreifen-html"
+        },
+        {
+          "id": "news-cards",
+          "edsBlockName": "news-cards",
+          "convertedBy": "en-html"
+        },
+        {
+          "id": "promo-teaser",
+          "edsBlockName": "promo-teaser",
+          "convertedBy": "de-service-reifen-und-raeder-winterreifen-html"
+        },
+        {
+          "id": "image-text-card",
+          "edsBlockName": "image-text-card",
+          "convertedBy": "de-service-reifen-und-raeder-winterreifen-html"
+        },
+        {
+          "id": "icon-feature-grid",
+          "edsBlockName": "icon-feature-grid",
+          "convertedBy": "en-html"
+        },
+        {
+          "id": "pledge-row",
+          "edsBlockName": "pledge-row",
+          "convertedBy": "de-service-reifen-und-raeder-winterreifen-html"
+        },
+        {
+          "id": "newsletter-band",
+          "edsBlockName": "newsletter-band",
+          "convertedBy": "en-html"
+        },
+        {
+          "id": "cta-band",
+          "edsBlockName": "cta-band",
+          "convertedBy": "de-service-reifen-und-raeder-winterreifen-html"
+        }
+      ]
+    }
+  ]
+}

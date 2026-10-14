@@ -1,0 +1,723 @@
+{
+  "url": "https://www.amag.ch/en/komponenten/car-dealers.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 1200,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 165,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 1265,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 1200,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 800,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 500,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 300,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 200,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 150,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 120,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 90,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 60,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 30,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".storelocator__garage",
+      "frames": [
+        {
+          "t": 23565.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 23813.89999999944,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 24035.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 24257,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".amag-garageModal__closeButton",
+      "frames": [
+        {
+          "t": 25367.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 25600.099999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 25804.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 26021.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".storelocator__filterButton",
+      "frames": [
+        {
+          "t": 27073.700000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 27287.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 27492.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 27696.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "top",
+        "el": "html.macos.desktop.landscape > body.amag-overrideBootstrapModal > header > div.container-fluid.amag-header.fixed-top",
+        "y": 400,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html.macos.desktop.landscape > body.amag-overrideBootstrapModal > div.amag-content > div.amag-direct-entry > div.amag-direct-entry__button.show",
+        "y": 400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "html.macos.desktop.landscape > body.amag-overrideBootstrapModal > header > div.container-fluid.amag-header.fixed-top",
+        "y": 165,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html.macos.desktop.landscape > body.amag-overrideBootstrapModal > div.amag-content > div.amag-direct-entry > div.amag-direct-entry__button",
+        "y": 165,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "html.macos.desktop.landscape > body.amag-overrideBootstrapModal > header > div.container-fluid.amag-header.fixed-top",
+        "y": 1265,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html.macos.desktop.landscape > body.amag-overrideBootstrapModal > div.amag-content > div.amag-direct-entry > div.amag-direct-entry__button.show",
+        "y": 1265,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "html.macos.desktop.landscape > body.amag-overrideBootstrapModal > header > div.container-fluid.amag-header.fixed-top",
+        "y": 1200,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html.macos.desktop.landscape > body.amag-overrideBootstrapModal > div.amag-content > div.amag-direct-entry > div.amag-direct-entry__button",
+        "y": 200,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "html.macos.desktop.landscape > body.amag-overrideBootstrapModal > header > div.container-fluid.amag-header.fixed-top",
+        "y": 200,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div > div > div > div > div",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.macos.desktop.landscape > body.amag-overrideBootstrapModal > header > div.container-fluid.amag-header.fixed-top",
+        "y": 30,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "right",
+        "el": "div.amag-content > div.storelocator.storelocator-component > div.storelocator.storelocator-inner > aside.off-canvas__wrapper > div.off-canvas__canvas-box.is-shown",
+        "y": 30,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "z-index",
+        "el": "div.amag-content > div.storelocator.storelocator-component > div.storelocator.storelocator-inner > aside.off-canvas__wrapper > div.off-canvas__canvas-box.is-shown",
+        "y": 30,
+        "dur": "0.5s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "show"
+        ],
+        "el": "html.macos.desktop.landscape > body.amag-overrideBootstrapModal > div.amag-content > div.amag-direct-entry > div.amag-direct-entry__button.show",
+        "y": 400
+      },
+      {
+        "added": [
+          "optanon-category-C0003"
+        ],
+        "el": "html.macos.desktop.landscape > head > script.optanon-category-C0003",
+        "y": 800
+      },
+      {
+        "added": [
+          "show"
+        ],
+        "el": "html.macos.desktop.landscape > body.amag-overrideBootstrapModal > div.amag-content > div.amag-direct-entry > div.amag-direct-entry__button.show",
+        "y": 1265
+      },
+      {
+        "added": [
+          "optanon-category-C0004"
+        ],
+        "el": "html.macos.desktop.landscape > body.amag-overrideBootstrapModal > div > img.optanon-category-C0004",
+        "y": 200
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "section.off-canvas__inner-container.side-padding > div.storelocator__brand-filter-off-canvas.d-none > div.amag-filterModal__container > div.amag-filterModal__header > button.amag-filterModal__resetButton.visible",
+        "y": 30
+      },
+      {
+        "added": [
+          "no-scroll"
+        ],
+        "el": "html.macos.desktop.landscape > body.amag-overrideBootstrapModal.no-scroll",
+        "y": 30
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.amag-content > div.storelocator.storelocator-component > div.storelocator.storelocator-inner > aside.off-canvas__wrapper > div.off-canvas__canvas-box.is-shown",
+        "y": 30
+      }
+    ]
+  }
+}

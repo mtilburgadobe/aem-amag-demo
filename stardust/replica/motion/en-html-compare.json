@@ -1,0 +1,187 @@
+{
+  "live": "stardust/replica/motion/en-html.json",
+  "build": "stardust/replica/motion/en-html-build.json",
+  "toleranceMs": 150,
+  "tolerancePx": 8,
+  "advisory": true,
+  "findings": 11,
+  "counts": {
+    "behaviors": 24,
+    "parity": 9,
+    "missing": 11,
+    "extra": 0,
+    "tolerance": 0,
+    "dead": 4,
+    "advisory": 0
+  },
+  "verdicts": [
+    {
+      "cls": "header",
+      "name": "scroll-morph",
+      "state": "dead",
+      "note": "header static across the scroll traversal on both sides",
+      "line": "motion header scroll-morph: dead on live — not required (header static across the scroll traversal on both sides)"
+    },
+    {
+      "cls": "widget",
+      "name": ".cmp-accordion__item:first-of-type .cmp-accordion__button",
+      "state": "unobserved",
+      "note": "live probe not found",
+      "line": "motion widget .cmp-accordion__item:first-of-type .cmp-accordion__button: unobserved on live — not required (live probe not found)"
+    },
+    {
+      "cls": "widget",
+      "name": ".amagCh-stageCarousel .cmp-carousel__action--next",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .amagCh-stageCarousel .cmp-carousel__action--next: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": ".amag-footer__toggleLink[href=\"#listTwo\"]",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .amag-footer__toggleLink[href=\"#listTwo\"]: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "transition",
+      "name": "background-color",
+      "state": "parity",
+      "note": "6 event(s) on live, 6 on build, 500ms",
+      "line": "motion transition background-color: parity (6 event(s) on live, 6 on build, 500ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "color",
+      "state": "parity",
+      "note": "10 event(s) on live, 6 on build, 1000ms",
+      "line": "motion transition color: parity (10 event(s) on live, 6 on build, 1000ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "fill",
+      "state": "parity",
+      "note": "2 event(s) on live, 3 on build, 1000ms",
+      "line": "motion transition fill: parity (2 event(s) on live, 3 on build, 1000ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "height",
+      "state": "missing",
+      "note": "1 event(s) on live, 350ms",
+      "line": "motion transition height: MISSING on build (1 event(s) on live, 350ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "left",
+      "state": "missing",
+      "note": "7 event(s) on live, 1000ms",
+      "line": "motion transition left: MISSING on build (7 event(s) on live, 1000ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "opacity",
+      "state": "missing",
+      "note": "7 event(s) on live, 1000ms",
+      "line": "motion transition opacity: MISSING on build (7 event(s) on live, 1000ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "right",
+      "state": "missing",
+      "note": "3 event(s) on live, 300ms",
+      "line": "motion transition right: MISSING on build (3 event(s) on live, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "top",
+      "state": "missing",
+      "note": "3 event(s) on live, 350ms",
+      "line": "motion transition top: MISSING on build (3 event(s) on live, 350ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "transform",
+      "state": "missing",
+      "note": "7 event(s) on live, 1000ms",
+      "line": "motion transition transform: MISSING on build (7 event(s) on live, 1000ms)"
+    },
+    {
+      "cls": "class",
+      "name": "amag-header__afterDivWhite--transparent",
+      "state": "parity",
+      "note": "added 1× on live, 1× on build",
+      "line": "motion class amag-header__afterDivWhite--transparent: parity (added 1× on live, 1× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "amag-header__beforeDivWhite--transparent",
+      "state": "parity",
+      "note": "added 1× on live, 1× on build",
+      "line": "motion class amag-header__beforeDivWhite--transparent: parity (added 1× on live, 1× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "amag-header__navbar--transparent",
+      "state": "parity",
+      "note": "added 1× on live, 1× on build",
+      "line": "motion class amag-header__navbar--transparent: parity (added 1× on live, 1× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "cmp-carousel__indicator--active",
+      "state": "parity",
+      "note": "added 3× on live, 1× on build",
+      "line": "motion class cmp-carousel__indicator--active: parity (added 3× on live, 1× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "cmp-carousel__item--active",
+      "state": "parity",
+      "note": "added 3× on live, 1× on build",
+      "line": "motion class cmp-carousel__item--active: parity (added 3× on live, 1× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "collapse",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class collapse: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "collapsing",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class collapsing: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "optanon-category-C0003",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class optanon-category-C0003: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "optanon-category-C0004",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class optanon-category-C0004: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "ot-vscat-C0004",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class ot-vscat-C0004: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "show",
+      "state": "parity",
+      "note": "added 2× on live, 1× on build",
+      "line": "motion class show: parity (added 2× on live, 1× on build)"
+    }
+  ]
+}

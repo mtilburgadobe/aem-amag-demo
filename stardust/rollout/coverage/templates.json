@@ -1,0 +1,125 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-08T19:02:53.530Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-09T00:47:25.931Z",
+  "templates": [
+    {
+      "id": "de-service-auto-services-online-termin-buchen-html",
+      "representativeSlug": "de-service-auto-services-online-termin-buchen-html",
+      "pages": [
+        "de-service-auto-services-online-termin-buchen-html"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "booking-wizard"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "de-service-reifen-und-raeder-winterreifen-html",
+      "representativeSlug": "de-service-reifen-und-raeder-winterreifen-html",
+      "pages": [
+        "de-service-reifen-und-raeder-winterreifen-html"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "accordion-faq",
+        "breadcrumb",
+        "cta-band",
+        "hero-split",
+        "image-text-card",
+        "long-form-article",
+        "pledge-row",
+        "promo-teaser"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "en-html",
+      "representativeSlug": "en-html",
+      "pages": [
+        "en-html"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "accordion-faq",
+        "cta-band",
+        "hero-carousel",
+        "icon-feature-grid",
+        "image-text-card",
+        "news-cards",
+        "newsletter-band",
+        "pledge-row",
+        "promo-teaser",
+        "quick-links",
+        "testimonial",
+        "vehicle-search"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "en-komponenten-car-dealers-html",
+      "representativeSlug": "en-komponenten-car-dealers-html",
+      "pages": [
+        "en-komponenten-car-dealers-html"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "dealer-search"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "en-services-html",
+      "representativeSlug": "en-services-html",
+      "pages": [
+        "en-services-html"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "breadcrumb",
+        "cta-band",
+        "hero-split",
+        "icon-feature-grid",
+        "image-text-card",
+        "news-cards",
+        "newsletter-band",
+        "pledge-row",
+        "promo-teaser"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

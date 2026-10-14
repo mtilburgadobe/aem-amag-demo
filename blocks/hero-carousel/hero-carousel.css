@@ -1,0 +1,331 @@
+/* hero-carousel — values lifted from the prototype page CSS (stage carousel, en-html.css)
+   and canon.css (section shell). The stage starts under the transparent header
+   (body.header-transparent: the foundation keeps only the 60px benefit bar in flow ≥ 1200). */
+.hero-carousel {
+  position: relative;
+  margin: 0;
+}
+
+.hero-carousel.band,
+.hero-carousel.first-section.band {
+  padding-top: 0;
+}
+
+.hero-carousel.section-end {
+  padding-bottom: 0;
+}
+
+.hero-carousel .carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 133.3333%;
+}
+
+.hero-carousel .slides {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.hero-carousel .slide {
+  display: none;
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.hero-carousel .slide.leaving {
+  display: block;
+}
+
+.hero-carousel .slide.active {
+  display: block;
+  opacity: 1;
+  z-index: 1;
+}
+
+.hero-carousel .slide-link {
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+}
+
+.hero-carousel .slide-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-carousel .slide-media,
+.hero-carousel .video-frame {
+  height: 100%;
+  width: 100%;
+}
+
+.hero-carousel .video-frame {
+  background: var(--amag-dark-grey);
+}
+
+.hero-carousel .media-desktop,
+.hero-carousel .media-mobile {
+  height: 100%;
+}
+
+.hero-carousel .media-desktop {
+  display: none;
+}
+
+.hero-carousel .media-single .media-desktop {
+  display: block;
+}
+
+.hero-carousel .slide-media p {
+  margin: 0;
+  height: 100%;
+}
+
+.hero-carousel .slide-media picture {
+  display: block;
+  height: 100%;
+}
+
+.hero-carousel .slide-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom center;
+}
+
+.hero-carousel .backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgb(0 0 0 / 10%);
+}
+
+.hero-carousel .overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 15px;
+}
+
+.hero-carousel .overlay-inner {
+  width: 100%;
+  max-width: var(--content-max);
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-carousel .slide-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.hero-carousel .headline {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: -20px;
+  padding: 20px 0;
+}
+
+.hero-carousel .headline :is(h1, h2, h3) {
+  color: #fff;
+  font-family: var(--font-display-bold);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 36px;
+  margin: 0;
+  padding-bottom: 24px;
+}
+
+.hero-carousel .linktext p {
+  margin: 0;
+  display: inline-block;
+  color: #fff;
+  font-family: var(--font-text-bold);
+  font-size: 20px;
+  line-height: 30px;
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+}
+
+/* indicators */
+.hero-carousel .indicator-container {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  z-index: 2;
+  margin: 0 0 20px;
+  transform: translateX(-50%);
+}
+
+.hero-carousel .indicators {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: max-content;
+  max-width: calc(100vw - 40px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hero-carousel .indicator {
+  position: relative;
+  flex: 0 1 auto;
+  margin: 0;
+}
+
+.hero-carousel .dot {
+  display: block;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border: 0;
+  border-radius: 2px;
+  background: var(--amag-grey-300);
+  cursor: pointer;
+}
+
+.hero-carousel .indicator.active .dot {
+  width: 14px;
+  height: 14px;
+  background: var(--amag-violet);
+}
+
+.hero-carousel .indicator-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.hero-carousel .indicator-label p {
+  margin: 0;
+}
+
+/* arrows (≥ 1200) and the hidden pause / play controls (hidden on live too) */
+.hero-carousel .actions {
+  position: absolute;
+  right: max(0px, calc(50% - 645px));
+  bottom: 40px;
+  z-index: 2;
+  display: none;
+}
+
+.hero-carousel .action {
+  width: 95px;
+  height: 100px;
+  padding: 0;
+  border: none;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.hero-carousel .action svg {
+  width: 32px;
+  height: 32px;
+  fill: #fff;
+}
+
+.hero-carousel .action-pause,
+.hero-carousel .action-play {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .hero-carousel .carousel {
+    padding-top: 56.25%;
+  }
+
+  .hero-carousel .media-desktop {
+    display: block;
+  }
+
+  .hero-carousel .media-mobile {
+    display: none;
+  }
+
+  .hero-carousel .slide-text {
+    width: 50%;
+    padding-bottom: 80px;
+  }
+
+  .hero-carousel .headline :is(h1, h2, h3) {
+    padding-bottom: 19px;
+  }
+
+  .hero-carousel .indicators {
+    flex-wrap: nowrap;
+    gap: 0;
+    width: auto;
+    max-width: none;
+  }
+
+  .hero-carousel .indicator {
+    margin-left: 15px;
+  }
+}
+
+@media (width >= 1200px) {
+  .hero-carousel .carousel {
+    height: 56.25vw;
+    max-height: 800px;
+    padding-top: 0;
+  }
+
+  .hero-carousel .overlay-inner {
+    padding: 0 var(--section-gutter);
+  }
+
+  .hero-carousel .slide-text {
+    padding-bottom: 100px;
+  }
+
+  .hero-carousel .headline :is(h1, h2, h3) {
+    font-size: 54px;
+    line-height: 60px;
+  }
+
+  .hero-carousel .indicator-container {
+    margin: 0 0 40px;
+  }
+
+  .hero-carousel .actions {
+    display: flex;
+  }
+}
+
+@media (width >= 1920px) {
+  .hero-carousel .headline :is(h1, h2, h3) {
+    padding-bottom: 39px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-carousel .slide,
+  .hero-carousel .slide.active {
+    transition: none;
+  }
+}

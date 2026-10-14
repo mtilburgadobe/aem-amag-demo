@@ -1,0 +1,18 @@
+{
+  "runtime": "vanilla-eds",
+  "source": "scripts/aem.js + scripts/scripts.js of this repo (aem-boilerplate 1.3.0 vintage, read 2026-10-08)",
+  "blockWrapperClass": "block",
+  "blockWrapper": "decorateBlock adds .block + data-block-name and wraps the block in div.<name>-wrapper; the section gains .<name>-container",
+  "sectionDom": "<div class=\"section <name>-container\"><div class=\"default-content-wrapper\">…</div><div class=\"<name>-wrapper\"><div class=\"<name> block\">…</div></div></div>",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "buttonizationNote": "decorateButtons() requires an authored <strong>/<em> ancestor (strong = primary, em = secondary, both = accent); a bare <a> alone in a <p> stays a plain link; the emphasis tag is replaced by the classed anchor",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "chromeLoad": "loadHeader(body > header) + loadFooter(body > footer) in loadLazy; header .header / footer .footer are visibility:hidden until data-block-status=loaded; header reserves height: var(--nav-height)",
+  "chromePathResolution": "blocks/header + blocks/footer: page metadata nav/footer when present, else by locale from the first path segment (de → /de/nav + /de/footer, otherwise /nav + /footer) — helper getChromePath() in scripts/scripts.js",
+  "emptySectionCollapse": true,
+  "sectionMetadataRendering": "decorateSections() client-side: section-metadata style → section classes, other keys → data-*",
+  "fontsLoad": "loadFonts() loads styles/fonts.css eagerly on viewports >= 900px or with the fonts-loaded session flag, otherwise in loadLazy",
+  "autoBlocks": ["fragment (a[href*=\"/fragments/\"])", "widget (a[href*=\"/widgets/\"])"],
+  "extras": "trustedTypes default policy, CSP meta in head.html (script-src nonce + strict-dynamic), consent-check.js in loadDelayed"
+}

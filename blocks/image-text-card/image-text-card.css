@@ -1,0 +1,294 @@
+/* image-text-card — values lifted from the prototype page CSS (maxi teaser @377243, gozilla
+   button @375927) and canon.css (section shell). */
+.image-text-card {
+  position: relative;
+  background: #fff;
+}
+
+.image-text-card.grey {
+  background: var(--amag-grey-100);
+}
+
+.image-text-card.lavender {
+  background: #ede7fe;
+}
+
+.image-text-card .wrap {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0 var(--section-gutter);
+}
+
+.image-text-card.band {
+  padding-top: 80px;
+}
+
+.image-text-card.band-white::before,
+.image-text-card.band-grey::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: calc(max(0px, (100% - var(--content-max)) / 2) + var(--section-gutter));
+  background: #fff;
+}
+
+.image-text-card.band-grey::before {
+  background: var(--amag-grey-100);
+}
+
+.image-text-card.section-end {
+  margin-bottom: 0;
+  padding-bottom: 80px;
+}
+
+.image-text-card.first-section.band {
+  padding-top: 0;
+}
+
+.image-text-card.first-section::before {
+  display: none;
+}
+
+/* card */
+.image-text-card .card {
+  width: 100%;
+  margin-bottom: 45px;
+}
+
+.image-text-card .card-body {
+  display: flex;
+  flex-direction: column;
+  background: var(--amag-grey-100);
+}
+
+.image-text-card .card-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-text-card .card-media {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-text-card .card-frame {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-text-card .card-frame p {
+  margin: 0;
+}
+
+.image-text-card .card-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-text-card .card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 80px 0 0 40px;
+}
+
+.image-text-card .eyebrow p {
+  color: var(--amag-violet);
+  font-family: var(--font-text-light);
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.image-text-card .headline {
+  margin-top: 5px;
+}
+
+.image-text-card .headline :is(h1, h2, h3, h4) {
+  font-family: var(--font-display-bold);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0 0 20px;
+}
+
+.image-text-card .body p {
+  font-family: var(--font-text-light);
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0 0 37px;
+}
+
+/* gozilla arrow button */
+.image-text-card .card-cta {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.image-text-card .card-cta p {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin: 0;
+}
+
+.image-text-card .card-cta a:any-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: var(--amag-dark-blue);
+  color: #fff;
+  font-family: var(--font-text-bold);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.image-text-card .card-cta a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.image-text-card .card-cta strong {
+  font-weight: 400;
+}
+
+.image-text-card .arrow {
+  display: flex;
+  order: 0;
+  margin: 0 10px 0 0;
+}
+
+.image-text-card .arrow svg {
+  display: block;
+  width: 31px;
+  height: auto;
+  fill: #fff;
+  stroke: #fff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .image-text-card .card-cta a:any-link {
+    transition: none;
+  }
+}
+
+@media (width < 768px) {
+  .image-text-card.band-white::before,
+  .image-text-card.band-grey::before {
+    display: none;
+  }
+}
+
+@media (width >= 768px) {
+  .image-text-card .card-text {
+    padding: 80px 40px 0;
+  }
+
+  .image-text-card .body p {
+    margin-bottom: 40px;
+  }
+
+  .image-text-card .card-cta a:any-link {
+    width: 290px;
+    align-self: flex-end;
+  }
+
+  .image-text-card .card-cta a:hover {
+    width: 300px;
+    margin-left: -40px;
+  }
+
+  .image-text-card .arrow {
+    order: 0;
+    margin: 0 10px 0 0;
+  }
+}
+
+@media (width >= 1200px) {
+  .image-text-card.band,
+  .image-text-card.first-section.band {
+    padding-top: 120px;
+  }
+
+  .image-text-card.band-white::before,
+  .image-text-card.band-grey::before {
+    height: 120px;
+  }
+
+  .image-text-card.section-end {
+    padding-bottom: 120px;
+  }
+
+  .image-text-card .card-body {
+    flex-direction: row;
+  }
+
+  .image-text-card .card-main {
+    flex-direction: row;
+    flex-grow: 1;
+  }
+
+  .image-text-card .card-media {
+    flex: 0 0 45%;
+  }
+
+  .image-text-card .card-frame,
+  .image-text-card .card-frame p,
+  .image-text-card .card-frame picture {
+    height: 100%;
+  }
+
+  .image-text-card .card-frame img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .image-text-card .card-text {
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    padding: 110px 15px 110px 65px;
+  }
+
+  .image-text-card .body p {
+    margin-bottom: 0;
+  }
+
+  .image-text-card .card-cta {
+    flex: 0 0 300px;
+  }
+
+  .image-text-card .card-cta a:any-link {
+    position: absolute;
+    inset: 0 0 0 auto;
+    flex-direction: column;
+    width: 260px;
+    height: 100%;
+  }
+
+  .image-text-card .card-cta a:hover {
+    width: 300px;
+    margin-left: 0;
+  }
+
+  .image-text-card .arrow {
+    margin: 0 0 10px;
+  }
+}

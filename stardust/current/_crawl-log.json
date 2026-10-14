@@ -1,0 +1,1251 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 5,
+    "concurrency": 3
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.amag.ch/etc.clientlibs/amag-ch/clientlibs/clientlib-favicon/resources/img/AMAG_App_48x48.svg",
+    "file": "assets/favicon.svg"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 5,
+    "pagesWithSameSiteData": 5,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 5,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/151e70dd-e113-417d-94ba-57722b5a5aae/151e70dd-e113-417d-94ba-57722b5a5aae.json",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.2.0/assets/otFlat.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.2.0/assets/otFlat.json",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.2.0/assets/otCookieSettingsButton.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.2.0/assets/otCookieSettingsButton.json",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.2.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.2.0/assets/otCommonStyles.css",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.2.0/assets/v2/otPcTab.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.2.0/assets/v2/otPcTab.json",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdns.eu1.gigya.com",
+        "path": "/sdk.config.get",
+        "query": [
+          "apiKey",
+          "httpStatusCodes",
+          "ver"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://cdns.eu1.gigya.com/sdk.config.get",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.amag.ch",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.amag.ch/libs/granite/csrf/token.json",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "maps.googleapis.com",
+        "path": "/maps/api/mapsjs/gen_204",
+        "query": [
+          "csp_test"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://maps.googleapis.com/maps/api/mapsjs/gen_204",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "accdn.lpsnmedia.net",
+        "path": "/api/account/{n}/configuration/setting/accountproperties",
+        "query": [
+          "__d"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://accdn.lpsnmedia.net/api/account/46695133/configuration/setting/accountproperties",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "accdn.lpsnmedia.net",
+        "path": "/api/account/{n}/configuration/le-campaigns/zones",
+        "query": [
+          "__d",
+          "fields"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://accdn.lpsnmedia.net/api/account/46695133/configuration/le-campaigns/zones",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "bzrcdn.openai.com",
+        "path": "/pixel-config/v1/RhLfQhNaYroSH9bsp3Kbm2.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://bzrcdn.openai.com/pixel-config/v1/RhLfQhNaYroSH9bsp3Kbm2.json",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "alb.reddit.com",
+        "path": "/rp",
+        "query": [
+          "event",
+          "id"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://alb.reddit.com/rp",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ct.pinterest.com",
+        "path": "/user/",
+        "query": [
+          "cb",
+          "dep",
+          "ed",
+          "event",
+          "tid"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://ct.pinterest.com/user/",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "query": [
+          "fmt",
+          "medium"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://px.ads.linkedin.com/wa/",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ct.pinterest.com",
+        "path": "/v3/",
+        "query": [
+          "ad",
+          "cb",
+          "dep",
+          "ed",
+          "event",
+          "pd",
+          "tid"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ct.pinterest.com/v3/",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "sst.amag.ch",
+        "path": "/g/collect",
+        "query": [
+          "_fplc",
+          "_fv",
+          "_geo",
+          "_nsi",
+          "_p",
+          "_rdi",
+          "_s",
+          "_ss",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "ecid",
+          "en",
+          "ep.if_AI_URL_fragment",
+          "ep.if_AI_bot",
+          "ep.if_AI_sc",
+          "ep.ot_activegroups",
+          "ep.page_hostname",
+          "ep.url_without_PII",
+          "ep.virtual_page_path",
+          "evnid",
+          "frm",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "richsstsse",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "sst.gch",
+          "sst.lpc",
+          "sst.navt",
+          "sst.ngs",
+          "sst.rnd",
+          "sst.sw_exp",
+          "sst.tft",
+          "sst.ude",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "ur",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://sst.amag.ch/g/collect",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bzr.openai.com",
+        "path": "/v1/sdk/events",
+        "query": [
+          "ec",
+          "pid",
+          "st",
+          "sv",
+          "t"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://bzr.openai.com/v1/sdk/events",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bam.eu01.nr-data.net",
+        "path": "/{n}/NRJS-f9581b55a288c743721",
+        "query": [
+          "a",
+          "af",
+          "be",
+          "ck",
+          "dc",
+          "fcp",
+          "fe",
+          "fp",
+          "fsh",
+          "perf",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://bam.eu01.nr-data.net/1/NRJS-f9581b55a288c743721",
+        "pages": 4,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bam.eu01.nr-data.net",
+        "path": "/events/{n}/NRJS-f9581b55a288c743721",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://bam.eu01.nr-data.net/events/1/NRJS-f9581b55a288c743721",
+        "pages": 4,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bam.eu01.nr-data.net",
+        "path": "/jserrors/{n}/NRJS-f9581b55a288c743721",
+        "query": [
+          "a",
+          "ck",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "sa",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://bam.eu01.nr-data.net/jserrors/1/NRJS-f9581b55a288c743721",
+        "pages": 4,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/151e70dd-e113-417d-94ba-57722b5a5aae/018e750d-67c6-7f0f-9796-d80b80a2250e/en.json",
+        "pages": 3,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.amag.ch",
+        "path": "/libs/cq/i18n/dict.en.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.amag.ch/libs/cq/i18n/dict.en.json",
+        "pages": 3,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "identity.amag.ch",
+        "path": "/accounts.webSdkBootstrap",
+        "query": [
+          "apiKey",
+          "format",
+          "pageURL",
+          "sdk",
+          "sdkBuild"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": true,
+        "example": "https://identity.amag.ch/accounts.webSdkBootstrap",
+        "pages": 3,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "privacyportal-de.onetrust.com",
+        "path": "/request/v1/consentreceipts",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://privacyportal-de.onetrust.com/request/v1/consentreceipts",
+        "pages": 3,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.googleadservices.com",
+        "path": "/pagead/conversion/{n}/",
+        "query": [
+          "_is_sw",
+          "_tu",
+          "auid",
+          "bg",
+          "bttype",
+          "cv",
+          "data",
+          "dma",
+          "evnid",
+          "fmt",
+          "fst",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "guid",
+          "label",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "s3p",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "uip",
+          "url",
+          "value"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.googleadservices.com/pagead/conversion/875904358/",
+        "pages": 3,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "googleads.g.doubleclick.net",
+        "path": "/pagead/viewthroughconversion/{n}/",
+        "query": [
+          "_is_sw",
+          "_tu",
+          "auid",
+          "bg",
+          "cerd",
+          "crd",
+          "ct_cookie_present",
+          "cv",
+          "data",
+          "dma",
+          "eitems",
+          "evnid",
+          "fmt",
+          "fsk",
+          "fst",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "guid",
+          "label",
+          "npa",
+          "pscdl",
+          "pscrd",
+          "random",
+          "rcb",
+          "s3p",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "uip",
+          "url",
+          "value"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/875904358/",
+        "pages": 3,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/pagead/1p-conversion/{n}/",
+        "query": [
+          "_is_sw",
+          "_tu",
+          "auid",
+          "bg",
+          "cerd",
+          "cid",
+          "crd",
+          "ct_cookie_present",
+          "cv",
+          "data",
+          "dma",
+          "eitems",
+          "evnid",
+          "fmt",
+          "fsk",
+          "fst",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "guid",
+          "is_vtc",
+          "label",
+          "npa",
+          "pscdl",
+          "pscrd",
+          "random",
+          "rcb",
+          "s3p",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "uip",
+          "url",
+          "value"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/pagead/1p-conversion/875904358/",
+        "pages": 3,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bam.eu01.nr-data.net",
+        "path": "/browser/logs",
+        "query": [
+          "browser_monitoring_key"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://bam.eu01.nr-data.net/browser/logs",
+        "pages": 3,
+        "examples": [
+          "en-services-html",
+          "en-komponenten-car-dealers-html",
+          "de-service-auto-services-online-termin-buchen-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bat.bing.com",
+        "path": "/p/insights/c/g",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://bat.bing.com/p/insights/c/g",
+        "pages": 2,
+        "examples": [
+          "en-html",
+          "de-service-auto-services-online-termin-buchen-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "sdk.frontnow.app",
+        "path": "/api/pk-j8iugj8778ue79ox7rrc5s5q",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://sdk.frontnow.app/api/pk-j8iugj8778ue79ox7rrc5s5q",
+        "pages": 2,
+        "examples": [
+          "en-services-html",
+          "de-service-reifen-und-raeder-winterreifen-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "amag4.frontnow.app",
+        "path": "/api/event",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://amag4.frontnow.app/api/event",
+        "pages": 2,
+        "examples": [
+          "en-services-html",
+          "de-service-reifen-und-raeder-winterreifen-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bat.bing.com",
+        "path": "/p/insights/c/n",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://bat.bing.com/p/insights/c/n",
+        "pages": 2,
+        "examples": [
+          "en-services-html",
+          "de-service-reifen-und-raeder-winterreifen-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.amag.ch",
+        "path": "/bin/amagch/storelocator.synonyms.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.amag.ch/bin/amagch/storelocator.synonyms.json",
+        "pages": 2,
+        "examples": [
+          "en-komponenten-car-dealers-html",
+          "de-service-auto-services-online-termin-buchen-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/de.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/151e70dd-e113-417d-94ba-57722b5a5aae/018e750d-67c6-7f0f-9796-d80b80a2250e/de.json",
+        "pages": 2,
+        "examples": [
+          "de-service-reifen-und-raeder-winterreifen-html",
+          "de-service-auto-services-online-termin-buchen-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.amag.ch",
+        "path": "/bin/amagch/storelocator.stores.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.amag.ch/bin/amagch/storelocator.stores.json",
+        "pages": 1,
+        "examples": [
+          "en-services-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "maps.googleapis.com",
+        "path": "/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json+protobuf",
+        "sameSite": false,
+        "example": "https://maps.googleapis.com/$rpc/google.internal.maps.mapsjs.v1.MapsJsInternalService/GetViewportInfo",
+        "pages": 1,
+        "examples": [
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ct.pinterest.com",
+        "path": "/stats/",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://ct.pinterest.com/stats/",
+        "pages": 1,
+        "examples": [
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bat.bing.com",
+        "path": "/p/insights/c/b",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://bat.bing.com/p/insights/c/b",
+        "pages": 1,
+        "examples": [
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.amag.ch",
+        "path": "/libs/cq/i18n/dict.de.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.amag.ch/libs/cq/i18n/dict.de.json",
+        "pages": 1,
+        "examples": [
+          "de-service-auto-services-online-termin-buchen-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.amag.ch",
+        "path": "/de/service/auto-services-online-termin-buchen.otvgarages.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.amag.ch/de/service/auto-services-online-termin-buchen.otvgarages.html",
+        "pages": 1,
+        "examples": [
+          "de-service-auto-services-online-termin-buchen-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.amag.ch",
+        "path": "/de/service/auto-services-online-termin-buchen.amagch-get-public-holidays.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.amag.ch/de/service/auto-services-online-termin-buchen.amagch-get-public-holidays.html",
+        "pages": 1,
+        "examples": [
+          "de-service-auto-services-online-termin-buchen-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "identity.amag.ch",
+        "path": "/accounts.getScreenSets",
+        "query": [
+          "APIKey",
+          "format",
+          "httpStatusCodes",
+          "include",
+          "lang",
+          "pageURL",
+          "screenSetIDs",
+          "sdk",
+          "sdkBuild",
+          "source"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": true,
+        "example": "https://identity.amag.ch/accounts.getScreenSets",
+        "pages": 1,
+        "examples": [
+          "de-service-auto-services-online-termin-buchen-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "identity.amag.ch",
+        "path": "/sdk.errorReport",
+        "query": [
+          "apiKey",
+          "browser",
+          "buildNumber",
+          "buildVersion",
+          "details",
+          "format",
+          "message",
+          "page",
+          "sdk",
+          "stack"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/javascript",
+        "sameSite": true,
+        "example": "https://identity.amag.ch/sdk.errorReport",
+        "pages": 1,
+        "examples": [
+          "de-service-auto-services-online-termin-buchen-html"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "maps.googleapis.com",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "host": "lpcdn.lpsnmedia.net",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "host": "bat.bing.com",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "host": "analytics.tiktok.com",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "host": "lptag.liveperson.net",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "host": "s.pinimg.com",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "host": "snap.licdn.com",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "host": "lo.v.liveperson.net",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "host": "rum.hlx.page",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "host": "www.google.com",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "host": "cdns.eu1.gigya.com",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "host": "www.gstatic.com",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "host": "munchkin.marketo.net",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "host": "static.hotjar.com",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "host": "bzrcdn.openai.com",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "host": "www.redditstatic.com",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "host": "sdk.frontnow.app",
+        "pages": 2,
+        "examples": [
+          "en-services-html",
+          "de-service-reifen-und-raeder-winterreifen-html"
+        ]
+      }
+    ],
+    "frameworkHints": [
+      {
+        "hint": "marketo-forms",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      },
+      {
+        "hint": "aem-sites",
+        "pages": 1,
+        "examples": [
+          "de-service-auto-services-online-termin-buchen-html"
+        ]
+      }
+    ],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 5,
+        "examples": [
+          "en-html",
+          "en-services-html",
+          "en-komponenten-car-dealers-html"
+        ]
+      }
+    ],
+    "formTargets": []
+  },
+  "visionCheck": [
+    {
+      "slug": "en-html",
+      "verdict": "ok",
+      "notes": "hero carousel headline matches headings[0]; logo visible; no overlay"
+    },
+    {
+      "slug": "en-services-html",
+      "verdict": "ok",
+      "notes": "split text/image hero matches; logo visible; no overlay"
+    },
+    {
+      "slug": "en-komponenten-car-dealers-html",
+      "verdict": "ok",
+      "notes": "full-viewport dealer map with search panel; sole heading matches; no overlay"
+    },
+    {
+      "slug": "de-service-auto-services-online-termin-buchen-html",
+      "verdict": "ok",
+      "notes": "text-only booking wizard; headings match; cssBackgrounds 0 believable; no overlay"
+    },
+    {
+      "slug": "de-service-reifen-und-raeder-winterreifen-html",
+      "verdict": "ok",
+      "notes": "split hero matches; long text + cards + FAQ accordion; logo visible; no overlay"
+    }
+  ],
+  "siblingCandidates": []
+}

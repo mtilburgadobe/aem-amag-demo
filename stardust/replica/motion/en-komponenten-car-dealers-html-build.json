@@ -1,0 +1,415 @@
+{
+  "url": "http://localhost:8791/en-komponenten-car-dealers-html-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 1200,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 165,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 1265,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 1200,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 800,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 500,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 300,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 200,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 150,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 120,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 90,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 60,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 30,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "160px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".storelocator__garage",
+      "frames": [
+        {
+          "t": 15390,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 15594.600000000559,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 15799.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 16003.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".amag-garageModal__closeButton",
+      "frames": [
+        {
+          "t": 17013.10000000056,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 17217.60000000056,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 17422.10000000056,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 17626.60000000056,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".storelocator__filterButton",
+      "frames": [
+        {
+          "t": 18640.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 18845.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 19051.10000000056,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 19255.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "top",
+        "el": "html > body > header > div.container-fluid.amag-header.fixed-top",
+        "y": 400,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > div.amag-content > div.amag-direct-entry > div.amag-direct-entry__button.show",
+        "y": 400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "html > body > header > div.container-fluid.amag-header.fixed-top",
+        "y": 165,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > div.amag-content > div.amag-direct-entry > div.amag-direct-entry__button",
+        "y": 165,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "html > body > header > div.container-fluid.amag-header.fixed-top",
+        "y": 1265,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > div.amag-content > div.amag-direct-entry > div.amag-direct-entry__button.show",
+        "y": 1265,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "html > body > header > div.container-fluid.amag-header.fixed-top",
+        "y": 1200,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body > div.amag-content > div.amag-direct-entry > div.amag-direct-entry__button",
+        "y": 200,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "html > body > header > div.container-fluid.amag-header.fixed-top",
+        "y": 200,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "top",
+        "el": "html > body > header > div.container-fluid.amag-header.fixed-top",
+        "y": 30,
+        "dur": "0.35s"
+      },
+      {
+        "prop": "right",
+        "el": "div.amag-content > div.storelocator.storelocator-component > div.storelocator.storelocator-inner > aside.off-canvas__wrapper > div.off-canvas__canvas-box.is-shown",
+        "y": 30,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "z-index",
+        "el": "div.amag-content > div.storelocator.storelocator-component > div.storelocator.storelocator-inner > aside.off-canvas__wrapper > div.off-canvas__canvas-box.is-shown",
+        "y": 30,
+        "dur": "0.5s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "show"
+        ],
+        "el": "html > body > div.amag-content > div.amag-direct-entry > div.amag-direct-entry__button.show",
+        "y": 400
+      },
+      {
+        "added": [
+          "show"
+        ],
+        "el": "html > body > div.amag-content > div.amag-direct-entry > div.amag-direct-entry__button.show",
+        "y": 1265
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.amag-content > div.storelocator.storelocator-component > div.storelocator.storelocator-inner > aside.off-canvas__wrapper > div.off-canvas__canvas-box.is-shown",
+        "y": 30
+      },
+      {
+        "added": [
+          "no-scroll"
+        ],
+        "el": "html > body.no-scroll",
+        "y": 30
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "section.off-canvas__inner-container.side-padding > div.storelocator__brand-filter-off-canvas.d-none > div.amag-filterModal__container > div.amag-filterModal__header > button.amag-filterModal__resetButton.visible",
+        "y": 30
+      }
+    ]
+  }
+}

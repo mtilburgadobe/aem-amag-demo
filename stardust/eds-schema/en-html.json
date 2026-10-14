@@ -1,0 +1,1855 @@
+{
+ "source": "http://localhost:8791/en-html-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Our vehicles"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Find and buy your car now directly online."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "All brands"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "VW"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Audi"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "SEAT"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "CUPRA"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Škoda"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "VW Commercial Vehicles"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "All brands"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Brand"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "All models"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "All models"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Model"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "All"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Station wagon"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "SUV"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "VAN"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Sedan"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Coupé"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Sports Car"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Convertible"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Bus"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Camper"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Pickup"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Chassis Cabin"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Tipper"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Other"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "All"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Construction type"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "All prices"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Until CHF 1'000"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Until CHF 2'000"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Until CHF 3'000"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Until CHF 4'000"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Until CHF 5'000"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Until CHF 7'500"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Until CHF 10'000"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Until CHF 12'500"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Until CHF 15'000"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Until CHF 17'500"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Until CHF 20'000"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Until CHF 22'500"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Until CHF 25'000"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Until CHF 30'000"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Until CHF 35'000"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Until CHF 40'000"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Until CHF 45'000"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Until CHF 50'000"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Until CHF 60'000"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Until CHF 70'000"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Until CHF 80'000"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Until CHF 90'000"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Until CHF 100'000"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Until CHF 150'000"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Until CHF 200'000"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Until CHF 300'000"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "All prices"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "Price until"
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "Find vehicles",
+     "href": "https://auto.amag.ch/de"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "All brands"
+    },
+    {
+     "role": "cta",
+     "order": 61,
+     "text": "All brands",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 62,
+     "text": "VW",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "Audi",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 64,
+     "text": "SEAT",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 65,
+     "text": "CUPRA",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 66,
+     "text": "SKODA",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 67,
+     "text": "apps.amag-ch.dspSearch.vwnf",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "All models"
+    },
+    {
+     "role": "cta",
+     "order": 69,
+     "text": "All models",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 70,
+     "text": "Arteon",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 71,
+     "text": "e-Golf",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 72,
+     "text": "e-up!",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 73,
+     "text": "Golf",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 74,
+     "text": "ID.3",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 75,
+     "text": "ID.4",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 76,
+     "text": "ID.5",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 77,
+     "text": "ID.7",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 78,
+     "text": "Passat",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 79,
+     "text": "Polo",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 80,
+     "text": "Tiguan",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 81,
+     "text": "Touareg",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 82,
+     "text": "Touran",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 83,
+     "text": "T-Cross",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 84,
+     "text": "T-Roc",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 85,
+     "text": "Taigo",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 86,
+     "text": "Tayron",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 87,
+     "text": "Arteon",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 88,
+     "text": "ID. Cross",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 89,
+     "text": "ID. Polo",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 90,
+     "text": "Sharan",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 91,
+     "text": "A1",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 92,
+     "text": "A2",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 93,
+     "text": "A3",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 94,
+     "text": "A4",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 95,
+     "text": "A5",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 96,
+     "text": "A6",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 97,
+     "text": "A7",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 98,
+     "text": "A8",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 99,
+     "text": "e-tron",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 100,
+     "text": "e-tron GT",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 101,
+     "text": "RS e-tron GT",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 102,
+     "text": "Q2",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 103,
+     "text": "Q3",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 104,
+     "text": "Q4",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 105,
+     "text": "Q5",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 106,
+     "text": "Q6",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 107,
+     "text": "Q7",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 108,
+     "text": "Q8",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 109,
+     "text": "R8",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 110,
+     "text": "RS 3",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 111,
+     "text": "RS 4",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 112,
+     "text": "RS 5",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 113,
+     "text": "RS 6",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 114,
+     "text": "RS 7",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 115,
+     "text": "RS Q3",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 116,
+     "text": "RS Q8",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 117,
+     "text": "S1",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 118,
+     "text": "S3",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 119,
+     "text": "S4",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 120,
+     "text": "S5",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 121,
+     "text": "S6",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 122,
+     "text": "S7",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 123,
+     "text": "S8",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 124,
+     "text": "SQ2",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 125,
+     "text": "SQ5",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 126,
+     "text": "SQ6",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 127,
+     "text": "SQ7",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 128,
+     "text": "SQ8",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 129,
+     "text": "TT",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 130,
+     "text": "Alhambra",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 131,
+     "text": "Arona",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 132,
+     "text": "Ateca",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 133,
+     "text": "Ibiza",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 134,
+     "text": "Leon",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 135,
+     "text": "Mii electric",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 136,
+     "text": "Tarraco",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 137,
+     "text": "Altea",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 138,
+     "text": "Born",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 139,
+     "text": "Formentor",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 140,
+     "text": "Ateca",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 141,
+     "text": "Born",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 142,
+     "text": "Formentor",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 143,
+     "text": "Leon",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 144,
+     "text": "Tavascan",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 145,
+     "text": "Terramar",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 146,
+     "text": "Raval",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 147,
+     "text": "Enyaq",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 148,
+     "text": "Elroq",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 149,
+     "text": "Fabia",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 150,
+     "text": "Kamiq",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 151,
+     "text": "Karoq",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 152,
+     "text": "Kodiaq",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 153,
+     "text": "Octavia",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 154,
+     "text": "Scala",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 155,
+     "text": "Superb",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 156,
+     "text": "Epiq",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 157,
+     "text": "Peaq",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 158,
+     "text": "Amarok",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 159,
+     "text": "Caddy Life",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 160,
+     "text": "Caddy Cargo",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 161,
+     "text": "California Beach",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 162,
+     "text": "Grand California",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 163,
+     "text": "Crafter",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 164,
+     "text": "ID. Buzz",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 165,
+     "text": "ID. Buzz Cargo",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 166,
+     "text": "Multivan",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 167,
+     "text": "Transporter",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 168,
+     "text": "Caddy",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "body",
+     "order": 169,
+     "text": "All"
+    },
+    {
+     "role": "cta",
+     "order": 170,
+     "text": "All",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 171,
+     "text": "Station wagon",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 172,
+     "text": "SUV",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 173,
+     "text": "VAN",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 174,
+     "text": "Sedan",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 175,
+     "text": "Coupé",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 176,
+     "text": "Sports Car",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 177,
+     "text": "Convertible",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 178,
+     "text": "Bus",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 179,
+     "text": "Camper",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 180,
+     "text": "Pickup",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 181,
+     "text": "Chassis Cabin",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 182,
+     "text": "Tipper",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 183,
+     "text": "Other",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "body",
+     "order": 184,
+     "text": "All prices"
+    },
+    {
+     "role": "cta",
+     "order": 185,
+     "text": "All prices",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 186,
+     "text": "Until CHF 1'000",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 187,
+     "text": "Until CHF 2'000",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 188,
+     "text": "Until CHF 3'000",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 189,
+     "text": "Until CHF 4'000",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 190,
+     "text": "Until CHF 5'000",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 191,
+     "text": "Until CHF 7'500",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 192,
+     "text": "Until CHF 10'000",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 193,
+     "text": "Until CHF 12'500",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 194,
+     "text": "Until CHF 15'000",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 195,
+     "text": "Until CHF 17'500",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 196,
+     "text": "Until CHF 20'000",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 197,
+     "text": "Until CHF 22'500",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 198,
+     "text": "Until CHF 25'000",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 199,
+     "text": "Until CHF 30'000",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 200,
+     "text": "Until CHF 35'000",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 201,
+     "text": "Until CHF 40'000",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 202,
+     "text": "Until CHF 45'000",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 203,
+     "text": "Until CHF 50'000",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 204,
+     "text": "Until CHF 60'000",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 205,
+     "text": "Until CHF 70'000",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 206,
+     "text": "Until CHF 80'000",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 207,
+     "text": "Until CHF 90'000",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 208,
+     "text": "Until CHF 100'000",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 209,
+     "text": "Until CHF 150'000",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 210,
+     "text": "Until CHF 200'000",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 211,
+     "text": "Until CHF 300'000",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 212,
+     "text": "Find vehicles",
+     "href": "https://auto.amag.ch/de"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.amag-dspSearch__filter",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 57
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.amag-dspSearch__searchButton",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.col-sm-12",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 9
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.col-12",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 16
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.amag-dspSearch__filterDropdown",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 7,
+      "imgs": 0,
+      "textRuns": 8
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "section",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "AMAG"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "AMAG NEWS"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Show more"
+    }
+   ],
+   "imgCount": 14,
+   "editableTexts": 29,
+   "repeats": [
+    {
+     "unitSelector": "DIV.amag-promotionTeaser",
+     "count": 9,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 4
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "section",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "WELCOME TO AMAG"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "From purchase via service to sale of your car – at AMAG you will find what you’re looking for"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Your dream car from AMAG"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "1"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "/"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "4"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Buy or lease a car"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Find what you’re looking for here. Discover all the offers from your AMAG!"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Find out more",
+     "href": "/en/find-vehicle.html"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "AMAG car subscription"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Get your dream car for a flat price per month - everything except fuel included."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Find out more",
+     "href": "/en/find-vehicle/cars-amag/abo.html"
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "Test drive now"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Experience your dream car live during a test drive."
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Book a test drive",
+     "href": "/en/testdrive.html"
+    },
+    {
+     "role": "heading",
+     "order": 15,
+     "text": "Mobility partners"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "We offer a comprehensive energy and mobility solution – from charging and photovoltaics to two- and four-wheeled mobility."
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Find out more",
+     "href": "/en/find-vehicle/partner.html"
+    },
+    {
+     "role": "heading",
+     "order": 18,
+     "text": "Our services for you"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "1"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "/"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "4"
+    },
+    {
+     "role": "heading",
+     "order": 22,
+     "text": "Your online appointment"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Without detours directly online on the desired date at an AMAG garage of your choice."
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Arrange an appointment",
+     "href": "/en/services/otv.html"
+    },
+    {
+     "role": "heading",
+     "order": 25,
+     "text": "Top garage services"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Quality and speed: our service and workshop staff are here for you."
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Find out more",
+     "href": "/en/services/top-services.html"
+    },
+    {
+     "role": "heading",
+     "order": 28,
+     "text": "Help in case of damage"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Whether breakdown or hail damage. We are here for you 24/7."
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "Find out more",
+     "href": "/en/services/help-in-case-of-damage.html"
+    },
+    {
+     "role": "heading",
+     "order": 31,
+     "text": "AMAG App"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Your garage in an app: Get a direct line to all AMAG services on your smartphone."
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "Find out more",
+     "href": "/en/services/top-services/app.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 20,
+   "repeats": [
+    {
+     "unitSelector": "DIV.amagCh-carousel",
+     "count": 2,
+     "unit": {
+      "headings": 5,
+      "ctas": 4,
+      "imgs": 0,
+      "textRuns": 16
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "section",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "SERVICES"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Our most requested services"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "The best service brings highest safety and comfort. How can we be of further assistance?"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "/"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "1"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "3"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Tyres and wheels"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Summer tyre change"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Winter tyre change"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Complete wheels"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "All-season tyres"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "About the service",
+     "href": "/en/services/tyre-service.html"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Air conditioning service"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Cleaning"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Fluid check"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Functional check"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "About the service",
+     "href": "/en/services/top-services/air-conditioning-service.html"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Car service / maintenance"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Mobility guarantee"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Original spare parts"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Maintenance of the warranty"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "About the service",
+     "href": "/en/services/top-services/car-service.html"
+    }
+   ],
+   "imgCount": 5,
+   "editableTexts": 17,
+   "repeats": [
+    {
+     "unitSelector": "DIV.amag-serviceBoxWrapper",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 6
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "section",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "I was able to easily and conveniently book my appointment online. Thank you for the amazing service!"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Regula S."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Customer of AMAG"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Our AMAG pledge"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Full transparency"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Largest selection of vehicles"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Free test drive"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Buy a vehicle online with just a few clicks"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Fair trade-in price"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": ".st0{fill:#172983;}"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Greater safety"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "15 day right of exchange for used vehicles"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Quality check"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Minimum 12-month warranty"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Totalmobil vehicle insurance"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": ".st0{clip-path:url(#SVGID_2_);} .st1{fill:#172983;}"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Best service"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Breakdown assistance 24h"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Highest service quality"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Attractive financing options"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Individual insurance packages"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 16,
+   "repeats": [
+    {
+     "unitSelector": "DIV.col-lg-4",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 5
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "AMAG – your car dealership at 90 locations and online"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Welcome to the biggest car dealership in Switzerland. As official Swiss dealership, we at AMAG offer you all the models of all the Volkswagen brands. At AMAG, you will find online and on site a huge range of new, stock and used vehicles from car brands like Volkswagen, Audi, SEAT, Škoda, CUPRA, VW Commercial Vehicles and Bentley. Of course, our experts also offer all the services related to the car after the purchase – be it a repair in the workshop or a consultation at the garage!"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Buy vehicles directly online"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "On our online marketplace, find your dream car from our house brands Volkswagen, Audi, SEAT, Škoda, CUPRA and VW Commercial Vehicles."
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "To sell your car to AMAG"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Would you like to sell your used car? Then you’re right to turn to AMAG. We make you an offer, and you can rely on us. We sell your car with the usual AMAG reliability."
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "All-round service for your car"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Also with regard to service, you’re in good hands with us at the garages and online. Whether accident damage or car service: just arrange an appointment online or contact your AMAG garage directly. We can quickly and easily provide you with further assistance."
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Find the AMAG garage of your choice"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Wherever you are, an AMAG garage is never far away. With our 90 locations throughout Switzerland, we are not only the biggest car dealership in Switzerland but also the largest service network. Simply contact the garage of your choice – we will gladly advise you."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 10,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cmp-accordion__item",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

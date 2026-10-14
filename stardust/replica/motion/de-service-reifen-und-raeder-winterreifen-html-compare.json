@@ -1,0 +1,187 @@
+{
+  "live": "stardust/replica/motion/de-service-reifen-und-raeder-winterreifen-html.json",
+  "build": "stardust/replica/motion/de-service-reifen-und-raeder-winterreifen-html-build.json",
+  "toleranceMs": 150,
+  "tolerancePx": 8,
+  "advisory": true,
+  "findings": 6,
+  "counts": {
+    "behaviors": 24,
+    "parity": 11,
+    "missing": 6,
+    "extra": 0,
+    "tolerance": 0,
+    "dead": 7,
+    "advisory": 0
+  },
+  "verdicts": [
+    {
+      "cls": "header",
+      "name": "scroll-morph",
+      "state": "dead",
+      "note": "header static across the scroll traversal on both sides",
+      "line": "motion header scroll-morph: dead on live — not required (header static across the scroll traversal on both sides)"
+    },
+    {
+      "cls": "widget",
+      "name": ".amag-languageWrapper__language",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .amag-languageWrapper__language: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": ".cmp-accordion__button",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .cmp-accordion__button: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": ".amag-direct-entry__button",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .amag-direct-entry__button: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": ".amag-header__hamburger",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .amag-header__hamburger: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "hover",
+      "name": ".amag-maxiTeaserBild__btnWrapper",
+      "state": "missing",
+      "note": "no hover diff on build; live changes a.color, span.color; 200ms",
+      "line": "motion hover .amag-maxiTeaserBild__btnWrapper: MISSING on build (no hover diff on build; live changes a.color, span.color; 200ms)"
+    },
+    {
+      "cls": "hover",
+      "name": ".amag-image-text-v2__link",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .amag-image-text-v2__link: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".amag-otvCtaWrapper__button .amag-ctaWrapper__button",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .amag-otvCtaWrapper__button .amag-ctaWrapper__button: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "entrance",
+      "name": "slideDown",
+      "state": "parity",
+      "note": "fired on 1 element(s)",
+      "line": "motion entrance slideDown: parity (fired on 1 element(s))"
+    },
+    {
+      "cls": "transition",
+      "name": "color",
+      "state": "missing",
+      "note": "2 event(s) on live, 200ms",
+      "line": "motion transition color: MISSING on build (2 event(s) on live, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "margin-left",
+      "state": "missing",
+      "note": "2 event(s) on live, 200ms",
+      "line": "motion transition margin-left: MISSING on build (2 event(s) on live, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "opacity",
+      "state": "parity",
+      "note": "5 event(s) on live, 4 on build, 300ms",
+      "line": "motion transition opacity: parity (5 event(s) on live, 4 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "top",
+      "state": "parity",
+      "note": "4 event(s) on live, 4 on build, 350ms",
+      "line": "motion transition top: parity (4 event(s) on live, 4 on build, 350ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "transform",
+      "state": "parity",
+      "note": "2 event(s) on live, 1 on build, 500ms",
+      "line": "motion transition transform: parity (2 event(s) on live, 1 on build, 500ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "width",
+      "state": "missing",
+      "note": "2 event(s) on live, 200ms",
+      "line": "motion transition width: MISSING on build (2 event(s) on live, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "z-index",
+      "state": "missing",
+      "note": "1 event(s) on live, 300ms",
+      "line": "motion transition z-index: MISSING on build (1 event(s) on live, 300ms)"
+    },
+    {
+      "cls": "class",
+      "name": "cmp-accordion__button--expanded",
+      "state": "parity",
+      "note": "added 1× on live, 1× on build",
+      "line": "motion class cmp-accordion__button--expanded: parity (added 1× on live, 1× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "cmp-accordion__panel--expanded",
+      "state": "parity",
+      "note": "added 1× on live, 2× on build",
+      "line": "motion class cmp-accordion__panel--expanded: parity (added 1× on live, 2× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "d-none",
+      "state": "parity",
+      "note": "added 1× on live, 1× on build",
+      "line": "motion class d-none: parity (added 1× on live, 1× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "header--overlay-open",
+      "state": "parity",
+      "note": "added 1× on live, 1× on build",
+      "line": "motion class header--overlay-open: parity (added 1× on live, 1× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "no-scroll",
+      "state": "parity",
+      "note": "added 1× on live, 1× on build",
+      "line": "motion class no-scroll: parity (added 1× on live, 1× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "optanon-category-C0003",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class optanon-category-C0003: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "overflow-hidden",
+      "state": "parity",
+      "note": "added 1× on live, 1× on build",
+      "line": "motion class overflow-hidden: parity (added 1× on live, 1× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "show",
+      "state": "parity",
+      "note": "added 3× on live, 3× on build",
+      "line": "motion class show: parity (added 3× on live, 3× on build)"
+    }
+  ]
+}

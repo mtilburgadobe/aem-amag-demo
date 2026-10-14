@@ -1,0 +1,3940 @@
+{
+ "source": "http://localhost:8791/de-service-reifen-und-raeder-winterreifen-html-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "section",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Startseite",
+     "href": "/de.html"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Services im Überblick",
+     "href": "/de/service.html"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Räder- & Reifenservice",
+     "href": "/de/service/reifen-und-raeder.html"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Winterreifen montieren & einlagern"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Auf Winterreifen wechseln – sicher unterwegs bei Eis und Schnee"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "IHRE GEMERKTE GARAGE"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "--"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Ändern"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "ø 45 Minuten Servicedauer"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "ø 45 Minuten Servicedauer"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Wählen Sie Ihre AMAG Garage"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "AMAG Carrosserie Center Lengwil Steinstrasse 5, 8574 Lengwil",
+     "href": "/de/service/otv.html#3962"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "AMAG Aarau Rohrerstrasse 29, 5000 Aarau",
+     "href": "/de/service/otv.html#3537"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "AMAG Aigle Chemin des Orlons 1, 1860 Aigle",
+     "href": "/de/service/otv.html#606"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "AMAG Altstetten Vulkanstrasse 120, 8048 Zürich",
+     "href": "/de/service/otv.html#673"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "AMAG Audi Center Luzern Grabenhofstrasse 10, 6010 Kriens",
+     "href": "/de/service/otv.html#400"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "AMAG Auto-Abo Giessenstrasse, 8600 Dübendorf",
+     "href": "/de/service/otv.html#9200"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "AMAG Autowelt Zürich Giessenstrasse 4, 8600 Dübendorf",
+     "href": "/de/service/otv.html#698"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "AMAG Baden Winkelstrasse 2, 5442 Fislisbach",
+     "href": "/de/service/otv.html#540"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "AMAG Basel Reinacherstrasse 149/151, 4053 Basel",
+     "href": "/de/service/otv.html#121"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "AMAG Bellinzona Via San Gottardo 71, 6500 Bellinzona",
+     "href": "/de/service/otv.html#90"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "AMAG Bendern Ober Au 4, 9487 Gamprin-Bendern",
+     "href": "/de/service/otv.html#161"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "AMAG Bern Wankdorffeldstrasse 60, 3014 Bern",
+     "href": "/de/service/otv.html#100"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "AMAG Beromünster Aargauerstrasse 13, 6215 Beromünster",
+     "href": "/de/service/otv.html#399"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "AMAG Biel / Bienne Römerstrasse 16, 2555 Brügg",
+     "href": "/de/service/otv.html#140"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "AMAG Biel / Bienne Längfeldweg Längfeldweg 118, 2504 Biel/Bienne",
+     "href": "/de/service/otv.html#6140"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "AMAG Breganzona Centro Audi Via San Carlo 6, 6932 Breganzona",
+     "href": "/de/service/otv.html#364"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "AMAG Buchrain Elsihof 1, 6035 Perlen",
+     "href": "/de/service/otv.html#380"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "AMAG Buchrain VW Nutzfahrzeuge Center Elsihof 1, 6035 Perlen",
+     "href": "/de/service/otv.html#3380"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "AMAG Buchs St. Gallerstrasse 100, 9471 Buchs SG",
+     "href": "/de/service/otv.html#150"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "AMAG Bulle Rue de Vuippens 55, 1630 Bulle",
+     "href": "/de/service/otv.html#227"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "AMAG Bülach Bächliwis 29, 8184 Bachenbülach",
+     "href": "/de/service/otv.html#790"
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "AMAG Carrosserie Center Gumefens En Palud 20, 1643 Gumefens",
+     "href": "/de/service/otv.html#3965"
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "AMAG Carrosserie Center Wettswil Leimattenstrasse 2, 8907 Wettswil am Albis",
+     "href": "/de/service/otv.html#3964"
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "AMAG Carrosserie Center Zuchwil Schützenweg 6, 4528 Zuchwil",
+     "href": "/de/service/otv.html#3963"
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "AMAG Centre Occasions Crissier Rue d'Etrablon 1, 1023 Crissier",
+     "href": "/de/service/otv.html#302"
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "AMAG Centre Occasions Genève Route du Bois-des-Frères 85, 1219 Le Lignon",
+     "href": "/de/service/otv.html#289"
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "AMAG Centro Occasioni Lugano Via alla Roggia 7, 6926 Montagnola",
+     "href": "/de/service/otv.html#357"
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "AMAG Chur Rossbodenstrasse 14-16, 7000 Chur",
+     "href": "/de/service/otv.html#165"
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "AMAG Chur Sommerau Sommeraustrasse 30, 7000 Chur",
+     "href": "/de/service/otv.html#3065"
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "AMAG Châtelaine Chemin J.-Ph. De-Sauvage 44-46, 1219 Châtelaine",
+     "href": "/de/service/otv.html#3100"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "AMAG Châtelaine Chemin J.-Ph. De-Sauvage 44 - 46, 1219 Châtelaine",
+     "href": "/de/service/otv.html#254"
+    },
+    {
+     "role": "cta",
+     "order": 42,
+     "text": "AMAG Coldrerio Via San Gottardo 52, 6877 Coldrerio",
+     "href": "/de/service/otv.html#6696"
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "AMAG Crissier Rue de la Vernie 2, 1023 Crissier",
+     "href": "/de/service/otv.html#3125"
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "AMAG Crissier Rue de la Vernie 2, 1023 Crissier",
+     "href": "/de/service/otv.html#330"
+    },
+    {
+     "role": "cta",
+     "order": 45,
+     "text": "AMAG Davos Talstrasse 22, 7270 Davos Platz",
+     "href": "/de/service/otv.html#190"
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "AMAG Dulliken Bodenackerstrasse 61, 4657 Dulliken",
+     "href": "/de/service/otv.html#460"
+    },
+    {
+     "role": "cta",
+     "order": 47,
+     "text": "AMAG Emmen Mooshüslistrasse 32, 6032 Emmen",
+     "href": "/de/service/otv.html#6601"
+    },
+    {
+     "role": "cta",
+     "order": 48,
+     "text": "AMAG Etoy Route de Buchillon 1, 1163 Etoy",
+     "href": "/de/service/otv.html#348"
+    },
+    {
+     "role": "cta",
+     "order": 49,
+     "text": "AMAG Frauenfeld Zürcherstrasse 331, 8500 Frauenfeld",
+     "href": "/de/service/otv.html#200"
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "AMAG Fribourg Route de Villars 110, 1701 Fribourg",
+     "href": "/de/service/otv.html#219"
+    },
+    {
+     "role": "cta",
+     "order": 51,
+     "text": "AMAG Fribourg Route de Villars 103-106, 1701 Fribourg",
+     "href": "/de/service/otv.html#220"
+    },
+    {
+     "role": "cta",
+     "order": 52,
+     "text": "AMAG Giubiasco Via Bellinzona 20, 6512 Giubiasco",
+     "href": "/de/service/otv.html#92"
+    },
+    {
+     "role": "cta",
+     "order": 53,
+     "text": "AMAG Giubiasco Audi Via Bellinzona 37, 6512 Giubiasco",
+     "href": "/de/service/otv.html#173"
+    },
+    {
+     "role": "cta",
+     "order": 54,
+     "text": "AMAG Gümligen Worbstrasse 226, 3073 Gümligen",
+     "href": "/de/service/otv.html#3346"
+    },
+    {
+     "role": "cta",
+     "order": 55,
+     "text": "AMAG Heerbrugg Auerstrasse 20, 9435 Heerbrugg",
+     "href": "/de/service/otv.html#523"
+    },
+    {
+     "role": "cta",
+     "order": 56,
+     "text": "AMAG Horgen Im Schnegg, 8810 Horgen",
+     "href": "/de/service/otv.html#739"
+    },
+    {
+     "role": "cta",
+     "order": 57,
+     "text": "AMAG Jona St. Gallerstrasse 101, 8645 Jona",
+     "href": "/de/service/otv.html#760"
+    },
+    {
+     "role": "cta",
+     "order": 58,
+     "text": "AMAG Kleinbasel Schönaustrasse 25, 4058 Basel",
+     "href": "/de/service/otv.html#138"
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "AMAG Kloten Steinackerstrasse 20, 8302 Kloten",
+     "href": "/de/service/otv.html#690"
+    },
+    {
+     "role": "cta",
+     "order": 60,
+     "text": "AMAG Kreuzlingen Hauptstrasse 99, 8280 Kreuzlingen",
+     "href": "/de/service/otv.html#260"
+    },
+    {
+     "role": "cta",
+     "order": 61,
+     "text": "AMAG La Tour-de-Trême Route de Pra-Riond 5, 1635 La Tour-de-Trême",
+     "href": "/de/service/otv.html#327"
+    },
+    {
+     "role": "cta",
+     "order": 62,
+     "text": "AMAG Lausanne Avenue de Provence 2, 1007 Lausanne",
+     "href": "/de/service/otv.html#320"
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "AMAG Letzigrund (ehem. Audi Center Zürich Altstetten) Rautistrasse 23, 8047 Zürich",
+     "href": "/de/service/otv.html#710"
+    },
+    {
+     "role": "cta",
+     "order": 64,
+     "text": "AMAG Liestal Rheinstrasse 107, 4410 Liestal",
+     "href": "/de/service/otv.html#129"
+    },
+    {
+     "role": "cta",
+     "order": 65,
+     "text": "AMAG Lugano Via Monte Boglia 24, 6904 Lugano",
+     "href": "/de/service/otv.html#350"
+    },
+    {
+     "role": "cta",
+     "order": 66,
+     "text": "AMAG Mendrisio Via Rinaldi 3, 6850 Mendrisio",
+     "href": "/de/service/otv.html#369"
+    },
+    {
+     "role": "cta",
+     "order": 67,
+     "text": "AMAG Mendrisio Via Bernasconi 31, 6850 Mendrisio",
+     "href": "/de/service/otv.html#3690"
+    },
+    {
+     "role": "cta",
+     "order": 68,
+     "text": "AMAG Murten / Morat Bernstrasse 11, 3280 Murten",
+     "href": "/de/service/otv.html#232"
+    },
+    {
+     "role": "cta",
+     "order": 69,
+     "text": "AMAG Muttenz Birsfelderstrasse 50, 4132 Muttenz",
+     "href": "/de/service/otv.html#137"
+    },
+    {
+     "role": "cta",
+     "order": 70,
+     "text": "AMAG Noranco Via Pian Scairolo 36, 6915 Pambio-Noranco",
+     "href": "/de/service/otv.html#373"
+    },
+    {
+     "role": "cta",
+     "order": 71,
+     "text": "AMAG Nyon Route de Lausanne 114, 1197 Prangins",
+     "href": "/de/service/otv.html#244"
+    },
+    {
+     "role": "cta",
+     "order": 72,
+     "text": "AMAG Nyon Champ-Colin Route de Champ-Colin 9, 1260 Nyon",
+     "href": "/de/service/otv.html#248"
+    },
+    {
+     "role": "cta",
+     "order": 73,
+     "text": "AMAG Occasioni Contone Via Cantonale, 6594 Contone",
+     "href": "/de/service/otv.html#3570"
+    },
+    {
+     "role": "cta",
+     "order": 74,
+     "text": "AMAG Occasions Center Münchenbuchsee Moosrainweg 14, 3053 Münchenbuchsee",
+     "href": "/de/service/otv.html#290"
+    },
+    {
+     "role": "cta",
+     "order": 75,
+     "text": "AMAG Occasions Center Oftringen Luzernerstrasse 39, 4665 Oftringen",
+     "href": "/de/service/otv.html#437"
+    },
+    {
+     "role": "cta",
+     "order": 76,
+     "text": "AMAG Occasions Center Pratteln Muttenzerstrasse 143, 4133 Pratteln",
+     "href": "/de/service/otv.html#136"
+    },
+    {
+     "role": "cta",
+     "order": 77,
+     "text": "AMAG Occasions Center Sihlbrugg Zugerstrasse 2, 6340 Sihlbrugg",
+     "href": "/de/service/otv.html#655"
+    },
+    {
+     "role": "cta",
+     "order": 78,
+     "text": "AMAG Occasions Center Zürich Ueberlandstrasse 241, 8051 Zürich",
+     "href": "/de/service/otv.html#659"
+    },
+    {
+     "role": "cta",
+     "order": 79,
+     "text": "AMAG Oftringen Luzernerstrasse 41, 4665 Oftringen",
+     "href": "/de/service/otv.html#463"
+    },
+    {
+     "role": "cta",
+     "order": 80,
+     "text": "AMAG Oftringen Bernstrasse 23, 4665 Oftringen",
+     "href": "/de/service/otv.html#464"
+    },
+    {
+     "role": "cta",
+     "order": 81,
+     "text": "AMAG Online-Sales Giessenstrasse 4, 8600 Dübendorf",
+     "href": "/de/service/otv.html#9201"
+    },
+    {
+     "role": "cta",
+     "order": 82,
+     "text": "AMAG Petit-Lancy Chemin du Bac 21, 1213 Petit-Lancy",
+     "href": "/de/service/otv.html#240"
+    },
+    {
+     "role": "cta",
+     "order": 83,
+     "text": "AMAG Pratteln Muttenzerstrasse 143, 4133 Pratteln",
+     "href": "/de/service/otv.html#130"
+    },
+    {
+     "role": "cta",
+     "order": 84,
+     "text": "AMAG Rheinfelden Zürcherstrasse 34, 4310 Rheinfelden",
+     "href": "/de/service/otv.html#127"
+    },
+    {
+     "role": "cta",
+     "order": 85,
+     "text": "AMAG Schaffhausen Spitalstrasse 27, 8200 Schaffhausen",
+     "href": "/de/service/otv.html#450"
+    },
+    {
+     "role": "cta",
+     "order": 86,
+     "text": "AMAG Schinznach-Bad Aarauerstrasse 22, 5116 Schinznach Bad",
+     "href": "/de/service/otv.html#1"
+    },
+    {
+     "role": "cta",
+     "order": 87,
+     "text": "AMAG Schlieren Lättenstrasse 37, 8952 Schlieren",
+     "href": "/de/service/otv.html#788"
+    },
+    {
+     "role": "cta",
+     "order": 88,
+     "text": "AMAG Solothurn/Zuchwil Gewerbestrasse 11, 4528 Zuchwil",
+     "href": "/de/service/otv.html#500"
+    },
+    {
+     "role": "cta",
+     "order": 89,
+     "text": "AMAG St-Légier Route Industrielle 9, 1806 St.-Légier",
+     "href": "/de/service/otv.html#610"
+    },
+    {
+     "role": "cta",
+     "order": 90,
+     "text": "AMAG Sursee Neuweidstrasse 1, 6208 Oberkirch",
+     "href": "/de/service/otv.html#376"
+    },
+    {
+     "role": "cta",
+     "order": 91,
+     "text": "AMAG Thun Gwattstrasse 22-28, 3604 Thun",
+     "href": "/de/service/otv.html#570"
+    },
+    {
+     "role": "cta",
+     "order": 92,
+     "text": "AMAG Uster Ackerstrasse 47, 8610 Uster",
+     "href": "/de/service/otv.html#680"
+    },
+    {
+     "role": "cta",
+     "order": 93,
+     "text": "AMAG Uster VW Nutzfahrzeuge Center Pfäffikerstrasse 32, 8610 Uster",
+     "href": "/de/service/otv.html#6831"
+    },
+    {
+     "role": "cta",
+     "order": 94,
+     "text": "AMAG Utoquai Utoquai 47/49, 8008 Zürich",
+     "href": "/de/service/otv.html#650"
+    },
+    {
+     "role": "cta",
+     "order": 95,
+     "text": "AMAG Vaduz Austrasse 37, 9490 Vaduz",
+     "href": "/de/service/otv.html#151"
+    },
+    {
+     "role": "cta",
+     "order": 96,
+     "text": "AMAG Vernier Centre VW Véhicules Utilitaires Route du Nant-d'Avril 34, 1214 Vernier",
+     "href": "/de/service/otv.html#6136"
+    },
+    {
+     "role": "cta",
+     "order": 97,
+     "text": "AMAG Vevey Av. Général-Guisan 78, 1800 Vevey",
+     "href": "/de/service/otv.html#600"
+    },
+    {
+     "role": "cta",
+     "order": 98,
+     "text": "AMAG Villeneuve Route du Simplon 17, 1845 Noville",
+     "href": "/de/service/otv.html#6114"
+    },
+    {
+     "role": "cta",
+     "order": 99,
+     "text": "AMAG Volketswil Hölzliwisenstrasse 1, 8604 Volketswil",
+     "href": "/de/service/otv.html#781"
+    },
+    {
+     "role": "cta",
+     "order": 100,
+     "text": "AMAG Weinfelden Oberfeldstrasse 7, 8570 Weinfelden",
+     "href": "/de/service/otv.html#272"
+    },
+    {
+     "role": "cta",
+     "order": 101,
+     "text": "AMAG Wettingen Landstrasse 108, 5430 Wettingen",
+     "href": "/de/service/otv.html#674"
+    },
+    {
+     "role": "cta",
+     "order": 102,
+     "text": "AMAG Wettswil Moosstrasse 33a, 8907 Wettswil a. A.",
+     "href": "/de/service/otv.html#6772"
+    },
+    {
+     "role": "cta",
+     "order": 103,
+     "text": "AMAG Winterthur Zürcherstrasse 312, 8406 Winterthur",
+     "href": "/de/service/otv.html#620"
+    },
+    {
+     "role": "cta",
+     "order": 104,
+     "text": "AMAG Winterthur Zürcherstrasse 240, 8406 Winterthur",
+     "href": "/de/service/otv.html#6841"
+    },
+    {
+     "role": "cta",
+     "order": 105,
+     "text": "AMAG Zuchwil/Solothurn Langfeldstrasse 30, 4528 Zuchwil",
+     "href": "/de/service/otv.html#155"
+    },
+    {
+     "role": "cta",
+     "order": 106,
+     "text": "AMAG Zug Alte Steinhauserstrasse 1, 6330 Cham",
+     "href": "/de/service/otv.html#645"
+    },
+    {
+     "role": "cta",
+     "order": 107,
+     "text": "Audi Center AMAG Basel Reinacherstrasse 149-151, 4053 Basel",
+     "href": "/de/service/otv.html#122"
+    },
+    {
+     "role": "cta",
+     "order": 108,
+     "text": "Audi Center AMAG Zug Alte Steinhauserstrasse 1, 6330 Cham",
+     "href": "/de/service/otv.html#635"
+    },
+    {
+     "role": "cta",
+     "order": 109,
+     "text": "Audi Center AMAG Zürich Giessenstrasse 4, 8600 Dübendorf",
+     "href": "/de/service/otv.html#798"
+    },
+    {
+     "role": "cta",
+     "order": 110,
+     "text": "Bentley ZUG Alte Steinhauserstrasse 1, 6330 Cham",
+     "href": "/de/service/otv.html#3972"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 304,
+   "repeats": [
+    {
+     "unitSelector": "LI.cmp-breadcrumb__item",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.row",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.amag-garageOverlay__garageList--garage",
+     "count": 100,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "CHF 15.– Frühbucherrabatt auf Ihren Reifen- oder Räderwechsel"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Bringen Sie Ihr Fahrzeug bis zum für den Reifen- oder Räderwechsel zu uns und profitieren Sie von einem . Voraussetzung ist, dass der wird. Vermeiden Sie lange Wartezeiten und sichern Sie sich Ihren Wunschtermin noch heute."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "10.10.2026"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Frühbucherrabatt von CHF 15.–*"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Termin online gebucht"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Jetzt Reifenwechsel-Termin vereinbaren",
+     "href": "/de/service/auto-services-online-termin-buchen.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Winterreifen wechseln und Services"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Wann brauche ich Winterreifen? Sobald die Temperaturen fallen, verlieren Sommerreifen deutlich an Grip. Der AMAG Reifenservice übernimmt den Reifenwechsel für Sie:"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "dauerhaft unter 7 °C"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "der Winterreifen"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Fachgerechte Montage"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Prüfen des Reifenzustands"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "bei Bedarf"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Sorgfältiges Auswuchten"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Ihrer Sommerreifen im Räderhotel"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Auf Wunsch die Einlagerung"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Sie brauchen neue Winterreifen? Bei uns können Sie auch Neben den besseren Fahreigenschaften ist der Reifenwechsel auch eine Frage der Sicherheit. Bei winterlichen Bedingungen ist aber nicht nur der Reifen, sondern auch die Profiltiefe entscheidend. Wir von der AMAG empfehlen eine Profiltiefe von mindestens 4 mm."
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Winterreifen kaufen."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Gerne stehen wir Ihnen mit unseren Winterreifen Services unterstützend zur Seite. Wenn Sie neue Winterreifen kaufen möchten, beraten unsere Experten Sie umfassend entsprechend Ihrer Bedürfnisse."
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Vereinbaren Sie Ihren Reifenwechsel-Termin deshalb rechtzeitig, bevor der erste Schnee fällt."
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Auf Schnee ist der Bremsweg mit Sommerreifen durchschnittlich doppelt so lang"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "wie mit Winterreifen."
+    },
+    {
+     "role": "heading",
+     "order": 16,
+     "text": "IHRE GEMERKTE GARAGE"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "--"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Ändern"
+    },
+    {
+     "role": "heading",
+     "order": 19,
+     "text": "Wählen Sie Ihre AMAG Garage"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "AMAG Carrosserie Center Lengwil Steinstrasse 5, 8574 Lengwil",
+     "href": "/de/service/otv.html#3962"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "AMAG Aarau Rohrerstrasse 29, 5000 Aarau",
+     "href": "/de/service/otv.html#3537"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "AMAG Aigle Chemin des Orlons 1, 1860 Aigle",
+     "href": "/de/service/otv.html#606"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "AMAG Altstetten Vulkanstrasse 120, 8048 Zürich",
+     "href": "/de/service/otv.html#673"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "AMAG Audi Center Luzern Grabenhofstrasse 10, 6010 Kriens",
+     "href": "/de/service/otv.html#400"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "AMAG Auto-Abo Giessenstrasse, 8600 Dübendorf",
+     "href": "/de/service/otv.html#9200"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "AMAG Autowelt Zürich Giessenstrasse 4, 8600 Dübendorf",
+     "href": "/de/service/otv.html#698"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "AMAG Baden Winkelstrasse 2, 5442 Fislisbach",
+     "href": "/de/service/otv.html#540"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "AMAG Basel Reinacherstrasse 149/151, 4053 Basel",
+     "href": "/de/service/otv.html#121"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "AMAG Bellinzona Via San Gottardo 71, 6500 Bellinzona",
+     "href": "/de/service/otv.html#90"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "AMAG Bendern Ober Au 4, 9487 Gamprin-Bendern",
+     "href": "/de/service/otv.html#161"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "AMAG Bern Wankdorffeldstrasse 60, 3014 Bern",
+     "href": "/de/service/otv.html#100"
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "AMAG Beromünster Aargauerstrasse 13, 6215 Beromünster",
+     "href": "/de/service/otv.html#399"
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "AMAG Biel / Bienne Römerstrasse 16, 2555 Brügg",
+     "href": "/de/service/otv.html#140"
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "AMAG Biel / Bienne Längfeldweg Längfeldweg 118, 2504 Biel/Bienne",
+     "href": "/de/service/otv.html#6140"
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "AMAG Breganzona Centro Audi Via San Carlo 6, 6932 Breganzona",
+     "href": "/de/service/otv.html#364"
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "AMAG Buchrain Elsihof 1, 6035 Perlen",
+     "href": "/de/service/otv.html#380"
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "AMAG Buchrain VW Nutzfahrzeuge Center Elsihof 1, 6035 Perlen",
+     "href": "/de/service/otv.html#3380"
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "AMAG Buchs St. Gallerstrasse 100, 9471 Buchs SG",
+     "href": "/de/service/otv.html#150"
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "AMAG Bulle Rue de Vuippens 55, 1630 Bulle",
+     "href": "/de/service/otv.html#227"
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "AMAG Bülach Bächliwis 29, 8184 Bachenbülach",
+     "href": "/de/service/otv.html#790"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "AMAG Carrosserie Center Gumefens En Palud 20, 1643 Gumefens",
+     "href": "/de/service/otv.html#3965"
+    },
+    {
+     "role": "cta",
+     "order": 42,
+     "text": "AMAG Carrosserie Center Wettswil Leimattenstrasse 2, 8907 Wettswil am Albis",
+     "href": "/de/service/otv.html#3964"
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "AMAG Carrosserie Center Zuchwil Schützenweg 6, 4528 Zuchwil",
+     "href": "/de/service/otv.html#3963"
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "AMAG Centre Occasions Crissier Rue d'Etrablon 1, 1023 Crissier",
+     "href": "/de/service/otv.html#302"
+    },
+    {
+     "role": "cta",
+     "order": 45,
+     "text": "AMAG Centre Occasions Genève Route du Bois-des-Frères 85, 1219 Le Lignon",
+     "href": "/de/service/otv.html#289"
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "AMAG Centro Occasioni Lugano Via alla Roggia 7, 6926 Montagnola",
+     "href": "/de/service/otv.html#357"
+    },
+    {
+     "role": "cta",
+     "order": 47,
+     "text": "AMAG Chur Rossbodenstrasse 14-16, 7000 Chur",
+     "href": "/de/service/otv.html#165"
+    },
+    {
+     "role": "cta",
+     "order": 48,
+     "text": "AMAG Chur Sommerau Sommeraustrasse 30, 7000 Chur",
+     "href": "/de/service/otv.html#3065"
+    },
+    {
+     "role": "cta",
+     "order": 49,
+     "text": "AMAG Châtelaine Chemin J.-Ph. De-Sauvage 44-46, 1219 Châtelaine",
+     "href": "/de/service/otv.html#3100"
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "AMAG Châtelaine Chemin J.-Ph. De-Sauvage 44 - 46, 1219 Châtelaine",
+     "href": "/de/service/otv.html#254"
+    },
+    {
+     "role": "cta",
+     "order": 51,
+     "text": "AMAG Coldrerio Via San Gottardo 52, 6877 Coldrerio",
+     "href": "/de/service/otv.html#6696"
+    },
+    {
+     "role": "cta",
+     "order": 52,
+     "text": "AMAG Crissier Rue de la Vernie 2, 1023 Crissier",
+     "href": "/de/service/otv.html#3125"
+    },
+    {
+     "role": "cta",
+     "order": 53,
+     "text": "AMAG Crissier Rue de la Vernie 2, 1023 Crissier",
+     "href": "/de/service/otv.html#330"
+    },
+    {
+     "role": "cta",
+     "order": 54,
+     "text": "AMAG Davos Talstrasse 22, 7270 Davos Platz",
+     "href": "/de/service/otv.html#190"
+    },
+    {
+     "role": "cta",
+     "order": 55,
+     "text": "AMAG Dulliken Bodenackerstrasse 61, 4657 Dulliken",
+     "href": "/de/service/otv.html#460"
+    },
+    {
+     "role": "cta",
+     "order": 56,
+     "text": "AMAG Emmen Mooshüslistrasse 32, 6032 Emmen",
+     "href": "/de/service/otv.html#6601"
+    },
+    {
+     "role": "cta",
+     "order": 57,
+     "text": "AMAG Etoy Route de Buchillon 1, 1163 Etoy",
+     "href": "/de/service/otv.html#348"
+    },
+    {
+     "role": "cta",
+     "order": 58,
+     "text": "AMAG Frauenfeld Zürcherstrasse 331, 8500 Frauenfeld",
+     "href": "/de/service/otv.html#200"
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "AMAG Fribourg Route de Villars 110, 1701 Fribourg",
+     "href": "/de/service/otv.html#219"
+    },
+    {
+     "role": "cta",
+     "order": 60,
+     "text": "AMAG Fribourg Route de Villars 103-106, 1701 Fribourg",
+     "href": "/de/service/otv.html#220"
+    },
+    {
+     "role": "cta",
+     "order": 61,
+     "text": "AMAG Giubiasco Via Bellinzona 20, 6512 Giubiasco",
+     "href": "/de/service/otv.html#92"
+    },
+    {
+     "role": "cta",
+     "order": 62,
+     "text": "AMAG Giubiasco Audi Via Bellinzona 37, 6512 Giubiasco",
+     "href": "/de/service/otv.html#173"
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "AMAG Gümligen Worbstrasse 226, 3073 Gümligen",
+     "href": "/de/service/otv.html#3346"
+    },
+    {
+     "role": "cta",
+     "order": 64,
+     "text": "AMAG Heerbrugg Auerstrasse 20, 9435 Heerbrugg",
+     "href": "/de/service/otv.html#523"
+    },
+    {
+     "role": "cta",
+     "order": 65,
+     "text": "AMAG Horgen Im Schnegg, 8810 Horgen",
+     "href": "/de/service/otv.html#739"
+    },
+    {
+     "role": "cta",
+     "order": 66,
+     "text": "AMAG Jona St. Gallerstrasse 101, 8645 Jona",
+     "href": "/de/service/otv.html#760"
+    },
+    {
+     "role": "cta",
+     "order": 67,
+     "text": "AMAG Kleinbasel Schönaustrasse 25, 4058 Basel",
+     "href": "/de/service/otv.html#138"
+    },
+    {
+     "role": "cta",
+     "order": 68,
+     "text": "AMAG Kloten Steinackerstrasse 20, 8302 Kloten",
+     "href": "/de/service/otv.html#690"
+    },
+    {
+     "role": "cta",
+     "order": 69,
+     "text": "AMAG Kreuzlingen Hauptstrasse 99, 8280 Kreuzlingen",
+     "href": "/de/service/otv.html#260"
+    },
+    {
+     "role": "cta",
+     "order": 70,
+     "text": "AMAG La Tour-de-Trême Route de Pra-Riond 5, 1635 La Tour-de-Trême",
+     "href": "/de/service/otv.html#327"
+    },
+    {
+     "role": "cta",
+     "order": 71,
+     "text": "AMAG Lausanne Avenue de Provence 2, 1007 Lausanne",
+     "href": "/de/service/otv.html#320"
+    },
+    {
+     "role": "cta",
+     "order": 72,
+     "text": "AMAG Letzigrund (ehem. Audi Center Zürich Altstetten) Rautistrasse 23, 8047 Zürich",
+     "href": "/de/service/otv.html#710"
+    },
+    {
+     "role": "cta",
+     "order": 73,
+     "text": "AMAG Liestal Rheinstrasse 107, 4410 Liestal",
+     "href": "/de/service/otv.html#129"
+    },
+    {
+     "role": "cta",
+     "order": 74,
+     "text": "AMAG Lugano Via Monte Boglia 24, 6904 Lugano",
+     "href": "/de/service/otv.html#350"
+    },
+    {
+     "role": "cta",
+     "order": 75,
+     "text": "AMAG Mendrisio Via Rinaldi 3, 6850 Mendrisio",
+     "href": "/de/service/otv.html#369"
+    },
+    {
+     "role": "cta",
+     "order": 76,
+     "text": "AMAG Mendrisio Via Bernasconi 31, 6850 Mendrisio",
+     "href": "/de/service/otv.html#3690"
+    },
+    {
+     "role": "cta",
+     "order": 77,
+     "text": "AMAG Murten / Morat Bernstrasse 11, 3280 Murten",
+     "href": "/de/service/otv.html#232"
+    },
+    {
+     "role": "cta",
+     "order": 78,
+     "text": "AMAG Muttenz Birsfelderstrasse 50, 4132 Muttenz",
+     "href": "/de/service/otv.html#137"
+    },
+    {
+     "role": "cta",
+     "order": 79,
+     "text": "AMAG Noranco Via Pian Scairolo 36, 6915 Pambio-Noranco",
+     "href": "/de/service/otv.html#373"
+    },
+    {
+     "role": "cta",
+     "order": 80,
+     "text": "AMAG Nyon Route de Lausanne 114, 1197 Prangins",
+     "href": "/de/service/otv.html#244"
+    },
+    {
+     "role": "cta",
+     "order": 81,
+     "text": "AMAG Nyon Champ-Colin Route de Champ-Colin 9, 1260 Nyon",
+     "href": "/de/service/otv.html#248"
+    },
+    {
+     "role": "cta",
+     "order": 82,
+     "text": "AMAG Occasioni Contone Via Cantonale, 6594 Contone",
+     "href": "/de/service/otv.html#3570"
+    },
+    {
+     "role": "cta",
+     "order": 83,
+     "text": "AMAG Occasions Center Münchenbuchsee Moosrainweg 14, 3053 Münchenbuchsee",
+     "href": "/de/service/otv.html#290"
+    },
+    {
+     "role": "cta",
+     "order": 84,
+     "text": "AMAG Occasions Center Oftringen Luzernerstrasse 39, 4665 Oftringen",
+     "href": "/de/service/otv.html#437"
+    },
+    {
+     "role": "cta",
+     "order": 85,
+     "text": "AMAG Occasions Center Pratteln Muttenzerstrasse 143, 4133 Pratteln",
+     "href": "/de/service/otv.html#136"
+    },
+    {
+     "role": "cta",
+     "order": 86,
+     "text": "AMAG Occasions Center Sihlbrugg Zugerstrasse 2, 6340 Sihlbrugg",
+     "href": "/de/service/otv.html#655"
+    },
+    {
+     "role": "cta",
+     "order": 87,
+     "text": "AMAG Occasions Center Zürich Ueberlandstrasse 241, 8051 Zürich",
+     "href": "/de/service/otv.html#659"
+    },
+    {
+     "role": "cta",
+     "order": 88,
+     "text": "AMAG Oftringen Luzernerstrasse 41, 4665 Oftringen",
+     "href": "/de/service/otv.html#463"
+    },
+    {
+     "role": "cta",
+     "order": 89,
+     "text": "AMAG Oftringen Bernstrasse 23, 4665 Oftringen",
+     "href": "/de/service/otv.html#464"
+    },
+    {
+     "role": "cta",
+     "order": 90,
+     "text": "AMAG Online-Sales Giessenstrasse 4, 8600 Dübendorf",
+     "href": "/de/service/otv.html#9201"
+    },
+    {
+     "role": "cta",
+     "order": 91,
+     "text": "AMAG Petit-Lancy Chemin du Bac 21, 1213 Petit-Lancy",
+     "href": "/de/service/otv.html#240"
+    },
+    {
+     "role": "cta",
+     "order": 92,
+     "text": "AMAG Pratteln Muttenzerstrasse 143, 4133 Pratteln",
+     "href": "/de/service/otv.html#130"
+    },
+    {
+     "role": "cta",
+     "order": 93,
+     "text": "AMAG Rheinfelden Zürcherstrasse 34, 4310 Rheinfelden",
+     "href": "/de/service/otv.html#127"
+    },
+    {
+     "role": "cta",
+     "order": 94,
+     "text": "AMAG Schaffhausen Spitalstrasse 27, 8200 Schaffhausen",
+     "href": "/de/service/otv.html#450"
+    },
+    {
+     "role": "cta",
+     "order": 95,
+     "text": "AMAG Schinznach-Bad Aarauerstrasse 22, 5116 Schinznach Bad",
+     "href": "/de/service/otv.html#1"
+    },
+    {
+     "role": "cta",
+     "order": 96,
+     "text": "AMAG Schlieren Lättenstrasse 37, 8952 Schlieren",
+     "href": "/de/service/otv.html#788"
+    },
+    {
+     "role": "cta",
+     "order": 97,
+     "text": "AMAG Solothurn/Zuchwil Gewerbestrasse 11, 4528 Zuchwil",
+     "href": "/de/service/otv.html#500"
+    },
+    {
+     "role": "cta",
+     "order": 98,
+     "text": "AMAG St-Légier Route Industrielle 9, 1806 St.-Légier",
+     "href": "/de/service/otv.html#610"
+    },
+    {
+     "role": "cta",
+     "order": 99,
+     "text": "AMAG Sursee Neuweidstrasse 1, 6208 Oberkirch",
+     "href": "/de/service/otv.html#376"
+    },
+    {
+     "role": "cta",
+     "order": 100,
+     "text": "AMAG Thun Gwattstrasse 22-28, 3604 Thun",
+     "href": "/de/service/otv.html#570"
+    },
+    {
+     "role": "cta",
+     "order": 101,
+     "text": "AMAG Uster Ackerstrasse 47, 8610 Uster",
+     "href": "/de/service/otv.html#680"
+    },
+    {
+     "role": "cta",
+     "order": 102,
+     "text": "AMAG Uster VW Nutzfahrzeuge Center Pfäffikerstrasse 32, 8610 Uster",
+     "href": "/de/service/otv.html#6831"
+    },
+    {
+     "role": "cta",
+     "order": 103,
+     "text": "AMAG Utoquai Utoquai 47/49, 8008 Zürich",
+     "href": "/de/service/otv.html#650"
+    },
+    {
+     "role": "cta",
+     "order": 104,
+     "text": "AMAG Vaduz Austrasse 37, 9490 Vaduz",
+     "href": "/de/service/otv.html#151"
+    },
+    {
+     "role": "cta",
+     "order": 105,
+     "text": "AMAG Vernier Centre VW Véhicules Utilitaires Route du Nant-d'Avril 34, 1214 Vernier",
+     "href": "/de/service/otv.html#6136"
+    },
+    {
+     "role": "cta",
+     "order": 106,
+     "text": "AMAG Vevey Av. Général-Guisan 78, 1800 Vevey",
+     "href": "/de/service/otv.html#600"
+    },
+    {
+     "role": "cta",
+     "order": 107,
+     "text": "AMAG Villeneuve Route du Simplon 17, 1845 Noville",
+     "href": "/de/service/otv.html#6114"
+    },
+    {
+     "role": "cta",
+     "order": 108,
+     "text": "AMAG Volketswil Hölzliwisenstrasse 1, 8604 Volketswil",
+     "href": "/de/service/otv.html#781"
+    },
+    {
+     "role": "cta",
+     "order": 109,
+     "text": "AMAG Weinfelden Oberfeldstrasse 7, 8570 Weinfelden",
+     "href": "/de/service/otv.html#272"
+    },
+    {
+     "role": "cta",
+     "order": 110,
+     "text": "AMAG Wettingen Landstrasse 108, 5430 Wettingen",
+     "href": "/de/service/otv.html#674"
+    },
+    {
+     "role": "cta",
+     "order": 111,
+     "text": "AMAG Wettswil Moosstrasse 33a, 8907 Wettswil a. A.",
+     "href": "/de/service/otv.html#6772"
+    },
+    {
+     "role": "cta",
+     "order": 112,
+     "text": "AMAG Winterthur Zürcherstrasse 312, 8406 Winterthur",
+     "href": "/de/service/otv.html#620"
+    },
+    {
+     "role": "cta",
+     "order": 113,
+     "text": "AMAG Winterthur Zürcherstrasse 240, 8406 Winterthur",
+     "href": "/de/service/otv.html#6841"
+    },
+    {
+     "role": "cta",
+     "order": 114,
+     "text": "AMAG Zuchwil/Solothurn Langfeldstrasse 30, 4528 Zuchwil",
+     "href": "/de/service/otv.html#155"
+    },
+    {
+     "role": "cta",
+     "order": 115,
+     "text": "AMAG Zug Alte Steinhauserstrasse 1, 6330 Cham",
+     "href": "/de/service/otv.html#645"
+    },
+    {
+     "role": "cta",
+     "order": 116,
+     "text": "Audi Center AMAG Basel Reinacherstrasse 149-151, 4053 Basel",
+     "href": "/de/service/otv.html#122"
+    },
+    {
+     "role": "cta",
+     "order": 117,
+     "text": "Audi Center AMAG Zug Alte Steinhauserstrasse 1, 6330 Cham",
+     "href": "/de/service/otv.html#635"
+    },
+    {
+     "role": "cta",
+     "order": 118,
+     "text": "Audi Center AMAG Zürich Giessenstrasse 4, 8600 Dübendorf",
+     "href": "/de/service/otv.html#798"
+    },
+    {
+     "role": "cta",
+     "order": 119,
+     "text": "Bentley ZUG Alte Steinhauserstrasse 1, 6330 Cham",
+     "href": "/de/service/otv.html#3972"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 311,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "UL.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.row",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.amag-garageOverlay__garageList--garage",
+     "count": 100,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Welche Winterreifen sollte ich wählen?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "In der Schweiz gibt es und"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "keine generelle Winterreifenpflicht"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "keinen festgelegten Stichtag für den Reifenwechsel"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Für und einen erfolgreich bestandenen, genormten Schneetest auf das achten - auch 3PMSF-Schneeflockensymbol genannt"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "echte Wintertauglichkeit"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Alpine-Symbol"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Seit dem 1. Oktober 2024 gilt in der Schweiz ausschliesslich ein Reifen, die nur «M+S» tragen, unterliegen denselben Vorschriften wie Sommerreifen. So erkennen Sie das Schneeflockensymbol auf dem Reifen: Auf der Seitenwand des Reifens ist ein Berg mit drei Gipfeln zu sehen, in dem eine Schneeflocke abgebildet ist."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Reifen mit Schneeflockensymbol offiziell als Winterreifen.",
+     "href": "https://www.tcs.ch/de/testberichte-ratgeber/ratgeber/reifen/uebergangsfrist-fuer-gefahrene-m-s-reifen-abgelaufen.php"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Bei der . Für Schnee und Matsch sind , da der Grip darunter deutlich nachlässt."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Profiltiefe für Winterreifen gilt gesetzlich ein Minimum von 1.6 mm"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "mindestens 4 mm empfehlenswert"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Auch zwischen einzelnen Winterreifen-Modellen gibt es grosse Unterschiede: Der zeigt bei 32 getesteten Reifen-Modellen für Kleinwagen einen Bremsweg-Unterschied von bis zu 18 Metern auf nasser Fahrbahn (aus 80 km/h) zwischen dem besten und dem schlechtesten Reifen. Der TCS rät deshalb, nur Reifen zu wählen, die mindestens die Bewertung \"empfehlenswert\" erhalten haben. Im Schnitt hält ein Winterreifen laut TCS rund 31'000 Kilometer."
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "TCS-Winterreifentest 2026",
+     "href": "https://www.presseportal.ch/de/pm/100000091/100942458"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Wir beraten wir Sie gerne zu Winterreifen. Vereinbaren Sie einfach einen Termin."
+    },
+    {
+     "role": "heading",
+     "order": 15,
+     "text": "Wählen Sie Ihre AMAG Garage"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "AMAG Carrosserie Center Lengwil Steinstrasse 5, 8574 Lengwil",
+     "href": "/de/garagenuebersicht/carrosserie-center-lengwil.html"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "AMAG Aarau Rohrerstrasse 29, 5000 Aarau",
+     "href": "/de/garagenuebersicht/garage-aarau.html"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "AMAG Aigle Chemin des Orlons 1, 1860 Aigle",
+     "href": "/de/garagenuebersicht/garage-aigle.html"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "AMAG Altstetten Vulkanstrasse 120, 8048 Zürich",
+     "href": "/de/garagenuebersicht/garage-altstetten.html"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "AMAG Audi Center Luzern Grabenhofstrasse 10, 6010 Kriens",
+     "href": "/de/garagenuebersicht/audi-center-luzern.html"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "AMAG Auto-Abo Giessenstrasse, 8600 Dübendorf",
+     "href": "/de/garagenuebersicht/auto-abo.html"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "AMAG Autowelt Zürich Giessenstrasse 4, 8600 Dübendorf",
+     "href": "/de/garagenuebersicht/autowelt-zuerich.html"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "AMAG Baden Winkelstrasse 2, 5442 Fislisbach",
+     "href": "/de/garagenuebersicht/garage-baden.html"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "AMAG Basel Reinacherstrasse 149/151, 4053 Basel",
+     "href": "/de/garagenuebersicht/garage-basel.html"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "AMAG Bellinzona Via San Gottardo 71, 6500 Bellinzona",
+     "href": "/de/garagenuebersicht/garage-bellinzona.html"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "AMAG Bendern Ober Au 4, 9487 Gamprin-Bendern",
+     "href": "/de/garagenuebersicht/garage-bendern.html"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "AMAG Bern Wankdorffeldstrasse 60, 3014 Bern",
+     "href": "/de/garagenuebersicht/garage-bern.html"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "AMAG Beromünster Aargauerstrasse 13, 6215 Beromünster",
+     "href": "/de/garagenuebersicht/garage-beromuenster.html"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "AMAG Biel / Bienne Römerstrasse 16, 2555 Brügg",
+     "href": "/de/garagenuebersicht/garage-biel.html"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "AMAG Biel / Bienne Längfeldweg Längfeldweg 118, 2504 Biel/Bienne",
+     "href": "/de/garagenuebersicht/garage-biel-laengfeldweg.html"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "AMAG Breganzona Centro Audi Via San Carlo 6, 6932 Breganzona",
+     "href": "/de/garagenuebersicht/centro-audi-breganzona.html"
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "AMAG Buchrain Elsihof 1, 6035 Perlen",
+     "href": "/de/garagenuebersicht/garage-buchrain.html"
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "AMAG Buchrain VW Nutzfahrzeuge Center Elsihof 1, 6035 Perlen",
+     "href": "/de/garagenuebersicht/nutzfahrzeuge-center-buchrain.html"
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "AMAG Buchs St. Gallerstrasse 100, 9471 Buchs SG",
+     "href": "/de/garagenuebersicht/garage-buchs.html"
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "AMAG Bulle Rue de Vuippens 55, 1630 Bulle",
+     "href": "/de/garagenuebersicht/garage-bulle.html"
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "AMAG Bülach Bächliwis 29, 8184 Bachenbülach",
+     "href": "/de/garagenuebersicht/garage-buelach.html"
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "AMAG Carrosserie Center Gumefens En Palud 20, 1643 Gumefens",
+     "href": "/de/garagenuebersicht/carrosseriecenter-gumefens.html"
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "AMAG Carrosserie Center Wettswil Leimattenstrasse 2, 8907 Wettswil am Albis",
+     "href": "/de/garagenuebersicht/carrosserie-center-wettswil.html"
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "AMAG Carrosserie Center Zuchwil Schützenweg 6, 4528 Zuchwil",
+     "href": "/de/garagenuebersicht/carrosseriecenter-zuchwil.html"
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "AMAG Centre Occasions Crissier Rue d'Etrablon 1, 1023 Crissier",
+     "href": "/de/garagenuebersicht/occasions-center-crissier.html"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "AMAG Centre Occasions Genève Route du Bois-des-Frères 85, 1219 Le Lignon",
+     "href": "/de/garagenuebersicht/occasions-center-genf.html"
+    },
+    {
+     "role": "cta",
+     "order": 42,
+     "text": "AMAG Centro Occasioni Lugano Via alla Roggia 7, 6926 Montagnola",
+     "href": "/de/garagenuebersicht/centro-occasioni-lugano.html"
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "AMAG Chur Rossbodenstrasse 14-16, 7000 Chur",
+     "href": "/de/garagenuebersicht/garage-chur.html"
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "AMAG Chur Sommerau Sommeraustrasse 30, 7000 Chur",
+     "href": "/de/garagenuebersicht/garage-chur.html"
+    },
+    {
+     "role": "cta",
+     "order": 45,
+     "text": "AMAG Châtelaine Chemin J.-Ph. De-Sauvage 44-46, 1219 Châtelaine",
+     "href": "/de/garagenuebersicht/garage-chatelaine.html"
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "AMAG Châtelaine Chemin J.-Ph. De-Sauvage 44 - 46, 1219 Châtelaine",
+     "href": "/de/garagenuebersicht/garage-chatelaine.html"
+    },
+    {
+     "role": "cta",
+     "order": 47,
+     "text": "AMAG Coldrerio Via San Gottardo 52, 6877 Coldrerio",
+     "href": "/de/garagenuebersicht/garage-coldrerio.html"
+    },
+    {
+     "role": "cta",
+     "order": 48,
+     "text": "AMAG Crissier Rue de la Vernie 2, 1023 Crissier",
+     "href": "/de/garagenuebersicht/garage-crissier.html"
+    },
+    {
+     "role": "cta",
+     "order": 49,
+     "text": "AMAG Crissier Rue de la Vernie 2, 1023 Crissier",
+     "href": "/de/garagenuebersicht/garage-crissier.html"
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "AMAG Davos Talstrasse 22, 7270 Davos Platz",
+     "href": "/de/garagenuebersicht/garage-davos.html"
+    },
+    {
+     "role": "cta",
+     "order": 51,
+     "text": "AMAG Dulliken Bodenackerstrasse 61, 4657 Dulliken",
+     "href": "/de/garagenuebersicht/garage-dulliken.html"
+    },
+    {
+     "role": "cta",
+     "order": 52,
+     "text": "AMAG Emmen Mooshüslistrasse 32, 6032 Emmen",
+     "href": "/de/garagenuebersicht/garage-emmen.html"
+    },
+    {
+     "role": "cta",
+     "order": 53,
+     "text": "AMAG Etoy Route de Buchillon 1, 1163 Etoy",
+     "href": "/de/garagenuebersicht/garage-etoy.html"
+    },
+    {
+     "role": "cta",
+     "order": 54,
+     "text": "AMAG Frauenfeld Zürcherstrasse 331, 8500 Frauenfeld",
+     "href": "/de/garagenuebersicht/garage-frauenfeld.html"
+    },
+    {
+     "role": "cta",
+     "order": 55,
+     "text": "AMAG Fribourg Route de Villars 110, 1701 Fribourg",
+     "href": "/de/garagenuebersicht/garage-fribourg.html"
+    },
+    {
+     "role": "cta",
+     "order": 56,
+     "text": "AMAG Fribourg Route de Villars 103-106, 1701 Fribourg",
+     "href": "/de/garagenuebersicht/garage-fribourg.html"
+    },
+    {
+     "role": "cta",
+     "order": 57,
+     "text": "AMAG Giubiasco Via Bellinzona 20, 6512 Giubiasco",
+     "href": "/de/garagenuebersicht/garage-giubiasco-skoda.html"
+    },
+    {
+     "role": "cta",
+     "order": 58,
+     "text": "AMAG Giubiasco Audi Via Bellinzona 37, 6512 Giubiasco",
+     "href": "/de/garagenuebersicht/garage-giubiasco-audi.html"
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "AMAG Gümligen Worbstrasse 226, 3073 Gümligen",
+     "href": "/de/garagenuebersicht/garage-guemligen.html"
+    },
+    {
+     "role": "cta",
+     "order": 60,
+     "text": "AMAG Heerbrugg Auerstrasse 20, 9435 Heerbrugg",
+     "href": "/de/garagenuebersicht/garage-heerbrugg.html"
+    },
+    {
+     "role": "cta",
+     "order": 61,
+     "text": "AMAG Horgen Im Schnegg, 8810 Horgen",
+     "href": "/de/garagenuebersicht/garage-horgen.html"
+    },
+    {
+     "role": "cta",
+     "order": 62,
+     "text": "AMAG Jona St. Gallerstrasse 101, 8645 Jona",
+     "href": "/de/garagenuebersicht/garage-jona.html"
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "AMAG Kleinbasel Schönaustrasse 25, 4058 Basel",
+     "href": "/de/garagenuebersicht/garage-kleinbasel.html"
+    },
+    {
+     "role": "cta",
+     "order": 64,
+     "text": "AMAG Kloten Steinackerstrasse 20, 8302 Kloten",
+     "href": "/de/garagenuebersicht/garage-kloten.html"
+    },
+    {
+     "role": "cta",
+     "order": 65,
+     "text": "AMAG Kreuzlingen Hauptstrasse 99, 8280 Kreuzlingen",
+     "href": "/de/garagenuebersicht/garage-kreuzlingen.html"
+    },
+    {
+     "role": "cta",
+     "order": 66,
+     "text": "AMAG La Tour-de-Trême Route de Pra-Riond 5, 1635 La Tour-de-Trême",
+     "href": "/de/garagenuebersicht/garage-la-tour-de-treme.html"
+    },
+    {
+     "role": "cta",
+     "order": 67,
+     "text": "AMAG Lausanne Avenue de Provence 2, 1007 Lausanne",
+     "href": "/de/garagenuebersicht/garage-lausanne.html"
+    },
+    {
+     "role": "cta",
+     "order": 68,
+     "text": "AMAG Letzigrund (ehem. Audi Center Zürich Altstetten) Rautistrasse 23, 8047 Zürich",
+     "href": "/de/garagenuebersicht/garage-letzigrund.html"
+    },
+    {
+     "role": "cta",
+     "order": 69,
+     "text": "AMAG Liestal Rheinstrasse 107, 4410 Liestal",
+     "href": "/de/garagenuebersicht/garage-liestal.html"
+    },
+    {
+     "role": "cta",
+     "order": 70,
+     "text": "AMAG Lugano Via Monte Boglia 24, 6904 Lugano",
+     "href": "/de/garagenuebersicht/garage-lugano.html"
+    },
+    {
+     "role": "cta",
+     "order": 71,
+     "text": "AMAG Mendrisio Via Rinaldi 3, 6850 Mendrisio",
+     "href": "/de/garagenuebersicht/mendrisio.html"
+    },
+    {
+     "role": "cta",
+     "order": 72,
+     "text": "AMAG Mendrisio Via Bernasconi 31, 6850 Mendrisio",
+     "href": "/de/garagenuebersicht/mendrisio.html"
+    },
+    {
+     "role": "cta",
+     "order": 73,
+     "text": "AMAG Murten / Morat Bernstrasse 11, 3280 Murten",
+     "href": "/de/garagenuebersicht/garage-murten.html"
+    },
+    {
+     "role": "cta",
+     "order": 74,
+     "text": "AMAG Muttenz Birsfelderstrasse 50, 4132 Muttenz",
+     "href": "/de/garagenuebersicht/garage-muttenz.html"
+    },
+    {
+     "role": "cta",
+     "order": 75,
+     "text": "AMAG Noranco Via Pian Scairolo 36, 6915 Pambio-Noranco",
+     "href": "/de/garagenuebersicht/garage-noranco.html"
+    },
+    {
+     "role": "cta",
+     "order": 76,
+     "text": "AMAG Nyon Route de Lausanne 114, 1197 Prangins",
+     "href": "/de/garagenuebersicht/garage-nyon.html"
+    },
+    {
+     "role": "cta",
+     "order": 77,
+     "text": "AMAG Nyon Champ-Colin Route de Champ-Colin 9, 1260 Nyon",
+     "href": "/de/garagenuebersicht/garage-nyon-champ-colin.html"
+    },
+    {
+     "role": "cta",
+     "order": 78,
+     "text": "AMAG Occasioni Contone Via Cantonale, 6594 Contone",
+     "href": "/de/garagenuebersicht/occasions-center-contone.html"
+    },
+    {
+     "role": "cta",
+     "order": 79,
+     "text": "AMAG Occasions Center Münchenbuchsee Moosrainweg 14, 3053 Münchenbuchsee",
+     "href": "/de/garagenuebersicht/occasions-center-muenchenbuchsee.html"
+    },
+    {
+     "role": "cta",
+     "order": 80,
+     "text": "AMAG Occasions Center Oftringen Luzernerstrasse 39, 4665 Oftringen",
+     "href": "/de/garagenuebersicht/occasions-center-oftringen.html"
+    },
+    {
+     "role": "cta",
+     "order": 81,
+     "text": "AMAG Occasions Center Pratteln Muttenzerstrasse 143, 4133 Pratteln",
+     "href": "/de/garagenuebersicht/occasions-center-pratteln.html"
+    },
+    {
+     "role": "cta",
+     "order": 82,
+     "text": "AMAG Occasions Center Sihlbrugg Zugerstrasse 2, 6340 Sihlbrugg",
+     "href": "/de/garagenuebersicht/occasions-center-sihlbrugg.html"
+    },
+    {
+     "role": "cta",
+     "order": 83,
+     "text": "AMAG Occasions Center Zürich Ueberlandstrasse 241, 8051 Zürich",
+     "href": "/de/garagenuebersicht/occasions-center-zuerich.html"
+    },
+    {
+     "role": "cta",
+     "order": 84,
+     "text": "AMAG Oftringen Luzernerstrasse 41, 4665 Oftringen",
+     "href": "/de/garagenuebersicht/garage-oftringen.html"
+    },
+    {
+     "role": "cta",
+     "order": 85,
+     "text": "AMAG Oftringen Bernstrasse 23, 4665 Oftringen",
+     "href": "/de/garagenuebersicht/garage-oftringen.html"
+    },
+    {
+     "role": "cta",
+     "order": 86,
+     "text": "AMAG Online-Sales Giessenstrasse 4, 8600 Dübendorf",
+     "href": "/de/garagenuebersicht/online-sales.html"
+    },
+    {
+     "role": "cta",
+     "order": 87,
+     "text": "AMAG Petit-Lancy Chemin du Bac 21, 1213 Petit-Lancy",
+     "href": "/de/garagenuebersicht/garage-petit-lancy.html"
+    },
+    {
+     "role": "cta",
+     "order": 88,
+     "text": "AMAG Pratteln Muttenzerstrasse 143, 4133 Pratteln",
+     "href": "/de/garagenuebersicht/garage-pratteln.html"
+    },
+    {
+     "role": "cta",
+     "order": 89,
+     "text": "AMAG Rheinfelden Zürcherstrasse 34, 4310 Rheinfelden",
+     "href": "/de/garagenuebersicht/garage-rheinfelden.html"
+    },
+    {
+     "role": "cta",
+     "order": 90,
+     "text": "AMAG Schaffhausen Spitalstrasse 27, 8200 Schaffhausen",
+     "href": "/de/garagenuebersicht/garage-schaffhausen.html"
+    },
+    {
+     "role": "cta",
+     "order": 91,
+     "text": "AMAG Schinznach-Bad Aarauerstrasse 22, 5116 Schinznach Bad",
+     "href": "/de/garagenuebersicht/garage-schinznach-bad.html"
+    },
+    {
+     "role": "cta",
+     "order": 92,
+     "text": "AMAG Schlieren Lättenstrasse 37, 8952 Schlieren",
+     "href": "/de/garagenuebersicht/garage-schlieren.html"
+    },
+    {
+     "role": "cta",
+     "order": 93,
+     "text": "AMAG Solothurn/Zuchwil Gewerbestrasse 11, 4528 Zuchwil",
+     "href": "/de/garagenuebersicht/garage-solothurn.html"
+    },
+    {
+     "role": "cta",
+     "order": 94,
+     "text": "AMAG St-Légier Route Industrielle 9, 1806 St.-Légier",
+     "href": "/de/garagenuebersicht/garage-st-legier.html"
+    },
+    {
+     "role": "cta",
+     "order": 95,
+     "text": "AMAG Sursee Neuweidstrasse 1, 6208 Oberkirch",
+     "href": "/de/garagenuebersicht/garage-sursee.html"
+    },
+    {
+     "role": "cta",
+     "order": 96,
+     "text": "AMAG Thun Gwattstrasse 22-28, 3604 Thun",
+     "href": "/de/garagenuebersicht/garage-thun.html"
+    },
+    {
+     "role": "cta",
+     "order": 97,
+     "text": "AMAG Uster Ackerstrasse 47, 8610 Uster",
+     "href": "/de/garagenuebersicht/garage-uster.html"
+    },
+    {
+     "role": "cta",
+     "order": 98,
+     "text": "AMAG Uster VW Nutzfahrzeuge Center Pfäffikerstrasse 32, 8610 Uster",
+     "href": "/de/garagenuebersicht/nutzfahrzeuge-center-uster.html"
+    },
+    {
+     "role": "cta",
+     "order": 99,
+     "text": "AMAG Utoquai Utoquai 47/49, 8008 Zürich",
+     "href": "/de/garagenuebersicht/garage-zuerich-utoquai.html"
+    },
+    {
+     "role": "cta",
+     "order": 100,
+     "text": "AMAG Vaduz Austrasse 37, 9490 Vaduz",
+     "href": "/de/garagenuebersicht/garage-vaduz.html"
+    },
+    {
+     "role": "cta",
+     "order": 101,
+     "text": "AMAG Vernier Centre VW Véhicules Utilitaires Route du Nant-d'Avril 34, 1214 Vernier",
+     "href": "/de/garagenuebersicht/garage-vernier.html"
+    },
+    {
+     "role": "cta",
+     "order": 102,
+     "text": "AMAG Vevey Av. Général-Guisan 78, 1800 Vevey",
+     "href": "/de/garagenuebersicht/garage-vevey.html"
+    },
+    {
+     "role": "cta",
+     "order": 103,
+     "text": "AMAG Villeneuve Route du Simplon 17, 1845 Noville",
+     "href": "/de/garagenuebersicht/garage-villeneuve.html"
+    },
+    {
+     "role": "cta",
+     "order": 104,
+     "text": "AMAG Volketswil Hölzliwisenstrasse 1, 8604 Volketswil",
+     "href": "/de/garagenuebersicht/garage-volketswil.html"
+    },
+    {
+     "role": "cta",
+     "order": 105,
+     "text": "AMAG Weinfelden Oberfeldstrasse 7, 8570 Weinfelden",
+     "href": "/de/garagenuebersicht/garage-weinfelden.html"
+    },
+    {
+     "role": "cta",
+     "order": 106,
+     "text": "AMAG Wettingen Landstrasse 108, 5430 Wettingen",
+     "href": "/de/garagenuebersicht/garage-wettingen.html"
+    },
+    {
+     "role": "cta",
+     "order": 107,
+     "text": "AMAG Wettswil Moosstrasse 33a, 8907 Wettswil a. A.",
+     "href": "/de/garagenuebersicht/garage-wettswil.html"
+    },
+    {
+     "role": "cta",
+     "order": 108,
+     "text": "AMAG Winterthur Zürcherstrasse 312, 8406 Winterthur",
+     "href": "/de/garagenuebersicht/garage-winterthur.html"
+    },
+    {
+     "role": "cta",
+     "order": 109,
+     "text": "AMAG Winterthur Zürcherstrasse 240, 8406 Winterthur",
+     "href": "/de/garagenuebersicht/garage-winterthur.html"
+    },
+    {
+     "role": "cta",
+     "order": 110,
+     "text": "AMAG Zuchwil/Solothurn Langfeldstrasse 30, 4528 Zuchwil",
+     "href": "/de/garagenuebersicht/garage-zuchwil.html"
+    },
+    {
+     "role": "cta",
+     "order": 111,
+     "text": "AMAG Zug Alte Steinhauserstrasse 1, 6330 Cham",
+     "href": "/de/garagenuebersicht/garage-zug.html"
+    },
+    {
+     "role": "cta",
+     "order": 112,
+     "text": "Audi Center AMAG Basel Reinacherstrasse 149-151, 4053 Basel",
+     "href": "/de/garagenuebersicht/garage-basel.html"
+    },
+    {
+     "role": "cta",
+     "order": 113,
+     "text": "Audi Center AMAG Zug Alte Steinhauserstrasse 1, 6330 Cham",
+     "href": "/de/garagenuebersicht/garage-zug.html"
+    },
+    {
+     "role": "cta",
+     "order": 114,
+     "text": "Audi Center AMAG Zürich Giessenstrasse 4, 8600 Dübendorf",
+     "href": "/de/garagenuebersicht/autowelt-zuerich.html"
+    },
+    {
+     "role": "cta",
+     "order": 115,
+     "text": "Bentley ZUG Alte Steinhauserstrasse 1, 6330 Cham",
+     "href": "/de/garagenuebersicht/garage-bentley-zug.html"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 308,
+   "repeats": [
+    {
+     "unitSelector": "UL.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "P.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.amag-garageOverlay__garageList--garage",
+     "count": 100,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "section",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Räderhotel"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Winterreifen, Sommerreifen und Räder bequem bei der AMAG im Räderhotel einlagern"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Zum Räderhotel",
+     "href": "/de/service/reifen-und-raeder/raederhotel.html"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "ReifenGarantie"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Wenn Sie Winterreifen, Sommerreifen oder Kompletträder bei uns kaufen, erhalten Sie die ReifenGarantie für 24 Monate kostenlos dazu."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Zur ReifenGarantie",
+     "href": "/de/service/reifen-und-raeder/reifengarantie.html"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.amag-maxiTeaserBild",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "section",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "SICHERHEIT GEHT VOR"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Immer sicher unterwegs – mit den richtigen Winterreifen"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Als Faustregel gilt: Ab Oktober wird es Zeit, auf Winterreifen umzusteigen. Je nach Witterung kann das jedoch variieren. Wenn Sie sich nicht sicher sind, beraten wir Sie gerne."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Marc Zumbach"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Leiter Werkstatt bei Ihrer AMAG"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Welche Vorteile bieten Ihnen Winterreifen?"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Bessere Haftung"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "bei Schnee, Matsch und Eisglätte"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Kürzere Bremswege"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "bei niedrigen Temperaturen"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "So erkennen Sie den Reifenzustand Ihrer Winterreifen am Profil"
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "Geeignet für die Fahrt"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Reifenprofil 5–8 mm"
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "Zeit für den Wechsel"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Reifenprofil 4–5 mm"
+    },
+    {
+     "role": "heading",
+     "order": 15,
+     "text": "Gesetzliches Minimum"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Reifenprofil 1,6 mm"
+    },
+    {
+     "role": "heading",
+     "order": 17,
+     "text": "IHRE GEMERKTE GARAGE"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "--"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Ändern"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "ø 45 Minuten Servicedauer"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "ø 45 Minuten Servicedauer"
+    },
+    {
+     "role": "heading",
+     "order": 22,
+     "text": "Wählen Sie Ihre AMAG Garage"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "AMAG Carrosserie Center Lengwil Steinstrasse 5, 8574 Lengwil",
+     "href": "/de/service/otv.html#3962"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "AMAG Aarau Rohrerstrasse 29, 5000 Aarau",
+     "href": "/de/service/otv.html#3537"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "AMAG Aigle Chemin des Orlons 1, 1860 Aigle",
+     "href": "/de/service/otv.html#606"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "AMAG Altstetten Vulkanstrasse 120, 8048 Zürich",
+     "href": "/de/service/otv.html#673"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "AMAG Audi Center Luzern Grabenhofstrasse 10, 6010 Kriens",
+     "href": "/de/service/otv.html#400"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "AMAG Auto-Abo Giessenstrasse, 8600 Dübendorf",
+     "href": "/de/service/otv.html#9200"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "AMAG Autowelt Zürich Giessenstrasse 4, 8600 Dübendorf",
+     "href": "/de/service/otv.html#698"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "AMAG Baden Winkelstrasse 2, 5442 Fislisbach",
+     "href": "/de/service/otv.html#540"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "AMAG Basel Reinacherstrasse 149/151, 4053 Basel",
+     "href": "/de/service/otv.html#121"
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "AMAG Bellinzona Via San Gottardo 71, 6500 Bellinzona",
+     "href": "/de/service/otv.html#90"
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "AMAG Bendern Ober Au 4, 9487 Gamprin-Bendern",
+     "href": "/de/service/otv.html#161"
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "AMAG Bern Wankdorffeldstrasse 60, 3014 Bern",
+     "href": "/de/service/otv.html#100"
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "AMAG Beromünster Aargauerstrasse 13, 6215 Beromünster",
+     "href": "/de/service/otv.html#399"
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "AMAG Biel / Bienne Römerstrasse 16, 2555 Brügg",
+     "href": "/de/service/otv.html#140"
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "AMAG Biel / Bienne Längfeldweg Längfeldweg 118, 2504 Biel/Bienne",
+     "href": "/de/service/otv.html#6140"
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "AMAG Breganzona Centro Audi Via San Carlo 6, 6932 Breganzona",
+     "href": "/de/service/otv.html#364"
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "AMAG Buchrain Elsihof 1, 6035 Perlen",
+     "href": "/de/service/otv.html#380"
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "AMAG Buchrain VW Nutzfahrzeuge Center Elsihof 1, 6035 Perlen",
+     "href": "/de/service/otv.html#3380"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "AMAG Buchs St. Gallerstrasse 100, 9471 Buchs SG",
+     "href": "/de/service/otv.html#150"
+    },
+    {
+     "role": "cta",
+     "order": 42,
+     "text": "AMAG Bulle Rue de Vuippens 55, 1630 Bulle",
+     "href": "/de/service/otv.html#227"
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "AMAG Bülach Bächliwis 29, 8184 Bachenbülach",
+     "href": "/de/service/otv.html#790"
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "AMAG Carrosserie Center Gumefens En Palud 20, 1643 Gumefens",
+     "href": "/de/service/otv.html#3965"
+    },
+    {
+     "role": "cta",
+     "order": 45,
+     "text": "AMAG Carrosserie Center Wettswil Leimattenstrasse 2, 8907 Wettswil am Albis",
+     "href": "/de/service/otv.html#3964"
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "AMAG Carrosserie Center Zuchwil Schützenweg 6, 4528 Zuchwil",
+     "href": "/de/service/otv.html#3963"
+    },
+    {
+     "role": "cta",
+     "order": 47,
+     "text": "AMAG Centre Occasions Crissier Rue d'Etrablon 1, 1023 Crissier",
+     "href": "/de/service/otv.html#302"
+    },
+    {
+     "role": "cta",
+     "order": 48,
+     "text": "AMAG Centre Occasions Genève Route du Bois-des-Frères 85, 1219 Le Lignon",
+     "href": "/de/service/otv.html#289"
+    },
+    {
+     "role": "cta",
+     "order": 49,
+     "text": "AMAG Centro Occasioni Lugano Via alla Roggia 7, 6926 Montagnola",
+     "href": "/de/service/otv.html#357"
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "AMAG Chur Rossbodenstrasse 14-16, 7000 Chur",
+     "href": "/de/service/otv.html#165"
+    },
+    {
+     "role": "cta",
+     "order": 51,
+     "text": "AMAG Chur Sommerau Sommeraustrasse 30, 7000 Chur",
+     "href": "/de/service/otv.html#3065"
+    },
+    {
+     "role": "cta",
+     "order": 52,
+     "text": "AMAG Châtelaine Chemin J.-Ph. De-Sauvage 44-46, 1219 Châtelaine",
+     "href": "/de/service/otv.html#3100"
+    },
+    {
+     "role": "cta",
+     "order": 53,
+     "text": "AMAG Châtelaine Chemin J.-Ph. De-Sauvage 44 - 46, 1219 Châtelaine",
+     "href": "/de/service/otv.html#254"
+    },
+    {
+     "role": "cta",
+     "order": 54,
+     "text": "AMAG Coldrerio Via San Gottardo 52, 6877 Coldrerio",
+     "href": "/de/service/otv.html#6696"
+    },
+    {
+     "role": "cta",
+     "order": 55,
+     "text": "AMAG Crissier Rue de la Vernie 2, 1023 Crissier",
+     "href": "/de/service/otv.html#3125"
+    },
+    {
+     "role": "cta",
+     "order": 56,
+     "text": "AMAG Crissier Rue de la Vernie 2, 1023 Crissier",
+     "href": "/de/service/otv.html#330"
+    },
+    {
+     "role": "cta",
+     "order": 57,
+     "text": "AMAG Davos Talstrasse 22, 7270 Davos Platz",
+     "href": "/de/service/otv.html#190"
+    },
+    {
+     "role": "cta",
+     "order": 58,
+     "text": "AMAG Dulliken Bodenackerstrasse 61, 4657 Dulliken",
+     "href": "/de/service/otv.html#460"
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "AMAG Emmen Mooshüslistrasse 32, 6032 Emmen",
+     "href": "/de/service/otv.html#6601"
+    },
+    {
+     "role": "cta",
+     "order": 60,
+     "text": "AMAG Etoy Route de Buchillon 1, 1163 Etoy",
+     "href": "/de/service/otv.html#348"
+    },
+    {
+     "role": "cta",
+     "order": 61,
+     "text": "AMAG Frauenfeld Zürcherstrasse 331, 8500 Frauenfeld",
+     "href": "/de/service/otv.html#200"
+    },
+    {
+     "role": "cta",
+     "order": 62,
+     "text": "AMAG Fribourg Route de Villars 110, 1701 Fribourg",
+     "href": "/de/service/otv.html#219"
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "AMAG Fribourg Route de Villars 103-106, 1701 Fribourg",
+     "href": "/de/service/otv.html#220"
+    },
+    {
+     "role": "cta",
+     "order": 64,
+     "text": "AMAG Giubiasco Via Bellinzona 20, 6512 Giubiasco",
+     "href": "/de/service/otv.html#92"
+    },
+    {
+     "role": "cta",
+     "order": 65,
+     "text": "AMAG Giubiasco Audi Via Bellinzona 37, 6512 Giubiasco",
+     "href": "/de/service/otv.html#173"
+    },
+    {
+     "role": "cta",
+     "order": 66,
+     "text": "AMAG Gümligen Worbstrasse 226, 3073 Gümligen",
+     "href": "/de/service/otv.html#3346"
+    },
+    {
+     "role": "cta",
+     "order": 67,
+     "text": "AMAG Heerbrugg Auerstrasse 20, 9435 Heerbrugg",
+     "href": "/de/service/otv.html#523"
+    },
+    {
+     "role": "cta",
+     "order": 68,
+     "text": "AMAG Horgen Im Schnegg, 8810 Horgen",
+     "href": "/de/service/otv.html#739"
+    },
+    {
+     "role": "cta",
+     "order": 69,
+     "text": "AMAG Jona St. Gallerstrasse 101, 8645 Jona",
+     "href": "/de/service/otv.html#760"
+    },
+    {
+     "role": "cta",
+     "order": 70,
+     "text": "AMAG Kleinbasel Schönaustrasse 25, 4058 Basel",
+     "href": "/de/service/otv.html#138"
+    },
+    {
+     "role": "cta",
+     "order": 71,
+     "text": "AMAG Kloten Steinackerstrasse 20, 8302 Kloten",
+     "href": "/de/service/otv.html#690"
+    },
+    {
+     "role": "cta",
+     "order": 72,
+     "text": "AMAG Kreuzlingen Hauptstrasse 99, 8280 Kreuzlingen",
+     "href": "/de/service/otv.html#260"
+    },
+    {
+     "role": "cta",
+     "order": 73,
+     "text": "AMAG La Tour-de-Trême Route de Pra-Riond 5, 1635 La Tour-de-Trême",
+     "href": "/de/service/otv.html#327"
+    },
+    {
+     "role": "cta",
+     "order": 74,
+     "text": "AMAG Lausanne Avenue de Provence 2, 1007 Lausanne",
+     "href": "/de/service/otv.html#320"
+    },
+    {
+     "role": "cta",
+     "order": 75,
+     "text": "AMAG Letzigrund (ehem. Audi Center Zürich Altstetten) Rautistrasse 23, 8047 Zürich",
+     "href": "/de/service/otv.html#710"
+    },
+    {
+     "role": "cta",
+     "order": 76,
+     "text": "AMAG Liestal Rheinstrasse 107, 4410 Liestal",
+     "href": "/de/service/otv.html#129"
+    },
+    {
+     "role": "cta",
+     "order": 77,
+     "text": "AMAG Lugano Via Monte Boglia 24, 6904 Lugano",
+     "href": "/de/service/otv.html#350"
+    },
+    {
+     "role": "cta",
+     "order": 78,
+     "text": "AMAG Mendrisio Via Rinaldi 3, 6850 Mendrisio",
+     "href": "/de/service/otv.html#369"
+    },
+    {
+     "role": "cta",
+     "order": 79,
+     "text": "AMAG Mendrisio Via Bernasconi 31, 6850 Mendrisio",
+     "href": "/de/service/otv.html#3690"
+    },
+    {
+     "role": "cta",
+     "order": 80,
+     "text": "AMAG Murten / Morat Bernstrasse 11, 3280 Murten",
+     "href": "/de/service/otv.html#232"
+    },
+    {
+     "role": "cta",
+     "order": 81,
+     "text": "AMAG Muttenz Birsfelderstrasse 50, 4132 Muttenz",
+     "href": "/de/service/otv.html#137"
+    },
+    {
+     "role": "cta",
+     "order": 82,
+     "text": "AMAG Noranco Via Pian Scairolo 36, 6915 Pambio-Noranco",
+     "href": "/de/service/otv.html#373"
+    },
+    {
+     "role": "cta",
+     "order": 83,
+     "text": "AMAG Nyon Route de Lausanne 114, 1197 Prangins",
+     "href": "/de/service/otv.html#244"
+    },
+    {
+     "role": "cta",
+     "order": 84,
+     "text": "AMAG Nyon Champ-Colin Route de Champ-Colin 9, 1260 Nyon",
+     "href": "/de/service/otv.html#248"
+    },
+    {
+     "role": "cta",
+     "order": 85,
+     "text": "AMAG Occasioni Contone Via Cantonale, 6594 Contone",
+     "href": "/de/service/otv.html#3570"
+    },
+    {
+     "role": "cta",
+     "order": 86,
+     "text": "AMAG Occasions Center Münchenbuchsee Moosrainweg 14, 3053 Münchenbuchsee",
+     "href": "/de/service/otv.html#290"
+    },
+    {
+     "role": "cta",
+     "order": 87,
+     "text": "AMAG Occasions Center Oftringen Luzernerstrasse 39, 4665 Oftringen",
+     "href": "/de/service/otv.html#437"
+    },
+    {
+     "role": "cta",
+     "order": 88,
+     "text": "AMAG Occasions Center Pratteln Muttenzerstrasse 143, 4133 Pratteln",
+     "href": "/de/service/otv.html#136"
+    },
+    {
+     "role": "cta",
+     "order": 89,
+     "text": "AMAG Occasions Center Sihlbrugg Zugerstrasse 2, 6340 Sihlbrugg",
+     "href": "/de/service/otv.html#655"
+    },
+    {
+     "role": "cta",
+     "order": 90,
+     "text": "AMAG Occasions Center Zürich Ueberlandstrasse 241, 8051 Zürich",
+     "href": "/de/service/otv.html#659"
+    },
+    {
+     "role": "cta",
+     "order": 91,
+     "text": "AMAG Oftringen Luzernerstrasse 41, 4665 Oftringen",
+     "href": "/de/service/otv.html#463"
+    },
+    {
+     "role": "cta",
+     "order": 92,
+     "text": "AMAG Oftringen Bernstrasse 23, 4665 Oftringen",
+     "href": "/de/service/otv.html#464"
+    },
+    {
+     "role": "cta",
+     "order": 93,
+     "text": "AMAG Online-Sales Giessenstrasse 4, 8600 Dübendorf",
+     "href": "/de/service/otv.html#9201"
+    },
+    {
+     "role": "cta",
+     "order": 94,
+     "text": "AMAG Petit-Lancy Chemin du Bac 21, 1213 Petit-Lancy",
+     "href": "/de/service/otv.html#240"
+    },
+    {
+     "role": "cta",
+     "order": 95,
+     "text": "AMAG Pratteln Muttenzerstrasse 143, 4133 Pratteln",
+     "href": "/de/service/otv.html#130"
+    },
+    {
+     "role": "cta",
+     "order": 96,
+     "text": "AMAG Rheinfelden Zürcherstrasse 34, 4310 Rheinfelden",
+     "href": "/de/service/otv.html#127"
+    },
+    {
+     "role": "cta",
+     "order": 97,
+     "text": "AMAG Schaffhausen Spitalstrasse 27, 8200 Schaffhausen",
+     "href": "/de/service/otv.html#450"
+    },
+    {
+     "role": "cta",
+     "order": 98,
+     "text": "AMAG Schinznach-Bad Aarauerstrasse 22, 5116 Schinznach Bad",
+     "href": "/de/service/otv.html#1"
+    },
+    {
+     "role": "cta",
+     "order": 99,
+     "text": "AMAG Schlieren Lättenstrasse 37, 8952 Schlieren",
+     "href": "/de/service/otv.html#788"
+    },
+    {
+     "role": "cta",
+     "order": 100,
+     "text": "AMAG Solothurn/Zuchwil Gewerbestrasse 11, 4528 Zuchwil",
+     "href": "/de/service/otv.html#500"
+    },
+    {
+     "role": "cta",
+     "order": 101,
+     "text": "AMAG St-Légier Route Industrielle 9, 1806 St.-Légier",
+     "href": "/de/service/otv.html#610"
+    },
+    {
+     "role": "cta",
+     "order": 102,
+     "text": "AMAG Sursee Neuweidstrasse 1, 6208 Oberkirch",
+     "href": "/de/service/otv.html#376"
+    },
+    {
+     "role": "cta",
+     "order": 103,
+     "text": "AMAG Thun Gwattstrasse 22-28, 3604 Thun",
+     "href": "/de/service/otv.html#570"
+    },
+    {
+     "role": "cta",
+     "order": 104,
+     "text": "AMAG Uster Ackerstrasse 47, 8610 Uster",
+     "href": "/de/service/otv.html#680"
+    },
+    {
+     "role": "cta",
+     "order": 105,
+     "text": "AMAG Uster VW Nutzfahrzeuge Center Pfäffikerstrasse 32, 8610 Uster",
+     "href": "/de/service/otv.html#6831"
+    },
+    {
+     "role": "cta",
+     "order": 106,
+     "text": "AMAG Utoquai Utoquai 47/49, 8008 Zürich",
+     "href": "/de/service/otv.html#650"
+    },
+    {
+     "role": "cta",
+     "order": 107,
+     "text": "AMAG Vaduz Austrasse 37, 9490 Vaduz",
+     "href": "/de/service/otv.html#151"
+    },
+    {
+     "role": "cta",
+     "order": 108,
+     "text": "AMAG Vernier Centre VW Véhicules Utilitaires Route du Nant-d'Avril 34, 1214 Vernier",
+     "href": "/de/service/otv.html#6136"
+    },
+    {
+     "role": "cta",
+     "order": 109,
+     "text": "AMAG Vevey Av. Général-Guisan 78, 1800 Vevey",
+     "href": "/de/service/otv.html#600"
+    },
+    {
+     "role": "cta",
+     "order": 110,
+     "text": "AMAG Villeneuve Route du Simplon 17, 1845 Noville",
+     "href": "/de/service/otv.html#6114"
+    },
+    {
+     "role": "cta",
+     "order": 111,
+     "text": "AMAG Volketswil Hölzliwisenstrasse 1, 8604 Volketswil",
+     "href": "/de/service/otv.html#781"
+    },
+    {
+     "role": "cta",
+     "order": 112,
+     "text": "AMAG Weinfelden Oberfeldstrasse 7, 8570 Weinfelden",
+     "href": "/de/service/otv.html#272"
+    },
+    {
+     "role": "cta",
+     "order": 113,
+     "text": "AMAG Wettingen Landstrasse 108, 5430 Wettingen",
+     "href": "/de/service/otv.html#674"
+    },
+    {
+     "role": "cta",
+     "order": 114,
+     "text": "AMAG Wettswil Moosstrasse 33a, 8907 Wettswil a. A.",
+     "href": "/de/service/otv.html#6772"
+    },
+    {
+     "role": "cta",
+     "order": 115,
+     "text": "AMAG Winterthur Zürcherstrasse 312, 8406 Winterthur",
+     "href": "/de/service/otv.html#620"
+    },
+    {
+     "role": "cta",
+     "order": 116,
+     "text": "AMAG Winterthur Zürcherstrasse 240, 8406 Winterthur",
+     "href": "/de/service/otv.html#6841"
+    },
+    {
+     "role": "cta",
+     "order": 117,
+     "text": "AMAG Zuchwil/Solothurn Langfeldstrasse 30, 4528 Zuchwil",
+     "href": "/de/service/otv.html#155"
+    },
+    {
+     "role": "cta",
+     "order": 118,
+     "text": "AMAG Zug Alte Steinhauserstrasse 1, 6330 Cham",
+     "href": "/de/service/otv.html#645"
+    },
+    {
+     "role": "cta",
+     "order": 119,
+     "text": "Audi Center AMAG Basel Reinacherstrasse 149-151, 4053 Basel",
+     "href": "/de/service/otv.html#122"
+    },
+    {
+     "role": "cta",
+     "order": 120,
+     "text": "Audi Center AMAG Zug Alte Steinhauserstrasse 1, 6330 Cham",
+     "href": "/de/service/otv.html#635"
+    },
+    {
+     "role": "cta",
+     "order": 121,
+     "text": "Audi Center AMAG Zürich Giessenstrasse 4, 8600 Dübendorf",
+     "href": "/de/service/otv.html#798"
+    },
+    {
+     "role": "cta",
+     "order": 122,
+     "text": "Bentley ZUG Alte Steinhauserstrasse 1, 6330 Cham",
+     "href": "/de/service/otv.html#3972"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 317,
+   "repeats": [
+    {
+     "unitSelector": "DIV.amag-farbBox",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.amag-iconTextBox__item",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.row",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.amag-garageOverlay__garageList--garage",
+     "count": 100,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "section",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "UNSER AMAG VERSPRECHEN"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Mehr als nur Service – was Sie von uns erwarten können"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": ".st0{fill:#172983;}"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Mehr Sicherheit"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Arbeiten nach Herstellerrichtlinien"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Beste Werkstattausstattungen"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Kompetente Beratung"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": ".st0{fill:#172983;}"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Top-Angebote"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Grosse Produktauswahl"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Hochwertige Original Ersatzteile"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Attraktive Zusatzangebote"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": ".st0{clip-path:url(#SVGID_2_);} .st1{fill:#172983;}"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Höchste Servicequalität"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Topausgebildete Mitarbeiter"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Hol- und Bringdienst"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Grösstes Servicenetz der Schweiz"
+    },
+    {
+     "role": "heading",
+     "order": 17,
+     "text": "Haben Sie weitere Fragen?"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Nehmen Sie direkt Kontakt mit einem Experten in Ihrer AMAG Garage auf. Wir helfen Ihnen gerne."
+    },
+    {
+     "role": "heading",
+     "order": 19,
+     "text": "Wählen Sie Ihre AMAG Garage"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "AMAG Carrosserie Center Lengwil Steinstrasse 5, 8574 Lengwil",
+     "href": "/de/garagenuebersicht/carrosserie-center-lengwil.html"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "AMAG Aarau Rohrerstrasse 29, 5000 Aarau",
+     "href": "/de/garagenuebersicht/garage-aarau.html"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "AMAG Aigle Chemin des Orlons 1, 1860 Aigle",
+     "href": "/de/garagenuebersicht/garage-aigle.html"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "AMAG Altstetten Vulkanstrasse 120, 8048 Zürich",
+     "href": "/de/garagenuebersicht/garage-altstetten.html"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "AMAG Audi Center Luzern Grabenhofstrasse 10, 6010 Kriens",
+     "href": "/de/garagenuebersicht/audi-center-luzern.html"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "AMAG Auto-Abo Giessenstrasse, 8600 Dübendorf",
+     "href": "/de/garagenuebersicht/auto-abo.html"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "AMAG Autowelt Zürich Giessenstrasse 4, 8600 Dübendorf",
+     "href": "/de/garagenuebersicht/autowelt-zuerich.html"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "AMAG Baden Winkelstrasse 2, 5442 Fislisbach",
+     "href": "/de/garagenuebersicht/garage-baden.html"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "AMAG Basel Reinacherstrasse 149/151, 4053 Basel",
+     "href": "/de/garagenuebersicht/garage-basel.html"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "AMAG Bellinzona Via San Gottardo 71, 6500 Bellinzona",
+     "href": "/de/garagenuebersicht/garage-bellinzona.html"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "AMAG Bendern Ober Au 4, 9487 Gamprin-Bendern",
+     "href": "/de/garagenuebersicht/garage-bendern.html"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "AMAG Bern Wankdorffeldstrasse 60, 3014 Bern",
+     "href": "/de/garagenuebersicht/garage-bern.html"
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "AMAG Beromünster Aargauerstrasse 13, 6215 Beromünster",
+     "href": "/de/garagenuebersicht/garage-beromuenster.html"
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "AMAG Biel / Bienne Römerstrasse 16, 2555 Brügg",
+     "href": "/de/garagenuebersicht/garage-biel.html"
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "AMAG Biel / Bienne Längfeldweg Längfeldweg 118, 2504 Biel/Bienne",
+     "href": "/de/garagenuebersicht/garage-biel-laengfeldweg.html"
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "AMAG Breganzona Centro Audi Via San Carlo 6, 6932 Breganzona",
+     "href": "/de/garagenuebersicht/centro-audi-breganzona.html"
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "AMAG Buchrain Elsihof 1, 6035 Perlen",
+     "href": "/de/garagenuebersicht/garage-buchrain.html"
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "AMAG Buchrain VW Nutzfahrzeuge Center Elsihof 1, 6035 Perlen",
+     "href": "/de/garagenuebersicht/nutzfahrzeuge-center-buchrain.html"
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "AMAG Buchs St. Gallerstrasse 100, 9471 Buchs SG",
+     "href": "/de/garagenuebersicht/garage-buchs.html"
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "AMAG Bulle Rue de Vuippens 55, 1630 Bulle",
+     "href": "/de/garagenuebersicht/garage-bulle.html"
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "AMAG Bülach Bächliwis 29, 8184 Bachenbülach",
+     "href": "/de/garagenuebersicht/garage-buelach.html"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "AMAG Carrosserie Center Gumefens En Palud 20, 1643 Gumefens",
+     "href": "/de/garagenuebersicht/carrosseriecenter-gumefens.html"
+    },
+    {
+     "role": "cta",
+     "order": 42,
+     "text": "AMAG Carrosserie Center Wettswil Leimattenstrasse 2, 8907 Wettswil am Albis",
+     "href": "/de/garagenuebersicht/carrosserie-center-wettswil.html"
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "AMAG Carrosserie Center Zuchwil Schützenweg 6, 4528 Zuchwil",
+     "href": "/de/garagenuebersicht/carrosseriecenter-zuchwil.html"
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "AMAG Centre Occasions Crissier Rue d'Etrablon 1, 1023 Crissier",
+     "href": "/de/garagenuebersicht/occasions-center-crissier.html"
+    },
+    {
+     "role": "cta",
+     "order": 45,
+     "text": "AMAG Centre Occasions Genève Route du Bois-des-Frères 85, 1219 Le Lignon",
+     "href": "/de/garagenuebersicht/occasions-center-genf.html"
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "AMAG Centro Occasioni Lugano Via alla Roggia 7, 6926 Montagnola",
+     "href": "/de/garagenuebersicht/centro-occasioni-lugano.html"
+    },
+    {
+     "role": "cta",
+     "order": 47,
+     "text": "AMAG Chur Rossbodenstrasse 14-16, 7000 Chur",
+     "href": "/de/garagenuebersicht/garage-chur.html"
+    },
+    {
+     "role": "cta",
+     "order": 48,
+     "text": "AMAG Chur Sommerau Sommeraustrasse 30, 7000 Chur",
+     "href": "/de/garagenuebersicht/garage-chur.html"
+    },
+    {
+     "role": "cta",
+     "order": 49,
+     "text": "AMAG Châtelaine Chemin J.-Ph. De-Sauvage 44-46, 1219 Châtelaine",
+     "href": "/de/garagenuebersicht/garage-chatelaine.html"
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "AMAG Châtelaine Chemin J.-Ph. De-Sauvage 44 - 46, 1219 Châtelaine",
+     "href": "/de/garagenuebersicht/garage-chatelaine.html"
+    },
+    {
+     "role": "cta",
+     "order": 51,
+     "text": "AMAG Coldrerio Via San Gottardo 52, 6877 Coldrerio",
+     "href": "/de/garagenuebersicht/garage-coldrerio.html"
+    },
+    {
+     "role": "cta",
+     "order": 52,
+     "text": "AMAG Crissier Rue de la Vernie 2, 1023 Crissier",
+     "href": "/de/garagenuebersicht/garage-crissier.html"
+    },
+    {
+     "role": "cta",
+     "order": 53,
+     "text": "AMAG Crissier Rue de la Vernie 2, 1023 Crissier",
+     "href": "/de/garagenuebersicht/garage-crissier.html"
+    },
+    {
+     "role": "cta",
+     "order": 54,
+     "text": "AMAG Davos Talstrasse 22, 7270 Davos Platz",
+     "href": "/de/garagenuebersicht/garage-davos.html"
+    },
+    {
+     "role": "cta",
+     "order": 55,
+     "text": "AMAG Dulliken Bodenackerstrasse 61, 4657 Dulliken",
+     "href": "/de/garagenuebersicht/garage-dulliken.html"
+    },
+    {
+     "role": "cta",
+     "order": 56,
+     "text": "AMAG Emmen Mooshüslistrasse 32, 6032 Emmen",
+     "href": "/de/garagenuebersicht/garage-emmen.html"
+    },
+    {
+     "role": "cta",
+     "order": 57,
+     "text": "AMAG Etoy Route de Buchillon 1, 1163 Etoy",
+     "href": "/de/garagenuebersicht/garage-etoy.html"
+    },
+    {
+     "role": "cta",
+     "order": 58,
+     "text": "AMAG Frauenfeld Zürcherstrasse 331, 8500 Frauenfeld",
+     "href": "/de/garagenuebersicht/garage-frauenfeld.html"
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "AMAG Fribourg Route de Villars 110, 1701 Fribourg",
+     "href": "/de/garagenuebersicht/garage-fribourg.html"
+    },
+    {
+     "role": "cta",
+     "order": 60,
+     "text": "AMAG Fribourg Route de Villars 103-106, 1701 Fribourg",
+     "href": "/de/garagenuebersicht/garage-fribourg.html"
+    },
+    {
+     "role": "cta",
+     "order": 61,
+     "text": "AMAG Giubiasco Via Bellinzona 20, 6512 Giubiasco",
+     "href": "/de/garagenuebersicht/garage-giubiasco-skoda.html"
+    },
+    {
+     "role": "cta",
+     "order": 62,
+     "text": "AMAG Giubiasco Audi Via Bellinzona 37, 6512 Giubiasco",
+     "href": "/de/garagenuebersicht/garage-giubiasco-audi.html"
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "AMAG Gümligen Worbstrasse 226, 3073 Gümligen",
+     "href": "/de/garagenuebersicht/garage-guemligen.html"
+    },
+    {
+     "role": "cta",
+     "order": 64,
+     "text": "AMAG Heerbrugg Auerstrasse 20, 9435 Heerbrugg",
+     "href": "/de/garagenuebersicht/garage-heerbrugg.html"
+    },
+    {
+     "role": "cta",
+     "order": 65,
+     "text": "AMAG Horgen Im Schnegg, 8810 Horgen",
+     "href": "/de/garagenuebersicht/garage-horgen.html"
+    },
+    {
+     "role": "cta",
+     "order": 66,
+     "text": "AMAG Jona St. Gallerstrasse 101, 8645 Jona",
+     "href": "/de/garagenuebersicht/garage-jona.html"
+    },
+    {
+     "role": "cta",
+     "order": 67,
+     "text": "AMAG Kleinbasel Schönaustrasse 25, 4058 Basel",
+     "href": "/de/garagenuebersicht/garage-kleinbasel.html"
+    },
+    {
+     "role": "cta",
+     "order": 68,
+     "text": "AMAG Kloten Steinackerstrasse 20, 8302 Kloten",
+     "href": "/de/garagenuebersicht/garage-kloten.html"
+    },
+    {
+     "role": "cta",
+     "order": 69,
+     "text": "AMAG Kreuzlingen Hauptstrasse 99, 8280 Kreuzlingen",
+     "href": "/de/garagenuebersicht/garage-kreuzlingen.html"
+    },
+    {
+     "role": "cta",
+     "order": 70,
+     "text": "AMAG La Tour-de-Trême Route de Pra-Riond 5, 1635 La Tour-de-Trême",
+     "href": "/de/garagenuebersicht/garage-la-tour-de-treme.html"
+    },
+    {
+     "role": "cta",
+     "order": 71,
+     "text": "AMAG Lausanne Avenue de Provence 2, 1007 Lausanne",
+     "href": "/de/garagenuebersicht/garage-lausanne.html"
+    },
+    {
+     "role": "cta",
+     "order": 72,
+     "text": "AMAG Letzigrund (ehem. Audi Center Zürich Altstetten) Rautistrasse 23, 8047 Zürich",
+     "href": "/de/garagenuebersicht/garage-letzigrund.html"
+    },
+    {
+     "role": "cta",
+     "order": 73,
+     "text": "AMAG Liestal Rheinstrasse 107, 4410 Liestal",
+     "href": "/de/garagenuebersicht/garage-liestal.html"
+    },
+    {
+     "role": "cta",
+     "order": 74,
+     "text": "AMAG Lugano Via Monte Boglia 24, 6904 Lugano",
+     "href": "/de/garagenuebersicht/garage-lugano.html"
+    },
+    {
+     "role": "cta",
+     "order": 75,
+     "text": "AMAG Mendrisio Via Rinaldi 3, 6850 Mendrisio",
+     "href": "/de/garagenuebersicht/mendrisio.html"
+    },
+    {
+     "role": "cta",
+     "order": 76,
+     "text": "AMAG Mendrisio Via Bernasconi 31, 6850 Mendrisio",
+     "href": "/de/garagenuebersicht/mendrisio.html"
+    },
+    {
+     "role": "cta",
+     "order": 77,
+     "text": "AMAG Murten / Morat Bernstrasse 11, 3280 Murten",
+     "href": "/de/garagenuebersicht/garage-murten.html"
+    },
+    {
+     "role": "cta",
+     "order": 78,
+     "text": "AMAG Muttenz Birsfelderstrasse 50, 4132 Muttenz",
+     "href": "/de/garagenuebersicht/garage-muttenz.html"
+    },
+    {
+     "role": "cta",
+     "order": 79,
+     "text": "AMAG Noranco Via Pian Scairolo 36, 6915 Pambio-Noranco",
+     "href": "/de/garagenuebersicht/garage-noranco.html"
+    },
+    {
+     "role": "cta",
+     "order": 80,
+     "text": "AMAG Nyon Route de Lausanne 114, 1197 Prangins",
+     "href": "/de/garagenuebersicht/garage-nyon.html"
+    },
+    {
+     "role": "cta",
+     "order": 81,
+     "text": "AMAG Nyon Champ-Colin Route de Champ-Colin 9, 1260 Nyon",
+     "href": "/de/garagenuebersicht/garage-nyon-champ-colin.html"
+    },
+    {
+     "role": "cta",
+     "order": 82,
+     "text": "AMAG Occasioni Contone Via Cantonale, 6594 Contone",
+     "href": "/de/garagenuebersicht/occasions-center-contone.html"
+    },
+    {
+     "role": "cta",
+     "order": 83,
+     "text": "AMAG Occasions Center Münchenbuchsee Moosrainweg 14, 3053 Münchenbuchsee",
+     "href": "/de/garagenuebersicht/occasions-center-muenchenbuchsee.html"
+    },
+    {
+     "role": "cta",
+     "order": 84,
+     "text": "AMAG Occasions Center Oftringen Luzernerstrasse 39, 4665 Oftringen",
+     "href": "/de/garagenuebersicht/occasions-center-oftringen.html"
+    },
+    {
+     "role": "cta",
+     "order": 85,
+     "text": "AMAG Occasions Center Pratteln Muttenzerstrasse 143, 4133 Pratteln",
+     "href": "/de/garagenuebersicht/occasions-center-pratteln.html"
+    },
+    {
+     "role": "cta",
+     "order": 86,
+     "text": "AMAG Occasions Center Sihlbrugg Zugerstrasse 2, 6340 Sihlbrugg",
+     "href": "/de/garagenuebersicht/occasions-center-sihlbrugg.html"
+    },
+    {
+     "role": "cta",
+     "order": 87,
+     "text": "AMAG Occasions Center Zürich Ueberlandstrasse 241, 8051 Zürich",
+     "href": "/de/garagenuebersicht/occasions-center-zuerich.html"
+    },
+    {
+     "role": "cta",
+     "order": 88,
+     "text": "AMAG Oftringen Luzernerstrasse 41, 4665 Oftringen",
+     "href": "/de/garagenuebersicht/garage-oftringen.html"
+    },
+    {
+     "role": "cta",
+     "order": 89,
+     "text": "AMAG Oftringen Bernstrasse 23, 4665 Oftringen",
+     "href": "/de/garagenuebersicht/garage-oftringen.html"
+    },
+    {
+     "role": "cta",
+     "order": 90,
+     "text": "AMAG Online-Sales Giessenstrasse 4, 8600 Dübendorf",
+     "href": "/de/garagenuebersicht/online-sales.html"
+    },
+    {
+     "role": "cta",
+     "order": 91,
+     "text": "AMAG Petit-Lancy Chemin du Bac 21, 1213 Petit-Lancy",
+     "href": "/de/garagenuebersicht/garage-petit-lancy.html"
+    },
+    {
+     "role": "cta",
+     "order": 92,
+     "text": "AMAG Pratteln Muttenzerstrasse 143, 4133 Pratteln",
+     "href": "/de/garagenuebersicht/garage-pratteln.html"
+    },
+    {
+     "role": "cta",
+     "order": 93,
+     "text": "AMAG Rheinfelden Zürcherstrasse 34, 4310 Rheinfelden",
+     "href": "/de/garagenuebersicht/garage-rheinfelden.html"
+    },
+    {
+     "role": "cta",
+     "order": 94,
+     "text": "AMAG Schaffhausen Spitalstrasse 27, 8200 Schaffhausen",
+     "href": "/de/garagenuebersicht/garage-schaffhausen.html"
+    },
+    {
+     "role": "cta",
+     "order": 95,
+     "text": "AMAG Schinznach-Bad Aarauerstrasse 22, 5116 Schinznach Bad",
+     "href": "/de/garagenuebersicht/garage-schinznach-bad.html"
+    },
+    {
+     "role": "cta",
+     "order": 96,
+     "text": "AMAG Schlieren Lättenstrasse 37, 8952 Schlieren",
+     "href": "/de/garagenuebersicht/garage-schlieren.html"
+    },
+    {
+     "role": "cta",
+     "order": 97,
+     "text": "AMAG Solothurn/Zuchwil Gewerbestrasse 11, 4528 Zuchwil",
+     "href": "/de/garagenuebersicht/garage-solothurn.html"
+    },
+    {
+     "role": "cta",
+     "order": 98,
+     "text": "AMAG St-Légier Route Industrielle 9, 1806 St.-Légier",
+     "href": "/de/garagenuebersicht/garage-st-legier.html"
+    },
+    {
+     "role": "cta",
+     "order": 99,
+     "text": "AMAG Sursee Neuweidstrasse 1, 6208 Oberkirch",
+     "href": "/de/garagenuebersicht/garage-sursee.html"
+    },
+    {
+     "role": "cta",
+     "order": 100,
+     "text": "AMAG Thun Gwattstrasse 22-28, 3604 Thun",
+     "href": "/de/garagenuebersicht/garage-thun.html"
+    },
+    {
+     "role": "cta",
+     "order": 101,
+     "text": "AMAG Uster Ackerstrasse 47, 8610 Uster",
+     "href": "/de/garagenuebersicht/garage-uster.html"
+    },
+    {
+     "role": "cta",
+     "order": 102,
+     "text": "AMAG Uster VW Nutzfahrzeuge Center Pfäffikerstrasse 32, 8610 Uster",
+     "href": "/de/garagenuebersicht/nutzfahrzeuge-center-uster.html"
+    },
+    {
+     "role": "cta",
+     "order": 103,
+     "text": "AMAG Utoquai Utoquai 47/49, 8008 Zürich",
+     "href": "/de/garagenuebersicht/garage-zuerich-utoquai.html"
+    },
+    {
+     "role": "cta",
+     "order": 104,
+     "text": "AMAG Vaduz Austrasse 37, 9490 Vaduz",
+     "href": "/de/garagenuebersicht/garage-vaduz.html"
+    },
+    {
+     "role": "cta",
+     "order": 105,
+     "text": "AMAG Vernier Centre VW Véhicules Utilitaires Route du Nant-d'Avril 34, 1214 Vernier",
+     "href": "/de/garagenuebersicht/garage-vernier.html"
+    },
+    {
+     "role": "cta",
+     "order": 106,
+     "text": "AMAG Vevey Av. Général-Guisan 78, 1800 Vevey",
+     "href": "/de/garagenuebersicht/garage-vevey.html"
+    },
+    {
+     "role": "cta",
+     "order": 107,
+     "text": "AMAG Villeneuve Route du Simplon 17, 1845 Noville",
+     "href": "/de/garagenuebersicht/garage-villeneuve.html"
+    },
+    {
+     "role": "cta",
+     "order": 108,
+     "text": "AMAG Volketswil Hölzliwisenstrasse 1, 8604 Volketswil",
+     "href": "/de/garagenuebersicht/garage-volketswil.html"
+    },
+    {
+     "role": "cta",
+     "order": 109,
+     "text": "AMAG Weinfelden Oberfeldstrasse 7, 8570 Weinfelden",
+     "href": "/de/garagenuebersicht/garage-weinfelden.html"
+    },
+    {
+     "role": "cta",
+     "order": 110,
+     "text": "AMAG Wettingen Landstrasse 108, 5430 Wettingen",
+     "href": "/de/garagenuebersicht/garage-wettingen.html"
+    },
+    {
+     "role": "cta",
+     "order": 111,
+     "text": "AMAG Wettswil Moosstrasse 33a, 8907 Wettswil a. A.",
+     "href": "/de/garagenuebersicht/garage-wettswil.html"
+    },
+    {
+     "role": "cta",
+     "order": 112,
+     "text": "AMAG Winterthur Zürcherstrasse 312, 8406 Winterthur",
+     "href": "/de/garagenuebersicht/garage-winterthur.html"
+    },
+    {
+     "role": "cta",
+     "order": 113,
+     "text": "AMAG Winterthur Zürcherstrasse 240, 8406 Winterthur",
+     "href": "/de/garagenuebersicht/garage-winterthur.html"
+    },
+    {
+     "role": "cta",
+     "order": 114,
+     "text": "AMAG Zuchwil/Solothurn Langfeldstrasse 30, 4528 Zuchwil",
+     "href": "/de/garagenuebersicht/garage-zuchwil.html"
+    },
+    {
+     "role": "cta",
+     "order": 115,
+     "text": "AMAG Zug Alte Steinhauserstrasse 1, 6330 Cham",
+     "href": "/de/garagenuebersicht/garage-zug.html"
+    },
+    {
+     "role": "cta",
+     "order": 116,
+     "text": "Audi Center AMAG Basel Reinacherstrasse 149-151, 4053 Basel",
+     "href": "/de/garagenuebersicht/garage-basel.html"
+    },
+    {
+     "role": "cta",
+     "order": 117,
+     "text": "Audi Center AMAG Zug Alte Steinhauserstrasse 1, 6330 Cham",
+     "href": "/de/garagenuebersicht/garage-zug.html"
+    },
+    {
+     "role": "cta",
+     "order": 118,
+     "text": "Audi Center AMAG Zürich Giessenstrasse 4, 8600 Dübendorf",
+     "href": "/de/garagenuebersicht/autowelt-zuerich.html"
+    },
+    {
+     "role": "cta",
+     "order": 119,
+     "text": "Bentley ZUG Alte Steinhauserstrasse 1, 6330 Cham",
+     "href": "/de/garagenuebersicht/garage-bentley-zug.html"
+    },
+    {
+     "role": "heading",
+     "order": 120,
+     "text": "Unsere Antworten auf Ihre Fragen zum Winterreifen Service"
+    },
+    {
+     "role": "heading",
+     "order": 121,
+     "text": "Warum ist es so wichtig auf Winterreifen zu wechseln?"
+    },
+    {
+     "role": "body",
+     "order": 122,
+     "text": "Winterreifen bieten auf kaltem Asphalt und bei Schnee- und Eisglätte eine deutlich bessere Haftung. Somit vermeiden Sie, dass das Auto auf der Fahrbahn ins Rutschen gerät. Auch Unfälle können mit dem Wechsel auf Winterreifen vermieden werden."
+    },
+    {
+     "role": "body",
+     "order": 123,
+     "text": "Vereinbaren Sie einen bequem online."
+    },
+    {
+     "role": "cta",
+     "order": 124,
+     "text": "Termin für den Reifenwechsel",
+     "href": "/de/service/auto-services-online-termin-buchen.html"
+    },
+    {
+     "role": "heading",
+     "order": 125,
+     "text": "Wo liegt der Unterschied zwischen Winterreifen und Sommerreifen?"
+    },
+    {
+     "role": "body",
+     "order": 126,
+     "text": "Jede Jahreszeit hat ihre optimale Bereifung. So auch der Winter. Aber es sind nicht einmal Eis und Schnee notwendig, um Winterreifen zu rechtfertigen. Schon Temperaturen unterhalb von 7 °C machen Winterreifen zur besten Lösung."
+    },
+    {
+     "role": "body",
+     "order": 127,
+     "text": "Vereinbaren Sie einen bequem online."
+    },
+    {
+     "role": "cta",
+     "order": 128,
+     "text": "Termin für den Reifenwechsel",
+     "href": "/de/service/auto-services-online-termin-buchen.html"
+    },
+    {
+     "role": "heading",
+     "order": 129,
+     "text": "Keine Winterreifen? Das kann teuer werden"
+    },
+    {
+     "role": "body",
+     "order": 130,
+     "text": "Auch ein kleiner Blechschaden ist oft teurer als der Wechsel auf Winterreifen. Gerade auch, was den Versicherungsschutz anbelangt, ist ein rechtzeitiger Wechsel mehr als empfehlenswert. Wir beraten Sie gerne zu der für Sie optimalen Lösung."
+    },
+    {
+     "role": "body",
+     "order": 131,
+     "text": "Vereinbaren Sie einen bequem online."
+    },
+    {
+     "role": "cta",
+     "order": 132,
+     "text": "Termin für den Reifenwechsel",
+     "href": "/de/service/auto-services-online-termin-buchen.html"
+    },
+    {
+     "role": "heading",
+     "order": 133,
+     "text": "Was kostet ein Reifenwechsel bei der AMAG?"
+    },
+    {
+     "role": "body",
+     "order": 134,
+     "text": "Die Kosten für einen Reifenwechsel hängen von verschiedenen Faktoren ab: Fahrzeugtyp, Felgengrösse, ob die Reifen ausgewuchtet werden müssen, und ob Sie das AMAG Räderhotel für die Einlagerung nutzen möchten. Die AMAG bietet für Reifenservices transparente Konditionen, die Sie direkt bei Ihrer Garage erfragen können. Vereinbaren Sie einfach für den saisonalen Reifenwechsel – so sichern Sie sich rechtzeitig Ihren Wunschtermin, besonders in der Herbst- und Frühlingssaison."
+    },
+    {
+     "role": "cta",
+     "order": 135,
+     "text": "online einen Termin",
+     "href": "/de/service/otv.html"
+    },
+    {
+     "role": "heading",
+     "order": 136,
+     "text": "Welche Reifengrösse brauche ich bei Winterreifen?"
+    },
+    {
+     "role": "body",
+     "order": 137,
+     "text": "Die für Ihr Fahrzeug zulässigen Reifendimensionen finden Sie in der Betriebsanleitung Ihres Fahrzeugs. Achten Sie dabei auch auf Tragfähigkeits- und Geschwindigkeitsindex. Wir beraten Sie gerne und helfen Ihnen die passenden Winterreifen zu finden. Vereinbaren Sie einen ."
+    },
+    {
+     "role": "cta",
+     "order": 138,
+     "text": "Termin in einer unserer Garagen",
+     "href": "https://www.amag.ch/de/komponenten/storelocator.html"
+    },
+    {
+     "role": "heading",
+     "order": 139,
+     "text": "Welche Winterreifen sind in meiner Region sinnvoll?"
+    },
+    {
+     "role": "body",
+     "order": 140,
+     "text": "Wer ausschliesslich im Flachland unterwegs ist, braucht keine Premium-Winterreifen. Wer dagegen oft in die Berge fährt, sollte in einen guten Winterreifen investieren – der eigenen Sicherheit und der anderer Verkehrsteilnehmer zuliebe."
+    },
+    {
+     "role": "heading",
+     "order": 141,
+     "text": "Wo kann ich Winterreifen einlagern?"
+    },
+    {
+     "role": "body",
+     "order": 142,
+     "text": "Im ."
+    },
+    {
+     "role": "cta",
+     "order": 143,
+     "text": "AMAG Räderhotel",
+     "href": "https://www.amag.ch/de/service/reifen-und-raeder/raederhotel.html"
+    },
+    {
+     "role": "heading",
+     "order": 144,
+     "text": "Sind Winterreifen Pflicht in der Schweiz?"
+    },
+    {
+     "role": "body",
+     "order": 145,
+     "text": "Nein, in der Schweiz gibt es keine generelle Winterreifenpflicht. Es gibt auch keinen gesetzlich festgelegten Stichtag für den Reifenwechsel. Man muss aber stets verkehrssicher unterwegs sein: Nach dem Strassenverkehrsgesetz müssen Fahrerinnen und Fahrer ihr Fahrzeug ständig so beherrschen, dass sie ihren Vorsichtspflichten nachkommen können. Der TCS empfiehlt für den Winter Reifen mit Schneeflockensymbol (3PMSF). Nur sie gelten seit dem 1. Oktober 2024 offiziell als Winterreifen. Reifen, die nur «M+S» tragen, unterliegen denselben Vorschriften wie Sommerreifen – zum Beispiel beim Wichtig zu wissen: Laut TCS kann ein unpassender Reifen bei einer Kollision unter winterlichen Verhältnissen zu einer Busse und zu Regressforderungen der Versicherung führen."
+    },
+    {
+     "role": "cta",
+     "order": 146,
+     "text": "Geschwindigkeitsindex.",
+     "href": "https://www.tcs.ch/de/testberichte-ratgeber/ratgeber/reifen/bezeichnung.php"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 337,
+   "repeats": [
+    {
+     "unitSelector": "DIV.col-lg-4",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 5
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.amag-garageOverlay__garageList--garage",
+     "count": 100,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.cmp-accordion__item",
+     "count": 8,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "section",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "*CHF 15.– Rabatt inkl. MwSt. auf Rad- und Reifenwechsel für alle Fahrzeugmodelle der AMAG Konzernmarken und Zollgrössen. Gültig für online gebuchte und zwischen dem 07.09. und 10.10.2026 durchgeführte Termine. Keine Barauszahlung. Nur solange freie Termine verfügbar sind."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  }
+ ]
+}

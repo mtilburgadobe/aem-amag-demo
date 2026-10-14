@@ -1,0 +1,258 @@
+/* de-service-reifen-und-raeder-winterreifen-html — winter-tyres service article; page modules only (chrome, tokens, grid, buttons,
+   icon list, accordion, quote, section shell, direct entry live in canon.css). Every value lifted from clientlib-amagch.css (@offsets).
+   Blocks marked "= en-services-html.css" are byte-identical copies of that page's module CSS (second page using them — promoted to
+   canon when a third page needs them, like the promotionTeaser rule in notes/canon-changes.md). */
+
+/* = en-services-html.css lines 4-20: utilities, section tints @398659/@400873, first-section step band @398201, last module margin @397668 */
+/* utilities canon.css lacks (Bootstrap 4, AMAG breakpoints sm360/md768/lg1200) */
+@media (min-width:360px){.order-sm-0{order:0}.order-sm-1{order:1}.p-sm-0{padding:0!important}}
+@media (min-width:768px){.pl-md-0{padding-left:0!important}}
+@media (min-width:1200px){.order-lg-0{order:0}.order-lg-1{order:1}}
+.rounded-sm{border-radius:.2rem!important}
+.amag-garageOverlay.modal{display:none}
+
+/* section tints @398659 / @400873 */
+.amagCh-section--grey .amagCh-section__container{background-color:#f5f5f5}
+.amagCh-section--grey .amagCh-section__stepswrapper-before:before,.amagCh-section--grey .amagCh-section__stepswrapper-before .left{background-color:rgba(0,0,0,0)}
+.amagCh-section--grey .amagCh-section__stepswrapper-before:after,.amagCh-section--grey .amagCh-section__stepswrapper-before .right{background-color:#f5f5f5}
+.amagCh-section__stepswrapper-before.background-color-grey,.amagCh-section__stepswrapper-before.background-color-grey:before{background-color:#f5f5f5}
+.amagCh-section__stepswrapper-before.background-color-white,.amagCh-section__stepswrapper-before.background-color-white:before{background-color:#fff}
+/* first section has no step band below 1200 (no stage before it) @398201 */
+@media (min-width:360px) and (max-width:1199.98px){.amag-content>.section:first-of-type .amagCh-section__stepswrapper-before{display:none}}
+/* last direct-child module drops its bottom margin (measured: live section 4 = 120+content+120) @397668 */
+.amagCh-section__container>.container>div:last-child.amag-marginBottom{margin-bottom:0!important}
+
+/* colored sections: the section carries its colour in an inline custom property (@399107–@399506) */
+.amagCh-section--colored .amagCh-section__container{background-color:var(--section-bgcolor)}
+.amagCh-section--colored .amagCh-section__stepswrapper-before:before,.amagCh-section--colored .amagCh-section__stepswrapper-before .left{background-color:rgba(0,0,0,0)}
+.amagCh-section--colored .amagCh-section__stepswrapper-before:after,.amagCh-section--colored .amagCh-section__stepswrapper-before .right{background-color:var(--section-bgcolor)}
+.amagCh-section__stepswrapper-before.background-color-colored,.amagCh-section__stepswrapper-before.background-color-colored:before{background-color:var(--section-bgcolor)}
+
+/* = en-services-html.css lines 22-40: breadcrumb @283710 (incl. the <1200 chevron+parent-link portation) */
+/* breadcrumb @283710 */
+.cmp-breadcrumb{justify-content:space-between}
+.cmp-breadcrumb,.cmp-breadcrumb__list{align-items:center;display:flex}
+.cmp-breadcrumb__list{flex-wrap:wrap;list-style:none;margin-bottom:36px;margin-top:20px;padding:0}
+@media (min-width:768px){.cmp-breadcrumb__list{margin-bottom:74px;margin-top:38px}}
+@media (min-width:1200px){.cmp-breadcrumb__list{line-height:1;margin-bottom:69px;margin-top:0}}
+.cmp-breadcrumb__list svg{height:32px;margin-left:-7px;width:32px}
+.cmp-breadcrumb__item{display:none}
+@media (min-width:1200px){.cmp-breadcrumb__item{display:inline-block;margin-bottom:10px}}
+.cmp-breadcrumb__item:last-of-type{color:var(--amag-grey-600)}
+@media (min-width:1200px){.cmp-breadcrumb__item:last-of-type{display:inline-block}}
+.cmp-breadcrumb__item:last-of-type:not(.cmp-breadcrumb__item--active){display:inline-block}
+/* portation: below 1200 the live page shows the chevron + parent link ("‹ Homepage", grey) — done by the site's clientlib JS, replicated as CSS */
+@media (max-width:1199.98px){.cmp-breadcrumb__item:nth-last-of-type(2){display:inline-block}}
+.cmp-breadcrumb__item-link{color:var(--amag-grey-600);font-family:var(--font-text-light);font-size:16px}
+@media (min-width:1200px){.cmp-breadcrumb__item-link{color:#000}.cmp-breadcrumb__item-link:after{content:"|";margin:0 3px}}
+.cmp-breadcrumb__item-link:hover{color:#000;text-decoration:none}
+.cmp-breadcrumb__item:last-of-type .cmp-breadcrumb__item-link{color:var(--amag-grey-600)}
+.cmp-breadcrumb__item:last-of-type .cmp-breadcrumb__item-link:after{content:""}
+
+/* = en-services-html.css lines 42-60: intro service @367130 + otv CTA @1907555 */
+/* intro service @367130 */
+.amag-introService{width:100%}
+.amag-introService .amag-marginBottom{margin-bottom:100px}
+.amag-introService__title{font-family:var(--font-display-bold);font-size:32px;margin-bottom:20px}
+@media (min-width:768px){.amag-introService__title{font-size:44px}}
+.amag-introService__ratioWrapper{overflow:hidden;position:relative}
+@media (min-width:360px) and (max-width:767.98px){.amag-introService__ratioWrapper{margin-left:-15px;margin-right:-15px;width:100vw}}
+@media (min-width:768px) and (max-width:1199.98px){.amag-introService__ratioWrapper{margin-left:-40px;margin-right:-40px;width:100vw}}
+@media (min-width:1200px){.amag-introService__ratioWrapper{margin-right:-165px;max-width:calc(41.66667% + 165px);width:100%}}
+.amag-introService__imgWrapper{padding-top:75%;position:relative;width:100%}
+@media (min-width:768px) and (max-width:1199.98px){.amag-introService__imgWrapper{padding-top:50%}}
+.amag-introService__imgWrapper picture{bottom:0;left:0;position:absolute;right:0;top:0}
+.amag-introService__img{width:100%;height:auto;display:block}
+.amag-introService__otvCta{margin-top:48px}
+.amag-otvCtaWrapper__headline{color:var(--amag-grey-600);margin:0}
+.amag-otvCtaWrapper__garageName{font-size:20px;line-height:30px;margin-right:60px;margin-top:14px}
+.amag-otvCtaWrapper__changeLabel{cursor:pointer;font-family:var(--font-text-bold);font-size:20px;line-height:30px;margin-top:14px}
+.amag-otvCtaWrapper__button{margin-top:41px}
+@media (min-width:360px) and (max-width:767.98px){.amag-otvCtaWrapper__button{margin-left:-15px;margin-right:-15px;width:100vw}}
+.amag-otvCtaWrapper__serviceTime{margin-top:19px}  /* @1907998 */
+
+/* = en-services-html.css lines 62-67: rich text @508770 — plus the full heading ramp @508945–@509170 and the disclaimer @509354 */
+/* rich text @508770 */
+@media (max-width:1199.98px){.cmp-text,.rich-text.text{width:100%}}
+.cmp-text h1,.cmp-text h2,.cmp-text h3,.cmp-text h4,.cmp-text h5,.cmp-text h6{font-family:var(--font-display-bold);hyphens:auto}
+.cmp-text h4{font-size:24px;line-height:28px}
+.cmp-text a,.cmp-text p{font-size:20px;line-height:30px}
+.cmp-text b{font-family:var(--font-display-bold)}
+.cmp-text b{font-family:var(--font-text-bold);font-weight:400}  /* @1917841 overrides @509313 later in the sheet; weight 400 stops the synthetic bold that wrapped one extra line at 360 */
+.cmp-text h1{font-size:54px;line-height:60px}
+.cmp-text h2{font-size:44px;line-height:48px}
+.cmp-text h3{font-size:32px;line-height:36px}
+.cmp-text h5{font-size:20px;line-height:30px}
+.cmp-text h6{font-size:16px;line-height:24px}
+.cmp-text a{hyphens:auto}
+.cmp-text .amag-disclaimer{color:#a3a3a3;font-size:16px;line-height:24px;text-transform:uppercase}
+.template-dynamic-image,.template-image,.template-image-content{height:auto;max-width:100%;width:100%}  /* @204791 */
+.h5,h5{font-size:1.25rem}  /* Bootstrap base @19341 — canon.css carries h6 but not h5 (advantages sub-headlines are h5); canon candidate */
+
+/* = en-services-html.css lines 69-83: icon text box @348440 */
+/* icon text box @348440 */
+.amag-iconTextBox{background-color:#fff;color:#000;font-family:var(--font-text-light);margin-left:15px;margin-right:15px;padding:40px 40px 29px;width:100%}
+@media (min-width:768px){.amag-iconTextBox{padding:40px 40px 26px}}
+@media (min-width:1200px){.amag-iconTextBox{padding:57px 95px 52px}}
+.amag-iconTextBox__link{display:block}
+.amag-iconTextBox__headline{font-family:var(--font-display-bold);font-size:24px;line-height:28px}
+@media (min-width:1200px){.amag-iconTextBox__headline{font-size:32px;line-height:36px}}
+.amag-iconTextBox__item{margin-top:31px}
+@media (min-width:768px){.amag-iconTextBox__item{margin-top:29px}}
+@media (min-width:1200px){.amag-iconTextBox__item{margin-top:33px}}
+.amag-iconTextBox__item img{max-height:40px;width:40px}
+.amag-iconTextBox__item h5{color:#000;font-family:var(--font-display-bold);font-size:20px;line-height:24px;margin-top:20px}
+@media (min-width:768px){.amag-iconTextBox__item h5{margin-top:25px}}
+@media (min-width:1200px){.amag-iconTextBox__item h5{margin-top:20px}}
+.amag-iconTextBox__item p{color:#000}
+
+/* = en-services-html.css lines 96-132: maxi teaser bild @377243 + gozilla button @375927 */
+/* maxi teaser bild @377243 + gozilla button @375927 */
+.amag-maxiTeaserBild{margin-bottom:45px;width:100%}
+.amag-maxiTeaserBild__content{background-color:var(--amag-grey-100);display:flex;flex-direction:column}
+@media (min-width:1200px){.amag-maxiTeaserBild__content{flex-direction:row}}
+.amag-maxiTeaserBild__textImgContainer{display:flex;flex-direction:column}
+@media (min-width:1200px){.amag-maxiTeaserBild__textImgContainer{flex-direction:row;flex-grow:1}}
+.amag-maxiTeaserBild__captionImgContainer{display:flex;flex-direction:column}
+@media (min-width:1200px){.amag-maxiTeaserBild__captionImgContainer{flex:0 0 45%}}
+.amag-maxiTeaserBild__imgContainer{overflow:hidden;position:relative}
+@media (min-width:1200px){.amag-maxiTeaserBild__imgContainer{height:100%}}
+.amag-maxiTeaserBild__img{height:auto;width:100%;display:block}
+@media (min-width:1200px){.amag-maxiTeaserBild__img{height:100%;object-fit:cover}}
+.amag-maxiTeaserBild__description{align-items:flex-start;display:flex;flex-direction:column;padding:80px 0 0 40px}
+@media (min-width:768px){.amag-maxiTeaserBild__description{padding:80px 40px 0}}
+@media (min-width:1200px){.amag-maxiTeaserBild__description{align-items:center;flex-direction:row;flex-grow:1;padding:110px 15px 110px 65px}}
+.amag-maxiTeaserBild__topline{color:var(--amag-violet);font-family:var(--font-text-light);font-size:16px;margin-bottom:5px;text-transform:uppercase}
+.amag-maxiTeaserBild__headline{font-family:var(--font-display-bold);font-size:32px;margin-bottom:20px}
+.amag-maxiTeaserBild__text{font-family:var(--font-text-light);font-size:20px;margin-bottom:37px}
+@media (min-width:768px){.amag-maxiTeaserBild__text{margin-bottom:40px}}
+@media (min-width:1200px){.amag-maxiTeaserBild__text{margin-bottom:0}}
+.amag-maxiTeaserBild__btnWrapper{display:flex;justify-content:flex-end;position:relative;width:100%}
+@media (min-width:1200px){.amag-maxiTeaserBild__btnWrapper{flex:0 0 300px}}
+.amag-btn--gozilla{align-items:center;color:#fff;cursor:pointer;display:flex;flex-direction:row;height:100px;justify-content:center;text-decoration:none;transition:all .2s ease;width:100%}
+@media (min-width:768px){.amag-btn--gozilla{flex-direction:column;height:100%;width:260px}}
+.amag-btn--gozilla:hover{text-decoration:none}
+@media (min-width:768px){.amag-btn--gozilla:hover{margin-left:-40px;width:300px}}
+.amag-btn--gozilla .btn__icon{margin-left:10px;order:2}
+@media (min-width:768px){.amag-btn--gozilla .btn__icon{margin-left:0;order:1}}
+.amag-btn--gozilla .btn__icon svg{fill:#fff;stroke:#fff;width:31px}
+.amag-btn--gozilla .btn__text{color:#fff;font-family:var(--font-text-bold);font-size:20px;margin-top:4px;order:1;text-decoration:none}
+@media (min-width:768px){.amag-btn--gozilla .btn__text{margin-top:0;order:2}}
+.amag-maxiTeaserBild__btn.amag-btn--gozilla{align-self:flex-end;flex-direction:row-reverse;height:100px;transition:all .2s ease;width:100%}
+@media (min-width:768px){.amag-maxiTeaserBild__btn.amag-btn--gozilla{flex-direction:row;width:290px}}
+@media (min-width:1200px){.amag-maxiTeaserBild__btn.amag-btn--gozilla{bottom:0;flex-direction:column;height:100%;position:absolute;right:0;top:0;width:260px}}
+.amag-maxiTeaserBild__btn.amag-btn--gozilla .btn__icon{margin-right:10px}
+@media (min-width:1200px){.amag-maxiTeaserBild__btn.amag-btn--gozilla .btn__icon{margin-bottom:10px;margin-right:0}}
+@media (min-width:1200px){.amag-maxiTeaserBild__btnWrapper:active .amag-maxiTeaserBild__btn.amag-btn--gozilla,.amag-maxiTeaserBild__btnWrapper:focus .amag-maxiTeaserBild__btn.amag-btn--gozilla,.amag-maxiTeaserBild__btnWrapper:hover .amag-maxiTeaserBild__btn.amag-btn--gozilla{width:300px}}
+
+/* = en-services-html.css lines 173-185: contact (kontaktaufnahme) @371999 + garage election @1619178 */
+/* contact (kontaktaufnahme) @371999 + garage election @1619178 */
+.amag-kontaktaufnahme.amag-marginBottom{margin-bottom:120px}
+.amag-kontaktaufnahme__headline h2{font-family:var(--font-display-bold);font-size:32px;line-height:36px;margin:0}
+@media (min-width:1200px){.amag-kontaktaufnahme__headline h2{font-size:44px;line-height:48px}}
+.amag-kontaktaufnahme__introText{padding-top:20px}
+@media (min-width:1200px){.amag-kontaktaufnahme__introText{padding-top:17px}}
+.amag-kontaktaufnahme__introText p{font-family:var(--font-text-light);font-size:20px;line-height:30px;margin:0}
+.amag-kontaktaufnahme .amag-garageElectionOverlay{padding-top:36px}
+.amag-garageElectionOverlay{margin-left:-15px;margin-right:-15px;width:100vw}
+@media (min-width:768px){.amag-garageElectionOverlay{margin-left:0;width:100%}}
+.amag-garageElectionOverlay__button{padding-left:0;padding-right:0}
+@media (min-width:768px){.amag-garageElectionOverlay__button{padding-left:15px;padding-right:15px}}
+.amag-garageElectionOverlay__button .amag-ctaWrapper__button{width:100%}
+
+/* = en-services-html.css lines 187-210: garage chooser modal @1619636 (hidden as captured; 5 instances on this page) */
+/* garage chooser modal — Bootstrap 4 modal shell + AMAG overrides @1619636 (opened by the "Contact garage" button; observed live: body.modal-open + 300ms dialog transform) */
+.modal-open{overflow:hidden}
+.amag-garageOverlay.modal{position:fixed;top:0;left:0;z-index:1050;width:100%;height:100%;max-height:100%;overflow:hidden;outline:0;background-color:#fff;padding:30px 15px 0!important}
+@media (min-width:768px){.amag-garageOverlay.modal{padding:80px 40px 30px!important}}
+@media (min-width:1200px){.amag-garageOverlay.modal{padding:80px 165px 0!important}}
+.amag-garageOverlay.modal.show{display:block;overflow-y:hidden}
+.amag-garageOverlay.modal.fade .modal-dialog{transition:transform .3s ease-out;transform:translate(0,-50px)}
+.amag-garageOverlay.modal.show .modal-dialog{transform:none}
+.amag-garageOverlay .modal-dialog{margin:0;max-width:100vw;width:100%;position:relative;pointer-events:none}
+.amag-garageOverlay .modal-content{position:relative;display:flex;flex-direction:column;width:100%;pointer-events:auto;background:#fff}
+.amag-garageOverlay .modal-header{display:flex;align-items:flex-start;justify-content:space-between;padding:0}
+.amag-garageOverlay .modal-body{position:relative;flex:1 1 auto;display:flex}
+.amag-garageOverlay__icon{height:40px;width:40px}
+.amag-garageOverlay__icon--close{cursor:pointer}
+.amag-garageOverlay__content{height:100%}
+.amag-garageOverlay__headline{padding-top:35px}
+@media (min-width:768px){.amag-garageOverlay__headline{padding-top:20px}}
+@media (min-width:1200px){.amag-garageOverlay__headline{padding-top:40px}}
+.amag-garageOverlay__headline h3{font-family:var(--font-display-bold);font-size:32px;line-height:36px;margin:0}
+.amag-garageOverlay__search{padding-top:37px}
+@media (min-width:768px){.amag-garageOverlay__search{padding-top:63px}}
+.amag-garageOverlay__garageList{flex-wrap:wrap;max-height:60vh;overflow-y:auto;margin-top:20px}
+.amag-garageOverlay__garageList--garage a{display:block;padding:15px;color:#000}
+.amag-garageOverlay__garageList--garage p{margin:0}
+
+/* image + text v2 (the "CHF 15.– Frühbucherrabatt" promo card in the lavender section) @1645797–@1649725 */
+.amag-image-text-v2{width:100%}
+.amag-image-text-v2.amag-marginBottom{margin-bottom:40px}
+@media (min-width:768px){.amag-image-text-v2.amag-marginBottom{margin-bottom:60px}}
+@media (min-width:1200px){.amag-image-text-v2.amag-marginBottom{margin-bottom:80px}}
+.amag-image-text-v2__headline{font-family:var(--font-display-bold);font-size:24px;line-height:28px;margin-bottom:20px}
+@media (min-width:1200px){.amag-image-text-v2__headline{font-size:32px;line-height:36px}}
+.amag-image-text-v2__description li,.amag-image-text-v2__description p{font-family:var(--font-text-light);font-size:20px;line-height:30px;margin-bottom:0}
+.amag-image-text-v2__image-wrapper{margin-bottom:30px}
+@media (min-width:768px){.amag-image-text-v2__image-wrapper{margin-bottom:0}}
+.amag-image-text-v2__image-container{position:relative}
+.amag-image-text-v2__image{height:unset;max-width:unset;object-fit:cover;width:calc(100% + 30px)}
+@media (min-width:768px){.amag-image-text-v2__image{width:calc(100% + 40px)}}
+@media (min-width:1200px){.amag-image-text-v2__image{width:calc(100% + 165px)}}
+.amag-image-text-v2__imgCaption{background-color:#f5f5f5;font-family:var(--font-text-light);font-size:14px;letter-spacing:.01em;line-height:22px;padding:14px 10px 16px}
+@media (min-width:1200px){.amag-image-text-v2__wrapper--imageLeft .amag-image-text-v2__text-wrapper{padding:0 45px}}
+.amag-image-text-v2__wrapper--imageLeft .amag-image-text-v2__image,.amag-image-text-v2__wrapper--imageLeft .amag-image-text-v2__imgCaption{margin-left:-15px;margin-right:-15px}
+@media (min-width:768px){.amag-image-text-v2__wrapper--imageLeft .amag-image-text-v2__image,.amag-image-text-v2__wrapper--imageLeft .amag-image-text-v2__imgCaption{margin-left:-40px;margin-right:0}}
+@media (min-width:1200px){.amag-image-text-v2__wrapper--imageLeft .amag-image-text-v2__image,.amag-image-text-v2__wrapper--imageLeft .amag-image-text-v2__imgCaption{margin-left:-165px}}
+.amag-image-text-v2__link{border-bottom:2px solid var(--amag-dark-blue);color:var(--amag-dark-blue);display:inline-block;font-family:var(--font-text-bold);font-size:20px;line-height:30px;margin-top:40px;padding-bottom:5px}
+.amag-image-text-v2__link:hover{color:var(--amag-dark-blue);text-decoration:none}
+
+/* fact box: two colour boxes (quote + advantages) above the icon text box @322024–@325291 */
+.amag-factBox{margin-bottom:100px;margin-left:-15px;margin-right:-15px;min-width:100%}
+.amag-factBox .amag-farbBox{display:flex;flex:0 0 100%;flex-wrap:wrap;max-width:100%;padding-left:15px;padding-right:15px;position:relative;width:100%}
+@media (min-width:768px){.amag-factBox .amag-farbBox{flex:0 0 50%;max-width:50%;min-width:50%;width:50%}}
+.amag-farbBox{margin-bottom:20px}
+@media (min-width:768px){.amag-farbBox{margin-bottom:30px}}
+.amag-farbBox__colorContainer{color:#fff;padding:75px 40px;width:100%}
+@media (min-width:1200px){.amag-farbBox__colorContainer{padding:75px 95px}}
+.amag-farbBox__colorContainer .amag-quoteModul__customerBy{color:#fff}
+.amag-farbBox__colorContainer--bgColor-amagDark-blue{background-color:var(--amag-dark-blue)}
+.amag-farbBox__colorContainer--bgColor-amagLight-blue{background-color:var(--amag-light-blue)}
+.amag-farbBox .amag-quoteModul{margin-bottom:-40px}
+.amag-farbBox .amag-quoteModul .amag-quoteModul__qoute{font-size:24px;line-height:28px;margin-bottom:60px}
+@media (min-width:1200px){.amag-farbBox .amag-quoteModul .amag-quoteModul__qoute{font-size:32px;line-height:36px;margin-bottom:45px}}
+/* advantages module @468536–@469154 */
+.amag-vorteilsModul{font-family:var(--font-text-light)}
+.amag-vorteilsModul__headline{font-family:var(--font-display-bold);font-size:24px;line-height:28px;margin-bottom:43px}
+@media (min-width:1200px){.amag-vorteilsModul__headline{font-size:32px;line-height:36px;margin-bottom:38px}}
+.amag-vorteilsModul__subElementHeadline{font-family:var(--font-display-bold);margin-top:22px}
+@media (min-width:1200px){.amag-vorteilsModul__subElementHeadline{margin-top:25px}}
+.amag-vorteilsModul__subElementHeadline:before{content:"-";font-family:var(--font-display-bold)}
+
+/* text image (full-width picture) @465546–@467213 */
+.amag-textImage{width:100%}
+.amag-textImage.amag-marginBottom{margin-bottom:70px}
+@media (min-width:1200px){.amag-textImage.amag-marginBottom{margin-bottom:100px}}
+.amag-textImage__image{width:100%}
+.amag-textImage h2{font-size:32px;line-height:36px}
+@media (min-width:1200px){.amag-textImage h2{font-size:44px;line-height:48px}}
+.amag-textImage__content{position:relative}
+.amag-textImage__content--imageCenter img{margin:0}
+.amag-textImage .amagCh-section-description{margin-bottom:44px}
+.amag-textImage .amagCh-section-description .wrapper{margin-bottom:11px}
+@media (min-width:768px){.amag-textImage .amagCh-section-description .wrapper{margin-bottom:16px}}
+.amag-textImage .amagCh-section-description__theme{padding-top:15px!important}
+@media (min-width:360px) and (max-width:767.98px){.amag-textImage .amagCh-section-description__theme{margin-bottom:15px}}
+.amag-textImage .amagCh-section-description__subtext{font-size:20px}
+
+/* standard teaser — the FAQ accordion panel body (hidden as captured, shown by the accordion toggle) @447804–@448982 */
+.standardTeaser{width:100%}
+.amag-standardTeaser__image{margin-bottom:7px}
+.amag-standardTeaser__image .cmp-image{overflow:hidden}
+.amag-standardTeaser__image .cmp-image img{width:100%}
+.amag-standardTeaser__image .cmp-image picture,.amag-standardTeaser__image .cmp-image picture img{display:block}
+.amag-standardTeaser__container{position:relative}
+.amag-standardTeaser__description p:last-of-type{margin-bottom:0}
+.amag-standardTeaser__description p:first-of-type{margin-top:-5px}
+.amag-standardTeaser__imgCaption{background-color:#f5f5f5;font-family:var(--font-text-light);font-size:14px;letter-spacing:.01em;line-height:22px;padding:14px 10px 16px}

@@ -1,0 +1,395 @@
+div.amag-content
+  section.section
+    div.amagCh-section.amagCh-section--white
+      div.amagCh-section__stepswrapper-before
+        div.stepscontainer
+          div.left
+          div.right
+      div.amagCh-section__container
+        div.container.row.m-auto
+          div.amag-introService.amag-marginBottom
+            div.row.mx-0.amag-marginBottom
+              div.col-lg-6.col-md-12.col-sm-12.order-sm-1.order-lg-0.p-0.amag-introService__textWrapper
+                div.amag-introService__body
+                  div.amag-introService__breadcrumbs
+                  h1.amag-introService__title
+                div.amag-introService__otvCta.d-flex.flex-column
+                  div.amag-otvCtaWrapper--cookie.d-none
+                  div.amag-otvCtaWrapper--noCookie
+                  div#garageModal-7d3613bb-64bd-4eef-8a5f-7f930908cf25.amag-garageOverlay.modal.fade
+              div.offset-lg-1.order-sm-0.order-lg-1.amag-introService__ratioWrapper
+                div.amag-introService__imgWrapper
+                  picture
+  section.section
+    div#frueh.amagCh-section.amagCh-section--colored.amagCh-section--white
+      div.amagCh-section__stepswrapper-before.background-color-white
+        div.stepscontainer
+          div.left
+          div.right
+      div.amagCh-section__container
+        div.container.row.m-auto
+          div.amag-image-text-v2.w-100.amag-marginBottom
+            article.amag-image-text-v2__wrapper.amag-image-text-v2__wrapper--imageLeft
+              div.row
+                div.amag-image-text-v2__image-wrapper.col-sm-12.col-md-6.col-lg-7
+                  div.amag-image-text-v2__image-container.dm-image
+                div.amag-image-text-v2__text-wrapper.col-sm-12.col-md-6.col-lg-5
+                  h3.amag-image-text-v2__headline
+                  div.amag-image-text-v2__description
+                  a.amag-image-text-v2__link href=/de/service/auto-services-online-termin-buchen.html
+  section.section
+    div.amagCh-section.amagCh-section--colored.amagCh-section--white
+      div.amagCh-section__stepswrapper-before.background-color-colored
+        div.stepscontainer
+          div.left
+          div.right
+      div.amagCh-section__container
+        div.container.row.m-auto
+          div.amagCh-section-description.offset-lg-1.col-12.col-lg-11
+            div.row
+              div.wrapper.justify-content-center.align-items-center.col-12.p-0
+                h2.amagCh-section-description__headline.col-sm-12.col-md-9.p-0
+                  "Winterreifen wechseln und Services"
+          div.rich-text.text
+            div#rich-text-4b8e2304cf.cmp-text
+              p
+                "Wann brauche ich Winterreifen? Sobald die Temperat…"
+                b
+                  "dauerhaft unter 7 °C"
+                "fallen, verlieren Sommerreifen deutlich an Grip. D…"
+              ul
+                li
+                  p
+              ul
+                li
+                  p
+              ul
+                li
+                  p
+              ul
+                li
+                  p
+              p
+                "Sie brauchen neue Winterreifen? Bei uns können Sie…"
+                b
+                  "Winterreifen kaufen."
+                "Neben den besseren Fahreigenschaften ist der Reife…"
+              p
+                "Gerne stehen wir Ihnen mit unseren Winterreifen Se…"
+              p
+                b
+                  "Auf Schnee ist der Bremsweg mit Sommerreifen durch…"
+                b
+                  "wie mit Winterreifen."
+                "Vereinbaren Sie Ihren Reifenwechsel-Termin deshalb…"
+          div.amag-otvCtaWrapper
+            div.amag-otvCtaWrapper--cookie.d-none
+              div.row.mx-0
+                div
+                  h6.amag-otvCtaWrapper__headline.text-uppercase
+              div.row.mx-0
+                div.d-flex
+                  div.amag-otvCtaWrapper__garageName
+                  div.amag-otvCtaWrapper__changeLabel.noGarage
+              div.row.mx-0
+                div.amag-otvCtaWrapper__button
+                  a.amag-ctaWrapper__button.d-flex.justify-content-center.align-items-center.text-decoration-none.amag-ctaWrapper__button--bgColor-amagDark-blue href=/de/service/auto-services-online-termin-buchen.html
+            div.amag-otvCtaWrapper--noCookie
+              div.row.mx-0
+                div.amag-otvCtaWrapper__button
+                  a.amag-ctaWrapper__button.d-flex.justify-content-center.align-items-center.text-decoration-none.amag-ctaWrapper__button--bgColor-amagDark-blue href=/de/service/auto-services-online-termin-buchen.html
+            div#garageModal-464d1f8c-9e3d-4246-9bf3-45d2519de05f.amag-garageOverlay.modal.fade
+              div.modal-dialog
+                div.modal-content
+                  div.modal-header
+                  div.modal-body.row
+  section.section
+    div.amagCh-section.amagCh-section--colored.amagCh-section--white
+      div.amagCh-section__stepswrapper-before.background-color-colored
+        div.stepscontainer
+          div.left
+          div.right
+      div.amagCh-section__container
+        div.container.row.m-auto
+          div.amagCh-section-description.offset-lg-1.col-12.col-lg-11
+            div.row
+              div.wrapper.justify-content-center.align-items-center.col-12.p-0
+                h2.amagCh-section-description__headline.col-sm-12.col-md-9.p-0
+                  "Welche Winterreifen sollte ich wählen?"
+          div.rich-text.text
+            div#rich-text-042b9122a2.cmp-text
+              ul
+                li
+                  p
+              ul
+                li
+                  p
+              p
+                "Seit dem 1. Oktober 2024 gilt in der Schweiz aussc…"
+                a href=https://www.tcs.ch/de/testberichte-ratgeber/ratgeber/reifen/
+                  "Reifen mit Schneeflockensymbol offiziell als Winte…"
+                "Reifen, die nur «M+S» tragen, unterliegen denselbe…"
+              p
+                "Bei der"
+                b
+                  "Profiltiefe für Winterreifen gilt gesetzlich ein M…"
+                ". Für Schnee und Matsch sind"
+                b
+                  "mindestens 4 mm empfehlenswert"
+                ", da der Grip darunter deutlich nachlässt."
+              p
+                "Auch zwischen einzelnen Winterreifen-Modellen gibt…"
+                a href=https://www.presseportal.ch/de/pm/100000091/100942458
+                  "TCS-Winterreifentest 2026"
+                "zeigt bei 32 getesteten Reifen-Modellen für Kleinw…"
+              p
+                "Wir beraten wir Sie gerne zu Winterreifen. Vereinb…"
+              p
+          div.amag-garageElectionOverlay.amag-marginBottom
+            div.amag-garageOverlay--cookie.d-none
+              div.amag-garageElectionOverlay__button.col-md-6.col-lg-4.pl-md-0
+                a#garage.amag-ctaWrapper__button.d-flex.justify-content-center.align-items-center.text-decoration-none.amag-ctaWrapper__button--bgColor-amagDark-blue href=#
+                  img src=w_car-garage-2.svg alt="icon"
+                  "Garage kontaktieren"
+            div.amag-garageOverlay--noCookie
+              div.amag-garageElectionOverlay__button.col-md-6.col-lg-4.pl-md-0
+                a.amag-ctaWrapper__button.d-flex.justify-content-center.align-items-center.text-decoration-none.amag-ctaWrapper__button--bgColor-amagDark-blue.noGarage href=javascript:void(0)
+                  img src=w_car-garage-2.svg alt="icon"
+                  "Garage kontaktieren"
+              div#garageModal-139c3f23-00c5-42bb-9822-a64f1e510136.amag-garageOverlay.modal.fade
+                div.modal-dialog
+                  div.modal-content
+  section.section
+    div.amagCh-section.amagCh-section--white
+      div.amagCh-section__stepswrapper-before.background-color-colored
+        div.stepscontainer
+          div.left
+          div.right
+      div.amagCh-section__container
+        div.container.row.m-auto
+          div.amag-maxiTeaserBild
+            div.amag-maxiTeaserBild__container.amag-marginBottom
+              div.amag-maxiTeaserBild__content.dd-image
+                div.amag-maxiTeaserBild__textImgContainer
+                  div.amag-maxiTeaserBild__captionImgContainer
+                  div.amag-maxiTeaserBild__description
+                div.amag-maxiTeaserBild__btnWrapper
+                  a.amag-maxiTeaserBild__btn.amag-btn--gozilla href=/de/service/reifen-und-raeder/raederhotel.html
+          div.amag-maxiTeaserBild
+            div.amag-maxiTeaserBild__container.amag-marginBottom
+              div.amag-maxiTeaserBild__content.dd-image
+                div.amag-maxiTeaserBild__textImgContainer
+                  div.amag-maxiTeaserBild__captionImgContainer
+                  div.amag-maxiTeaserBild__description
+                div.amag-maxiTeaserBild__btnWrapper
+                  a.amag-maxiTeaserBild__btn.amag-btn--gozilla href=/de/service/reifen-und-raeder/reifengarantie.html
+  section.section
+    div.amagCh-section.amagCh-section--grey
+      div.amagCh-section__stepswrapper-before.background-color-white
+        div.stepscontainer
+          div.left
+          div.right
+      div.amagCh-section__container
+        div.container.row.m-auto
+          div.amagCh-section-description.offset-lg-1.col-12.col-lg-11
+            div.row
+              div.wrapper.justify-content-center.align-items-center.col-12.p-0
+                p.amagCh-section-description__theme.amag-topline.col-sm-12.col-md-3.p-0
+                  "SICHERHEIT GEHT VOR"
+                h2.amagCh-section-description__headline.col-sm-12.col-md-9.p-0
+                  "Immer sicher unterwegs – mit den richtigen Winterr…"
+          div.amag-factBox.row
+            div.amag-farbBox
+              div.amag-farbBox__colorContainer.amag-farbBox__colorContainer--bgColor-amagLight-blue
+                div.amag-quoteModul
+                  p.amag-quoteModul__qoute
+                  p.amag-quoteModul__author.mb-0
+                  p.amag-quoteModul__customerBy.mb-0
+            div.amag-farbBox
+              div.amag-farbBox__colorContainer.amag-farbBox__colorContainer--bgColor-amagDark-blue
+                div.amag-vorteilsModul
+                  div.amag-vorteilsModul__content
+            div.amag-iconTextBox
+              h2.amag-iconTextBox__headline
+                "So erkennen Sie den Reifenzustand Ihrer Winterreif…"
+              div.row
+                div.amag-iconTextBox__item.col-sm-12.col-md-4.col-lg-4
+                  img src=check-circle.svg alt="icon"
+                  h5
+                  p
+                div.amag-iconTextBox__item.col-sm-12.col-md-4.col-lg-4
+                  img src=synchronize-arrows-1 2.svg alt="icon"
+                  h5
+                  p
+                div.amag-iconTextBox__item.col-sm-12.col-md-4.col-lg-4
+                  img src=road-sign-warning 1.svg alt="icon"
+                  h5
+                  p
+          div.amag-textImage.amag-marginBottom
+            div.amag-textImage__content.amag-textImage__content--imageCenter
+              picture
+                source
+                source
+                img.template-image.amag-textImage__image.dam-image src=gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEAL alt="Ob Einlagerung, Wechsel oder N"
+          div.amag-otvCtaWrapper
+            div.amag-otvCtaWrapper--cookie.d-none
+              div.row.mx-0
+                div
+                  h6.amag-otvCtaWrapper__headline.text-uppercase
+              div.row.mx-0
+                div.d-flex
+                  div.amag-otvCtaWrapper__garageName
+                  div.amag-otvCtaWrapper__changeLabel.noGarage
+              div.row.mx-0
+                div.amag-otvCtaWrapper__button
+                  a.amag-ctaWrapper__button.d-flex.justify-content-center.align-items-center.text-decoration-none.amag-ctaWrapper__button--bgColor-amagDark-blue href=/de/service/otv.html
+                  div.amag-otvCtaWrapper__serviceTime.d-flex.justify-content-center
+            div.amag-otvCtaWrapper--noCookie
+              div.row.mx-0
+                div.amag-otvCtaWrapper__button
+                  a.amag-ctaWrapper__button.d-flex.justify-content-center.align-items-center.text-decoration-none.amag-ctaWrapper__button--bgColor-amagDark-blue href=/de/service/otv.html
+                  div.amag-otvCtaWrapper__serviceTime.d-flex.justify-content-center
+            div#garageModal-a9c6ec95-5866-44fb-83a3-e0e23a6d229d.amag-garageOverlay.modal.fade
+              div.modal-dialog
+                div.modal-content
+                  div.modal-header
+                  div.modal-body.row
+  section.section
+    div.amagCh-section.amagCh-section--white
+      div.amagCh-section__stepswrapper-before.background-color-grey
+        div.stepscontainer
+          div.left
+          div.right
+      div.amagCh-section__container
+        div.container.row.m-auto
+          div.amagCh-section-description.offset-lg-1.col-12.col-lg-11
+            div.row
+              div.wrapper.justify-content-center.align-items-center.col-12.p-0
+                p.amagCh-section-description__theme.amag-topline.col-sm-12.col-md-3.p-0
+                  "UNSER AMAG VERSPRECHEN"
+                h2.amagCh-section-description__headline.col-sm-12.col-md-9.p-0
+                  "Mehr als nur Service – was Sie von uns erwarten kö…"
+          div.amag-iconListContainer
+            div.row.amag-marginBottom.amag-iconListContainer--spaceIconList
+              div.col-lg-4.col-md-4.col-sm-12.amag-iconListItem
+                div.row.mx-0.flex-md-column.flex-lg-row
+                  div.col-lg-auto.col-sm-auto.col-md-12.p-0
+                  div.col.p-0.amag-iconListItem__textBox
+              div.col-lg-4.col-md-4.col-sm-12.amag-iconListItem
+                div.row.mx-0.flex-md-column.flex-lg-row
+                  div.col-lg-auto.col-sm-auto.col-md-12.p-0
+                  div.col.p-0.amag-iconListItem__textBox
+              div.col-lg-4.col-md-4.col-sm-12.amag-iconListItem
+                div.row.mx-0.flex-md-column.flex-lg-row
+                  div.col-lg-auto.col-sm-auto.col-md-12.p-0
+                  div.col.p-0.amag-iconListItem__textBox
+          div.amag-kontaktaufnahme.col-12.p-0.amag-marginBottom
+            div.amag-kontaktaufnahme__headline.col-12.pl-0.pr-0
+              h2
+                "Haben Sie weitere Fragen?"
+            div.amag-kontaktaufnahme__introText.col-12.pl-0.pr-0
+              p
+                "Nehmen Sie direkt Kontakt mit einem Experten in Ih…"
+            div.amag-garageElectionOverlay
+              div.amag-garageOverlay--cookie.d-none
+                div.amag-garageElectionOverlay__button.col-md-6.col-lg-4.pl-md-0
+                  a#garage.amag-ctaWrapper__button.d-flex.justify-content-center.align-items-center.text-decoration-none.amag-ctaWrapper__button--bgColor-amagDark-blue href=#
+              div.amag-garageOverlay--noCookie
+                div.amag-garageElectionOverlay__button.col-md-6.col-lg-4.pl-md-0
+                  a.amag-ctaWrapper__button.d-flex.justify-content-center.align-items-center.text-decoration-none.amag-ctaWrapper__button--bgColor-amagDark-blue.noGarage href=javascript:void(0)
+                div#garageModal-2eee0551-b63b-41ec-a747-eea5fb8f9eea.amag-garageOverlay.modal.fade
+                  div.modal-dialog
+          div.accordion.panelcontainer
+            div#accordion-d790311624.cmp-accordion.amag-marginBottom
+              div.cmp-accordion__intro
+                img.cmp-accordion__introIcon src=b_task-checklist-check.svg alt="Winterreifen"
+                h2.cmp-accordion__headline
+                  "Unsere Antworten auf Ihre Fragen zum Winterreifen …"
+              div.cmp-accordion__item
+                div.cmp-accordion__header
+                  button#accordion-d790311624-item-4123227e52-button.cmp-accordion__button
+                div.cmp-accordion__panel.cmp-accordion__panel--hidden
+                  div.standardTeaser
+              div.cmp-accordion__item
+                div.cmp-accordion__header
+                  button#accordion-d790311624-item-666ef0087c-button.cmp-accordion__button
+                div.cmp-accordion__panel.cmp-accordion__panel--hidden
+                  div.standardTeaser
+              div.cmp-accordion__item
+                div.cmp-accordion__header
+                  button#accordion-d790311624-item-193c1b17cb-button.cmp-accordion__button
+                div.cmp-accordion__panel.cmp-accordion__panel--hidden
+                  div.standardTeaser
+              div.cmp-accordion__item
+                div.cmp-accordion__header
+                  button#accordion-d790311624-item-34ab4a9131-button.cmp-accordion__button
+                div.cmp-accordion__panel.cmp-accordion__panel--hidden
+                  div.standardTeaser
+              div.cmp-accordion__item
+                div.cmp-accordion__header
+                  button#accordion-d790311624-item-c5715fc961-button.cmp-accordion__button
+                div.cmp-accordion__panel.cmp-accordion__panel--hidden
+                  div.standardTeaser
+              div.cmp-accordion__item
+                div.cmp-accordion__header
+                  button#accordion-d790311624-item-9912f1b99b-button.cmp-accordion__button
+                div.cmp-accordion__panel.cmp-accordion__panel--hidden
+                  div.standardTeaser
+              div.cmp-accordion__item
+                div.cmp-accordion__header
+                  button#accordion-d790311624-item-c0e79f2ed0-button.cmp-accordion__button
+                div.cmp-accordion__panel.cmp-accordion__panel--hidden
+                  div.standardTeaser
+              div.cmp-accordion__item
+                div.cmp-accordion__header
+                  button#accordion-d790311624-item-392cd3e4c9-button.cmp-accordion__button
+                div.cmp-accordion__panel.cmp-accordion__panel--hidden
+                  div.standardTeaser
+  section.section
+    div.amagCh-section.amagCh-section--white
+      div.amagCh-section__stepswrapper-before.background-color-white
+        div.stepscontainer
+          div.left
+          div.right
+      div.amagCh-section__container
+        div.container.row.m-auto
+          div.rich-text.text
+            div#rich-text-8095883efa.cmp-text
+              p
+                "*CHF 15.– Rabatt inkl. MwSt. auf Rad- und Reifenwe…"
+  span.amag-pop-up__check-element
+  div.amag-direct-entry
+    div.amag-direct-entry__backdrop hidden
+    div.amag-direct-entry__pop-up
+      div.amag-direct-entry__pop-up-topline
+        "Direkt zu"
+      div
+        a.amag-direct-entry__pop-up-element href=/de/probefahrt.html
+          img.amag-direct-entry__pop-up-icon.size-l src=Probefahrt.svg alt=""
+          span.amag-direct-entry__link
+            "Probefahrt"
+          svg.amag-direct-entry__pop-up-chevron.size-m
+        a.amag-direct-entry__pop-up-element href=/de/service/otv.html
+          img.amag-direct-entry__pop-up-icon.size-l src=calendar-add-1.svg alt=""
+          span.amag-direct-entry__link
+            "Terminvereinbarung"
+          svg.amag-direct-entry__pop-up-chevron.size-m
+        a.amag-direct-entry__pop-up-element href=https://auto.amag.ch/de
+          img.amag-direct-entry__pop-up-icon.size-l src=car-4.svg alt=""
+          span.amag-direct-entry__link
+            "Auto finden"
+          svg.amag-direct-entry__pop-up-chevron.size-m
+        a.amag-direct-entry__pop-up-element href=/de/auto-finden/autos-bei-amag-haendler/e-mobilitaet.html
+          img.amag-direct-entry__pop-up-icon.size-l src=clean-car-cable.svg alt=""
+          span.amag-direct-entry__link
+            "Elektromobilität"
+          svg.amag-direct-entry__pop-up-chevron.size-m
+    div.amag-direct-entry__button
+      div.amag-direct-entry__button--open
+        img.amag-direct-entry__button-icon src=Direkteinstiege.svg alt=""
+        span.amag-direct-entry__label
+          "Services"
+      div.amag-direct-entry__button--close hidden
+        img.amag-direct-entry__button-icon src=close.svg alt=""
+        span.amag-direct-entry__label
+          "Schliessen"

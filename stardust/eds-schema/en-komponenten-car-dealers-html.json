@@ -1,0 +1,148 @@
+{
+ "source": "http://localhost:8791/en-komponenten-car-dealers-html-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "off-canvas__inner-container",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "All filters"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Delete all filters"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Show garages by"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Brand selection"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "VW"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Audi"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "SEAT"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Škoda"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "CUPRA"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "VW Commercial Vehicles"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Bentley"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "VW"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Audi"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "SEAT"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Škoda"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "CUPRA"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "VW Commercial Vehicles"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Bentley"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Offer"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Used Car Center"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Commercial vehicle center"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Body Shop"
+    }
+   ],
+   "imgCount": 15,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "DIV.amag-filterModal__brandsCheckboxes",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 7,
+      "textRuns": 7
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.amag-filterModal__saleListItem",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

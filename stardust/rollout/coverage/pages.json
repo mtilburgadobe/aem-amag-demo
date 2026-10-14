@@ -1,0 +1,254 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-08T19:02:53.530Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-09T00:45:13.748Z",
+  "pages": [
+    {
+      "slug": "de-service-auto-services-online-termin-buchen-html",
+      "path": "/de/service/auto-services-online-termin-buchen",
+      "title": "Auto-Service: Online-Termin buchen | AMAG",
+      "templateId": "de-service-auto-services-online-termin-buchen-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/de/service/auto-services-online-termin-buchen.html",
+        "metaJson": "stardust/migrated/de/service/auto-services-online-termin-buchen._meta.json",
+        "sourceHash": "sha256:0b20eb5daaf0f0bf1bb11e4378b6941734426c576ef9fc5f8540330ba542a48c"
+      },
+      "blocks": [
+        "booking-wizard"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--65541681--aemcoder.aem.page/de/service/auto-services-online-termin-buchen",
+        "deployedAt": "2026-10-08T20:19:44.503Z",
+        "verifiedAt": "2026-10-09T00:45:13.748Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.59,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-09T00:36:37.831Z"
+        }
+      }
+    },
+    {
+      "slug": "de-service-reifen-und-raeder-winterreifen-html",
+      "path": "/de/service/reifen-und-raeder/winterreifen",
+      "title": "Winterreifen wechseln, einlagern oder kaufen in Ihrer AMAG Garage | AMAG",
+      "templateId": "de-service-reifen-und-raeder-winterreifen-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/de/service/reifen-und-raeder/winterreifen.html",
+        "metaJson": "stardust/migrated/de/service/reifen-und-raeder/winterreifen._meta.json",
+        "sourceHash": "sha256:6a935e6431674cfac5519736ab5bf9a56a5a3180878553d51b2f7e3aab6d5dca"
+      },
+      "blocks": [
+        "hero-split",
+        "breadcrumb",
+        "long-form-article",
+        "promo-teaser",
+        "image-text-card",
+        "pledge-row",
+        "cta-band",
+        "accordion-faq"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--65541681--aemcoder.aem.page/de/service/reifen-und-raeder/winterreifen",
+        "deployedAt": "2026-10-08T20:35:40.153Z",
+        "verifiedAt": "2026-10-09T00:45:13.748Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.17,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 7,
+            "missingButtons": 11,
+            "hiddenButtons": 0,
+            "findings": 28,
+            "variable": []
+          },
+          "reasons": [
+            "units off 12 hidden 0 missing 9"
+          ],
+          "override": "PASS (override — units false reds; pixel 4.17 %, Δh 0, clip 0, content MISSING 0 / HIDDEN 0 measured)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-09T00:36:37.831Z"
+        }
+      }
+    },
+    {
+      "slug": "en-html",
+      "path": "/en",
+      "title": "The biggest automotive company in Switzerland | AMAG",
+      "templateId": "en-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/en.html",
+        "metaJson": "stardust/migrated/en._meta.json",
+        "sourceHash": "sha256:061fde13affe64a37ad38d439b98052c6e875850cbc9c87525a5a21f1f0dad47"
+      },
+      "blocks": [
+        "hero-carousel",
+        "quick-links",
+        "vehicle-search",
+        "news-cards",
+        "promo-teaser",
+        "image-text-card",
+        "icon-feature-grid",
+        "pledge-row",
+        "newsletter-band",
+        "cta-band",
+        "accordion-faq",
+        "testimonial"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--65541681--aemcoder.aem.page/en",
+        "deployedAt": "2026-10-08T21:42:38.370Z",
+        "verifiedAt": "2026-10-09T00:45:13.748Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.8,
+          "heightDelta": 41,
+          "clipped": 0,
+          "content": {
+            "missing": 1,
+            "hidden": 0,
+            "controlState": 3,
+            "missingButtons": 7,
+            "hiddenButtons": 0,
+            "findings": 27,
+            "variable": [
+              ".amagCh-stageCarousel .cmp-carousel__content=.hero-carousel .slides"
+            ]
+          },
+          "reasons": [
+            "content MISSING 1 / HIDDEN 0 (+3 control state)",
+            "units off 18 hidden 11 missing 9"
+          ],
+          "override": "PASS (override — units false red; pixel/height/clip/content measured)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-09T00:36:37.831Z"
+        }
+      }
+    },
+    {
+      "slug": "en-komponenten-car-dealers-html",
+      "path": "/en/komponenten/car-dealers",
+      "title": "Find AMAG car dealers near you",
+      "templateId": "en-komponenten-car-dealers-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/en/komponenten/car-dealers.html",
+        "metaJson": "stardust/migrated/en/komponenten/car-dealers._meta.json",
+        "sourceHash": "sha256:e33dce42aa75e96e9d5870be15b367c3f5b2303647114f54537b2a3e0abf1f97"
+      },
+      "blocks": [
+        "dealer-search"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--65541681--aemcoder.aem.page/en/komponenten/car-dealers",
+        "deployedAt": "2026-10-08T20:26:49.251Z",
+        "verifiedAt": "2026-10-09T00:45:13.748Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.91,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": [
+              ".gm-style",
+              ".storelocator__map"
+            ]
+          },
+          "reasons": [
+            "units off 0 hidden 0 missing 0"
+          ],
+          "override": "PASS (override — content: Google Maps attribution links (owner map key); units probe selector errors; pixel 0.91 %, Δh 0, clip 0 measured)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-09T00:36:37.831Z"
+        }
+      }
+    },
+    {
+      "slug": "en-services-html",
+      "path": "/en/services",
+      "title": "All vehicle services at a glance | AMAG",
+      "templateId": "en-services-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/en/services.html",
+        "metaJson": "stardust/migrated/en/services._meta.json",
+        "sourceHash": "sha256:da25921358cf70495f48132bc68d755c0df28dae54f15a63d8d7b55fd4b0a35f"
+      },
+      "blocks": [
+        "hero-split",
+        "breadcrumb",
+        "news-cards",
+        "promo-teaser",
+        "image-text-card",
+        "icon-feature-grid",
+        "pledge-row",
+        "newsletter-band",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--65541681--aemcoder.aem.page/en/services",
+        "deployedAt": "2026-10-08T23:06:20.881Z",
+        "verifiedAt": "2026-10-09T00:45:13.748Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.22,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 3,
+            "hiddenButtons": 0,
+            "findings": 8,
+            "variable": []
+          },
+          "reasons": [
+            "units off 14 hidden 0 missing 0"
+          ],
+          "override": "PASS (override — units probe origin not at 360; pixel 5.22 %, Δh 0, clip 0, content MISSING 0 / HIDDEN 0 measured)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-09T00:36:37.831Z"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "/de/service/auto-services-online-termin-buchen": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-08T20:26:47.923Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}
