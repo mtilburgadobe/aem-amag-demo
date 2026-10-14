@@ -76,6 +76,24 @@ main > .section > .dealer-search-wrapper {
   display: none;
 }
 
+/* interactive map: over the captures (placeholder), faded in once the first tiles load */
+.dealer-search .map-canvas {
+  background-color: #e5e3df;
+  inset: 0;
+  opacity: 0;
+  position: absolute;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+}
+
+.dealer-search .locator-map.is-live .map-canvas {
+  opacity: 1;
+}
+
+.dealer-search .map-canvas .leaflet-control-zoom a {
+  color: #222;
+}
+
 /* ---- overlay (search panel + list) */
 .dealer-search .locator-overlay {
   background-color: #fff;
