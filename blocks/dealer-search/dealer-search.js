@@ -305,9 +305,20 @@ const isBadge = (p) => {
   if (!a) return false;
   return norm(a.textContent) === norm(a.getAttribute('href')) || /webbosaurus/.test(hrefOf(p));
 };
-const isCta = (p) => !!p.querySelector('strong > a, em > a, a.button');
+const isCta = (p) => !isTel(p) && !!p.querySelector('strong > a, em > a, a.button');
 
-// tel links: one anchor, <strong>number</strong><em>short label</em> — CSS shows one per breakpoint
+// tel links: one anchor, <strong>number</strong><em>short label</em> (one shown per breakpoint).
+// Document authoring may split it into <strong><a tel>number</a></strong><em><a tel>label</a></em>:
+// merge back into the one-anchor shape (the formatting moves inside the link).
+function normalizeTel(p) {
+  const tels = [...p.querySelectorAll('a[href^="tel:"]')];
+  if (!tels.some((a) => a.parentElement !== p && a.parentElement.matches('strong, em'))) return;
+  const link = el('a', '', { href: tels[0].getAttribute('href') });
+  tels.forEach((a) => a.replaceWith(...a.childNodes));
+  link.append(...p.childNodes);
+  p.append(link);
+}
+
 function phoneGroup(tels, className, iconName) {
   if (!tels.length) return null;
   const g = el('div', className);
@@ -788,6 +799,9 @@ function wireSearch(input, clear, garages, onChange) {
 }
 
 export default function decorate(block) {
+  block.querySelectorAll('p').forEach((p) => {
+    if (p.querySelector('a[href^="tel:"]')) normalizeTel(p);
+  });
   const rows = [...block.children].map((row) => {
     const cells = [...row.children];
     const key = norm(cells[0] ? cells[0].textContent : '');
