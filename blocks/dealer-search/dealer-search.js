@@ -40,12 +40,14 @@
  *
  * Map: an interactive OpenStreetMap (Leaflet, vendored in /scripts/leaflet) replaces the Google
  * Maps canvas. The authored captures stay as the placeholder until the first tiles load. One AMAG
- * marker per garage, placed from garage-locations.js (name + street). As on live: marker click
+ * marker per garage, placed from garage-data.js (name + street). As on live: marker click
  * opens the garage detail, centers the garage at zoom 10 beside the overlay and turns its marker
  * blue; list clicks do the same; the search hides the markers of filtered-out garages.
+ * Detail brands: "Sale" chips copy the garage row's authored brand list, "Service" chips come from
+ * garage-data.js (not in the authored details row).
  */
 import { loadCSS, loadScript } from '../../scripts/aem.js';
-import LOCATIONS from './garage-locations.js';
+import GARAGES from './garage-data.js';
 
 const SVG = {
   search: '<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org'
@@ -303,9 +305,20 @@ const isBadge = (p) => {
   if (!a) return false;
   return norm(a.textContent) === norm(a.getAttribute('href')) || /webbosaurus/.test(hrefOf(p));
 };
-const isCta = (p) => !!p.querySelector('strong > a, em > a, a.button');
+const isCta = (p) => !isTel(p) && !!p.querySelector('strong > a, em > a, a.button');
 
-// tel links: one anchor, <strong>number</strong><em>short label</em> — CSS shows one per breakpoint
+// tel links: one anchor, <strong>number</strong><em>short label</em> (one shown per breakpoint).
+// Document authoring may split it into <strong><a tel>number</a></strong><em><a tel>label</a></em>:
+// merge back into the one-anchor shape (the formatting moves inside the link).
+function normalizeTel(p) {
+  const tels = [...p.querySelectorAll('a[href^="tel:"]')];
+  if (!tels.some((a) => a.parentElement !== p && a.parentElement.matches('strong, em'))) return;
+  const link = el('a', '', { href: tels[0].getAttribute('href') });
+  tels.forEach((a) => a.replaceWith(...a.childNodes));
+  link.append(...p.childNodes);
+  p.append(link);
+}
+
 function phoneGroup(tels, className, iconName) {
   if (!tels.length) return null;
   const g = el('div', className);
@@ -338,12 +351,14 @@ const MARKER = {
   active: { file: 'amag-marker-blue.png', size: [51, 61] },
 };
 
-function lookupLocations() {
+const BRAND_LABELS = { sale: 'Sale', service: 'Service' };
+
+function lookupGarages() {
   const byKey = new Map();
-  LOCATIONS.forEach(([name, street, lat, lng]) => {
+  GARAGES.forEach(([name, street, lat, lng, service]) => {
     const key = `${norm(name)}|${norm(street)}`;
     if (!byKey.has(key)) byKey.set(key, []);
-    byKey.get(key).push([lat, lng]);
+    byKey.get(key).push({ at: [lat, lng], service: service || [] });
   });
   // repeated name + street pairs resolve in list order
   return (garage) => {
@@ -361,7 +376,7 @@ function overlayPadding(map, overlay) {
   return Math.max(0, covered);
 }
 
-async function initMap(mapEl, overlay, garages) {
+async function initMap(mapEl, overlay, garages, records) {
   const base = `${window.hlx.codeBasePath}/scripts/leaflet`;
   await Promise.all([loadCSS(`${base}/leaflet.css`), loadScript(`${base}/leaflet.js`)]);
   const { L } = window;
@@ -383,9 +398,8 @@ async function initMap(mapEl, overlay, garages) {
     iconSize: size,
     iconAnchor: [size[0] / 2, size[1]],
   })]));
-  const locate = lookupLocations();
-  const markers = garages.map((g) => {
-    const at = locate(g);
+  const markers = garages.map((g, i) => {
+    const at = records[i] && records[i].at;
     if (!at) return null;
     const name = g.querySelector('.garage-name p');
     const marker = L.marker(at, {
@@ -393,7 +407,14 @@ async function initMap(mapEl, overlay, garages) {
       title: name ? name.textContent.trim() : '',
       alt: name ? name.textContent.trim() : '',
     });
-    marker.on('click', () => g.click());
+    // replay on the list entry: detail 1 for a pointer click, 0 for keyboard (focuses the modal)
+    const open = (detail) => g.dispatchEvent(new MouseEvent('click', { bubbles: true, detail }));
+    marker.on('click', () => open(1));
+    marker.on('keydown', ({ originalEvent: e }) => {
+      if (e.key !== 'Enter' && e.key !== ' ') return;
+      e.preventDefault();
+      open(0);
+    });
     return marker.addTo(map);
   });
 
@@ -689,23 +710,55 @@ function buildDirectEntry(row) {
   return root;
 }
 
-function wireGarages(list, garages, modals, onSelect) {
+function pairModals(garages, modals) {
   const byName = new Map(modals.map((m) => [m.dataset.name, m]));
-  const openModal = (modal) => {
+  return garages.map((g, i) => byName.get(g.dataset.name) || modals[i] || null);
+}
+
+function brandGroup(kind, names) {
+  if (!names.length) return null;
+  const group = el('div', `modal-brands ${kind}`);
+  const ul = el('ul');
+  names.forEach((n) => {
+    const li = el('li');
+    li.textContent = n;
+    ul.append(li);
+  });
+  const title = el('p', 'modal-brands-title');
+  title.textContent = BRAND_LABELS[kind];
+  group.append(title, ul);
+  return group;
+}
+
+// sale (authored garage row) + service (garage-data.js) chips, placed before the rating badge
+function addModalBrands(modal, garage, record) {
+  const sale = [...garage.querySelectorAll('.garage-brands li')].map((li) => li.textContent.trim());
+  const groups = [brandGroup('sale', sale), brandGroup('service', record ? record.service : [])]
+    .filter(Boolean);
+  if (!groups.length) return;
+  const content = modal.querySelector('.modal-content');
+  const rating = content.querySelector('.modal-rating');
+  if (rating) rating.before(...groups);
+  else content.append(...groups);
+}
+
+function wireGarages(list, garages, modals, pairs, onSelect) {
+  // focus moves to "Back to overview" on keyboard activation only (no focus ring on mouse clicks)
+  const openModal = (modal, keyboard) => {
     modals.forEach((m) => {
       m.hidden = m !== modal;
     });
     const frame = modal.querySelector('iframe[data-src]');
     if (frame && !frame.getAttribute('src')) frame.setAttribute('src', frame.dataset.src);
     const close = modal.querySelector('.modal-close');
-    if (close) close.focus();
+    if (close && keyboard) close.focus();
   };
   garages.forEach((g, i) => {
-    const modal = byName.get(g.dataset.name) || modals[i];
+    const modal = pairs[i];
     if (!modal) return;
     g.addEventListener('click', (e) => {
       if (e.target.closest('a')) return;
-      openModal(modal);
+      openModal(modal, e.detail === 0);
       onSelect(i);
     });
   });
@@ -746,6 +799,9 @@ function wireSearch(input, clear, garages, onChange) {
 }
 
 export default function decorate(block) {
+  block.querySelectorAll('p').forEach((p) => {
+    if (p.querySelector('a[href^="tel:"]')) normalizeTel(p);
+  });
   const rows = [...block.children].map((row) => {
     const cells = [...row.children];
     const key = norm(cells[0] ? cells[0].textContent : '');
@@ -803,12 +859,16 @@ export default function decorate(block) {
   inner.append(aside);
   locator.append(inner);
   onActivate(filterBtn, () => setOpen(true));
+  const locate = lookupGarages();
+  const records = garages.map(locate);
+  const pairs = pairModals(garages, modals);
+  pairs.forEach((m, i) => m && addModalBrands(m, garages[i], records[i]));
   let mapApi = null;
-  wireGarages(list, garages, modals, (i) => mapApi && mapApi.select(i));
+  wireGarages(list, garages, modals, pairs, (i) => mapApi && mapApi.select(i));
   wireSearch(input, clear, garages, () => mapApi && mapApi.sync());
   const mapEl = inner.querySelector('.locator-map');
   if (mapEl) {
-    initMap(mapEl, overlay, garages).then((api) => {
+    initMap(mapEl, overlay, garages, records).then((api) => {
       mapApi = api;
     });
   }

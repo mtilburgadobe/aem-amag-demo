@@ -101,7 +101,6 @@ main > .section > .dealer-search-wrapper {
   flex-direction: column;
   position: relative;
   width: 100%;
-  z-index: 1000;
 }
 
 .dealer-search .locator-search {
@@ -254,6 +253,11 @@ main > .section > .dealer-search-wrapper {
   line-height: 24px;
 }
 
+.dealer-search .modal-address p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
 .dealer-search .garage-address {
   margin-bottom: 20px;
 }
@@ -264,7 +268,8 @@ main > .section > .dealer-search-wrapper {
   margin-bottom: 20px;
 }
 
-.dealer-search .garage-brands li {
+.dealer-search .garage-brands li,
+.dealer-search .modal-brands li {
   background-color: #e8e8e8;
   border-radius: 2px;
   color: #222;
@@ -283,10 +288,7 @@ main > .section > .dealer-search-wrapper {
 }
 
 .dealer-search .garage-phone,
-.dealer-search .garage-route,
-.dealer-search .modal-call,
-.dealer-search .modal-mail,
-.dealer-search .modal-route {
+.dealer-search .garage-route {
   align-items: center;
   display: inline-flex;
 }
@@ -335,31 +337,34 @@ main > .section > .dealer-search-wrapper {
   fill: #172983;
 }
 
-/* ---- garage detail modal (n = 100, [hidden] at rest; opened by a list click) */
+/* ---- garage detail modal (n = 100, [hidden] at rest; opened by a list or marker click);
+   < 768 it is a full-screen layer over the header (as on live) */
 .dealer-search .garage-modal {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  left: 0;
+  inset: 0;
   overflow-y: auto;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
+  position: fixed;
+  z-index: 1035;
 }
 
 .dealer-search .modal-header {
-  padding: 30px 15px 20px;
+  padding: 40px 15px;
 }
 
 .dealer-search .modal-close {
   align-items: center;
   color: #000;
+  cursor: pointer;
   display: inline-flex;
-  font-family: var(--font-text-bold);
+  font-family: var(--font-text-light);
   font-size: 16px;
   line-height: 24px;
+}
+
+.dealer-search .modal-close:focus:not(:focus-visible) {
+  outline: none;
 }
 
 .dealer-search .modal-close p {
@@ -369,6 +374,7 @@ main > .section > .dealer-search-wrapper {
 
 .dealer-search .modal-close svg {
   margin-right: 10px;
+  transform: scaleX(-1);
 }
 
 .dealer-search .modal-content {
@@ -380,33 +386,42 @@ main > .section > .dealer-search-wrapper {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .dealer-search .modal-title h3 {
   color: #172983;
   font-family: var(--font-display-bold);
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 36px;
+  margin: 0;
 }
 
 .dealer-search .modal-favorite,
 .dealer-search .modal-unfavorite {
   cursor: pointer;
   display: flex;
-  margin-left: 15px;
+  flex-shrink: 0;
+  margin-left: 20px;
 }
 
-.dealer-search .modal-address {
-  margin-bottom: 20px;
+.dealer-search .modal-unfavorite[hidden] {
+  display: none;
 }
 
+.dealer-search .modal-favorite svg,
+.dealer-search .modal-unfavorite svg {
+  height: 32px;
+  width: 32px;
+}
+
+/* Call / Contact / Route as 98px tiles (icon over label); ≥ 768 the phone gets its own row */
 .dealer-search .modal-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px 36px;
-  margin-bottom: 30px;
+  gap: 0 10px;
+  margin: 40px 0;
 }
 
 .dealer-search .modal-actions a:any-link {
@@ -417,28 +432,86 @@ main > .section > .dealer-search-wrapper {
   text-decoration: none;
 }
 
-.dealer-search .modal-actions svg {
-  height: 24px;
-  margin-right: 10px;
-  width: 24px;
+.dealer-search .modal-call,
+.dealer-search .modal-mail,
+.dealer-search .modal-route {
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  height: 98px;
+  justify-content: center;
+  position: relative;
+  width: 98px;
+}
+
+.dealer-search .modal-call svg,
+.dealer-search .modal-mail svg,
+.dealer-search .modal-route svg {
+  fill: #222;
+  flex-shrink: 0;
+  height: 32px;
+  margin-bottom: 8px;
+  width: 32px;
+}
+
+/* the whole tile is the link */
+.dealer-search .modal-call a::after,
+.dealer-search .modal-mail a::after,
+.dealer-search .modal-route a::after {
+  content: '';
+  inset: 0;
+  position: absolute;
+}
+
+.dealer-search .modal-link {
+  margin-bottom: 40px;
 }
 
 .dealer-search .modal-link a:any-link {
+  border-bottom: 2px solid #172983;
   color: #172983;
+  display: inline-block;
   font-family: var(--font-text-bold);
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.dealer-search .modal-brands {
+  margin-bottom: 10px;
+}
+
+.dealer-search .modal-brands.service {
+  margin-bottom: 30px;
+}
+
+.dealer-search .modal-brands-title {
+  color: #6f6d6a;
+  font-family: var(--font-text-light);
   font-size: 16px;
   line-height: 24px;
-  text-decoration: underline;
+  margin: 0;
+}
+
+.dealer-search .modal-brands ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
 }
 
 .dealer-search .modal-rating {
-  margin-top: 30px;
+  margin: 0 -15px 30px 0;
   min-height: 60px;
+  padding-bottom: 30px;
 }
 
 .dealer-search .modal-rating iframe {
   border: 0;
-  height: 60px;
+  height: 185px;
   width: 100%;
 }
 
@@ -453,11 +526,29 @@ main > .section > .dealer-search-wrapper {
 .dealer-search .modal-footer {
   background: #fff;
   bottom: 0;
-  padding: 15px;
   position: sticky;
 }
 
-.dealer-search .modal-footer a.button {
+.dealer-search .modal-footer p {
+  margin: 0;
+}
+
+.dealer-search .modal-footer a:any-link {
+  align-items: center;
+  background-color: #172983;
+  border: 0;
+  border-radius: 0;
+  color: #fff;
+  display: flex;
+  font-family: var(--font-text-bold);
+  font-size: 20px;
+  justify-content: center;
+  line-height: 30px;
+  margin: 0;
+  max-width: none;
+  min-height: 70px;
+  padding: 0 20px;
+  text-decoration: none;
   width: 100%;
 }
 
@@ -908,6 +999,7 @@ main > .section > .dealer-search-wrapper {
     position: absolute;
     right: 40px;
     width: 330px;
+    z-index: 1000;
   }
 
   .dealer-search .search-title {
@@ -938,16 +1030,59 @@ main > .section > .dealer-search-wrapper {
     right: 16px;
   }
 
+  .dealer-search .garage-modal {
+    height: 100%;
+    inset: 0 auto auto 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+  }
+
   .dealer-search .modal-header {
-    padding: 40px 40px 20px;
+    padding: 40px 40px 60px;
+  }
+
+  .dealer-search .modal-actions {
+    gap: 0 20px;
+    margin: 0 0 40px;
+  }
+
+  .dealer-search .modal-actions a:any-link {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .dealer-search .modal-call {
+    background-color: transparent;
+    flex-basis: 100%;
+    flex-direction: row;
+    height: auto;
+    justify-content: flex-start;
+    margin: 40px 0 20px;
+    width: auto;
+  }
+
+  .dealer-search .modal-call svg {
+    fill: #801977;
+    margin: 0 10px 0 0;
+  }
+
+  .dealer-search .modal-mail,
+  .dealer-search .modal-route {
+    height: 123px;
+    width: 123px;
+  }
+
+  .dealer-search .modal-link {
+    margin-bottom: 60px;
   }
 
   .dealer-search .modal-content {
     padding: 0 40px 30px;
   }
 
-  .dealer-search .modal-footer {
-    padding: 20px 40px;
+  .dealer-search .modal-rating {
+    margin-right: -40px;
   }
 
   .dealer-search .modal-call a strong {
@@ -1001,6 +1136,10 @@ main > .section > .dealer-search-wrapper {
 
 /* ---- ≥ 1200: 445px overlay at the 165px gutter, 40px paddings, phone number shown */
 @media (width >= 1200px) {
+  .dealer-search .modal-footer a:any-link {
+    min-height: 100px;
+  }
+
   .dealer-search .locator-overlay {
     height: calc(100% - 100px);
     right: 165px;
