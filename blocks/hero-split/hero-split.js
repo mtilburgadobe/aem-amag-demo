@@ -8,7 +8,8 @@
  *   - <picture>/<img>: the hero image (LCP — eager + high priority)
  *   - <h1> (or h2/h3): the page headline — stays the authored tag
  *   - link-bearing <p> (`<strong><a><img>label</a></strong>`): the CTA; an icon picture
- *     authored in the same paragraph is moved into the link
+ *     authored in the same paragraph is moved into the link, and an icon-only link with the
+ *     label beside it (`<a><img></a><strong>label</strong>`) takes the label in
  *   - any other <p>: the service-time note under the CTA
  * A `breadcrumb` block immediately before this one in the same section is adopted into the
  * text column (decorated whole; EW9).
@@ -32,6 +33,23 @@ const isCta = (p) => {
   return !!a && text(a) !== '' && text(p) === text(a);
 };
 
+// `<a><img></a><strong>label</strong>` → `<strong><a><img>label</a></strong>`
+function mergeIconLink(p) {
+  const links = p.querySelectorAll('a[href]');
+  if (links.length !== 1) return;
+  const [a] = links;
+  if (a.parentElement !== p || text(a) || !text(p)) return;
+  [...p.childNodes].filter((n) => n !== a).forEach((n) => {
+    if (n.nodeType === Node.ELEMENT_NODE && n.matches('strong, em')) {
+      a.append(...n.childNodes);
+      n.remove();
+    } else a.append(n);
+  });
+  const strong = document.createElement('strong');
+  a.replaceWith(strong);
+  strong.append(a);
+}
+
 function shell(block, name) {
   const wrapper = block.parentElement;
   if (!wrapper || !wrapper.classList.contains(`${name}-wrapper`)) return;
@@ -50,6 +68,7 @@ export default function decorate(block) {
   const prev = wrapper ? wrapper.previousElementSibling : null;
   const crumbs = prev && prev.classList.contains('breadcrumb-wrapper') ? prev : null;
 
+  block.querySelectorAll('p').forEach(mergeIconLink);
   const heading = block.querySelector('h1, h2, h3');
   const media = block.querySelector('picture, img');
   const ps = [...block.querySelectorAll('p')].filter((p) => !p.querySelector('picture, img')
