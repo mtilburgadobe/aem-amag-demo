@@ -40,8 +40,10 @@ function mergeIconLink(p) {
   const [a] = links;
   if (a.parentElement !== p || text(a) || !text(p)) return;
   [...p.childNodes].filter((n) => n !== a).forEach((n) => {
-    if (n.nodeType === Node.ELEMENT_NODE && n.matches('strong, em')) a.append(...n.childNodes);
-    else a.append(n);
+    if (n.nodeType === Node.ELEMENT_NODE && n.matches('strong, em')) {
+      a.append(...n.childNodes);
+      n.remove();
+    } else a.append(n);
   });
   const strong = document.createElement('strong');
   a.replaceWith(strong);
