@@ -35,9 +35,18 @@
  * .off-canvas-box.is-shown + html.overflow-hidden + reset .visible (close reverts); garage click →
  * its detail modal (hidden toggle, badge iframe src from data-src), "Back to overview" closes; the
  * search field filters the list client-side; the pill shows at scrollY >= 300 (50px hysteresis)
- * and toggles its pop-up. The Google Maps canvas (map API key) and the brand filter data are owner
- * rows: the map ships as the captured image, the filter panel body stays hidden as captured.
+ * and toggles its pop-up. The brand filter data is an owner row: the filter panel body stays hidden
+ * as captured.
+ *
+ * Map: an interactive OpenStreetMap (Leaflet, vendored in /scripts/leaflet) replaces the Google
+ * Maps canvas. The authored captures stay as the placeholder until the first tiles load. One AMAG
+ * marker per garage, placed from garage-locations.js (name + street). As on live: marker click
+ * opens the garage detail, centers the garage at zoom 10 beside the overlay and turns its marker
+ * blue; list clicks do the same; the search hides the markers of filtered-out garages.
  */
+import { loadCSS, loadScript } from '../../scripts/aem.js';
+import LOCATIONS from './garage-locations.js';
+
 const SVG = {
   search: '<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org'
     + '/2000/svg"><path d="M31.3333 32C31.1547 32 30.988 31.9307 30.8613 31.8053L23.4093 24'
@@ -324,6 +333,102 @@ function buildMap(cells) {
   return map;
 }
 
+const MARKER = {
+  default: { file: 'amag-marker-black.png', size: [41, 49] },
+  active: { file: 'amag-marker-blue.png', size: [51, 61] },
+};
+
+function lookupLocations() {
+  const byKey = new Map();
+  LOCATIONS.forEach(([name, street, lat, lng]) => {
+    const key = `${norm(name)}|${norm(street)}`;
+    if (!byKey.has(key)) byKey.set(key, []);
+    byKey.get(key).push([lat, lng]);
+  });
+  // repeated name + street pairs resolve in list order
+  return (garage) => {
+    const street = garage.querySelector('.garage-address > p');
+    const hits = byKey.get(`${garage.dataset.name}|${norm(street && street.textContent)}`);
+    return hits && hits.length ? hits.shift() : null;
+  };
+}
+
+// map area left free by the overlay (≥ 768 it floats over the map's right edge)
+function overlayPadding(map, overlay) {
+  const m = map.getBoundingClientRect();
+  const o = overlay.getBoundingClientRect();
+  const covered = o.top < m.bottom && o.bottom > m.top && o.left > m.left ? m.right - o.left : 0;
+  return Math.max(0, covered);
+}
+
+async function initMap(mapEl, overlay, garages) {
+  const base = `${window.hlx.codeBasePath}/scripts/leaflet`;
+  await Promise.all([loadCSS(`${base}/leaflet.css`), loadScript(`${base}/leaflet.js`)]);
+  const { L } = window;
+  if (!L || !mapEl.isConnected) return null;
+
+  const canvas = el('div', 'map-canvas');
+  mapEl.append(canvas);
+  const map = L.map(canvas, { zoomControl: false, attributionControl: true });
+  L.control.zoom({ position: 'bottomleft' }).addTo(map);
+  const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  });
+  tiles.once('load', () => mapEl.classList.add('is-live'));
+  tiles.addTo(map);
+
+  const icons = Object.fromEntries(Object.entries(MARKER).map(([k, { file, size }]) => [k, L.icon({
+    iconUrl: `${window.hlx.codeBasePath}/icons/${file}`,
+    iconSize: size,
+    iconAnchor: [size[0] / 2, size[1]],
+  })]));
+  const locate = lookupLocations();
+  const markers = garages.map((g) => {
+    const at = locate(g);
+    if (!at) return null;
+    const name = g.querySelector('.garage-name p');
+    const marker = L.marker(at, {
+      icon: icons.default,
+      title: name ? name.textContent.trim() : '',
+      alt: name ? name.textContent.trim() : '',
+    });
+    marker.on('click', () => g.click());
+    return marker.addTo(map);
+  });
+
+  const placed = markers.filter(Boolean);
+  const fitAll = () => {
+    if (!placed.length) return;
+    const right = overlayPadding(canvas, overlay);
+    map.fitBounds(L.featureGroup(placed).getBounds(), {
+      paddingTopLeft: [40, 60],
+      paddingBottomRight: [right + 40, 40],
+    });
+  };
+  fitAll();
+
+  let active = null;
+  const select = (index) => {
+    if (active) active.setIcon(icons.default).setZIndexOffset(0);
+    active = markers[index] || null;
+    if (!active) return;
+    active.setIcon(icons.active).setZIndexOffset(1000);
+    // center the garage in the part of the map the overlay leaves free
+    const zoom = Math.max(map.getZoom(), 10);
+    const shift = [overlayPadding(canvas, overlay) / 2, 0];
+    const point = map.project(active.getLatLng(), zoom).add(shift);
+    map.setView(map.unproject(point, zoom), zoom);
+  };
+  const sync = () => markers.forEach((m, i) => {
+    if (!m) return;
+    if (garages[i].hidden) m.remove();
+    else m.addTo(map);
+  });
+  new ResizeObserver(() => map.invalidateSize()).observe(canvas);
+  return { select, sync };
+}
+
 function buildGarage(cells, index) {
   const garage = el('div', 'garage');
   garage.dataset.index = String(index);
@@ -584,7 +689,7 @@ function buildDirectEntry(row) {
   return root;
 }
 
-function wireGarages(list, garages, modals) {
+function wireGarages(list, garages, modals, onSelect) {
   const byName = new Map(modals.map((m) => [m.dataset.name, m]));
   const openModal = (modal) => {
     modals.forEach((m) => {
@@ -601,6 +706,7 @@ function wireGarages(list, garages, modals) {
     g.addEventListener('click', (e) => {
       if (e.target.closest('a')) return;
       openModal(modal);
+      onSelect(i);
     });
   });
   modals.forEach((m) => {
@@ -608,6 +714,7 @@ function wireGarages(list, garages, modals) {
     if (close) {
       onActivate(close, () => {
         m.hidden = true;
+        onSelect(-1);
       });
     }
   });
@@ -616,17 +723,19 @@ function wireGarages(list, garages, modals) {
       modals.forEach((m) => {
         m.hidden = true;
       });
+      onSelect(-1);
     }
   });
 }
 
-function wireSearch(input, clear, garages) {
+function wireSearch(input, clear, garages, onChange) {
   const apply = () => {
     const q = norm(input.value);
     clear.hidden = !q;
     garages.forEach((g) => {
       g.hidden = !!q && !(g.dataset.search || '').includes(q);
     });
+    onChange();
   };
   input.addEventListener('input', apply);
   clear.addEventListener('click', () => {
@@ -694,8 +803,15 @@ export default function decorate(block) {
   inner.append(aside);
   locator.append(inner);
   onActivate(filterBtn, () => setOpen(true));
-  wireGarages(list, garages, modals);
-  wireSearch(input, clear, garages);
+  let mapApi = null;
+  wireGarages(list, garages, modals, (i) => mapApi && mapApi.select(i));
+  wireSearch(input, clear, garages, () => mapApi && mapApi.sync());
+  const mapEl = inner.querySelector('.locator-map');
+  if (mapEl) {
+    initMap(mapEl, overlay, garages).then((api) => {
+      mapApi = api;
+    });
+  }
 
   const out = [locator];
   const quick = by('quick-links')[0];
