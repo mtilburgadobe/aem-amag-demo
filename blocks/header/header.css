@@ -477,24 +477,25 @@ header .header .visually-hidden {
   display: none;
 }
 
-/* transparent morph (home, while the stage is in view) */
-.header-bar-transparent .header-side-white {
+/* transparent morph (home, while the stage is in view); off while a mega-menu is open —
+   live header--overlay-open turns the bar solid white with dark text */
+.header:not(.header-mega-open) .header-bar-transparent .header-side-white {
   background-color: rgb(0 0 0 / 30%);
 }
 
-.header-bar-transparent .header-nav {
+.header:not(.header-mega-open) .header-bar-transparent .header-nav {
   background-color: rgb(0 0 0 / 30%);
   color: #fff;
 }
 
-.header-bar-transparent .header-nav a,
-.header-bar-transparent .header-nav p,
-.header-bar-transparent .header-lang-current {
+.header:not(.header-mega-open) .header-bar-transparent .header-nav a,
+.header:not(.header-mega-open) .header-bar-transparent .header-nav p,
+.header:not(.header-mega-open) .header-bar-transparent .header-lang-current {
   color: #fff !important;
 }
 
-.header-bar-transparent .header-nav svg,
-.header-bar-transparent .header-nav svg path {
+.header:not(.header-mega-open) .header-bar-transparent .header-nav svg,
+.header:not(.header-mega-open) .header-bar-transparent .header-nav svg path {
   fill: #fff;
 }
 
@@ -569,10 +570,11 @@ header .header .visually-hidden {
     justify-content: space-between;
   }
 
-  /* the drawer becomes the inline nav row */
+  /* the drawer becomes the inline nav row (no own ground: the bar's shows through) */
   .header-drawer,
   .header-open .header-drawer {
     position: static;
+    background: none;
     flex: 1 1 auto;
     flex-direction: row;
     width: auto;
@@ -618,6 +620,7 @@ header .header .visually-hidden {
   }
 
   .header-nav-list > ul > li > a picture,
+  .header-nav-list > ul > li > a img,
   .header-nav-list > ul > li > a svg,
   .header-nav-list li ul,
   .header-nav-list li.open > ul,
@@ -785,5 +788,140 @@ header .header .visually-hidden {
 @media (width >= 1450px) {
   .header-benefits {
     padding-right: 120px;
+  }
+}
+
+/* desktop mega-menu (≥ 1200; live .navbar-overlay--desktop): grey main area up to 1024px of
+   the 1440px row, white aside, panel fixed below the bar, scrolls on its own */
+.header-mega {
+  display: none;
+}
+
+@media (width >= 1200px) {
+  .header-nav-list > ul > li > a:hover,
+  .header-nav-list > ul > li.mega-open > a {
+    color: var(--amag-violet);
+  }
+
+  .header-nav-list > ul > li.mega-open > .header-mega {
+    position: fixed;
+    top: var(--header-height);
+    right: 0;
+    left: 0;
+    z-index: 999;
+    display: block;
+    height: calc(100vh - var(--header-height));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    background: linear-gradient(90deg, var(--amag-grey-100) min(calc(100% - 416px), calc(50% + 304px)), #fff 0);
+  }
+
+  .header-mega-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 416px;
+    grid-template-areas:
+      "overview ."
+      "columns aside";
+    align-content: start;
+    max-width: 1440px;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 39px 0 60px;
+  }
+
+  .header-mega-overview {
+    grid-area: overview;
+    padding: 0 15px 0 128px;
+  }
+
+  .header-mega-columns {
+    grid-area: columns;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 273px));
+    column-gap: 30px;
+    align-items: start;
+    padding: 0 15px 0 128px;
+  }
+
+  .header-mega-aside {
+    grid-area: aside;
+    padding: 0 15px 0 14px;
+  }
+
+  /* live: aside headings are inset 15px from the logo-tile column */
+  .header-nav .header-mega-aside > .header-mega-title,
+  .header-nav .header-mega-aside .header-mega-group > .header-mega-title {
+    padding-left: 15px;
+  }
+
+  .header-nav-list .header-mega ul {
+    display: block;
+    position: static;
+    min-height: 0;
+    background: none;
+  }
+
+  .header-nav-list .header-mega a {
+    display: block;
+    width: auto;
+    padding: 15px 0;
+    background: none;
+    font-family: var(--font-text-light);
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(33 37 41);
+  }
+
+  .header-nav-list .header-mega a:hover {
+    color: var(--amag-violet);
+  }
+
+  /* live: the bold face at font-weight 700 (synthetic emboldening of the 400 face) */
+  .header-nav-list .header-mega-link a {
+    font-family: var(--font-text-bold);
+    font-weight: 700;
+  }
+
+  .header-nav .header-mega-title,
+  .header-nav-list .header-mega-title a {
+    font-family: var(--font-text-bold);
+    font-size: 20px;
+    line-height: 30px;
+    color: #999;
+  }
+
+  .header-nav p.header-mega-title:not(:has(a)) {
+    padding: 15px 0;
+  }
+
+  /* brand tiles: 93x90 grey logo tile centred in a 123px column, name below */
+  .header-nav-list .header-mega-brands ul {
+    display: grid;
+    grid-template-columns: repeat(2, 123px);
+    row-gap: 30px;
+    padding-top: 15px;
+  }
+
+  .header-nav-list .header-mega-brands a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    text-align: center;
+  }
+
+  .header-nav-list .header-mega-brands picture {
+    display: block;
+    margin: 0;
+  }
+
+  .header-nav-list .header-mega-brands img {
+    box-sizing: border-box;
+    width: 93px;
+    height: 90px;
+    padding: 25px 15px;
+    background-color: var(--amag-grey-100);
+    object-fit: contain;
   }
 }
