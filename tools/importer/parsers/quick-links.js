@@ -25,7 +25,7 @@ const abs = (u) => {
   try { return new URL(s, `${ORIGIN}/`).href; } catch (e) { return s; }
 };
 function svgDataUri(svg) {
-  // known icons point at the published media file: a data: URI is lost on the DA upload
+  // known icons point at their public file: a data: URI is lost on the DA upload
   const known = knownIconSrc(svg);
   if (known) return known;
   const s = new XMLSerializer().serializeToString(svg);

@@ -1,5 +1,6 @@
 /* eslint-disable */
 /* global WebImporter */
+import { knownIconSrc } from '../known-icons.js';
 
 /**
  * Parser: hero-split-garage (block table "Hero Split Garage").
@@ -31,6 +32,9 @@ const abs = (u) => {
   try { return new URL(s, `${ORIGIN}/`).href; } catch (e) { return s; }
 };
 function svgDataUri(svg) {
+  // known icons point at their public file: a data: URI is lost on the DA upload
+  const known = knownIconSrc(svg);
+  if (known) return known;
   const s = new XMLSerializer().serializeToString(svg);
   return `data:image/svg+xml;base64,${btoa(unescape(encodeURIComponent(s)))}`;
 }
