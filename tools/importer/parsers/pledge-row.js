@@ -1,5 +1,6 @@
 /* eslint-disable */
 /* global WebImporter */
+import { knownIconSrc } from '../known-icons.js';
 
 /**
  * Parser: pledge-row (block table "Pledge Row").
@@ -18,7 +19,8 @@
  *
  * Authoring rows (blocks/pledge-row/pledge-row.js) — ONE ROW PER PILLAR:
  *   <p><img icon></p> | <p><strong>title</strong></p><ul><li>line</li>…</ul>
- * Icons: section 7 renders inline <svg> (-> <img src="data:image/svg+xml…">), section 19 <img>.
+ * Icons: section 7 renders inline <svg> (-> published media file via ../known-icons.js, else
+ *   <img src="data:image/svg+xml…">), section 19 <img>.
  */
 const ORIGIN = 'https://www.amag.ch';
 const txt = (n) => (n ? n.textContent.replace(/\s+/g, ' ').trim() : '');
@@ -30,6 +32,9 @@ const abs = (u) => {
   try { return new URL(s, `${ORIGIN}/`).href; } catch (e) { return s; }
 };
 function svgDataUri(svg) {
+  // known icons point at the published media file: a data: URI is lost on the DA upload
+  const known = knownIconSrc(svg);
+  if (known) return known;
   const s = new XMLSerializer().serializeToString(svg);
   return `data:image/svg+xml;base64,${btoa(unescape(encodeURIComponent(s)))}`;
 }

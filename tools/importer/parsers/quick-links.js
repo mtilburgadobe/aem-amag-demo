@@ -1,5 +1,6 @@
 /* eslint-disable */
 /* global WebImporter */
+import { knownIconSrc } from '../known-icons.js';
 
 /**
  * Parser: quick-links (block table "Quick Links").
@@ -10,7 +11,8 @@
  * Authoring rows (blocks/quick-links/quick-links.js) — ONE ROW PER TILE, two cells:
  *   <p><img icon></p> | <p><a href>label</a></p>
  * The block stretches the text link over the tile, so the icon stays OUTSIDE the link.
- * Icons: inline <svg> on the live page (-> <img src="data:image/svg+xml;base64,…">); an <img> is
+ * Icons: inline <svg> on the live page -> the site's published media file (../known-icons.js), else
+ *   <img src="data:image/svg+xml;base64,…">; an <img> is
  * used as-is. Iteration: `a.amag-stageCarousel__button` tiles (document order).
  */
 const ORIGIN = 'https://www.amag.ch';
@@ -23,6 +25,9 @@ const abs = (u) => {
   try { return new URL(s, `${ORIGIN}/`).href; } catch (e) { return s; }
 };
 function svgDataUri(svg) {
+  // known icons point at the published media file: a data: URI is lost on the DA upload
+  const known = knownIconSrc(svg);
+  if (known) return known;
   const s = new XMLSerializer().serializeToString(svg);
   return `data:image/svg+xml;base64,${btoa(unescape(encodeURIComponent(s)))}`;
 }
