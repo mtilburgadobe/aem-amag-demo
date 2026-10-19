@@ -1,0 +1,28 @@
+{
+  "variantName": "newsletter-band",
+  "baseBlock": "newsletter-band",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "summary": "1440x400 image band with an overhanging white content box and CTA",
+    "purpose": "Image divider band (newsletter, jobs): a full-bleed 1440x400 band image with a white content box overhanging its bottom — optional topline, headline, copy and a CTA button",
+    "differsFromBase": "Project base block."
+  },
+  "contentPattern": {
+    "structure": "`<picture>` outside the CTA the band image; a short `<p>` before the heading the optional topline; `<h2>`/`<h3>` the headline; `<p><img><em|strong><a>label</a></em|strong></p>` the CTA (`<strong>` dark blue, `<em>` violet; the icon beside it moves into the button); any other `<p>` the copy",
+    "rows": "row 1 (1 cell): <picture> band image; row 2 (1 cell): [<p>topline</p>] <h3> <p>copy</p> <p><img icon><em|strong><a href>CTA</a></em|strong></p>"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "newsletter-band"
+  ],
+  "status": "implemented",
+  "notes": "Existing production block (used by the migrated English pages). Companion files backfilled from the JS header comment and CSS; JS/CSS unchanged.",
+  "usage": {
+    "pagesUsing": [
+      "/en",
+      "/en/services"
+    ],
+    "reuseCount": 2,
+    "lastUsed": null
+  }
+}

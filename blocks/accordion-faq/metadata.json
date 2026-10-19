@@ -1,0 +1,45 @@
+{
+  "variantName": "accordion-faq",
+  "baseBlock": "accordion-faq",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "summary": "Collapsed FAQ / SEO accordion rows with violet chevrons",
+    "purpose": "FAQ / SEO accordion: rows collapsed at rest; a click on the question row expands the answer and turns the chevron (0.5 s). The chevron button is labelled by the question heading. Optional head row with an intro icon and headline",
+    "differsFromBase": "Project base block."
+  },
+  "contentPattern": {
+    "structure": "optional first HEAD row (one cell: `<img>` intro icon + `<h2>` headline); then two cells per question: the question heading (`<h3>`) | the answer (`<p>`, `<ul>`, links)",
+    "rows": "[optional head row: <img> + <h2>]; one row per question, 2 cells: [<h3>question</h3>] | [<p>answer</p>]"
+  },
+  "options": [
+    {
+      "class": "grey",
+      "label": "Grey"
+    },
+    {
+      "class": "lavender",
+      "label": "Lavender"
+    },
+    {
+      "class": "band-white",
+      "label": "Band White"
+    },
+    {
+      "class": "band-grey",
+      "label": "Band Grey"
+    }
+  ],
+  "memberVariantIds": [
+    "accordion-faq"
+  ],
+  "status": "implemented",
+  "notes": "Existing production block (used by the migrated English pages). Companion files backfilled from the JS header comment and CSS; JS/CSS unchanged.",
+  "usage": {
+    "pagesUsing": [
+      "/en",
+      "/de/service/reifen-und-raeder/winterreifen"
+    ],
+    "reuseCount": 2,
+    "lastUsed": null
+  }
+}

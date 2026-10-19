@@ -1,0 +1,27 @@
+{
+  "variantName": "video-brand-film",
+  "baseBlock": "video",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "summary": "Full-width 16:9 Vimeo brand film under a statement h4",
+    "purpose": "Full-width 16:9 video player (Vimeo, YouTube or an mp4 file) that loads lazily: with a poster image the player loads and starts only after the play button is pressed; without one a placeholder with a play button shows and the player loads paused when the block scrolls into view. It never autoplays with sound, and the iframe gets the authored title. A statement heading authored as default content directly before the block is reabsorbed as the film headline",
+    "differsFromBase": "Block Collection video: no autoplay/background modes; adds the absorbed headline, a German/French/Italian play label, privacy-friendly embeds (Vimeo dnt=1, youtube-nocookie) and an authored accessible title."
+  },
+  "contentPattern": {
+    "structure": "one row; a link (or bare URL) to the video — Vimeo, YouTube or .mp4/.webm; optional `<picture>` poster; optional `<p>` without a link = the accessible video title (iframe title)",
+    "rows": "1 row, 1 cell: <p><a href=\"https://vimeo.com/896519713\">https://vimeo.com/896519713</a></p><p>Startseiten Imagevideo DE</p> (optional poster <picture> in the same or a second cell)"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "video-brand-film"
+  ],
+  "status": "implemented",
+  "usage": {
+    "pagesUsing": [
+      "/de"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-19"
+  },
+  "reuseGuidance": "Use for any inline (not background) video embed. Background video stages belong to hero-carousel."
+}

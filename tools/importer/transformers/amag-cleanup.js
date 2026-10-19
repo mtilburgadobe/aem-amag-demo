@@ -29,7 +29,68 @@ function absolutize(url) {
   }
 }
 
+// Template `home` (https://www.amag.ch/de.html) — selectors verified in migration-work/cleaned.html.
+// Kept separate from the shared lists so the `garagenuebersicht` output stays byte-identical.
+const HOME_BEFORE = [
+  // Floating "Direkt zu" pill: <div class="amag-direct-entry"> (a block on the garage template,
+  // non-authorable chrome on home)
+  '.amag-content > .amag-direct-entry',
+  '.amag-direct-entry',
+  // Stage carousel chrome no parser consumes. The slides (.cmp-carousel__item) and the quick links
+  // (.amagCh-stageCarousel__buttons--noPadding) stay for the hero-carousel / quick-links parsers.
+  // <div class="cmp-carousel__actions"> (prev / next / pause / play buttons)
+  '.amagCh-stageCarousel .cmp-carousel__actions',
+  // the indicator list (.cmp-carousel__indicator-container) stays: the hero-carousel parser reads
+  // each slide's indicator label from it (cell 4); HOME_AFTER removes any leftover
+  // Video slide progress bar + empty backdrops:
+  // <div class="amag-stageTeaserVideo__progressbar">, <div class="amag-stageTeaserVideo__videoBackdrop">,
+  // <div class="amag-stageTeaserImage__imageBackdrop">
+  '.amagCh-stageCarousel .amag-stageTeaserVideo__progressbar',
+  '.amagCh-stageCarousel .amag-stageTeaserVideo__videoBackdrop',
+  '.amagCh-stageCarousel .amag-stageTeaserImage__imageBackdrop',
+  // "Accept cookies to watch the video" banner in the stage video slides:
+  // <div class="cookie-video-banner__container"> (sibling of .amag-stageTeaserVideo__player,
+  // which is kept)
+  '.amagCh-stageCarousel .cookie-video-banner__container',
+  // AMAG Bot chat iframe wrapper: <div class="frontnow-advisor-container frontnow-hidden">
+  '.frontnow-advisor-container',
+];
+
+const HOME_AFTER = [
+  // Global footer: <footer> (contains the hr.amag-hrBreak separators, which would otherwise
+  // become section breaks)
+  'footer',
+  '.amag-footer',
+  '.amag-direct-entry',
+  // Header pop-up notification (lives in #header; leftovers only):
+  // <div class="amag-pop-up amag-pop-up__wrapper--desktop|--mobile">, <div class="amag-pop-up__wrapper-before">
+  '.amag-pop-up',
+  '.amag-pop-up__wrapper-before',
+  '.frontnow-advisor-container',
+  '.frontnow__backdrop',
+  // Leftover carousel controls (any carousel, after the parsers ran)
+  '.cmp-carousel__actions',
+  '.cmp-carousel__indicator-container',
+  // Video cookie-consent overlays left after parsing: <div class="cookie-video-overlay__container">
+  // (.amag-videoComp) and <div class="cookie-video-banner__container"> (stage slides)
+  '.cookie-video-overlay__container',
+  '.cookie-video-banner__container',
+  // Clientlib loader: <template id="amagch-clientlib"><script …></template> (the <script> sits in
+  // the template's content fragment, so the generic 'script' removal cannot reach it)
+  'template',
+];
+
 export default function transform(hookName, element, payload) {
+  const isHome = !!(payload && payload.template && payload.template.name === 'home');
+
+  if (hookName === H.before && isHome) {
+    WebImporter.DOMUtils.remove(element, HOME_BEFORE);
+  }
+
+  if (hookName === H.after && isHome) {
+    WebImporter.DOMUtils.remove(element, HOME_AFTER);
+  }
+
   if (hookName === H.before) {
     // Overlays / widgets that could interfere with block matching.
     WebImporter.DOMUtils.remove(element, [

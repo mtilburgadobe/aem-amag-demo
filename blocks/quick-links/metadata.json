@@ -1,0 +1,28 @@
+{
+  "variantName": "quick-links",
+  "baseBlock": "quick-links",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "summary": "Three white shortcut tiles (icon + link) overlapping the stage bottom",
+    "purpose": "Stage shortcut tiles under the home carousel: white tiles with a 32px icon and a text link stretched over the whole tile (plain links, not CTA buttons)",
+    "differsFromBase": "Project base block."
+  },
+  "contentPattern": {
+    "structure": "`<picture>`/`<img>` the 32px tile icon (svg); a link `<p>` the tile label and target",
+    "rows": "one row per tile, 2 cells: [<img> icon] | [<p><a href>label</a></p>]"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "quick-links"
+  ],
+  "status": "implemented",
+  "notes": "Existing production block (used by the migrated English pages). Companion files backfilled from the JS header comment and CSS; JS/CSS unchanged.",
+  "usage": {
+    "pagesUsing": [
+      "/en",
+      "/de/garagenuebersicht/garage-buelach"
+    ],
+    "reuseCount": 2,
+    "lastUsed": null
+  }
+}

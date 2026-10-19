@@ -3,8 +3,11 @@
 
 /**
  * Parser: testimonial (block table "Testimonial").
- * Source: https://www.amag.ch/de/garagenuebersicht/garage-buelach.html — `.amag-quoteContainer`
- * (section 13, customer quote).
+ * Sources:
+ *   - https://www.amag.ch/de/garagenuebersicht/garage-buelach.html — `.amag-quoteContainer`
+ *     (section 13, a carousel of `.amag-quoteModul` quotes);
+ *   - https://www.amag.ch/de.html — `.amag-quoteModul` (section 9, a single quote: the instance
+ *     IS the quote module, so it is read directly — no carousel item lookup applies).
  *
  * Authoring row (blocks/testimonial/testimonial.js): ONE row, paragraphs in order —
  *   <p>quote</p><p>author</p><p>customer-of line</p>

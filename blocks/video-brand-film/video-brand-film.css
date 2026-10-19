@@ -1,0 +1,130 @@
+/* video-brand-film — the home brand film (live `.amag-videoComp`, computed styles at
+   375 / 1024 / 1440): statement headline, then a full-width 16:9 player. */
+.video-brand-film {
+  position: relative;
+}
+
+.video-brand-film.band {
+  padding-top: 80px;
+}
+
+.video-brand-film.section-end {
+  padding-bottom: 80px;
+}
+
+.video-brand-film .head :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0 0 15px;
+  font-family: var(--font-display-bold);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.video-brand-film .head p {
+  margin: 0 0 15px;
+}
+
+.video-brand-film .frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: var(--amag-dark-grey);
+}
+
+.video-brand-film .frame > :is(iframe, video) {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.video-brand-film .placeholder {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-brand-film .placeholder :is(picture, img) {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.video-brand-film .placeholder img {
+  object-fit: cover;
+}
+
+.video-brand-film .play {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  padding: 0 0 0 4px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--amag-violet);
+  color: #fff;
+}
+
+.video-brand-film .play svg {
+  width: 32px;
+  height: 32px;
+}
+
+.video-brand-film .play:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 6px var(--amag-black);
+}
+
+.video-brand-film .frame[data-embed-loaded="loading"] .play {
+  cursor: progress;
+  opacity: 0.6;
+}
+
+@media (width >= 768px) {
+  .video-brand-film .head :is(h1, h2, h3, h4, h5, h6) {
+    margin-bottom: 40px;
+    font-size: 32px;
+  }
+
+  .video-brand-film .play {
+    width: 96px;
+    height: 96px;
+  }
+}
+
+@media (width >= 1200px) {
+  .video-brand-film.band {
+    padding-top: 120px;
+  }
+
+  .video-brand-film.section-end {
+    padding-bottom: 120px;
+  }
+
+  .video-brand-film .head :is(h1, h2, h3, h4, h5, h6) {
+    margin-bottom: 36px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .video-brand-film .play {
+    transition: transform 0.2s ease;
+  }
+
+  .video-brand-film .play:hover {
+    transform: scale(1.06);
+  }
+}

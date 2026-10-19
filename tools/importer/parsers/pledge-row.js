@@ -10,6 +10,11 @@
  *      content (the block reabsorbs it — EW8).
  *   2. section 19 (panel 3) `.amag-locationFacilitiesWrapper` — "Unsere Ausstattung": no class;
  *      its eyebrow + <h2> are outside the instance and stay default content.
+ * Source: https://www.amag.ch/de.html — one instance, section 10 (`#versprechen`)
+ *   `.amag-iconListContainer:has(.amag-iconListItem)` — "Unser AMAG Versprechen": same markup as
+ *   the garage section-7 list, so the same rule applies (class `plain-head`, inner <h2> moved
+ *   before the block). The class is keyed on the instance being an `.amag-iconListContainer`
+ *   (or holding its headline), never on the page — `.amag-locationFacilitiesWrapper` stays plain.
  *
  * Authoring rows (blocks/pledge-row/pledge-row.js) — ONE ROW PER PILLAR:
  *   <p><img icon></p> | <p><strong>title</strong></p><ul><li>line</li>…</ul>
