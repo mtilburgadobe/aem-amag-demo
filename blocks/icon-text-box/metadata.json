@@ -1,0 +1,36 @@
+{
+  "variantName": "icon-text-box",
+  "baseBlock": "icon-text-box",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "summary": "4 icon + label items",
+    "purpose": "White \"services at a glance\" box of icon + label items",
+    "differsFromBase": "light, icon pattern, purpose (icon + label items) and structure match; density differs (4 items, no headline row). Verify visually - fallback name icon-text-box-labels if the white box shell does not fit."
+  },
+  "contentPattern": {
+    "structure": "optional leading row with a heading and no image is the box headline; item rows: `<picture>/<img>` 40px icon, `<h5>` (or h3/h4) title — a link inside the title makes the whole item that link — and optional `<p>` text",
+    "rows": [
+      "one row per item: <picture icon> | <h5>Notdienst 24 h</h5>"
+    ]
+  },
+  "options": [
+    {
+      "class": "band-white",
+      "label": "Band White"
+    },
+    {
+      "class": "band-grey",
+      "label": "Band Grey"
+    }
+  ],
+  "memberVariantIds": [
+    "icon-text-box"
+  ],
+  "status": "implemented",
+  "notes": "Existing production block (used by the migrated English pages). Companion files backfilled from the JS header comment and CSS; JS/CSS unchanged.",
+  "usage": {
+    "pagesUsing": [],
+    "reuseCount": 0,
+    "lastUsed": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "variantName": "news-cards",
+  "baseBlock": "news-cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "summary": "12 promotion tiles + 'Mehr anzeigen'",
+    "purpose": "Promotion teaser tiles (2-up, coloured ground, first four shown, the rest behind a \"Show more\" toggle); `carousel` renders 3-up grey content teaser strips with prev/next arrows and a counter. The section head (eyebrow, <h2>, optional <h4>) is default content before the block and is reabsorbed",
+    "differsFromBase": "Identical promotion tiles to /en home default look."
+  },
+  "contentPattern": {
+    "structure": "first `<picture>` the 2:1 tile image (a second one is the AMAG badge); a short `<p>` before the heading is the topline; `<h3>` the title; other `<p>` the copy; a link-bearing `<p>` makes the whole tile that link; a cell holding only a colour word (green | dark-grey | violet | light-blue | dark-blue | black) sets the ground. A trailing row with one `<p>` and nothing else is the \"Show more\" label"
+  },
+  "options": [
+    {
+      "class": "carousel",
+      "label": "Carousel"
+    },
+    {
+      "class": "grey",
+      "label": "Grey"
+    },
+    {
+      "class": "no-band",
+      "label": "No Band"
+    }
+  ],
+  "memberVariantIds": [
+    "news-cards"
+  ],
+  "status": "implemented",
+  "notes": "Existing production block (used by the migrated English pages). Companion files backfilled from the JS header comment and CSS; JS/CSS unchanged.",
+  "usage": {
+    "pagesUsing": [],
+    "reuseCount": 0,
+    "lastUsed": null
+  }
+}

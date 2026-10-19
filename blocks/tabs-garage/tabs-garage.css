@@ -1,0 +1,290 @@
+/* tabs-garage — values lifted from the live theme CSS (clientlib-amagch
+   `.amag-introTabModul__tablist` / `__tab`, `#anchor-link-container .alc-*`). */
+
+/* only the active tab's sections show (beats section styles such as `grey`) */
+main > .section.tabs-garage-panel[hidden] {
+  display: none !important;
+}
+
+.tabs-garage {
+  position: relative;
+}
+
+.tabs-garage .wrap {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* tab bar: three equal tiles, the 1 px line under them spans the viewport */
+.tabs-garage .tablist {
+  position: relative;
+  display: flex;
+  gap: 4px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.tabs-garage .tablist::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: var(--amag-grey-300);
+}
+
+.tabs-garage .tab {
+  position: relative;
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+  padding: 0 5px;
+  border-top: 5px solid transparent;
+  background-color: var(--amag-grey-100);
+  color: #000;
+  font-family: var(--font-text-light);
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.tabs-garage .tab:focus {
+  outline: none;
+}
+
+.tabs-garage .tab:focus-visible {
+  outline: 2px solid var(--amag-dark-blue);
+  outline-offset: -2px;
+}
+
+.tabs-garage .tab:hover:not(.active) {
+  color: var(--amag-dark-blue);
+}
+
+.tabs-garage .tab:first-child:hover:not(.active) {
+  color: var(--amag-violet);
+}
+
+.tabs-garage .tab:last-child:hover:not(.active) {
+  color: var(--amag-light-blue);
+}
+
+.tabs-garage .tab.active {
+  z-index: 1;
+  border-top-color: var(--amag-dark-blue);
+  background-color: #fff;
+  box-shadow: 0 4px 0 0 #fff;
+  color: var(--amag-dark-blue);
+  font-family: var(--font-text-bold);
+  cursor: default;
+}
+
+.tabs-garage .tab.active:first-child {
+  border-top-color: var(--amag-violet);
+  color: var(--amag-violet);
+}
+
+.tabs-garage .tab.active:last-child {
+  border-top-color: var(--amag-light-blue);
+  color: var(--amag-light-blue);
+}
+
+.tabs-garage .tab.active::before,
+.tabs-garage .tab.active::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 1px;
+  height: calc(100% + 4px);
+  background-color: var(--amag-grey-300);
+}
+
+.tabs-garage .tab.active::before {
+  left: 0;
+}
+
+.tabs-garage .tab.active::after {
+  left: calc(100% - 1px);
+}
+
+.tabs-garage .tab-icon {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.tabs-garage .tab-icon picture {
+  display: contents;
+}
+
+.tabs-garage .tab-icon img {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+/* "Mehr über …" anchor band: grey ground bleeding to the viewport's left edge */
+.tabs-garage .band-row {
+  max-width: var(--content-max);
+  margin: 0 auto 80px;
+  padding: 0 var(--section-gutter);
+}
+
+.tabs-garage .band-inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 15px;
+  background: var(--amag-grey-100);
+}
+
+.tabs-garage .band-inner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 100%;
+  display: block;
+  width: 100vw;
+  height: 100%;
+  background: var(--amag-grey-100);
+}
+
+.tabs-garage .band-head {
+  padding-bottom: 48px;
+}
+
+.tabs-garage .band-title {
+  margin: 0;
+  font-family: var(--font-display-bold);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.tabs-garage .band-links {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.tabs-garage .band-link:any-link {
+  display: flex;
+  align-items: center;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tabs-garage .band-link[hidden] {
+  display: none;
+}
+
+.tabs-garage .band-link:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.tabs-garage .band-icon {
+  display: flex;
+  flex: 0 0 auto;
+  color: var(--amag-dark-blue);
+}
+
+.tabs-garage .band-link[data-tab-index="0"] .band-icon {
+  color: var(--amag-violet);
+}
+
+.tabs-garage .band-link[data-tab-index="2"] .band-icon {
+  color: var(--amag-light-blue);
+}
+
+.tabs-garage .band-icon svg {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+.tabs-garage .band-label {
+  padding-left: 10px;
+  font-family: var(--font-text-bold);
+  font-size: 16px;
+  line-height: 30px;
+}
+
+@media (width >= 768px) {
+  .tabs-garage .tablist {
+    padding: 0 var(--section-gutter);
+  }
+
+  .tabs-garage .tab {
+    height: 160px;
+    font-size: 20px;
+  }
+
+  .tabs-garage .tab-icon img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .tabs-garage .band-row {
+    margin-bottom: 160px;
+  }
+
+  .tabs-garage .band-inner {
+    flex-flow: row wrap;
+  }
+
+  .tabs-garage .band-head {
+    flex: 0 0 100%;
+  }
+
+  .tabs-garage .band-links {
+    flex: 1 1 0;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .tabs-garage .band-link:any-link {
+    flex: 1 1 0;
+  }
+}
+
+@media (width >= 1200px) {
+  .tabs-garage .tab {
+    flex-direction: row;
+    height: 140px;
+    padding: 15px;
+    font-size: 24px;
+  }
+
+  .tabs-garage .tab-icon {
+    margin: 0 10px 0 0;
+  }
+
+  .tabs-garage .band-inner {
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .tabs-garage .band-head {
+    flex: 1 1 0;
+    padding: 0 15px 0 0;
+  }
+
+  .tabs-garage .band-title {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .tabs-garage .band-links {
+    flex: 2 1 0;
+  }
+}

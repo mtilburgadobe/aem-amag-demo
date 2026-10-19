@@ -1,0 +1,28 @@
+{
+  "variantName": "promo-teaser-app",
+  "baseBlock": "promo-teaser",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "summary": "Image + grey text box with h2, copy, store badges, violet CTA",
+    "purpose": "App download teaser — 4:3 image (left, 310px at >= 768px / 500px at >= 1200px) beside a light-grey (#e8e8e8) box with the headline, copy and, at its foot, the App Store / Google Play badges next to a violet CTA with a check-circle glyph; stacked below 768px",
+    "differsFromBase": "Image + text model matches; adds store-badge image links, a violet button CTA and a #E8E8E8 text box (no lavender/image-left equivalent).",
+    "layout": "image | text box at >= 768px, stacked below"
+  },
+  "contentPattern": {
+    "structure": "one row: `<picture>` | `<h2>` headline, `<p>` copy, `<p><a><img App Store></a>` `<a><img Google Play></a></p>`, `<p><em><a>`CTA label`</a></em></p>`",
+    "rows": [
+      "1 row: <picture> | <h2>AMAG App: Ihre Garage in einer App</h2><p>copy</p><p><a apps.apple.com><img App Store></a> <a play.google.com><img Google Play></a></p><p><em><a /de/service/top-services/app.html>Zur AMAG App</a></em></p>"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [
+    "promo-teaser-app"
+  ],
+  "authoredAs": "Promo Teaser App",
+  "sourceUrl": "https://www.amag.ch/de/garagenuebersicht/garage-buelach.html",
+  "usage": {
+    "pagesUsing": [],
+    "reuseCount": 0,
+    "lastUsed": null
+  }
+}

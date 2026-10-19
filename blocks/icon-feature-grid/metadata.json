@@ -1,0 +1,24 @@
+{
+  "variantName": "icon-feature-grid",
+  "baseBlock": "icon-feature-grid",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "summary": "Band image + 3 service boxes + 'Service-Termin Bülach' CTA",
+    "purpose": "Service boxes over a band image with a primary CTA; below 768px a one-box swipe carousel with a derived counter. The section head (eyebrow, `<h2>`, lede) is default content before the block and is reabsorbed",
+    "differsFromBase": "Identical .amag-serviceContainerWrapper module to /en home."
+  },
+  "contentPattern": {
+    "structure": "rows read by role — a row holding only a `<picture>` is the band image; box rows: `<img>` 40px icon, `<p><strong>` title, plain `<p>` lines, link-bearing `<p>` text link; CTA row: `<p><img><strong><a>label</a></strong></p>` (icon moved into the button)"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "icon-feature-grid"
+  ],
+  "status": "implemented",
+  "notes": "Existing production block (used by the migrated English pages). Companion files backfilled from the JS header comment and CSS; JS/CSS unchanged.",
+  "usage": {
+    "pagesUsing": [],
+    "reuseCount": 0,
+    "lastUsed": null
+  }
+}

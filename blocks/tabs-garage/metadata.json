@@ -1,0 +1,30 @@
+{
+  "variantName": "tabs-garage",
+  "baseBlock": "tabs",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "summary": "Three icon tabs switching the panels below; trailing 'Mehr über AMAG Bülach' band with tab-switch links",
+    "purpose": "Garage page tab bar — three equal icon tiles (grey, active tile white with a coloured 5px top border: violet / dark blue / light blue) above a 1px viewport-wide line. The panels are the following page sections tagged with section metadata `Tab`; only the active tab's sections show. An optional trailing row renders the grey \"Mehr über …\" anchor band after the last panel, linking to the other tabs",
+    "differsFromBase": "No local tabs block; Block Collection tabs used as template source only. Icon tab tiles, section-metadata-grouped panels and trailing 'Mehr über' band row.",
+    "layout": "tiles stacked icon-over-label below 1200px, icon beside label at >= 1200px; band: headline + links in a row at >= 1200px",
+    "interaction": "click / Enter / Space / arrow keys switch tabs; band links and #<tab-id> URL hashes switch tabs and scroll to the bar"
+  },
+  "contentPattern": {
+    "structure": "one row per tab: icon `<img>` | label `<p>` (the tab id is the label as a class name, e.g. fahrzeug-angebote). Optional trailing band row: `<h3>` headline | link `<p>`s with href=\"#`<tab id>`\". Panel content lives in the following sections, each with section metadata Tab = `<tab label>`",
+    "rows": [
+      "one row per tab: <p><img icon></p> | <p>Fahrzeug-Angebote</p> (… AMAG Dienstleistungen, News & Infos)",
+      "trailing row: <h3>Mehr über AMAG Bülach</h3> | <p><a href=#fahrzeug-angebote>Weiter zu unseren Fahrzeug-Angeboten</a></p><p><a href=#amag-dienstleistungen>Weiter zu unseren AMAG Dienstleistungen</a></p><p><a href=#news-infos>Weiter zu unseren News &amp; Infos</a></p>"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [
+    "tabs-garage"
+  ],
+  "authoredAs": "Tabs Garage",
+  "sourceUrl": "https://www.amag.ch/de/garagenuebersicht/garage-buelach.html",
+  "usage": {
+    "pagesUsing": [],
+    "reuseCount": 0,
+    "lastUsed": null
+  }
+}

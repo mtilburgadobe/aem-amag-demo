@@ -1,0 +1,11 @@
+{
+  "type": "da",
+  "sites": {
+    "aem-amag-demo": {
+      "previewOrg": "mtilburgadobe",
+      "previewSite": "aem-amag-demo",
+      "contentHostUrl": "https://content.da.live/mtilburgadobe/aem-amag-demo/",
+      "libraryUrl": "https://main--sta-boilerplate--aemdemos.aem.page/tools/sidekick/library.json"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "variantName": "vehicle-search",
+  "baseBlock": "vehicle-search",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "summary": "Search panel with icon, h2, intro, 4 pickers, 'Auto finden' CTA",
+    "purpose": "Vehicle search panel (icon, headline, intro, inert filter pickers and a violet \"find\" CTA linking to the marketplace)",
+    "differsFromBase": "Identical module/model to /en home."
+  },
+  "contentPattern": {
+    "structure": "rows read by role — head row (`<img>` 40px icon + `<h2>` + `<p>` intro); picker rows (cell 1 `<p>` label, cell 2 `<ul>` of options, first `<li>` is the shown value, a single-option list renders disabled); CTA row (`<em><a>`) — search glyph generated"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "vehicle-search"
+  ],
+  "status": "implemented",
+  "notes": "Existing production block (used by the migrated English pages). Companion files backfilled from the JS header comment and CSS; JS/CSS unchanged.",
+  "usage": {
+    "pagesUsing": [],
+    "reuseCount": 0,
+    "lastUsed": null
+  }
+}

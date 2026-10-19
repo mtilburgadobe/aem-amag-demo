@@ -1,0 +1,31 @@
+{
+  "status": "success",
+  "url": "https://www.amag.ch/de/garagenuebersicht/garage-buelach.html",
+  "path": "de/garagenuebersicht/garage-buelach",
+  "timestamp": "2026-10-14T14:03:42.740Z",
+  "title": "🚗 Autohändler und Garage Bülach | AMAG",
+  "template": "garagenuebersicht",
+  "blocks": [
+    "breadcrumb",
+    "hero-split-garage",
+    "tabs-garage",
+    "vehicle-search",
+    "news-cards",
+    "news-cards-vehicle",
+    "cta-band-contact",
+    "cta-band-contact",
+    "pledge-row",
+    "pledge-row",
+    "quick-links-brands",
+    "icon-feature-grid",
+    "news-cards-services",
+    "promo-teaser-app",
+    "image-text-card-text",
+    "image-text-card-text",
+    "testimonial",
+    "icon-text-box",
+    "icon-text-box",
+    "promo-teaser",
+    "direct-entry"
+  ]
+}

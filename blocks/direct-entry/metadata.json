@@ -1,0 +1,24 @@
+{
+  "variantName": "direct-entry",
+  "baseBlock": "direct-entry",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "summary": "Fixed 'Services' pill + 'Direkt zu' pop-up with 4 icon links",
+    "purpose": "Fixed \"Services\" pill that appears after scrolling and toggles a \"Directly to\" pop-up of icon links; renders fixed with zero flow height",
+    "differsFromBase": "Identical to /en/services."
+  },
+  "contentPattern": {
+    "structure": "rows read by role — a row with an `<img>` and a plain `<p>` and no link is a pill face (first closed, second open); a row with only a short `<p>` is the pop-up topline; a row with a link-bearing `<p>` (+ `<img>`) is one pop-up entry (chevron generated)"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "direct-entry"
+  ],
+  "status": "implemented",
+  "notes": "Existing production block (used by the migrated English pages). Companion files backfilled from the JS header comment and CSS; JS/CSS unchanged.",
+  "usage": {
+    "pagesUsing": [],
+    "reuseCount": 0,
+    "lastUsed": null
+  }
+}

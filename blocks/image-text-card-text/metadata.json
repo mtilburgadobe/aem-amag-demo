@@ -1,0 +1,28 @@
+{
+  "variantName": "image-text-card-text",
+  "baseBlock": "image-text-card",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "summary": "Text-only maxi teaser with gozilla button",
+    "purpose": "Text-only maxi teaser — a grey ground bleeding into the left gutter holds the grey uppercase eyebrow (2/12) beside the display headline (6/12) with the text (8/12) below; the dark-blue gozilla arrow button stands full height at the right edge (>= 768px, widens on hover). Below 768px the button leads, full width, above the grey text box",
+    "differsFromBase": "Eyebrow/title/text/gozilla button match; no image and a wide headline + button-right layout.",
+    "layout": "description | button (absolute, right) at >= 768px; stacked below"
+  },
+  "contentPattern": {
+    "structure": "one row: `<p>` eyebrow, `<h2>` headline, `<p>` text, `<p><strong><a href>`button label`</a></strong></p>`",
+    "rows": [
+      "1 row: <p>AMAG Fleet &amp; Services</p><h2>Individuelle Lösungen für Flottenkunden</h2><p>text</p><p><strong><a fleet url>Flotten-Team kontaktieren</a></strong></p>"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [
+    "image-text-card-text"
+  ],
+  "authoredAs": "Image Text Card Text",
+  "sourceUrl": "https://www.amag.ch/de/garagenuebersicht/garage-buelach.html",
+  "usage": {
+    "pagesUsing": [],
+    "reuseCount": 0,
+    "lastUsed": null
+  }
+}

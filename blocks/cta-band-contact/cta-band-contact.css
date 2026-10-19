@@ -1,0 +1,342 @@
+/* cta-band-contact — values lifted from the live theme CSS (clientlib-amagch
+   `.amag-tabsWrapper*`, `.amag-contactPersonWrapper*`, `.amag-ctaWrapper__button`,
+   `.amagCh-section-description`) and the `cta-band` section shell. */
+.cta-band-contact {
+  position: relative;
+  background: #fff;
+}
+
+.cta-band-contact.band {
+  padding-top: 80px;
+}
+
+.cta-band-contact.first-section.band {
+  padding-top: 0;
+}
+
+.cta-band-contact.section-end {
+  padding-bottom: 100px;
+}
+
+.cta-band-contact .wrap {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0 var(--section-gutter);
+}
+
+/* section head (reabsorbed default content): eyebrow | headline */
+.cta-band-contact .section-head {
+  display: flow-root;
+  margin-bottom: 40px;
+}
+
+.cta-band-contact .eyebrow p {
+  margin: 0 0 14px;
+  padding-top: 12px;
+  color: var(--amag-grey-600);
+  font-family: var(--font-text-light);
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.cta-band-contact .section-head .headline :is(h1, h2, h3, h4) {
+  margin: 0;
+  font-family: var(--font-display-bold);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/* brand-logo tabs */
+.cta-band-contact .tablist {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cta-band-contact .tablist::-webkit-scrollbar {
+  display: none;
+}
+
+.cta-band-contact .tab {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  min-width: 120px;
+  height: 80px;
+  padding: 10px 20px;
+  border-bottom: 1px solid var(--amag-grey-300);
+  cursor: pointer;
+  outline: none;
+}
+
+.cta-band-contact .tab.active {
+  border-bottom: 2px solid var(--amag-dark-blue);
+}
+
+.cta-band-contact .tab:focus-visible {
+  outline: 2px solid var(--amag-dark-blue);
+  outline-offset: -2px;
+}
+
+.cta-band-contact .tab .logo {
+  display: flex;
+}
+
+.cta-band-contact .tab picture {
+  display: contents;
+}
+
+.cta-band-contact .tab img {
+  display: block;
+  max-width: 60px;
+  max-height: 60px;
+  width: auto;
+  height: auto;
+}
+
+/* contact panel: photo | info on a grey ground */
+.cta-band-contact .panels {
+  padding-top: 30px;
+}
+
+.cta-band-contact .panel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--amag-grey-100);
+  text-align: center;
+}
+
+.cta-band-contact .panel[hidden] {
+  display: none;
+}
+
+.cta-band-contact .photo {
+  overflow: hidden;
+}
+
+.cta-band-contact .photo picture {
+  display: block;
+}
+
+.cta-band-contact .photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cta-band-contact .info {
+  padding: 0 15px;
+}
+
+.cta-band-contact .info .headline {
+  padding-top: 40px;
+}
+
+.cta-band-contact .info .headline :is(h1, h2, h3, h4, h5, h6, p) {
+  margin: 0;
+  font-family: var(--font-display-bold);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.cta-band-contact .team {
+  padding-top: 20px;
+}
+
+.cta-band-contact .team p {
+  margin: 0;
+  font-family: var(--font-text-bold);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.cta-band-contact .team strong,
+.cta-band-contact .team b {
+  font-weight: 400;
+}
+
+.cta-band-contact .department {
+  padding-top: 1px;
+}
+
+.cta-band-contact .department p {
+  margin: 0;
+  color: var(--amag-grey-600);
+  font-family: var(--font-text-light);
+  font-size: 20px;
+  line-height: 23px;
+}
+
+/* CTA (`.amag-ctaWrapper__button--blue`, full width of its column) */
+.cta-band-contact .cta {
+  padding: 44px 0 0;
+}
+
+.cta-band-contact .cta p {
+  display: flex;
+  margin: 0;
+}
+
+.cta-band-contact .cta p > strong,
+.cta-band-contact .cta p > b,
+.cta-band-contact .cta p > em {
+  display: flex;
+  flex: 1;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cta-band-contact .cta a:any-link {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+  margin: 0;
+  padding: 0 40px;
+  border: 0;
+  border-radius: 0;
+  background: var(--amag-dark-blue);
+  color: #fff;
+  font-family: var(--font-text-bold);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.cta-band-contact .cta a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cta-band-contact .cta a picture {
+  display: inline-flex;
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+
+.cta-band-contact .cta a img {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+@media (width >= 768px) {
+  .cta-band-contact .section-head {
+    margin-bottom: 60px;
+  }
+
+  .cta-band-contact .section-head-row {
+    display: flex;
+  }
+
+  .cta-band-contact .eyebrow {
+    width: 25%;
+    padding-right: 30px;
+  }
+
+  .cta-band-contact .eyebrow p {
+    margin-bottom: 0;
+  }
+
+  .cta-band-contact .section-head .headline {
+    width: 75%;
+  }
+
+  .cta-band-contact .panels {
+    padding-top: 40px;
+  }
+
+  .cta-band-contact .panel {
+    flex-direction: row;
+    align-items: stretch;
+    text-align: left;
+  }
+
+  .cta-band-contact .photo {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 15px;
+  }
+
+  .cta-band-contact .photo img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .cta-band-contact .info {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 40px 30px;
+  }
+
+  .cta-band-contact .info .headline {
+    padding-top: 14px;
+  }
+
+  .cta-band-contact .cta {
+    padding-top: 25px;
+  }
+
+  .cta-band-contact .cta p,
+  .cta-band-contact .cta p > strong,
+  .cta-band-contact .cta p > b,
+  .cta-band-contact .cta p > em {
+    display: inline-flex;
+  }
+}
+
+@media (width >= 1200px) {
+  .cta-band-contact.band {
+    padding-top: 120px;
+  }
+
+  .cta-band-contact.section-end {
+    padding-bottom: 80px;
+  }
+
+  .cta-band-contact .section-head {
+    margin-bottom: 80px;
+    margin-left: 8.3333%;
+  }
+
+  .cta-band-contact .panels {
+    padding-top: 20px;
+  }
+
+  .cta-band-contact .info {
+    padding: 40px 30px 0;
+  }
+
+  .cta-band-contact .info .headline {
+    padding-top: 12px;
+  }
+
+  .cta-band-contact .info .headline :is(h1, h2, h3, h4, h5, h6, p) {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .cta-band-contact .team {
+    padding-top: 25px;
+  }
+
+  .cta-band-contact .department {
+    padding-top: 6px;
+  }
+
+  .cta-band-contact .cta a:any-link {
+    min-height: 100px;
+    min-width: 230px;
+  }
+}
