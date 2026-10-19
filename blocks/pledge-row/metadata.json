@@ -1,0 +1,45 @@
+{
+  "variantName": "pledge-row",
+  "baseBlock": "pledge-row",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "summary": "Three facility pillars with dash lists",
+    "purpose": "AMAG pledge icon row — pillars with an icon box, title and dash-bulleted lines. The section head (eyebrow + `<h2>`) is default content before the block and is reabsorbed",
+    "differsFromBase": "Same .amag-iconListItem markup; only the icon-box tint differs (sky blue vs grey blue) - CSS note, not a new variant."
+  },
+  "contentPattern": {
+    "structure": "`<picture>/<img>` pillar icon; `<h3>` (or `<h4>/<strong>` paragraph) pillar title; `<ul>` / further `<p>` bullet lines"
+  },
+  "options": [
+    {
+      "class": "plain-head",
+      "label": "Plain Head"
+    },
+    {
+      "class": "grey",
+      "label": "Grey"
+    },
+    {
+      "class": "lavender",
+      "label": "Lavender"
+    },
+    {
+      "class": "band-white",
+      "label": "Band White"
+    },
+    {
+      "class": "band-grey",
+      "label": "Band Grey"
+    }
+  ],
+  "memberVariantIds": [
+    "pledge-row"
+  ],
+  "status": "implemented",
+  "notes": "Existing production block (used by the migrated English pages). Companion files backfilled from the JS header comment and CSS; JS/CSS unchanged.",
+  "usage": {
+    "pagesUsing": [],
+    "reuseCount": 0,
+    "lastUsed": null
+  }
+}

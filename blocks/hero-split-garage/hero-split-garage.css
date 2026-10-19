@@ -1,0 +1,552 @@
+/* hero-split-garage — values lifted from the live theme CSS (clientlib-amagch
+   `.amag-introGarageWithSlider*`, `.amag-ctaWrapper__button`, `.amag-copy--big*`) and the
+   section shell of `hero-split` (canon.css). */
+
+/* section shell: full-bleed ground, top band, 1920 cap with the responsive gutter */
+.hero-split-garage {
+  position: relative;
+  background: #fff;
+}
+
+.hero-split-garage .wrap {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0 var(--section-gutter);
+}
+
+.hero-split-garage.band {
+  padding-top: 80px;
+}
+
+.hero-split-garage.section-end {
+  margin-bottom: 0;
+  padding-bottom: 80px;
+}
+
+/* the page's first section has no step band below 1200 (no stage before it) */
+.hero-split-garage.first-section.band {
+  padding-top: 0;
+}
+
+/* composition: slider first (full-bleed), text below */
+.hero-split-garage .grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero-split-garage .text {
+  order: 1;
+  width: 100%;
+}
+
+.hero-split-garage .media {
+  order: 0;
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  margin: 0 calc(-1 * var(--section-gutter));
+}
+
+/* breadcrumb adopted into the text column (live `.amag-introGarageWithSlider .cmp-breadcrumb`) */
+.hero-split-garage .breadcrumb-wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-split-garage .breadcrumb .crumbs ul,
+.hero-split-garage .breadcrumb .crumbs ol {
+  margin: 38px 0 35px;
+}
+
+.hero-split-garage .headline :is(h1, h2, h3) {
+  font-family: var(--font-display-bold);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 36px;
+  margin: 0 0 19px;
+}
+
+.hero-split-garage .lead p {
+  margin: 0 0 30px;
+  font-family: var(--font-text-light);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.hero-split-garage .lead > :last-child {
+  margin-bottom: 30px;
+}
+
+/* brand lists (VERKAUF / SERVICE) */
+.hero-split-garage .brand-title {
+  margin: 0;
+  padding: 15px 0 0;
+  color: #6d6d6d;
+  letter-spacing: 0.06em;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.hero-split-garage .brand-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-split-garage .brand-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 55px;
+  margin-right: 20px;
+}
+
+.hero-split-garage .brand-item picture {
+  display: contents;
+}
+
+.hero-split-garage .brand-item img {
+  display: block;
+  max-width: 65%;
+  height: auto;
+}
+
+/* icon text links (favourite garage, team) */
+.hero-split-garage .links {
+  margin-top: 38px;
+}
+
+.hero-split-garage .link-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.hero-split-garage .link-item:last-child {
+  margin-bottom: 0;
+}
+
+.hero-split-garage .link-label,
+.hero-split-garage a.link-label:any-link {
+  display: inline-flex;
+  align-items: center;
+  color: #000;
+  font-family: var(--font-text-bold);
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.hero-split-garage a.link-label:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.hero-split-garage .link-icon {
+  display: inline-flex;
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+
+.hero-split-garage .link-icon picture {
+  display: contents;
+}
+
+.hero-split-garage .link-icon img {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+/* slider */
+.hero-split-garage .slider {
+  position: relative;
+  overflow: hidden;
+  padding-right: 0;
+}
+
+.hero-split-garage .track {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1px;
+  touch-action: pan-y;
+  transition: transform 0.6s ease;
+}
+
+.hero-split-garage .slide {
+  flex: 0 0 calc(100% - 50px);
+  min-width: calc(100% - 50px);
+  overflow: hidden;
+}
+
+.hero-split-garage .track > .slide:only-child {
+  flex-basis: 100%;
+  min-width: 100%;
+}
+
+.hero-split-garage .slide picture {
+  display: block;
+}
+
+.hero-split-garage .slide img {
+  display: block;
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  object-position: bottom center;
+}
+
+/* control strip: CTA + counter + arrows */
+.hero-split-garage .controls {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.hero-split-garage .slider-nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  padding: 0 0 0 20px;
+  background-color: rgb(0 0 0 / 30%);
+  z-index: 1;
+}
+
+.hero-split-garage.has-cta .slider-nav {
+  bottom: 70px;
+}
+
+.hero-split-garage .counter {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.hero-split-garage .counter .total {
+  color: #b3b3b3;
+}
+
+.hero-split-garage .arrows {
+  display: flex;
+  height: 100%;
+  white-space: nowrap;
+}
+
+.hero-split-garage .action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 2px;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 1s ease;
+}
+
+.hero-split-garage .action:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: -2px;
+}
+
+.hero-split-garage .action:disabled {
+  cursor: default;
+  opacity: 0.3;
+}
+
+.hero-split-garage .action svg {
+  display: block;
+  width: 26px;
+  height: 26px;
+}
+
+/* appointment CTA (`.amag-ctaWrapper__button--blue`) */
+.hero-split-garage .cta {
+  display: flex;
+  width: 100%;
+}
+
+.hero-split-garage .cta p {
+  display: flex;
+  flex: 1;
+  margin: 0;
+}
+
+.hero-split-garage .cta p > strong,
+.hero-split-garage .cta p > b {
+  display: flex;
+  flex: 1;
+  font-weight: 400;
+}
+
+.hero-split-garage .cta a:any-link {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+  margin: 0;
+  padding: 0 15px;
+  border: 0;
+  border-radius: 0;
+  background: var(--amag-dark-blue);
+  color: #fff;
+  font-family: var(--font-text-bold);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.hero-split-garage .cta a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-split-garage .cta a picture {
+  display: inline-flex;
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+
+.hero-split-garage .cta a img {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+/* no slider: the CTA stays in the text column */
+.hero-split-garage .body > .cta {
+  margin-top: 40px;
+}
+
+.hero-split-garage .body > .cta a:any-link {
+  flex: 0 0 auto;
+  padding: 0 40px;
+}
+
+@media (width >= 768px) {
+  .hero-split-garage .breadcrumb .crumbs ul,
+  .hero-split-garage .breadcrumb .crumbs ol {
+    margin-bottom: 37px;
+  }
+
+  .hero-split-garage .headline :is(h1, h2, h3) {
+    font-size: 44px;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+    margin-bottom: 24px;
+  }
+
+  .hero-split-garage .lead > :last-child {
+    margin-bottom: 24px;
+  }
+
+  .hero-split-garage .brand-group {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .hero-split-garage .brand-group + .brand-group {
+    margin-left: 76px;
+  }
+
+  .hero-split-garage .brand-title {
+    padding-top: 16px;
+  }
+
+  .hero-split-garage .brand-list {
+    margin-bottom: 14px;
+  }
+
+  .hero-split-garage .links {
+    margin-top: 26px;
+  }
+
+  .hero-split-garage .slide img {
+    height: 384px;
+  }
+
+  /* one strip at the slider's foot: CTA, counter, arrows */
+  .hero-split-garage .controls {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    height: 70px;
+    background-color: rgb(0 0 0 / 30%);
+    z-index: 2;
+  }
+
+  .hero-split-garage .controls .cta {
+    flex: 1 1 auto;
+    width: auto;
+  }
+
+  .hero-split-garage .controls .cta p,
+  .hero-split-garage .controls .cta p > strong,
+  .hero-split-garage .controls .cta p > b,
+  .hero-split-garage .controls .cta a:any-link {
+    flex: 0 0 auto;
+  }
+
+  .hero-split-garage .controls .cta a:any-link {
+    padding: 0 30px;
+  }
+
+  .hero-split-garage .slider-nav,
+  .hero-split-garage.has-cta .slider-nav {
+    position: static;
+    flex: 0 0 auto;
+    width: auto;
+    height: 100%;
+    margin-left: auto;
+    padding: 0;
+    background: none;
+  }
+
+  .hero-split-garage .counter {
+    width: 75px;
+    padding-right: 40px;
+    text-align: right;
+    box-sizing: content-box;
+  }
+
+  .hero-split-garage .arrows {
+    width: 160px;
+  }
+
+  .hero-split-garage .action-next {
+    margin-right: 20px;
+  }
+}
+
+@media (width >= 1200px) {
+  .hero-split-garage.band,
+  .hero-split-garage.first-section.band {
+    padding-top: 120px;
+  }
+
+  .hero-split-garage.section-end {
+    padding-bottom: 120px;
+  }
+
+  .hero-split-garage .grid {
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+
+  .hero-split-garage .text {
+    order: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .hero-split-garage .body {
+    min-height: 477px;
+    padding-right: 15px;
+  }
+
+  .hero-split-garage .breadcrumb .crumbs ul,
+  .hero-split-garage .breadcrumb .crumbs ol {
+    /* the live trail is centred on the 45 px share pill (dropped): keep its offsets */
+    margin: 28px 0 58px;
+  }
+
+  .hero-split-garage .lead > :last-child {
+    margin-bottom: 33px;
+  }
+
+  .hero-split-garage .brand-group {
+    display: block;
+  }
+
+  .hero-split-garage .brand-group + .brand-group {
+    margin-left: 0;
+  }
+
+  .hero-split-garage .brand-title {
+    padding-top: 7px;
+  }
+
+  .hero-split-garage .brand-list {
+    margin-bottom: 0;
+  }
+
+  .hero-split-garage .links {
+    margin-top: 40px;
+  }
+
+  /* the slider bleeds into the right gutter; the next slide peeks 50 px */
+  .hero-split-garage .media {
+    order: 1;
+    flex: 0 0 auto;
+    width: calc(50% - 15px + var(--section-gutter));
+    margin: 0 calc(-1 * var(--section-gutter)) 45px 15px;
+  }
+
+  .hero-split-garage .slide img {
+    height: auto;
+    aspect-ratio: 4 / 3;
+  }
+
+  .hero-split-garage .controls {
+    width: calc(100% - 50px);
+    height: 100px;
+  }
+
+  .hero-split-garage .media:has(.slide:only-child) .controls {
+    width: 100%;
+  }
+
+  .hero-split-garage .controls .cta a:any-link {
+    min-height: 100px;
+    padding: 0 40px;
+  }
+
+  .hero-split-garage .controls .cta,
+  .hero-split-garage .controls .cta p,
+  .hero-split-garage .controls .cta p > strong,
+  .hero-split-garage .controls .cta p > b,
+  .hero-split-garage .controls .cta a:any-link {
+    flex: 1 1 auto;
+  }
+
+  .hero-split-garage .counter {
+    position: relative;
+    left: 7px;
+    padding-right: 15px;
+  }
+
+  .hero-split-garage .arrows {
+    width: auto;
+  }
+
+  .hero-split-garage .action {
+    height: 70px;
+    align-self: center;
+  }
+
+  .hero-split-garage .action-previous,
+  .hero-split-garage .action-next {
+    margin-right: 15px;
+  }
+
+  .hero-split-garage .action:not(:disabled):hover {
+    background-color: var(--amag-violet);
+  }
+}

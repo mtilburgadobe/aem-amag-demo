@@ -1,0 +1,201 @@
+/* image-text-card-text — values lifted from the live theme CSS (clientlib-amagch
+   `.amag-maxiTeaser*`, `.amag-btn--gozilla`) and the `image-text-card` section shell. */
+.image-text-card-text {
+  position: relative;
+  background: #fff;
+}
+
+.image-text-card-text .wrap {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0 var(--section-gutter);
+}
+
+.image-text-card-text.band {
+  padding-top: 80px;
+}
+
+.image-text-card-text.first-section.band {
+  padding-top: 0;
+}
+
+.image-text-card-text.section-end {
+  padding-bottom: 0;
+}
+
+/* card: grey description (bleeds into the left gutter) + gozilla button */
+.image-text-card-text .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 calc(-1 * var(--section-gutter)) 100px;
+}
+
+.image-text-card-text .description {
+  padding: 34px 15px 40px;
+  background-color: var(--amag-grey-100);
+}
+
+.image-text-card-text .eyebrow p {
+  margin: 0 0 17px;
+  padding-top: 20px;
+  color: var(--amag-grey-600);
+  font-family: var(--font-text-light);
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.image-text-card-text .headline :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  font-family: var(--font-display-bold);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.image-text-card-text .body {
+  margin-top: 16px;
+}
+
+.image-text-card-text .body p,
+.image-text-card-text .body li {
+  margin: 0;
+  font-family: var(--font-text-light);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.image-text-card-text .body ul,
+.image-text-card-text .body ol {
+  margin: 0;
+  padding-left: 22px;
+}
+
+/* gozilla button: leads full width below 768 */
+.image-text-card-text .btn:any-link {
+  display: flex;
+  order: -1;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background: var(--amag-dark-blue);
+  color: #fff;
+  font-family: var(--font-text-bold);
+  font-size: 20px;
+  line-height: 1.5;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.image-text-card-text .btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.image-text-card-text .arrow {
+  display: flex;
+  order: 2;
+  margin-left: 10px;
+}
+
+.image-text-card-text .btn-text {
+  order: 1;
+  margin-top: 4px;
+}
+
+.image-text-card-text .arrow svg {
+  display: block;
+  width: 31px;
+  height: auto;
+  fill: #fff;
+  stroke: #fff;
+}
+
+@media (width >= 768px) {
+  .image-text-card-text .card {
+    margin: 0 0 100px calc(-1 * var(--section-gutter));
+  }
+
+  .image-text-card-text .description {
+    padding: 45px 46% 72px var(--section-gutter);
+  }
+
+  .image-text-card-text .eyebrow p {
+    margin-bottom: 22px;
+  }
+
+  .image-text-card-text .body {
+    margin-top: 19px;
+  }
+
+  .image-text-card-text .btn:any-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    flex-direction: column;
+    width: 260px;
+    height: 100%;
+  }
+
+  .image-text-card-text .btn:hover {
+    width: 300px;
+  }
+
+  .image-text-card-text .arrow {
+    order: 1;
+    margin: 0 0 10px;
+  }
+
+  .image-text-card-text .btn-text {
+    order: 2;
+    margin-top: 0;
+  }
+}
+
+@media (width >= 1200px) {
+  .image-text-card-text.band {
+    padding-top: 120px;
+  }
+
+  .image-text-card-text .description {
+    padding: 107px 0 111px var(--section-gutter);
+  }
+
+  .image-text-card-text .head {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .image-text-card-text .eyebrow {
+    flex: 0 0 16.6667%;
+    max-width: 16.6667%;
+    padding-right: 15px;
+  }
+
+  .image-text-card-text .eyebrow p {
+    margin-bottom: 15px;
+  }
+
+  .image-text-card-text .headline {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .image-text-card-text .headline :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 44px;
+    line-height: 48px;
+  }
+
+  .image-text-card-text .body {
+    max-width: 66.6667%;
+    margin-top: 23px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .image-text-card-text .btn:any-link {
+    transition: none;
+  }
+}

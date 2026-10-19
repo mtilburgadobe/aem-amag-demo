@@ -1,0 +1,29 @@
+{
+  "variantName": "cta-band-contact",
+  "baseBlock": "cta-band",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "summary": "Brand tab (logo) + contact panel: photo, title, team, department, team CTA",
+    "purpose": "Garage brand contact module — a strip of brand-logo tabs (active underlined dark blue) above a grey panel with the team photo (left half at >= 768px) beside the headline, bold team name, grey department line and the dark-blue icon CTA. The section head (eyebrow + `<h2>`) is default content before the block and is reabsorbed (eyebrow | headline)",
+    "differsFromBase": "Color + purpose (contact) + density match; captured cta-band has no image, and the brand-logo tab strip + 50/50 image/grey panel layout are new.",
+    "layout": "stacked and centred below 768px; photo 50% | info 50% at >= 768px",
+    "interaction": "brand tabs switch panels (click, Enter/Space, arrow keys)"
+  },
+  "contentPattern": {
+    "structure": "one row per brand: `<p><img brand logo></p>` | `<picture team photo>` | `<h3>` headline, `<p><strong>team</strong></p>`, `<p>` department, `<p><strong><a><img icon>`CTA label`</a></strong></p>`",
+    "rows": [
+      "one row per brand: <p><img brand logo></p> | <picture team photo> | <h3>Ihre Audi Ansprechpartner in Bülach</h3><p><strong>Audi</strong></p><p>Autoverkauf</p><p><strong><a ansprechpartner.html?filter=a><img team>Audi Team</a></strong></p>"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [
+    "cta-band-contact"
+  ],
+  "authoredAs": "CTA Band Contact",
+  "sourceUrl": "https://www.amag.ch/de/garagenuebersicht/garage-buelach.html",
+  "usage": {
+    "pagesUsing": [],
+    "reuseCount": 0,
+    "lastUsed": null
+  }
+}

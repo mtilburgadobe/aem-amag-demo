@@ -1,0 +1,33 @@
+{
+  "variantName": "hero-split-garage",
+  "baseBlock": "hero-split",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "summary": "Split garage intro: h1, lead, brand lists, favourite/team links, 6-image slider + appointment CTA",
+    "purpose": "Garage detail page intro — text column (adopted breadcrumb, h1, lead, VERKAUF/SERVICE brand-logo lists, icon text links) beside a 4:3 image slider that bleeds into the right gutter at >= 1200px, the next slide peeking; a translucent strip at the slider foot holds the dark-blue appointment CTA, a derived \"1 / 6\" counter and prev/next arrows. Below 1200px the slider leads full-bleed (270/384px slides); below 768px the CTA sits under it",
+    "differsFromBase": "light=light, purpose page-intro match; image pattern differs (6-image slider vs single 4:3 image); structure adds brand-logo lists and two icon text links; density differs.",
+    "layout": "two-column >= 1200px (text 50%, slider 50% + gutter), stacked below (slider first)",
+    "interaction": "slider: prev/next buttons, swipe, counter; first slide eager/LCP"
+  },
+  "contentPattern": {
+    "structure": "cells read by role (one cell or several): a cell holding only pictures = the slider images in order; a cell with `<h1>` = headline + lead `<p>`; a cell with a text-only `<p>` + image-only `<p>` = one brand list (title + logos, e.g. VERKAUF | SERVICE as two cells); `<p>` with icon + text (with or without a link) = icon text link; `<p><strong><a><img>label</a></strong></p>` = the appointment CTA. A breadcrumb block directly before it in the same section is adopted",
+    "rows": [
+      "images row: 6 <picture> (slider order)",
+      "text row: <h1>AMAG Bülach</h1><p>lead</p>",
+      "brands row: <p>VERKAUF</p><p><img Audi></p> | <p>SERVICE</p><p><img Audi Service></p>",
+      "links row: <p><img star>Als meine Garage speichern</p><p><a ansprechpartner.html><img team>Team kontaktieren</a></p>",
+      "CTA row: <p><strong><a https://www.amag.ch/de/service/otv.html#790><img calendar>Termin online vereinbaren</a></strong></p>"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [
+    "hero-split-garage"
+  ],
+  "authoredAs": "Hero Split Garage",
+  "sourceUrl": "https://www.amag.ch/de/garagenuebersicht/garage-buelach.html",
+  "usage": {
+    "pagesUsing": [],
+    "reuseCount": 0,
+    "lastUsed": null
+  }
+}

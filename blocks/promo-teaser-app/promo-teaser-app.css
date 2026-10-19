@@ -1,0 +1,237 @@
+/* promo-teaser-app — values lifted from the live theme CSS (clientlib-amagch
+   `.amag-app-download*`, ground `__color--amagGrey-E8E8E8`, CTA `__link-ctaBg--amagViolet`)
+   and the `promo-teaser` section shell. */
+.promo-teaser-app {
+  position: relative;
+  background: #fff;
+  margin-bottom: 100px;
+}
+
+.promo-teaser-app .wrap {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0 var(--section-gutter);
+}
+
+.promo-teaser-app.band {
+  padding-top: 80px;
+}
+
+.promo-teaser-app.first-section.band {
+  padding-top: 0;
+}
+
+.promo-teaser-app.section-end {
+  margin-bottom: 0;
+  padding-bottom: 80px;
+}
+
+/* card: image | grey text box */
+.promo-teaser-app .card {
+  display: flex;
+  flex-direction: column;
+}
+
+.promo-teaser-app .media {
+  max-width: 100%;
+}
+
+.promo-teaser-app .media p {
+  margin: 0;
+}
+
+.promo-teaser-app .media picture {
+  display: block;
+  height: 100%;
+}
+
+.promo-teaser-app .media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.promo-teaser-app .content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--amag-grey-300);
+}
+
+.promo-teaser-app .text {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 30px 0;
+}
+
+.promo-teaser-app .headline :is(h1, h2, h3, h4) {
+  margin: 0 0 16px;
+  font-family: var(--font-display-bold);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.promo-teaser-app .description p,
+.promo-teaser-app .description li {
+  margin: 0;
+  font-family: var(--font-text-light);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.promo-teaser-app .description ul,
+.promo-teaser-app .description ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+/* foot: store badges + violet CTA */
+.promo-teaser-app .links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.promo-teaser-app .badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.promo-teaser-app .badge {
+  display: inline-flex;
+  margin: 0 15px 8px 0;
+}
+
+.promo-teaser-app .badge:hover {
+  text-decoration: none;
+}
+
+.promo-teaser-app .badge picture {
+  display: contents;
+}
+
+.promo-teaser-app .badge img {
+  display: block;
+  width: auto;
+  height: 34px;
+}
+
+.promo-teaser-app .cta:any-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 40px;
+  padding: 20px 30px 20px 40px;
+  background-color: var(--amag-violet);
+  color: #fff;
+  font-family: var(--font-text-bold);
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.promo-teaser-app .cta:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.promo-teaser-app .cta-glyph {
+  display: flex;
+  flex: 0 0 auto;
+  margin-left: 30px;
+}
+
+.promo-teaser-app .cta-glyph svg {
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+@media (width >= 768px) {
+  .promo-teaser-app .card {
+    flex-direction: row;
+  }
+
+  .promo-teaser-app .media {
+    flex: 0 0 auto;
+    max-width: 310px;
+  }
+
+  .promo-teaser-app .media img {
+    height: 100%;
+  }
+
+  .promo-teaser-app .text {
+    margin: 30px 20px 0;
+  }
+
+  .promo-teaser-app .links {
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    margin-top: 50px;
+  }
+
+  .promo-teaser-app .badges {
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 130px;
+    margin-left: 20px;
+  }
+
+  .promo-teaser-app .badge {
+    margin-right: 0;
+  }
+
+  .promo-teaser-app .cta:any-link {
+    max-width: 270px;
+    margin-top: 0;
+    margin-left: auto;
+    padding: 35px 35px 35px 40px;
+  }
+}
+
+@media (width >= 1200px) {
+  .promo-teaser-app.band {
+    padding-top: 120px;
+  }
+
+  .promo-teaser-app.section-end {
+    padding-bottom: 120px;
+  }
+
+  .promo-teaser-app .media {
+    max-width: 500px;
+  }
+
+  .promo-teaser-app .text {
+    margin: 60px 60px 0;
+  }
+
+  .promo-teaser-app .headline :is(h1, h2, h3, h4) {
+    font-size: 44px;
+    line-height: 48px;
+  }
+
+  .promo-teaser-app .description p,
+  .promo-teaser-app .description li {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .promo-teaser-app .links {
+    margin-top: 40px;
+  }
+
+  .promo-teaser-app .badges {
+    margin-left: 60px;
+  }
+}

@@ -1,0 +1,402 @@
+{
+  "templates": [
+    {
+      "name": "garagenuebersicht",
+      "urls": [
+        "https://www.amag.ch/de/garagenuebersicht/garage-buelach.html"
+      ],
+      "representativeUrl": "https://www.amag.ch/de/garagenuebersicht/garage-buelach.html",
+      "description": "AMAG garage detail page (German): garage intro, three-tab module (vehicle offers / services / news), direct-entry pill",
+      "blocks": [
+        {
+          "name": "breadcrumb",
+          "instances": [
+            ".amag-introGarageWithSlider__breadcrumbs"
+          ]
+        },
+        {
+          "name": "hero-split-garage",
+          "instances": [
+            ".amag-introGarageWithSlider"
+          ]
+        },
+        {
+          "name": "tabs-garage",
+          "instances": [
+            ".amag-introTabModul__tablist"
+          ]
+        },
+        {
+          "name": "vehicle-search",
+          "instances": [
+            ".amag-dspSearch"
+          ]
+        },
+        {
+          "name": "news-cards",
+          "instances": [
+            ".amag-promotionTeaserBox"
+          ]
+        },
+        {
+          "name": "news-cards-vehicle",
+          "instances": [
+            ".amag-angeboteRecoContainer"
+          ]
+        },
+        {
+          "name": "cta-band-contact",
+          "instances": [
+            ".amag-tabsWrapper.aemTabs"
+          ]
+        },
+        {
+          "name": "pledge-row",
+          "instances": [
+            ".amag-introTabModul .cmp-tabs__tabpanel:nth-of-type(1) > .responsivegrid > .aem-Grid > section.section:has(.amag-iconListContainer) .amag-iconListContainer:has(.amag-iconListItem)",
+            ".amag-locationFacilitiesWrapper"
+          ]
+        },
+        {
+          "name": "quick-links-brands",
+          "instances": [
+            ".amag-brandIntroductionWrapper"
+          ]
+        },
+        {
+          "name": "icon-feature-grid",
+          "instances": [
+            ".amag-serviceContainerWrapper"
+          ]
+        },
+        {
+          "name": "news-cards-services",
+          "instances": [
+            ".amag-introTabModul .cmp-tabs__tabpanel:nth-of-type(2) > .responsivegrid > .aem-Grid > section.section:has(.amag-serviceContainerWrapper) .cmp-carousel"
+          ]
+        },
+        {
+          "name": "promo-teaser-app",
+          "instances": [
+            ".amag-app-download"
+          ]
+        },
+        {
+          "name": "image-text-card-text",
+          "instances": [
+            ".amag-maxiTeaser"
+          ]
+        },
+        {
+          "name": "testimonial",
+          "instances": [
+            ".amag-quoteContainer"
+          ]
+        },
+        {
+          "name": "icon-text-box",
+          "instances": [
+            ".amag-introTabModul .cmp-tabs__tabpanel:nth-of-type(2) > .responsivegrid > .aem-Grid > section.section:has(.amag-iconListContainer) .amag-iconListContainer",
+            ".amag-introTabModul .cmp-tabs__tabpanel:nth-of-type(3) > .responsivegrid > .aem-Grid > section.section:has(.amag-iconListContainer) .amag-iconListContainer"
+          ]
+        },
+        {
+          "name": "promo-teaser",
+          "instances": [
+            ".amag-image-text-v2"
+          ]
+        },
+        {
+          "name": "direct-entry",
+          "instances": [
+            ".amag-direct-entry"
+          ]
+        }
+      ],
+      "urlPattern": "/de/garagenuebersicht/*",
+      "sections": [
+        {
+          "id": "1",
+          "name": "Garage intro",
+          "selector": [
+            ".amag-content > section.section:has(.amag-introGarageWithSlider)"
+          ],
+          "style": null,
+          "blocks": [
+            "breadcrumb",
+            "hero-split-garage"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "2",
+          "name": "Garage tab bar",
+          "selector": [
+            ".amag-introTabModul__tablist"
+          ],
+          "style": null,
+          "blocks": [
+            "tabs-garage"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "3",
+          "name": "Vehicle search",
+          "selector": [
+            ".amag-introTabModul .cmp-tabs__tabpanel:nth-of-type(1) > .responsivegrid > .aem-Grid > section.section:has(.amag-dspSearch)"
+          ],
+          "style": null,
+          "blocks": [
+            "vehicle-search"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "4",
+          "name": "News und Angebote",
+          "selector": [
+            ".amag-introTabModul .cmp-tabs__tabpanel:nth-of-type(1) > .responsivegrid > .aem-Grid > section.section:has(.amag-promotionTeaserBox)"
+          ],
+          "style": null,
+          "blocks": [
+            "news-cards"
+          ],
+          "defaultContent": [
+            ".amag-promotionTeaserBox__topline",
+            ".amag-promotionTeaserBox__headline"
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Vehicle offers carousel",
+          "selector": [
+            ".amag-introTabModul .cmp-tabs__tabpanel:nth-of-type(1) > .responsivegrid > .aem-Grid > section.section:has(.amag-angeboteRecoContainer)"
+          ],
+          "style": null,
+          "blocks": [
+            "news-cards-vehicle"
+          ],
+          "defaultContent": [
+            ".amagCh-section-description__theme",
+            ".amagCh-section-description__headline",
+            ".amag-angeboteRecoContainer__carousel--descriptionHeadline",
+            ".amag-angeboteRecoContainer__carousel--descriptionLink a"
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Sales contact",
+          "selector": [
+            ".amag-introTabModul .cmp-tabs__tabpanel:nth-of-type(1) > .responsivegrid > .aem-Grid > section.section:has(.amag-tabsWrapper.aemTabs)"
+          ],
+          "style": null,
+          "blocks": [
+            "cta-band-contact"
+          ],
+          "defaultContent": [
+            ".amagCh-section-description__theme",
+            ".amagCh-section-description__headline"
+          ]
+        },
+        {
+          "id": "7",
+          "name": "Unser AMAG Versprechen",
+          "selector": [
+            ".amag-introTabModul .cmp-tabs__tabpanel:nth-of-type(1) > .responsivegrid > .aem-Grid > section.section:has(.amag-iconListContainer)"
+          ],
+          "style": null,
+          "blocks": [
+            "pledge-row"
+          ],
+          "defaultContent": [
+            ".amag-iconListContainer:has(.amag-iconListItem) .amag-iconListContainer__headline h2"
+          ]
+        },
+        {
+          "id": "8",
+          "name": "Alle Fahrzeuge der AMAG Garagen",
+          "selector": [
+            ".amag-introTabModul .cmp-tabs__tabpanel:nth-of-type(1) > .responsivegrid > .aem-Grid > section.section:has(.amag-brandIntroductionWrapper)"
+          ],
+          "style": null,
+          "blocks": [
+            "quick-links-brands"
+          ],
+          "defaultContent": [
+            ".amagCh-section-description__theme",
+            ".amagCh-section-description__headline"
+          ]
+        },
+        {
+          "id": "9",
+          "name": "Auto-Serviceleistungen",
+          "selector": [
+            ".amag-introTabModul .cmp-tabs__tabpanel:nth-of-type(2) > .responsivegrid > .aem-Grid > section.section:has(.amag-serviceContainerWrapper)"
+          ],
+          "style": null,
+          "blocks": [
+            "icon-feature-grid",
+            "news-cards-services"
+          ],
+          "defaultContent": [
+            ".amagCh-section-description__theme",
+            ".amagCh-section-description__headline",
+            ".amagCh-carousel-description__headline",
+            ".amagCh-carousel-description__subtext"
+          ]
+        },
+        {
+          "id": "10",
+          "name": "AMAG App",
+          "selector": [
+            ".amag-introTabModul .cmp-tabs__tabpanel:nth-of-type(2) > .responsivegrid > .aem-Grid > section.section:has(.amag-app-download)"
+          ],
+          "style": null,
+          "blocks": [
+            "promo-teaser-app"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "11",
+          "name": "AMAG Fleet & Services",
+          "selector": [
+            ".amag-introTabModul .cmp-tabs__tabpanel:nth-of-type(2) > .responsivegrid > .aem-Grid > section.section:has(.amag-maxiTeaser)"
+          ],
+          "style": null,
+          "blocks": [
+            "image-text-card-text"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "12",
+          "name": "Service contact",
+          "selector": [
+            ".amag-introTabModul .cmp-tabs__tabpanel:nth-of-type(2) > .responsivegrid > .aem-Grid > section.section:has(.amag-tabsWrapper.aemTabs)"
+          ],
+          "style": null,
+          "blocks": [
+            "cta-band-contact"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "13",
+          "name": "Customer quote",
+          "selector": [
+            ".amag-introTabModul .cmp-tabs__tabpanel:nth-of-type(2) > .responsivegrid > .aem-Grid > section.section:has(.amag-quoteContainer)"
+          ],
+          "style": null,
+          "blocks": [
+            "testimonial"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "14",
+          "name": "Service icon labels",
+          "selector": [
+            ".amag-introTabModul .cmp-tabs__tabpanel:nth-of-type(2) > .responsivegrid > .aem-Grid > section.section:has(.amag-iconListContainer)"
+          ],
+          "style": null,
+          "blocks": [
+            "icon-text-box"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "15",
+          "name": "Neuigkeiten und Veranstaltungen",
+          "selector": [
+            ".amag-introTabModul .cmp-tabs__tabpanel:nth-of-type(3) > .responsivegrid > .aem-Grid > section.section:has(.amag-newsTeaser)"
+          ],
+          "style": "grey",
+          "blocks": [],
+          "defaultContent": [
+            ".amagCh-section-description__theme",
+            ".amagCh-section-description__headline",
+            ".amag-newsTeaser-noEntry"
+          ]
+        },
+        {
+          "id": "16",
+          "name": "Newsletter teaser",
+          "selector": [
+            ".amag-introTabModul .cmp-tabs__tabpanel:nth-of-type(3) > .responsivegrid > .aem-Grid > section.section:has(.amag-image-text-v2)"
+          ],
+          "style": null,
+          "blocks": [
+            "promo-teaser"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "17",
+          "name": "Service icon labels (News tab)",
+          "selector": [
+            ".amag-introTabModul .cmp-tabs__tabpanel:nth-of-type(3) > .responsivegrid > .aem-Grid > section.section:has(.amag-iconListContainer)"
+          ],
+          "style": null,
+          "blocks": [
+            "icon-text-box"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "18",
+          "name": "Jobs bei AMAG",
+          "selector": [
+            ".amag-introTabModul .cmp-tabs__tabpanel:nth-of-type(3) > .responsivegrid > .aem-Grid > section.section:has(.amag-maxiTeaser)"
+          ],
+          "style": null,
+          "blocks": [
+            "image-text-card-text"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "19",
+          "name": "Unsere Ausstattung",
+          "selector": [
+            ".amag-introTabModul .cmp-tabs__tabpanel:nth-of-type(3) > .responsivegrid > .aem-Grid > section.section:has(.amag-locationFacilitiesWrapper)"
+          ],
+          "style": null,
+          "blocks": [
+            "pledge-row"
+          ],
+          "defaultContent": [
+            ".amagCh-section-description__theme",
+            ".amagCh-section-description__headline"
+          ]
+        },
+        {
+          "id": "20",
+          "name": "Mehr über AMAG Bülach",
+          "selector": [
+            ".amag-introTabModul .cmp-tabs > .amagCh-section__container"
+          ],
+          "style": "grey",
+          "blocks": [],
+          "defaultContent": []
+        },
+        {
+          "id": "21",
+          "name": "Direkt zu pill",
+          "selector": [
+            ".amag-content > .amag-direct-entry"
+          ],
+          "style": null,
+          "blocks": [
+            "direct-entry"
+          ],
+          "defaultContent": []
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "projectType": "da"
+  }
+}

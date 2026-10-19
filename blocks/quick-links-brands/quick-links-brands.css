@@ -1,0 +1,196 @@
+/* quick-links-brands — values lifted from the live theme CSS (clientlib-amagch
+   `.amag-brandIntroductionWrapper*`, `.amagCh-section-description`) and the `quick-links`
+   section shell. */
+.quick-links-brands {
+  position: relative;
+  background: #fff;
+}
+
+.quick-links-brands.band {
+  padding-top: 80px;
+}
+
+.quick-links-brands.first-section.band {
+  padding-top: 0;
+}
+
+.quick-links-brands .wrap {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0 var(--section-gutter);
+}
+
+/* section head (reabsorbed default content): eyebrow | headline */
+.quick-links-brands .section-head {
+  display: flow-root;
+  margin-bottom: 40px;
+}
+
+.quick-links-brands .eyebrow p {
+  margin: 0 0 14px;
+  padding-top: 12px;
+  color: var(--amag-grey-600);
+  font-family: var(--font-text-light);
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.quick-links-brands .headline :is(h1, h2, h3, h4) {
+  margin: 0;
+  font-family: var(--font-display-bold);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/* tiles: 2-up, 4-up ≥ 768, one row ≥ 1200 */
+.quick-links-brands .tiles {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 41px 30px;
+  margin-bottom: 120px;
+}
+
+.quick-links-brands .tile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.quick-links-brands .tile-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  padding: 0 35px;
+  background-color: var(--amag-grey-100);
+}
+
+.quick-links-brands .tile-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+}
+
+.quick-links-brands .tile-logo picture {
+  display: contents;
+}
+
+.quick-links-brands .tile-logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* the closing "Alle Marken" glyph keeps its natural size */
+.quick-links-brands .tile:last-child:not(:first-child) .tile-logo img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.quick-links-brands .tile-text {
+  margin: 0;
+  padding-top: 11px;
+  text-align: center;
+  font-family: var(--font-text-bold);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.quick-links-brands .tile-link:any-link {
+  color: #000;
+  font: inherit;
+  text-decoration: none;
+}
+
+.quick-links-brands .tile-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.quick-links-brands .tile-link:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.quick-links-brands .tile-link:focus-visible {
+  outline: none;
+}
+
+.quick-links-brands .tile-link:focus-visible::after {
+  outline: 2px solid var(--amag-dark-blue);
+}
+
+@media (width >= 768px) {
+  .quick-links-brands .section-head {
+    margin-bottom: 60px;
+  }
+
+  .quick-links-brands .section-head-row {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .quick-links-brands .eyebrow {
+    width: 25%;
+    padding-right: 30px;
+  }
+
+  .quick-links-brands .eyebrow p {
+    margin-bottom: 0;
+  }
+
+  .quick-links-brands .headline {
+    width: 75%;
+  }
+
+  .quick-links-brands .tiles {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 45px 20px;
+  }
+
+  .quick-links-brands .tile-logo {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media (width >= 1200px) {
+  .quick-links-brands.band {
+    padding-top: 120px;
+  }
+
+  .quick-links-brands .section-head {
+    margin-bottom: 80px;
+    margin-left: 8.3333%;
+  }
+
+  .quick-links-brands .tiles {
+    grid-template-columns: none;
+    grid-auto-columns: minmax(0, 1fr);
+    grid-auto-flow: column;
+    gap: 20px;
+  }
+
+  .quick-links-brands .tile-box {
+    height: 160px;
+    padding: 0 15px;
+  }
+
+  .quick-links-brands .tile-logo {
+    width: 85px;
+    height: 85px;
+  }
+
+  .quick-links-brands .tile-text {
+    padding-top: 37px;
+  }
+}

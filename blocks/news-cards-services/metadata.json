@@ -1,0 +1,29 @@
+{
+  "variantName": "news-cards-services",
+  "baseBlock": "news-cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "summary": "Carousel of service boxes (icon, title, sentence, text link)",
+    "purpose": "Garage services carousel — prev/next arrows (>= 1200px) and a \"1 / N\" counter above a strip of grey service boxes (3-up at >= 768px with the next one peeking, 1-up below, swipeable); the active box is 40px taller. Each box: 40px icon, display-bold title, text, dark-blue underlined text link. The carousel head (`<h4>` + subtext, optional head link) is default content before the block and is reabsorbed",
+    "differsFromBase": "news-cards carousel chrome and card text structure match; cards carry a 40px icon (home carousel cards have none).",
+    "layout": "horizontal strip bleeding into the right gutter",
+    "interaction": "prev/next buttons, swipe; counter derived from state"
+  },
+  "contentPattern": {
+    "structure": "one row per service: `<picture icon>` | `<h3>` title, `<p>` text, `<p><a href>`link label`</a></p>`",
+    "rows": [
+      "one row per service: <picture icon> | <h3>AMAG Carwash</h3><p>sentence</p><p><a /de/service/top-services/carwash.html>Zur Autowäsche</a></p>"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [
+    "news-cards-services"
+  ],
+  "authoredAs": "News Cards Services",
+  "sourceUrl": "https://www.amag.ch/de/garagenuebersicht/garage-buelach.html",
+  "usage": {
+    "pagesUsing": [],
+    "reuseCount": 0,
+    "lastUsed": null
+  }
+}

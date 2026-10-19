@@ -1,0 +1,27 @@
+{
+  "variantName": "breadcrumb",
+  "baseBlock": "breadcrumb",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "summary": "Breadcrumb trail (share pill dropped)",
+    "purpose": "Page crumb trail; at >= 1200px the full trail with \"|\" dividers, below 1200px a violet chevron plus the parent crumb only. A following hero-split / hero-split-garage adopts it into its text column",
+    "differsFromBase": "Same crumb trail as /de/service pages."
+  },
+  "contentPattern": {
+    "structure": "one row, one cell holding a `<ul>` with one `<li>` per crumb — every crumb a link except the current page (plain text, last item)",
+    "rows": [
+      "1 row / 1 cell: <ul><li><a href=/de.html>Startseite</a></li><li><a href=/de/komponenten/storelocator.html>Garagensuche</a></li><li>AMAG Bülach</li></ul>"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [
+    "breadcrumb"
+  ],
+  "status": "implemented",
+  "notes": "Existing production block (used by the migrated English pages). Companion files backfilled from the JS header comment and CSS; JS/CSS unchanged.",
+  "usage": {
+    "pagesUsing": [],
+    "reuseCount": 0,
+    "lastUsed": null
+  }
+}

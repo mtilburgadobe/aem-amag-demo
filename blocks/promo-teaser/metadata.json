@@ -1,0 +1,45 @@
+{
+  "variantName": "promo-teaser",
+  "baseBlock": "promo-teaser",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "summary": "Image-left teaser: photo, h3, paragraph, text link",
+    "purpose": "Promotion teaser card(s) — image, headline, description and text link; `image-left` places the image in a 7/12 column beside 5/12 text at >= 1200px",
+    "differsFromBase": ".amag-image-text-v2 imageLeft = existing image-left variant."
+  },
+  "contentPattern": {
+    "structure": "one row per card; `<picture>/<img>` card image; `<h2>/<h3>` headline; a link-bearing `<p>` whose text is the link is the text link; any other `<p>/<ul>` the description"
+  },
+  "options": [
+    {
+      "class": "image-left",
+      "label": "Image Left"
+    },
+    {
+      "class": "band-grey",
+      "label": "Band Grey"
+    },
+    {
+      "class": "band-white",
+      "label": "Band White"
+    },
+    {
+      "class": "grey",
+      "label": "Grey"
+    },
+    {
+      "class": "lavender",
+      "label": "Lavender"
+    }
+  ],
+  "memberVariantIds": [
+    "promo-teaser"
+  ],
+  "status": "implemented",
+  "notes": "Existing production block (used by the migrated English pages). Companion files backfilled from the JS header comment and CSS; JS/CSS unchanged.",
+  "usage": {
+    "pagesUsing": [],
+    "reuseCount": 0,
+    "lastUsed": null
+  }
+}

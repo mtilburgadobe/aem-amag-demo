@@ -1,0 +1,29 @@
+{
+  "variantName": "quick-links-brands",
+  "baseBlock": "quick-links",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "summary": "Brand logo tiles with 'Angebote anzeigen' links",
+    "purpose": "Brand offers grid — large grey logo boxes with a bold text link centred under each (one row of 7 at >= 1200px, 4-up at >= 768px, 2-up below); the whole tile is clickable. The section head (eyebrow + `<h2>`) is default content before the block and is reabsorbed (eyebrow | headline)",
+    "differsFromBase": "Row model matches (picture | link) but visual is a 7-up grid of large grey logo boxes vs three 32px-icon stage tiles; purpose differs.",
+    "layout": "equal-width grid",
+    "interaction": "stretched text link per tile"
+  },
+  "contentPattern": {
+    "structure": "one row per brand: `<p><img logo></p>` | `<p><a href>`Angebote anzeigen`</a></p>`; the last tile may carry a small icon and \"Alle Marken\"",
+    "rows": [
+      "one row per brand: <p><img logo alt=VW></p> | <p><a https://auto.amag.ch/de/vw>Angebote anzeigen</a></p> (… 'Alle Marken')"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [
+    "quick-links-brands"
+  ],
+  "authoredAs": "Quick Links Brands",
+  "sourceUrl": "https://www.amag.ch/de/garagenuebersicht/garage-buelach.html",
+  "usage": {
+    "pagesUsing": [],
+    "reuseCount": 0,
+    "lastUsed": null
+  }
+}
