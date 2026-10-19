@@ -8,8 +8,11 @@
  *   2. benefits: <ul> of <a><img><strong>HEADLINE</strong> text</a> (violet utility row ≥ 1200;
  *      decorated to the live shape <a><img><p><span>HEADLINE</span> text</p></a>)
  *   3. nav: nested <ul> — top level = main nav (desktop row + drawer); nested <ul>s = the
- *      drawer's sub-menus (opened in place with a Back row; never shown on desktop — the
- *      desktop mega-menu was not observed to fire on the live site)
+ *      drawer's sub-menus (opened in place with a Back row) and, ≥ 1200, the hover mega-menu
+ *      built from a pristine copy: leading plain links = overview row, the first three groups
+ *      = grey columns (a group's first entry is dropped when it links to the group itself —
+ *      the overview copy / description), later groups and trailing links = white aside
+ *      (a group whose entries carry images renders as logo tiles, e.g. "Nach Marken")
  *   4. tools: <ul> of three links in fixed order: search, login, watchlist (icon-only)
  *   5. garage: <p>My garage</p> (desktop toggle label), <p>drawer title</p>, <p><strong><a>CTA</a>
  *   6. language: <ul> — the current language as text, the others as links
@@ -19,7 +22,10 @@
  *   9. labels: <ul> of UI strings — menu title, back, hamburger name
  * Observed behaviours only: hide-on-scroll (top: -height past the header height, 50px
  * hysteresis), hamburger → drawer (html.overflow-hidden), home-only transparent morph while
- * scrollY < stage height - 100 (body.header-transparent from <meta name="header-style">).
+ * scrollY < stage height - 100 (body.header-transparent from <meta name="header-style">),
+ * ≥ 1200 mega-menu: opens on hover / keyboard focus of a top item with a sub-menu (trigger
+ * turns violet), stays open over the panel, closes on leave, Escape or scroll; on touch the
+ * first tap opens it, the second follows the link.
  *
  * @ew-exempt <ul> labels (section 9) — UI strings copied into generated controls
  * @ew-exempt <ul> language current code — derived 2-letter copy in the desktop switch
@@ -121,6 +127,139 @@ function decorateNavList(list, backLabel) {
   return closeAll;
 }
 
+/** A mega-menu link: a copy of the authored anchor without its drawer icon. */
+function megaLink(a, keepMedia) {
+  const link = a.cloneNode(true);
+  link.removeAttribute('aria-haspopup');
+  link.removeAttribute('aria-expanded');
+  if (!keepMedia) link.querySelectorAll('picture, img, svg').forEach((n) => n.remove());
+  return link;
+}
+
+/** A group heading: the authored link, or its bare text when the group has no page. */
+function megaTitle(li) {
+  const title = el('p', 'header-mega-title');
+  const a = li.querySelector(':scope > a');
+  if (a) {
+    title.append(megaLink(a));
+  } else {
+    title.textContent = [...li.childNodes].filter((n) => n.nodeType === Node.TEXT_NODE)
+      .map((n) => n.textContent).join('').trim();
+  }
+  return title;
+}
+
+function megaGroup(li) {
+  const titleLink = li.querySelector(':scope > a');
+  const titleHref = titleLink ? titleLink.getAttribute('href') : null;
+  const entries = [...li.querySelector(':scope > ul').children].filter((item) => {
+    const a = item.querySelector(':scope > a');
+    // drop description / overview copies (they link to the group itself)
+    return a && a.getAttribute('href') !== titleHref;
+  });
+  const brands = entries.length > 0 && entries.every((item) => item.querySelector(':scope > a img'));
+  const group = el('div', `header-mega-group${brands ? ' header-mega-brands' : ''}`);
+  const list = el('ul');
+  entries.forEach((item) => {
+    const entry = el('li');
+    entry.append(megaLink(item.querySelector(':scope > a'), brands));
+    list.append(entry);
+  });
+  group.append(megaTitle(li), list);
+  return group;
+}
+
+/** The ≥ 1200 panel of one top-level item, built from its pristine sub-list. */
+function buildMegaPanel(sub) {
+  const panel = el('div', 'header-mega');
+  const row = el('div', 'header-mega-row');
+  const overview = el('div', 'header-mega-overview');
+  const columns = el('div', 'header-mega-columns');
+  const aside = el('div', 'header-mega-aside');
+  let groups = 0;
+  [...sub.children].forEach((li) => {
+    const a = li.querySelector(':scope > a');
+    if (li.querySelector(':scope > ul')) {
+      (groups < 3 ? columns : aside).append(megaGroup(li));
+      groups += 1;
+    } else if (a) {
+      const p = el('p', groups ? 'header-mega-title' : 'header-mega-link');
+      p.append(megaLink(a));
+      (groups ? aside : overview).append(p);
+    }
+  });
+  [overview, columns, aside].filter((n) => n.childElementCount).forEach((n) => row.append(n));
+  panel.append(row);
+  return panel;
+}
+
+/** Desktop mega-menu: one panel per top item with a sub-menu (hover, focus, touch, Esc). */
+function initMegaMenu(navList, source) {
+  const items = [...navList.querySelectorAll(':scope > li')];
+  const sourceItems = [...source.querySelectorAll(':scope > li')];
+  let pointer = 'mouse';
+  let refocusing = false;
+  const entries = [];
+  // resolved on use: initMegaMenu runs before the list is moved into the header block
+  const setHeaderOpen = (on) => {
+    const header = navList.closest('.header');
+    if (header) header.classList.toggle('header-mega-open', on);
+  };
+  const close = (li) => {
+    if (!li || !li.classList.contains('mega-open')) return;
+    li.classList.remove('mega-open');
+    li.querySelector(':scope > a').setAttribute('aria-expanded', 'false');
+    setHeaderOpen(false);
+  };
+  const closeAll = () => entries.forEach(({ li }) => close(li));
+  const open = (li) => {
+    if (!isDesktop.matches) return;
+    entries.forEach((e) => { if (e.li !== li) close(e.li); });
+    li.classList.add('mega-open');
+    li.querySelector(':scope > a').setAttribute('aria-expanded', 'true');
+    // the bar turns solid while a panel is open (the home page's transparent morph pauses)
+    setHeaderOpen(true);
+  };
+  items.forEach((li, i) => {
+    const sub = sourceItems[i] && sourceItems[i].querySelector(':scope > ul');
+    const trigger = li.querySelector(':scope > a');
+    if (!sub || !trigger) return;
+    const panel = buildMegaPanel(sub);
+    panel.id = `header-mega-${i + 1}`;
+    trigger.setAttribute('aria-controls', panel.id);
+    li.append(panel);
+    entries.push({ li, trigger });
+    li.addEventListener('mouseenter', () => { if (pointer !== 'touch') open(li); });
+    li.addEventListener('mouseleave', () => { if (pointer !== 'touch') close(li); });
+    li.addEventListener('focusin', () => { if (!refocusing) open(li); });
+    li.addEventListener('focusout', (e) => { if (!li.contains(e.relatedTarget)) close(li); });
+    trigger.addEventListener('pointerdown', (e) => { pointer = e.pointerType; });
+    // touch at desktop width: first tap opens the panel, a second tap follows the link
+    trigger.addEventListener('click', (e) => {
+      if (!isDesktop.matches || pointer !== 'touch' || li.classList.contains('mega-open')) return;
+      e.preventDefault();
+      open(li);
+    });
+  });
+  if (!entries.length) return closeAll;
+  document.addEventListener('pointerdown', (e) => {
+    pointer = e.pointerType;
+    if (!navList.contains(e.target)) closeAll();
+  });
+  window.addEventListener('keydown', (e) => {
+    const current = entries.find(({ li }) => li.classList.contains('mega-open'));
+    if (e.code !== 'Escape' || !current) return;
+    close(current.li);
+    // return focus to the trigger without reopening the panel through focusin
+    refocusing = true;
+    current.trigger.focus();
+    refocusing = false;
+  });
+  window.addEventListener('scroll', closeAll, { passive: true });
+  isDesktop.addEventListener('change', closeAll);
+  return closeAll;
+}
+
 /** Hide-on-scroll, lifted from the source bundle: 50px hysteresis, hide past own height. */
 function initHideOnScroll(bar) {
   let last = window.scrollY;
@@ -208,7 +347,11 @@ export default async function decorate(block) {
   const navList = navSection ? navSection.querySelector('ul') : null;
   let closeSubs = () => {};
   if (navList) {
+    // the mega-menu reads a pristine copy: the drawer decoration adds Back/overview rows
+    const megaSource = navList.cloneNode(true);
+    unwrapParagraphs(megaSource);
     closeSubs = decorateNavList(navList, backLabel);
+    initMegaMenu(navList, megaSource);
     scroll.append(wrapNode(navList, 'header-nav-list'));
   }
 
