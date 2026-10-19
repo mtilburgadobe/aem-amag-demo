@@ -1,5 +1,6 @@
 /* eslint-disable */
 /* global WebImporter */
+import { knownIconSrc } from '../known-icons.js';
 
 /**
  * Parser: tabs-garage (block table "Tabs Garage").
@@ -19,7 +20,8 @@
  * label the link text names (fallback: same position as the tab).
  *
  * Dropped: the band's arrow glyphs (the block generates them, aria-hidden).
- * Tab icons are inline <svg> on the source -> plain <img> (data:image/svg+xml).
+ * Tab icons are inline <svg> on the source -> plain <img> with the icon's public file
+ * (../known-icons.js), else data:image/svg+xml.
  */
 const ORIGIN = 'https://www.amag.ch';
 const txt = (n) => (n ? n.textContent.replace(/\s+/g, ' ').trim() : '');
@@ -31,6 +33,9 @@ const abs = (u) => {
   try { return new URL(s, `${ORIGIN}/`).href; } catch (e) { return s; }
 };
 function svgDataUri(svg) {
+  // known icons point at their public file: a data: URI is lost on the DA upload
+  const known = knownIconSrc(svg);
+  if (known) return known;
   const s = new XMLSerializer().serializeToString(svg);
   return `data:image/svg+xml;base64,${btoa(unescape(encodeURIComponent(s)))}`;
 }

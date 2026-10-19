@@ -284,6 +284,9 @@ function initTransparent(bar) {
   };
   window.addEventListener('scroll', update, { passive: true });
   window.addEventListener('resize', update);
+  // the stage is usually still collapsed when the header decorates (sections and the hero image
+  // load later), so re-check whenever it changes size, not only on scroll
+  if (stage && window.ResizeObserver) new ResizeObserver(update).observe(stage);
   update();
 }
 
