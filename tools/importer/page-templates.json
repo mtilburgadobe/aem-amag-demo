@@ -113,7 +113,6 @@
           ]
         }
       ],
-      "urlPattern": "/de/garagenuebersicht/*",
       "sections": [
         {
           "id": "1",
@@ -390,6 +389,254 @@
           "style": null,
           "blocks": [
             "direct-entry"
+          ],
+          "defaultContent": []
+        }
+      ],
+      "urlPattern": "/de/garagenuebersicht/*"
+    },
+    {
+      "name": "home",
+      "urls": [
+        "https://www.amag.ch/de.html"
+      ],
+      "representativeUrl": "https://www.amag.ch/de.html",
+      "description": "AMAG home page: stage carousel + quick links, vehicle search, promo tiles, services grid, teaser carousels, news list, newsletter/jobs bands, brand film, testimonial, pledge row, SEO accordion",
+      "blocks": [
+        {
+          "name": "hero-carousel",
+          "instances": [
+            ".amag-content > .amagCh-stageCarousel .cmp-carousel"
+          ]
+        },
+        {
+          "name": "quick-links",
+          "instances": [
+            ".amag-content > .amagCh-stageCarousel .amagCh-stageCarousel__buttons--noPadding"
+          ]
+        },
+        {
+          "name": "vehicle-search",
+          "instances": [
+            ".amag-dspSearch"
+          ]
+        },
+        {
+          "name": "news-cards",
+          "instances": [
+            ".amag-promotionTeaserBox",
+            ".amag-content > section.section:has(.amag-contentTeaserS) .amagCh-carousel .cmp-carousel"
+          ]
+        },
+        {
+          "name": "icon-feature-grid",
+          "instances": [
+            ".amag-serviceContainerWrapper"
+          ]
+        },
+        {
+          "name": "news-cards-articles",
+          "instances": [
+            ".amag-newsTeaser"
+          ]
+        },
+        {
+          "name": "newsletter-band",
+          "instances": [
+            ".amag-content > .amag-divider"
+          ]
+        },
+        {
+          "name": "video-brand-film",
+          "instances": [
+            ".amag-videoComp"
+          ]
+        },
+        {
+          "name": "testimonial",
+          "instances": [
+            ".amag-quoteModul"
+          ]
+        },
+        {
+          "name": "pledge-row",
+          "instances": [
+            ".amag-iconListContainer:has(.amag-iconListItem)"
+          ]
+        },
+        {
+          "name": "accordion-faq",
+          "instances": [
+            ".cmp-accordion"
+          ]
+        }
+      ],
+      "urlPattern": "/*",
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Stage carousel + quick links",
+          "selector": [
+            ".amag-content > .amagCh-stageCarousel"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-carousel",
+            "quick-links"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Vehicle search",
+          "selector": [
+            ".amag-content > section.section:has(.amag-dspSearch)"
+          ],
+          "style": null,
+          "blocks": [
+            "vehicle-search"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "AMAG NEWS – News und Angebote",
+          "selector": [
+            ".amag-content > section.section:has(.amag-promotionTeaserBox)"
+          ],
+          "style": null,
+          "blocks": [
+            "news-cards"
+          ],
+          "defaultContent": [
+            ".amag-promotionTeaserBox__topline",
+            ".amag-promotionTeaserBox__headline"
+          ]
+        },
+        {
+          "id": "section-4",
+          "name": "Die gefragtesten AMAG Serviceleistungen",
+          "selector": [
+            ".amag-content > section.section:has(.amag-serviceContainerWrapper)"
+          ],
+          "style": null,
+          "blocks": [
+            "icon-feature-grid"
+          ],
+          "defaultContent": [
+            ".amagCh-section-description__theme",
+            ".amagCh-section-description__headline",
+            ".amagCh-section-description__subtext"
+          ]
+        },
+        {
+          "id": "section-5",
+          "name": "Willkommen bei der AMAG – content teaser carousels",
+          "selector": [
+            ".amag-content > section.section:has(.amag-contentTeaserS)"
+          ],
+          "style": null,
+          "blocks": [
+            "news-cards"
+          ],
+          "defaultContent": [
+            ".amagCh-section-description__theme",
+            ".amagCh-section-description__headline",
+            ".amagCh-carousel-description__headline"
+          ]
+        },
+        {
+          "id": "section-6",
+          "name": "Mobil in die Zukunft: News & Aktuelles",
+          "selector": [
+            ".amag-content > section.section:has(.amag-newsTeaser)"
+          ],
+          "style": null,
+          "blocks": [
+            "news-cards-articles"
+          ],
+          "defaultContent": [
+            ".amagCh-section-description__theme",
+            ".amagCh-section-description__headline",
+            ".amagCh-section-description__subtext"
+          ]
+        },
+        {
+          "id": "section-7",
+          "name": "AMAG Newsletter band",
+          "selector": [
+            ".amag-content > section.section:has(.amag-newsTeaser) + .amag-divider"
+          ],
+          "style": null,
+          "blocks": [
+            "newsletter-band"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-8",
+          "name": "Image video",
+          "selector": [
+            ".amag-content > section.section:has(.amag-videoComp)"
+          ],
+          "style": null,
+          "blocks": [
+            "video-brand-film"
+          ],
+          "defaultContent": [
+            ".amag-videoComp__headline"
+          ]
+        },
+        {
+          "id": "section-9",
+          "name": "Customer testimonial",
+          "selector": [
+            ".amag-content > section.section:has(.amag-quoteModul)"
+          ],
+          "style": null,
+          "blocks": [
+            "testimonial"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-10",
+          "name": "Unser AMAG Versprechen",
+          "selector": [
+            ".amag-content > section.section:has(.amag-iconListContainer)"
+          ],
+          "style": null,
+          "blocks": [
+            "pledge-row"
+          ],
+          "defaultContent": [
+            ".amag-iconListContainer__headline h2"
+          ]
+        },
+        {
+          "id": "section-11",
+          "name": "AMAG – Ihr Autohändler an 90 Standorten",
+          "selector": [
+            ".amag-content > section.section:has(.cmp-accordion)"
+          ],
+          "style": null,
+          "blocks": [
+            "accordion-faq"
+          ],
+          "defaultContent": [
+            ".cmp-accordion__headline",
+            ".cmp-accordion__introText"
+          ]
+        },
+        {
+          "id": "section-12",
+          "name": "Jobs band",
+          "selector": [
+            ".amag-content > section.section:has(.cmp-accordion) + .amag-divider"
+          ],
+          "style": null,
+          "blocks": [
+            "newsletter-band"
           ],
           "defaultContent": []
         }

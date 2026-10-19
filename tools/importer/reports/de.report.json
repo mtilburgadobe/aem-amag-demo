@@ -1,0 +1,24 @@
+{
+  "status": "success",
+  "url": "https://www.amag.ch/de.html",
+  "path": "de",
+  "timestamp": "2026-10-19T19:00:06.925Z",
+  "title": "Das grösste Automobilunternehmen der Schweiz | AMAG",
+  "template": "home",
+  "blocks": [
+    "hero-carousel",
+    "quick-links",
+    "vehicle-search",
+    "news-cards",
+    "news-cards",
+    "news-cards",
+    "icon-feature-grid",
+    "news-cards-articles",
+    "newsletter-band",
+    "newsletter-band",
+    "video-brand-film",
+    "testimonial",
+    "pledge-row",
+    "accordion-faq"
+  ]
+}

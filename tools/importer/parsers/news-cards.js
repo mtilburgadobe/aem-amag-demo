@@ -3,8 +3,12 @@
 
 /**
  * Parser: news-cards (block table "News Cards").
- * Source: https://www.amag.ch/de/garagenuebersicht/garage-buelach.html — `.amag-promotionTeaserBox`
- * (section 4 "NEWS und ANGEBOTE", 12 promotion tiles).
+ * Sources:
+ *   - https://www.amag.ch/de/garagenuebersicht/garage-buelach.html — `.amag-promotionTeaserBox`
+ *     (section 4 "NEWS und ANGEBOTE", 12 promotion tiles);
+ *   - https://www.amag.ch/de.html — `.amag-promotionTeaserBox` (section 3, 17 tiles, same markup)
+ *     and the two `.amagCh-carousel .cmp-carousel` content-teaser strips (section 5, see the
+ *     `carousel` variant below).
  *
  * Section head: the eyebrow <p> ("AMAG NEWS") and <h2> ("NEWS und ANGEBOTE") sit INSIDE the
  * instance on the source; per the block (head = DEFAULT CONTENT before the block, reabsorbed)
@@ -73,7 +77,80 @@ function colourOf(card) {
   return COLOURS[toHex(raw)] || COLOURS[toHex(fromAttr)] || '';
 }
 
+/*
+ * `carousel` variant — https://www.amag.ch/de.html section 5 ("WILLKOMMEN BEI DER AMAG"): two
+ * `.amagCh-carousel .cmp-carousel` strips of `.amag-contentTeaserS` cards.
+ *   - the group <h4> (`.amagCh-carousel-description__headline`) sits INSIDE the instance and is
+ *     moved in front of the block as default content (the section eyebrow + <h2> are outside the
+ *     instance and stay default content on their own);
+ *   - first carousel of the section -> `News Cards (carousel, no-band)` ("Ihr Traumauto von der
+ *     AMAG"), any later one -> `News Cards (carousel)` ("Unsere Services für Sie");
+ *   - ONE ROW PER CARD, one cell: <h3>title</h3><p>copy</p><p><a href>link label</a></p>
+ *     (iteration keyed on `.cmp-carousel__item`, document order).
+ * Dropped: previous/next arrows, the derived "1 / 4" counter, the hidden caption list.
+ */
+function isTeaserCarousel(element) {
+  return !element.querySelector('.amag-promotionTeaser')
+    && (element.matches('.cmp-carousel') || !!element.querySelector('.cmp-carousel'))
+    && !!element.querySelector('.amag-contentTeaserS');
+}
+
+function parseCarousel(element, document) {
+  const carousel = element.matches('.cmp-carousel') ? element : element.querySelector('.cmp-carousel');
+  const head = [];
+  const h4 = carousel.querySelector('.amagCh-carousel-description__headline');
+  if (h4 && txt(h4)) head.push(mk(document, 'h4', txt(h4)));
+
+  let items = [...carousel.querySelectorAll('.cmp-carousel__items > .cmp-carousel__item')];
+  if (!items.length) items = [...carousel.querySelectorAll('.cmp-carousel__item')];
+  const cells = [];
+  items.forEach((item) => {
+    const card = item.querySelector('.amag-contentTeaserS') || item;
+    const title = txt(card.querySelector('.amag-contentTeaserS__headline, h3'));
+    const copy = txt(card.querySelector('.amag-contentTeaserS__text'));
+    const link = card.querySelector('.amag-contentTeaserS__link a[href]') || card.querySelector('a[href]');
+    const cell = [];
+    if (title) cell.push(mk(document, 'h3', title));
+    if (copy) cell.push(mk(document, 'p', copy));
+    if (link && txt(link)) {
+      const a = mk(document, 'a', txt(link));
+      a.setAttribute('href', link.getAttribute('href'));
+      cell.push(mk(document, 'p', a));
+    }
+    if (!title && !copy) return;
+    cells.push([cell]);
+  });
+
+  if (!cells.length) {
+    element.replaceWith(...element.childNodes);
+    return;
+  }
+
+  // First teaser carousel of its section = no top band (the section head sits above it).
+  // Decided on the `.amagCh-carousel` wrappers, which survive when an earlier carousel of the
+  // same section has already been replaced by its block table.
+  // Without that wrapper, an earlier sibling teaser carousel (or its block table) counts.
+  const isEarlierCarousel = (s) => s.classList.contains('amagCh-carousel')
+    || (s.matches('.cmp-carousel') && !!s.querySelector('.amag-contentTeaserS'))
+    || (s.localName === 'table' && /^News Cards \(carousel/i.test(txt(s.querySelector('tr'))));
+  const anchor = element.closest('.amagCh-carousel') || element;
+  let first = true;
+  for (let s = anchor.previousElementSibling; s; s = s.previousElementSibling) {
+    if (isEarlierCarousel(s)) { first = false; break; }
+  }
+  const name = first ? 'News Cards (carousel, no-band)' : 'News Cards (carousel)';
+
+  const block = WebImporter.Blocks.createBlock(document, { name, cells });
+  head.forEach((n) => element.before(n));
+  element.replaceWith(block);
+}
+
 export default function parse(element, { document }) {
+  if (isTeaserCarousel(element)) {
+    parseCarousel(element, document);
+    return;
+  }
+
   // Section head -> default content before the block.
   const head = [];
   const topline = element.querySelector('.amag-promotionTeaserBox__topline');

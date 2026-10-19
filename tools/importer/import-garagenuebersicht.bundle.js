@@ -368,7 +368,56 @@ var CustomImportScript = (() => {
     const fromAttr = ((ground.getAttribute("style") || "").match(/background(?:-color)?\s*:\s*([^;]+)/i) || [])[1];
     return COLOURS[toHex(raw)] || COLOURS[toHex(fromAttr)] || "";
   }
+  function isTeaserCarousel(element) {
+    return !element.querySelector(".amag-promotionTeaser") && (element.matches(".cmp-carousel") || !!element.querySelector(".cmp-carousel")) && !!element.querySelector(".amag-contentTeaserS");
+  }
+  function parseCarousel(element, document2) {
+    const carousel = element.matches(".cmp-carousel") ? element : element.querySelector(".cmp-carousel");
+    const head = [];
+    const h4 = carousel.querySelector(".amagCh-carousel-description__headline");
+    if (h4 && txt4(h4)) head.push(mk4(document2, "h4", txt4(h4)));
+    let items = [...carousel.querySelectorAll(".cmp-carousel__items > .cmp-carousel__item")];
+    if (!items.length) items = [...carousel.querySelectorAll(".cmp-carousel__item")];
+    const cells = [];
+    items.forEach((item) => {
+      const card = item.querySelector(".amag-contentTeaserS") || item;
+      const title = txt4(card.querySelector(".amag-contentTeaserS__headline, h3"));
+      const copy = txt4(card.querySelector(".amag-contentTeaserS__text"));
+      const link = card.querySelector(".amag-contentTeaserS__link a[href]") || card.querySelector("a[href]");
+      const cell = [];
+      if (title) cell.push(mk4(document2, "h3", title));
+      if (copy) cell.push(mk4(document2, "p", copy));
+      if (link && txt4(link)) {
+        const a = mk4(document2, "a", txt4(link));
+        a.setAttribute("href", link.getAttribute("href"));
+        cell.push(mk4(document2, "p", a));
+      }
+      if (!title && !copy) return;
+      cells.push([cell]);
+    });
+    if (!cells.length) {
+      element.replaceWith(...element.childNodes);
+      return;
+    }
+    const isEarlierCarousel = (s) => s.classList.contains("amagCh-carousel") || s.matches(".cmp-carousel") && !!s.querySelector(".amag-contentTeaserS") || s.localName === "table" && /^News Cards \(carousel/i.test(txt4(s.querySelector("tr")));
+    const anchor = element.closest(".amagCh-carousel") || element;
+    let first = true;
+    for (let s = anchor.previousElementSibling; s; s = s.previousElementSibling) {
+      if (isEarlierCarousel(s)) {
+        first = false;
+        break;
+      }
+    }
+    const name = first ? "News Cards (carousel, no-band)" : "News Cards (carousel)";
+    const block = WebImporter.Blocks.createBlock(document2, { name, cells });
+    head.forEach((n) => element.before(n));
+    element.replaceWith(block);
+  }
   function parse5(element, { document: document2 }) {
+    if (isTeaserCarousel(element)) {
+      parseCarousel(element, document2);
+      return;
+    }
     const head = [];
     const topline = element.querySelector(".amag-promotionTeaserBox__topline");
     const headline = element.querySelector(".amag-promotionTeaserBox__headline");
@@ -1209,7 +1258,61 @@ var CustomImportScript = (() => {
       return u;
     }
   }
+  var HOME_BEFORE = [
+    // Floating "Direkt zu" pill: <div class="amag-direct-entry"> (a block on the garage template,
+    // non-authorable chrome on home)
+    ".amag-content > .amag-direct-entry",
+    ".amag-direct-entry",
+    // Stage carousel chrome no parser consumes. The slides (.cmp-carousel__item) and the quick links
+    // (.amagCh-stageCarousel__buttons--noPadding) stay for the hero-carousel / quick-links parsers.
+    // <div class="cmp-carousel__actions"> (prev / next / pause / play buttons)
+    ".amagCh-stageCarousel .cmp-carousel__actions",
+    // the indicator list (.cmp-carousel__indicator-container) stays: the hero-carousel parser reads
+    // each slide's indicator label from it (cell 4); HOME_AFTER removes any leftover
+    // Video slide progress bar + empty backdrops:
+    // <div class="amag-stageTeaserVideo__progressbar">, <div class="amag-stageTeaserVideo__videoBackdrop">,
+    // <div class="amag-stageTeaserImage__imageBackdrop">
+    ".amagCh-stageCarousel .amag-stageTeaserVideo__progressbar",
+    ".amagCh-stageCarousel .amag-stageTeaserVideo__videoBackdrop",
+    ".amagCh-stageCarousel .amag-stageTeaserImage__imageBackdrop",
+    // "Accept cookies to watch the video" banner in the stage video slides:
+    // <div class="cookie-video-banner__container"> (sibling of .amag-stageTeaserVideo__player,
+    // which is kept)
+    ".amagCh-stageCarousel .cookie-video-banner__container",
+    // AMAG Bot chat iframe wrapper: <div class="frontnow-advisor-container frontnow-hidden">
+    ".frontnow-advisor-container"
+  ];
+  var HOME_AFTER = [
+    // Global footer: <footer> (contains the hr.amag-hrBreak separators, which would otherwise
+    // become section breaks)
+    "footer",
+    ".amag-footer",
+    ".amag-direct-entry",
+    // Header pop-up notification (lives in #header; leftovers only):
+    // <div class="amag-pop-up amag-pop-up__wrapper--desktop|--mobile">, <div class="amag-pop-up__wrapper-before">
+    ".amag-pop-up",
+    ".amag-pop-up__wrapper-before",
+    ".frontnow-advisor-container",
+    ".frontnow__backdrop",
+    // Leftover carousel controls (any carousel, after the parsers ran)
+    ".cmp-carousel__actions",
+    ".cmp-carousel__indicator-container",
+    // Video cookie-consent overlays left after parsing: <div class="cookie-video-overlay__container">
+    // (.amag-videoComp) and <div class="cookie-video-banner__container"> (stage slides)
+    ".cookie-video-overlay__container",
+    ".cookie-video-banner__container",
+    // Clientlib loader: <template id="amagch-clientlib"><script …></template> (the <script> sits in
+    // the template's content fragment, so the generic 'script' removal cannot reach it)
+    "template"
+  ];
   function transform(hookName, element, payload) {
+    const isHome = !!(payload && payload.template && payload.template.name === "home");
+    if (hookName === H.before && isHome) {
+      WebImporter.DOMUtils.remove(element, HOME_BEFORE);
+    }
+    if (hookName === H.after && isHome) {
+      WebImporter.DOMUtils.remove(element, HOME_AFTER);
+    }
     if (hookName === H.before) {
       WebImporter.DOMUtils.remove(element, [
         // OneTrust cookie consent: <div id="onetrust-consent-sdk"> (banner, preference center, iframe)
@@ -1332,6 +1435,7 @@ var CustomImportScript = (() => {
   function transform2(hookName, element, payload) {
     const sections = payload && payload.template && payload.template.sections || [];
     if (sections.length < 2) return;
+    const useTabs = payload.template.name !== "home";
     if (hookName === "beforeTransform") {
       for (let i = sections.length - 1; i >= 0; i -= 1) {
         const section = sections[i];
@@ -1340,7 +1444,7 @@ var CustomImportScript = (() => {
         if (!sectionEl) continue;
         const hr = document.createElement("hr");
         hr.setAttribute(SECTION_ATTR, section.id);
-        const tab = tabLabelFor(sectionEl) || TAB_FALLBACK[section.id] || "";
+        const tab = useTabs ? tabLabelFor(sectionEl) || TAB_FALLBACK[section.id] || "" : "";
         if (tab) hr.setAttribute(TAB_ATTR, tab);
         sectionEl.before(hr);
       }
@@ -1359,7 +1463,7 @@ var CustomImportScript = (() => {
         if (!marker) continue;
         const cells = {};
         if (section.style) cells.Style = section.style;
-        const tab = marker.getAttribute(TAB_ATTR);
+        const tab = useTabs ? marker.getAttribute(TAB_ATTR) : null;
         if (tab) cells.Tab = tab;
         if (Object.keys(cells).length) {
           const metadataBlock = WebImporter.Blocks.createBlock(document, {

@@ -2,7 +2,10 @@
 /* global WebImporter */
 
 /**
- * Transformer: AMAG section breaks + Section Metadata (template `garagenuebersicht`).
+ * Transformer: AMAG section breaks + Section Metadata (templates `garagenuebersicht` and `home`).
+ *
+ * Template `home` (https://www.amag.ch/de.html): 12 sections, all `.amag-content > …` siblings;
+ * only section-6 (news list) carries `Style: grey`; no `Tab` metadata is emitted (see useTabs).
  *
  * Uses payload.template.sections (page-templates.json); each `selector` is an array tried in
  * order. Selectors were verified in migration-work/cleaned.html.
@@ -75,6 +78,9 @@ function isEmptyBetween(document, root, start, end) {
 export default function transform(hookName, element, payload) {
   const sections = (payload && payload.template && payload.template.sections) || [];
   if (sections.length < 2) return;
+  // `Tab` metadata is garage-only (tabs-garage block). Template `home` has no tab module and its
+  // section ids are 'section-1'…'section-12' (no TAB_FALLBACK key), but gate it explicitly anyway.
+  const useTabs = payload.template.name !== 'home';
 
   if (hookName === 'beforeTransform') {
     // Reverse order: inserting relative to a live element never moves unprocessed sections.
@@ -86,7 +92,7 @@ export default function transform(hookName, element, payload) {
 
       const hr = document.createElement('hr');
       hr.setAttribute(SECTION_ATTR, section.id);
-      const tab = tabLabelFor(sectionEl) || TAB_FALLBACK[section.id] || '';
+      const tab = useTabs ? (tabLabelFor(sectionEl) || TAB_FALLBACK[section.id] || '') : '';
       if (tab) hr.setAttribute(TAB_ATTR, tab);
       sectionEl.before(hr);
     }
@@ -111,7 +117,7 @@ export default function transform(hookName, element, payload) {
 
       const cells = {};
       if (section.style) cells.Style = section.style;
-      const tab = marker.getAttribute(TAB_ATTR);
+      const tab = useTabs ? marker.getAttribute(TAB_ATTR) : null;
       if (tab) cells.Tab = tab;
 
       if (Object.keys(cells).length) {
