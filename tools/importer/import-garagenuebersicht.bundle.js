@@ -1346,13 +1346,49 @@ var CustomImportScript = (() => {
     // the template's content fragment, so the generic 'script' removal cannot reach it)
     "template"
   ];
+  var STORELOCATOR_BEFORE = [
+    // AMAG chat bot wrapper: <div class="frontnow-advisor-container frontnow-hidden"> (not in the
+    // capture, injected at runtime; launcher/popover/backdrop are in the shared list)
+    ".frontnow-advisor-container"
+  ];
+  var STORELOCATOR_AFTER = [
+    // Global footer: <footer> as a direct body child (no id/class; contains the
+    // hr.amag-hrBreak separators, which would otherwise become section breaks).
+    // `.amag-footer` = <div class="container-fluid amag-footer pl-0 pr-0"> inside it (fallback).
+    "body > footer",
+    ".amag-footer",
+    "hr.amag-hrBreak",
+    // Header pop-up notification (lives in <header id="header">; leftovers only):
+    // <div class="amag-pop-up amag-pop-up__wrapper--desktop|--mobile">, <div class="amag-pop-up__wrapper-before">
+    ".amag-pop-up",
+    ".amag-pop-up__wrapper-before",
+    ".frontnow-advisor-container",
+    ".frontnow__backdrop",
+    // Empty select2 dropdown containers (leftovers): <div class="select2-single-container">,
+    // <div class="select2-multi-container">
+    ".select2-single-container",
+    ".select2-multi-container",
+    // Empty infrastructure info div: <div id="amag-infrastructure-info">
+    "#amag-infrastructure-info",
+    // Clientlib loader: <template id="amagch-clientlib"><script …></template> (the <script> sits in
+    // the template's content fragment, so the generic 'script' removal cannot reach it)
+    "template"
+  ];
+  var STORELOCATOR_KEEP_BEFORE = [".amag-rating__container"];
   function transform(hookName, element, payload) {
     const isHome = !!(payload && payload.template && payload.template.name === "home");
+    const isStorelocator = !!(payload && payload.template && payload.template.name === "storelocator");
     if (hookName === H.before && isHome) {
       WebImporter.DOMUtils.remove(element, HOME_BEFORE);
     }
     if (hookName === H.after && isHome) {
       WebImporter.DOMUtils.remove(element, HOME_AFTER);
+    }
+    if (hookName === H.before && isStorelocator) {
+      WebImporter.DOMUtils.remove(element, STORELOCATOR_BEFORE);
+    }
+    if (hookName === H.after && isStorelocator) {
+      WebImporter.DOMUtils.remove(element, STORELOCATOR_AFTER);
     }
     if (hookName === H.before) {
       WebImporter.DOMUtils.remove(element, [
@@ -1378,7 +1414,7 @@ var CustomImportScript = (() => {
         ".amag-rating__container",
         // Empty infrastructure info div: <div id="amag-infrastructure-info">
         "#amag-infrastructure-info"
-      ]);
+      ].filter((sel) => !(isStorelocator && STORELOCATOR_KEEP_BEFORE.includes(sel))));
       element.querySelectorAll(".amag-introTabModul .cmp-tabs__tabpanel:nth-of-type(1) section.section .amag-iconListContainer").forEach((list) => {
         if (list.querySelector(".amag-iconListItem, .amag-iconLabel")) return;
         const parent = list.parentElement;
@@ -1476,7 +1512,8 @@ var CustomImportScript = (() => {
   function transform2(hookName, element, payload) {
     const sections = payload && payload.template && payload.template.sections || [];
     if (sections.length < 2) return;
-    const useTabs = payload.template.name !== "home";
+    if (payload.template.name === "storelocator") return;
+    const useTabs = payload.template.name === "garagenuebersicht";
     if (hookName === "beforeTransform") {
       for (let i = sections.length - 1; i >= 0; i -= 1) {
         const section = sections[i];

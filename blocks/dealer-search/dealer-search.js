@@ -19,12 +19,13 @@
  *                | <p><a rating-badge-url>rating-badge-url</a></p>
  *                | <p><strong><a booking>Arrange an appointment</a></strong></p>  (primary CTA)
  *   filters-head | <h4>All filters</h4> | <p><img trash> Delete all filters</p>
- *   filters-type | <p>Show garages by</p>
+ *   filters-type | <p>Show garages by</p> | <p>sales</p><p>service</p> (optional switch labels)
  *   filters-brands | <p>Brand selection</p> | <ul>sales (img + name)</ul> | <ul>service</ul>
  *   filters-offers | <p>Offer</p> | <ul><li>offer</li>…</ul>
  *   filters-footer | <p>counter</p><p>confirm label</p> | <p>cancel label</p>
  *   quick-links  | <p>topline</p> | <p><img><a href>label</a></p>… | <p><img>open</p><p><img>close
- * A garage row and its details row pair by name (fallback: order).
+ * A garage row and its details row pair by name, repeated names in order (fallback: order).
+ * Labels the block draws itself (Sale/Service chip titles) follow html[lang] (en, de).
  * Every authored node is MOVED into the layout (EW1); wrappers carry the classes (EW2); CTAs move
  * as their <p> (EW3); button-like controls are div[role=button] hosts (EW7); re-entrant (EW9).
  *
@@ -351,20 +352,37 @@ const MARKER = {
   active: { file: 'amag-marker-blue.png', size: [51, 61] },
 };
 
-const BRAND_LABELS = { sale: 'Sale', service: 'Service' };
+// labels the block draws itself (not authored), by page language (html[lang], set from the path);
+// `brands` renames garage-data.js service brands for the language
+const LABELS = {
+  en: { sale: 'Sale', service: 'Service', brands: {} },
+  de: { sale: 'Verkauf', service: 'Service', brands: { 'VW Commercial Vehicles': 'VW Nutzfahrzeuge' } },
+};
+const pageLabels = () => LABELS[document.documentElement.lang] || LABELS.en;
 
 function lookupGarages() {
   const byKey = new Map();
+  const byStreet = new Map();
   GARAGES.forEach(([name, street, lat, lng, service]) => {
+    const record = { at: [lat, lng], service: service || [] };
     const key = `${norm(name)}|${norm(street)}`;
     if (!byKey.has(key)) byKey.set(key, []);
-    byKey.get(key).push({ at: [lat, lng], service: service || [] });
+    byKey.get(key).push(record);
+    // only streets that occur once in the data can identify a garage on their own
+    byStreet.set(norm(street), byStreet.has(norm(street)) ? null : record);
   });
-  // repeated name + street pairs resolve in list order
+  const used = new Set();
+  const take = (records) => {
+    const record = (records || []).find((r) => r && !used.has(r));
+    if (record) used.add(record);
+    return record || null;
+  };
+  // repeated name + street pairs resolve in list order; a garage whose name differs from the data
+  // (another language, a renamed garage) falls back to its street
   return (garage) => {
-    const street = garage.querySelector('.garage-address > p');
-    const hits = byKey.get(`${garage.dataset.name}|${norm(street && street.textContent)}`);
-    return hits && hits.length ? hits.shift() : null;
+    const p = garage.querySelector('.garage-address > p');
+    const street = norm(p && p.textContent);
+    return take(byKey.get(`${garage.dataset.name}|${street}`)) || take([byStreet.get(street)]);
   };
 }
 
@@ -588,10 +606,14 @@ function buildPanel(rows) {
   const typeRow = rows.find((r) => r.key === 'filters-type');
   const type = el('div', 'filter-type');
   const typeHead = el('div', 'filter-type-headline');
-  if (typeRow) typeHead.append(...typeRow.cells.flatMap(paragraphs));
+  const [typeHeadCell, typeLabelCell] = typeRow ? typeRow.cells : [];
+  typeHead.append(...paragraphs(typeHeadCell));
   const sw = el('div', 'filter-type-switch');
-  // the two selection buttons were empty at capture (filled by the store data on live)
-  sw.append(el('span', 'filter-type-button is-active'), el('span', 'filter-type-button'));
+  // the two selection buttons: their labels from the optional second cell (<p>sales</p>
+  // <p>service</p>); empty without it, as at the en capture (filled by the store data on live)
+  const buttons = [el('span', 'filter-type-button is-active'), el('span', 'filter-type-button')];
+  paragraphs(typeLabelCell).slice(0, 2).forEach((p, i) => buttons[i].append(p));
+  sw.append(...buttons);
   type.append(typeHead, sw);
   panel.append(type);
 
@@ -711,21 +733,30 @@ function buildDirectEntry(row) {
 }
 
 function pairModals(garages, modals) {
-  const byName = new Map(modals.map((m) => [m.dataset.name, m]));
-  return garages.map((g, i) => byName.get(g.dataset.name) || modals[i] || null);
+  // two garages can share a name (e.g. AMAG Crissier): repeated names pair in order
+  const byName = new Map();
+  modals.forEach((m) => {
+    if (!byName.has(m.dataset.name)) byName.set(m.dataset.name, []);
+    byName.get(m.dataset.name).push(m);
+  });
+  return garages.map((g, i) => {
+    const same = byName.get(g.dataset.name);
+    return (same && same.shift()) || modals[i] || null;
+  });
 }
 
 function brandGroup(kind, names) {
   if (!names.length) return null;
+  const { brands } = pageLabels();
   const group = el('div', `modal-brands ${kind}`);
   const ul = el('ul');
   names.forEach((n) => {
     const li = el('li');
-    li.textContent = n;
+    li.textContent = brands[n] || n;
     ul.append(li);
   });
   const title = el('p', 'modal-brands-title');
-  title.textContent = BRAND_LABELS[kind];
+  title.textContent = pageLabels()[kind];
   group.append(title, ul);
   return group;
 }
