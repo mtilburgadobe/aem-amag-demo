@@ -83,6 +83,8 @@ function buildPicker(row, list) {
   }
   const listWrap = wrapNode(list, 'field-list');
   list.setAttribute('role', 'listbox');
+  if (label) list.setAttribute('aria-labelledby', label.id);
+  else list.setAttribute('aria-label', text(items[0] || list));
   items.forEach((li, k) => {
     li.setAttribute('role', 'option');
     li.setAttribute('aria-selected', k === 0 ? 'true' : 'false');

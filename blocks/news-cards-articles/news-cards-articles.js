@@ -20,6 +20,7 @@
  * <p>) and split one formatted link into several adjacent anchors (merged back by href).
  */
 import { createOptimizedPicture } from '../../scripts/aem.js';
+import { retagHeading } from '../../scripts/scripts.js';
 
 const VISIBLE = 3;
 
@@ -201,6 +202,8 @@ function buildArticle(row, titleTag) {
       const h = document.createElement(titleTag);
       h.append(...heading.childNodes);
       heading = h;
+    } else {
+      heading = retagHeading(heading, Number(titleTag[1]));
     }
     title.append(heading);
     info.append(title);
@@ -311,9 +314,13 @@ export default function decorate(block) {
   instance += 1;
   const list = el('articles', 'ul');
   list.id = `news-cards-articles-list-${instance}`;
-  // a title authored without heading takes the level the other articles use (default h3)
+  // titles sit one level below the section headline (default h3); a deeper authored level
+  // (e.g. h4 straight under the h2) would skip a level in the page outline
+  const headline = wrap.querySelector('h1, h2, h3, h4, h5');
+  const maxLevel = headline ? Number(headline.tagName[1]) + 1 : 3;
   const authored = block.querySelector('h2, h3, h4, h5, h6');
-  const titleTag = authored ? authored.tagName.toLowerCase() : 'h3';
+  const level = Math.min(authored ? Number(authored.tagName[1]) : 3, maxLevel);
+  const titleTag = `h${level}`;
   const items = articleRows.map((row) => buildArticle(row, titleTag));
   list.append(...items);
   const box = wrapNode(list, 'list');

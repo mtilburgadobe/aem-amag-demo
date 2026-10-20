@@ -12,7 +12,7 @@
   /* colours (canon.css :root) */
   --amag-violet: #801977;
   --amag-dark-blue: #172983;
-  --amag-light-blue: #009ee0;
+  --amag-light-blue: #007eb3;
   --amag-green: #006431;
   --amag-lime: #97bf0d;
   --amag-black: #000;
@@ -24,7 +24,7 @@
   --amag-grey-blue: #e8eaf3;
   --background-color: #fff;
   --text-color: #000;
-  --link-color: #007bff;
+  --link-color: #0072ed;
   --link-hover-color: #0056b3;
 
   /* fonts — four single-weight families; the *-fallback faces are metric-matched Arial */
