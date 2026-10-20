@@ -37,9 +37,10 @@
   "usage": {
     "pagesUsing": [
       "/en",
-      "/de/service/reifen-und-raeder/winterreifen"
+      "/de/service/reifen-und-raeder/winterreifen",
+      "/de/service"
     ],
-    "reuseCount": 2,
-    "lastUsed": null
+    "reuseCount": 3,
+    "lastUsed": "2026-10-20"
   }
 }

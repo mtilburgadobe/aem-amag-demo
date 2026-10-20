@@ -1,0 +1,28 @@
+{
+  "variantName": "garage-chooser",
+  "baseBlock": "garage-chooser",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "summary": "Full-screen \"Choose your AMAG garage\" modal: headline, search field and a filterable garage link list",
+    "purpose": "Full-screen garage chooser modal: headline, a search field that filters the list by text, and one link per garage (name, street, place). Opens from any `a[href$=\"#garage-chooser\"]` on the page (e.g. the cta-band CTA), with a 300ms dialog transition; closes on the close controls, Escape and a backdrop click. Renders fixed - takes no flow height",
+    "differsFromBase": "Project base block."
+  },
+  "contentPattern": {
+    "structure": "One row per garage; a leading row with a heading and no link is the chooser headline. Garage rows read by role: the link-bearing `<p>` is the garage name and the whole row links to its href (inner anchor unwrapped); the remaining `<p>`s are the street and the place",
+    "rows": "[<h3>Choose your AMAG garage</h3>]\none row per garage: [<p><a href>AMAG Aarau</a></p><p>Rohrerstrasse 29,</p><p>5000 Aarau</p>]"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "garage-chooser"
+  ],
+  "status": "implemented",
+  "notes": "Existing production block (used by the migrated services pages /en/services and /de/service). Companion files backfilled from the JS header comment and CSS; JS/CSS unchanged.",
+  "usage": {
+    "pagesUsing": [
+      "/en/services",
+      "/de/service"
+    ],
+    "reuseCount": 2,
+    "lastUsed": "2026-10-20"
+  }
+}

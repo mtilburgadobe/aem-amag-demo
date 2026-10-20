@@ -684,6 +684,200 @@
           "defaultContent": []
         }
       ]
+    },
+    {
+      "name": "service",
+      "urls": [
+        "https://www.amag.ch/de/service.html"
+      ],
+      "representativeUrl": "https://www.amag.ch/de/service.html",
+      "description": "AMAG service overview (Service landing page)",
+      "blocks": [
+        {
+          "name": "breadcrumb",
+          "instances": [
+            ".amag-introService__breadcrumbs"
+          ]
+        },
+        {
+          "name": "hero-split",
+          "instances": [
+            ".amag-content > section.section .amag-introService"
+          ]
+        },
+        {
+          "name": "video-brand-film",
+          "instances": [
+            ".amag-videoComp"
+          ]
+        },
+        {
+          "name": "long-form-article",
+          "instances": [
+            ".amag-content > section.section:has(.amag-introService) .rich-text"
+          ]
+        },
+        {
+          "name": "icon-text-box",
+          "instances": [
+            ".amag-iconTextBox"
+          ]
+        },
+        {
+          "name": "service-offer",
+          "instances": [
+            ".amag-serviceOffer"
+          ]
+        },
+        {
+          "name": "image-text-card",
+          "instances": [
+            ".amag-content > section.section:has(.amag-maxiTeaserBild)"
+          ]
+        },
+        {
+          "name": "accordion-faq",
+          "instances": [
+            ".cmp-accordion"
+          ]
+        },
+        {
+          "name": "news-cards",
+          "instances": [
+            ".amag-promotionTeaserBox"
+          ]
+        },
+        {
+          "name": "pledge-row",
+          "instances": [
+            ".amag-iconListContainer:has(.amag-iconListItem)"
+          ]
+        },
+        {
+          "name": "garage-chooser",
+          "instances": [
+            ".amag-kontaktaufnahme .amag-garageElectionOverlay .amag-garageOverlay"
+          ]
+        },
+        {
+          "name": "cta-band",
+          "instances": [
+            ".amag-kontaktaufnahme"
+          ]
+        },
+        {
+          "name": "newsletter-band",
+          "instances": [
+            ".amag-content > .amag-divider"
+          ]
+        },
+        {
+          "name": "direct-entry",
+          "instances": [
+            ".amag-content > .amag-direct-entry"
+          ]
+        }
+      ],
+      "urlPattern": "/de/service",
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Intro: breadcrumb, split hero, brand video, intro text",
+          "selector": [
+            ".amag-content > section.section:has(.amag-introService)"
+          ],
+          "style": null,
+          "blocks": [
+            "breadcrumb",
+            "hero-split",
+            "video-brand-film",
+            "long-form-article"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Services at a glance + appointment strip + image teasers",
+          "selector": [
+            ".amag-content > section.section .amag-iconTextBox"
+          ],
+          "style": null,
+          "blocks": [
+            "icon-text-box",
+            "service-offer",
+            "image-text-card"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "FAQ accordions (4 groups; not on /en/services)",
+          "selector": [
+            ".amag-content > section.section:has(.cmp-accordion)"
+          ],
+          "style": null,
+          "blocks": [
+            "accordion-faq"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4",
+          "name": "News and offers",
+          "selector": [
+            ".amag-content > section.section:has(.amag-promotionTeaserBox)"
+          ],
+          "style": null,
+          "blocks": [
+            "news-cards"
+          ],
+          "defaultContent": [
+            ".amag-promotionTeaserBox__topline",
+            ".amag-promotionTeaserBox__headline"
+          ]
+        },
+        {
+          "id": "section-5",
+          "name": "Pledge + contact band",
+          "selector": [
+            ".amag-content > section.section:has(.amag-iconListContainer)"
+          ],
+          "style": null,
+          "blocks": [
+            "pledge-row",
+            "cta-band"
+          ],
+          "defaultContent": [
+            ".amag-content > section.section:has(.amag-iconListContainer) .amagCh-section-description__theme",
+            ".amag-content > section.section:has(.amag-iconListContainer) .amagCh-section-description__headline"
+          ]
+        },
+        {
+          "id": "section-6",
+          "name": "Newsletter band",
+          "selector": [
+            ".amag-content > .amag-divider"
+          ],
+          "style": null,
+          "blocks": [
+            "newsletter-band"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-7",
+          "name": "Overlays: garage chooser + direct entry",
+          "selector": [
+            ".amag-content > .amag-direct-entry"
+          ],
+          "style": null,
+          "blocks": [
+            "garage-chooser",
+            "direct-entry"
+          ],
+          "defaultContent": []
+        }
+      ]
     }
   ],
   "metadata": {

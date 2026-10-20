@@ -35,15 +35,35 @@ function clean(node, document) {
   return out;
 }
 
+const ORIGIN = 'https://www.amag.ch';
+const abs = (u) => {
+  if (!u) return '';
+  const s = u.trim();
+  if (/^(data:|https?:)/i.test(s)) return s;
+  if (s.startsWith('//')) return `https:${s}`;
+  try { return new URL(s, `${ORIGIN}/`).href; } catch (e) { return s; }
+};
+
 export default function parse(element, { document }) {
   const head = [];
+  const cells = [];
   const h2 = element.querySelector('.cmp-accordion__intro .cmp-accordion__headline, .cmp-accordion__headline');
-  if (h2 && txt(h2)) head.push(mk(document, 'h2', txt(h2)));
+  // /de/service (4 groups): the intro carries an icon (`img.cmp-accordion__introIcon`) -> the
+  // block's HEAD row (one cell: <p><img></p><h2>), as on /de/service/reifen-und-raeder/winterreifen.
+  // Without an intro icon (home) the <h2> stays default content before the block.
+  const icon = element.querySelector('.cmp-accordion__intro img.cmp-accordion__introIcon');
+  const iconSrc = icon ? abs(icon.getAttribute('src') || icon.getAttribute('data-src')) : '';
+  if (iconSrc && h2 && txt(h2)) {
+    const img = document.createElement('img');
+    img.setAttribute('src', iconSrc);
+    img.setAttribute('alt', (icon.getAttribute('alt') || '').trim());
+    cells.push([[mk(document, 'p', img), mk(document, 'h2', txt(h2))]]);
+  } else if (h2 && txt(h2)) head.push(mk(document, 'h2', txt(h2)));
   element.querySelectorAll('.cmp-accordion__intro .cmp-accordion__introText, :scope > .cmp-accordion__introText').forEach((p) => {
     if (txt(p)) head.push(mk(document, 'p', txt(p)));
   });
+  const headRows = cells.length;
 
-  const cells = [];
   element.querySelectorAll('.cmp-accordion__item').forEach((item) => {
     const q = txt(item.querySelector('.cmp-accordion__title') || item.querySelector('.cmp-accordion__button'));
     const panel = item.querySelector('.cmp-accordion__panel');
@@ -61,7 +81,7 @@ export default function parse(element, { document }) {
     cells.push([mk(document, 'h3', q), answer.length ? answer : '']);
   });
 
-  if (!cells.length) {
+  if (cells.length === headRows) {
     element.replaceWith(...element.childNodes);
     return;
   }

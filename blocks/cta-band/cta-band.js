@@ -31,6 +31,24 @@ const isCta = (p) => {
   return !!a && text(a) !== '' && text(p) === text(a);
 };
 
+// <p><a><img></a><strong>label</strong></p> (icon-only link, label beside it — how Document
+// Authoring stores the CTA) → <p><strong><a><img>label</a></strong></p>, the CTA shape above
+function mergeIconLink(p) {
+  const links = p.querySelectorAll('a[href]');
+  if (links.length !== 1) return;
+  const [a] = links;
+  if (a.parentElement !== p || text(a) || !text(p)) return;
+  [...p.childNodes].filter((n) => n !== a).forEach((n) => {
+    if (n.nodeType === Node.ELEMENT_NODE && n.matches('strong, em')) {
+      a.append(...n.childNodes);
+      n.remove();
+    } else a.append(n);
+  });
+  const strong = document.createElement('strong');
+  a.replaceWith(strong);
+  strong.append(a);
+}
+
 function shell(block, name) {
   const wrapper = block.parentElement;
   if (!wrapper || !wrapper.classList.contains(`${name}-wrapper`)) return;
@@ -47,6 +65,7 @@ function shell(block, name) {
 export default function decorate(block) {
   const heading = block.querySelector('h1, h2, h3, h4');
   const ps = [...block.querySelectorAll('p')];
+  ps.forEach(mergeIconLink);
   const ctas = ps.filter(isCta);
   const copy = ps.filter((p) => !isCta(p) && !p.querySelector('picture, img'));
   const media = [...block.querySelectorAll('picture, img')]
