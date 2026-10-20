@@ -62,9 +62,23 @@ export default function parse(element, { document }) {
 
   const btn = box.querySelector('.amag-divider__ctaButton a[href]');
   if (btn && txt(btn)) {
-    const a = mk(document, 'a', toImg(btn.querySelector('img'), document, ''), txt(btn));
-    a.setAttribute('href', btn.getAttribute('href'));
-    content.push(mk(document, 'p', mk(document, isSecondary(btn) ? 'em' : 'strong', a)));
+    const mark = isSecondary(btn) ? 'em' : 'strong';
+    const icon = toImg(btn.querySelector('img'), document, '');
+    // Service-overview pages (/de/service: the page has the `.amag-introService` split hero —
+    // raw, or already turned into its `hero-split` table by the hero-split parser, which runs
+    // first): the arrow icon is authored BESIDE the marked link, `<p><img><em><a>label</a></em></p>`,
+    // as on /en/services (the block moves it into the link). Other pages keep the icon inside.
+    const servicePage = !!document.querySelector('.amag-introService')
+      || [...document.querySelectorAll('table')].some((t) => /^hero[\s-]split(\s*\(|\s*$)/i.test(txt(t.querySelector('tr'))));
+    if (servicePage) {
+      const a = mk(document, 'a', txt(btn));
+      a.setAttribute('href', btn.getAttribute('href'));
+      content.push(mk(document, 'p', icon, mk(document, mark, a)));
+    } else {
+      const a = mk(document, 'a', icon, txt(btn));
+      a.setAttribute('href', btn.getAttribute('href'));
+      content.push(mk(document, 'p', mk(document, mark, a)));
+    }
   }
 
   if (!headline && !content.length) {

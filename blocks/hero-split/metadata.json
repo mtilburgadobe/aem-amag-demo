@@ -1,0 +1,49 @@
+{
+  "variantName": "hero-split",
+  "baseBlock": "hero-split",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "summary": "Split service hero: text column (breadcrumb, h1, appointment CTA, service-time note) beside a 4:3 image bleeding into the right gutter",
+    "purpose": "Service split hero: a text column (adopted breadcrumb, headline, appointment CTA with icon, service-time note) and a 4:3 image (LCP, eager) that bleeds into the right gutter from 1200px and leads the column below. Full-bleed section shell with a top band strip and section-end padding. Options: `grey` / `lavender` ground; `band-white` / `band-grey` colour of the 80px (120px from 768px) step band left of the content column (hidden below 768px); `spaced` keeps a 100px bottom padding under the hero for when rich text follows in the same section (services overview)",
+    "differsFromBase": "Project base block."
+  },
+  "contentPattern": {
+    "structure": "Cells read by role (one cell or several): `<picture>/<img>` the hero image; `<h1>` (or h2/h3) the headline, tag kept; a link-bearing `<p>` (`<strong><a><img>label</a></strong>`) the CTA - an icon picture in the same paragraph is moved into the link, an icon-only link with a `<strong>` label beside it takes the label in; any other `<p>` the service-time note. A `breadcrumb` block immediately before this one in the same section is adopted into the text column",
+    "rows": "[<picture>] | [<h1>headline</h1><p><strong><a href><img icon>Arrange an appointment</a></strong></p><p>service-time note</p>]"
+  },
+  "options": [
+    {
+      "class": "spaced",
+      "label": "Spaced"
+    },
+    {
+      "class": "grey",
+      "label": "Grey"
+    },
+    {
+      "class": "lavender",
+      "label": "Lavender"
+    },
+    {
+      "class": "band-white",
+      "label": "Band White"
+    },
+    {
+      "class": "band-grey",
+      "label": "Band Grey"
+    }
+  ],
+  "memberVariantIds": [
+    "hero-split"
+  ],
+  "status": "implemented",
+  "notes": "Existing production block (used by the migrated services pages /en/services and /de/service). Companion files backfilled from the JS header comment and CSS; JS/CSS unchanged.",
+  "usage": {
+    "pagesUsing": [
+      "/en/services",
+      "/de/service"
+    ],
+    "reuseCount": 2,
+    "lastUsed": "2026-10-20"
+  }
+}

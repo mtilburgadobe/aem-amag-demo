@@ -2,10 +2,21 @@
 /* global WebImporter */
 
 /**
- * Transformer: AMAG section breaks + Section Metadata (templates `garagenuebersicht` and `home`).
+ * Transformer: AMAG section breaks + Section Metadata (templates `garagenuebersicht`, `home` and `service`).
+ * Template `storelocator` is a single section: this transformer is a no-op for it.
  *
  * Template `home` (https://www.amag.ch/de.html): 12 sections, all `.amag-content > …` siblings;
  * only section-6 (news list) carries `Style: grey`; no `Tab` metadata is emitted (see useTabs).
+ *
+ * Template `service` (https://www.amag.ch/de/service.html): 7 sections, all styles null, no `Tab`
+ * metadata (useTabs is garage-only) and therefore no Section Metadata blocks — only the 6 <hr>
+ * breaks before sections 2-7 (section 1 never gets a leading break). Section 2's selector
+ * (`.amag-content > section.section .amag-iconTextBox`) is NESTED inside DOM section 1 (after the
+ * hero, video and intro text): its <hr> lands inside the wrapper divs, which are transparent in
+ * the markdown conversion, so the icon-text box, appointment strip and the following DOM section
+ * (image teasers) form document section 2. Section 7 (`.amag-content > .amag-direct-entry`) is
+ * kept by amag-cleanup for `service` and becomes the Direct Entry block, so it is never pruned
+ * as empty.
  *
  * Uses payload.template.sections (page-templates.json); each `selector` is an array tried in
  * order. Selectors were verified in migration-work/cleaned.html.
@@ -78,9 +89,13 @@ function isEmptyBetween(document, root, start, end) {
 export default function transform(hookName, element, payload) {
   const sections = (payload && payload.template && payload.template.sections) || [];
   if (sections.length < 2) return;
+  // Template `storelocator` is authored as ONE section: its section-2 ("Direkt zu" pill,
+  // `.amag-direct-entry`) is folded into the dealer-search block by the parser (see
+  // migration-work/authoring-analysis.json, mergedInto section-1) — no <hr>, no Section Metadata.
+  if (payload.template.name === 'storelocator') return;
   // `Tab` metadata is garage-only (tabs-garage block). Template `home` has no tab module and its
   // section ids are 'section-1'…'section-12' (no TAB_FALLBACK key), but gate it explicitly anyway.
-  const useTabs = payload.template.name !== 'home';
+  const useTabs = payload.template.name === 'garagenuebersicht';
 
   if (hookName === 'beforeTransform') {
     // Reverse order: inserting relative to a live element never moves unprocessed sections.

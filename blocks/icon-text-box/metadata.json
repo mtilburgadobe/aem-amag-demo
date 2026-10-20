@@ -29,8 +29,11 @@
   "status": "implemented",
   "notes": "Existing production block (used by the migrated English pages). Companion files backfilled from the JS header comment and CSS; JS/CSS unchanged.",
   "usage": {
-    "pagesUsing": [],
-    "reuseCount": 0,
-    "lastUsed": null
+    "pagesUsing": [
+      "/de/service",
+      "/en/services"
+    ],
+    "reuseCount": 2,
+    "lastUsed": "2026-10-20"
   }
 }

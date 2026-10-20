@@ -18,10 +18,11 @@
   "status": "implemented",
   "usage": {
     "pagesUsing": [
-      "/de"
+      "/de",
+      "/de/service"
     ],
-    "reuseCount": 1,
-    "lastUsed": "2026-10-19"
+    "reuseCount": 2,
+    "lastUsed": "2026-10-20"
   },
   "reuseGuidance": "Use for any inline (not background) video embed. Background video stages belong to hero-carousel."
 }

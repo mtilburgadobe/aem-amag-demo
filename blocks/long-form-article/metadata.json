@@ -1,0 +1,53 @@
+{
+  "variantName": "long-form-article",
+  "baseBlock": "long-form-article",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "summary": "Service article body container: section head, rich text, fact boxes, icon tiles, text image and CTA, each row typed by its content",
+    "purpose": "Service article body: a container whose rows are typed by content - section head (eyebrow + h2, also reabsorbed from default content authored before the block), rich text, light-blue quote / dark-blue benefits fact boxes, icon tiles with an optional tile-box headline, full-width text image, and CTA with optional service-time note. Full-bleed section shell with top band and section-end padding. Options: `grey` / `lavender` ground; `band-white` / `band-grey` step band colour (hidden below 768px); `narrow-cta` renders the CTA box at the 50% garage-election width with equal-width actions from 768px; `cta-gap` adds the 30px + 16px gap under the rich text before the CTA",
+    "differsFromBase": "Project base block."
+  },
+  "contentPattern": {
+    "structure": "Rows typed by content, never by position: a cell holding only a `<picture>/<img>` = full-width text image; one cell whose only text is a CTA paragraph (`<strong><a><img>label</a></strong>` + optional service-time `<p>`) = CTA; two cells where one holds a `<blockquote>` = fact boxes (quote box + benefits box with `<h2>`, `<h3>` benefit titles and `<p>` copies); 2+ cells where every cell but the first has an image = icon tiles (first cell without image = tile-box headline; each tile `<img>` + `<h3>` + `<p>`); a cell with only eyebrow `<p>` + `<h2>` = section head; anything else = rich text (p / ul / strong / a)",
+    "rows": "[<p>eyebrow</p><h2>heading</h2>]\n[rich text: <p>, <ul>, <strong>, <a>]\n[<blockquote>quote</blockquote>] | [<h2>benefits</h2><h3>title</h3><p>copy</p>...]\n[<h3>tile-box headline</h3>] | [<img><h3>title</h3><p>copy</p>] | ...\n[<picture>]\n[<p><strong><a href><img>label</a></strong></p><p>service-time note</p>]"
+  },
+  "options": [
+    {
+      "class": "grey",
+      "label": "Grey"
+    },
+    {
+      "class": "lavender",
+      "label": "Lavender"
+    },
+    {
+      "class": "band-white",
+      "label": "Band White"
+    },
+    {
+      "class": "band-grey",
+      "label": "Band Grey"
+    },
+    {
+      "class": "narrow-cta",
+      "label": "Narrow CTA"
+    },
+    {
+      "class": "cta-gap",
+      "label": "CTA Gap"
+    }
+  ],
+  "memberVariantIds": [
+    "long-form-article"
+  ],
+  "status": "implemented",
+  "notes": "Existing production block (used by the migrated services pages /en/services and /de/service). Companion files backfilled from the JS header comment and CSS; JS/CSS unchanged.",
+  "usage": {
+    "pagesUsing": [
+      "/en/services",
+      "/de/service"
+    ],
+    "reuseCount": 2,
+    "lastUsed": "2026-10-20"
+  }
+}

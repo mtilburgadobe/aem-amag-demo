@@ -25,8 +25,11 @@ const mk = (document, tag, ...kids) => {
   return e;
 };
 // Vimeo titles of the clips used on the source page (player.vimeo.com oEmbed `title`).
+// /de/service: https://vimeo.com/684680549 (player `data-vi16_9_url` in the live DOM; the
+// statement <h4> is absent there, so no heading is moved).
 const VIDEO_TITLES = {
   896519713: 'Startseiten Imagevideo DE',
+  684680549: 'Online_Buchung_DE',
 };
 
 function videoUrl(element) {

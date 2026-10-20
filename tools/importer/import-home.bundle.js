@@ -148,6 +148,13 @@ var CustomImportScript = (() => {
     // safety
     ["M12,25.3c-0.2,0-0.3-0.1", "media_12a664461dbcbebd2ddeea223391944b72ce7220c.svg"],
     // service
+    // pledge-row on /de/service ("Unser AMAG Versprechen", same <svg>s as /en/services; files taken
+    // from the published /en/services page). Its third icon ("Höchste Servicequalität") has the
+    // same path data as the home "service" icon above and resolves to that published file.
+    ["M13.9,24.8c-0.5,0-1-0.2", "en/media_150c4f2ebf0ad85d4dd4284f9669419fcd4561abf.svg"],
+    // greater safety
+    ["M14,32c-2.4,0-3.3-0.5", "en/media_1560160d03496a7d69da6926d1384837c1f773d0c.svg"],
+    // top offers
     // garage page: hero-split-garage actions, tabs-garage tabs
     ["M30.8779 38.7451C30.5196", "icons/icon-garage-save.svg"],
     // "Als meine Garage speichern"
@@ -440,8 +447,23 @@ var CustomImportScript = (() => {
       return;
     }
     const more = txt4(element.querySelector(".amag-promotionTeaserBox__showMoreBtn"));
-    if (more) cells.push([mk4(document2, "p", more)]);
-    const block = WebImporter.Blocks.createBlock(document2, { name: "News Cards", cells });
+    if (more && cards.length > 4) cells.push([mk4(document2, "p", more)]);
+    let name = "News Cards";
+    const section = element.closest(".amagCh-section");
+    if (section && section.classList.contains("amagCh-section--grey")) {
+      const steps = section.querySelector(":scope > .amagCh-section__stepswrapper-before");
+      let band = steps && (steps.classList.contains("background-color-white") && "white" || steps.classList.contains("background-color-grey") && "grey");
+      if (!band) {
+        const outer = section.closest("section.section");
+        const prev = outer && outer.previousElementSibling;
+        const prevGround = prev && prev.querySelector(".amagCh-section");
+        if (prevGround) {
+          band = prevGround.classList.contains("amagCh-section--white") && "white" || prevGround.classList.contains("amagCh-section--grey") && "grey";
+        }
+      }
+      name = band ? `News Cards (grey, band-${band})` : "News Cards (grey)";
+    }
+    const block = WebImporter.Blocks.createBlock(document2, { name, cells });
     head.forEach((n) => element.before(n));
     element.replaceWith(block);
   }
@@ -636,9 +658,18 @@ var CustomImportScript = (() => {
     });
     const btn = box.querySelector(".amag-divider__ctaButton a[href]");
     if (btn && txt7(btn)) {
-      const a = mk7(document2, "a", toImg4(btn.querySelector("img"), document2, ""), txt7(btn));
-      a.setAttribute("href", btn.getAttribute("href"));
-      content.push(mk7(document2, "p", mk7(document2, isSecondary(btn) ? "em" : "strong", a)));
+      const mark = isSecondary(btn) ? "em" : "strong";
+      const icon = toImg4(btn.querySelector("img"), document2, "");
+      const servicePage = !!document2.querySelector(".amag-introService") || [...document2.querySelectorAll("table")].some((t) => /^hero[\s-]split(\s*\(|\s*$)/i.test(txt7(t.querySelector("tr"))));
+      if (servicePage) {
+        const a = mk7(document2, "a", txt7(btn));
+        a.setAttribute("href", btn.getAttribute("href"));
+        content.push(mk7(document2, "p", icon, mk7(document2, mark, a)));
+      } else {
+        const a = mk7(document2, "a", icon, txt7(btn));
+        a.setAttribute("href", btn.getAttribute("href"));
+        content.push(mk7(document2, "p", mk7(document2, mark, a)));
+      }
     }
     if (!headline && !content.length) {
       element.replaceWith(...element.childNodes);
@@ -659,7 +690,8 @@ var CustomImportScript = (() => {
     return e;
   };
   var VIDEO_TITLES = {
-    896519713: "Startseiten Imagevideo DE"
+    896519713: "Startseiten Imagevideo DE",
+    684680549: "Online_Buchung_DE"
   };
   function videoUrl(element) {
     const player = element.querySelector("[data-vi16_9_url]");
@@ -785,7 +817,22 @@ var CustomImportScript = (() => {
       element.replaceWith(...element.childNodes);
       return;
     }
-    const name = isPledgeList ? "Pledge Row (plain-head)" : "Pledge Row";
+    let name = isPledgeList ? "Pledge Row (plain-head)" : "Pledge Row";
+    const outsideHead = element.previousElementSibling && element.previousElementSibling.matches(".amagCh-section-description");
+    if (isPledgeList && !h2 && outsideHead) {
+      const section = element.closest(".amagCh-section");
+      const steps = section && section.querySelector(":scope > .amagCh-section__stepswrapper-before");
+      let band = steps && (steps.classList.contains("background-color-grey") && "grey" || steps.classList.contains("background-color-white") && "white");
+      if (!band && section) {
+        const outer = section.closest("section.section");
+        const prev = outer && outer.previousElementSibling;
+        const prevGround = prev && prev.querySelector(".amagCh-section");
+        if (prevGround) {
+          band = prevGround.classList.contains("amagCh-section--grey") && "grey" || prevGround.classList.contains("amagCh-section--white") && "white";
+        }
+      }
+      name = band ? `Pledge Row (band-${band})` : "Pledge Row";
+    }
     const block = WebImporter.Blocks.createBlock(document2, { name, cells });
     head.forEach((n) => element.before(n));
     element.replaceWith(block);
@@ -812,14 +859,34 @@ var CustomImportScript = (() => {
     kids.flat().forEach((k) => out.append(k));
     return out;
   }
+  var ORIGIN9 = "https://www.amag.ch";
+  var abs9 = (u) => {
+    if (!u) return "";
+    const s = u.trim();
+    if (/^(data:|https?:)/i.test(s)) return s;
+    if (s.startsWith("//")) return `https:${s}`;
+    try {
+      return new URL(s, `${ORIGIN9}/`).href;
+    } catch (e) {
+      return s;
+    }
+  };
   function parse11(element, { document: document2 }) {
     const head = [];
+    const cells = [];
     const h2 = element.querySelector(".cmp-accordion__intro .cmp-accordion__headline, .cmp-accordion__headline");
-    if (h2 && txt11(h2)) head.push(mk11(document2, "h2", txt11(h2)));
+    const icon = element.querySelector(".cmp-accordion__intro img.cmp-accordion__introIcon");
+    const iconSrc = icon ? abs9(icon.getAttribute("src") || icon.getAttribute("data-src")) : "";
+    if (iconSrc && h2 && txt11(h2)) {
+      const img2 = document2.createElement("img");
+      img2.setAttribute("src", iconSrc);
+      img2.setAttribute("alt", (icon.getAttribute("alt") || "").trim());
+      cells.push([[mk11(document2, "p", img2), mk11(document2, "h2", txt11(h2))]]);
+    } else if (h2 && txt11(h2)) head.push(mk11(document2, "h2", txt11(h2)));
     element.querySelectorAll(".cmp-accordion__intro .cmp-accordion__introText, :scope > .cmp-accordion__introText").forEach((p) => {
       if (txt11(p)) head.push(mk11(document2, "p", txt11(p)));
     });
-    const cells = [];
+    const headRows = cells.length;
     element.querySelectorAll(".cmp-accordion__item").forEach((item) => {
       const q = txt11(item.querySelector(".cmp-accordion__title") || item.querySelector(".cmp-accordion__button"));
       const panel = item.querySelector(".cmp-accordion__panel");
@@ -835,7 +902,7 @@ var CustomImportScript = (() => {
       if (!answer.length && txt11(source)) answer.push(mk11(document2, "p", txt11(source)));
       cells.push([mk11(document2, "h3", q), answer.length ? answer : ""]);
     });
-    if (!cells.length) {
+    if (cells.length === headRows) {
       element.replaceWith(...element.childNodes);
       return;
     }
@@ -846,14 +913,14 @@ var CustomImportScript = (() => {
 
   // tools/importer/transformers/amag-cleanup.js
   var H = { before: "beforeTransform", after: "afterTransform" };
-  var ORIGIN9 = "https://www.amag.ch";
+  var ORIGIN10 = "https://www.amag.ch";
   function absolutize(url) {
     if (!url) return url;
     const u = url.trim();
     if (!u || u.startsWith("data:") || u.startsWith("blob:") || /^[a-z][a-z0-9+.-]*:/i.test(u)) return u;
     if (u.startsWith("//")) return `https:${u}`;
     try {
-      return new URL(u, `${ORIGIN9}/`).href;
+      return new URL(u, `${ORIGIN10}/`).href;
     } catch (e) {
       return u;
     }
@@ -905,13 +972,110 @@ var CustomImportScript = (() => {
     // the template's content fragment, so the generic 'script' removal cannot reach it)
     "template"
   ];
+  var STORELOCATOR_BEFORE = [
+    // AMAG chat bot wrapper: <div class="frontnow-advisor-container frontnow-hidden"> (not in the
+    // capture, injected at runtime; launcher/popover/backdrop are in the shared list)
+    ".frontnow-advisor-container"
+  ];
+  var STORELOCATOR_AFTER = [
+    // Global footer: <footer> as a direct body child (no id/class; contains the
+    // hr.amag-hrBreak separators, which would otherwise become section breaks).
+    // `.amag-footer` = <div class="container-fluid amag-footer pl-0 pr-0"> inside it (fallback).
+    "body > footer",
+    ".amag-footer",
+    "hr.amag-hrBreak",
+    // Header pop-up notification (lives in <header id="header">; leftovers only):
+    // <div class="amag-pop-up amag-pop-up__wrapper--desktop|--mobile">, <div class="amag-pop-up__wrapper-before">
+    ".amag-pop-up",
+    ".amag-pop-up__wrapper-before",
+    ".frontnow-advisor-container",
+    ".frontnow__backdrop",
+    // Empty select2 dropdown containers (leftovers): <div class="select2-single-container">,
+    // <div class="select2-multi-container">
+    ".select2-single-container",
+    ".select2-multi-container",
+    // Empty infrastructure info div: <div id="amag-infrastructure-info">
+    "#amag-infrastructure-info",
+    // Clientlib loader: <template id="amagch-clientlib"><script …></template> (the <script> sits in
+    // the template's content fragment, so the generic 'script' removal cannot reach it)
+    "template"
+  ];
+  var SERVICE_BEFORE = [
+    // Global header (already migrated as /de/nav; contains the header pop-up
+    // .amag-pop-up__wrapper--desktop|--mobile): <header id="header"> as a direct body child
+    "body > header#header",
+    // Global footer (already migrated as /de/footer): <footer> as a direct body child (no id/class),
+    // incl. its three <hr class="amag-hrBreak w-100"> separators, which would otherwise become
+    // section breaks
+    "body > footer",
+    // AMAG chat bot wrapper: <div class="frontnow-advisor-container frontnow-hidden"> (not in the
+    // capture, injected at runtime; launcher/popover/backdrop are in the shared list)
+    ".frontnow-advisor-container",
+    // Hero duplicate 1 — the 100-garage picker modal inside the hero CTA (each entry links to
+    // /de/service/otv.html#<id>): <div id="garageModal-…" class="amag-garageOverlay modal fade">
+    // inside <div class="amag-introService__otvCta d-flex">. The contact band's copy (garage-chooser
+    // block) lives in .amag-kontaktaufnahme and is NOT matched by this selector.
+    ".amag-introService .amag-garageOverlay",
+    // Hero duplicate 2 — cookie variant of the hero CTA ("IHRE GEMERKTE GARAGE -- Ändern" +
+    // "Termin vereinbaren"): <div class="amag-otvCtaWrapper--cookie d-none">. The sibling
+    // <div class="amag-otvCtaWrapper--noCookie"> (single "Termin vereinbaren") is kept.
+    ".amag-introService .amag-otvCtaWrapper--cookie",
+    // Video cookie-consent overlay ("Es gibt viel zu sehen! … Cookie-Richtlinien"):
+    // <div class="cookie-video-overlay__container"> in .amag-videoComp__playerContainer. The
+    // video-brand-film parser drops it anyway and reads only [data-vi16_9_url] / iframes; removing
+    // it up front keeps its text out of the output if the parser unwraps a URL-less instance.
+    ".amag-videoComp .cookie-video-overlay__container",
+    ".amag-videoComp .cookie-video-banner__container",
+    // Cookie variant of the contact band's button ("Garage kontaktieren", no modal):
+    // <div class="amag-garageOverlay--cookie d-none"> in .amag-kontaktaufnahme .amag-garageElectionOverlay
+    // (the --noCookie sibling holding the garage-chooser modal is kept)
+    ".amag-kontaktaufnahme .amag-garageOverlay--cookie"
+  ];
+  var SERVICE_AFTER = [
+    // Leftovers in case the before-hook missed them (see SERVICE_BEFORE)
+    "body > header",
+    "body > footer",
+    ".amag-footer",
+    // Header pop-up notification (lives in <header id="header">; leftovers only):
+    // <div class="amag-pop-up amag-pop-up__wrapper--desktop|--mobile">, <div class="amag-pop-up__wrapper-before">
+    ".amag-pop-up",
+    ".amag-pop-up__wrapper-before",
+    ".frontnow-advisor-container",
+    ".frontnow__backdrop",
+    ".cookie-video-overlay__container",
+    ".cookie-video-banner__container",
+    // Empty select2 dropdown containers at body level: <div class="select2-single-container">,
+    // <div class="select2-multi-container">
+    ".select2-single-container",
+    ".select2-multi-container",
+    // Empty infrastructure info div: <div id="amag-infrastructure-info">
+    "#amag-infrastructure-info",
+    // Clientlib loader: <template id="amagch-clientlib"><script …></template> (the <script> sits in
+    // the template's content fragment, so the generic 'script' removal cannot reach it)
+    "template"
+  ];
+  var STORELOCATOR_KEEP_BEFORE = [".amag-rating__container"];
   function transform(hookName, element, payload) {
     const isHome = !!(payload && payload.template && payload.template.name === "home");
+    const isStorelocator = !!(payload && payload.template && payload.template.name === "storelocator");
+    const isService = !!(payload && payload.template && payload.template.name === "service");
     if (hookName === H.before && isHome) {
       WebImporter.DOMUtils.remove(element, HOME_BEFORE);
     }
     if (hookName === H.after && isHome) {
       WebImporter.DOMUtils.remove(element, HOME_AFTER);
+    }
+    if (hookName === H.before && isStorelocator) {
+      WebImporter.DOMUtils.remove(element, STORELOCATOR_BEFORE);
+    }
+    if (hookName === H.after && isStorelocator) {
+      WebImporter.DOMUtils.remove(element, STORELOCATOR_AFTER);
+    }
+    if (hookName === H.before && isService) {
+      WebImporter.DOMUtils.remove(element, SERVICE_BEFORE);
+    }
+    if (hookName === H.after && isService) {
+      WebImporter.DOMUtils.remove(element, SERVICE_AFTER);
     }
     if (hookName === H.before) {
       WebImporter.DOMUtils.remove(element, [
@@ -937,7 +1101,7 @@ var CustomImportScript = (() => {
         ".amag-rating__container",
         // Empty infrastructure info div: <div id="amag-infrastructure-info">
         "#amag-infrastructure-info"
-      ]);
+      ].filter((sel) => !(isStorelocator && STORELOCATOR_KEEP_BEFORE.includes(sel))));
       element.querySelectorAll(".amag-introTabModul .cmp-tabs__tabpanel:nth-of-type(1) section.section .amag-iconListContainer").forEach((list) => {
         if (list.querySelector(".amag-iconListItem, .amag-iconLabel")) return;
         const parent = list.parentElement;
@@ -1035,7 +1199,8 @@ var CustomImportScript = (() => {
   function transform2(hookName, element, payload) {
     const sections = payload && payload.template && payload.template.sections || [];
     if (sections.length < 2) return;
-    const useTabs = payload.template.name !== "home";
+    if (payload.template.name === "storelocator") return;
+    const useTabs = payload.template.name === "garagenuebersicht";
     if (hookName === "beforeTransform") {
       for (let i = sections.length - 1; i >= 0; i -= 1) {
         const section = sections[i];

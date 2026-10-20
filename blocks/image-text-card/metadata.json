@@ -1,0 +1,45 @@
+{
+  "variantName": "image-text-card",
+  "baseBlock": "image-text-card",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "summary": "Image + text card rows: square image (45% column from 1200px), optional violet eyebrow, title, copy and an arrow button",
+    "purpose": "Image + text cards (one per row): square image covering the 45% column from 1200px, optional short violet eyebrow before the title, the title (tag kept), card copy and a \"gozilla\" arrow button (arrow glyph generated, aria-hidden). Full-bleed section shell with top band and section-end padding. Options: `grey` / `lavender` ground; `band-white` / `band-grey` step band colour (hidden below 768px)",
+    "differsFromBase": "Project base block."
+  },
+  "contentPattern": {
+    "structure": "One row per card; cells read by role: `<picture>/<img>` the card image; `<h2>/<h3>` the title (tag kept); a short `<p>` before the title the eyebrow (optional); a link-bearing `<p>` (`<strong><a>label</a></strong>`) the arrow button; any other `<p>` the card text",
+    "rows": "one row per card: [<picture>] | [<p>eyebrow</p><h2>title</h2><p>copy</p><p><strong><a href>label</a></strong></p>]"
+  },
+  "options": [
+    {
+      "class": "grey",
+      "label": "Grey"
+    },
+    {
+      "class": "lavender",
+      "label": "Lavender"
+    },
+    {
+      "class": "band-white",
+      "label": "Band White"
+    },
+    {
+      "class": "band-grey",
+      "label": "Band Grey"
+    }
+  ],
+  "memberVariantIds": [
+    "image-text-card"
+  ],
+  "status": "implemented",
+  "notes": "Existing production block (used by the migrated services pages /en/services and /de/service). Companion files backfilled from the JS header comment and CSS; JS/CSS unchanged.",
+  "usage": {
+    "pagesUsing": [
+      "/en/services",
+      "/de/service"
+    ],
+    "reuseCount": 2,
+    "lastUsed": "2026-10-20"
+  }
+}

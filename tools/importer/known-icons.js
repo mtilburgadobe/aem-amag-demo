@@ -23,6 +23,11 @@ const ICONS = [
   ['M18.6667 29.3343C18.2987', 'media_150a66f3aa18fabb53e311b00a83e9ae522f2ed64.svg'], // transparency
   ['M14.2,25.7c-0.7,0-1.4-0.3', 'media_1ad60877610d215f75120b90dfaa76eba297948bb.svg'], // safety
   ['M12,25.3c-0.2,0-0.3-0.1', 'media_12a664461dbcbebd2ddeea223391944b72ce7220c.svg'], // service
+  // pledge-row on /de/service ("Unser AMAG Versprechen", same <svg>s as /en/services; files taken
+  // from the published /en/services page). Its third icon ("Höchste Servicequalität") has the
+  // same path data as the home "service" icon above and resolves to that published file.
+  ['M13.9,24.8c-0.5,0-1-0.2', 'en/media_150c4f2ebf0ad85d4dd4284f9669419fcd4561abf.svg'], // greater safety
+  ['M14,32c-2.4,0-3.3-0.5', 'en/media_1560160d03496a7d69da6926d1384837c1f773d0c.svg'], // top offers
   // garage page: hero-split-garage actions, tabs-garage tabs
   ['M30.8779 38.7451C30.5196', 'icons/icon-garage-save.svg'], // "Als meine Garage speichern"
   ['M25.3337 16.0003C23.3123', 'icons/icon-garage-contact.svg'], // "Team kontaktieren"

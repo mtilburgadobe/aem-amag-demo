@@ -1,0 +1,27 @@
+{
+  "status": "success",
+  "url": "https://www.amag.ch/de/service.html",
+  "path": "de/service",
+  "timestamp": "2026-10-20T08:57:28.188Z",
+  "title": "Alle Fahrzeug-Services im Überblick | AMAG",
+  "template": "service",
+  "blocks": [
+    "breadcrumb",
+    "hero-split",
+    "video-brand-film",
+    "long-form-article",
+    "icon-text-box",
+    "service-offer",
+    "image-text-card",
+    "accordion-faq",
+    "accordion-faq",
+    "accordion-faq",
+    "accordion-faq",
+    "news-cards",
+    "pledge-row",
+    "garage-chooser",
+    "cta-band",
+    "newsletter-band",
+    "direct-entry"
+  ]
+}

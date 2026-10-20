@@ -91,7 +91,29 @@ export default function parse(element, { document }) {
     return;
   }
 
-  const name = isPledgeList ? 'Pledge Row (plain-head)' : 'Pledge Row';
+  let name = isPledgeList ? 'Pledge Row (plain-head)' : 'Pledge Row';
+  // /de/service: the list has NO inner headline — its eyebrow + <h2> are the section description
+  // (`.amagCh-section-description`, the instance's previous sibling) and stay default content
+  // -> no `plain-head`; option `band-<colour>` = the section's step band (rendered stepswrapper
+  // `background-color-grey|white`, else the previous section's ground), as on /en/services.
+  const outsideHead = element.previousElementSibling
+    && element.previousElementSibling.matches('.amagCh-section-description');
+  if (isPledgeList && !h2 && outsideHead) {
+    const section = element.closest('.amagCh-section');
+    const steps = section && section.querySelector(':scope > .amagCh-section__stepswrapper-before');
+    let band = steps && ((steps.classList.contains('background-color-grey') && 'grey')
+      || (steps.classList.contains('background-color-white') && 'white'));
+    if (!band && section) {
+      const outer = section.closest('section.section');
+      const prev = outer && outer.previousElementSibling;
+      const prevGround = prev && prev.querySelector('.amagCh-section');
+      if (prevGround) {
+        band = (prevGround.classList.contains('amagCh-section--grey') && 'grey')
+          || (prevGround.classList.contains('amagCh-section--white') && 'white');
+      }
+    }
+    name = band ? `Pledge Row (band-${band})` : 'Pledge Row';
+  }
   const block = WebImporter.Blocks.createBlock(document, { name, cells });
   head.forEach((n) => element.before(n));
   element.replaceWith(block);
