@@ -101,7 +101,19 @@ var CustomImportScript = (() => {
       const isVideo = !!slide.querySelector(".amag-stageTeaserVideo");
       let desktop = null;
       let mobile = null;
-      if (!isVideo) {
+      if (isVideo) {
+        const player = slide.querySelector("[data-vi16_9_url], [data-vi3_4_url]");
+        const vimeoLink = (u) => {
+          if (!u || !/vimeo\.com\//.test(u)) return null;
+          const a = mk(document2, "a", u);
+          a.setAttribute("href", u);
+          return a;
+        };
+        if (player) {
+          desktop = vimeoLink(player.getAttribute("data-vi16_9_url"));
+          mobile = vimeoLink(player.getAttribute("data-vi3_4_url"));
+        }
+      } else {
         const picture = slide.querySelector("picture");
         const main = slide.querySelector("picture img, img.template-dynamic-image, img");
         if (main) desktop = img(document2, main.getAttribute("src") || main.getAttribute("data-src"), main.getAttribute("alt"));

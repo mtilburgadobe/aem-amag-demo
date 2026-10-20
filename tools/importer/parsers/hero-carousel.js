@@ -11,7 +11,9 @@
  *   <p><img 16:9></p> | <p><img 3:4 mobile></p> | <h1|h2>headline</h1|h2><p><a href>link text</a></p> | <p>indicator label</p>
  *   - image stage: cell 1 = the <img> src (Scene7 `:16_9_Large`), cell 2 = the `:3_4` rendition
  *     from the mobile <source srcset> (the `_Large` candidate); either stays empty when absent;
- *   - video stage: cells 1–2 empty (the consent-gated players are not authorable media);
+ *   - video stage: cell 1 = the player's 16:9 Vimeo link (`data-vi16_9_url`), cell 2 = the
+ *     3:4 mobile cut (`data-vi3_4_url`), as <p><a href>url</a></p>; the block plays them as a
+ *     muted background player (empty when the player carries no URL);
  *   - headline: <h1> on the first slide, <h2> on all others (one <h1> per page; the source
  *     renders several <h1>s);
  *   - the slide <a> wraps the whole slide on the source; its href goes on the link-text anchor;
@@ -19,7 +21,7 @@
  *     cleanup transformer removes `.amagCh-stageCarousel .cmp-carousel__indicator-container` in
  *     beforeTransform, so in the full import pipeline the label cell stays empty.
  * Dropped: prev/next/pause/play buttons, progress bar, backdrops, cookie-consent banners, the
- * video player containers (no authorable video URL in the slide model).
+ * video player containers (only their Vimeo URLs are kept, see video stage).
  */
 const txt = (n) => (n ? n.textContent.replace(/\s+/g, ' ').trim() : '');
 const ORIGIN = 'https://www.amag.ch';
@@ -81,7 +83,20 @@ export default function parse(element, { document }) {
     const isVideo = !!slide.querySelector('.amag-stageTeaserVideo');
     let desktop = null;
     let mobile = null;
-    if (!isVideo) {
+    if (isVideo) {
+      // the player's Vimeo sources: 16:9 cut (cell 1) and 3:4 mobile cut (cell 2)
+      const player = slide.querySelector('[data-vi16_9_url], [data-vi3_4_url]');
+      const vimeoLink = (u) => {
+        if (!u || !/vimeo\.com\//.test(u)) return null;
+        const a = mk(document, 'a', u);
+        a.setAttribute('href', u);
+        return a;
+      };
+      if (player) {
+        desktop = vimeoLink(player.getAttribute('data-vi16_9_url'));
+        mobile = vimeoLink(player.getAttribute('data-vi3_4_url'));
+      }
+    } else {
       const picture = slide.querySelector('picture');
       const main = slide.querySelector('picture img, img.template-dynamic-image, img');
       if (main) desktop = img(document, main.getAttribute('src') || main.getAttribute('data-src'), main.getAttribute('alt'));
