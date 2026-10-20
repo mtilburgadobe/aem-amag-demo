@@ -1,0 +1,45 @@
+{
+  "variantName": "cta-band",
+  "baseBlock": "cta-band",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "summary": "Contact band (\"Haben Sie weitere Fragen?\"): headline, intro text and a single CTA, optional band image",
+    "purpose": "Contact band: headline (tag kept), intro text and a single CTA (an icon picture in the same paragraph is moved into the link); an image outside the CTA is the band image. A CTA linking to `#garage-chooser` opens the garage-chooser block. Full-bleed section shell with top band and section-end padding. Options: `grey` / `lavender` ground; `band-white` / `band-grey` step band colour (hidden below 768px)",
+    "differsFromBase": "Project base block."
+  },
+  "contentPattern": {
+    "structure": "Cells read by role (one row or several): `<h2>/<h3>` the headline; `<picture>/<img>` outside the CTA the band image; a link-bearing `<p>` (`<strong><a><img>label</a></strong>`) the single CTA; any other `<p>` the intro text",
+    "rows": "[<h2>Haben Sie weitere Fragen?</h2><p>intro</p><p><strong><a href=\"#garage-chooser\"><img icon>Contact garage</a></strong></p>]"
+  },
+  "options": [
+    {
+      "class": "grey",
+      "label": "Grey"
+    },
+    {
+      "class": "lavender",
+      "label": "Lavender"
+    },
+    {
+      "class": "band-white",
+      "label": "Band White"
+    },
+    {
+      "class": "band-grey",
+      "label": "Band Grey"
+    }
+  ],
+  "memberVariantIds": [
+    "cta-band"
+  ],
+  "status": "implemented",
+  "notes": "Existing production block (used by the migrated services pages /en/services and /de/service). Companion files backfilled from the JS header comment and CSS; JS/CSS unchanged.",
+  "usage": {
+    "pagesUsing": [
+      "/en/services",
+      "/de/service"
+    ],
+    "reuseCount": 2,
+    "lastUsed": "2026-10-20"
+  }
+}

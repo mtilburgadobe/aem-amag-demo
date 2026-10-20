@@ -195,11 +195,35 @@ export default function parse(element, { document }) {
     return;
   }
 
-  // Documented trailing "Show more" label row.
+  // Documented trailing "Show more" label row — only when there is something to show: the block
+  // shows the first four tiles (VISIBLE_TILES); the source hides the button for <= 4 tiles
+  // (/de/service: 4 tiles, `display: none`).
   const more = txt(element.querySelector('.amag-promotionTeaserBox__showMoreBtn'));
-  if (more) cells.push([mk(document, 'p', more)]);
+  if (more && cards.length > 4) cells.push([mk(document, 'p', more)]);
 
-  const block = WebImporter.Blocks.createBlock(document, { name: 'News Cards', cells });
+  // Grey promotion box (/de/service): the instance sits in a grey `.amagCh-section--grey`
+  // -> options `grey` + `band-<colour>` (the section's step band: the rendered stepswrapper's
+  // `background-color-white|grey`, else the previous section's ground). White sections (home,
+  // garage) keep the plain block name.
+  let name = 'News Cards';
+  const section = element.closest('.amagCh-section');
+  if (section && section.classList.contains('amagCh-section--grey')) {
+    const steps = section.querySelector(':scope > .amagCh-section__stepswrapper-before');
+    let band = steps && ((steps.classList.contains('background-color-white') && 'white')
+      || (steps.classList.contains('background-color-grey') && 'grey'));
+    if (!band) {
+      const outer = section.closest('section.section');
+      const prev = outer && outer.previousElementSibling;
+      const prevGround = prev && prev.querySelector('.amagCh-section');
+      if (prevGround) {
+        band = (prevGround.classList.contains('amagCh-section--white') && 'white')
+          || (prevGround.classList.contains('amagCh-section--grey') && 'grey');
+      }
+    }
+    name = band ? `News Cards (grey, band-${band})` : 'News Cards (grey)';
+  }
+
+  const block = WebImporter.Blocks.createBlock(document, { name, cells });
   head.forEach((n) => element.before(n));
   element.replaceWith(block);
 }

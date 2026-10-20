@@ -350,10 +350,65 @@ var CustomImportScript = (() => {
     // the template's content fragment, so the generic 'script' removal cannot reach it)
     "template"
   ];
+  var SERVICE_BEFORE = [
+    // Global header (already migrated as /de/nav; contains the header pop-up
+    // .amag-pop-up__wrapper--desktop|--mobile): <header id="header"> as a direct body child
+    "body > header#header",
+    // Global footer (already migrated as /de/footer): <footer> as a direct body child (no id/class),
+    // incl. its three <hr class="amag-hrBreak w-100"> separators, which would otherwise become
+    // section breaks
+    "body > footer",
+    // AMAG chat bot wrapper: <div class="frontnow-advisor-container frontnow-hidden"> (not in the
+    // capture, injected at runtime; launcher/popover/backdrop are in the shared list)
+    ".frontnow-advisor-container",
+    // Hero duplicate 1 — the 100-garage picker modal inside the hero CTA (each entry links to
+    // /de/service/otv.html#<id>): <div id="garageModal-…" class="amag-garageOverlay modal fade">
+    // inside <div class="amag-introService__otvCta d-flex">. The contact band's copy (garage-chooser
+    // block) lives in .amag-kontaktaufnahme and is NOT matched by this selector.
+    ".amag-introService .amag-garageOverlay",
+    // Hero duplicate 2 — cookie variant of the hero CTA ("IHRE GEMERKTE GARAGE -- Ändern" +
+    // "Termin vereinbaren"): <div class="amag-otvCtaWrapper--cookie d-none">. The sibling
+    // <div class="amag-otvCtaWrapper--noCookie"> (single "Termin vereinbaren") is kept.
+    ".amag-introService .amag-otvCtaWrapper--cookie",
+    // Video cookie-consent overlay ("Es gibt viel zu sehen! … Cookie-Richtlinien"):
+    // <div class="cookie-video-overlay__container"> in .amag-videoComp__playerContainer. The
+    // video-brand-film parser drops it anyway and reads only [data-vi16_9_url] / iframes; removing
+    // it up front keeps its text out of the output if the parser unwraps a URL-less instance.
+    ".amag-videoComp .cookie-video-overlay__container",
+    ".amag-videoComp .cookie-video-banner__container",
+    // Cookie variant of the contact band's button ("Garage kontaktieren", no modal):
+    // <div class="amag-garageOverlay--cookie d-none"> in .amag-kontaktaufnahme .amag-garageElectionOverlay
+    // (the --noCookie sibling holding the garage-chooser modal is kept)
+    ".amag-kontaktaufnahme .amag-garageOverlay--cookie"
+  ];
+  var SERVICE_AFTER = [
+    // Leftovers in case the before-hook missed them (see SERVICE_BEFORE)
+    "body > header",
+    "body > footer",
+    ".amag-footer",
+    // Header pop-up notification (lives in <header id="header">; leftovers only):
+    // <div class="amag-pop-up amag-pop-up__wrapper--desktop|--mobile">, <div class="amag-pop-up__wrapper-before">
+    ".amag-pop-up",
+    ".amag-pop-up__wrapper-before",
+    ".frontnow-advisor-container",
+    ".frontnow__backdrop",
+    ".cookie-video-overlay__container",
+    ".cookie-video-banner__container",
+    // Empty select2 dropdown containers at body level: <div class="select2-single-container">,
+    // <div class="select2-multi-container">
+    ".select2-single-container",
+    ".select2-multi-container",
+    // Empty infrastructure info div: <div id="amag-infrastructure-info">
+    "#amag-infrastructure-info",
+    // Clientlib loader: <template id="amagch-clientlib"><script …></template> (the <script> sits in
+    // the template's content fragment, so the generic 'script' removal cannot reach it)
+    "template"
+  ];
   var STORELOCATOR_KEEP_BEFORE = [".amag-rating__container"];
   function transform(hookName, element, payload) {
     const isHome = !!(payload && payload.template && payload.template.name === "home");
     const isStorelocator = !!(payload && payload.template && payload.template.name === "storelocator");
+    const isService = !!(payload && payload.template && payload.template.name === "service");
     if (hookName === H.before && isHome) {
       WebImporter.DOMUtils.remove(element, HOME_BEFORE);
     }
@@ -365,6 +420,12 @@ var CustomImportScript = (() => {
     }
     if (hookName === H.after && isStorelocator) {
       WebImporter.DOMUtils.remove(element, STORELOCATOR_AFTER);
+    }
+    if (hookName === H.before && isService) {
+      WebImporter.DOMUtils.remove(element, SERVICE_BEFORE);
+    }
+    if (hookName === H.after && isService) {
+      WebImporter.DOMUtils.remove(element, SERVICE_AFTER);
     }
     if (hookName === H.before) {
       WebImporter.DOMUtils.remove(element, [
