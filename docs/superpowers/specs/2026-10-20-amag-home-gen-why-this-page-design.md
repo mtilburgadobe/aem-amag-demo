@@ -79,6 +79,8 @@ Source: AEM OpTel for `www.amag.ch`, `/de.html`, 2026-09-20 to 2026-10-20, 1,159
 - Evidence figures live in one data module in the AMAG repo, copied from `2026-10-20-amag-optel-audiences.md`, each with report name and date range. Not authored in DA.
 - Order of work: the AMAG page ships on its own and works with no widget. The widget change is a separate branch/PR in `of1-preview-extension` cut from `origin/feat/why-this-page` in a separate worktree. Merging and releasing the widget is for the repo owners.
 
+- Generation is real: the home is generative, not authored-only. The page shows the sections for the matched audience, and the OF1 worker writes the marked text (headlines, sublines, section headings) per audience from the tenant's brand voice and knowledge. Links, prices, legal text and images stay authored. The authored `{{default: ...}}` text is the fallback when generation is unavailable, and the panel then reports "authored (fallback)". The contract's generated-vs-authored split reflects what actually happened.
+
 ## Left to the builder
 
 - Exact resolver rule order and the stored last-seen-intent mechanism.
@@ -88,4 +90,4 @@ Source: AEM OpTel for `www.amag.ch`, `/de.html`, 2026-09-20 to 2026-10-20, 1,159
 
 ## Open items to confirm
 
-- Whether the OF1 tenant for `www.amag.ch` already exists on the worker, and whether the edge proxy is in front of the page. If not, generation falls back to authored defaults, as BMW did on plain `aem.page`.
+- None blocking. Confirmed by the owner: the OF1 tenant for `www.amag.ch` exists, and its config lives in DA (the 404s on preview for `/of1/config.json` and `/of1/index.json` are expected: they are not repo files).
