@@ -5,7 +5,8 @@
  * Transformer: AMAG (www.amag.ch) site-wide cleanup.
  *
  * Every selector below was verified in migration-work/cleaned.html
- * (source: https://www.amag.ch/de/garagenuebersicht/garage-buelach.html).
+ * (source: https://www.amag.ch/de/garagenuebersicht/garage-buelach.html; template-specific lists
+ * for `home` and `storelocator` were verified against those templates' captures).
  *
  * IMPORTANT: inactive tab panels of the tab module (`.amag-introTabModul .cmp-tabs__tabpanel`
  * without `--active`) are hidden on the source page but their content IS imported — nothing in
@@ -80,8 +81,51 @@ const HOME_AFTER = [
   'template',
 ];
 
+// Template `storelocator` (https://www.amag.ch/de/komponenten/storelocator.html) — selectors
+// verified in migration-work/cleaned.html. Kept separate so `garagenuebersicht` / `home` stay
+// byte-identical. NOT removed here (the dealer-search parser needs them; hidden at rest on the
+// source): `.amag-direct-entry` ("Direkt zu" pill, read + removed by the parser), the garage
+// detail modals `.amag-garagenModal` incl. their `.amag-rating__container` badge iframe, the
+// off-canvas filter panel `aside.off-canvas__wrapper` (has its own <header>/<footer>, hence no
+// bare `header` / `footer` selectors below), and any hidden elements inside the component.
+const STORELOCATOR_BEFORE = [
+  // AMAG chat bot wrapper: <div class="frontnow-advisor-container frontnow-hidden"> (not in the
+  // capture, injected at runtime; launcher/popover/backdrop are in the shared list)
+  '.frontnow-advisor-container',
+];
+
+const STORELOCATOR_AFTER = [
+  // Global footer: <footer> as a direct body child (no id/class; contains the
+  // hr.amag-hrBreak separators, which would otherwise become section breaks).
+  // `.amag-footer` = <div class="container-fluid amag-footer pl-0 pr-0"> inside it (fallback).
+  'body > footer',
+  '.amag-footer',
+  'hr.amag-hrBreak',
+  // Header pop-up notification (lives in <header id="header">; leftovers only):
+  // <div class="amag-pop-up amag-pop-up__wrapper--desktop|--mobile">, <div class="amag-pop-up__wrapper-before">
+  '.amag-pop-up',
+  '.amag-pop-up__wrapper-before',
+  '.frontnow-advisor-container',
+  '.frontnow__backdrop',
+  // Empty select2 dropdown containers (leftovers): <div class="select2-single-container">,
+  // <div class="select2-multi-container">
+  '.select2-single-container',
+  '.select2-multi-container',
+  // Empty infrastructure info div: <div id="amag-infrastructure-info">
+  '#amag-infrastructure-info',
+  // Clientlib loader: <template id="amagch-clientlib"><script …></template> (the <script> sits in
+  // the template's content fragment, so the generic 'script' removal cannot reach it)
+  'template',
+];
+
+// Shared before-hook selectors that must survive on `storelocator` until its parser has run.
+// <div class="amag-rating__container amag-rating__container--storeLocator"><iframe src="https://tool.webbosaurus.de/badge/…">
+// inside each .amag-garagenModal: the dealer-search details row authors the badge URL.
+const STORELOCATOR_KEEP_BEFORE = ['.amag-rating__container'];
+
 export default function transform(hookName, element, payload) {
   const isHome = !!(payload && payload.template && payload.template.name === 'home');
+  const isStorelocator = !!(payload && payload.template && payload.template.name === 'storelocator');
 
   if (hookName === H.before && isHome) {
     WebImporter.DOMUtils.remove(element, HOME_BEFORE);
@@ -89,6 +133,14 @@ export default function transform(hookName, element, payload) {
 
   if (hookName === H.after && isHome) {
     WebImporter.DOMUtils.remove(element, HOME_AFTER);
+  }
+
+  if (hookName === H.before && isStorelocator) {
+    WebImporter.DOMUtils.remove(element, STORELOCATOR_BEFORE);
+  }
+
+  if (hookName === H.after && isStorelocator) {
+    WebImporter.DOMUtils.remove(element, STORELOCATOR_AFTER);
   }
 
   if (hookName === H.before) {
@@ -116,7 +168,7 @@ export default function transform(hookName, element, payload) {
       '.amag-rating__container',
       // Empty infrastructure info div: <div id="amag-infrastructure-info">
       '#amag-infrastructure-info',
-    ]);
+    ].filter((sel) => !(isStorelocator && STORELOCATOR_KEEP_BEFORE.includes(sel))));
 
     // Section 7 (panel 1, "Unser AMAG Versprechen"): the source renders an empty headline-only
     // duplicate .amag-iconListContainer (no .amag-iconListItem) before the real one.

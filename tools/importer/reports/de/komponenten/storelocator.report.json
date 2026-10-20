@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "url": "https://www.amag.ch/de/komponenten/storelocator.html",
+  "path": "de/komponenten/storelocator",
+  "timestamp": "2026-10-20T07:34:42.502Z",
+  "title": "Finden Sie Ihre AMAG Garage",
+  "template": "storelocator",
+  "blocks": [
+    "dealer-search"
+  ]
+}

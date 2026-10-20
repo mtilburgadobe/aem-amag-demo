@@ -641,6 +641,49 @@
           "defaultContent": []
         }
       ]
+    },
+    {
+      "name": "storelocator",
+      "urls": [
+        "https://www.amag.ch/de/komponenten/storelocator.html"
+      ],
+      "representativeUrl": "https://www.amag.ch/de/komponenten/storelocator.html",
+      "description": "AMAG store locator / garage finder (dealer-search)",
+      "blocks": [
+        {
+          "name": "dealer-search",
+          "instances": [
+            ".amag-content > .storelocator.storelocator-component"
+          ]
+        }
+      ],
+      "urlPattern": "/de/komponenten/storelocator*",
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Store locator (map + garage finder overlay)",
+          "selector": [
+            ".amag-content > .storelocator.storelocator-component",
+            ".storelocator-component"
+          ],
+          "style": null,
+          "blocks": [
+            "dealer-search"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Direkt zu floating pill (dealer-search quick-links row)",
+          "selector": [
+            ".amag-content > .amag-direct-entry",
+            ".amag-direct-entry"
+          ],
+          "style": null,
+          "blocks": [],
+          "defaultContent": []
+        }
+      ]
     }
   ],
   "metadata": {

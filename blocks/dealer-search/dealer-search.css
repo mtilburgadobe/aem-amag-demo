@@ -711,7 +711,12 @@ main > .section > .dealer-search-wrapper {
   line-height: 24px;
   min-height: 46px;
   padding: 10px;
+  text-align: center;
   width: 50%;
+}
+
+.dealer-search .filter-type-button p {
+  margin: 0;
 }
 
 .dealer-search .filter-type-button:first-of-type {

@@ -1,0 +1,28 @@
+{
+  "variantName": "dealer-search",
+  "baseBlock": "dealer-search",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "summary": "AMAG garage finder: interactive map, search + filter panel, garage list with detail modals, off-canvas filters and a \"Directly to\" pill",
+    "purpose": "AMAG garage finder (store locator): an interactive OpenStreetMap (Leaflet) with one AMAG marker per garage (authored map captures stay as placeholder until tiles load), a search field that filters the garage list and markers client-side, a filter trigger opening the off-canvas filter panel (type, brands, offers, counter/confirm/cancel), the garage list (name, address, brands, call and route links) where a garage or marker click opens its detail modal (address, call/contact/route/website links, rating badge iframe, sale/service brand chips, primary appointment CTA) and centers the map on it, and a \"Directly to\" quick-links pill shown from scrollY 300. One self-contained interactive block; the state is the DOM",
+    "differsFromBase": "Project base block."
+  },
+  "contentPattern": {
+    "structure": "Rows keyed by the first cell (a `<p>` holding the row key, not displayed): own setup rows (`map`, `title`, `search`, `filter`, `filters-head`, `filters-type`, `filters-brands`, `filters-offers`, `filters-footer`, `quick-links`) once each, plus one `garage` row and one `details` row per garage. A garage row and its details row pair by name, repeated names in order (fallback: order). Garage coordinates and service brands come from garage-data.js, not from the authored content",
+    "rows": "map | <img desktop capture> | <img mobile capture>\ntitle | <h1>Search garage</h1>\nsearch | <p>search field placeholder</p>\nfilter | <p>filter trigger label</p>\ngarage | <p>name</p><p>street</p><p>zip town</p> | <ul><li>brand</li>…</ul> (optional) | <p><a href=\"tel:…\"><strong>+41…</strong><em>Call</em></a></p><p><a href=\"maps…\">Route</a></p>\ndetails | <p>back label</p> | <h3>name</h3><p>street</p><p>zip town</p> | <p><a tel><strong>+41…</strong><em>Call</em></a></p><p><a mailto>Contact</a></p><p><a maps>Route</a></p><p><a site>Go to website</a></p> | <p><a href=\"rating-badge-url\">rating-badge-url</a></p> | <p><strong><a href=\"booking\">Arrange an appointment</a></strong></p> (primary CTA)\nfilters-head | <h4>All filters</h4> | <p><img trash> Delete all filters</p>\nfilters-type | <p>Show garages by</p> | <p>sales</p><p>service</p> (optional switch labels)\nfilters-brands | <p>Brand selection</p> | <ul>sales brands (img + name)</ul> | <ul>service brands</ul>\nfilters-offers | <p>Offer</p> | <ul><li>offer</li>…</ul>\nfilters-footer | <p>counter</p><p>confirm label</p> | <p>cancel label</p>\nquick-links | <p>topline</p> | <p><img><a href>label</a></p>… | <p><img>open</p><p><img>close</p>"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "dealer-search"
+  ],
+  "status": "implemented",
+  "notes": "Existing production block (used by the migrated store locator pages). Companion files backfilled from the JS header comment and the reference content content/en/komponenten/car-dealers.plain.html (100 garage + 100 details rows); JS/CSS/garage-data.js unchanged.",
+  "usage": {
+    "pagesUsing": [
+      "/en/komponenten/car-dealers",
+      "/de/komponenten/storelocator"
+    ],
+    "reuseCount": 2,
+    "lastUsed": null
+  }
+}

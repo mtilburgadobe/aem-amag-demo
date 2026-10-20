@@ -3,6 +3,7 @@
 
 /**
  * Transformer: AMAG section breaks + Section Metadata (templates `garagenuebersicht` and `home`).
+ * Template `storelocator` is a single section: this transformer is a no-op for it.
  *
  * Template `home` (https://www.amag.ch/de.html): 12 sections, all `.amag-content > …` siblings;
  * only section-6 (news list) carries `Style: grey`; no `Tab` metadata is emitted (see useTabs).
@@ -78,9 +79,13 @@ function isEmptyBetween(document, root, start, end) {
 export default function transform(hookName, element, payload) {
   const sections = (payload && payload.template && payload.template.sections) || [];
   if (sections.length < 2) return;
+  // Template `storelocator` is authored as ONE section: its section-2 ("Direkt zu" pill,
+  // `.amag-direct-entry`) is folded into the dealer-search block by the parser (see
+  // migration-work/authoring-analysis.json, mergedInto section-1) — no <hr>, no Section Metadata.
+  if (payload.template.name === 'storelocator') return;
   // `Tab` metadata is garage-only (tabs-garage block). Template `home` has no tab module and its
   // section ids are 'section-1'…'section-12' (no TAB_FALLBACK key), but gate it explicitly anyway.
-  const useTabs = payload.template.name !== 'home';
+  const useTabs = payload.template.name === 'garagenuebersicht';
 
   if (hookName === 'beforeTransform') {
     // Reverse order: inserting relative to a live element never moves unprocessed sections.
