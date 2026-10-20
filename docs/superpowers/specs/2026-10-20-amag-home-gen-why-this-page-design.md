@@ -74,6 +74,11 @@ Source: AEM OpTel for `www.amag.ch`, `/de.html`, 2026-09-20 to 2026-10-20, 1,159
 - Evidence is a normal list, not a new contract field.
 - Unmerged `origin/feat/why-this-page` is the base for the widget.
 
+- Demo path: `?aud=<id>` is the primary way to show each audience on `aem.page`, where real referrers cannot occur. The resolver takes an injectable environment (url, referrer, width, stored intent) so every rule is unit-testable. The panel lists the signals actually seen, plus the override when used.
+- Resolve once at page load, no re-hiding after interaction. The first interaction stores a last-seen intent (localStorage), which the next visit uses for the service, dealer and car-shopper audiences. `of1:why` fires once at load.
+- Evidence figures live in one data module in the AMAG repo, copied from `2026-10-20-amag-optel-audiences.md`, each with report name and date range. Not authored in DA.
+- Order of work: the AMAG page ships on its own and works with no widget. The widget change is a separate branch/PR in `of1-preview-extension` cut from `origin/feat/why-this-page` in a separate worktree. Merging and releasing the widget is for the repo owners.
+
 ## Left to the builder
 
 - Exact resolver rule order and the stored last-seen-intent mechanism.
