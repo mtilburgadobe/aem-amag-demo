@@ -17,6 +17,8 @@
  * Unit hooks: `amag-promotionTeaser` / `amag-contentTeaserS` on each card.
  */
 
+import { retagHeading } from '../../scripts/scripts.js';
+
 const COLOURS = {
   green: 'var(--amag-green)',
   'dark-grey': 'var(--amag-dark-grey)',
@@ -101,7 +103,9 @@ function buildHead(nodes, carousel) {
     head.append(section);
   }
   if (group) {
-    const g = wrapNode(group, 'group-head');
+    // the group heading sits one level below the section headline (h2 → h3), not h4
+    const level = heading ? Number(heading.tagName[1]) + 1 : Number(group.tagName[1]);
+    const g = wrapNode(retagHeading(group, level), 'group-head');
     g.classList.add(carousel ? 'amagCh-carousel-head' : 'group-head-tiles');
     head.append(g);
   }

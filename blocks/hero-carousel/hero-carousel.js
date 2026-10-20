@@ -175,6 +175,8 @@ export default function decorate(block) {
       s.classList.toggle('cmp-carousel__item--active', k === current);
       s.classList.toggle('leaving', k === previous && previous !== current);
       s.setAttribute('aria-hidden', String(k !== current));
+      // hidden slides keep their CTAs out of the tab order too (aria-hidden alone doesn't)
+      s.inert = k !== current;
     });
     // the live item is display: none once inactive; keep the leaving slide in flow for the
     // 1 s cross-fade, then drop it like the origin does

@@ -75,6 +75,23 @@ export function getChromePath(kind) {
 }
 
 /**
+ * Changes a heading's level in place, keeping its attributes and children, so blocks
+ * can keep the page outline sequential whatever level the author picked.
+ * @param {Element} heading h1–h6 element
+ * @param {number} level target level (clamped to 1–6)
+ * @returns {Element} the heading now in the document
+ */
+export function retagHeading(heading, level) {
+  const tag = `H${Math.min(6, Math.max(1, level))}`;
+  if (!heading || heading.tagName === tag) return heading;
+  const h = document.createElement(tag);
+  [...heading.attributes].forEach(({ name, value }) => h.setAttribute(name, value));
+  h.append(...heading.childNodes);
+  heading.replaceWith(h);
+  return h;
+}
+
+/**
  * Turns `/widgets/...` links into widget blocks.
  * @param {Element} main The container element
  */
