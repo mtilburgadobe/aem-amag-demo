@@ -3,9 +3,10 @@
  * `stardust/eds-schema/en-html.json` section 0, repeat `.cmp-carousel__item` ×6).
  * Template-slotted slides: ONE ROW PER SLIDE, cells read by role, never by index:
  *   - first <picture>/<img>: the 16:9 stage image (≥ 768); second <picture>/<img>: the 3:4
- *     mobile rendition (< 768). A slide without images is a video stage: Vimeo links in its
- *     media cells (16:9 cut, then the optional 3:4 mobile cut) play as a muted, looping
- *     background player (as on live after consent); without links only the frame renders.
+ *     mobile rendition (< 768). A slide with Vimeo links in its media cells (16:9 cut, then the
+ *     optional 3:4 mobile cut) is a video stage: a muted, looping background player (as on live
+ *     after consent); its images, if any, are the posters shown until the clip plays. The player
+ *     (which sets third-party cookies) mounts only after the visitor's first interaction.
  *   - <h1> (slide 1) / <h2>: the slide headline (stays the authored tag — one <h1> per page)
  *   - link-bearing <p>: the slide link text; the whole slide becomes that link (EW6: the inner
  *     anchor is unwrapped after its href is read)
@@ -68,9 +69,27 @@ const MOBILE = window.matchMedia('(width < 768px)');
 const VIDEO_FALLBACK = 8000;
 const VIDEO_MAX = 60000;
 
+// the Vimeo player sets third-party cookies (Cloudflare `__cf_bm`) as soon as it loads, so it is
+// only mounted once the visitor engages with the page; until then the slide shows its poster
+const ENGAGE = ['pointerdown', 'pointermove', 'keydown', 'touchstart', 'wheel', 'scroll'];
+let engaged = null;
+function whenEngaged() {
+  if (!engaged) {
+    engaged = new Promise((resolve) => {
+      const go = () => {
+        ENGAGE.forEach((t) => window.removeEventListener(t, go));
+        resolve();
+      };
+      ENGAGE.forEach((t) => window.addEventListener(t, go, { passive: true }));
+    });
+  }
+  return engaged;
+}
+
 function stageVideo(box, ids, title) {
   let frame = null;
   let mounted = null;
+  let wanted = false;
   const listeners = new Set();
   const post = (method, value) => {
     if (!frame || !frame.contentWindow) return;
@@ -88,12 +107,13 @@ function stageVideo(box, ids, title) {
     if (msg.event === 'ready') post('addEventListener', 'timeupdate');
     // the background player reports progress as `playProgress` (the API's legacy name)
     if ((msg.event === 'timeupdate' || msg.event === 'playProgress') && msg.data) {
+      box.classList.add('video-playing');
       listeners.forEach((fn) => fn(msg.data));
     }
   });
-  const wanted = () => (MOBILE.matches && ids[1]) || ids[0];
+  const pick = () => (MOBILE.matches && ids[1]) || ids[0];
   const mount = () => {
-    const id = wanted();
+    const id = pick();
     if (id === mounted) return;
     mounted = id;
     if (!frame) {
@@ -105,16 +125,24 @@ function stageVideo(box, ids, title) {
       box.append(frame);
     }
     box.classList.toggle('video-portrait', id !== ids[0]);
+    box.classList.remove('video-playing');
     frame.src = `${VIMEO_ORIGIN}/video/${id}?background=1&autoplay=1&muted=1&loop=1&dnt=1`;
   };
   return {
     enter() {
-      if (mounted && mounted === wanted()) {
-        post('setCurrentTime', 0);
-        post('play');
-      } else mount();
+      wanted = true;
+      whenEngaged().then(() => {
+        if (!wanted) return;
+        if (mounted && mounted === pick()) {
+          post('setCurrentTime', 0);
+          post('play');
+        } else mount();
+      });
     },
-    leave: () => post('pause'),
+    leave() {
+      wanted = false;
+      post('pause');
+    },
     remount: () => mounted && mount(),
     onTime(fn) {
       listeners.add(fn);
@@ -172,8 +200,11 @@ function buildSlide(row, index) {
       img.loading = index === 0 ? 'eager' : 'lazy';
       if (index === 0) img.setAttribute('fetchpriority', 'high');
     });
-  } else {
+  }
+  if (videoLinks.length || !pictures.length) {
+    // a video stage; its pictures (if any) are the posters shown until the clip plays
     slide.classList.add('slide-video');
+    if (pictures.length) media.classList.add('has-poster');
     const box = el('video-frame');
     media.append(box);
     const ids = videoLinks.map(vimeoId);

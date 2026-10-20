@@ -93,6 +93,26 @@
   height: max(100cqh, 133.33cqw);
 }
 
+/* poster images under the player; the player fades in once its clip is playing */
+.hero-carousel .slide-media.has-poster {
+  position: relative;
+}
+
+.hero-carousel .has-poster .video-frame {
+  position: absolute;
+  inset: 0;
+  background: transparent;
+}
+
+.hero-carousel .has-poster .video-frame iframe {
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.hero-carousel .has-poster .video-frame.video-playing iframe {
+  opacity: 1;
+}
+
 .hero-carousel .media-desktop,
 .hero-carousel .media-mobile {
   height: 100%;
