@@ -1,0 +1,8 @@
+[
+  { "q": "I want to buy a electric vehicle, I live in Zurich", "lang": "en", "expectPath": "schlieren" },
+  { "q": "I want an electric car, I live near Basel", "lang": "en", "expectPath": "basel" },
+  { "q": "Which electric car is best for a family and what does leasing cost", "lang": "en" },
+  { "q": "Ich suche ein günstiges Elektroauto in Bern", "lang": "de" },
+  { "q": "Je cherche une voiture électrique pour la famille", "lang": "fr" },
+  { "q": "Compare Skoda Enyaq and CUPRA Born", "lang": "en", "expectPath": "enyaq" }
+]

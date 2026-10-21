@@ -12,6 +12,7 @@ import {
   loadCSS,
   buildBlock,
 } from './aem.js';
+import { applyAudience } from './home-gen/index.js';
 
 if (window.trustedTypes && window.trustedTypes.createPolicy) {
   const innerTT = window.trustedTypes.createPolicy('tt-inner', {
@@ -211,6 +212,8 @@ async function loadEager(doc) {
   const main = doc.querySelector('main');
   if (main) {
     decorateMain(main);
+    // generative home (/en/home-gen): keep only the sections authored for the matched audience
+    applyAudience(main);
     document.body.classList.add('appear');
     await loadSection(main.querySelector('.section'), waitForFirstImage);
   }
