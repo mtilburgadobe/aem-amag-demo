@@ -4,7 +4,7 @@
 
 **Goal:** Ship `/en/home-gen` on the AMAG EDS site, an audience-adaptive, generative home page, and make the OF1 widget render a general "Why this page?" section (with OpTel evidence) from `window.of1Why` alone.
 
-**Architecture:** In `aem-amag-demo`, pure ES modules under `scripts/home-gen/` resolve one of five audiences, show only the page sections authored for it, and publish a `window.of1Why` contract. The page is authored in DA with `{{generate: ...}}{{default: ...}}` markers that the OF1 worker fills. In `of1-preview-extension`, the injected widget mounts its Why section from `window.of1Why` with no `#of1-context` island.
+**Architecture:** In `of1-gen-web-service`, a new DA sheet `/of1/config/block-guide` (block-only) is synced and added to the slot-generation prompt. In `aem-amag-demo`, pure ES modules under `scripts/home-gen/` resolve one of five audiences, show only the page sections authored for it, and publish a `window.of1Why` contract. The page is authored in DA with `{{generate: ...}}{{default: ...}}` markers that the OF1 worker fills. In `of1-preview-extension`, the injected widget mounts its Why section from `window.of1Why` with no `#of1-context` island.
 
 **Tech Stack:** EDS vanilla JS (ES modules, no build step), `node --test` (+ `jsdom` devDependency) for AMAG; TypeScript, Vitest, Biome, React in the extension.
 
@@ -14,6 +14,8 @@
 
 - AMAG repo: `scripts/aem.js` is never edited; no build step (devDependencies only); CSS scoped to `.blockname`; a PR needs a `{branch}--aem-amag-demo--mtilburgadobe.aem.page/{path}` link.
 - Extension repo: run `npx biome check .`, `npx tsc --noEmit` and `npm test` before pushing. Its main checkout has uncommitted changes in `src/background/service-worker.ts`, `src/core/page-handlers.ts`, `src/shared/ecid.ts`: never touch them. Work only in a new worktree.
+- Block guide is block-only (no audiences). Audiences are the DA sheet `/of1/config/personas`.
+- Block-guide text goes into an LLM prompt: block names must match `^[a-z][a-z0-9-]{0,40}$`, `guidance` and `limits` are capped at 500 characters, rows failing either are dropped.
 - OF1 config is in DA (`/of1/...`), never in the repo. `/of1/config.json` 404 on preview is expected.
 - The OpTel domain key is a secret: never write it to any file or commit.
 - Evidence figures come only from `2026-10-20-amag-optel-audiences.md`, each with report name and date range. No invented numbers.
@@ -31,6 +33,49 @@
 - Generation unavailable: unresolved `{{generate:}}` markers become authored `{{default:}}` text and the contract says "authored (fallback)".
 - `window.of1Why` with `version` other than 1, missing `rows`/`lists`, or non-string values: widget renders nothing for the bad parts and does not throw.
 - `of1:why` fired before the widget mounts, and `window.of1Why` set after mount: the section still shows the latest contract.
+
+---
+
+## Part 0: block guide in the worker (`of1-gen-web-service`) and docs (`of1-skills`)
+
+The local checkout of `of1-gen-web-service` is stale (branch `fix/slot-text-keep-wrapper`, still has the old `block-guide` JSON). Do not use it. Create a worktree from `origin/main`: `git -C /Users/quentinvecchio/workspace/labs/of1-gen-web-service worktree add ../of1-gen-web-service-block-guide -b feat/block-guide-sheet origin/main` (run `git fetch` first). Read its `AGENTS.md` and `worker/src/AGENTS.md`. Existing patterns to copy: `normalizeSuggestions` and the `suggestions` branch in `worker/src/sync.js` (`CONFIG_FILES`, sheet fetch, `putJson`), `unwrapSheet` in `worker/src/sheet.js`, tenant loading in `worker/src/tenant.js`, and the slot step `worker/src/pipeline/steps/llm-fill-block-slots.js` with `prompts/generate-slots/template.njk`.
+
+### Task 0a: Normalize and sync the block-guide sheet
+
+**Files:**
+- Modify: `worker/src/sync.js` (add `"block-guide"` to `CONFIG_FILES`, handle it like `suggestions`), `worker/src/tenant.js` (load `blockGuide`)
+- Create: `worker/src/lib/block-guide.js`
+- Test: `worker/src/lib/block-guide.test.js`, extend `worker/src/sync.test.js` and `worker/src/tenant.test.js`
+
+**Interfaces:**
+- Produces: `export function normalizeBlockGuide(sheetJson: unknown): {blocks: Record<string, {guidance: string, limits?: string}>}`; tenant field `tenant.blockGuide` (same shape, absent when not synced); `export function guideForBlock(blockGuide, blockType: string): {guidance: string, limits?: string} | null`.
+
+- [ ] **Step 1: Write failing tests**: sheet rows `[{block:'hero-carousel',guidance:'Headline max 8 words',limits:'1 CTA'}]` → `blocks['hero-carousel']` equals `{guidance:'Headline max 8 words', limits:'1 CTA'}`; works for bare array, `{data:[...]}` and multi-sheet shapes; rows with a missing/blank `block` or `guidance` are dropped; block name `'Bad Name!'` and `'../x'` dropped; a 600-character `guidance` is dropped; duplicate `block` rows: last wins; `normalizeBlockGuide(null)` → `{blocks:{}}`; `guideForBlock` returns `null` for an unknown block and when `blockGuide` is undefined. In `sync.test.js`: syncing with `/of1/config/block-guide.json` present stores `block-guide.json` in R2 normalized; a 404 leaves it absent and adds no error. In `tenant.test.js`: `loadTenant` exposes `blockGuide` when present, and `isTenantReady` result is unchanged with or without it.
+- [ ] **Step 2: Run** `npm test` (in `worker/`; check its `package.json`) → FAIL.
+- [ ] **Step 3: Implement.**
+- [ ] **Step 4: Run** `npm test` and the repo's lint → PASS.
+- [ ] **Step 5: Commit** `feat(sync): block-guide DA sheet`.
+
+### Task 0b: Use the guide in slot generation
+
+**Files:**
+- Modify: `worker/src/pipeline/steps/llm-fill-block-slots.js`, `prompts/generate-slots/template.njk` (+ `prompt.yaml` variable list)
+- Test: `worker/src/pipeline/steps/llm-fill-block-slots.test.js`, `worker/src/prompts/generate-slots-render.test.js`
+
+**Interfaces:**
+- Consumes: `guideForBlock` (Task 0a).
+- Produces: each text slot passed to the prompt template carries `guide: {guidance, limits?} | null`; the rendered prompt shows a "Block guide" line under that slot only when `guide` is set. Prompts are templates in `prompts/` compiled by `scripts/build-prompts.mjs`: edit the template, never the compiled output.
+
+- [ ] **Step 1: Write failing tests**: a slot with `blockType: 'hero-carousel'` and a tenant guide row renders the guidance and limits text in the prompt; a slot whose block has no row renders exactly as before (snapshot-equal to the current output); a tenant with no `blockGuide` renders as before; guidance containing `{{` or newlines cannot break the template (rendered as plain text).
+- [ ] **Step 2: Run** → FAIL. **Step 3: Implement.** **Step 4: Run** `npm test` → PASS, including the existing slot tests.
+- [ ] **Step 5: Commit** `feat(slots): apply the tenant block guide to slot prompts`. Then push `feat/block-guide-sheet`, open a PR to `main`. Stop and report; do not merge or deploy.
+
+### Task 0c: Document the sheet in of1-skills
+
+**Files:**
+- Modify (worktree from `origin/main` of `of1-skills`): `skills/of1-integration/knowledge/worker-config-schemas.md` — add a table row `/of1/config/block-guide | DA sheet | authors | block-guide` and a short section: columns, caps, "block-only, optional, not a ready gate, audiences live in personas".
+
+- [ ] **Step 1:** make the edit. **Step 2:** commit `docs: block-guide DA sheet`; push and open a PR. Stop and report.
 
 ---
 
@@ -131,9 +176,10 @@ Sections opt in via a `Audience` row in section-metadata (EDS turns it into `dat
 ### Task 6: Author `/en/home-gen` and generation instructions in DA, verify end to end
 
 **Files:**
-- DA documents (not in repo): `/en/home-gen`, plus the `{{generate: ...}}` instructions inside it. Per the DA-first design, the old block-guide JSON is no longer read by the worker, so the guides are the per-slot instructions in the page and the brand voice already in DA at `/of1/brand-voice`.
+- DA documents (not in repo): `/en/home-gen`, plus the `{{generate: ...}}` instructions inside it. Block rules come from the `/of1/config/block-guide` sheet (Part 0); per-audience briefs are in each slot's `{{generate:}}` instruction; brand voice is already in DA at `/of1/brand-voice`.
 
 - [ ] **Step 1: Read** `of1-skills/skills/of1-integration/knowledge/worker-config-schemas.md` and one existing generative page in DA (for example the `/of1` page and a template under `/templates/`) to copy the exact marker and section-metadata syntax and the DA write call. Needs `ADOBE_IMS_TOKEN` (see `of1-check-dependencies`); if it is missing, stop and ask.
+- [ ] **Step 2a: Author the DA sheets.** `/of1/config/block-guide` (columns `block`, `guidance`, `limits`; one row per block used on the page: hero-carousel, quick-links, vehicle-search, service-offer, dealer-search, promo-teaser, cta-band, news-cards) and `/of1/config/personas` (the five audiences: `id`, `name`, `description`, `keywords`, `priorities`, copied from the audiences doc; follow the personas sheet format that `of1-extract-content` writes). Write with `skills/of1-integration/assets/da-write.mjs` (it also previews). The block guide only takes effect once the Part 0 worker change is deployed to the tenant's worker; until then the sheet is inert and the page still works.
 - [ ] **Step 2: Author** `/en/home-gen` with one group of sections per audience, built from existing blocks (hero-carousel, quick-links, vehicle-search, service-offer, dealer-search, promo-teaser, cta-band, news-cards). Every audience section has an `Audience` row in its section-metadata. Per audience: car shopper leads with vehicle-search and new/used/e-mobility quick links; service leads with service-offer and booking; dealer leads with dealer-search; menu explorer gets a balanced quick-links hero; glancer gets a short hero with one call to action. Headline, subline and section-heading text in each section uses `{{generate: <instruction using the audience's behaviour line>}}{{default: <authored English text>}}`. Links, prices, legal text and images stay authored.
 - [ ] **Step 3: Preview** the page (DA preview call). Run `curl -s https://main--aem-amag-demo--mtilburgadobe.aem.page/en/home-gen.plain.html | grep -c 'Audience'` → expect at least 5.
 - [ ] **Step 4: Run the OF1 sync** for the tenant (Sync OF1 DA app, or `of1-publish`) so the worker sees the page and instructions.
@@ -191,5 +237,5 @@ Do not use the main checkout. Create a worktree first:
 
 ## Self-review notes
 
-- Spec coverage: five audiences and evidence (T1), resolver incl. demo override and stored intent (T2, T3), contract with generated/authored split and fallback (T4, T5), `/en/home-gen` in DA with markers (T6), widget mount without island and evidence list (T8, T9), AMAG-first PR order (T7 before Part 2), no changes to `main` checkout or the Chrome extension build (worktree; only the injected path).
+- Spec coverage: block guide sheet, worker sync and prompt use, docs (T0a-T0c), personas sheet and block-guide sheet authoring (T6), five audiences and evidence (T1), resolver incl. demo override and stored intent (T2, T3), contract with generated/authored split and fallback (T4, T5), `/en/home-gen` in DA with markers (T6), widget mount without island and evidence list (T8, T9), AMAG-first PR order (T7 before Part 2), no changes to `main` checkout or the Chrome extension build (worktree; only the injected path).
 - Not covered on purpose (non-goals): replacing `/de`, automatic audience derivation, DA editing UI.

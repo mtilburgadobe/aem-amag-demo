@@ -8,7 +8,7 @@ Build a generative, audience-adaptive home page for amag.ch at `/en/home-gen` in
 
 Why: more and more requests ask for the OpTel integration. BMW (`../bmw`) proved the home-gen idea with a one-off floating widget. Coca-Cola (`../coca-cola`, extension branch `origin/feat/why-this-page`) proved a general `window.of1Why` contract rendered by the OF1 widget. This project combines them for AMAG and makes OpTel evidence a first-class part of the contract.
 
-## Two parts
+## Three parts (Part 3 added 2026-10-21)
 
 ### Part 1: AMAG `/en/home-gen`
 
@@ -16,7 +16,14 @@ Why: more and more requests ask for the OpTel integration. BMW (`../bmw`) proved
 - The page shows the sections authored for the matched audience and hides the others, as BMW did (`scripts/audience.js`: sections carry an Audience row in section-metadata, and `applyAudience(main)` hides the rest). Authored default text replaces any unresolved `{{generate: ...}}{{default: ...}}` marker.
 - A resolver picks one of five audiences, first matching rule wins, as a pure function of URL, referrer, viewport, and stored last-seen intent (no network).
 - Language: the page is English (`/en/`). The audience definitions come from `/de.html` data and apply to the English page by intent, not by language.
-- Config (personas or audiences, brand voice, block guides, templates) lives in DA under `/of1/…`, not in the repo, per the latest `of1-skills` recommendation. Block guides are created in DA.
+- Config (audiences as personas, brand voice, block guide, templates) lives in DA under `/of1/…`, not in the repo, per the latest `of1-skills` recommendation. The block guide is a new DA sheet (Part 3).
+
+### Part 3: block guide as a DA sheet (worker feature)
+
+- A new DA sheet `/of1/config/block-guide`, one row per **block only** (no audiences in it). Columns: `block` (block name, lowercase kebab-case), `guidance` (how to write content for that block), `limits` (optional, short text such as "headline max 8 words"). Authors edit it in DA like any config sheet.
+- `of1-gen-web-service` syncs it as a new config file `block-guide` (same path as `suggestions`: sheet in, normalized JSON in R2, loaded with the tenant). The slot generator (`llm-fill-block-slots` and `prompts/generate-slots/template.njk`) adds the guide row for each slot's block type to the prompt. No row means the prompt is unchanged. It is optional and not part of the tenant ready gate.
+- `of1-skills` docs (`worker-config-schemas.md`) get a row for it.
+- Audiences stay out of the guide. They live in the existing audiences/personas document, as in Coca-Cola: the DA sheet `/of1/config/personas` (id, name, description, keywords, priorities), which the extension's Persona panel and the edge proxy already read. The five AMAG audiences are authored there. The per-audience writing brief is carried by each `{{generate:}}` instruction on the page.
 
 ### Part 2: "Why this page?" as a general OF1 panel feature
 
@@ -52,6 +59,7 @@ Source: AEM OpTel for `www.amag.ch`, `/de.html`, 2026-09-20 to 2026-10-20, 1,159
 - A generic, automatic audience-derivation pipeline from OpTel (this project hand-derives five audiences once).
 - Changing the Chrome extension build (only the injected build mounts the section).
 - A DA editing UI for audiences.
+- Per-audience rows in the block guide, or a block guide that gates tenant readiness.
 
 ## Anti-goals (failure even if it works)
 
@@ -80,6 +88,9 @@ Source: AEM OpTel for `www.amag.ch`, `/de.html`, 2026-09-20 to 2026-10-20, 1,159
 - Order of work: the AMAG page ships on its own and works with no widget. The widget change is a separate branch/PR in `of1-preview-extension` cut from `origin/feat/why-this-page` in a separate worktree. Merging and releasing the widget is for the repo owners.
 
 - Generation is real: the home is generative, not authored-only. The page shows the sections for the matched audience, and the OF1 worker writes the marked text (headlines, sublines, section headings) per audience from the tenant's brand voice and knowledge. Links, prices, legal text and images stay authored. The authored `{{default: ...}}` text is the fallback when generation is unavailable, and the panel then reports "authored (fallback)". The contract's generated-vs-authored split reflects what actually happened.
+
+- Block guide: sheet `/of1/config/block-guide` with columns `block`, `guidance`, `limits`; block-only. Audiences go in `/of1/config/personas`.
+- Guide text is capped (500 characters per field, same cap as slot instructions) and block names must match the existing block-type shape, because the text is interpolated into an LLM prompt.
 
 ## Left to the builder
 
