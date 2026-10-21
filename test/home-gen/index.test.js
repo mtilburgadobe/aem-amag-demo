@@ -81,6 +81,35 @@ test('sections with generated slots are marked generated, others authored', () =
   assert.deepEqual(items, ['hero-carousel — generated', 'quick-links — authored']);
 });
 
+const metaSection = (audience, body) => `
+  <div class="section"><div class="${body} block"><p>${body}</p></div>
+    <div class="section-metadata block"><div><div>Audience</div><div>${audience}</div></div></div></div>`;
+
+test('reads the Audience row from an unprocessed section-metadata block', () => {
+  const { main } = setup(`${metaSection('car-shopper', 'hero-carousel')}${metaSection('Service', 'service-offer')}
+    <div class="section"><div class="quick-links block"><p>always</p></div></div>`);
+  const r = applyAudience(main, env('?aud=service'));
+  const [cars, service, always] = main.querySelectorAll('.section');
+  assert.equal(r.resolution.audience, 'service');
+  assert.equal(cars.hidden, true);
+  assert.equal(service.hidden, false);
+  assert.equal(always.hidden, false);
+  assert.equal(cars.dataset.audience, 'car-shopper');
+  assert.equal(service.dataset.audience, 'Service');
+});
+
+test('removes the section-metadata block so the site does not try to load it', () => {
+  const { main } = setup(metaSection('dealer', 'dealer-search'));
+  applyAudience(main, env('?aud=dealer'));
+  assert.equal(main.querySelector('.section-metadata'), null);
+});
+
+test('other section-metadata keys do not become an audience', () => {
+  const { main } = setup(`<div class="section"><div class="section-metadata block">
+    <div><div>Style</div><div>grey</div></div></div></div>`);
+  assert.equal(applyAudience(main, env('')), null);
+});
+
 test('a click on a service link stores the intent', () => {
   const { main, store, storage } = setup(`${sections}<a href="/de/service.html">service</a>`);
   applyAudience(main, { ...env('?aud=glancer'), storage: store });

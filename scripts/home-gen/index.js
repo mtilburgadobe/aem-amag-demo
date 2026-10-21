@@ -50,6 +50,24 @@ function blockNames(section) {
     .filter(Boolean);
 }
 
+// This site's aem.js does not process section-metadata, so the Audience row is still an
+// undecorated block. Move it to data-audience and drop the row (and the block once empty)
+// so the site never tries to load a section-metadata block.
+function adoptAudienceRows(main) {
+  main.querySelectorAll('.section').forEach((section) => {
+    const meta = section.querySelector('.section-metadata');
+    if (!meta) return;
+    [...meta.children].forEach((row) => {
+      const [key, value] = [...row.children];
+      if (key && value && key.textContent.trim().toLowerCase() === 'audience') {
+        section.dataset.audience = value.textContent.trim();
+        row.remove();
+      }
+    });
+    if (!meta.children.length) meta.remove();
+  });
+}
+
 function watchIntent(main, storage) {
   const onClick = (event) => {
     const link = event.target.closest && event.target.closest('a[href]');
@@ -70,6 +88,7 @@ function watchIntent(main, storage) {
  * @returns {{resolution: object, shown: Element[]}|null}
  */
 export function applyAudience(main, env = {}) {
+  adoptAudienceRows(main);
   const sections = [...main.querySelectorAll('.section[data-audience]')];
   if (!sections.length) return null;
 
