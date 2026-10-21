@@ -40,6 +40,8 @@
 
 The local checkout of `of1-gen-web-service` is stale (branch `fix/slot-text-keep-wrapper`, still has the old `block-guide` JSON). Do not use it. Create a worktree from `origin/main`: `git -C /Users/quentinvecchio/workspace/labs/of1-gen-web-service worktree add ../of1-gen-web-service-block-guide -b feat/block-guide-sheet origin/main` (run `git fetch` first). Read its `AGENTS.md` and `worker/src/AGENTS.md`. Existing patterns to copy: `normalizeSuggestions` and the `suggestions` branch in `worker/src/sync.js` (`CONFIG_FILES`, sheet fetch, `putJson`), `unwrapSheet` in `worker/src/sheet.js`, tenant loading in `worker/src/tenant.js`, and the slot step `worker/src/pipeline/steps/llm-fill-block-slots.js` with `prompts/generate-slots/template.njk`.
 
+Contract rules (other demos will author this sheet, so it is a public contract): columns are `block`, `guidance`, `limits`; header names are matched case-insensitively; unknown extra columns are ignored (so the contract can grow); blank rows are skipped; the sheet may be delivered as a bare array, single sheet, or multi-sheet; block names are arbitrary tenant block names, not a fixed list.
+
 ### Task 0a: Normalize and sync the block-guide sheet
 
 **Files:**
@@ -50,25 +52,25 @@ The local checkout of `of1-gen-web-service` is stale (branch `fix/slot-text-keep
 **Interfaces:**
 - Produces: `export function normalizeBlockGuide(sheetJson: unknown): {blocks: Record<string, {guidance: string, limits?: string}>}`; tenant field `tenant.blockGuide` (same shape, absent when not synced); `export function guideForBlock(blockGuide, blockType: string): {guidance: string, limits?: string} | null`.
 
-- [ ] **Step 1: Write failing tests**: sheet rows `[{block:'hero-carousel',guidance:'Headline max 8 words',limits:'1 CTA'}]` → `blocks['hero-carousel']` equals `{guidance:'Headline max 8 words', limits:'1 CTA'}`; works for bare array, `{data:[...]}` and multi-sheet shapes; rows with a missing/blank `block` or `guidance` are dropped; block name `'Bad Name!'` and `'../x'` dropped; a 600-character `guidance` is dropped; duplicate `block` rows: last wins; `normalizeBlockGuide(null)` → `{blocks:{}}`; `guideForBlock` returns `null` for an unknown block and when `blockGuide` is undefined. In `sync.test.js`: syncing with `/of1/config/block-guide.json` present stores `block-guide.json` in R2 normalized; a 404 leaves it absent and adds no error. In `tenant.test.js`: `loadTenant` exposes `blockGuide` when present, and `isTenantReady` result is unchanged with or without it.
+- [ ] **Step 1: Write failing tests**: sheet rows `[{block:'hero-carousel',guidance:'Headline max 8 words',limits:'1 CTA'}]` → `blocks['hero-carousel']` equals `{guidance:'Headline max 8 words', limits:'1 CTA'}`; works for bare array, `{data:[...]}` and multi-sheet shapes; rows with a missing/blank `block` or `guidance` are dropped; block name `'Bad Name!'` and `'../x'` dropped; a 600-character `guidance` is dropped; duplicate `block` rows: last wins; `normalizeBlockGuide(null)` → `{blocks:{}}`; header `Block`/`GUIDANCE` (any case) works and an extra column `notes` is ignored; `guideForBlock` returns `null` for an unknown block and when `blockGuide` is undefined. In `sync.test.js`: syncing with `/of1/config/block-guide.json` present stores `block-guide.json` in R2 normalized; a 404 leaves it absent and adds no error. In `tenant.test.js`: `loadTenant` exposes `blockGuide` when present, and `isTenantReady` result is unchanged with or without it.
 - [ ] **Step 2: Run** `npm test` (in `worker/`; check its `package.json`) → FAIL.
 - [ ] **Step 3: Implement.**
 - [ ] **Step 4: Run** `npm test` and the repo's lint → PASS.
 - [ ] **Step 5: Commit** `feat(sync): block-guide DA sheet`.
 
-### Task 0b: Use the guide in slot generation
+### Task 0b: Use the guide in both generation paths
 
 **Files:**
-- Modify: `worker/src/pipeline/steps/llm-fill-block-slots.js`, `prompts/generate-slots/template.njk` (+ `prompt.yaml` variable list)
-- Test: `worker/src/pipeline/steps/llm-fill-block-slots.test.js`, `worker/src/prompts/generate-slots-render.test.js`
+- Modify: `worker/src/generative.js` (the `/api/generative` path, prompt `generate-slots`) and `worker/src/pipeline/steps/build-block-slot-prompt.js` (the `/api/generate` path, prompt `block-slot-fill`); templates `prompts/generate-slots/template.njk` and `prompts/block-slot-fill/template.njk` (+ each `prompt.yaml` variable list). `llm-fill-block-slots.js` only streams and splices output: do not touch it.
+- Test: `worker/src/generative.test.js` (or the existing generative tests), `worker/src/pipeline/steps/build-block-slot-prompt.test.js`, `worker/src/prompts/generate-slots-render.test.js` and the equivalent render test for `block-slot-fill`.
 
 **Interfaces:**
 - Consumes: `guideForBlock` (Task 0a).
-- Produces: each text slot passed to the prompt template carries `guide: {guidance, limits?} | null`; the rendered prompt shows a "Block guide" line under that slot only when `guide` is set. Prompts are templates in `prompts/` compiled by `scripts/build-prompts.mjs`: edit the template, never the compiled output.
+- Produces: in both paths, each slot or block passed to the template carries `guide: {guidance, limits?} | null`, and the rendered prompt shows one identically worded "Block guide" line under that slot only when `guide` is set. Same lookup, same wording, in both paths. Prompts are templates in `prompts/` compiled by `scripts/build-prompts.mjs`: edit the template, never the compiled output.
 
-- [ ] **Step 1: Write failing tests**: a slot with `blockType: 'hero-carousel'` and a tenant guide row renders the guidance and limits text in the prompt; a slot whose block has no row renders exactly as before (snapshot-equal to the current output); a tenant with no `blockGuide` renders as before; guidance containing `{{` or newlines cannot break the template (rendered as plain text).
-- [ ] **Step 2: Run** → FAIL. **Step 3: Implement.** **Step 4: Run** `npm test` → PASS, including the existing slot tests.
-- [ ] **Step 5: Commit** `feat(slots): apply the tenant block guide to slot prompts`. Then push `feat/block-guide-sheet`, open a PR to `main`. Stop and report; do not merge or deploy. The worker is shared by every tenant, so the change must be invisible to tenants without a `block-guide` sheet (covered by the unchanged-output tests above); deployment is the owners' call.
+- [ ] **Step 1: Write failing tests** (per path): a slot/block of type `hero-carousel` with a tenant guide row renders the guidance and limits; a block with no row renders exactly as before (snapshot-equal to current output); a tenant with no `blockGuide` renders as before; guidance containing `{{`, newlines, or the text `## Rules` is rendered as plain text and cannot alter the prompt structure; a block type outside the typed schemas (any tenant block name, e.g. `feature-triple`) still gets its guide.
+- [ ] **Step 2: Run** → FAIL. **Step 3: Implement.** **Step 4: Run** `npm test` → PASS, including all existing slot and generative tests.
+- [ ] **Step 5: Commit** `feat: apply the tenant block guide to slot prompts`. Then push `feat/block-guide-sheet`, open a PR to `main`. Stop and report; do not merge or deploy. The worker is shared by every tenant, so the change must be invisible to tenants without a `block-guide` sheet (covered by the unchanged-output tests above); deployment is the owners' call.
 
 ### Task 0c: Document the sheet in of1-skills
 
